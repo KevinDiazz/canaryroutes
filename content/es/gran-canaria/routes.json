@@ -1,0 +1,18 @@
+{
+  "routes": [
+    {
+      "slug": "north-route",
+      "name": "Ruta del Norte",
+      "description": "Recorre los pueblos históricos del norte de Gran Canaria, desde la capital hasta los valles verdes del interior. Una jornada entre arquitectura colonial, cultura y gastronomía auténtica canaria.",
+      "island": "gran-canaria",
+      "pois": ["las-palmas", "roque-nublo"],
+      "duration": "1 día",
+      "distance": "60 km",
+      "type": "driving",
+      "price": 4.99,
+      "currency": "EUR",
+      "audioLanguages": ["es", "en", "de", "no", "da", "fi", "sv"],
+      "images": { "hero": "/images/gran-canaria/routes/north-route/hero.avif" }
+    }
+  ]
+}

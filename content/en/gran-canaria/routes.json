@@ -1,0 +1,18 @@
+{
+  "routes": [
+    {
+      "slug": "north-route",
+      "name": "North Route",
+      "description": "Explore the historic villages of northern Gran Canaria, from the capital to the green valleys of the interior. A full day of colonial architecture, culture and authentic Canarian gastronomy.",
+      "island": "gran-canaria",
+      "pois": ["las-palmas", "roque-nublo"],
+      "duration": "1 day",
+      "distance": "60 km",
+      "type": "driving",
+      "price": 4.99,
+      "currency": "EUR",
+      "audioLanguages": ["es", "en", "de", "no", "da", "fi", "sv"],
+      "images": { "hero": "/images/gran-canaria/routes/north-route/hero.avif" }
+    }
+  ]
+}

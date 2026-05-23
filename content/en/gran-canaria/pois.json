@@ -1,0 +1,3499 @@
+{
+  "pois": [
+    {
+      "slug": "dunas-de-maspalomas",
+      "name": "Dunas de Maspalomas",
+      "description": "Uno de los paisajes más icónicos de Canarias. Este sistema de dunas protegido, formado por arena arrastrada desde el Sahara durante miles de años, crea un paisaje casi desértico junto al Atlántico. Incluye dunas móviles, una laguna y un ecosistema frágil protegido. Es uno de los lugares más fotografiados de Gran Canaria y una visita imprescindible.",
+      "shortDescription": "Sistema dunar protegido único junto al océano",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.7394,
+        "lng": -15.5836
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "dunas",
+        "naturaleza",
+        "sahara",
+        "fotografia",
+        "iconico",
+        "maspalomas"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏜️",
+      "sectionOnly": false,
+      "top": true,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "playa-del-ingles",
+      "name": "Playa del Inglés",
+      "description": "Una de las playas turísticas más famosas de Europa. Kilómetros de arena dorada conectados con las Dunas de Maspalomas, aguas atlánticas y una enorme oferta de ocio, restauración y actividades acuáticas. Es uno de los centros turísticos históricos del sur de Gran Canaria y uno de los lugares con mayor vida internacional de la isla.",
+      "shortDescription": "Playa turística emblemática del sur de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.7567,
+        "lng": -15.5653
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "sur",
+        "turismo",
+        "familias",
+        "ocio",
+        "arena"
+      ],
+      "visitDuration": "2-6h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "top": true,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "playa-de-amadores",
+      "name": "Playa de Amadores",
+      "description": "Playa artificial de arena clara con forma de bahía cerrada y aguas extremadamente tranquilas. Diseñada para el baño familiar, destaca por su color turquesa y ambiente relajado. Es una de las playas más populares del sur para quienes buscan mar calmado, sol y una experiencia cómoda con servicios cercanos.",
+      "shortDescription": "Bahía artificial de aguas turquesa y ambiente familiar",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.7956,
+        "lng": -15.7341
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "familias",
+        "turquesa",
+        "sur",
+        "relax",
+        "amadores"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "playa-de-las-canteras",
+      "name": "Playa de Las Canteras",
+      "description": "La gran playa urbana de Las Palmas y una de las mejores playas urbanas de Europa. Su arrecife natural, conocido como La Barra, protege gran parte de la costa y crea aguas calmadas ideales para baño, snorkel y paddle. Combina vida local, gastronomía, paseo marítimo y ambiente cosmopolita.",
+      "shortDescription": "La gran playa urbana de Las Palmas",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1416,
+        "lng": -15.4307
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "urbana",
+        "las-palmas",
+        "snorkel",
+        "surf",
+        "ciudad"
+      ],
+      "visitDuration": "2-6h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "top": true,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "puerto-rico",
+      "name": "Puerto Rico",
+      "description": "Uno de los principales núcleos turísticos del sur de Gran Canaria. Su playa protegida, clima estable y gran oferta de excursiones, ocio y salidas marítimas lo convierten en base habitual para visitantes internacionales. Desde aquí parten numerosas actividades acuáticas y excursiones de observación marina.",
+      "shortDescription": "Centro turístico con playa y actividades marítimas",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 27.7894,
+        "lng": -15.7116
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "puerto-rico",
+        "excursiones",
+        "barcos",
+        "turismo",
+        "sur",
+        "actividades"
+      ],
+      "visitDuration": "2-8h",
+      "difficulty": "easy",
+      "emoji": "🚤",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "anfi-del-mar",
+      "name": "Anfi del Mar",
+      "description": "Complejo costero conocido por su playa artificial de arena blanca importada y aguas muy tranquilas. Su ambiente recuerda más a un resort tropical que a una playa atlántica tradicional. Popular entre familias y visitantes que buscan comodidad, deportes acuáticos suaves y ambiente vacacional premium.",
+      "shortDescription": "Playa artificial premium de ambiente tropical",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.7818,
+        "lng": -15.7217
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "anfi",
+        "playa",
+        "premium",
+        "familias",
+        "sur",
+        "resort"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🏝️",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "puerto-de-mogan",
+      "name": "Puerto de Mogán",
+      "description": "Uno de los pueblos costeros más bonitos de Gran Canaria, famoso por sus canales, puentes y casas blancas decoradas con buganvillas. Conocido popularmente como la pequeña Venecia de Canarias, combina puerto pesquero, marina turística, playa tranquila y ambiente muy fotogénico.",
+      "shortDescription": "Pueblo costero fotogénico conocido como la pequeña Venecia",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.8164,
+        "lng": -15.7658
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "mogan",
+        "puerto",
+        "pueblo",
+        "fotografia",
+        "marina",
+        "sur"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "⚓",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": true
+    },
+    {
+      "slug": "roque-nublo",
+      "name": "Roque Nublo",
+      "description": "Símbolo natural de Gran Canaria y uno de los monumentos naturales más reconocibles de España. Este gigantesco monolito volcánico se eleva en el centro montañoso de la isla y ofrece una de las rutas más populares para senderistas. En días despejados se puede ver incluso el Teide en Tenerife.",
+      "shortDescription": "Monolito volcánico icónico del interior de la isla",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9659,
+        "lng": -15.6105
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "volcanico",
+        "iconico",
+        "montana",
+        "mirador",
+        "naturaleza"
+      ],
+      "visitDuration": "3-5h",
+      "difficulty": "moderate",
+      "emoji": "🗿",
+      "sectionOnly": false,
+      "top": true,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "pico-de-las-nieves",
+      "name": "Pico de las Nieves",
+      "description": "Uno de los puntos más altos de Gran Canaria y un lugar espectacular para contemplar el relieve volcánico de la isla. Desde aquí se observan barrancos profundos, cumbres escarpadas y, con buena visibilidad, el Teide emergiendo sobre el océano de nubes. Es una parada imprescindible para rutas panorámicas en coche.",
+      "shortDescription": "Mirador de alta montaña con vistas espectaculares",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9651,
+        "lng": -15.5676
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "mirador",
+        "montana",
+        "teide",
+        "panoramico",
+        "naturaleza",
+        "cumbres"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "⛰️",
+      "sectionOnly": false,
+      "municipio": "vega-san-mateo"
+    },
+    {
+      "slug": "caldera-de-bandama",
+      "name": "Caldera de Bandama",
+      "description": "Uno de los cráteres volcánicos mejor conservados de Canarias. Con más de un kilómetro de diámetro y unos 200 metros de profundidad, ofrece una visión espectacular del pasado geológico de la isla. El borde y los senderos cercanos permiten explorar uno de los paisajes volcánicos más accesibles de Gran Canaria.",
+      "shortDescription": "Espectacular cráter volcánico cerca de Las Palmas",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9782,
+        "lng": -15.4524
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "volcan",
+        "crater",
+        "senderismo",
+        "geologia",
+        "bandama",
+        "naturaleza"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "sectionOnly": false,
+      "top": true,
+      "municipio": "santa-brigida"
+    },
+    {
+      "slug": "vegueta",
+      "name": "Vegueta",
+      "description": "El casco histórico de Las Palmas y el lugar donde comenzó la ciudad tras la conquista castellana en 1478. Sus calles empedradas, plazas históricas, patios coloniales y edificios monumentales convierten este barrio en uno de los espacios urbanos con más valor histórico de Canarias. Pasear por Vegueta es recorrer siglos de historia atlántica.",
+      "shortDescription": "Casco histórico fundacional de Las Palmas",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1004,
+        "lng": -15.4145
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "historia",
+        "vegueta",
+        "las-palmas",
+        "colonial",
+        "casco-historico",
+        "cultura"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": true
+    },
+    {
+      "slug": "casa-de-colon",
+      "name": "Casa de Colón",
+      "description": "Uno de los museos históricos más importantes de Gran Canaria. Vinculado al paso de Cristóbal Colón por las islas durante su viaje de 1492, este edificio reúne historia naval, cartografía, arte y conexiones entre Canarias y América. Es una parada clave para entender el papel estratégico del archipiélago en la historia atlántica.",
+      "shortDescription": "Museo histórico ligado al paso de Colón por Canarias",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0992,
+        "lng": -15.4161
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "colon",
+        "historia",
+        "museo",
+        "america",
+        "vegueta",
+        "cultura"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "⚓",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "catedral-de-santa-ana",
+      "name": "Catedral de Santa Ana",
+      "description": "Uno de los edificios religiosos más emblemáticos de Canarias. Su construcción comenzó a finales del siglo XV y refleja siglos de evolución arquitectónica entre estilos gótico, renacentista y neoclásico. Ubicada en el corazón de Vegueta, es uno de los principales iconos históricos de Gran Canaria.",
+      "shortDescription": "La catedral histórica más emblemática de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1,
+        "lng": -15.414
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "catedral",
+        "historia",
+        "arquitectura",
+        "vegueta",
+        "religion",
+        "patrimonio"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "cueva-pintada",
+      "name": "Cueva Pintada",
+      "description": "Uno de los yacimientos arqueológicos prehispánicos más importantes de Canarias. Este museo y parque arqueológico conserva restos del antiguo asentamiento indígena de Gáldar, incluyendo la famosa cámara decorada con pinturas geométricas. Es una visita imprescindible para comprender a los antiguos canarios antes de la conquista.",
+      "shortDescription": "Yacimiento arqueológico clave de la Gran Canaria prehispánica",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.146,
+        "lng": -15.6518
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "arqueologia",
+        "aborigen",
+        "galdar",
+        "guanches",
+        "historia",
+        "museo"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🎨",
+      "sectionOnly": false,
+      "municipio": "galdar"
+    },
+    {
+      "slug": "cenobio-de-valeron",
+      "name": "Cenobio de Valerón",
+      "description": "Impresionante granero colectivo excavado en la roca por los antiguos habitantes de Gran Canaria. Este enclave arqueológico muestra el alto nivel de organización social y capacidad de almacenamiento de las comunidades prehispánicas. Es uno de los mejores lugares para entender la vida indígena antes de la llegada castellana.",
+      "shortDescription": "Granero aborigen excavado en roca volcánica",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1225,
+        "lng": -15.6326
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "arqueologia",
+        "aborigen",
+        "historia",
+        "valeron",
+        "prehispanico",
+        "cultura"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🪨",
+      "sectionOnly": false,
+      "municipio": "guia"
+    },
+    {
+      "slug": "barranco-de-guayadeque",
+      "name": "Barranco de Guayadeque",
+      "description": "Uno de los paisajes más singulares de Gran Canaria. Este profundo barranco combina naturaleza volcánica, senderismo, cuevas habitadas y fuerte valor cultural. Durante siglos, comunidades locales utilizaron cuevas excavadas en la roca como viviendas. Hoy sigue siendo uno de los enclaves más auténticos y espectaculares del interior.",
+      "shortDescription": "Barranco volcánico con cuevas habitadas y gran valor cultural",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9058,
+        "lng": -15.5208
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "barranco",
+        "cuevas",
+        "naturaleza",
+        "senderismo",
+        "cultura",
+        "guayadeque"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🏞️",
+      "sectionOnly": false,
+      "top": true,
+      "municipio": "aguimes"
+    },
+    {
+      "slug": "tejeda",
+      "name": "Tejeda",
+      "description": "Considerado uno de los pueblos más bonitos de España, Tejeda ofrece arquitectura tradicional canaria, vistas espectaculares a Roque Nublo y un entorno montañoso excepcional. Situado en el corazón de la isla, es una parada imprescindible para quienes quieren descubrir el interior rural y volcánico de Gran Canaria.",
+      "shortDescription": "Pueblo de montaña con vistas espectaculares al interior",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.9953,
+        "lng": -15.6153
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "tejeda",
+        "pueblo",
+        "montana",
+        "tradicional",
+        "interior",
+        "miradores"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏘️",
+      "sectionOnly": false,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "teror",
+      "name": "Teror",
+      "description": "Uno de los pueblos históricos más emblemáticos de Gran Canaria y centro espiritual de la isla gracias a la Basílica de Nuestra Señora del Pino. Famoso por sus balcones tradicionales de madera, calles coloniales y ambiente local, ofrece una experiencia auténtica alejada del turismo costero.",
+      "shortDescription": "Pueblo histórico famoso por balcones y tradición religiosa",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0594,
+        "lng": -15.5482
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "teror",
+        "pueblo",
+        "religion",
+        "tradicion",
+        "balcones",
+        "historia"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "sectionOnly": false,
+      "municipio": "teror"
+    },
+    {
+      "slug": "arucas",
+      "name": "Arucas",
+      "description": "Ciudad histórica del norte de Gran Canaria conocida por su imponente iglesia neogótica, arquitectura tradicional y conexión con la producción de ron. Su centro histórico es ideal para pasear entre plazas, fachadas señoriales y ambiente local. Una excelente escapada cultural fuera del circuito más turístico.",
+      "shortDescription": "Ciudad histórica del norte con arquitectura monumental",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1193,
+        "lng": -15.5268
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "arucas",
+        "historia",
+        "arquitectura",
+        "norte",
+        "ciudad",
+        "cultura"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "sectionOnly": false,
+      "municipio": "arucas"
+    },
+    {
+      "slug": "piscinas-naturales-de-agaete",
+      "name": "Piscinas Naturales de Agaete",
+      "description": "Uno de los mejores lugares de baño natural de Gran Canaria. Estas piscinas volcánicas, moldeadas por el océano sobre roca basáltica, ofrecen una experiencia mucho más auténtica que una playa turística convencional. Son muy populares entre residentes y visitantes que buscan mar abierto, paisajes salvajes y un entorno menos artificial.",
+      "shortDescription": "Piscinas naturales volcánicas junto al Atlántico",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.1008,
+        "lng": -15.7119
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "agaete",
+        "piscinas-naturales",
+        "oceano",
+        "volcanico",
+        "bano",
+        "naturaleza"
+      ],
+      "visitDuration": "1-4h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "top": true,
+      "municipio": "agaete"
+    },
+    {
+      "slug": "mirador-del-balcon",
+      "name": "Mirador del Balcón",
+      "description": "Uno de los miradores más espectaculares de Gran Canaria. Suspendido sobre los acantilados del oeste, ofrece vistas dramáticas sobre el océano y la conocida Cola del Dragón, una sucesión de crestas montañosas erosionadas. Es una parada imprescindible para rutas panorámicas en coche por la parte más salvaje de la isla.",
+      "shortDescription": "Mirador espectacular sobre los acantilados del oeste",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9144,
+        "lng": -15.7618
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "mirador",
+        "acantilados",
+        "oeste",
+        "fotografia",
+        "naturaleza",
+        "panoramico"
+      ],
+      "visitDuration": "30m-1.5h",
+      "difficulty": "easy",
+      "emoji": "🌄",
+      "sectionOnly": false,
+      "top": true,
+      "municipio": "aldea"
+    },
+    {
+      "slug": "tamadaba",
+      "name": "Tamadaba",
+      "description": "Uno de los espacios naturales más impresionantes de Gran Canaria, famoso por sus bosques de pino canario, miradores sobre el océano y carreteras panorámicas espectaculares. Es una de las mejores zonas para senderismo, picnic y observación astronómica gracias a su altitud y relativa oscuridad nocturna.",
+      "shortDescription": "Bosques de pino canario y paisajes montañosos espectaculares",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.0435,
+        "lng": -15.7354
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "tamadaba",
+        "bosque",
+        "senderismo",
+        "miradores",
+        "naturaleza",
+        "astronomia"
+      ],
+      "visitDuration": "2-6h",
+      "difficulty": "moderate",
+      "emoji": "🌲",
+      "sectionOnly": false,
+      "municipio": "agaete"
+    },
+    {
+      "slug": "barranco-de-las-vacas",
+      "name": "Barranco de las Vacas",
+      "description": "Pequeño pero visualmente impactante, este estrecho barranco se ha vuelto muy popular por sus formaciones erosionadas que recuerdan a paisajes del suroeste estadounidense. Aunque el tramo visitable es corto, su estética geológica lo convierte en una parada muy fotogénica y curiosa dentro del interior de la isla.",
+      "shortDescription": "Barranco estrecho con curiosas formaciones erosionadas",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9428,
+        "lng": -15.4708
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "barranco",
+        "geologia",
+        "fotografia",
+        "erosion",
+        "naturaleza",
+        "interior"
+      ],
+      "visitDuration": "30m-2h",
+      "difficulty": "easy",
+      "emoji": "🪨",
+      "sectionOnly": false,
+      "municipio": "aguimes"
+    },
+    {
+      "slug": "jardin-botanico-viera-y-clavijo",
+      "name": "Jardín Botánico Viera y Clavijo",
+      "description": "El jardín botánico más importante de Canarias y uno de los mejores lugares para descubrir la flora endémica del archipiélago. Reúne especies únicas adaptadas a entornos volcánicos y distintos microclimas. Es una visita ideal para quienes buscan una experiencia natural tranquila cerca de Las Palmas.",
+      "shortDescription": "El principal jardín botánico de Canarias",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.0506,
+        "lng": -15.4589
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "botanico",
+        "flora",
+        "endemico",
+        "naturaleza",
+        "las-palmas",
+        "jardin"
+      ],
+      "visitDuration": "1.5-3h",
+      "difficulty": "easy",
+      "emoji": "🌿",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "las-arenas",
+      "name": "Centro Comercial Las Arenas",
+      "description": "Uno de los principales centros comerciales de Gran Canaria, ubicado junto al Auditorio Alfredo Kraus y muy cerca de Las Canteras. Reúne tiendas internacionales, restauración, ocio y una ubicación cómoda para combinar compras con playa o paseo urbano.",
+      "shortDescription": "Gran centro comercial junto a Las Canteras",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 28.141,
+        "lng": -15.4478
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "shopping",
+        "compras",
+        "las-palmas",
+        "ocio",
+        "restauracion",
+        "ciudad"
+      ],
+      "visitDuration": "1-4h",
+      "difficulty": "easy",
+      "emoji": "🛍️",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "yumbo-centre",
+      "name": "Yumbo Centre",
+      "description": "Uno de los complejos comerciales y de ocio más conocidos del sur de Gran Canaria. Durante el día concentra tiendas, cafeterías y servicios turísticos; por la noche se transforma en uno de los principales focos de vida nocturna internacional de la isla.",
+      "shortDescription": "Centro de ocio y vida nocturna del sur",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 27.7592,
+        "lng": -15.5768
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "ocio",
+        "shopping",
+        "vida-nocturna",
+        "sur",
+        "playa-del-ingles",
+        "turismo"
+      ],
+      "visitDuration": "1-5h",
+      "difficulty": "easy",
+      "emoji": "🌃",
+      "sectionOnly": false,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "mogan-mall",
+      "name": "Mogán Mall",
+      "description": "Centro comercial moderno en la zona de Puerto Rico con tiendas, restauración y espacios de ocio. Pensado principalmente para visitantes alojados en el sur, ofrece una alternativa cómoda para compras y entretenimiento dentro del principal corredor turístico de la isla.",
+      "shortDescription": "Centro comercial moderno en la zona turística del sur",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 27.7885,
+        "lng": -15.7135
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "shopping",
+        "sur",
+        "puerto-rico",
+        "ocio",
+        "compras",
+        "turismo"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🏬",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "playa-de-meloneras",
+      "name": "Playa de Meloneras",
+      "description": "Playa elegante situada junto a una de las zonas más exclusivas del sur de Gran Canaria. Combina paseo marítimo, hoteles de alta gama, restaurantes y ambiente más tranquilo que otras playas turísticas cercanas. Ideal para quienes buscan una experiencia costera relajada con servicios premium.",
+      "shortDescription": "Playa tranquila en la zona premium del sur",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.7416,
+        "lng": -15.6012
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "meloneras",
+        "premium",
+        "sur",
+        "relax",
+        "resort"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "playa-de-puerto-rico",
+      "name": "Playa de Puerto Rico",
+      "description": "Playa protegida y muy popular entre turistas internacionales gracias a su clima soleado casi permanente y aguas calmadas. Es un punto habitual para actividades acuáticas y excursiones marítimas, con ambiente familiar y acceso cómodo desde la zona hotelera.",
+      "shortDescription": "Playa turística de aguas calmadas en el sur",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.7877,
+        "lng": -15.7111
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "puerto-rico",
+        "familias",
+        "sur",
+        "turismo",
+        "actividades"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "playa-de-mogan",
+      "name": "Playa de Mogán",
+      "description": "Pequeña playa protegida situada junto al pintoresco Puerto de Mogán. Sus aguas tranquilas, ambiente relajado y cercanía a restaurantes y puerto deportivo la convierten en una excelente opción para una jornada costera más pausada y visualmente atractiva.",
+      "shortDescription": "Playa tranquila junto al pintoresco Puerto de Mogán",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.817,
+        "lng": -15.7648
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "mogan",
+        "familias",
+        "puerto",
+        "relax",
+        "sur"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "playa-de-taurito",
+      "name": "Playa de Taurito",
+      "description": "Pequeña playa resguardada entre acantilados y complejos turísticos en el suroeste de la isla. Es una opción cómoda para familias y visitantes que buscan aguas tranquilas, acceso sencillo y ambiente vacacional sin grandes desplazamientos.",
+      "shortDescription": "Playa resguardada entre acantilados y resorts",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.8187,
+        "lng": -15.7583
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "taurito",
+        "playa",
+        "familias",
+        "sur",
+        "resort",
+        "relax"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🏝️",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "playa-de-sardina-del-norte",
+      "name": "Playa de Sardina del Norte",
+      "description": "Una de las mejores playas del norte para quienes buscan ambiente más local y menos turístico. Muy apreciada para snorkel y buceo gracias a la claridad del agua y riqueza marina. Ofrece una experiencia costera mucho más auténtica que el sur hotelero.",
+      "shortDescription": "Playa local del norte ideal para snorkel",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1654,
+        "lng": -15.6978
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "norte",
+        "playa",
+        "snorkel",
+        "buceo",
+        "local",
+        "sardina"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🤿",
+      "sectionOnly": false,
+      "municipio": "galdar"
+    },
+    {
+      "slug": "playa-del-confital",
+      "name": "El Confital",
+      "description": "Zona costera salvaje en Las Palmas famosa por sus paisajes volcánicos y una de las mejores olas de izquierdas de Europa para surf. Mucho menos convencional que una playa turística clásica, ofrece naturaleza costera, ambiente local y excelentes vistas al océano.",
+      "shortDescription": "Costa volcánica salvaje y referencia del surf europeo",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.1484,
+        "lng": -15.4463
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "surf",
+        "confital",
+        "las-palmas",
+        "volcanico",
+        "oceano",
+        "naturaleza"
+      ],
+      "visitDuration": "1-4h",
+      "difficulty": "easy",
+      "emoji": "🏄",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "museo-canario",
+      "name": "Museo Canario",
+      "description": "Institución clave para comprender la historia prehispánica del archipiélago. Su colección arqueológica es una de las más relevantes de Canarias, con materiales que ayudan a entender la vida de los antiguos habitantes de la isla antes de la conquista castellana.",
+      "shortDescription": "Museo esencial sobre la historia aborigen canaria",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.099,
+        "lng": -15.413
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "museo",
+        "arqueologia",
+        "historia",
+        "aborigen",
+        "vegueta",
+        "cultura"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🏺",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "castillo-de-la-luz",
+      "name": "Castillo de La Luz",
+      "description": "Fortaleza histórica construida para proteger la ciudad frente a ataques marítimos. Representa la importancia estratégica de Gran Canaria en el Atlántico durante siglos y es uno de los enclaves militares más relevantes del patrimonio histórico insular.",
+      "shortDescription": "Fortaleza histórica defensiva del Atlántico",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1419,
+        "lng": -15.4289
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "castillo",
+        "historia",
+        "fortaleza",
+        "las-palmas",
+        "patrimonio",
+        "atlantic"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏰",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "aguimes",
+      "name": "Agüimes",
+      "description": "Uno de los pueblos históricos mejor conservados de Gran Canaria. Sus calles empedradas, arquitectura tradicional y ambiente local lo convierten en una excelente parada cultural lejos del turismo de resort. Su casco histórico conserva fuerte identidad canaria y una atmósfera mucho más auténtica que las zonas costeras más masificadas.",
+      "shortDescription": "Pueblo histórico con fuerte identidad canaria",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.9052,
+        "lng": -15.4467
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "pueblo",
+        "historia",
+        "tradicional",
+        "cultura",
+        "aguimes",
+        "casco-historico"
+      ],
+      "visitDuration": "1.5-3h",
+      "difficulty": "easy",
+      "emoji": "🏘️",
+      "sectionOnly": false,
+      "municipio": "aguimes"
+    },
+    {
+      "slug": "firgas",
+      "name": "Firgas",
+      "description": "Pequeño municipio del norte conocido por sus calles con elementos hidráulicos decorativos, vistas al interior y ambiente tranquilo. Es una parada agradable para descubrir otra cara de Gran Canaria, más local y menos enfocada al turismo de sol y playa.",
+      "shortDescription": "Pequeño pueblo del norte con encanto local",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1073,
+        "lng": -15.5638
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "firgas",
+        "pueblo",
+        "norte",
+        "tradicional",
+        "cultura",
+        "local"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🌿",
+      "sectionOnly": false,
+      "municipio": "firgas"
+    },
+    {
+      "slug": "cruz-de-tejeda",
+      "name": "Cruz de Tejeda",
+      "description": "Uno de los miradores más emblemáticos del interior de Gran Canaria. Desde aquí se contemplan algunos de los paisajes volcánicos más espectaculares de la isla y parten múltiples rutas de senderismo. Es un punto estratégico para explorar el corazón montañoso insular.",
+      "shortDescription": "Mirador clave del interior montañoso",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.0084,
+        "lng": -15.5989
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "mirador",
+        "montana",
+        "senderismo",
+        "cumbres",
+        "cruz-de-tejeda",
+        "naturaleza"
+      ],
+      "visitDuration": "30m-2h",
+      "difficulty": "easy",
+      "emoji": "🌄",
+      "sectionOnly": false,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "degollada-de-becerra",
+      "name": "Degollada de Becerra",
+      "description": "Mirador panorámico situado en una de las zonas más espectaculares del interior de Gran Canaria. Es una parada excelente para contemplar la geografía volcánica de la isla y suele formar parte de rutas escénicas por las cumbres.",
+      "shortDescription": "Mirador panorámico del interior volcánico",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9958,
+        "lng": -15.6069
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "mirador",
+        "fotografia",
+        "cumbres",
+        "volcanico",
+        "naturaleza",
+        "panoramico"
+      ],
+      "visitDuration": "20m-1h",
+      "difficulty": "easy",
+      "emoji": "📷",
+      "sectionOnly": false,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "playa-de-tauro",
+      "name": "Playa de Tauro",
+      "description": "Playa del suroeste conocida por su ambiente más tranquilo y menos saturado que otros enclaves turísticos cercanos. Buena opción para quienes buscan descanso, sol y una experiencia costera más relajada sin alejarse demasiado de las zonas hoteleras.",
+      "shortDescription": "Playa más tranquila en el corredor turístico del sur",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.7936,
+        "lng": -15.7369
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "tauro",
+        "sur",
+        "relax",
+        "familias",
+        "turismo"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "playa-de-el-puertillo",
+      "name": "Playa de El Puertillo",
+      "description": "Zona costera popular entre residentes del norte por sus aguas relativamente calmadas y ambiente mucho menos turístico. Buena alternativa para quienes quieren conocer playas más auténticas frecuentadas por población local.",
+      "shortDescription": "Playa local del norte frecuentada por residentes",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1512,
+        "lng": -15.5474
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "norte",
+        "local",
+        "puertillo",
+        "familias",
+        "oceano"
+      ],
+      "visitDuration": "1-4h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "ingenio"
+    },
+    {
+      "slug": "playa-de-vargas",
+      "name": "Playa de Vargas",
+      "description": "Uno de los lugares más conocidos de Gran Canaria para windsurf y kitesurf gracias a sus condiciones de viento. Mucho menos orientada al baño turístico convencional, atrae a deportistas y visitantes interesados en una costa más salvaje y abierta.",
+      "shortDescription": "Spot conocido para windsurf y kitesurf",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 27.8796,
+        "lng": -15.3867
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "windsurf",
+        "kitesurf",
+        "deportes",
+        "oceano",
+        "vargas",
+        "aventura"
+      ],
+      "visitDuration": "1-4h",
+      "difficulty": "easy",
+      "emoji": "🏄",
+      "sectionOnly": false,
+      "municipio": "telde"
+    },
+    {
+      "slug": "las-alcaravaneras",
+      "name": "Playa de Las Alcaravaneras",
+      "description": "Playa urbana mucho más tranquila que Las Canteras, situada junto al puerto deportivo de Las Palmas. Es una opción práctica para deporte acuático, paseo o descanso urbano lejos de la zona más turística de la ciudad.",
+      "shortDescription": "Playa urbana tranquila junto al puerto deportivo",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1318,
+        "lng": -15.4261
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "urbana",
+        "las-palmas",
+        "deportes",
+        "ciudad",
+        "alcaravaneras"
+      ],
+      "visitDuration": "1-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "cuatro-puertas",
+      "name": "Cuatro Puertas",
+      "description": "Importante yacimiento arqueológico excavado en toba volcánica que ofrece una visión directa del mundo prehispánico de Gran Canaria. Este enclave ceremonial y habitacional permite comprender mejor la organización social y espiritual de los antiguos habitantes de la isla antes de la conquista.",
+      "shortDescription": "Yacimiento arqueológico clave de la Gran Canaria prehispánica",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.9314,
+        "lng": -15.4095
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "arqueologia",
+        "aborigen",
+        "historia",
+        "cuatro-puertas",
+        "prehispanico",
+        "cultura"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🪨",
+      "sectionOnly": false,
+      "municipio": "telde"
+    },
+    {
+      "slug": "maipes-archaeological-park",
+      "name": "Parque Arqueológico del Maipés",
+      "description": "Uno de los yacimientos funerarios más impactantes de Canarias, con centenares de túmulos construidos sobre un paisaje de coladas volcánicas. Una visita excelente para entender las prácticas funerarias y el contexto cultural de la población prehispánica de Gran Canaria.",
+      "shortDescription": "Gran necrópolis prehispánica sobre paisaje volcánico",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1015,
+        "lng": -15.7047
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "arqueologia",
+        "necropolis",
+        "historia",
+        "maipes",
+        "volcanico",
+        "aborigen"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏺",
+      "sectionOnly": false,
+      "municipio": "galdar"
+    },
+    {
+      "slug": "los-azulejos",
+      "name": "Los Azulejos",
+      "description": "Llamativas formaciones geológicas multicolores creadas por alteración hidrotermal de materiales volcánicos. Este paisaje sorprendente, visible en rutas del oeste y suroeste de la isla, ofrece una imagen muy distinta del relieve volcánico habitual de Gran Canaria.",
+      "shortDescription": "Formaciones volcánicas multicolores únicas",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.8788,
+        "lng": -15.7244
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "geologia",
+        "volcanico",
+        "fotografia",
+        "naturaleza",
+        "montana",
+        "azulejos"
+      ],
+      "visitDuration": "30m-1.5h",
+      "difficulty": "easy",
+      "emoji": "🌈",
+      "sectionOnly": false,
+      "municipio": "aldea"
+    },
+    {
+      "slug": "camino-de-los-tilos-de-moya",
+      "name": "Camino de los Tilos de Moya",
+      "description": "Ruta verde muy distinta a la imagen árida que muchos asocian con Canarias. Este sendero atraviesa restos de laurisilva y vegetación húmeda del norte, ofreciendo una experiencia natural fresca y sombreada ideal para caminatas tranquilas.",
+      "shortDescription": "Sendero verde entre vegetación húmeda del norte",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.1138,
+        "lng": -15.5861
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "naturaleza",
+        "bosque",
+        "tilos",
+        "moya",
+        "verde"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "moderate",
+      "emoji": "🌿",
+      "sectionOnly": false,
+      "municipio": "moya"
+    },
+    {
+      "slug": "barranco-de-azuaje",
+      "name": "Barranco de Azuaje",
+      "description": "Uno de los barrancos más verdes y singulares de Gran Canaria, con vegetación abundante y una atmósfera poco habitual en la isla. Muy apreciado por senderistas que buscan naturaleza más húmeda y rutas alejadas del turismo masivo.",
+      "shortDescription": "Barranco verde ideal para senderismo",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.0915,
+        "lng": -15.5673
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "barranco",
+        "naturaleza",
+        "verde",
+        "azuaje",
+        "aventura"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "moderate",
+      "emoji": "🥾",
+      "sectionOnly": false,
+      "municipio": "moya"
+    },
+    {
+      "slug": "playa-de-gui-gui",
+      "name": "Playa de Güi Güi",
+      "description": "Una de las playas más remotas y salvajes de Gran Canaria. Llegar requiere caminata exigente o acceso marítimo, pero a cambio ofrece una experiencia completamente distinta al turismo convencional: aislamiento, paisaje dramático y sensación real de desconexión.",
+      "shortDescription": "Playa remota y salvaje para aventureros",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9057,
+        "lng": -15.7938
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "gui-gui",
+        "aventura",
+        "senderismo",
+        "playa",
+        "remota",
+        "naturaleza"
+      ],
+      "visitDuration": "5-8h",
+      "difficulty": "hard",
+      "emoji": "🏕️",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "ventura-del-nublo",
+      "name": "Ventana del Nublo",
+      "description": "Formación rocosa natural muy popular entre senderistas y fotógrafos por su encuadre espectacular hacia el paisaje montañoso de Gran Canaria. Una experiencia visual muy potente para quienes disfrutan de rutas escénicas en el interior.",
+      "shortDescription": "Formación rocosa icónica para senderismo y fotografía",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9834,
+        "lng": -15.6485
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "fotografia",
+        "montana",
+        "naturaleza",
+        "ventana",
+        "mirador"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "moderate",
+      "emoji": "🪟",
+      "sectionOnly": false,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "playa-de-tufia",
+      "name": "Playa de Tufia",
+      "description": "Pequeña cala de ambiente muy local conocida por su entorno volcánico oscuro, aguas claras y tranquilo núcleo costero tradicional. Muy apreciada para snorkel y para quienes buscan rincones menos turísticos con personalidad propia.",
+      "shortDescription": "Pequeña cala volcánica ideal para snorkel",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.9584,
+        "lng": -15.3738
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "tufia",
+        "snorkel",
+        "volcanico",
+        "local",
+        "cala"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🤿",
+      "sectionOnly": false,
+      "municipio": "telde"
+    },
+    {
+      "slug": "playa-del-cabron",
+      "name": "Reserva Marina de El Cabrón",
+      "description": "Uno de los mejores enclaves de buceo y snorkel de Gran Canaria. Esta reserva marina protegida alberga gran biodiversidad y fondos volcánicos muy apreciados por submarinistas. No es una playa turística convencional, sino un destino orientado a naturaleza marina y actividades acuáticas.",
+      "shortDescription": "Reserva marina top para buceo y snorkel",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 27.8568,
+        "lng": -15.3926
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "buceo",
+        "snorkel",
+        "reserva-marina",
+        "naturaleza",
+        "oceano",
+        "aventura"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🐠",
+      "sectionOnly": false,
+      "municipio": "aguimes"
+    },
+    {
+      "slug": "charco-azul",
+      "name": "Charco Azul",
+      "description": "Piscina natural formada por la erosión marina sobre roca volcánica en la costa norte. Es uno de esos lugares que ofrecen una experiencia mucho más salvaje y auténtica que el turismo de playa tradicional, aunque conviene extremar precaución según condiciones del mar.",
+      "shortDescription": "Piscina natural volcánica en la costa norte",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.1418,
+        "lng": -15.6683
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "charco",
+        "piscina-natural",
+        "volcanico",
+        "norte",
+        "oceano",
+        "naturaleza"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "telde"
+    },
+    {
+      "slug": "roque-prieto-natural-pools",
+      "name": "Piscinas Naturales de Roque Prieto",
+      "description": "Conjunto de piscinas naturales frecuentadas principalmente por residentes del norte de la isla. Son una buena opción para descubrir un tipo de baño atlántico mucho más auténtico, lejos del turismo de resort y con fuerte carácter local.",
+      "shortDescription": "Piscinas naturales locales del norte",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.1536,
+        "lng": -15.6955
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "piscinas-naturales",
+        "norte",
+        "oceano",
+        "local",
+        "bano",
+        "volcanico"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "santa-brigida"
+    },
+    {
+      "slug": "cuevas-de-artenara",
+      "name": "Cuevas de Artenara",
+      "description": "Uno de los mejores lugares para comprender la tradición de vivienda en cuevas de Gran Canaria. Artenara conserva parte de esta identidad histórica en el municipio habitado a mayor altitud de la isla, rodeado además de paisajes montañosos espectaculares.",
+      "shortDescription": "Tradición de viviendas cueva en el interior",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0184,
+        "lng": -15.6464
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cuevas",
+        "artenara",
+        "cultura",
+        "historia",
+        "interior",
+        "tradicional"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🕳️",
+      "sectionOnly": false,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "fataga",
+      "name": "Fataga",
+      "description": "Pequeño pueblo tradicional del interior sur conocido por su arquitectura blanca, palmeras y entorno montañoso. Muy popular como parada en rutas panorámicas en coche por el interior de Gran Canaria, ofreciendo una visión mucho más rural y auténtica de la isla.",
+      "shortDescription": "Pueblo tradicional en un valle del interior",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.8838,
+        "lng": -15.5661
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "fataga",
+        "pueblo",
+        "interior",
+        "tradicional",
+        "ruta",
+        "cultura"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🏘️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "mirador-de-fataga",
+      "name": "Mirador de Fataga",
+      "description": "Mirador escénico con vistas espectaculares al valle y formaciones montañosas del interior sur. Muy popular entre quienes recorren la isla en coche buscando paradas panorámicas fotogénicas.",
+      "shortDescription": "Mirador panorámico del valle de Fataga",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9106,
+        "lng": -15.5764
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "mirador",
+        "fataga",
+        "fotografia",
+        "panoramico",
+        "naturaleza",
+        "interior"
+      ],
+      "visitDuration": "20m-1h",
+      "difficulty": "easy",
+      "emoji": "📸",
+      "sectionOnly": false,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "mogan-old-town",
+      "name": "Puerto de Mogán Old Town",
+      "description": "La zona histórica y peatonal de Puerto de Mogán es una de las áreas más fotogénicas de Gran Canaria. Calles blancas, flores, pequeños puentes y ambiente marinero crean una experiencia muy distinta al turismo de grandes complejos. Ideal para pasear, comer y disfrutar de una atmósfera relajada junto al mar.",
+      "shortDescription": "Zona histórica y peatonal del pintoresco Puerto de Mogán",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.8168,
+        "lng": -15.7645
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "mogan",
+        "pueblo",
+        "marinero",
+        "fotografia",
+        "sur",
+        "cultura"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🌺",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "meloneras-promenade",
+      "name": "Meloneras Promenade",
+      "description": "Paseo marítimo elegante del sur de Gran Canaria, ideal para caminar junto al océano entre hoteles de alta gama, restaurantes, terrazas y vistas al faro de Maspalomas. Muy popular entre visitantes que buscan una experiencia costera cómoda y con ambiente más sofisticado.",
+      "shortDescription": "Paseo marítimo premium junto al océano",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 27.7392,
+        "lng": -15.5989
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "meloneras",
+        "paseo",
+        "shopping",
+        "restaurantes",
+        "premium",
+        "sur"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🚶",
+      "sectionOnly": false,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "faro-de-maspalomas",
+      "name": "Faro de Maspalomas",
+      "description": "Uno de los iconos más reconocibles del sur de Gran Canaria. Este histórico faro del siglo XIX marca el límite entre las Dunas de Maspalomas y la zona turística moderna, convirtiéndose en punto de referencia para paseos, fotografías y exploración de la costa.",
+      "shortDescription": "Histórico faro icónico del sur de la isla",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.7382,
+        "lng": -15.5951
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "faro",
+        "maspalomas",
+        "iconico",
+        "fotografia",
+        "historia",
+        "sur"
+      ],
+      "visitDuration": "30m-1.5h",
+      "difficulty": "easy",
+      "emoji": "🗼",
+      "sectionOnly": false,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "playa-de-san-agustin",
+      "name": "Playa de San Agustín",
+      "description": "Playa más tranquila y relajada que otras zonas turísticas del sur. Muy valorada por quienes prefieren menos bullicio, aguas relativamente calmadas y un ambiente más pausado sin alejarse demasiado de las principales áreas hoteleras.",
+      "shortDescription": "Playa tranquila del sur con ambiente relajado",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.7711,
+        "lng": -15.5492
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "san-agustin",
+        "relax",
+        "sur",
+        "familias",
+        "turismo"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "el-muelle-shopping",
+      "name": "Centro Comercial El Muelle",
+      "description": "Centro comercial situado junto al puerto de cruceros de Las Palmas. Combina tiendas, restauración y una ubicación estratégica cerca de Las Canteras y el frente marítimo urbano, siendo una parada útil para visitantes en la capital.",
+      "shortDescription": "Centro comercial junto al puerto de Las Palmas",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 28.1402,
+        "lng": -15.4302
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "shopping",
+        "las-palmas",
+        "compras",
+        "puerto",
+        "ocio",
+        "ciudad"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🛍️",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "las-palmas-old-town",
+      "name": "Triana",
+      "description": "Principal zona comercial histórica de Las Palmas, conocida por su arquitectura elegante, calles peatonales, cafeterías y ambiente urbano. Combina compras, historia y vida local en una de las áreas más agradables para pasear en la capital.",
+      "shortDescription": "Zona histórica comercial y peatonal de Las Palmas",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1074,
+        "lng": -15.4172
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "triana",
+        "shopping",
+        "historia",
+        "las-palmas",
+        "peatonal",
+        "cultura"
+      ],
+      "visitDuration": "1-4h",
+      "difficulty": "easy",
+      "emoji": "🏙️",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "playa-de-san-felipe",
+      "name": "Playa de San Felipe",
+      "description": "Playa abierta del norte con carácter mucho más salvaje que las zonas turísticas del sur. Popular entre surfistas cuando las condiciones acompañan y frecuentada principalmente por residentes. Buena opción para descubrir una costa más auténtica y menos orientada al turismo convencional.",
+      "shortDescription": "Playa salvaje del norte frecuentada por locales",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1389,
+        "lng": -15.6261
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "norte",
+        "surf",
+        "local",
+        "oceano",
+        "san-felipe"
+      ],
+      "visitDuration": "1-4h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "agaete"
+    },
+    {
+      "slug": "playa-de-el-agujero",
+      "name": "Playa de El Agujero",
+      "description": "Zona costera del norte con ambiente local, paisaje volcánico y acceso a áreas de baño y piscinas naturales cercanas. Mucho menos turística que el sur, ofrece una experiencia costera más auténtica y conectada con la vida diaria insular.",
+      "shortDescription": "Costa volcánica del norte con ambiente local",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1438,
+        "lng": -15.6622
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "norte",
+        "volcanico",
+        "local",
+        "oceano",
+        "galdar"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🪨",
+      "sectionOnly": false,
+      "municipio": "agaete"
+    },
+    {
+      "slug": "charco-de-san-lorenzo",
+      "name": "Charco de San Lorenzo",
+      "description": "Piscina natural frecuentada por residentes que ofrece una experiencia de baño atlántico distinta a las playas tradicionales. Ideal para quienes buscan rincones menos conocidos y más auténticos dentro de la costa de Gran Canaria.",
+      "shortDescription": "Piscina natural de ambiente local",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.1294,
+        "lng": -15.5048
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "charco",
+        "piscina-natural",
+        "local",
+        "oceano",
+        "bano",
+        "naturaleza"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "arucas"
+    },
+    {
+      "slug": "presa-de-las-ninas",
+      "name": "Presa de Las Niñas",
+      "description": "Embalse de montaña rodeado de pinares y naturaleza, muy popular para picnic, rutas suaves y escapadas al interior. Representa una cara muy distinta de Gran Canaria, lejos de playas y resorts, ideal para quienes exploran la isla en coche.",
+      "shortDescription": "Embalse natural ideal para picnic y escapadas",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9368,
+        "lng": -15.6885
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "presa",
+        "naturaleza",
+        "picnic",
+        "interior",
+        "montana",
+        "ruta"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🏞️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "llanos-de-la-pez",
+      "name": "Llanos de la Pez",
+      "description": "Área recreativa muy popular del interior de Gran Canaria, rodeada de pinares y excelente como base para senderismo, picnic y observación astronómica. Una parada clásica para quienes exploran las cumbres.",
+      "shortDescription": "Área recreativa entre pinares en las cumbres",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9491,
+        "lng": -15.6218
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "picnic",
+        "naturaleza",
+        "pinares",
+        "senderismo",
+        "astronomia",
+        "cumbres"
+      ],
+      "visitDuration": "2-5h",
+      "difficulty": "easy",
+      "emoji": "🌲",
+      "sectionOnly": false,
+      "municipio": "vega-san-mateo"
+    },
+    {
+      "slug": "mirador-de-unamuno",
+      "name": "Mirador de Unamuno",
+      "description": "Mirador escénico con excelentes vistas al paisaje montañoso del interior. Forma parte de las paradas panorámicas más interesantes para rutas en coche por el corazón de Gran Canaria.",
+      "shortDescription": "Mirador panorámico del interior montañoso",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.0188,
+        "lng": -15.6435
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "mirador",
+        "fotografia",
+        "panoramico",
+        "interior",
+        "naturaleza",
+        "cumbres"
+      ],
+      "visitDuration": "20m-1h",
+      "difficulty": "easy",
+      "emoji": "📷",
+      "sectionOnly": false,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "playa-de-bocabarranco",
+      "name": "Playa de Bocabarranco",
+      "description": "Pequeña zona costera del norte con ambiente local y carácter más salvaje que las playas turísticas del sur. Buena para quienes quieren explorar rincones menos conocidos y una costa más auténtica.",
+      "shortDescription": "Rincón costero local del norte",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1358,
+        "lng": -15.5352
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "norte",
+        "local",
+        "oceano",
+        "volcanico",
+        "bocabarranco"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "guia"
+    },
+    {
+      "slug": "playa-de-tasarte",
+      "name": "Playa de Tasarte",
+      "description": "Playa remota del oeste de Gran Canaria con ambiente tranquilo, paisaje árido y sensación de aislamiento. Muy diferente a las zonas turísticas convencionales, ideal para quienes buscan explorar la isla más salvaje.",
+      "shortDescription": "Playa remota del oeste con ambiente salvaje",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.9032,
+        "lng": -15.7894
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "tasarte",
+        "remota",
+        "oeste",
+        "naturaleza",
+        "aventura"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏝️",
+      "sectionOnly": false,
+      "municipio": "mogan"
+    },
+    {
+      "slug": "sendero-roque-nublo",
+      "name": "Sendero Roque Nublo",
+      "description": "La ruta de senderismo más emblemática de Gran Canaria. Accesible para la mayoría de visitantes con condición física básica, ofrece una de las mejores recompensas visuales de la isla con el icónico monolito volcánico como protagonista.",
+      "shortDescription": "Ruta clásica hacia el icono natural de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9659,
+        "lng": -15.6105
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "roque-nublo",
+        "hike",
+        "naturaleza",
+        "montana",
+        "iconico"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "moderate",
+      "emoji": "🥾",
+      "sectionOnly": false,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "senderos-pico-de-las-nieves",
+      "name": "Rutas Pico de las Nieves",
+      "description": "Conjunto de rutas panorámicas por una de las zonas más espectaculares del interior de Gran Canaria. Ideales para combinar conducción escénica, miradores y caminatas de distinta duración.",
+      "shortDescription": "Rutas panorámicas por las cumbres de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9651,
+        "lng": -15.5676
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "cumbres",
+        "miradores",
+        "naturaleza",
+        "pico",
+        "hike"
+      ],
+      "visitDuration": "2-6h",
+      "difficulty": "moderate",
+      "emoji": "⛰️",
+      "sectionOnly": false,
+      "municipio": "vega-san-mateo"
+    },
+    {
+      "slug": "sendero-caldera-de-bandama",
+      "name": "Sendero Caldera de Bandama",
+      "description": "Ruta que permite explorar uno de los cráteres volcánicos más impresionantes de Canarias. Combina interés geológico, buenas vistas y una experiencia distinta cerca de Las Palmas.",
+      "shortDescription": "Ruta volcánica por uno de los grandes cráteres de la isla",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9782,
+        "lng": -15.4524
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "volcan",
+        "bandama",
+        "geologia",
+        "naturaleza",
+        "hike"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "sectionOnly": false,
+      "municipio": "santa-brigida"
+    },
+    {
+      "slug": "senderos-de-tamadaba",
+      "name": "Senderos de Tamadaba",
+      "description": "Una de las mejores zonas de senderismo de Gran Canaria, entre pinares, cumbres y vistas oceánicas espectaculares. Ideal para visitantes que buscan naturaleza potente y rutas alejadas del turismo costero.",
+      "shortDescription": "Senderismo entre pinares y acantilados",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.0435,
+        "lng": -15.7354
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "tamadaba",
+        "bosque",
+        "naturaleza",
+        "aventura",
+        "hike"
+      ],
+      "visitDuration": "3-8h",
+      "difficulty": "moderate",
+      "emoji": "🌲",
+      "sectionOnly": false,
+      "municipio": "agaete"
+    },
+    {
+      "slug": "senderos-de-guayadeque",
+      "name": "Senderos de Guayadeque",
+      "description": "Rutas que recorren uno de los barrancos más singulares de Gran Canaria, combinando paisaje volcánico, historia aborigen y cuevas tradicionales. Excelente opción para quienes buscan una experiencia que mezcle naturaleza y cultura en una sola visita.",
+      "shortDescription": "Senderismo entre barrancos, cuevas e historia",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9058,
+        "lng": -15.5208
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "guayadeque",
+        "cuevas",
+        "naturaleza",
+        "historia",
+        "barranco"
+      ],
+      "visitDuration": "2-6h",
+      "difficulty": "moderate",
+      "emoji": "🥾",
+      "sectionOnly": false,
+      "municipio": "aguimes"
+    },
+    {
+      "slug": "senderos-de-artenara",
+      "name": "Rutas de Artenara",
+      "description": "Zona excelente para senderismo de montaña con paisajes espectaculares, pueblos tradicionales y múltiples rutas escénicas. Perfecta para quienes quieren descubrir el interior más auténtico y elevado de Gran Canaria.",
+      "shortDescription": "Rutas de montaña en el corazón de la isla",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.0184,
+        "lng": -15.6464
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "artenara",
+        "montana",
+        "naturaleza",
+        "rutas",
+        "interior"
+      ],
+      "visitDuration": "2-8h",
+      "difficulty": "moderate",
+      "emoji": "⛰️",
+      "sectionOnly": false,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "senderos-del-fataga-canyon",
+      "name": "Rutas del Valle de Fataga",
+      "description": "Conjunto de rutas por uno de los paisajes más fotogénicos del sur interior de Gran Canaria. Palmerales, barrancos y pueblos tradicionales convierten esta zona en una opción muy atractiva para senderismo escénico.",
+      "shortDescription": "Senderismo entre barrancos y palmerales",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.8838,
+        "lng": -15.5661
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "fataga",
+        "barranco",
+        "naturaleza",
+        "paisaje",
+        "rutas"
+      ],
+      "visitDuration": "2-6h",
+      "difficulty": "moderate",
+      "emoji": "🌴",
+      "sectionOnly": false,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "mirador-astronomico-de-la-degollada",
+      "name": "Mirador Astronómico de la Degollada",
+      "description": "Uno de los puntos interesantes del interior para contemplar cielos limpios y paisajes volcánicos abiertos. Gran Canaria ofrece condiciones muy atractivas para observación astronómica, especialmente lejos de núcleos urbanos.",
+      "shortDescription": "Mirador ideal para cielos nocturnos y panorámicas",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9548,
+        "lng": -15.6047
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "astronomia",
+        "mirador",
+        "estrellas",
+        "naturaleza",
+        "cumbres",
+        "fotografia"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "✨",
+      "sectionOnly": false,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "parque-doramas",
+      "name": "Parque Doramas",
+      "description": "Parque urbano emblemático de Las Palmas con jardines, vegetación exuberante y ambiente relajado. Una opción agradable para descanso dentro de la ciudad y una cara distinta de Gran Canaria más allá de playas y montaña.",
+      "shortDescription": "Parque urbano emblemático de Las Palmas",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.1221,
+        "lng": -15.4322
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "parque",
+        "las-palmas",
+        "jardines",
+        "naturaleza",
+        "urbano",
+        "relax"
+      ],
+      "visitDuration": "30m-2h",
+      "difficulty": "easy",
+      "emoji": "🌳",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "santa-cristina-picnic-area",
+      "name": "Área Recreativa Santa Cristina",
+      "description": "Zona recreativa del interior ideal para picnic y escapadas tranquilas entre naturaleza. Pensada para visitantes que exploran Gran Canaria en coche y buscan experiencias más locales fuera del circuito turístico habitual.",
+      "shortDescription": "Área recreativa tranquila en el interior",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.0308,
+        "lng": -15.6185
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "picnic",
+        "naturaleza",
+        "interior",
+        "relax",
+        "familias",
+        "ruta"
+      ],
+      "visitDuration": "1-4h",
+      "difficulty": "easy",
+      "emoji": "🧺",
+      "sectionOnly": false,
+      "municipio": "vega-san-mateo"
+    },
+    {
+      "slug": "gastronomia",
+      "name": "Gastronomía Canaria",
+      "description": "La cocina canaria es directa, contundente y profundamente ligada a la historia de la isla. El gofio, heredado de los antiguos canarios, sigue presente en recetas cotidianas. Las papas arrugadas con mojo son casi obligatorias, junto a pescados locales como vieja o cherne, quesos artesanales, almogrote, potajes y dulces como bienmesabe. La gastronomía aquí no es solo turismo: es identidad viva.",
+      "shortDescription": "Gofio, mojo, pescado local y cocina con identidad",
+      "island": "gran-canaria",
+      "category": "food",
+      "coordinates": {
+        "lat": 28.1004,
+        "lng": -15.4145
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "gastronomia",
+        "comida",
+        "gofio",
+        "mojo",
+        "cocina-canaria",
+        "food"
+      ],
+      "emoji": "🍽️",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "historia-de-la-conquista",
+      "name": "La conquista de Gran Canaria",
+      "description": "La conquista de Gran Canaria fue un proceso duro y prolongado durante el siglo XV. La resistencia de los antiguos canarios frente a Castilla convirtió la isla en uno de los escenarios más importantes de la expansión atlántica temprana. Entender este periodo ayuda a comprender la identidad histórica y cultural actual de Gran Canaria.",
+      "shortDescription": "El conflicto que transformó para siempre la isla",
+      "island": "gran-canaria",
+      "category": "history",
+      "coordinates": {
+        "lat": 28.1004,
+        "lng": -15.4145
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "historia",
+        "conquista",
+        "castilla",
+        "gran-canaria",
+        "patrimonio",
+        "cultura"
+      ],
+      "emoji": "⚔️",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "antiguos-canarios",
+      "name": "Los antiguos canarios",
+      "description": "Antes de la conquista castellana, Gran Canaria albergaba una sociedad compleja y organizada, con estructuras sociales, espacios ceremoniales, agricultura, almacenamiento colectivo y fuerte adaptación al entorno insular. Lejos del mito de comunidades primitivas dispersas, desarrollaron una cultura sofisticada propia.",
+      "shortDescription": "La sociedad prehispánica de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "history",
+      "coordinates": {
+        "lat": 28.146,
+        "lng": -15.6518
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "aborigen",
+        "historia",
+        "prehispanico",
+        "arqueologia",
+        "cultura",
+        "gran-canaria"
+      ],
+      "emoji": "🗿",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "naturaleza-volcanica",
+      "name": "Cómo se formó Gran Canaria",
+      "description": "Gran Canaria es el resultado de millones de años de actividad volcánica, erosión y transformación geológica. Su relieve abrupto, barrancos profundos, cráteres y monolitos explican por qué la isla ofrece paisajes tan distintos en distancias cortas. Comprender su origen cambia completamente la forma de verla.",
+      "shortDescription": "El origen volcánico que dio forma a la isla",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9782,
+        "lng": -15.4524
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "volcan",
+        "geologia",
+        "naturaleza",
+        "gran-canaria",
+        "paisaje",
+        "formacion"
+      ],
+      "emoji": "🌋",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "microclimas",
+      "name": "Los microclimas de Gran Canaria",
+      "description": "Gran Canaria es conocida como un continente en miniatura por sus enormes contrastes climáticos. En menos de una hora puedes pasar de costa cálida y seca a pinares húmedos o cumbres frescas. La orientación, altitud y relieve volcánico explican esta sorprendente diversidad.",
+      "shortDescription": "Por qué el clima cambia tanto en una sola isla",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9651,
+        "lng": -15.5676
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "clima",
+        "microclimas",
+        "naturaleza",
+        "geografia",
+        "isla",
+        "gran-canaria"
+      ],
+      "emoji": "🌤️",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "cristobal-colon-en-canarias",
+      "name": "Cristóbal Colón y su paso por Canarias",
+      "description": "Canarias desempeñó un papel estratégico en las rutas atlánticas y Gran Canaria formó parte del contexto histórico de la expansión hacia América. La escala de Colón en el archipiélago convirtió estas islas en un punto clave entre Europa, África y el Nuevo Mundo.",
+      "shortDescription": "El papel de Canarias en la expansión atlántica",
+      "island": "gran-canaria",
+      "category": "history",
+      "coordinates": {
+        "lat": 28.0992,
+        "lng": -15.4161
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "colon",
+        "historia",
+        "america",
+        "atlantico",
+        "exploracion",
+        "canarias"
+      ],
+      "emoji": "⛵",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "piratas-en-gran-canaria",
+      "name": "Piratas y ataques a Gran Canaria",
+      "description": "Durante siglos, Gran Canaria fue objetivo de ataques piratas y expediciones hostiles debido a su posición estratégica en el Atlántico. La historia defensiva de la isla está marcada por fortificaciones, vigilancia costera y la necesidad constante de proteger rutas comerciales.",
+      "shortDescription": "La isla frente a corsarios y ataques marítimos",
+      "island": "gran-canaria",
+      "category": "history",
+      "coordinates": {
+        "lat": 28.1419,
+        "lng": -15.4289
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "piratas",
+        "corsarios",
+        "historia",
+        "atlantico",
+        "fortaleza",
+        "gran-canaria"
+      ],
+      "emoji": "🏴‍☠️",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "cultura-aborigen",
+      "name": "Cultura aborigen canaria",
+      "description": "La cultura de los antiguos habitantes de Gran Canaria desarrolló sistemas de almacenamiento, asentamientos complejos, espacios ceremoniales y adaptación extraordinaria al entorno insular. Su legado sigue presente en la identidad cultural y arqueológica de la isla.",
+      "shortDescription": "La herencia cultural de los antiguos canarios",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.146,
+        "lng": -15.6518
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "aborigen",
+        "cultura",
+        "historia",
+        "arqueologia",
+        "prehispanico",
+        "canarias"
+      ],
+      "emoji": "🪨",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "arquitectura-tradicional",
+      "name": "Arquitectura tradicional canaria",
+      "description": "Balcones de madera, patios interiores, casas encaladas y adaptación al clima definen gran parte de la arquitectura tradicional canaria. Esta identidad constructiva refleja mezcla cultural, clima atlántico y evolución histórica propia del archipiélago.",
+      "shortDescription": "La arquitectura histórica con identidad canaria",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0594,
+        "lng": -15.5482
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "arquitectura",
+        "cultura",
+        "tradicional",
+        "balcones",
+        "historia",
+        "canarias"
+      ],
+      "emoji": "🏘️",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "vida-rural-canaria",
+      "name": "Vida rural canaria",
+      "description": "Más allá de playas y resorts, Gran Canaria conserva una fuerte tradición rural ligada a agricultura, ganadería, pequeños pueblos y ritmos de vida muy distintos al turismo costero. Explorar el interior revela una parte mucho más auténtica de la isla.",
+      "shortDescription": "La cara más auténtica lejos del turismo costero",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.9953,
+        "lng": -15.6153
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "rural",
+        "cultura",
+        "tradicion",
+        "interior",
+        "gran-canaria",
+        "vida-local"
+      ],
+      "emoji": "🌾",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "dunas-explicadas",
+      "name": "Cómo se formaron las Dunas de Maspalomas",
+      "description": "Las Dunas de Maspalomas son uno de los paisajes más singulares de Canarias. Su origen está ligado al transporte natural de sedimentos y a procesos eólicos que, durante miles de años, modelaron este entorno casi desértico junto al océano.",
+      "shortDescription": "La explicación geológica del paisaje más icónico del sur",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.7394,
+        "lng": -15.5836
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "dunas",
+        "geologia",
+        "naturaleza",
+        "maspalomas",
+        "sahara",
+        "paisaje"
+      ],
+      "emoji": "🏜️",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "whale-watching-gran-canaria",
+      "name": "Whale Watching in Gran Canaria",
+      "description": "Las aguas que rodean Gran Canaria forman parte de un corredor marino donde pueden observarse distintas especies de cetáceos durante el año. Las excursiones de observación de delfines y ballenas son una de las actividades más populares para visitantes que buscan experiencias marítimas.",
+      "shortDescription": "Observación de cetáceos en aguas canarias",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 27.7894,
+        "lng": -15.7116
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "whale-watching",
+        "dolphins",
+        "boat-tour",
+        "ocean",
+        "activities",
+        "gran-canaria"
+      ],
+      "emoji": "🐬",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "boat-trips-gran-canaria",
+      "name": "Boat Trips in Gran Canaria",
+      "description": "Explorar Gran Canaria desde el mar ofrece una perspectiva completamente distinta de la isla, especialmente en la costa sur y oeste. Excursiones en barco, catamaranes y salidas al atardecer forman parte de las actividades más demandadas entre visitantes internacionales.",
+      "shortDescription": "Excursiones marítimas y experiencias en barco",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 27.7894,
+        "lng": -15.7116
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "boat",
+        "catamaran",
+        "ocean",
+        "activities",
+        "excursions",
+        "gran-canaria"
+      ],
+      "emoji": "⛵",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "jet-ski-gran-canaria",
+      "name": "Jet Ski in Gran Canaria",
+      "description": "El sur de Gran Canaria concentra buena parte de las actividades acuáticas de adrenalina, incluyendo jet ski, parasailing y otras experiencias marítimas populares entre visitantes que buscan ocio activo.",
+      "shortDescription": "Actividades acuáticas de adrenalina en el sur",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 27.7877,
+        "lng": -15.7111
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "jetski",
+        "water-sports",
+        "activities",
+        "adventure",
+        "south",
+        "gran-canaria"
+      ],
+      "emoji": "🚤",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "scuba-diving-gran-canaria",
+      "name": "Scuba Diving in Gran Canaria",
+      "description": "Gran Canaria cuenta con varios puntos excelentes para buceo, especialmente en reservas marinas y zonas volcánicas con buena biodiversidad. Es una actividad muy demandada por visitantes interesados en naturaleza marina.",
+      "shortDescription": "Buceo en aguas volcánicas con biodiversidad marina",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 27.8568,
+        "lng": -15.3926
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "diving",
+        "scuba",
+        "snorkel",
+        "marine",
+        "activities",
+        "gran-canaria"
+      ],
+      "emoji": "🤿",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "surf-gran-canaria",
+      "name": "Surf in Gran Canaria",
+      "description": "Gran Canaria ofrece spots reconocidos para surf, especialmente en la costa norte y zonas urbanas como El Confital. Dependiendo de condiciones y nivel, puede ser una excelente actividad tanto para principiantes como experimentados.",
+      "shortDescription": "Surf en algunos de los spots más conocidos de Canarias",
+      "island": "gran-canaria",
+      "category": "activities",
+      "coordinates": {
+        "lat": 28.1484,
+        "lng": -15.4463
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "surf",
+        "water-sports",
+        "waves",
+        "activities",
+        "ocean",
+        "gran-canaria"
+      ],
+      "emoji": "🏄",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "gran-canaria-road-trip",
+      "name": "Gran Canaria Road Trip",
+      "description": "Gran Canaria es una isla ideal para explorar en coche gracias a sus enormes contrastes geográficos. En pocas horas puedes pasar de dunas costeras a pueblos de montaña, pinares, cráteres volcánicos y miradores espectaculares. Una de las mejores formas de descubrir la isla.",
+      "shortDescription": "La mejor forma de explorar la isla con libertad",
+      "island": "gran-canaria",
+      "category": "routes",
+      "coordinates": {
+        "lat": 27.9651,
+        "lng": -15.5676
+      },
+      "images": {
+        "hero": "/images/placeholder.avif",
+        "gallery": [
+          "public/images/fiestas charco-k25B-U1701117236276O0E-1248x770@Canarias7.webp"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "roadtrip",
+        "car-rental",
+        "route",
+        "driving",
+        "travel",
+        "gran-canaria"
+      ],
+      "emoji": "🚗",
+      "sectionOnly": false,
+      "municipio": "las-palmas"
+    }
+  ],
+  "sections": [
+    {
+      "id": "historia",
+      "label": "History",
+      "emoji": "🏰",
+      "color": "#6366f1",
+      "pois": [
+        "historia",
+        "las-palmas",
+        "roque-nublo",
+        "cueva-pintada",
+        "catedral-vegueta"
+      ]
+    },
+    {
+      "id": "cultura-canaria",
+      "label": "Canarian Culture",
+      "emoji": "🎭",
+      "color": "#ec4899",
+      "pois": [
+        "cultura-canaria",
+        "las-palmas",
+        "casa-de-colon",
+        "pueblo-canario"
+      ]
+    },
+    {
+      "id": "gastronomia",
+      "label": "Gastronomy",
+      "emoji": "🍽️",
+      "color": "#f97316",
+      "pois": [
+        "gastronomia",
+        "las-palmas",
+        "maspalomas",
+        "mercado-vegueta",
+        "papas-arrugadas"
+      ]
+    },
+    {
+      "id": "naturaleza",
+      "label": "Nature",
+      "emoji": "🌿",
+      "color": "#22c55e",
+      "pois": [
+        "naturaleza",
+        "maspalomas",
+        "roque-nublo",
+        "caldera-bandama",
+        "barranco-guayadeque"
+      ]
+    },
+    {
+      "id": "tradiciones",
+      "label": "Traditions",
+      "emoji": "💃",
+      "color": "#a855f7",
+      "pois": [
+        "tradiciones",
+        "las-palmas",
+        "roque-nublo",
+        "lucha-canaria",
+        "carnaval-las-palmas"
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "label": "Curiosities",
+      "emoji": "🔍",
+      "color": "#06b6d4",
+      "pois": [
+        "curiosidades",
+        "maspalomas",
+        "confital",
+        "poema-del-mar",
+        "playa-de-amadores"
+      ]
+    }
+  ],
+  "municipios": [
+    {
+      "slug": "las-palmas",
+      "name": "Las Palmas de Gran Canaria",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "shortDescription": "Capital cosmopolita con playa urbana y casco histórico Patrimonio de la Humanidad",
+      "description": "Las Palmas de Gran Canaria es la capital de la isla y la ciudad más grande de Canarias. Su casco histórico de Vegueta, con la catedral de Santa Ana y la Casa de Colón, es Patrimonio de la Humanidad. La playa de Las Canteras, en pleno centro urbano, es una de las mejores playas urbanas de Europa. Una ciudad que combina cultura, historia atlántica y vida moderna.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    },
+    {
+      "slug": "san-bartolome",
+      "name": "San Bartolomé de Tirajana",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 27.74560,
+        "lng": -15.58213
+      },
+      "shortDescription": "El sur de Gran Canaria: dunas de Maspalomas, Playa del Inglés y sol todo el año",
+      "description": "San Bartolomé de Tirajana alberga el corazón turístico del sur de Gran Canaria. Las dunas de Maspalomas, protegidas como Reserva de la Biosfera, se extienden hasta el faro más icónico del archipiélago. Playa del Inglés concentra kilómetros de arena dorada y una de las mayores ofertas de ocio de Europa. En el interior, el barranco de Fataga esconde palmeras y silencio.",
+      "heroImage": "/images/gran-canaria/maspalomas/hero.avif"
+    },
+    {
+      "slug": "mogan",
+      "name": "Mogán",
+      "emoji": "⚓",
+      "coordinates": {
+        "lat": 27.84140,
+        "lng": -15.77006
+      },
+      "shortDescription": "La Venecia canaria: puerto de colores, aguas turquesa y calas escondidas",
+      "description": "Mogán es el municipio más occidental del sur de Gran Canaria. Puerto de Mogán, conocido como la pequeña Venecia canaria, deslumbra con sus canales, flores y arquitectura blanca. Sus calas de aguas turquesa, como Amadores o la salvaje Playa de Güi-Güi, combinan con un interior de barrancos profundos casi sin explorar.",
+      "heroImage": "/images/gran-canaria/playa-de-amadores/hero.avif"
+    },
+    {
+      "slug": "tejeda",
+      "name": "Tejeda",
+      "emoji": "🗿",
+      "coordinates": {
+        "lat": 27.97528,
+        "lng":-15.6533
+      },
+      "shortDescription": "El corazón de piedra de Gran Canaria: Roque Nublo, cumbres y silencio",
+      "description": "Tejeda es el municipio del centro montañoso de Gran Canaria. El Roque Nublo, monolito volcánico de 80 metros y símbolo de la isla, se alza aquí a casi 1.800 metros. El pueblo, con sus casas encaladas y almendros en flor cada febrero, es uno de los más bellos de Canarias. Las vistas desde la Cruz de Tejeda abarcan toda la isla.",
+      "heroImage": "/images/gran-canaria/roque-nublo/hero.avif"
+    },
+    {
+      "slug": "agaete",
+      "name": "Agaete",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 28.07968,
+        "lng": -15.72830
+      },
+      "shortDescription": "Piscinas naturales de lava, el bosque de Tamadaba y el puerto más pintoresco del norte",
+      "description": "Agaete es un municipio del noroeste de Gran Canaria que concentra paisajes de gran contraste. Las piscinas naturales de La Laja, excavadas en la roca volcánica, son de las más espectaculares de las islas. El Bosque de Tamadaba, reserva de pinos canarios en los acantilados, cae directamente al Atlántico. El puerto de Las Nieves y su ermita son escala obligada.",
+      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+    },
+    {
+      "slug": "aguimes",
+      "name": "Agüimes",
+      "emoji": "🏞️",
+      "coordinates": {
+    "lat": 27.89667,
+    "lng":-15.47896
+      },
+      "shortDescription": "Barranco de Guayadeque, cuevas habitadas y el casco histórico mejor conservado del este",
+      "description": "Agüimes es la puerta al este de Gran Canaria. Su casco histórico, uno de los mejor conservados de la isla, rodea una plaza mayor de piedra volcánica. El barranco de Guayadeque es único en Europa: familias llevan siglos viviendo en cuevas excavadas en la roca, y sus restaurantes-cueva sirven cocina tradicional canaria.",
+      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+    },
+    {
+      "slug": "arucas",
+      "name": "Arucas",
+      "emoji": "🍌",
+      "coordinates": {
+        "lat": 28.118,
+        "lng": -15.523
+      },
+      "shortDescription": "La catedral gótica de basalto negro y la capital del plátano canario",
+      "description": "Arucas es conocida por su imponente catedral de San Juan Bautista, construida en piedra volcánica negra en un estilo neogótico que tardó un siglo en terminarse. El municipio es también el corazón de la producción de plátano canario, con plantaciones que cubren sus laderas. El Charco de San Lorenzo es un oasis natural a cinco minutos del casco.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    },
+    {
+      "slug": "teror",
+      "name": "Teror",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 28.058,
+        "lng": -15.548
+      },
+      "shortDescription": "El pueblo de peregrinación de Gran Canaria y sus casas señoriales con balcones de madera",
+      "description": "Teror es el municipio de peregrinación de Gran Canaria. La basílica de Nuestra Señora del Pino, patrona de la isla, recibe miles de fieles cada 8 de septiembre. El casco histórico es extraordinario: casas señoriales del siglo XVII y XVIII con balcones de madera tallada enmarcan una de las calles más fotografiadas de Canarias.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    },
+    {
+      "slug": "firgas",
+      "name": "Firgas",
+      "emoji": "💧",
+      "coordinates": {
+        "lat": 28.067,
+        "lng": -15.574
+      },
+      "shortDescription": "El agua que baja por el paseo de Canarias y los miradores del norte verde",
+      "description": "Firgas es famosa en toda España por su agua mineral, embotellada desde el siglo XIX. El Paseo de Canarias, donde el agua fluye por canales decorados con azulejos representando los municipios de Gran Canaria, es su monumento más singular. Rodeada de laurisilva y vegetación exuberante, es el contrapunto verde al árido sur.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    },
+    {
+      "slug": "galdar",
+      "name": "Gáldar",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat":28.18163,
+        "lng": -15.69268
+      },
+      "shortDescription": "Capital de los guanches: Cueva Pintada, pinturas rupestres y el noroeste atlántico",
+      "description": "Gáldar fue la capital del reino guanche del norte de Gran Canaria antes de la conquista española. La Cueva Pintada, descubierta en 1873, es el yacimiento arqueológico prehispánico más importante del archipiélago, con pinturas geométricas de más de mil años de antigüedad. La playa de Sardina del Norte, tranquila y poco turística, cierra el municipio hacia el Atlántico.",
+      "heroImage": "/images/gran-canaria/cueva-pintada/hero.avif"
+    },
+    {
+      "slug": "aldea",
+      "name": "La Aldea de San Nicolás",
+      "emoji": "🏔️",
+      "coordinates": {
+    "lat": 27.97676,
+    "lng": -15.82718
+      },
+      "shortDescription": "El municipio más aislado: acantilados del Balcón, Los Azulejos y el oeste salvaje",
+      "description": "La Aldea de San Nicolás es el municipio más aislado y menos visitado de Gran Canaria, y por eso uno de los más auténticos. El Mirador del Balcón asoma sobre acantilados de 300 metros directamente al Atlántico. Los Azulejos, una formación de roca multicolor única en las islas, emerge entre barrancos sin nombre. Un Gran Canaria diferente.",
+      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+    },
+    {
+      "slug": "santa-brigida",
+      "name": "Santa Brígida",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 28.042,
+        "lng": -15.465
+      },
+      "shortDescription": "La Caldera de Bandama y los viñedos de la cuenca interior junto a Las Palmas",
+      "description": "Santa Brígida es el municipio residencial y vitícola del interior cercano a Las Palmas. La Caldera de Bandama, un cráter volcánico perfectamente conservado de un kilómetro de diámetro, domina el paisaje. Sus viñedos producen algunos de los vinos más singulares de Canarias. El Monte Coello y el parque rural ofrecen rutas entre laurisilva a diez minutos de la capital.",
+      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+    },
+    {
+      "slug": "telde",
+      "name": "Telde",
+      "emoji": "🏺",
+      "coordinates": {
+        "lat": 27.993,
+        "lng": -15.417
+      },
+      "shortDescription": "Segunda ciudad de la isla: casco histórico mudéjar, playas de roca volcánica y arqueología",
+      "description": "Telde es la segunda ciudad de Gran Canaria y uno de sus municipios más antiguos. Su casco histórico de San Francisco, con arquitectura mudéjar, conserva iglesias y casas señoriales del siglo XVI. La costa este, con playas como Tufia y El Cabrón, es un paraíso para el submarinismo por sus fondos volcánicos. El yacimiento de Cuatro Puertas es uno de los más importantes de la isla.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    },
+    {
+      "slug": "moya",
+      "name": "Moya",
+      "emoji": "🌿",
+      "coordinates": {
+        "lat":28.04406,
+        "lng":-15.62635
+      },
+      "shortDescription": "El bosque de Los Tilos, el barranco de Azuaje y el verde profundo del norte",
+      "description": "Moya es uno de los municipios más desconocidos y más hermosos del norte de Gran Canaria. El bosque de Los Tilos de Moya es el único bosque de tilos (Ocotea foetens) de la isla, una reliquia vegetal del Terciario que sobrevivió a las glaciaciones. El barranco de Azuaje combina senderos entre helechos gigantes y aguas minerales.",
+      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+    },
+    {
+      "slug": "guia",
+      "name": "Santa María de Guía",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 28.11162,
+        "lng": -15.64723
+      },
+      "shortDescription": "El Cenobio de Valerón, queso de flor y la costa noroeste entre acantilados",
+      "description": "Santa María de Guía es famosa por dos cosas en toda Canarias: el Cenobio de Valerón, un conjunto de 300 cuevas artificiales guanches excavadas en la roca que servía de granero comunal, y el queso de flor, un queso artesano elaborado con cuajo vegetal de cardo que tiene Denominación de Origen propia. La costa, con playas poco conocidas, cierra el municipio.",
+      "heroImage": "/images/gran-canaria/cueva-pintada/hero.avif"
+    },
+    {
+      "slug": "vega-san-mateo",
+      "name": "Vega de San Mateo",
+      "emoji": "🌾",
+      "coordinates": {
+        "lat": 28.02195,
+        "lng":-15.51458
+      },
+      "shortDescription": "El techo de Gran Canaria: Pico de las Nieves, mercado rural y la cumbre entre nubes",
+      "description": "Vega de San Mateo es el municipio de la cumbre central de Gran Canaria. El Pico de las Nieves, a 1.949 metros, es el punto más alto de la isla y ofrece vistas de 360 grados en los días claros. El mercado del agricultor de San Mateo, celebrado los fines de semana, es el mejor de la isla para comprar productos frescos de las cumbres: quesos, papas negras, frutas y miel.",
+      "heroImage": "/images/gran-canaria/roque-nublo/hero.avif"
+    },
+    {
+      "slug": "ingenio",
+      "name": "Ingenio",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 27.91,
+        "lng": -15.431
+      },
+      "shortDescription": "Artesanía canaria, calados y la costa este de piedra volcánica",
+      "description": "Ingenio es el municipio artesano de Gran Canaria. Sus talleres de bordados y calados, una tradición transmitida de madres a hijas durante siglos, producen piezas que son las más valoradas del archipiélago. El Museo de Piedras y Artesanía Canaria reúne la mayor colección de minerales volcánicos de las islas. La costa, tranquila y local, es aún desconocida para el turismo.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    }
+  ]
+}

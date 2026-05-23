@@ -1,0 +1,18 @@
+{
+  "routes": [
+    {
+      "slug": "volcano-route",
+      "name": "Ruta del Volcán",
+      "description": "Recorre el Parque Nacional del Teide y los paisajes más espectaculares de Tenerife. Desde los campos de lava hasta la cima del volcán, una experiencia única en Europa.",
+      "island": "tenerife",
+      "pois": ["teide", "santa-cruz", "los-gigantes"],
+      "duration": "1 día",
+      "distance": "45 km",
+      "type": "driving",
+      "price": 4.99,
+      "currency": "EUR",
+      "audioLanguages": ["es", "en", "de", "no", "da", "fi", "sv"],
+      "images": { "hero": "/images/tenerife/routes/volcano-route/hero.avif" }
+    }
+  ]
+}

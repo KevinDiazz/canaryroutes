@@ -1,0 +1,201 @@
+{
+  "pois": [
+    {
+      "slug": "teide",
+      "name": "Teide",
+      "description": "Spain's highest volcano at 3,715 metres. A UNESCO World Heritage National Park. Its lunar lava landscapes and cable car to the summit make it the most visited place in Spain.",
+      "shortDescription": "Spain's highest volcano, UNESCO World Heritage Site",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2723,
+        "lng": -16.6424
+      },
+      "images": {
+        "hero": "/images/tenerife/teide/hero.avif",
+        "gallery": [
+          "/images/tenerife/teide/1.avif"
+        ]
+      },
+      "audioPreview": "/audio/previews/en/teide-preview.mp3",
+      "hasPremiumAudio": true,
+      "premiumRouteId": "volcano-route",
+      "tags": [
+        "volcano",
+        "national-park",
+        "hiking",
+        "cable-car",
+        "summit"
+      ],
+      "visitDuration": "3-5h",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "top": true,
+      "municipio": "la-orotava"
+    },
+    {
+      "slug": "santa-cruz",
+      "name": "Santa Cruz de Tenerife",
+      "description": "Capital of Tenerife and home to Spain's most famous Carnival, declared an International Tourist Interest event. Major commercial port, García Sanabria Park and the modern architecture of Calatrava's Auditorium.",
+      "shortDescription": "Capital of Tenerife, home to Spain's most famous Carnival",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4636,
+        "lng": -16.2518
+      },
+      "images": {
+        "hero": "/images/tenerife/santa-cruz/hero.avif",
+        "gallery": [
+          "/images/tenerife/santa-cruz/1.avif"
+        ]
+      },
+      "audioPreview": "/audio/previews/en/santa-cruz-preview.mp3",
+      "hasPremiumAudio": true,
+      "premiumRouteId": "volcano-route",
+      "tags": [
+        "city",
+        "carnival",
+        "culture",
+        "port",
+        "auditorium"
+      ],
+      "visitDuration": "half day",
+      "emoji": "🏙️",
+      "municipio": "santa-cruz",
+      "top": true
+    },
+    {
+      "slug": "los-gigantes",
+      "name": "Los Gigantes",
+      "description": "Cliffs up to 600 metres tall dropping vertically into the Atlantic. Boat trips to spot dolphins and pilot whales in their natural habitat. The most dramatic village on the west coast of Tenerife.",
+      "shortDescription": "600m cliffs and whale watching on the west coast",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2441,
+        "lng": -16.8399
+      },
+      "images": {
+        "hero": "/images/tenerife/los-gigantes/hero.avif",
+        "gallery": [
+          "/images/tenerife/los-gigantes/1.avif"
+        ]
+      },
+      "audioPreview": "/audio/previews/en/los-gigantes-preview.mp3",
+      "hasPremiumAudio": true,
+      "premiumRouteId": "volcano-route",
+      "tags": [
+        "cliffs",
+        "whales",
+        "dolphins",
+        "boat",
+        "west"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏔️",
+      "top": true,
+      "municipio": "santiago-del-teide"
+    }
+  ],
+  "sections": [
+    {
+      "id": "historia",
+      "label": "History",
+      "emoji": "🏰",
+      "color": "#6366f1",
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
+    },
+    {
+      "id": "cultura-canaria",
+      "label": "Canarian Culture",
+      "emoji": "🎭",
+      "color": "#ec4899",
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
+    },
+    {
+      "id": "gastronomia",
+      "label": "Gastronomy",
+      "emoji": "🍽️",
+      "color": "#f97316",
+      "pois": [
+        "santa-cruz"
+      ]
+    },
+    {
+      "id": "naturaleza",
+      "label": "Nature",
+      "emoji": "🌿",
+      "color": "#22c55e",
+      "pois": [
+        "teide",
+        "los-gigantes"
+      ]
+    },
+    {
+      "id": "tradiciones",
+      "label": "Traditions",
+      "emoji": "💃",
+      "color": "#a855f7",
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "label": "Curiosities",
+      "emoji": "🔍",
+      "color": "#06b6d4",
+      "pois": [
+        "teide",
+        "los-gigantes"
+      ]
+    }
+  ],
+  "municipios": [
+    {
+      "slug": "santa-cruz",
+      "name": "Santa Cruz de Tenerife",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 28.4636,
+        "lng": -16.2518
+      },
+      "shortDescription": "Capital de Tenerife, sede del Carnaval más famoso de España",
+      "description": "Santa Cruz de Tenerife es la capital de la isla y una de las ciudades más animadas de Canarias. El Carnaval de Santa Cruz, declarado de Interés Turístico Internacional, es el segundo más grande del mundo tras el de Río. El Auditorio de Calatrava y el Parque García Sanabria dan a la ciudad un perfil cultural singular. El puerto es uno de los más activos del Atlántico.",
+      "heroImage": "/images/tenerife/santa-cruz/hero.avif"
+    },
+    {
+      "slug": "la-orotava",
+      "name": "La Orotava",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 28.2723,
+        "lng": -16.6424
+      },
+      "shortDescription": "El Parque Nacional del Teide, volcán más alto de España y Patrimonio de la Humanidad",
+      "description": "La Orotava alberga el corazón del Parque Nacional del Teide, el volcán más visitado del mundo y el pico más alto de España con 3.715 metros. Los paisajes lunares de lava solidificada, el mar de nubes que rodea la caldera y el teleférico hasta la cumbre hacen de este municipio la visita imprescindible de Tenerife. Patrimonio de la Humanidad por la UNESCO.",
+      "heroImage": "/images/tenerife/teide/hero.avif"
+    },
+    {
+      "slug": "santiago-del-teide",
+      "name": "Santiago del Teide",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 28.2441,
+        "lng": -16.8399
+      },
+      "shortDescription": "Los acantilados de Los Gigantes y el avistamiento de ballenas en el oeste de Tenerife",
+      "description": "Santiago del Teide es el municipio del espectacular oeste de Tenerife. Los Gigantes, acantilados de hasta 600 metros que caen verticalmente al Atlántico, crean el paisaje más dramático de la isla. Las aguas frente a la costa albergan una de las colonias de cetáceos más estables de Europa: delfines y ballenas piloto son avistables casi a diario en temporada.",
+      "heroImage": "/images/tenerife/los-gigantes/hero.avif"
+    }
+  ]
+}

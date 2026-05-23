@@ -1,0 +1,1050 @@
+{
+  "pois": [
+    {
+      "slug": "las-palmas",
+      "name": "Las Palmas de Gran Canaria",
+      "description": "Capital cosmopolita con playa urbana, catedral y casco histórico Vegueta, Patrimonio de la Humanidad. La ciudad más grande de las Islas Canarias combina cultura, historia y playa en un entorno único.",
+      "shortDescription": "Capital y ciudad más grande de las Islas Canarias",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/las-palmas/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/las-palmas/1.avif"
+        ]
+      },
+      "audioPreview": "/audio/previews/es/las-palmas-preview.mp3",
+      "hasPremiumAudio": true,
+      "premiumRouteId": "north-route",
+      "tags": [
+        "ciudad",
+        "cultura",
+        "playa-urbana",
+        "historia",
+        "vegueta"
+      ],
+      "visitDuration": "medio día",
+      "emoji": "🏙️",
+      "municipio": "las-palmas",
+      "top": true
+    },
+    {
+      "slug": "maspalomas",
+      "name": "Maspalomas",
+      "description": "Dunas de arena dorada protegidas, laguna natural y el faro más icónico de las Canarias. Un paisaje desértico junto al Atlántico único en Europa.",
+      "shortDescription": "Dunas protegidas y faro icónico del sur",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.7402,
+        "lng": -15.5868
+      },
+      "images": {
+        "hero": "/images/gran-canaria/maspalomas/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/maspalomas/1.avif"
+        ]
+      },
+      "audioPreview": "/audio/previews/es/maspalomas-preview.mp3",
+      "hasPremiumAudio": true,
+      "premiumRouteId": "south-coast-route",
+      "tags": [
+        "dunas",
+        "playa",
+        "naturaleza",
+        "faro",
+        "sur"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": true,
+      "municipio": "san-bartolome"
+    },
+    {
+      "slug": "roque-nublo",
+      "name": "Roque Nublo",
+      "description": "Monolito volcánico de 80 metros en el corazón de Gran Canaria. Ruta de senderismo con vistas panorámicas que en días claros alcanzan el Teide en Tenerife.",
+      "shortDescription": "Monolito volcánico símbolo de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9688,
+        "lng": -15.6096
+      },
+      "images": {
+        "hero": "/images/gran-canaria/roque-nublo/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/roque-nublo/1.avif"
+        ]
+      },
+      "audioPreview": "/audio/previews/es/roque-nublo-preview.mp3",
+      "hasPremiumAudio": true,
+      "premiumRouteId": "summit-route",
+      "tags": [
+        "senderismo",
+        "volcánico",
+        "cumbres",
+        "panorámica"
+      ],
+      "visitDuration": "3-5h",
+      "difficulty": "moderate",
+      "emoji": "🗿",
+      "top": true,
+      "municipio": "tejeda"
+    },
+    {
+      "slug": "playa-de-amadores",
+      "name": "Playa de Amadores",
+      "description": "Playa artificial en forma de concha con arena dorada y aguas turquesa muy tranquilas. Inaugurada en 2001, es una de las más fotografiadas del sur de Gran Canaria. Ideal para familias.",
+      "shortDescription": "Playa en forma de concha con aguas turquesa",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.7956,
+        "lng": -15.7341
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playa-de-amadores/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/playa-de-amadores/1.avif"
+        ]
+      },
+      "premiumRouteId": "south-coast-route",
+      "tags": [
+        "playa",
+        "familias",
+        "turquesa",
+        "sur",
+        "mogan"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "municipio": "mogan"
+    },
+    {
+      "slug": "caldera-bandama",
+      "name": "Caldera de Bandama",
+      "description": "Un cráter volcánico perfectamente conservado de un kilómetro de diámetro y 200 metros de profundidad, a solo 15 minutos de Las Palmas. La senda hasta el borde del cráter ofrece vistas de toda la isla y del Atlántico.",
+      "shortDescription": "Cráter volcánico perfectamente conservado cerca de Las Palmas",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9731,
+        "lng": -15.4424
+      },
+      "images": {
+        "hero": "/images/gran-canaria/caldera-bandama/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/caldera-bandama/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "volcán",
+        "cráter",
+        "senderismo",
+        "panorámica",
+        "geología"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "municipio": "santa-brigida"
+    },
+    {
+      "slug": "cueva-pintada",
+      "name": "Cueva Pintada",
+      "description": "El yacimiento arqueológico prehispánico más importante de las Islas Canarias. Descubierta en 1873 en Gáldar, sus paredes están cubiertas de pinturas geométricas realizadas por los antiguos canarios (guanches) hace más de 1.000 años.",
+      "shortDescription": "Pinturas rupestres prehistóricas de los antiguos guanches",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1462,
+        "lng": -15.6522
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cueva-pintada/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/cueva-pintada/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "guanches",
+        "prehistórico",
+        "arqueología",
+        "cueva",
+        "gáldar"
+      ],
+      "visitDuration": "1-2h",
+      "emoji": "🎨",
+      "sectionOnly": true
+    },
+    {
+      "slug": "catedral-vegueta",
+      "name": "Catedral de Las Palmas",
+      "description": "La Catedral de Santa Ana en el barrio de Vegueta se comenzó en 1497 y tardó cuatro siglos en completarse. Mezcla de estilos gótico, renacentista y barroco, se alza sobre la plaza más antigua del continente americano y africano.",
+      "shortDescription": "Catedral gótica iniciada en 1497 en el corazón de Vegueta",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0997,
+        "lng": -15.4143
+      },
+      "images": {
+        "hero": "/images/gran-canaria/catedral-vegueta/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/catedral-vegueta/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "catedral",
+        "gótico",
+        "vegueta",
+        "historia",
+        "arquitectura"
+      ],
+      "visitDuration": "1h",
+      "emoji": "⛪",
+      "sectionOnly": true
+    },
+    {
+      "slug": "casa-de-colon",
+      "name": "Casa de Colón",
+      "description": "La casa donde Cristóbal Colón se alojó durante su primer viaje a América en 1492. Hoy es un museo con cartas de navegación, artefactos precolombinos y reproducciones de las tres carabelas. Uno de los mejores ejemplos de arquitectura civil canaria.",
+      "shortDescription": "Donde Colón hizo escala en 1492 camino a América",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0993,
+        "lng": -15.4163
+      },
+      "images": {
+        "hero": "/images/gran-canaria/casa-de-colon/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/casa-de-colon/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "colón",
+        "historia",
+        "museo",
+        "vegueta",
+        "1492"
+      ],
+      "visitDuration": "1-2h",
+      "emoji": "⚓",
+      "sectionOnly": true
+    },
+    {
+      "slug": "pueblo-canario",
+      "name": "Pueblo Canario",
+      "description": "Conjunto al aire libre diseñado en los años 30 por el pintor Néstor Martín-Fernández de la Torre para preservar la arquitectura tradicional canaria. Cada domingo grupos de folclore local bailan la isa y la folía en la plaza central.",
+      "shortDescription": "Arquitectura canaria tradicional y bailes folclóricos",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1069,
+        "lng": -15.4266
+      },
+      "images": {
+        "hero": "/images/gran-canaria/pueblo-canario/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/pueblo-canario/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "arquitectura",
+        "folclore",
+        "baile",
+        "artesanía",
+        "tradición"
+      ],
+      "visitDuration": "1-2h",
+      "emoji": "🏡",
+      "sectionOnly": true
+    },
+    {
+      "slug": "mercado-vegueta",
+      "name": "Mercado de Vegueta",
+      "description": "Mercado cubierto de hierro de 1854 donde agricultores y pescadores locales venden su producto cada mañana. El mejor lugar de la isla para probar gofio, almogrote, frutas tropicales frescas y pescado de la lonja.",
+      "shortDescription": "Mercado histórico cubierto con producto local desde 1854",
+      "island": "gran-canaria",
+      "category": "food",
+      "coordinates": {
+        "lat": 28.0992,
+        "lng": -15.4165
+      },
+      "images": {
+        "hero": "/images/gran-canaria/mercado-vegueta/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/mercado-vegueta/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "mercado",
+        "comida",
+        "gofio",
+        "local",
+        "fresco"
+      ],
+      "visitDuration": "1h",
+      "emoji": "🛒",
+      "sectionOnly": true
+    },
+    {
+      "slug": "papas-arrugadas",
+      "name": "Papas Arrugadas y Mojo",
+      "description": "El plato emblemático de las Islas Canarias: patatas pequeñas cocidas en agua con mucha sal hasta que la piel se arruga. Se sirven siempre con mojo rojo (guindilla y comino) o mojo verde (cilantro y perejil). Todos los restaurantes de la isla las tienen — ninguna visita está completa sin probarlas.",
+      "shortDescription": "Papas saladas con mojo rojo o verde, símbolo de la cocina canaria",
+      "island": "gran-canaria",
+      "category": "food",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/papas-arrugadas/hero.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "comida",
+        "canario",
+        "papas",
+        "mojo",
+        "tradición"
+      ],
+      "emoji": "🥔",
+      "sectionOnly": true
+    },
+    {
+      "slug": "barranco-guayadeque",
+      "name": "Barranco de Guayadeque",
+      "description": "Un barranco dramático en el interior donde familias llevan siglos viviendo en cuevas excavadas en la roca. El barranco alberga también plantas endémicas muy raras, restaurantes-cueva con cocina tradicional y una pequeña iglesia rupestre.",
+      "shortDescription": "Barranco con casas-cueva habitadas y plantas endémicas",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9024,
+        "lng": -15.518
+      },
+      "images": {
+        "hero": "/images/gran-canaria/barranco-guayadeque/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/barranco-guayadeque/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "barranco",
+        "casas-cueva",
+        "endémico",
+        "naturaleza",
+        "rural"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🏞️",
+      "sectionOnly": true
+    },
+    {
+      "slug": "lucha-canaria",
+      "name": "Lucha Canaria",
+      "description": "El deporte más antiguo de las Islas Canarias, practicado por los guanches antes de la conquista española. Dos luchadores se enfrentan en un círculo de arena (terrero) intentando que cualquier parte del cuerpo del rival toque el suelo. Los encuentros se celebran en terreros locales cada fin de semana.",
+      "shortDescription": "Lucha guanche ancestral viva en los terreros locales",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/lucha-canaria/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/lucha-canaria/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "deporte",
+        "guanches",
+        "tradición",
+        "lucha",
+        "cultura"
+      ],
+      "emoji": "🤼",
+      "sectionOnly": true
+    },
+    {
+      "slug": "carnaval-las-palmas",
+      "name": "Carnaval de Las Palmas",
+      "description": "El segundo carnaval más grande del mundo después del de Río de Janeiro, celebrado cada febrero. La elección de la Reina del Carnaval llena el parque Santa Catalina con más de 200.000 personas. La Cabalgata del Carnaval se extiende durante kilómetros por el paseo marítimo.",
+      "shortDescription": "El segundo carnaval más grande del mundo, cada febrero",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1361,
+        "lng": -15.4292
+      },
+      "images": {
+        "hero": "/images/gran-canaria/carnaval-las-palmas/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/carnaval-las-palmas/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "carnaval",
+        "festival",
+        "febrero",
+        "disfraces",
+        "cabalgata"
+      ],
+      "emoji": "🎭",
+      "sectionOnly": true
+    },
+    {
+      "slug": "confital",
+      "name": "El Confital",
+      "description": "Playa volcánica salvaje en la punta norte de Las Palmas, desconocida para la mayoría de los turistas. Alberga una de las mejores olas de izquierda de Europa, formada por coladas de lava que crearon un canal natural. En días de calma, el agua cristalina es perfecta para hacer snorkel entre rocas volcánicas.",
+      "shortDescription": "Arrecife volcánico salvaje y ola de izquierda de clase mundial",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1477,
+        "lng": -15.4452
+      },
+      "images": {
+        "hero": "/images/gran-canaria/confital/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/confital/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "surf",
+        "volcánico",
+        "escondido",
+        "snorkel",
+        "local"
+      ],
+      "visitDuration": "2-4h",
+      "emoji": "🏄",
+      "sectionOnly": true
+    },
+    {
+      "slug": "poema-del-mar",
+      "name": "Poema del Mar",
+      "description": "Uno de los acuarios más espectaculares de Europa, inaugurado en Las Palmas en 2017. Diseñado alrededor de un túnel de arrecife de coral y un tanque principal de 33 millones de litros, recrea el fondo del Atlántico con tiburones, rayas y miles de peces. El propio edificio, con forma de ola, es un hito arquitectónico.",
+      "shortDescription": "Acuario de clase mundial con tanque de arrecife de 33 millones de litros",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1361,
+        "lng": -15.4292
+      },
+      "images": {
+        "hero": "/images/gran-canaria/poema-del-mar/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/poema-del-mar/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "acuario",
+        "tiburones",
+        "familias",
+        "moderno",
+        "atlántico"
+      ],
+      "visitDuration": "2-3h",
+      "emoji": "🦈",
+      "sectionOnly": true
+    },
+    {
+      "slug": "historia",
+      "name": "Conoce la Historia",
+      "description": "La historia de Gran Canaria comienza hace más de 2.000 años con los guanches, un pueblo beréber que pobló la isla y dejó pinturas rupestres, enterramientos y ídolos tallados que aún desconciertan a los historiadores. En 1478, la conquista española lo transformó todo: una nueva lengua, una nueva religión y un papel estratégico como escala entre Europa y las Américas. Cristóbal Colón aprovisionó sus barcos aquí en 1492 antes de adentrarse en lo desconocido. Camina por los adoquines de Vegueta y caminas por capas de toda esa historia: un archivo vivo del Atlántico.",
+      "shortDescription": "De los pintores de cuevas guanches a Colón y la conquista española",
+      "island": "gran-canaria",
+      "category": "culture",
+      "images": {
+        "hero": "/images/gran-canaria/catedral-vegueta/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/cueva-pintada/hero.avif",
+          "/images/gran-canaria/casa-de-colon/hero.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "historia",
+        "guanches",
+        "conquista",
+        "colón",
+        "vegueta"
+      ],
+      "emoji": "🏰",
+      "sectionOnly": true
+    },
+    {
+      "slug": "cultura-canaria",
+      "name": "Cultura Canaria",
+      "description": "La cultura canaria es una fusión forjada a lo largo de cinco siglos: raíces guanches, colonos españoles, ritmos africanos y ecos latinoamericanos traídos de vuelta cruzando el Atlántico.",
+      "shortDescription": "Una fusión de influencias guanches, españolas y atlánticas",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/pueblo-canario/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/casa-de-colon/hero.avif",
+          "/images/gran-canaria/catedral-vegueta/hero.avif"
+        ]
+      },
+      "audioPreview": "audio/",
+      "audioTranscript": "<p><strong>La cultura canaria</strong> nace del cruce entre raíces guanches, herencia castellana y viajes atlánticos.</p><p>En sus plazas, balcones, bailes y cocinas aparece una identidad tranquila, mestiza y profundamente insular.</p><p><strong>La cultura canaria</strong> nace del cruce entre raíces guanches, herencia castellana y viajes atlánticos.</p><p>En sus plazas, balcones, bailes y cocinas aparece una identidad tranquila, mestiza y profundamente insular.</p>",
+      "hasPremiumAudio": true,
+      "tags": [
+        "cultura",
+        "folclore",
+        "arquitectura",
+        "danza",
+        "identidad"
+      ],
+      "emoji": "🎭",
+      "sectionOnly": true
+    },
+    {
+      "slug": "gastronomia-canaria",
+      "name": "Gastronomía Canaria",
+      "description": "La gastronomía canaria nace de la sencillez y del territorio: papas cultivadas en suelos volcánicos, pescados atlánticos, quesos artesanos y recetas heredadas entre islas durante generaciones.",
+      "shortDescription": "Sabores volcánicos, mar atlántico y tradición isleña",
+      "island": "gran-canaria",
+      "category": "gastronomy",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/gastronomia-canaria/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/gastronomia-canaria/papas-arrugadas.avif",
+          "/images/gran-canaria/gastronomia-canaria/queso-canario.avif"
+        ]
+      },
+      "audioPreview": "audio/",
+      "audioTranscript": "<p><strong>La gastronomía canaria</strong> habla de tierra volcánica, océano y tradición.</p><p>Sabores sencillos pero profundamente ligados al paisaje: papas arrugadas, mojos, pescados frescos y quesos con identidad propia.</p>",
+      "hasPremiumAudio": true,
+      "tags": [
+        "gastronomía",
+        "tradición",
+        "comida canaria",
+        "sabores locales"
+      ],
+      "emoji": "🍽️",
+      "sectionOnly": true
+    },
+    {
+      "slug": "papas-arrugadas",
+      "name": "Papas Arrugadas y Mojo",
+      "description": "El plato más emblemático de Canarias. Pequeñas papas cocidas en agua con sal hasta que su piel se arruga, acompañadas de mojo rojo o verde.",
+      "shortDescription": "El sabor más icónico de Canarias",
+      "island": "gran-canaria",
+      "category": "gastronomy",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/gastronomia/papas-arrugadas/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/gastronomia/papas-arrugadas/mojo-rojo.avif"
+        ]
+      },
+      "audioPreview": "audio/",
+      "audioTranscript": "<p><strong>Las papas arrugadas</strong> son probablemente el plato más reconocible de Canarias.</p><p>Su simplicidad es engañosa: tierra volcánica, sal y tradición convierten algo humilde en identidad gastronómica.</p>",
+      "hasPremiumAudio": true,
+      "tags": [
+        "papas",
+        "mojo",
+        "comida tradicional",
+        "canarias"
+      ],
+      "emoji": "🥔",
+      "sectionOnly": true
+    },
+    {
+      "slug": "quesos-canarios",
+      "name": "Quesos Canarios",
+      "description": "Canarias produce algunos de los quesos más reconocidos de España, especialmente de cabra, con sabores intensos marcados por el clima seco y los pastos insulares.",
+      "shortDescription": "Tradición quesera con carácter volcánico",
+      "island": "gran-canaria",
+      "category": "gastronomy",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/gastronomia/quesos/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/gastronomia/quesos/curado.avif"
+        ]
+      },
+      "audioPreview": "audio/",
+      "audioTranscript": "<p><strong>Los quesos canarios</strong> son parte esencial de la identidad isleña.</p><p>Muchos nacen de pequeñas producciones artesanales donde la cabra ha sido protagonista durante siglos.</p>",
+      "hasPremiumAudio": true,
+      "tags": [
+        "queso",
+        "artesanal",
+        "tradición",
+        "producto local"
+      ],
+      "emoji": "🧀",
+      "sectionOnly": true
+    },
+    {
+      "slug": "sabores-del-atlantico",
+      "name": "Sabores del Atlántico",
+      "description": "Vieja, cherne, sama y otros pescados atlánticos forman parte de una cocina profundamente ligada al mar.",
+      "shortDescription": "La cocina canaria también sabe a océano",
+      "island": "gran-canaria",
+      "category": "gastronomy",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/gastronomia/pescado/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/gastronomia/pescado/vieja.avif"
+        ]
+      },
+      "audioPreview": "audio/",
+      "audioTranscript": "<p><strong>Canarias mira al Atlántico también desde su cocina.</strong></p><p>Pescados frescos y recetas sencillas reflejan siglos de relación con el océano.</p>",
+      "hasPremiumAudio": true,
+      "tags": [
+        "pescado",
+        "atlántico",
+        "marisco",
+        "tradición"
+      ],
+      "emoji": "🐟",
+      "sectionOnly": true
+    },
+    {
+      "slug": "dulces-canarios",
+      "name": "Dulces Tradicionales",
+      "description": "Bienmesabe, truchas dulces, suspiros y postres heredados que mezclan almendra, miel y tradición festiva.",
+      "shortDescription": "El lado dulce de la tradición canaria",
+      "island": "gran-canaria",
+      "category": "gastronomy",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/gastronomia/dulces/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/gastronomia/dulces/bienmesabe.avif"
+        ]
+      },
+      "audioPreview": "audio/",
+      "audioTranscript": "<p><strong>La repostería canaria</strong> conserva sabores antiguos.</p><p>Almendra, miel y recetas transmitidas generación tras generación forman parte de su memoria culinaria.</p>",
+      "hasPremiumAudio": true,
+      "tags": [
+        "dulces",
+        "bienmesabe",
+        "tradición",
+        "postres"
+      ],
+      "emoji": "🍯",
+      "sectionOnly": true
+    },
+    {
+      "slug": "naturaleza",
+      "name": "Naturaleza",
+      "description": "Un solo trayecto en coche a través de Gran Canaria te lleva de la playa atlántica a la cumbre alpina en menos de una hora: una transición que le valió el apodo de 'Continente en Miniatura'. El sur es sahariano: dunas doradas, suculentas dispersas, sol abrasador. El centro es bosque de laurisilva y acantilados de basalto esculpidos por millones de años de erosión. El norte es verde y brumoso. En los barrancos crecen plantas endémicas que no existen en ningún otro lugar de la Tierra. Es Reserva de la Biosfera de la UNESCO, y la biodiversidad premia a quien se atreve a alejarse de la costa.",
+      "shortDescription": "Dunas, cráteres volcánicos, bosque de niebla y barrancos atlánticos",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9688,
+        "lng": -15.6096
+      },
+      "images": {
+        "hero": "/images/gran-canaria/roque-nublo/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/maspalomas/hero.avif",
+          "/images/gran-canaria/caldera-bandama/hero.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "biosfera",
+        "volcánico",
+        "dunas",
+        "endémico"
+      ],
+      "emoji": "🌿",
+      "sectionOnly": true
+    },
+    {
+      "slug": "tradiciones",
+      "name": "Tradiciones",
+      "description": "La tradición en Gran Canaria no es un museo: se vive cada fin de semana. La lucha canaria, el deporte ancestral traído por los guanches, llena los terreros locales los sábados por la tarde. El Carnaval de febrero convierte Las Palmas en el segundo mayor carnaval del planeta, rivalizando con Río. Las romerías suben descalzas a los santuarios de montaña. Ferias ganaderas y concursos de queso unen a los pueblos del interior. Y el silbo canario —una lengua silbada para comunicarse entre barrancos— tiene primos en valles remotos. Estas tradiciones sobrevivieron a la conquista, la emigración y el turismo masivo. Son tercas, y orgullosas de serlo.",
+      "shortDescription": "Lucha canaria, carnaval, romerías y un lenguaje silbado",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/carnaval-las-palmas/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/lucha-canaria/hero.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "tradiciones",
+        "carnaval",
+        "lucha",
+        "romería",
+        "folclore"
+      ],
+      "emoji": "💃",
+      "sectionOnly": true
+    },
+    {
+      "slug": "curiosidades",
+      "name": "Curiosidades",
+      "description": "Gran Canaria guarda una colección de récords y sorpresas que la mayoría de los visitantes nunca descubren. Su carnaval es oficialmente el segundo más grande del mundo. Tiene una ola de surf de clase mundial sobre un arrecife dentro del casco urbano. Uno de los acuarios más espectaculares de Europa abrió aquí en 2017, y el agua llega directamente del Atlántico por tuberías subterráneas. La isla tiene más microclimas que cualquier otra masa de tierra comparable en el planeta: doce zonas distintas en un área más pequeña que Londres. Sus dunas del sur son Reserva de la Biosfera rodeadas por el mayor complejo hotelero de Europa. Las reglas normales aquí no terminan de aplicar.",
+      "shortDescription": "Récords, joyas ocultas y datos que sorprenden hasta a los locales",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/poema-del-mar/hero.avif",
+        "gallery": [
+          "/images/gran-canaria/confital/hero.avif",
+          "/images/gran-canaria/maspalomas/hero.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "curiosidades",
+        "récords",
+        "oculto",
+        "datos",
+        "sorprendente"
+      ],
+      "emoji": "🔍",
+      "sectionOnly": true
+    }
+  ],
+  "sections": [
+    {
+      "id": "historia",
+      "label": "Historia",
+      "emoji": "🏰",
+      "color": "#6366f1",
+      "pois": [
+        "historia",
+        "las-palmas",
+        "roque-nublo",
+        "cueva-pintada",
+        "catedral-vegueta"
+      ]
+    },
+    {
+      "id": "cultura-canaria",
+      "label": "Cultura Canaria",
+      "emoji": "🎭",
+      "color": "#ec4899",
+      "pois": [
+        "cultura-canaria",
+        "las-palmas",
+        "casa-de-colon",
+        "pueblo-canario"
+      ]
+    },
+    {
+      "id": "gastronomia",
+      "label": "Gastronomía",
+      "emoji": "🍽️",
+      "color": "#f97316",
+      "pois": [
+        "gastronomia-canaria",
+        "papas-arrugadas",
+        "quesos-canarios",
+        "sabores-del-atlantico",
+        "dulces-canarios",
+        "mercados-locales"
+      ]
+    },
+    {
+      "id": "naturaleza",
+      "label": "Naturaleza",
+      "emoji": "🌿",
+      "color": "#22c55e",
+      "pois": [
+        "naturaleza",
+        "maspalomas",
+        "roque-nublo",
+        "caldera-bandama",
+        "barranco-guayadeque"
+      ]
+    },
+    {
+      "id": "tradiciones",
+      "label": "Tradiciones",
+      "emoji": "💃",
+      "color": "#a855f7",
+      "pois": [
+        "tradiciones",
+        "las-palmas",
+        "roque-nublo",
+        "lucha-canaria",
+        "carnaval-las-palmas"
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "label": "Curiosidades",
+      "emoji": "🔍",
+      "color": "#06b6d4",
+      "pois": [
+        "curiosidades",
+        "maspalomas",
+        "confital",
+        "poema-del-mar",
+        "playa-de-amadores"
+      ]
+    }
+  ],
+  "municipios": [
+    {
+      "slug": "las-palmas",
+      "name": "Las Palmas de Gran Canaria",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "shortDescription": "Capital cosmopolita con playa urbana y casco histórico Patrimonio de la Humanidad",
+      "description": "Las Palmas de Gran Canaria es la capital de la isla y la ciudad más grande de Canarias. Su casco histórico de Vegueta, con la catedral de Santa Ana y la Casa de Colón, es Patrimonio de la Humanidad. La playa de Las Canteras, en pleno centro urbano, es una de las mejores playas urbanas de Europa. Una ciudad que combina cultura, historia atlántica y vida moderna.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    },
+    {
+      "slug": "san-bartolome",
+      "name": "San Bartolomé de Tirajana",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 27.783,
+        "lng": -15.57
+      },
+      "shortDescription": "El sur de Gran Canaria: dunas de Maspalomas, Playa del Inglés y sol todo el año",
+      "description": "San Bartolomé de Tirajana alberga el corazón turístico del sur de Gran Canaria. Las dunas de Maspalomas, protegidas como Reserva de la Biosfera, se extienden hasta el faro más icónico del archipiélago. Playa del Inglés concentra kilómetros de arena dorada y una de las mayores ofertas de ocio de Europa. En el interior, el barranco de Fataga esconde palmeras y silencio.",
+      "heroImage": "/images/gran-canaria/maspalomas/hero.avif"
+    },
+    {
+      "slug": "mogan",
+      "name": "Mogán",
+      "emoji": "⚓",
+      "coordinates": {
+        "lat": 27.89,
+        "lng": -15.72
+      },
+      "shortDescription": "La Venecia canaria: puerto de colores, aguas turquesa y calas escondidas",
+      "description": "Mogán es el municipio más occidental del sur de Gran Canaria. Puerto de Mogán, conocido como la pequeña Venecia canaria, deslumbra con sus canales, flores y arquitectura blanca. Sus calas de aguas turquesa, como Amadores o la salvaje Playa de Güi-Güi, combinan con un interior de barrancos profundos casi sin explorar.",
+      "heroImage": "/images/gran-canaria/playa-de-amadores/hero.avif"
+    },
+    {
+      "slug": "tejeda",
+      "name": "Tejeda",
+      "emoji": "🗿",
+      "coordinates": {
+        "lat": 27.99,
+        "lng": -15.61
+      },
+      "shortDescription": "El corazón de piedra de Gran Canaria: Roque Nublo, cumbres y silencio",
+      "description": "Tejeda es el municipio del centro montañoso de Gran Canaria. El Roque Nublo, monolito volcánico de 80 metros y símbolo de la isla, se alza aquí a casi 1.800 metros. El pueblo, con sus casas encaladas y almendros en flor cada febrero, es uno de los más bellos de Canarias. Las vistas desde la Cruz de Tejeda abarcan toda la isla.",
+      "heroImage": "/images/gran-canaria/roque-nublo/hero.avif"
+    },
+    {
+      "slug": "agaete",
+      "name": "Agaete",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 28.099,
+        "lng": -15.7014
+      },
+      "shortDescription": "Piscinas naturales de lava, el bosque de Tamadaba y el puerto más pintoresco del norte",
+      "description": "Agaete es un municipio del noroeste de Gran Canaria que concentra paisajes de gran contraste. Las piscinas naturales de La Laja, excavadas en la roca volcánica, son de las más espectaculares de las islas. El Bosque de Tamadaba, reserva de pinos canarios en los acantilados, cae directamente al Atlántico. El puerto de Las Nieves y su ermita son escala obligada.",
+      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+    },
+    {
+      "slug": "aguimes",
+      "name": "Agüimes",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 27.902,
+        "lng": -15.45
+      },
+      "shortDescription": "Barranco de Guayadeque, cuevas habitadas y el casco histórico mejor conservado del este",
+      "description": "Agüimes es la puerta al este de Gran Canaria. Su casco histórico, uno de los mejor conservados de la isla, rodea una plaza mayor de piedra volcánica. El barranco de Guayadeque es único en Europa: familias llevan siglos viviendo en cuevas excavadas en la roca, y sus restaurantes-cueva sirven cocina tradicional canaria.",
+      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+    },
+    {
+      "slug": "arucas",
+      "name": "Arucas",
+      "emoji": "🍌",
+      "coordinates": {
+        "lat": 28.118,
+        "lng": -15.523
+      },
+      "shortDescription": "La catedral gótica de basalto negro y la capital del plátano canario",
+      "description": "Arucas es conocida por su imponente catedral de San Juan Bautista, construida en piedra volcánica negra en un estilo neogótico que tardó un siglo en terminarse. El municipio es también el corazón de la producción de plátano canario, con plantaciones que cubren sus laderas. El Charco de San Lorenzo es un oasis natural a cinco minutos del casco.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    },
+    {
+      "slug": "teror",
+      "name": "Teror",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 28.058,
+        "lng": -15.548
+      },
+      "shortDescription": "El pueblo de peregrinación de Gran Canaria y sus casas señoriales con balcones de madera",
+      "description": "Teror es el municipio de peregrinación de Gran Canaria. La basílica de Nuestra Señora del Pino, patrona de la isla, recibe miles de fieles cada 8 de septiembre. El casco histórico es extraordinario: casas señoriales del siglo XVII y XVIII con balcones de madera tallada enmarcan una de las calles más fotografiadas de Canarias.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    },
+    {
+      "slug": "firgas",
+      "name": "Firgas",
+      "emoji": "💧",
+      "coordinates": {
+        "lat": 28.067,
+        "lng": -15.574
+      },
+      "shortDescription": "El agua que baja por el paseo de Canarias y los miradores del norte verde",
+      "description": "Firgas es famosa en toda España por su agua mineral, embotellada desde el siglo XIX. El Paseo de Canarias, donde el agua fluye por canales decorados con azulejos representando los municipios de Gran Canaria, es su monumento más singular. Rodeada de laurisilva y vegetación exuberante, es el contrapunto verde al árido sur.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    },
+    {
+      "slug": "galdar",
+      "name": "Gáldar",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": 28.147,
+        "lng": -15.652
+      },
+      "shortDescription": "Capital de los guanches: Cueva Pintada, pinturas rupestres y el noroeste atlántico",
+      "description": "Gáldar fue la capital del reino guanche del norte de Gran Canaria antes de la conquista española. La Cueva Pintada, descubierta en 1873, es el yacimiento arqueológico prehispánico más importante del archipiélago, con pinturas geométricas de más de mil años de antigüedad. La playa de Sardina del Norte, tranquila y poco turística, cierra el municipio hacia el Atlántico.",
+      "heroImage": "/images/gran-canaria/cueva-pintada/hero.avif"
+    },
+    {
+      "slug": "aldea",
+      "name": "La Aldea de San Nicolás",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 27.994,
+        "lng": -15.785
+      },
+      "shortDescription": "El municipio más aislado: acantilados del Balcón, Los Azulejos y el oeste salvaje",
+      "description": "La Aldea de San Nicolás es el municipio más aislado y menos visitado de Gran Canaria, y por eso uno de los más auténticos. El Mirador del Balcón asoma sobre acantilados de 300 metros directamente al Atlántico. Los Azulejos, una formación de roca multicolor única en las islas, emerge entre barrancos sin nombre. Un Gran Canaria diferente.",
+      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+    },
+    {
+      "slug": "santa-brigida",
+      "name": "Santa Brígida",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 28.042,
+        "lng": -15.465
+      },
+      "shortDescription": "La Caldera de Bandama y los viñedos de la cuenca interior junto a Las Palmas",
+      "description": "Santa Brígida es el municipio residencial y vitícola del interior cercano a Las Palmas. La Caldera de Bandama, un cráter volcánico perfectamente conservado de un kilómetro de diámetro, domina el paisaje. Sus viñedos producen algunos de los vinos más singulares de Canarias. El Monte Coello y el parque rural ofrecen rutas entre laurisilva a diez minutos de la capital.",
+      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+    },
+    {
+      "slug": "telde",
+      "name": "Telde",
+      "emoji": "🏺",
+      "coordinates": {
+        "lat": 27.993,
+        "lng": -15.417
+      },
+      "shortDescription": "Segunda ciudad de la isla: casco histórico mudéjar, playas de roca volcánica y arqueología",
+      "description": "Telde es la segunda ciudad de Gran Canaria y uno de sus municipios más antiguos. Su casco histórico de San Francisco, con arquitectura mudéjar, conserva iglesias y casas señoriales del siglo XVI. La costa este, con playas como Tufia y El Cabrón, es un paraíso para el submarinismo por sus fondos volcánicos. El yacimiento de Cuatro Puertas es uno de los más importantes de la isla.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    },
+    {
+      "slug": "moya",
+      "name": "Moya",
+      "emoji": "🌿",
+      "coordinates": {
+        "lat": 28.106,
+        "lng": -15.594
+      },
+      "shortDescription": "El bosque de Los Tilos, el barranco de Azuaje y el verde profundo del norte",
+      "description": "Moya es uno de los municipios más desconocidos y más hermosos del norte de Gran Canaria. El bosque de Los Tilos de Moya es el único bosque de tilos (Ocotea foetens) de la isla, una reliquia vegetal del Terciario que sobrevivió a las glaciaciones. El barranco de Azuaje combina senderos entre helechos gigantes y aguas minerales.",
+      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+    },
+    {
+      "slug": "guia",
+      "name": "Santa María de Guía",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 28.132,
+        "lng": -15.626
+      },
+      "shortDescription": "El Cenobio de Valerón, queso de flor y la costa noroeste entre acantilados",
+      "description": "Santa María de Guía es famosa por dos cosas en toda Canarias: el Cenobio de Valerón, un conjunto de 300 cuevas artificiales guanches excavadas en la roca que servía de granero comunal, y el queso de flor, un queso artesano elaborado con cuajo vegetal de cardo que tiene Denominación de Origen propia. La costa, con playas poco conocidas, cierra el municipio.",
+      "heroImage": "/images/gran-canaria/cueva-pintada/hero.avif"
+    },
+    {
+      "slug": "vega-san-mateo",
+      "name": "Vega de San Mateo",
+      "emoji": "🌾",
+      "coordinates": {
+        "lat": 28.002,
+        "lng": -15.578
+      },
+      "shortDescription": "El techo de Gran Canaria: Pico de las Nieves, mercado rural y la cumbre entre nubes",
+      "description": "Vega de San Mateo es el municipio de la cumbre central de Gran Canaria. El Pico de las Nieves, a 1.949 metros, es el punto más alto de la isla y ofrece vistas de 360 grados en los días claros. El mercado del agricultor de San Mateo, celebrado los fines de semana, es el mejor de la isla para comprar productos frescos de las cumbres: quesos, papas negras, frutas y miel.",
+      "heroImage": "/images/gran-canaria/roque-nublo/hero.avif"
+    },
+    {
+      "slug": "ingenio",
+      "name": "Ingenio",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 27.91,
+        "lng": -15.431
+      },
+      "shortDescription": "Artesanía canaria, calados y la costa este de piedra volcánica",
+      "description": "Ingenio es el municipio artesano de Gran Canaria. Sus talleres de bordados y calados, una tradición transmitida de madres a hijas durante siglos, producen piezas que son las más valoradas del archipiélago. El Museo de Piedras y Artesanía Canaria reúne la mayor colección de minerales volcánicos de las islas. La costa, tranquila y local, es aún desconocida para el turismo.",
+      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+    }
+  ]
+}

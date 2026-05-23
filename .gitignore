@@ -1,0 +1,40 @@
+# Next.js
+.next/
+out/
+build/
+
+# Dependencias
+node_modules/
+
+# Variables de entorno — NUNCA subir claves
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+*.env
+
+# Supabase
+supabase/.temp/
+supabase/functions/.env
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.sw?
+
+# Misc
+.cache/
+.turbo/
+coverage/
