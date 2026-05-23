@@ -965,12 +965,12 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       {/* Cart panel */}
       <CartPanel cart={cart} isOpen={cartOpen} onClose={() => setCartOpen(false)} />
 
-      {/* Bottom category bubble nav — oculto en MVP, activo en develop */}
-      {/* <CategoryBubbleNav
+      {/* Bottom category bubble nav — activo en feature/audioguides */}
+      <CategoryBubbleNav
         sections={sections}
         activeSectionId={activeSectionId}
         onSectionSelect={handleSectionSelect}
-      /> */}
+      />
     </div>
   );
 }
