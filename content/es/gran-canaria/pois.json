@@ -1,1050 +1,1511 @@
 {
   "pois": [
     {
-      "slug": "las-palmas",
-      "name": "Las Palmas de Gran Canaria",
-      "description": "Capital cosmopolita con playa urbana, catedral y casco histórico Vegueta, Patrimonio de la Humanidad. La ciudad más grande de las Islas Canarias combina cultura, historia y playa en un entorno único.",
-      "shortDescription": "Capital y ciudad más grande de las Islas Canarias",
+      "slug": "camino-de-los-tilos-de-moya",
+      "name": "Los Tilos de Moya",
+      "description": "El único bosque de tilos de Gran Canaria — una reliquia vegetal del Terciario que sobrevivió a las glaciaciones. En solo 2 kilómetros el sendero circular pasa por tilos, laureles, barbuzanos y laurisilva densa. Corto, fácil y completamente distinto a la imagen árida que la mayoría asocia con Canarias. Perfecto para combinar con alguno de los buenos restaurantes de Moya justo después.",
+      "shortDescription": "El único bosque de tilos de la isla en 2 km de sendero circular",
       "island": "gran-canaria",
-      "category": "culture",
+      "category": "hiking",
       "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
+        "lat": 28.1138,
+        "lng": -15.5861
       },
       "images": {
-        "hero": "/images/gran-canaria/las-palmas/hero.avif",
+        "hero": "/images/gran-canaria/sendero/camino-de-los-tilos-de-moya.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "naturaleza",
+        "bosque",
+        "tilos",
+        "laurisilva",
+        "familias",
+        "circular"
+      ],
+      "visitDuration": "1h-1h30",
+      "difficulty": "easy",
+      "emoji": "🌿",
+      "sectionOnly": false,
+      "municipio": "moya",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1OotxyTLkTVd2jQTQmDKzegkr1iV8LUQ",
+        "distance": "2.01 km",
+        "duration": "1h",
+        "type": "circular",
+        "elevationGain": 60,
+        "maxAltitude": 566,
+        "tips": "La ruta más corta y fácil de las 7. Ideal para niños, principiantes o como aperitivo antes de comer en Moya. El bosque es más verde y frondoso en invierno y primavera."
+      }
+    },
+    {
+      "slug": "barranco-de-azuaje",
+      "name": "Barranco de Azuaje",
+      "description": "Uno de los barrancos más verdes y espectaculares de Gran Canaria. El sendero circular atraviesa el cauce del barranco varias veces entre cascadas, helechos gigantes y vegetación subtropical densa. Dos tramos con cuerdas añaden emoción a la ruta. La señalización es escasa en algunos puntos — llevar el track descargado es imprescindible. Los pies se mojan casi seguro: lleva calzado impermeable y una muda en el coche.",
+      "shortDescription": "Barranco con cascadas, cuerdas y vegetación subtropical",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.0915,
+        "lng": -15.5673
+      },
+      "images": {
+        "hero": "/images/gran-canaria/sendero/barranco-de-azuaje.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "barranco",
+        "naturaleza",
+        "verde",
+        "azuaje",
+        "aventura",
+        "cascadas",
+        "circular"
+      ],
+      "visitDuration": "3h30-5h",
+      "difficulty": "moderate",
+      "emoji": "🥾",
+      "sectionOnly": false,
+      "municipio": "moya",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1G39dTUzswS6b_k8mRp86RSQIVpmX610",
+        "distance": "6.7 km",
+        "duration": "3h30",
+        "type": "circular",
+        "elevationGain": 283,
+        "maxAltitude": 526,
+        "tips": "Los pies se mojan — lleva calzado impermeable y muda. Hay dos tramos con cuerdas. La salida del barranco no está bien señalizada: busca la flecha amarilla en una piedra. Sin cobertura GPS en el fondo."
+      }
+    },
+    {
+      "slug": "sendero-roque-nublo",
+      "name": "Sendero Roque Nublo",
+      "description": "La ruta de senderismo más emblemática de Gran Canaria. Accesible para la mayoría de visitantes con condición física básica, ofrece una de las mejores recompensas visuales de la isla con el icónico monolito volcánico como protagonista.",
+      "shortDescription": "Ruta clásica hacia el icono natural de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9659,
+        "lng": -15.6105
+      },
+      "images": {
+        "hero": "/images/gran-canaria/sendero/sendero-roque-nublo.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "roque-nublo",
+        "hike",
+        "naturaleza",
+        "montana",
+        "iconico"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "moderate",
+      "emoji": "🥾",
+      "sectionOnly": false,
+      "municipio": "tejeda",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1cAifsCHVue8LjvEAKWwWtv5eHX1CL1Y",
+        "startCoordinates": {
+          "lat": 27.9658,
+          "lng": -15.6017
+        },
+        "distance": "5.4 km",
+        "duration": "2h30",
+        "code": "S70"
+      }
+    },
+    {
+      "slug": "senderos-pico-de-las-nieves",
+      "name": "Pico de las Nieves Circular",
+      "description": "La ruta circular por el punto más alto de Gran Canaria, a 1.957 metros. Empieza en el aparcamiento de la cima y desciende por bosques de pinos hasta los Llanos de la Pez, para subir después a una roca elevada con vistas al barranco de Tirajana — uno de los mejores atardeceres de la isla. En días claros se ve el Roque Nublo y el Teide al fondo. El último tramo del barranco tiene una bajada pronunciada, ir con cuidado. Llevar ropa de abrigo y linterna si se va al atardecer.",
+      "shortDescription": "El techo de Gran Canaria con vistas al Teide y al barranco de Tirajana",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9651,
+        "lng": -15.5676
+      },
+      "images": {
+        "hero": "/images/gran-canaria/sendero/senderos-pico-de-las-nieves.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "cumbres",
+        "miradores",
+        "naturaleza",
+        "pico",
+        "atardecer",
+        "circular"
+      ],
+      "visitDuration": "3h",
+      "difficulty": "easy",
+      "emoji": "⛰️",
+      "sectionOnly": false,
+      "municipio": "vega-san-mateo",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=15KzlLGbEWx-zpZvmet4Bqxp-gtq3npE",
+        "distance": "7.35 km",
+        "duration": "3h",
+        "type": "circular",
+        "elevationGain": 388,
+        "maxAltitude": 1943,
+        "tips": "Llevar ropa de abrigo — a casi 2.000m refresca aunque haga calor abajo. Si vas al atardecer lleva linterna para volver al coche. El último tramo del barranco de Tirajana tiene bajada pronunciada, cuidado."
+      }
+    },
+    {
+      "slug": "sendero-caldera-de-bandama",
+      "name": "Caldera de Bandama Circular",
+      "description": "Ruta circular por el borde de uno de los cráteres volcánicos mejor conservados de Canarias, a solo 20 minutos de Las Palmas. El sendero bordea la caldera por su parte alta con vistas continuas al interior del cráter, al campo de golf y al centro de la isla. Hay un tramo estrecho con desniveles pronunciados a ambos lados — no recomendable para personas con vértigo ni con viento fuerte. El terreno es inestable en varios puntos, los resbalones son frecuentes.",
+      "shortDescription": "Circular por el borde del cráter volcánico más cercano a Las Palmas",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.9782,
+        "lng": -15.4524
+      },
+      "images": {
+        "hero": "/images/gran-canaria/sendero/sendero-caldera-de-bandama.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "volcan",
+        "bandama",
+        "caldera",
+        "circular",
+        "naturaleza",
+        "las-palmas"
+      ],
+      "visitDuration": "1h30",
+      "difficulty": "hard",
+      "emoji": "🌋",
+      "sectionOnly": false,
+      "municipio": "santa-brigida",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1_23ZX-TNDvFwnKcLH2lz2dpsvUN9K5s",
+        "distance": "3.49 km",
+        "duration": "1h20",
+        "type": "circular",
+        "elevationGain": 208,
+        "maxAltitude": 524,
+        "tips": "Terreno inestable — botas con suela de agarre. Hay un tramo con desnivel pronunciado a ambos lados, no apto para vértigo. Con viento fuerte mejor aplazarla. Ruta corta pero exigente."
+      }
+    },
+    {
+      "slug": "senderos-de-tamadaba",
+      "name": "Tamadaba Circular",
+      "description": "Ruta circular por el pinar más espectacular de Gran Canaria, declarado Reserva de la Biosfera. El sendero rodea el bosque de pinos canarios por las alturas, con parada obligatoria en el Fin del Mundo — un mirador sobre Agaete y el océano desde donde en días claros se ve el Teide. Hay fuente de agua a mitad de ruta junto al camping. El acceso está cerca de Puerto de las Nieves.",
+      "shortDescription": "Circular por el pinar de Tamadaba con vistas al Teide y al océano",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.0435,
+        "lng": -15.7354
+      },
+      "images": {
+        "hero": "/images/gran-canaria/sendero/senderos-de-tamadaba.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "tamadaba",
+        "pinar",
+        "naturaleza",
+        "circular",
+        "teide",
+        "mirador"
+      ],
+      "visitDuration": "3h30-4h",
+      "difficulty": "easy",
+      "emoji": "🌲",
+      "sectionOnly": false,
+      "municipio": "agaete",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1g7OLVogJVphxCAWa9KTfHVotNNRe1Io",
+        "distance": "10.57 km",
+        "duration": "3h30",
+        "type": "circular",
+        "elevationGain": 424,
+        "maxAltitude": 1433,
+        "tips": "Fuente de agua junto al camping a mitad de ruta. La subida a la Degollada del Humo cansa si hace calor — mejor temprano. Punto estrella: mirador Fin del Mundo sobre Agaete con vistas al Teide."
+      }
+    },
+    {
+      "slug": "barranco-de-los-cercinalos",
+      "name": "Barranco de los Cernícalos",
+      "description": "Uno de los dos únicos barrancos de Gran Canaria con agua corriendo durante todo el año. El sendero sube por el cauce entre cascadas sucesivas — cinco saltos de agua marcados en el track — hasta el doble salto final, el más espectacular, en un entorno casi tropical. El Cabildo ha acondicionado el tramo bajo con pasos de troncos para cruzar el cauce, pero si el suelo está mojado hay que tener cuidado con los resbalones. Muy frecuentado en fines de semana — mejor ir entre semana o temprano.",
+      "shortDescription": "El único barranco con agua todo el año y cinco cascadas",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.98,
+        "lng": -15.435
+      },
+      "images": {
+        "hero": "/images/gran-canaria/sendero/barranco-de-los-cercinalos.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "barranco",
+        "cascadas",
+        "agua",
+        "naturaleza",
+        "familias"
+      ],
+      "visitDuration": "2h-3h",
+      "difficulty": "easy",
+      "emoji": "💧",
+      "sectionOnly": false,
+      "municipio": "ingenio",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=15sBsR-tWbe2v_rMDH4pAfpxaJGuivvE",
+        "distance": "5.85 km",
+        "duration": "2h",
+        "type": "ida-vuelta",
+        "elevationGain": 213,
+        "maxAltitude": 730,
+        "tips": "Apto para familias con niños. Ir entre semana o temprano — muy concurrido en fines de semana. Si el suelo está mojado cuidado con los resbalones. El doble salto final es el más vistoso."
+      }
+    },
+    {
+      "slug": "playa-las-canteras",
+      "name": "Playa de Las Canteras",
+      "description": "La playa urbana más famosa de Gran Canaria y una de las mejores de España. Tres kilómetros de arena dorada en el corazón de Las Palmas protegidos por La Barra, un arrecife natural que convierte el mar en una laguna tranquila.",
+      "shortDescription": "La mejor playa urbana de España, 3 km en el corazón de Las Palmas",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.134,
+        "lng": -15.439
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-las-canteras.avif",
         "gallery": [
-          "/images/gran-canaria/las-palmas/1.avif"
+          "/images/gran-canaria/playas/playa-las-canteras-2.avif"
         ]
       },
-      "audioPreview": "/audio/previews/es/las-palmas-preview.mp3",
-      "hasPremiumAudio": true,
-      "premiumRouteId": "north-route",
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
       "tags": [
-        "ciudad",
-        "cultura",
-        "playa-urbana",
-        "historia",
-        "vegueta"
+        "playa",
+        "gran-canaria"
       ],
-      "visitDuration": "medio día",
-      "emoji": "🏙️",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
       "municipio": "las-palmas",
       "top": true
     },
     {
-      "slug": "maspalomas",
-      "name": "Maspalomas",
-      "description": "Dunas de arena dorada protegidas, laguna natural y el faro más icónico de las Canarias. Un paisaje desértico junto al Atlántico único en Europa.",
-      "shortDescription": "Dunas protegidas y faro icónico del sur",
+      "slug": "playa-del-ingles",
+      "name": "Playa del Inglés",
+      "description": "La gran playa del sur, con kilómetros de arena fina dorada que conectan con las dunas de Maspalomas. El principal destino turístico del sur de Gran Canaria, con aguas tranquilas y servicios completos todo el año.",
+      "shortDescription": "Gran playa del sur que conecta con las dunas de Maspalomas",
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.7402,
-        "lng": -15.5868
-      },
-      "images": {
-        "hero": "/images/gran-canaria/maspalomas/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/maspalomas/1.avif"
-        ]
-      },
-      "audioPreview": "/audio/previews/es/maspalomas-preview.mp3",
-      "hasPremiumAudio": true,
-      "premiumRouteId": "south-coast-route",
-      "tags": [
-        "dunas",
-        "playa",
-        "naturaleza",
-        "faro",
-        "sur"
-      ],
-      "visitDuration": "3-4h",
-      "difficulty": "easy",
-      "emoji": "🏖️",
-      "top": true,
-      "municipio": "san-bartolome"
-    },
-    {
-      "slug": "roque-nublo",
-      "name": "Roque Nublo",
-      "description": "Monolito volcánico de 80 metros en el corazón de Gran Canaria. Ruta de senderismo con vistas panorámicas que en días claros alcanzan el Teide en Tenerife.",
-      "shortDescription": "Monolito volcánico símbolo de Gran Canaria",
-      "island": "gran-canaria",
-      "category": "hiking",
-      "coordinates": {
-        "lat": 27.9688,
-        "lng": -15.6096
-      },
-      "images": {
-        "hero": "/images/gran-canaria/roque-nublo/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/roque-nublo/1.avif"
-        ]
-      },
-      "audioPreview": "/audio/previews/es/roque-nublo-preview.mp3",
-      "hasPremiumAudio": true,
-      "premiumRouteId": "summit-route",
-      "tags": [
-        "senderismo",
-        "volcánico",
-        "cumbres",
-        "panorámica"
-      ],
-      "visitDuration": "3-5h",
-      "difficulty": "moderate",
-      "emoji": "🗿",
-      "top": true,
-      "municipio": "tejeda"
-    },
-    {
-      "slug": "playa-de-amadores",
-      "name": "Playa de Amadores",
-      "description": "Playa artificial en forma de concha con arena dorada y aguas turquesa muy tranquilas. Inaugurada en 2001, es una de las más fotografiadas del sur de Gran Canaria. Ideal para familias.",
-      "shortDescription": "Playa en forma de concha con aguas turquesa",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.7956,
-        "lng": -15.7341
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playa-de-amadores/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/playa-de-amadores/1.avif"
-        ]
-      },
-      "premiumRouteId": "south-coast-route",
-      "tags": [
-        "playa",
-        "familias",
-        "turquesa",
-        "sur",
-        "mogan"
-      ],
-      "visitDuration": "2-4h",
-      "difficulty": "easy",
-      "emoji": "🏖️",
-      "municipio": "mogan"
-    },
-    {
-      "slug": "caldera-bandama",
-      "name": "Caldera de Bandama",
-      "description": "Un cráter volcánico perfectamente conservado de un kilómetro de diámetro y 200 metros de profundidad, a solo 15 minutos de Las Palmas. La senda hasta el borde del cráter ofrece vistas de toda la isla y del Atlántico.",
-      "shortDescription": "Cráter volcánico perfectamente conservado cerca de Las Palmas",
-      "island": "gran-canaria",
-      "category": "nature",
-      "coordinates": {
-        "lat": 27.9731,
-        "lng": -15.4424
-      },
-      "images": {
-        "hero": "/images/gran-canaria/caldera-bandama/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/caldera-bandama/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "volcán",
-        "cráter",
-        "senderismo",
-        "panorámica",
-        "geología"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "moderate",
-      "emoji": "🌋",
-      "municipio": "santa-brigida"
-    },
-    {
-      "slug": "cueva-pintada",
-      "name": "Cueva Pintada",
-      "description": "El yacimiento arqueológico prehispánico más importante de las Islas Canarias. Descubierta en 1873 en Gáldar, sus paredes están cubiertas de pinturas geométricas realizadas por los antiguos canarios (guanches) hace más de 1.000 años.",
-      "shortDescription": "Pinturas rupestres prehistóricas de los antiguos guanches",
-      "island": "gran-canaria",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.1462,
-        "lng": -15.6522
-      },
-      "images": {
-        "hero": "/images/gran-canaria/cueva-pintada/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/cueva-pintada/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "guanches",
-        "prehistórico",
-        "arqueología",
-        "cueva",
-        "gáldar"
-      ],
-      "visitDuration": "1-2h",
-      "emoji": "🎨",
-      "sectionOnly": true
-    },
-    {
-      "slug": "catedral-vegueta",
-      "name": "Catedral de Las Palmas",
-      "description": "La Catedral de Santa Ana en el barrio de Vegueta se comenzó en 1497 y tardó cuatro siglos en completarse. Mezcla de estilos gótico, renacentista y barroco, se alza sobre la plaza más antigua del continente americano y africano.",
-      "shortDescription": "Catedral gótica iniciada en 1497 en el corazón de Vegueta",
-      "island": "gran-canaria",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.0997,
-        "lng": -15.4143
-      },
-      "images": {
-        "hero": "/images/gran-canaria/catedral-vegueta/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/catedral-vegueta/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "catedral",
-        "gótico",
-        "vegueta",
-        "historia",
-        "arquitectura"
-      ],
-      "visitDuration": "1h",
-      "emoji": "⛪",
-      "sectionOnly": true
-    },
-    {
-      "slug": "casa-de-colon",
-      "name": "Casa de Colón",
-      "description": "La casa donde Cristóbal Colón se alojó durante su primer viaje a América en 1492. Hoy es un museo con cartas de navegación, artefactos precolombinos y reproducciones de las tres carabelas. Uno de los mejores ejemplos de arquitectura civil canaria.",
-      "shortDescription": "Donde Colón hizo escala en 1492 camino a América",
-      "island": "gran-canaria",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.0993,
-        "lng": -15.4163
-      },
-      "images": {
-        "hero": "/images/gran-canaria/casa-de-colon/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/casa-de-colon/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "colón",
-        "historia",
-        "museo",
-        "vegueta",
-        "1492"
-      ],
-      "visitDuration": "1-2h",
-      "emoji": "⚓",
-      "sectionOnly": true
-    },
-    {
-      "slug": "pueblo-canario",
-      "name": "Pueblo Canario",
-      "description": "Conjunto al aire libre diseñado en los años 30 por el pintor Néstor Martín-Fernández de la Torre para preservar la arquitectura tradicional canaria. Cada domingo grupos de folclore local bailan la isa y la folía en la plaza central.",
-      "shortDescription": "Arquitectura canaria tradicional y bailes folclóricos",
-      "island": "gran-canaria",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.1069,
-        "lng": -15.4266
-      },
-      "images": {
-        "hero": "/images/gran-canaria/pueblo-canario/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/pueblo-canario/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "arquitectura",
-        "folclore",
-        "baile",
-        "artesanía",
-        "tradición"
-      ],
-      "visitDuration": "1-2h",
-      "emoji": "🏡",
-      "sectionOnly": true
-    },
-    {
-      "slug": "mercado-vegueta",
-      "name": "Mercado de Vegueta",
-      "description": "Mercado cubierto de hierro de 1854 donde agricultores y pescadores locales venden su producto cada mañana. El mejor lugar de la isla para probar gofio, almogrote, frutas tropicales frescas y pescado de la lonja.",
-      "shortDescription": "Mercado histórico cubierto con producto local desde 1854",
-      "island": "gran-canaria",
-      "category": "food",
-      "coordinates": {
-        "lat": 28.0992,
-        "lng": -15.4165
-      },
-      "images": {
-        "hero": "/images/gran-canaria/mercado-vegueta/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/mercado-vegueta/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "mercado",
-        "comida",
-        "gofio",
-        "local",
-        "fresco"
-      ],
-      "visitDuration": "1h",
-      "emoji": "🛒",
-      "sectionOnly": true
-    },
-    {
-      "slug": "papas-arrugadas",
-      "name": "Papas Arrugadas y Mojo",
-      "description": "El plato emblemático de las Islas Canarias: patatas pequeñas cocidas en agua con mucha sal hasta que la piel se arruga. Se sirven siempre con mojo rojo (guindilla y comino) o mojo verde (cilantro y perejil). Todos los restaurantes de la isla las tienen — ninguna visita está completa sin probarlas.",
-      "shortDescription": "Papas saladas con mojo rojo o verde, símbolo de la cocina canaria",
-      "island": "gran-canaria",
-      "category": "food",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "images": {
-        "hero": "/images/gran-canaria/papas-arrugadas/hero.avif",
-        "gallery": []
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "comida",
-        "canario",
-        "papas",
-        "mojo",
-        "tradición"
-      ],
-      "emoji": "🥔",
-      "sectionOnly": true
-    },
-    {
-      "slug": "barranco-guayadeque",
-      "name": "Barranco de Guayadeque",
-      "description": "Un barranco dramático en el interior donde familias llevan siglos viviendo en cuevas excavadas en la roca. El barranco alberga también plantas endémicas muy raras, restaurantes-cueva con cocina tradicional y una pequeña iglesia rupestre.",
-      "shortDescription": "Barranco con casas-cueva habitadas y plantas endémicas",
-      "island": "gran-canaria",
-      "category": "nature",
-      "coordinates": {
-        "lat": 27.9024,
-        "lng": -15.518
-      },
-      "images": {
-        "hero": "/images/gran-canaria/barranco-guayadeque/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/barranco-guayadeque/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "barranco",
-        "casas-cueva",
-        "endémico",
-        "naturaleza",
-        "rural"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "easy",
-      "emoji": "🏞️",
-      "sectionOnly": true
-    },
-    {
-      "slug": "lucha-canaria",
-      "name": "Lucha Canaria",
-      "description": "El deporte más antiguo de las Islas Canarias, practicado por los guanches antes de la conquista española. Dos luchadores se enfrentan en un círculo de arena (terrero) intentando que cualquier parte del cuerpo del rival toque el suelo. Los encuentros se celebran en terreros locales cada fin de semana.",
-      "shortDescription": "Lucha guanche ancestral viva en los terreros locales",
-      "island": "gran-canaria",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "images": {
-        "hero": "/images/gran-canaria/lucha-canaria/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/lucha-canaria/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "deporte",
-        "guanches",
-        "tradición",
-        "lucha",
-        "cultura"
-      ],
-      "emoji": "🤼",
-      "sectionOnly": true
-    },
-    {
-      "slug": "carnaval-las-palmas",
-      "name": "Carnaval de Las Palmas",
-      "description": "El segundo carnaval más grande del mundo después del de Río de Janeiro, celebrado cada febrero. La elección de la Reina del Carnaval llena el parque Santa Catalina con más de 200.000 personas. La Cabalgata del Carnaval se extiende durante kilómetros por el paseo marítimo.",
-      "shortDescription": "El segundo carnaval más grande del mundo, cada febrero",
-      "island": "gran-canaria",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.1361,
-        "lng": -15.4292
-      },
-      "images": {
-        "hero": "/images/gran-canaria/carnaval-las-palmas/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/carnaval-las-palmas/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "carnaval",
-        "festival",
-        "febrero",
-        "disfraces",
-        "cabalgata"
-      ],
-      "emoji": "🎭",
-      "sectionOnly": true
-    },
-    {
-      "slug": "confital",
-      "name": "El Confital",
-      "description": "Playa volcánica salvaje en la punta norte de Las Palmas, desconocida para la mayoría de los turistas. Alberga una de las mejores olas de izquierda de Europa, formada por coladas de lava que crearon un canal natural. En días de calma, el agua cristalina es perfecta para hacer snorkel entre rocas volcánicas.",
-      "shortDescription": "Arrecife volcánico salvaje y ola de izquierda de clase mundial",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.1477,
-        "lng": -15.4452
-      },
-      "images": {
-        "hero": "/images/gran-canaria/confital/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/confital/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "surf",
-        "volcánico",
-        "escondido",
-        "snorkel",
-        "local"
-      ],
-      "visitDuration": "2-4h",
-      "emoji": "🏄",
-      "sectionOnly": true
-    },
-    {
-      "slug": "poema-del-mar",
-      "name": "Poema del Mar",
-      "description": "Uno de los acuarios más espectaculares de Europa, inaugurado en Las Palmas en 2017. Diseñado alrededor de un túnel de arrecife de coral y un tanque principal de 33 millones de litros, recrea el fondo del Atlántico con tiburones, rayas y miles de peces. El propio edificio, con forma de ola, es un hito arquitectónico.",
-      "shortDescription": "Acuario de clase mundial con tanque de arrecife de 33 millones de litros",
-      "island": "gran-canaria",
-      "category": "other",
-      "coordinates": {
-        "lat": 28.1361,
-        "lng": -15.4292
-      },
-      "images": {
-        "hero": "/images/gran-canaria/poema-del-mar/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/poema-del-mar/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "acuario",
-        "tiburones",
-        "familias",
-        "moderno",
-        "atlántico"
-      ],
-      "visitDuration": "2-3h",
-      "emoji": "🦈",
-      "sectionOnly": true
-    },
-    {
-      "slug": "historia",
-      "name": "Conoce la Historia",
-      "description": "La historia de Gran Canaria comienza hace más de 2.000 años con los guanches, un pueblo beréber que pobló la isla y dejó pinturas rupestres, enterramientos y ídolos tallados que aún desconciertan a los historiadores. En 1478, la conquista española lo transformó todo: una nueva lengua, una nueva religión y un papel estratégico como escala entre Europa y las Américas. Cristóbal Colón aprovisionó sus barcos aquí en 1492 antes de adentrarse en lo desconocido. Camina por los adoquines de Vegueta y caminas por capas de toda esa historia: un archivo vivo del Atlántico.",
-      "shortDescription": "De los pintores de cuevas guanches a Colón y la conquista española",
-      "island": "gran-canaria",
-      "category": "culture",
-      "images": {
-        "hero": "/images/gran-canaria/catedral-vegueta/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/cueva-pintada/hero.avif",
-          "/images/gran-canaria/casa-de-colon/hero.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "historia",
-        "guanches",
-        "conquista",
-        "colón",
-        "vegueta"
-      ],
-      "emoji": "🏰",
-      "sectionOnly": true
-    },
-    {
-      "slug": "cultura-canaria",
-      "name": "Cultura Canaria",
-      "description": "La cultura canaria es una fusión forjada a lo largo de cinco siglos: raíces guanches, colonos españoles, ritmos africanos y ecos latinoamericanos traídos de vuelta cruzando el Atlántico.",
-      "shortDescription": "Una fusión de influencias guanches, españolas y atlánticas",
-      "island": "gran-canaria",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "images": {
-        "hero": "/images/gran-canaria/pueblo-canario/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/casa-de-colon/hero.avif",
-          "/images/gran-canaria/catedral-vegueta/hero.avif"
-        ]
-      },
-      "audioPreview": "audio/",
-      "audioTranscript": "<p><strong>La cultura canaria</strong> nace del cruce entre raíces guanches, herencia castellana y viajes atlánticos.</p><p>En sus plazas, balcones, bailes y cocinas aparece una identidad tranquila, mestiza y profundamente insular.</p><p><strong>La cultura canaria</strong> nace del cruce entre raíces guanches, herencia castellana y viajes atlánticos.</p><p>En sus plazas, balcones, bailes y cocinas aparece una identidad tranquila, mestiza y profundamente insular.</p>",
-      "hasPremiumAudio": true,
-      "tags": [
-        "cultura",
-        "folclore",
-        "arquitectura",
-        "danza",
-        "identidad"
-      ],
-      "emoji": "🎭",
-      "sectionOnly": true
-    },
-    {
-      "slug": "gastronomia-canaria",
-      "name": "Gastronomía Canaria",
-      "description": "La gastronomía canaria nace de la sencillez y del territorio: papas cultivadas en suelos volcánicos, pescados atlánticos, quesos artesanos y recetas heredadas entre islas durante generaciones.",
-      "shortDescription": "Sabores volcánicos, mar atlántico y tradición isleña",
-      "island": "gran-canaria",
-      "category": "gastronomy",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "images": {
-        "hero": "/images/gran-canaria/gastronomia-canaria/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/gastronomia-canaria/papas-arrugadas.avif",
-          "/images/gran-canaria/gastronomia-canaria/queso-canario.avif"
-        ]
-      },
-      "audioPreview": "audio/",
-      "audioTranscript": "<p><strong>La gastronomía canaria</strong> habla de tierra volcánica, océano y tradición.</p><p>Sabores sencillos pero profundamente ligados al paisaje: papas arrugadas, mojos, pescados frescos y quesos con identidad propia.</p>",
-      "hasPremiumAudio": true,
-      "tags": [
-        "gastronomía",
-        "tradición",
-        "comida canaria",
-        "sabores locales"
-      ],
-      "emoji": "🍽️",
-      "sectionOnly": true
-    },
-    {
-      "slug": "papas-arrugadas",
-      "name": "Papas Arrugadas y Mojo",
-      "description": "El plato más emblemático de Canarias. Pequeñas papas cocidas en agua con sal hasta que su piel se arruga, acompañadas de mojo rojo o verde.",
-      "shortDescription": "El sabor más icónico de Canarias",
-      "island": "gran-canaria",
-      "category": "gastronomy",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "images": {
-        "hero": "/images/gran-canaria/gastronomia/papas-arrugadas/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/gastronomia/papas-arrugadas/mojo-rojo.avif"
-        ]
-      },
-      "audioPreview": "audio/",
-      "audioTranscript": "<p><strong>Las papas arrugadas</strong> son probablemente el plato más reconocible de Canarias.</p><p>Su simplicidad es engañosa: tierra volcánica, sal y tradición convierten algo humilde en identidad gastronómica.</p>",
-      "hasPremiumAudio": true,
-      "tags": [
-        "papas",
-        "mojo",
-        "comida tradicional",
-        "canarias"
-      ],
-      "emoji": "🥔",
-      "sectionOnly": true
-    },
-    {
-      "slug": "quesos-canarios",
-      "name": "Quesos Canarios",
-      "description": "Canarias produce algunos de los quesos más reconocidos de España, especialmente de cabra, con sabores intensos marcados por el clima seco y los pastos insulares.",
-      "shortDescription": "Tradición quesera con carácter volcánico",
-      "island": "gran-canaria",
-      "category": "gastronomy",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "images": {
-        "hero": "/images/gran-canaria/gastronomia/quesos/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/gastronomia/quesos/curado.avif"
-        ]
-      },
-      "audioPreview": "audio/",
-      "audioTranscript": "<p><strong>Los quesos canarios</strong> son parte esencial de la identidad isleña.</p><p>Muchos nacen de pequeñas producciones artesanales donde la cabra ha sido protagonista durante siglos.</p>",
-      "hasPremiumAudio": true,
-      "tags": [
-        "queso",
-        "artesanal",
-        "tradición",
-        "producto local"
-      ],
-      "emoji": "🧀",
-      "sectionOnly": true
-    },
-    {
-      "slug": "sabores-del-atlantico",
-      "name": "Sabores del Atlántico",
-      "description": "Vieja, cherne, sama y otros pescados atlánticos forman parte de una cocina profundamente ligada al mar.",
-      "shortDescription": "La cocina canaria también sabe a océano",
-      "island": "gran-canaria",
-      "category": "gastronomy",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "images": {
-        "hero": "/images/gran-canaria/gastronomia/pescado/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/gastronomia/pescado/vieja.avif"
-        ]
-      },
-      "audioPreview": "audio/",
-      "audioTranscript": "<p><strong>Canarias mira al Atlántico también desde su cocina.</strong></p><p>Pescados frescos y recetas sencillas reflejan siglos de relación con el océano.</p>",
-      "hasPremiumAudio": true,
-      "tags": [
-        "pescado",
-        "atlántico",
-        "marisco",
-        "tradición"
-      ],
-      "emoji": "🐟",
-      "sectionOnly": true
-    },
-    {
-      "slug": "dulces-canarios",
-      "name": "Dulces Tradicionales",
-      "description": "Bienmesabe, truchas dulces, suspiros y postres heredados que mezclan almendra, miel y tradición festiva.",
-      "shortDescription": "El lado dulce de la tradición canaria",
-      "island": "gran-canaria",
-      "category": "gastronomy",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "images": {
-        "hero": "/images/gran-canaria/gastronomia/dulces/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/gastronomia/dulces/bienmesabe.avif"
-        ]
-      },
-      "audioPreview": "audio/",
-      "audioTranscript": "<p><strong>La repostería canaria</strong> conserva sabores antiguos.</p><p>Almendra, miel y recetas transmitidas generación tras generación forman parte de su memoria culinaria.</p>",
-      "hasPremiumAudio": true,
-      "tags": [
-        "dulces",
-        "bienmesabe",
-        "tradición",
-        "postres"
-      ],
-      "emoji": "🍯",
-      "sectionOnly": true
-    },
-    {
-      "slug": "naturaleza",
-      "name": "Naturaleza",
-      "description": "Un solo trayecto en coche a través de Gran Canaria te lleva de la playa atlántica a la cumbre alpina en menos de una hora: una transición que le valió el apodo de 'Continente en Miniatura'. El sur es sahariano: dunas doradas, suculentas dispersas, sol abrasador. El centro es bosque de laurisilva y acantilados de basalto esculpidos por millones de años de erosión. El norte es verde y brumoso. En los barrancos crecen plantas endémicas que no existen en ningún otro lugar de la Tierra. Es Reserva de la Biosfera de la UNESCO, y la biodiversidad premia a quien se atreve a alejarse de la costa.",
-      "shortDescription": "Dunas, cráteres volcánicos, bosque de niebla y barrancos atlánticos",
-      "island": "gran-canaria",
-      "category": "nature",
-      "coordinates": {
-        "lat": 27.9688,
-        "lng": -15.6096
-      },
-      "images": {
-        "hero": "/images/gran-canaria/roque-nublo/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/maspalomas/hero.avif",
-          "/images/gran-canaria/caldera-bandama/hero.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "biosfera",
-        "volcánico",
-        "dunas",
-        "endémico"
-      ],
-      "emoji": "🌿",
-      "sectionOnly": true
-    },
-    {
-      "slug": "tradiciones",
-      "name": "Tradiciones",
-      "description": "La tradición en Gran Canaria no es un museo: se vive cada fin de semana. La lucha canaria, el deporte ancestral traído por los guanches, llena los terreros locales los sábados por la tarde. El Carnaval de febrero convierte Las Palmas en el segundo mayor carnaval del planeta, rivalizando con Río. Las romerías suben descalzas a los santuarios de montaña. Ferias ganaderas y concursos de queso unen a los pueblos del interior. Y el silbo canario —una lengua silbada para comunicarse entre barrancos— tiene primos en valles remotos. Estas tradiciones sobrevivieron a la conquista, la emigración y el turismo masivo. Son tercas, y orgullosas de serlo.",
-      "shortDescription": "Lucha canaria, carnaval, romerías y un lenguaje silbado",
-      "island": "gran-canaria",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "images": {
-        "hero": "/images/gran-canaria/carnaval-las-palmas/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/lucha-canaria/hero.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "tradiciones",
-        "carnaval",
-        "lucha",
-        "romería",
-        "folclore"
-      ],
-      "emoji": "💃",
-      "sectionOnly": true
-    },
-    {
-      "slug": "curiosidades",
-      "name": "Curiosidades",
-      "description": "Gran Canaria guarda una colección de récords y sorpresas que la mayoría de los visitantes nunca descubren. Su carnaval es oficialmente el segundo más grande del mundo. Tiene una ola de surf de clase mundial sobre un arrecife dentro del casco urbano. Uno de los acuarios más espectaculares de Europa abrió aquí en 2017, y el agua llega directamente del Atlántico por tuberías subterráneas. La isla tiene más microclimas que cualquier otra masa de tierra comparable en el planeta: doce zonas distintas en un área más pequeña que Londres. Sus dunas del sur son Reserva de la Biosfera rodeadas por el mayor complejo hotelero de Europa. Las reglas normales aquí no terminan de aplicar.",
-      "shortDescription": "Récords, joyas ocultas y datos que sorprenden hasta a los locales",
-      "island": "gran-canaria",
-      "category": "other",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "images": {
-        "hero": "/images/gran-canaria/poema-del-mar/hero.avif",
-        "gallery": [
-          "/images/gran-canaria/confital/hero.avif",
-          "/images/gran-canaria/maspalomas/hero.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "tags": [
-        "curiosidades",
-        "récords",
-        "oculto",
-        "datos",
-        "sorprendente"
-      ],
-      "emoji": "🔍",
-      "sectionOnly": true
-    }
-  ],
-  "sections": [
-    {
-      "id": "historia",
-      "label": "Historia",
-      "emoji": "🏰",
-      "color": "#6366f1",
-      "pois": [
-        "historia",
-        "las-palmas",
-        "roque-nublo",
-        "cueva-pintada",
-        "catedral-vegueta"
-      ]
-    },
-    {
-      "id": "cultura-canaria",
-      "label": "Cultura Canaria",
-      "emoji": "🎭",
-      "color": "#ec4899",
-      "pois": [
-        "cultura-canaria",
-        "las-palmas",
-        "casa-de-colon",
-        "pueblo-canario"
-      ]
-    },
-    {
-      "id": "gastronomia",
-      "label": "Gastronomía",
-      "emoji": "🍽️",
-      "color": "#f97316",
-      "pois": [
-        "gastronomia-canaria",
-        "papas-arrugadas",
-        "quesos-canarios",
-        "sabores-del-atlantico",
-        "dulces-canarios",
-        "mercados-locales"
-      ]
-    },
-    {
-      "id": "naturaleza",
-      "label": "Naturaleza",
-      "emoji": "🌿",
-      "color": "#22c55e",
-      "pois": [
-        "naturaleza",
-        "maspalomas",
-        "roque-nublo",
-        "caldera-bandama",
-        "barranco-guayadeque"
-      ]
-    },
-    {
-      "id": "tradiciones",
-      "label": "Tradiciones",
-      "emoji": "💃",
-      "color": "#a855f7",
-      "pois": [
-        "tradiciones",
-        "las-palmas",
-        "roque-nublo",
-        "lucha-canaria",
-        "carnaval-las-palmas"
-      ]
-    },
-    {
-      "id": "curiosidades",
-      "label": "Curiosidades",
-      "emoji": "🔍",
-      "color": "#06b6d4",
-      "pois": [
-        "curiosidades",
-        "maspalomas",
-        "confital",
-        "poema-del-mar",
-        "playa-de-amadores"
-      ]
-    }
-  ],
-  "municipios": [
-    {
-      "slug": "las-palmas",
-      "name": "Las Palmas de Gran Canaria",
-      "emoji": "🏙️",
-      "coordinates": {
-        "lat": 28.1235,
-        "lng": -15.4366
-      },
-      "shortDescription": "Capital cosmopolita con playa urbana y casco histórico Patrimonio de la Humanidad",
-      "description": "Las Palmas de Gran Canaria es la capital de la isla y la ciudad más grande de Canarias. Su casco histórico de Vegueta, con la catedral de Santa Ana y la Casa de Colón, es Patrimonio de la Humanidad. La playa de Las Canteras, en pleno centro urbano, es una de las mejores playas urbanas de Europa. Una ciudad que combina cultura, historia atlántica y vida moderna.",
-      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
-    },
-    {
-      "slug": "san-bartolome",
-      "name": "San Bartolomé de Tirajana",
-      "emoji": "🏖️",
-      "coordinates": {
-        "lat": 27.783,
+        "lat": 27.75,
         "lng": -15.57
       },
-      "shortDescription": "El sur de Gran Canaria: dunas de Maspalomas, Playa del Inglés y sol todo el año",
-      "description": "San Bartolomé de Tirajana alberga el corazón turístico del sur de Gran Canaria. Las dunas de Maspalomas, protegidas como Reserva de la Biosfera, se extienden hasta el faro más icónico del archipiélago. Playa del Inglés concentra kilómetros de arena dorada y una de las mayores ofertas de ocio de Europa. En el interior, el barranco de Fataga esconde palmeras y silencio.",
-      "heroImage": "/images/gran-canaria/maspalomas/hero.avif"
-    },
-    {
-      "slug": "mogan",
-      "name": "Mogán",
-      "emoji": "⚓",
-      "coordinates": {
-        "lat": 27.89,
-        "lng": -15.72
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-del-ingles.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-del-ingles-2.avif"
+        ]
       },
-      "shortDescription": "La Venecia canaria: puerto de colores, aguas turquesa y calas escondidas",
-      "description": "Mogán es el municipio más occidental del sur de Gran Canaria. Puerto de Mogán, conocido como la pequeña Venecia canaria, deslumbra con sus canales, flores y arquitectura blanca. Sus calas de aguas turquesa, como Amadores o la salvaje Playa de Güi-Güi, combinan con un interior de barrancos profundos casi sin explorar.",
-      "heroImage": "/images/gran-canaria/playa-de-amadores/hero.avif"
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": true
     },
     {
-      "slug": "tejeda",
-      "name": "Tejeda",
-      "emoji": "🗿",
+      "slug": "playa-maspalomas",
+      "name": "Playa de Maspalomas",
+      "description": "El extremo sur de la isla donde el desierto llega al mar. La playa de Maspalomas forma parte del sistema dunar protegido y ofrece una experiencia más tranquila y salvaje que la vecina Playa del Inglés.",
+      "shortDescription": "El sur salvaje donde las dunas tocan el océano",
+      "island": "gran-canaria",
+      "category": "beach",
       "coordinates": {
-        "lat": 27.99,
-        "lng": -15.61
+        "lat": 27.738,
+        "lng": -15.586
       },
-      "shortDescription": "El corazón de piedra de Gran Canaria: Roque Nublo, cumbres y silencio",
-      "description": "Tejeda es el municipio del centro montañoso de Gran Canaria. El Roque Nublo, monolito volcánico de 80 metros y símbolo de la isla, se alza aquí a casi 1.800 metros. El pueblo, con sus casas encaladas y almendros en flor cada febrero, es uno de los más bellos de Canarias. Las vistas desde la Cruz de Tejeda abarcan toda la isla.",
-      "heroImage": "/images/gran-canaria/roque-nublo/hero.avif"
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-maspalomas.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏜️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
     },
     {
-      "slug": "agaete",
-      "name": "Agaete",
+      "slug": "playa-amadores",
+      "name": "Playa de Amadores",
+      "description": "Una bahía artificial de arena blanca con aguas de color turquesa intenso. Una de las playas más fotogénicas de Gran Canaria, protegida del viento y con servicios completos. Muy popular entre familias por la tranquilidad de sus aguas.",
+      "shortDescription": "Bahía artificial de arena blanca con aguas turquesa en Mogán",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.794,
+        "lng": -15.713
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-amadores.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-amadores-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏝️",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
+    },
+    {
+      "slug": "playa-puerto-rico",
+      "name": "Playa de Puerto Rico",
+      "description": "Una de las playas con mejor clima de Europa — apenas llueve y el viento es mínimo gracias a la orientación de la bahía. Aguas tranquilas y ambiente familiar. Base perfecta para actividades náuticas.",
+      "shortDescription": "La bahía con mejor clima de Gran Canaria, ideal para deportes náuticos",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.785,
+        "lng": -15.708
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-puerto-rico.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-puerto-rico-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "⛵",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
+    },
+    {
+      "slug": "playa-mogan",
+      "name": "Playa de Mogán",
+      "description": "La playa del pueblo más pintoresco del sur. Puerto de Mogán tiene canales, buganvillas y arquitectura blanca que le valió el apodo de Venecia canaria. La playa es pequeña pero el ambiente del pueblo lo compensa.",
+      "shortDescription": "La playa de la pequeña Venecia del sur de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.806,
+        "lng": -15.728
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-mogan.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-mogan-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌺",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
+    },
+    {
+      "slug": "playa-taurito",
+      "name": "Playa de Taurito",
+      "description": "Pequeña cala de arena oscura en una bahía tranquila del suroeste. Menos masificada que las playas vecinas, con aguas limpias. Buena opción para escapar del turismo masivo del sur.",
+      "shortDescription": "Pequeña cala tranquila en el suroeste de Mogán",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.821,
+        "lng": -15.727
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-taurito.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-taurito-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
+    },
+    {
+      "slug": "playa-tauro",
+      "name": "Playa de Tauro",
+      "description": "Cala de guijarros negros volcánicos en el suroeste. Entorno salvaje con acantilados y sin urbanización masiva. Favorita de los locales que buscan un baño tranquilo lejos del turismo.",
+      "shortDescription": "Cala volcánica de guijarros negros, favorita de los locales",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.804,
+        "lng": -15.723
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-tauro.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-tauro-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "⚫",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
+    },
+    {
+      "slug": "playa-patalavaca",
+      "name": "Playa de Patalavaca",
+      "description": "Playa tranquila y familiar en el límite entre Mogán y San Bartolomé. Arena oscura, aguas calmas y ambiente relajado. Menos conocida que sus vecinas.",
+      "shortDescription": "Playa familiar tranquila en el límite sur de la isla",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.774,
+        "lng": -15.692
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-patalavaca.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
+    },
+    {
+      "slug": "anfi-del-mar",
+      "name": "Anfi del Mar",
+      "description": "Laguna artificial de arena blanca caribeña en Mogán. Resort privado con playa de acceso público. Las aguas son de un azul irreal y el entorno está muy cuidado.",
+      "shortDescription": "Laguna de arena caribeña con aguas de color irreal en Mogán",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.79,
+        "lng": -15.721
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/anfi-del-mar.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/anfi-del-mar-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
       "emoji": "🌊",
-      "coordinates": {
-        "lat": 28.099,
-        "lng": -15.7014
-      },
-      "shortDescription": "Piscinas naturales de lava, el bosque de Tamadaba y el puerto más pintoresco del norte",
-      "description": "Agaete es un municipio del noroeste de Gran Canaria que concentra paisajes de gran contraste. Las piscinas naturales de La Laja, excavadas en la roca volcánica, son de las más espectaculares de las islas. El Bosque de Tamadaba, reserva de pinos canarios en los acantilados, cae directamente al Atlántico. El puerto de Las Nieves y su ermita son escala obligada.",
-      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
     },
     {
-      "slug": "aguimes",
-      "name": "Agüimes",
-      "emoji": "🏞️",
+      "slug": "playa-veneguera",
+      "name": "Playa de Veneguera",
+      "description": "Una de las playas más vírgenes de Gran Canaria. Solo accesible por una pista de tierra o en barco. Arena oscura, aguas cristalinas y entorno completamente natural.",
+      "shortDescription": "Playa virgen solo accesible por pista de tierra o barco",
+      "island": "gran-canaria",
+      "category": "beach",
       "coordinates": {
-        "lat": 27.902,
-        "lng": -15.45
+        "lat": 27.827,
+        "lng": -15.756
       },
-      "shortDescription": "Barranco de Guayadeque, cuevas habitadas y el casco histórico mejor conservado del este",
-      "description": "Agüimes es la puerta al este de Gran Canaria. Su casco histórico, uno de los mejor conservados de la isla, rodea una plaza mayor de piedra volcánica. El barranco de Guayadeque es único en Europa: familias llevan siglos viviendo en cuevas excavadas en la roca, y sus restaurantes-cueva sirven cocina tradicional canaria.",
-      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-veneguera.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌿",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
     },
     {
-      "slug": "arucas",
-      "name": "Arucas",
-      "emoji": "🍌",
+      "slug": "playa-tasarte",
+      "name": "Playa de Tasarte",
+      "description": "Playa remota y virgen en el extremo suroeste. Arena negra volcánica, acceso por carretera de montaña espectacular. Entorno deshabitado y aguas limpias.",
+      "shortDescription": "Playa negra remota en el extremo suroeste de la isla",
+      "island": "gran-canaria",
+      "category": "beach",
       "coordinates": {
-        "lat": 28.118,
-        "lng": -15.523
+        "lat": 27.868,
+        "lng": -15.772
       },
-      "shortDescription": "La catedral gótica de basalto negro y la capital del plátano canario",
-      "description": "Arucas es conocida por su imponente catedral de San Juan Bautista, construida en piedra volcánica negra en un estilo neogótico que tardó un siglo en terminarse. El municipio es también el corazón de la producción de plátano canario, con plantaciones que cubren sus laderas. El Charco de San Lorenzo es un oasis natural a cinco minutos del casco.",
-      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-tasarte.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "⚫",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
     },
     {
-      "slug": "teror",
-      "name": "Teror",
-      "emoji": "⛪",
+      "slug": "playa-tasartico",
+      "name": "Playa de Tasartico",
+      "description": "Playa completamente virgen, solo accesible a pie por sendero o en barco. Una de las más remotas de Gran Canaria. Arena negra, tortugas marinas y silencio total.",
+      "shortDescription": "Playa virgen inaccesible por carretera, solo a pie o en barco",
+      "island": "gran-canaria",
+      "category": "beach",
       "coordinates": {
-        "lat": 28.058,
-        "lng": -15.548
-      },
-      "shortDescription": "El pueblo de peregrinación de Gran Canaria y sus casas señoriales con balcones de madera",
-      "description": "Teror es el municipio de peregrinación de Gran Canaria. La basílica de Nuestra Señora del Pino, patrona de la isla, recibe miles de fieles cada 8 de septiembre. El casco histórico es extraordinario: casas señoriales del siglo XVII y XVIII con balcones de madera tallada enmarcan una de las calles más fotografiadas de Canarias.",
-      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
-    },
-    {
-      "slug": "firgas",
-      "name": "Firgas",
-      "emoji": "💧",
-      "coordinates": {
-        "lat": 28.067,
-        "lng": -15.574
-      },
-      "shortDescription": "El agua que baja por el paseo de Canarias y los miradores del norte verde",
-      "description": "Firgas es famosa en toda España por su agua mineral, embotellada desde el siglo XIX. El Paseo de Canarias, donde el agua fluye por canales decorados con azulejos representando los municipios de Gran Canaria, es su monumento más singular. Rodeada de laurisilva y vegetación exuberante, es el contrapunto verde al árido sur.",
-      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
-    },
-    {
-      "slug": "galdar",
-      "name": "Gáldar",
-      "emoji": "🎨",
-      "coordinates": {
-        "lat": 28.147,
-        "lng": -15.652
-      },
-      "shortDescription": "Capital de los guanches: Cueva Pintada, pinturas rupestres y el noroeste atlántico",
-      "description": "Gáldar fue la capital del reino guanche del norte de Gran Canaria antes de la conquista española. La Cueva Pintada, descubierta en 1873, es el yacimiento arqueológico prehispánico más importante del archipiélago, con pinturas geométricas de más de mil años de antigüedad. La playa de Sardina del Norte, tranquila y poco turística, cierra el municipio hacia el Atlántico.",
-      "heroImage": "/images/gran-canaria/cueva-pintada/hero.avif"
-    },
-    {
-      "slug": "aldea",
-      "name": "La Aldea de San Nicolás",
-      "emoji": "🏔️",
-      "coordinates": {
-        "lat": 27.994,
+        "lat": 27.882,
         "lng": -15.785
       },
-      "shortDescription": "El municipio más aislado: acantilados del Balcón, Los Azulejos y el oeste salvaje",
-      "description": "La Aldea de San Nicolás es el municipio más aislado y menos visitado de Gran Canaria, y por eso uno de los más auténticos. El Mirador del Balcón asoma sobre acantilados de 300 metros directamente al Atlántico. Los Azulejos, una formación de roca multicolor única en las islas, emerge entre barrancos sin nombre. Un Gran Canaria diferente.",
-      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
-    },
-    {
-      "slug": "santa-brigida",
-      "name": "Santa Brígida",
-      "emoji": "🌋",
-      "coordinates": {
-        "lat": 28.042,
-        "lng": -15.465
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-tasartico.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-tasartico-2.avif"
+        ]
       },
-      "shortDescription": "La Caldera de Bandama y los viñedos de la cuenca interior junto a Las Palmas",
-      "description": "Santa Brígida es el municipio residencial y vitícola del interior cercano a Las Palmas. La Caldera de Bandama, un cráter volcánico perfectamente conservado de un kilómetro de diámetro, domina el paisaje. Sus viñedos producen algunos de los vinos más singulares de Canarias. El Monte Coello y el parque rural ofrecen rutas entre laurisilva a diez minutos de la capital.",
-      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🐢",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
     },
     {
-      "slug": "telde",
-      "name": "Telde",
-      "emoji": "🏺",
+      "slug": "playa-guguy",
+      "name": "Playa de Güigüi",
+      "description": "La playa más inaccesible de Gran Canaria. Solo se llega a pie por sendero de 3 horas o en barco desde Puerto de Mogán. Arena negra volcánica, acantilados y aguas turquesa sin ninguna instalación.",
+      "shortDescription": "La playa más inaccesible de Gran Canaria — 3h a pie o en barco",
+      "island": "gran-canaria",
+      "category": "beach",
       "coordinates": {
-        "lat": 27.993,
-        "lng": -15.417
+        "lat": 27.912,
+        "lng": -15.792
       },
-      "shortDescription": "Segunda ciudad de la isla: casco histórico mudéjar, playas de roca volcánica y arqueología",
-      "description": "Telde es la segunda ciudad de Gran Canaria y uno de sus municipios más antiguos. Su casco histórico de San Francisco, con arquitectura mudéjar, conserva iglesias y casas señoriales del siglo XVI. La costa este, con playas como Tufia y El Cabrón, es un paraíso para el submarinismo por sus fondos volcánicos. El yacimiento de Cuatro Puertas es uno de los más importantes de la isla.",
-      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-guguy.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-guguy-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏔️",
+      "sectionOnly": false,
+      "municipio": "aldea",
+      "top": false
     },
     {
-      "slug": "moya",
-      "name": "Moya",
+      "slug": "playa-la-aldea",
+      "name": "Playa de La Aldea",
+      "description": "Playa de arena oscura en el municipio más aislado de Gran Canaria. El entorno es árido y dramático, con montañas que caen directamente al mar. Escenario del ritual del Charco en septiembre.",
+      "shortDescription": "Playa oscura en el municipio más aislado de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.996,
+        "lng": -15.785
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-la-aldea.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-la-aldea-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "aldea",
+      "top": false
+    },
+    {
+      "slug": "piscinas-naturales-agaete",
+      "name": "Piscinas Naturales de Agaete",
+      "description": "Las piscinas de lava más espectaculares del norte. Pozas naturales excavadas en roca volcánica que el mar llena de agua cristalina. El destino favorito de los locales del norte en verano. Acceso gratuito.",
+      "shortDescription": "Pozas de lava volcánica que el mar llena de agua cristalina",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.099,
+        "lng": -15.706
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/piscinas-naturales-agaete.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "agaete",
+      "top": true
+    },
+    {
+      "slug": "playa-agaete",
+      "name": "Playa de Agaete",
+      "description": "La playa del pueblo más bonito del norte. Arena oscura volcánica, palmeras y el ambiente tranquilo del puerto de Las Nieves. Desde aquí salen los ferrys a Tenerife.",
+      "shortDescription": "La playa del pueblo más bonito del norte de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.099,
+        "lng": -15.706
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-agaete.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🚢",
+      "sectionOnly": false,
+      "municipio": "agaete",
+      "top": false
+    },
+    {
+      "slug": "playa-guayedra",
+      "name": "Playa de Guayedra",
+      "description": "Playa virgen de cantos rodados negros en el norte, solo accesible a pie o por mar. Entorno natural con acantilados y vegetación subtropical. Reserva Natural Especial.",
+      "shortDescription": "Playa virgen de cantos negros en reserva natural del norte",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.063,
+        "lng": -15.745
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-guayedra.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
       "emoji": "🌿",
-      "coordinates": {
-        "lat": 28.106,
-        "lng": -15.594
-      },
-      "shortDescription": "El bosque de Los Tilos, el barranco de Azuaje y el verde profundo del norte",
-      "description": "Moya es uno de los municipios más desconocidos y más hermosos del norte de Gran Canaria. El bosque de Los Tilos de Moya es el único bosque de tilos (Ocotea foetens) de la isla, una reliquia vegetal del Terciario que sobrevivió a las glaciaciones. El barranco de Azuaje combina senderos entre helechos gigantes y aguas minerales.",
-      "heroImage": "/images/gran-canaria/caldera-bandama/hero.avif"
+      "sectionOnly": false,
+      "municipio": "agaete",
+      "top": false
     },
     {
-      "slug": "guia",
-      "name": "Santa María de Guía",
-      "emoji": "🏛️",
+      "slug": "playa-sardina",
+      "name": "Playa de Sardina",
+      "description": "El rincón marinero más auténtico del norte. Arena oscura, barcos de pesca varados, chiringuitos con pescado fresco y ambiente de pueblo que no ha cambiado en décadas.",
+      "shortDescription": "El pueblo pesquero más auténtico del norte de la isla",
+      "island": "gran-canaria",
+      "category": "beach",
       "coordinates": {
-        "lat": 28.132,
-        "lng": -15.626
+        "lat": 28.147,
+        "lng": -15.692
       },
-      "shortDescription": "El Cenobio de Valerón, queso de flor y la costa noroeste entre acantilados",
-      "description": "Santa María de Guía es famosa por dos cosas en toda Canarias: el Cenobio de Valerón, un conjunto de 300 cuevas artificiales guanches excavadas en la roca que servía de granero comunal, y el queso de flor, un queso artesano elaborado con cuajo vegetal de cardo que tiene Denominación de Origen propia. La costa, con playas poco conocidas, cierra el municipio.",
-      "heroImage": "/images/gran-canaria/cueva-pintada/hero.avif"
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-sardina.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🐟",
+      "sectionOnly": false,
+      "municipio": "galdar",
+      "top": false
     },
     {
-      "slug": "vega-san-mateo",
-      "name": "Vega de San Mateo",
-      "emoji": "🌾",
+      "slug": "castillo-romeral",
+      "name": "Castillo del Romeral",
+      "description": "Playa tranquila y poco conocida en el sureste. Arena oscura, aguas calmas y acceso fácil. Frecuentada por locales del sur sin el turismo de las grandes playas.",
+      "shortDescription": "Playa tranquila y local en el sureste de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "beach",
       "coordinates": {
-        "lat": 28.002,
+        "lat": 27.757,
+        "lng": -15.505
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/castillo-romeral.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
+    },
+    {
+      "slug": "playa-meloneras",
+      "name": "Playa de Meloneras",
+      "description": "La playa de los grandes hoteles de lujo del sur. Arena clara, paseo marítimo cuidado y aguas tranquilas. Ambiente más exclusivo que Playa del Inglés. El faro de Maspalomas está a pocos minutos.",
+      "shortDescription": "Playa de lujo junto al faro de Maspalomas",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.743,
+        "lng": -15.574
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-meloneras.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-meloneras-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏨",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
+    },
+    {
+      "slug": "playa-san-agustin",
+      "name": "Playa de San Agustín",
+      "description": "Playa familiar entre Las Burras y Playa del Inglés. Arena oscura y aguas tranquilas. Ambiente más relajado que sus vecinas, con buenos restaurantes en el paseo.",
+      "shortDescription": "Playa familiar y tranquila entre las grandes playas del sur",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.76,
+        "lng": -15.562
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-san-agustin.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-san-agustin-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
+    },
+    {
+      "slug": "playa-las-burras",
+      "name": "Playa de Las Burras",
+      "description": "Playa local entre San Agustín y Playa del Inglés. Arena oscura y ambiente tranquilo. Sin el bullicio turístico de las playas principales del sur.",
+      "shortDescription": "Playa local tranquila frecuentada por residentes del sur",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.755,
+        "lng": -15.568
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-las-burras.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
+    },
+    {
+      "slug": "playa-del-aguila",
+      "name": "Playa del Águila",
+      "description": "Pequeña playa tranquila en el sureste con buen acceso y aguas calmas. Frecuentada por locales y familias sin grandes complejos hoteleros cerca.",
+      "shortDescription": "Playa tranquila en el sureste, sin turismo masivo",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.762,
+        "lng": -15.541
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-del-aguila.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🦅",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
+    },
+    {
+      "slug": "playa-arinaga",
+      "name": "Playa de Arinaga",
+      "description": "Playa de arena oscura en Agüimes, muy popular entre los windsurfistas por el viento constante del noreste. Reserva Marina de importancia ecológica.",
+      "shortDescription": "Paraíso del windsurf en el sureste de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.842,
+        "lng": -15.405
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-arinaga.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏄",
+      "sectionOnly": false,
+      "municipio": "aguimes",
+      "top": false
+    },
+    {
+      "slug": "playa-melenara",
+      "name": "Playa de Melenara",
+      "description": "La playa más popular del municipio de Telde. Arena oscura, paseo marítimo animado y restaurantes de pescado fresco. Ambiente local auténtico, muy frecuentada por familias teldenses.",
+      "shortDescription": "La playa favorita de los teldenses con restaurantes de pescado",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.997,
+        "lng": -15.369
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-melenara.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-melenara-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🐟",
+      "sectionOnly": false,
+      "municipio": "telde",
+      "top": false
+    },
+    {
+      "slug": "playa-tufia",
+      "name": "Playa de Tufia",
+      "description": "Pequeña cala salvaje junto a un yacimiento arqueológico guanche en Telde. Arena oscura, aguas cristalinas y una cueva-vivienda guanche junto a la playa.",
+      "shortDescription": "Pequeña cala junto a ruinas guanches en el litoral de Telde",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.006,
+        "lng": -15.372
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-tufia.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏺",
+      "sectionOnly": false,
+      "municipio": "telde",
+      "top": false
+    },
+    {
+      "slug": "playa-la-garita",
+      "name": "Playa de La Garita",
+      "description": "Playa de arena oscura con buen ambiente marinero y restaurantes de pescado fresco. Menos conocida que otras playas del este pero muy apreciada por los locales.",
+      "shortDescription": "Playa marinera con pescado fresco en el norte de Telde",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.037,
+        "lng": -15.363
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-la-garita.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🐟",
+      "sectionOnly": false,
+      "municipio": "telde",
+      "top": false
+    },
+    {
+      "slug": "playa-veril",
+      "name": "Playa del Veril",
+      "description": "Playa tranquila junto al área de Meloneras. Arena oscura y aguas calmas, con fácil acceso. Buena alternativa a las playas más masificadas del sur.",
+      "shortDescription": "Playa tranquila junto a Meloneras con buen acceso",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.745,
         "lng": -15.578
       },
-      "shortDescription": "El techo de Gran Canaria: Pico de las Nieves, mercado rural y la cumbre entre nubes",
-      "description": "Vega de San Mateo es el municipio de la cumbre central de Gran Canaria. El Pico de las Nieves, a 1.949 metros, es el punto más alto de la isla y ofrece vistas de 360 grados en los días claros. El mercado del agricultor de San Mateo, celebrado los fines de semana, es el mejor de la isla para comprar productos frescos de las cumbres: quesos, papas negras, frutas y miel.",
-      "heroImage": "/images/gran-canaria/roque-nublo/hero.avif"
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-veril.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
     },
     {
-      "slug": "ingenio",
-      "name": "Ingenio",
-      "emoji": "🪨",
+      "slug": "playa-alcanavaneras",
+      "name": "Playa de Alcaravaneras",
+      "description": "La segunda playa de Las Palmas, en la bahía del puerto. Arena oscura, aguas tranquilas sin oleaje. Muy frecuentada por residentes de la capital. Ideal para nadar.",
+      "shortDescription": "La playa del barrio marinero de Las Palmas, sin oleaje",
+      "island": "gran-canaria",
+      "category": "beach",
       "coordinates": {
-        "lat": 27.91,
-        "lng": -15.431
+        "lat": 28.123,
+        "lng": -15.428
       },
-      "shortDescription": "Artesanía canaria, calados y la costa este de piedra volcánica",
-      "description": "Ingenio es el municipio artesano de Gran Canaria. Sus talleres de bordados y calados, una tradición transmitida de madres a hijas durante siglos, producen piezas que son las más valoradas del archipiélago. El Museo de Piedras y Artesanía Canaria reúne la mayor colección de minerales volcánicos de las islas. La costa, tranquila y local, es aún desconocida para el turismo.",
-      "heroImage": "/images/gran-canaria/las-palmas/hero.avif"
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-alcanavaneras.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "⚓",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": false
+    },
+    {
+      "slug": "playa-de-la-laja",
+      "name": "Playa de La Laja",
+      "description": "Playa urbana al sur de Las Palmas, de arena oscura y ambiente tranquilo. Frecuentada por locales del sur de la capital sin turismo.",
+      "shortDescription": "Playa urbana al sur de Las Palmas, sin turismo",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.092,
+        "lng": -15.458
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-de-la-laja.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": false
+    },
+    {
+      "slug": "piscina-la-laja",
+      "name": "Piscina Natural de La Laja",
+      "description": "Piscina natural de lava al sur de Las Palmas, accesible a pie desde la ciudad. Aguas tranquilas y cristalinas en entorno volcánico. Alternativa gratuita para los residentes de la capital.",
+      "shortDescription": "Piscina de lava gratuita accesible a pie desde Las Palmas",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.088,
+        "lng": -15.461
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/piscina-la-laja.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": false
+    },
+    {
+      "slug": "charco-san-lorenzo",
+      "name": "Charco de San Lorenzo",
+      "description": "Poza natural de agua dulce en el interior de Gran Canaria, una rareza en la isla. Un remanso entre cañas y vegetación subtropical donde locales se bañan en verano.",
+      "shortDescription": "Poza natural de agua dulce en el interior de la isla",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.005,
+        "lng": -15.428
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/charco-san-lorenzo.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "💧",
+      "sectionOnly": false,
+      "municipio": "telde",
+      "top": false
+    },
+    {
+      "slug": "la-furnia",
+      "name": "La Furnia",
+      "description": "Piscina natural formada por una cueva marina inundada en el sureste. Un agujero en la roca volcánica que conecta con el mar y crea una poza de aguas cristalinas. Muy popular entre locales.",
+      "shortDescription": "Cueva marina inundada con aguas cristalinas en el sureste",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.855,
+        "lng": -15.396
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/la-furnia.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🕳️",
+      "sectionOnly": false,
+      "municipio": "ingenio",
+      "top": false
+    },
+    {
+      "slug": "piscinas-naturales-charcones",
+      "name": "Piscinas Naturales de Charcones",
+      "description": "Piscinas de lava en el litoral norte, menos conocidas que las de Agaete pero igualmente espectaculares. Aguas cristalinas y entorno volcánico sin urbanizar. Acceso gratuito.",
+      "shortDescription": "Piscinas de lava en el norte, menos conocidas y sin masificacion",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.12,
+        "lng": -15.61
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/piscinas-naturales-charcones.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "arucas",
+      "top": false
+    },
+    {
+      "slug": "playa-san-felipe",
+      "name": "Playa de San Felipe",
+      "description": "Pequeña playa de arena oscura en el norte, junto al pueblo de San Felipe en Galdar. Ambiente local auténtico, sin instalaciones turísticas.",
+      "shortDescription": "Pequeña playa local en el norte, sin turismo",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.156,
+        "lng": -15.648
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-san-felipe.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "galdar",
+      "top": false
+    },
+    {
+      "slug": "playa-agujero",
+      "name": "Playa de El Agujero",
+      "description": "Playa de arena oscura junto a la necropolis guanche de La Guancha en Galdar. Entorno historico unico — puedes visitar el yacimiento arqueologico y banarte en la misma excursion.",
+      "shortDescription": "Playa junto a la necropolis guanche mas importante de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.148,
+        "lng": -15.668
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-agujero.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏺",
+      "sectionOnly": false,
+      "municipio": "galdar",
+      "top": false
+    },
+    {
+      "slug": "playa-santa-agueda",
+      "name": "Playa de Santa Agueda",
+      "description": "Playa pequena y tranquila en el norte, frecuentada por residentes locales. Arena oscura, aguas limpias y entorno sin urbanizar. Una de las playas mas desconocidas del norte.",
+      "shortDescription": "Pequeña playa desconocida y tranquila en el norte de la isla",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.135,
+        "lng": -15.705
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-santa-agueda.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "galdar",
+      "top": false
+    },
+    {
+      "slug": "playa-puertillo",
+      "name": "Playa del Puertillo",
+      "description": "Pequena cala de arena oscura en el litoral este, cerca de Melenara. Ambiente local autentico y aguas tranquilas. Sin servicios turisticos.",
+      "shortDescription": "Pequeña cala local en el litoral este de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.99,
+        "lng": -15.368
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-puertillo.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-puertillo-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "telde",
+      "top": false
+    },
+    {
+      "slug": "playa-besudo",
+      "name": "Playa del Besudo",
+      "description": "Playa solitaria de arena oscura en el sureste. Acceso por pista, sin servicios. Frecuentada casi exclusivamente por locales que buscan tranquilidad.",
+      "shortDescription": "Playa solitaria sin servicios en el sureste de la isla",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.867,
+        "lng": -15.418
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-besudo.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "aguimes",
+      "top": false
+    },
+    {
+      "slug": "playa-costa-alegre",
+      "name": "Playa Costa Alegre",
+      "description": "Playa tranquila del sureste con ambiente familiar. Arena oscura y aguas calmas. Sin la masificacion de las grandes playas del sur.",
+      "shortDescription": "Playa familiar tranquila del sureste sin masificacion",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.78,
+        "lng": -15.52
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-costa-alegre.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
+    },
+    {
+      "slug": "playa-maranuelas",
+      "name": "Playa de Maranuelas",
+      "description": "Pequeña playa de arena oscura en el litoral suroeste. Entorno natural y tranquilo, sin urbanizacion masiva.",
+      "shortDescription": "Pequeña playa tranquila en el suroeste de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.86,
+        "lng": -15.72
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-maranuelas.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
+    },
+    {
+      "slug": "playa-montana-arena",
+      "name": "Playa de Montana Arena",
+      "description": "Playa solitaria de arena oscura en el sur, sin servicios ni infraestructura turistica. Entorno volcanico arido y aguas limpias. Para quienes buscan una playa salvaje cerca del turismo del sur.",
+      "shortDescription": "Playa salvaje sin servicios al sur de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.761,
+        "lng": -15.588
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/playa-montana-arena.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌋",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
+    },
+    {
+      "slug": "roque-prieto",
+      "name": "Roque Prieto",
+      "description": "Cala salvaje y remota en el suroeste, al pie de acantilados volcanicos. Arena oscura, aguas cristalinas y entorno completamente virgen. Solo accesible a pie por sendero.",
+      "shortDescription": "Cala virgen al pie de acantilados en el suroeste",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 27.89,
+        "lng": -15.78
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/roque-prieto.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏔️",
+      "sectionOnly": false,
+      "municipio": "aldea",
+      "top": false
     }
-  ]
+  ],
+  "sections": [],
+  "municipios": []
 }

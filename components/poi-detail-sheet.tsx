@@ -47,13 +47,15 @@ interface StoryBubblesProps {
   pois: POI[];
   activePoi: POI;
   onSelect: (poi: POI) => void;
+  compact?: boolean;
 }
 
-function StoryBubbles({ pois, activePoi, onSelect }: StoryBubblesProps) {
+function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps) {
+  const size = compact ? 44 : 64;
   return (
     <div style={{
-      display: 'flex', gap: '12px', overflowX: 'auto',
-      padding: '10px 14px 6px', scrollbarWidth: 'none',
+      display: 'flex', gap: compact ? '8px' : '12px', overflowX: 'auto',
+      padding: compact ? '6px 14px 4px' : '10px 14px 6px', scrollbarWidth: 'none',
     }}>
       {pois.map((poi) => {
         const isActive = poi.slug === activePoi.slug;
@@ -63,19 +65,19 @@ function StoryBubbles({ pois, activePoi, onSelect }: StoryBubblesProps) {
             key={poi.slug}
             onClick={() => onSelect(poi)}
             style={{
-              display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '5px',
+              display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
               background: 'none', border: 'none', cursor: 'pointer', flexShrink: 0, padding: 0,
             }}
           >
             <div style={{
-              width: 64, height: 64, borderRadius: '50%',
+              width: size, height: size, borderRadius: '50%',
               padding: isActive ? 3 : 2,
               background: ringColor,
               opacity: isActive ? 1 : 0.55,
               boxShadow: isActive
                 ? `0 10px 24px -8px ${ringColor}88, 0 0 0 3px ${ringColor}22`
                 : 'none',
-              transform: isActive ? 'translateY(-3px) scale(1.06)' : 'scale(1)',
+              transform: isActive ? 'translateY(-2px) scale(1.06)' : 'scale(1)',
               transition: 'all 0.25s cubic-bezier(0.34,1.56,0.64,1)',
               position: 'relative',
             }}>
@@ -84,7 +86,7 @@ function StoryBubbles({ pois, activePoi, onSelect }: StoryBubblesProps) {
                 overflow: 'hidden', border: '2.5px solid white',
                 background: ringColor + '33',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontSize: '24px',
+                fontSize: compact ? '16px' : '24px',
               }}>
                 <img
                   src={poi.images.hero}
@@ -93,20 +95,27 @@ function StoryBubbles({ pois, activePoi, onSelect }: StoryBubblesProps) {
                   onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                 />
               </div>
+              {/* Badge numérico */}
               <span style={{
                 position: 'absolute', bottom: '-2px', right: '-2px',
-                width: 22, height: 22, borderRadius: '50%',
-                background: 'white', border: `2px solid ${ringColor}`,
+                width: compact ? 16 : 20, height: compact ? 16 : 20,
+                borderRadius: '50%',
+                background: isActive ? ringColor : 'white',
+                border: `2px solid ${ringColor}`,
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontSize: '12px', lineHeight: 1,
+                fontSize: compact ? '8px' : '10px',
+                fontWeight: 800,
+                fontFamily: "'JetBrains Mono', monospace",
+                color: isActive ? 'white' : ringColor,
+                lineHeight: 1,
               }}>
-                {poi.emoji ?? '📍'}
+                {pois.indexOf(poi) + 1}
               </span>
             </div>
             <span style={{
-              fontSize: '10px', fontFamily: "'JetBrains Mono', monospace",
+              fontSize: compact ? '9px' : '10px', fontFamily: "'JetBrains Mono', monospace",
               color: isActive ? '#0f172a' : '#94a3b8',
-              textAlign: 'center', maxWidth: '64px', lineHeight: 1.2,
+              textAlign: 'center', maxWidth: `${size}px`, lineHeight: 1.2,
               fontWeight: isActive ? 700 : 400, transition: 'color 0.15s',
             }}>
               {poi.name.length > 10 ? poi.name.slice(0, 9) + '…' : poi.name}
@@ -122,9 +131,10 @@ function StoryBubbles({ pois, activePoi, onSelect }: StoryBubblesProps) {
 interface PhotoGalleryProps {
   poi: POI;
   color: string;
+  fullHeight?: boolean;
 }
 
-function PhotoGallery({ poi, color }: PhotoGalleryProps) {
+function PhotoGallery({ poi, color, fullHeight }: PhotoGalleryProps) {
   const [activePhoto, setActivePhoto] = useState(0);
   const [hasError, setHasError] = useState(false);
 
@@ -133,12 +143,16 @@ function PhotoGallery({ poi, color }: PhotoGalleryProps) {
     setHasError(false);
   }, [poi.slug]);
 
+  useEffect(() => {
+    setHasError(false);
+  }, [activePhoto]);
+
   const photos = [poi.images.hero, ...poi.images.gallery].filter(Boolean);
 
   return (
     <div style={{
-      margin: '4px 12px 0', borderRadius: '18px', overflow: 'hidden',
-      height: 220, position: 'relative',
+      margin: 0, borderRadius: 0, overflow: 'hidden',
+      height: '100%', position: 'relative',
       background: `linear-gradient(135deg, ${color}44, ${color}22)`,
       flexShrink: 0,
     }}>
@@ -164,77 +178,63 @@ function PhotoGallery({ poi, color }: PhotoGalleryProps) {
         </div>
       )}
 
-      {/* Gradient */}
-      <div style={{
-        position: 'absolute', inset: 0, pointerEvents: 'none',
-        background: 'linear-gradient(to bottom, transparent 30%, rgba(0,0,0,0.82) 100%)',
-      }} />
-
-      {/* Photo dots */}
+      {/* Indicadores — círculos */}
       {photos.length > 1 && (
         <div style={{
-          position: 'absolute', top: 12, left: 0, right: 0,
-          display: 'flex', justifyContent: 'center', gap: '6px',
+          position: 'absolute', bottom: 12, left: 0, right: 0,
+          display: 'flex', justifyContent: 'center', gap: '7px',
+          pointerEvents: 'none',
         }}>
           {photos.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => setActivePhoto(i)}
-              style={{
-                width: i === activePhoto ? 26 : 20,
-                height: i === activePhoto ? 26 : 20,
-                borderRadius: '50%',
-                border: `2px solid ${i <= activePhoto ? color : 'rgba(255,255,255,0.3)'}`,
-                background: i <= activePhoto ? color : 'rgba(0,0,0,0.4)',
-                color: 'white', fontSize: '9px', fontWeight: 800,
-                fontFamily: "'JetBrains Mono', monospace",
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                cursor: 'pointer', transition: 'all 0.2s',
-              }}
-            >{i + 1}</button>
+            <div key={i} style={{
+              width: i === activePhoto ? 10 : 7,
+              height: i === activePhoto ? 10 : 7,
+              borderRadius: '50%',
+              background: i === activePhoto ? 'white' : 'rgba(255,255,255,0.45)',
+              border: i === activePhoto ? '2px solid rgba(255,255,255,0.9)' : '1.5px solid rgba(255,255,255,0.3)',
+              boxShadow: i === activePhoto ? '0 1px 6px rgba(0,0,0,0.3)' : 'none',
+              transition: 'all 0.22s ease',
+            }} />
           ))}
         </div>
       )}
 
-      {/* Category + name overlay */}
-      <div style={{ position: 'absolute', bottom: 12, left: 14, pointerEvents: 'none' }}>
-        <span style={{
-          display: 'inline-flex', alignItems: 'center', gap: '4px',
-          fontSize: '11px', padding: '3px 10px', borderRadius: '20px',
-          background: color + 'dd', color: 'white',
-          fontFamily: "'JetBrains Mono', monospace", fontWeight: 700,
-          marginBottom: '6px',
-        }}>
-          {poi.emoji ?? '📍'} {CATEGORY_LABELS[poi.category]}
-        </span>
-        <h2 style={{
-          margin: 0, fontSize: '22px', fontWeight: 700, color: 'white',
-          textShadow: '0 2px 14px rgba(0,0,0,0.85)',
-          fontFamily: "'Cormorant Garamond', Georgia, serif",
-          lineHeight: 1.2,
-        }}>
-          {poi.name}
-        </h2>
-      </div>
-
-      {/* Arrows */}
+      {/* Flechas de navegación */}
       {activePhoto > 0 && (
         <button onClick={() => setActivePhoto(p => p - 1)} style={{
-          position: 'absolute', left: 8, top: '50%', transform: 'translateY(-50%)',
-          width: 32, height: 32, borderRadius: '50%',
-          background: 'rgba(0,0,0,0.5)', border: '1px solid rgba(255,255,255,0.2)',
-          color: '#fff', fontSize: '20px', cursor: 'pointer',
+          position: 'absolute', left: 10, top: '50%', transform: 'translateY(-50%)',
+          width: 40, height: 40, borderRadius: '14px',
+          background: 'rgba(255,255,255,0.22)',
+          backdropFilter: 'blur(10px)',
+          WebkitBackdropFilter: 'blur(10px)',
+          border: '1px solid rgba(255,255,255,0.4)',
+          color: '#fff', cursor: 'pointer',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
-        }}>‹</button>
+          boxShadow: '0 2px 12px rgba(0,0,0,0.18)',
+          transition: 'background 0.15s',
+        }}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+        </button>
       )}
       {activePhoto < photos.length - 1 && (
         <button onClick={() => setActivePhoto(p => p + 1)} style={{
-          position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%)',
-          width: 32, height: 32, borderRadius: '50%',
-          background: 'rgba(0,0,0,0.5)', border: '1px solid rgba(255,255,255,0.2)',
-          color: '#fff', fontSize: '20px', cursor: 'pointer',
+          position: 'absolute', right: 10, top: '50%', transform: 'translateY(-50%)',
+          width: 40, height: 40, borderRadius: '14px',
+          background: 'rgba(255,255,255,0.22)',
+          backdropFilter: 'blur(10px)',
+          WebkitBackdropFilter: 'blur(10px)',
+          border: '1px solid rgba(255,255,255,0.4)',
+          color: '#fff', cursor: 'pointer',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
-        }}>›</button>
+          boxShadow: '0 2px 12px rgba(0,0,0,0.18)',
+          transition: 'background 0.15s',
+        }}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </button>
       )}
     </div>
   );
@@ -346,49 +346,36 @@ export function PoiDetailSheet({
         }}
         style={{
           position: 'fixed',
-          top: 0,
-          bottom: 0,
-          left: 0,
-          right: 0,
+          top: 0, bottom: 0, left: 0, right: 0,
           background: 'white',
-          borderRadius: 0,
           boxShadow: '0 -6px 40px rgba(0,0,0,0.18)',
           zIndex: 200,
-          overflowY: 'auto',
           overscrollBehavior: 'contain',
           touchAction: 'pan-y',
           display: 'flex',
           flexDirection: 'column',
+          overflow: 'hidden',
         }}
       >
-        {/* Drag handle */}
-        <div style={{ padding: '12px 0 0', textAlign: 'center', flexShrink: 0, cursor: 'grab' }}>
-          <div style={{ width: 42, height: 4, background: '#e2e8f0', borderRadius: 99, display: 'inline-block' }} />
-        </div>
-
-        {/* Story bubbles */}
+        {/* ── HEADER — fijo, no scrollea ── */}
         <div style={{ flexShrink: 0 }}>
+          {/* Drag handle */}
+          <div style={{ padding: '12px 0 4px', textAlign: 'center', cursor: 'grab' }}>
+            <div style={{ width: 42, height: 4, background: '#e2e8f0', borderRadius: 99, display: 'inline-block' }} />
+          </div>
+
+          {/* Story bubbles */}
           {sectionContext && (
             <div style={{
-              position: 'sticky',
-              top: 0,
-              zIndex: 2,
-              padding: '8px 14px 4px',
-              background: 'rgba(255,255,255,0.94)',
-              backdropFilter: 'blur(12px)',
-              WebkitBackdropFilter: 'blur(12px)',
+              padding: '6px 14px 4px',
               borderBottom: `1px solid ${sectionContext.color}22`,
             }}>
               <div style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px',
+                display: 'inline-flex', alignItems: 'center', gap: '8px',
                 color: sectionContext.color,
                 fontFamily: "'JetBrains Mono', monospace",
-                fontSize: '12px',
-                fontWeight: 800,
-                textTransform: 'uppercase',
-                letterSpacing: '0.08em',
+                fontSize: '12px', fontWeight: 800,
+                textTransform: 'uppercase', letterSpacing: '0.08em',
               }}>
                 <span style={{ fontSize: '16px', lineHeight: 1 }}>{sectionContext.emoji}</span>
                 <span>{sectionContext.label}</span>
@@ -396,60 +383,60 @@ export function PoiDetailSheet({
             </div>
           )}
           <StoryBubbles pois={pois} activePoi={selectedPoi} onSelect={onPoiChange} />
-        </div>
 
-        {/* Title + close button */}
-        <div style={{
-          padding: '4px 16px 12px',
-          display: 'flex', alignItems: 'flex-start', gap: '10px',
-          flexShrink: 0,
-          borderBottom: `1px solid ${color}22`,
-        }}>
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <span style={{
-              display: 'inline-flex', alignItems: 'center', gap: '5px',
-              fontSize: '11px', padding: '2px 9px', borderRadius: '20px',
-              background: color + 'dd', color: 'white',
-              fontFamily: "'JetBrains Mono', monospace", fontWeight: 700,
-              marginBottom: '6px',
-            }}>
-              {selectedPoi.emoji ?? '📍'} {CATEGORY_LABELS[selectedPoi.category]}
-            </span>
-            <h2 style={{
-              margin: 0, fontSize: '22px', fontWeight: 700, color: '#0f172a',
-              fontFamily: "'Cormorant Garamond', Georgia, serif",
-              lineHeight: 1.2,
-            }}>
-              {selectedPoi.name}
-            </h2>
-          </div>
-          <button
-            onClick={triggerClose}
-            style={{
+          {/* Title + close */}
+          <div style={{
+            padding: '4px 16px 10px',
+            display: 'flex', alignItems: 'flex-start', gap: '10px',
+            borderBottom: `1px solid ${color}22`,
+          }}>
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <span style={{
+                display: 'inline-flex', alignItems: 'center', gap: '5px',
+                fontSize: '11px', padding: '2px 9px', borderRadius: '20px',
+                background: color + 'dd', color: 'white',
+                fontFamily: "'JetBrains Mono', monospace", fontWeight: 700,
+                marginBottom: '5px',
+              }}>
+                {selectedPoi.emoji ?? '📍'} {CATEGORY_LABELS[selectedPoi.category]}
+              </span>
+              <h2 style={{
+                margin: 0, fontSize: '20px', fontWeight: 700, color: '#0f172a',
+                fontFamily: "'Cormorant Garamond', Georgia, serif", lineHeight: 1.2,
+              }}>
+                {selectedPoi.name}
+              </h2>
+            </div>
+            <button onClick={triggerClose} style={{
               flexShrink: 0, width: 30, height: 30, borderRadius: '50%',
               background: 'rgba(0,0,0,0.07)', border: '1px solid rgba(0,0,0,0.08)',
               color: '#374151', cursor: 'pointer', fontSize: '13px',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               marginTop: '2px',
-            }}
-          >✕</button>
+            }}>✕</button>
+          </div>
         </div>
 
-        {/* Scrollable content: description → meta → photos → audio → buttons */}
-        <div style={{ padding: '14px 16px 40px', display: 'flex', flexDirection: 'column', gap: '14px' }}>
+        {/* ── FOTO — 52% del viewport ── */}
+        <div style={{ flexShrink: 0, height: '40vh' }}>
+          {showTranscript && selectedPoi.audioTranscript
+            ? <TranscriptPanel html={selectedPoi.audioTranscript} color={color} />
+            : <PhotoGallery poi={selectedPoi} color={color} />}
+        </div>
 
-          {/* Description first — fixed height, scrollable if long */}
-          <div style={{
-            maxHeight: '130px',
-            overflowY: 'auto',
-            paddingRight: '6px',
-            scrollbarWidth: 'thin',
-            scrollbarColor: `${color}44 transparent`,
-          }}>
-            <RichText html={selectedPoi.description} />
-          </div>
+        {/* ── TEXTO — flex 1, scroll visible ── */}
+        <div style={{
+          flex: 1,
+          overflowY: 'scroll',
+          padding: '12px 16px 8px',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '10px',
+          scrollbarWidth: 'thin',
+          scrollbarColor: `${color}66 #f1f5f9`,
+        }}>
+          <RichText html={selectedPoi.description} />
 
-          {/* Meta chips */}
           {(selectedPoi.visitDuration || selectedPoi.difficulty) && (
             <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
               {selectedPoi.visitDuration && (
@@ -471,88 +458,92 @@ export function PoiDetailSheet({
             </div>
           )}
 
-          {/* Photo gallery — after description */}
-          <div style={{ margin: '0 -16px' }}>
-            {showTranscript && selectedPoi.audioTranscript
-              ? <TranscriptPanel html={selectedPoi.audioTranscript} color={color} />
-              : <PhotoGallery poi={selectedPoi} color={color} />}
-          </div>
-
-          {/* Audio preview */}
           {selectedPoi.audioPreview && (
             <div style={{
               background: '#f8fafc', borderRadius: '14px',
-              padding: '12px 14px', border: '1px solid #e2e8f0',
+              padding: '10px 12px', border: '1px solid #e2e8f0',
             }}>
               <div style={{
                 fontSize: '10px', fontWeight: 700, color: '#64748b',
                 letterSpacing: '0.1em', textTransform: 'uppercase',
-                fontFamily: "'JetBrains Mono', monospace", marginBottom: '8px',
+                fontFamily: "'JetBrains Mono', monospace", marginBottom: '6px',
               }}>🎧 Audioguía preview</div>
-              <audio controls style={{ width: '100%', height: '40px' }} src={selectedPoi.audioPreview} />
-              {selectedPoi.audioTranscript && (
-                <button
-                  onClick={() => setShowTranscript((value) => !value)}
-                  style={{
-                    marginTop: '10px',
-                    width: '100%',
-                    padding: '9px 12px',
-                    borderRadius: '10px',
-                    border: `1px solid ${color}33`,
-                    background: showTranscript ? color : 'white',
-                    color: showTranscript ? 'white' : color,
-                    fontSize: '11px',
-                    fontWeight: 800,
-                    cursor: 'pointer',
-                    fontFamily: "'JetBrains Mono', monospace",
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.06em',
-                  }}
-                >
-                  {showTranscript ? 'Ver fotos' : 'Ver transcripción'}
-                </button>
+              <audio controls style={{ width: '100%', height: '36px' }} src={selectedPoi.audioPreview} />
+            </div>
+          )}
+        </div>
+
+        {/* ── BOTONES — fijos al fondo ── */}
+        {(canRoute || selectedPoi.track?.mapsUrl) && (
+          <div style={{
+            flexShrink: 0,
+            padding: '10px 16px 16px',
+            borderTop: '1px solid #f1f5f9',
+            display: 'flex', flexDirection: 'column', gap: '8px',
+            background: 'white',
+          }}>
+
+          {/* Botón Ver recorrido — solo para POIs con track */}
+          {selectedPoi.track?.mapsUrl && (
+            <a
+              href={selectedPoi.track.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                gap: '8px', padding: '13px 10px', borderRadius: '11px',
+                background: '#0f172a', color: 'white',
+                fontSize: '13px', fontWeight: 700, textDecoration: 'none',
+                fontFamily: "'JetBrains Mono', monospace",
+                boxShadow: '0 4px 14px rgba(15,23,42,0.18)',
+              }}
+            >
+              🥾 Ver recorrido
+              {selectedPoi.track.distance && (
+                <span style={{
+                  background: 'rgba(255,255,255,0.15)', padding: '2px 8px',
+                  borderRadius: '20px', fontSize: '11px', fontWeight: 600,
+                }}>
+                  {selectedPoi.track.distance}
+                </span>
               )}
-            </div>
+              {selectedPoi.track.duration && (
+                <span style={{
+                  background: 'rgba(255,255,255,0.15)', padding: '2px 8px',
+                  borderRadius: '20px', fontSize: '11px', fontWeight: 600,
+                }}>
+                  {selectedPoi.track.duration}
+                </span>
+              )}
+            </a>
           )}
 
-          {/* Action buttons */}
-          {canRoute && (
-            <div style={{ display: 'flex', gap: '8px' }}>
-              <button onClick={openMaps} style={{
-                flex: 1, padding: '10px 12px', borderRadius: '11px',
-                border: 'none', background: color, color: 'white',
-                fontSize: '12px', fontWeight: 600, cursor: 'pointer',
-                fontFamily: "'JetBrains Mono', monospace", whiteSpace: 'nowrap',
-              }}>🗺️ Abrir Maps</button>
-              <button onClick={openDir} style={{
-                flex: 1, padding: '10px 12px', borderRadius: '11px',
-                border: '1px solid #e2e8f0', background: 'white', color: '#475569',
-                fontSize: '12px', fontWeight: 600, cursor: 'pointer',
-                fontFamily: "'JetBrains Mono', monospace", whiteSpace: 'nowrap',
-              }}>🧭 Cómo llegar</button>
-            </div>
-          )}
-
-          {/* Add to cart */}
-          {canRoute && (
+          {canRoute && <div style={{ display: 'flex', gap: '8px' }}>
+            <button onClick={openMaps} style={{
+              flex: 1, padding: '13px 10px', borderRadius: '11px',
+              border: 'none', background: color, color: 'white',
+              fontSize: '13px', fontWeight: 600, cursor: 'pointer',
+              fontFamily: "'JetBrains Mono', monospace", whiteSpace: 'nowrap',
+            }}>🗺️ Abrir Maps</button>
             <button
               onClick={() => onAddToCart(selectedPoi)}
               disabled={inCart || (cart.isFull && !inCart)}
               style={{
-                width: '100%', padding: '14px', borderRadius: '12px', border: 'none',
+                flex: 1, padding: '13px 10px', borderRadius: '11px', border: 'none',
                 background: inCart ? '#d1fae5' : cart.isFull ? '#f3f4f6' : '#1f9d61',
                 color: inCart ? '#059669' : cart.isFull ? '#9ca3af' : 'white',
-                fontWeight: 700, fontSize: '14px',
+                fontWeight: 700, fontSize: '13px',
                 cursor: (cart.isFull && !inCart) ? 'not-allowed' : 'pointer',
                 fontFamily: "'JetBrains Mono', monospace",
-                transition: 'background 0.2s',
+                transition: 'background 0.2s', whiteSpace: 'nowrap',
                 boxShadow: inCart || cart.isFull ? 'none' : '0 4px 14px rgba(31,157,97,0.28)',
               }}
             >
-              {inCart ? '✓ En tu ruta' : cart.isFull ? `Ruta completa (${cart.count}/4)` : `➕ Añadir a Mi Ruta · ${cart.count}/4`}
+              {inCart ? '✓ En tu ruta' : cart.isFull ? `Completa (${cart.count}/4)` : `➕ Mi Ruta · ${cart.count}/4`}
             </button>
-          )}
-        </div>
+          </div>}
+          </div>
+        )}
       </motion.div>
 
       <style>{`
@@ -561,9 +552,11 @@ export function PoiDetailSheet({
           to   { opacity: 1; transform: scale(1); }
         }
         .rich-poi-text {
-          color: #475569;
+          color: #374151;
           font-size: 14px;
-          line-height: 1.75;
+          font-weight: 400;
+          line-height: 1.8;
+          font-family: 'DM Sans', system-ui, sans-serif;
         }
         .rich-poi-text p {
           margin: 0 0 10px;

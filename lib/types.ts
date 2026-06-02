@@ -38,6 +38,18 @@ export interface POI {
   municipio?: string;
   /** When true, appears in the Top filter on the map */
   top?: boolean;
+  /** Hiking track data */
+  track?: {
+    mapsUrl: string;
+    startCoordinates?: { lat: number; lng: number };
+    distance?: string;
+    duration?: string;
+    code?: string;
+    type?: 'circular' | 'lineal' | 'ida-vuelta';
+    elevationGain?: number;
+    maxAltitude?: number;
+    tips?: string;
+  };
 }
 
 export interface RouteImages {
