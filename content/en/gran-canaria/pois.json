@@ -8,12 +8,15 @@
       "island": "gran-canaria",
       "category": "hiking",
       "coordinates": {
-        "lat": 28.1138,
-        "lng": -15.5861
+        "lat": 28.09313,
+        "lng": -15.594503
       },
       "images": {
-        "hero": "/images/gran-canaria/sendero/camino-de-los-tilos-de-moya.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/sendero/tilos-de-moya-1.avif",
+        "gallery": [
+          "/images/gran-canaria/sendero/tilos-de-moya-2.avif",
+          "/images/gran-canaria/sendero/tilos-de-moya-3.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -32,7 +35,7 @@
       "sectionOnly": false,
       "municipio": "moya",
       "track": {
-        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1OotxyTLkTVd2jQTQmDKzegkr1iV8LUQ",
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1B-NC2JPOt9c0sS3pYsc4DnjuNezRPuE",
         "distance": "2.01 km",
         "duration": "1h",
         "type": "circular",
@@ -49,12 +52,15 @@
       "island": "gran-canaria",
       "category": "hiking",
       "coordinates": {
-        "lat": 28.0915,
-        "lng": -15.5673
+        "lat": 28.108063,
+        "lng": -15.563312
       },
       "images": {
-        "hero": "/images/gran-canaria/sendero/barranco-de-azuaje.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/sendero/barranco-azuaje-1.avif",
+        "gallery": [
+          "/images/gran-canaria/sendero/barranco-azuaje-2.avif",
+          "/images/gran-canaria/sendero/barranco-azuaje-3.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -74,7 +80,7 @@
       "sectionOnly": false,
       "municipio": "moya",
       "track": {
-        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1G39dTUzswS6b_k8mRp86RSQIVpmX610",
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1uL8T0QcsaXeGY9vEipQAp16qQV6GT6I",
         "distance": "6.7 km",
         "duration": "3h30",
         "type": "circular",
@@ -91,12 +97,15 @@
       "island": "gran-canaria",
       "category": "hiking",
       "coordinates": {
-        "lat": 27.9659,
-        "lng": -15.6105
+        "lat": 27.965672,
+        "lng": -15.601531
       },
       "images": {
-        "hero": "/images/gran-canaria/sendero/sendero-roque-nublo.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/sendero/roque-nublo-1.avif",
+        "gallery": [
+          "/images/gran-canaria/sendero/roque-nublo-2.avif",
+          "/images/gran-canaria/sendero/roque-nublo-3.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -132,12 +141,15 @@
       "island": "gran-canaria",
       "category": "hiking",
       "coordinates": {
-        "lat": 27.9651,
-        "lng": -15.5676
+        "lat": 27.962601,
+        "lng": -15.571956
       },
       "images": {
-        "hero": "/images/gran-canaria/sendero/senderos-pico-de-las-nieves.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/sendero/pico-de-las-nieves-1.avif",
+        "gallery": [
+          "/images/gran-canaria/sendero/pico-de-las-nieves-2.avif",
+          "/images/gran-canaria/sendero/pico-de-las-nieves-3.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -156,7 +168,7 @@
       "sectionOnly": false,
       "municipio": "vega-san-mateo",
       "track": {
-        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=15KzlLGbEWx-zpZvmet4Bqxp-gtq3npE",
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1BVD09wMJGrR7sV79eImyI_7qbLNG_4g",
         "distance": "7.35 km",
         "duration": "3h",
         "type": "circular",
@@ -173,12 +185,15 @@
       "island": "gran-canaria",
       "category": "hiking",
       "coordinates": {
-        "lat": 27.9782,
-        "lng": -15.4524
+        "lat": 28.034698,
+        "lng": -15.460877
       },
       "images": {
-        "hero": "/images/gran-canaria/sendero/sendero-caldera-de-bandama.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/sendero/caldera-bandama-1.avif",
+        "gallery": [
+          "/images/gran-canaria/sendero/caldera-bandama-2.avif",
+          "/images/gran-canaria/sendero/caldera-bandama-3.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -197,7 +212,7 @@
       "sectionOnly": false,
       "municipio": "santa-brigida",
       "track": {
-        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1_23ZX-TNDvFwnKcLH2lz2dpsvUN9K5s",
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1HHeq9N0gt7_uz0_wDm9LyoqSvvocdYk",
         "distance": "3.49 km",
         "duration": "1h20",
         "type": "circular",
@@ -214,12 +229,15 @@
       "island": "gran-canaria",
       "category": "hiking",
       "coordinates": {
-        "lat": 28.0435,
-        "lng": -15.7354
+        "lat": 28.057077,
+        "lng": -15.68914
       },
       "images": {
-        "hero": "/images/gran-canaria/sendero/senderos-de-tamadaba.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/sendero/tamadaba-1.avif",
+        "gallery": [
+          "/images/gran-canaria/sendero/tamadaba-2.avif",
+          "/images/gran-canaria/sendero/tamadaba-3.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -238,7 +256,7 @@
       "sectionOnly": false,
       "municipio": "agaete",
       "track": {
-        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1g7OLVogJVphxCAWa9KTfHVotNNRe1Io",
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1mE9uSSdJVUKpm3j425XYaH0MAm6JvII",
         "distance": "10.57 km",
         "duration": "3h30",
         "type": "circular",
@@ -255,12 +273,15 @@
       "island": "gran-canaria",
       "category": "hiking",
       "coordinates": {
-        "lat": 27.98,
-        "lng": -15.435
+        "lat": 27.979888,
+        "lng": -15.473875
       },
       "images": {
-        "hero": "/images/gran-canaria/sendero/barranco-de-los-cercinalos.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/sendero/barranco-cernicalos-1.avif",
+        "gallery": [
+          "/images/gran-canaria/sendero/barranco-cernicalos-2.avif",
+          "/images/gran-canaria/sendero/barranco-cernicalos-3.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -278,7 +299,7 @@
       "sectionOnly": false,
       "municipio": "ingenio",
       "track": {
-        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=15sBsR-tWbe2v_rMDH4pAfpxaJGuivvE",
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1_zMZPLPBFSqECzUN8fYV-uICfe3pNM0",
         "distance": "5.85 km",
         "duration": "2h",
         "type": "ida-vuelta",
