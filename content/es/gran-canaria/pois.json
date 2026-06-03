@@ -316,21 +316,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.134,
-        "lng": -15.439
+        "lat": 28.145517,
+        "lng": -15.428558
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-las-canteras.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-las-canteras-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-las-canteras-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -345,21 +340,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.75,
-        "lng": -15.57
+        "lat": 27.755722,
+        "lng": -15.568033
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-del-ingles.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-del-ingles-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-del-ingles-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -374,8 +364,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.738,
-        "lng": -15.586
+        "lat": 27.736372,
+        "lng": -15.598538
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-maspalomas.avif",
@@ -383,10 +373,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -401,21 +388,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.794,
-        "lng": -15.713
+        "lat": 27.791501,
+        "lng": -15.724318
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-amadores.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-amadores-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-amadores-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏝️",
       "sectionOnly": false,
@@ -430,21 +412,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.785,
-        "lng": -15.708
+        "lat": 27.785262,
+        "lng": -15.71225
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-puerto-rico.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-puerto-rico-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-puerto-rico-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "⛵",
       "sectionOnly": false,
@@ -459,21 +436,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.806,
-        "lng": -15.728
+        "lat": 27.818567,
+        "lng": -15.762424
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-mogan.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-mogan-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-mogan-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌺",
       "sectionOnly": false,
@@ -488,21 +460,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.821,
-        "lng": -15.727
+        "lat": 27.815484,
+        "lng": -15.7537
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-taurito.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-taurito-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-taurito-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -517,21 +484,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.804,
-        "lng": -15.723
+        "lat": 27.793272,
+        "lng": -15.727913
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tauro.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-tauro-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-tauro-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "⚫",
       "sectionOnly": false,
@@ -546,8 +508,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.774,
-        "lng": -15.692
+        "lat": 27.771729,
+        "lng": -15.687251
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-patalavaca.avif",
@@ -555,10 +517,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -573,21 +532,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.79,
-        "lng": -15.721
+        "lat": 27.775304,
+        "lng": -15.694429
       },
       "images": {
         "hero": "/images/gran-canaria/playas/anfi-del-mar.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/anfi-del-mar-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/anfi-del-mar-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -602,8 +556,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.827,
-        "lng": -15.756
+        "lat": 27.846197,
+        "lng": -15.790165
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-veneguera.avif",
@@ -611,10 +565,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌿",
       "sectionOnly": false,
@@ -629,8 +580,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.868,
-        "lng": -15.772
+        "lat": 27.871315,
+        "lng": -15.80515
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tasarte.avif",
@@ -638,10 +589,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "⚫",
       "sectionOnly": false,
@@ -656,21 +604,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.882,
-        "lng": -15.785
+        "lat": 27.906973,
+        "lng": -15.828479
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tasartico.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-tasartico-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-tasartico-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🐢",
       "sectionOnly": false,
@@ -685,21 +628,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.912,
-        "lng": -15.792
+        "lat": 27.922563,
+        "lng": -15.808347
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-guguy.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-guguy-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-guguy-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏔️",
       "sectionOnly": false,
@@ -714,21 +652,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.996,
-        "lng": -15.785
+        "lat": 28.004506,
+        "lng": -15.816879
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-la-aldea.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-la-aldea-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-la-aldea-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -743,8 +676,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.099,
-        "lng": -15.706
+        "lat": 28.106051,
+        "lng": -15.707947
       },
       "images": {
         "hero": "/images/gran-canaria/playas/piscinas-naturales-agaete.avif",
@@ -752,10 +685,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -770,8 +700,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.099,
-        "lng": -15.706
+        "lat": 28.102025,
+        "lng": -15.711756
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-agaete.avif",
@@ -779,10 +709,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🚢",
       "sectionOnly": false,
@@ -797,8 +724,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.063,
-        "lng": -15.745
+        "lat": 28.078701,
+        "lng": -15.706087
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-guayedra.avif",
@@ -806,10 +733,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌿",
       "sectionOnly": false,
@@ -824,8 +748,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.147,
-        "lng": -15.692
+        "lat": 28.151068,
+        "lng": -15.695142
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-sardina.avif",
@@ -833,10 +757,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -851,8 +772,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.757,
-        "lng": -15.505
+        "lat": 27.79736,
+        "lng": -15.463157
       },
       "images": {
         "hero": "/images/gran-canaria/playas/castillo-romeral.avif",
@@ -860,10 +781,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -878,21 +796,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.743,
-        "lng": -15.574
+        "lat": 27.746254,
+        "lng": -15.612793
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-meloneras.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-meloneras-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-meloneras-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏨",
       "sectionOnly": false,
@@ -907,21 +820,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.76,
-        "lng": -15.562
+        "lat": 27.768189,
+        "lng": -15.544698
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-san-agustin.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-san-agustin-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-san-agustin-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -936,8 +844,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.755,
-        "lng": -15.568
+        "lat": 27.768079,
+        "lng": -15.550678
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-las-burras.avif",
@@ -945,10 +853,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -963,8 +868,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.762,
-        "lng": -15.541
+        "lat": 27.7762,
+        "lng": -15.528697
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-del-aguila.avif",
@@ -972,10 +877,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🦅",
       "sectionOnly": false,
@@ -990,8 +892,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.842,
-        "lng": -15.405
+        "lat": 27.856644,
+        "lng": -15.398656
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-arinaga.avif",
@@ -999,10 +901,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏄",
       "sectionOnly": false,
@@ -1017,21 +916,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.997,
-        "lng": -15.369
+        "lat": 27.9886,
+        "lng": -15.375952
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-melenara.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-melenara-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-melenara-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -1046,8 +940,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.006,
-        "lng": -15.372
+        "lat": 27.962389,
+        "lng": -15.380965
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tufia.avif",
@@ -1055,10 +949,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1073,8 +964,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.037,
-        "lng": -15.363
+        "lat": 28.007381,
+        "lng": -15.378133
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-la-garita.avif",
@@ -1082,10 +973,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -1100,8 +988,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.745,
-        "lng": -15.578
+        "lat": 27.763634,
+        "lng": -15.559908
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-veril.avif",
@@ -1109,10 +997,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1127,8 +1012,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.123,
-        "lng": -15.428
+        "lat": 28.129898,
+        "lng": -15.429712
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-alcanavaneras.avif",
@@ -1136,10 +1021,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "⚓",
       "sectionOnly": false,
@@ -1154,8 +1036,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.092,
-        "lng": -15.458
+        "lat": 28.052887,
+        "lng": -15.41409
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-de-la-laja.avif",
@@ -1163,10 +1045,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1181,8 +1060,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.088,
-        "lng": -15.461
+        "lat": 28.064775,
+        "lng": -15.419441
       },
       "images": {
         "hero": "/images/gran-canaria/playas/piscina-la-laja.avif",
@@ -1190,10 +1069,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -1208,8 +1084,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.005,
-        "lng": -15.428
+        "lat": 28.144024,
+        "lng": -15.577117
       },
       "images": {
         "hero": "/images/gran-canaria/playas/charco-san-lorenzo.avif",
@@ -1217,10 +1093,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "💧",
       "sectionOnly": false,
@@ -1235,8 +1108,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.855,
-        "lng": -15.396
+        "lat": 28.16104,
+        "lng": -15.674618
       },
       "images": {
         "hero": "/images/gran-canaria/playas/la-furnia.avif",
@@ -1244,10 +1117,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🕳️",
       "sectionOnly": false,
@@ -1262,8 +1132,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.12,
-        "lng": -15.61
+        "lat": 28.149214,
+        "lng": -15.536604
       },
       "images": {
         "hero": "/images/gran-canaria/playas/piscinas-naturales-charcones.avif",
@@ -1271,10 +1141,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -1289,8 +1156,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.156,
-        "lng": -15.648
+        "lat": 28.144831,
+        "lng": -15.595542
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-san-felipe.avif",
@@ -1298,10 +1165,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1316,8 +1180,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.148,
-        "lng": -15.668
+        "lat": 28.158085,
+        "lng": -15.66453
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-agujero.avif",
@@ -1325,10 +1189,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1338,13 +1199,13 @@
     {
       "slug": "playa-santa-agueda",
       "name": "Playa de Santa Agueda",
-      "description": "Playa pequena y tranquila en el norte, frecuentada por residentes locales. Arena oscura, aguas limpias y entorno sin urbanizar. Una de las playas mas desconocidas del norte.",
+      "description": "Playa pequeña y tranquila frecuentada por residentes locales. Arena oscura, aguas limpias y entorno sin urbanizar. Una de las playas mas desconocidas del norte.",
       "shortDescription": "Pequeña playa desconocida y tranquila en el norte de la isla",
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.135,
-        "lng": -15.705
+        "lat": 27.75367,
+        "lng": -15.671976
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-santa-agueda.avif",
@@ -1352,10 +1213,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1370,21 +1228,16 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.99,
-        "lng": -15.368
+        "lat": 28.149307,
+        "lng": -15.535385
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-puertillo.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-puertillo-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-puertillo-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1399,8 +1252,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.867,
-        "lng": -15.418
+        "lat": 27.77448,
+        "lng": -15.530308
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-besudo.avif",
@@ -1408,10 +1261,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1426,8 +1276,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.78,
-        "lng": -15.52
+        "lat": 27.761398,
+        "lng": -15.683835
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-costa-alegre.avif",
@@ -1435,10 +1285,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1453,8 +1300,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.86,
-        "lng": -15.72
+        "lat": 27.758811,
+        "lng": -15.681884
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-maranuelas.avif",
@@ -1462,10 +1309,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1480,8 +1324,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.761,
-        "lng": -15.588
+        "lat": 27.753148,
+        "lng": -15.633836
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-montana-arena.avif",
@@ -1489,10 +1333,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌋",
       "sectionOnly": false,
@@ -1507,8 +1348,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 27.89,
-        "lng": -15.78
+        "lat": 28.168440,
+        "lng": -15.634990
       },
       "images": {
         "hero": "/images/gran-canaria/playas/roque-prieto.avif",
@@ -1516,10 +1357,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏔️",
       "sectionOnly": false,
