@@ -87,22 +87,6 @@ export default async function POIPage({
         </div>
       )}
 
-      {/* Tags */}
-      <div style={{ marginTop: '28px', display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-        {poi.tags.map((tag) => (
-          <span key={tag} style={{
-            padding: '4px 10px',
-            background: '#f0fdf4',
-            border: '1px solid #bbf7d0',
-            borderRadius: '20px',
-            fontSize: '13px',
-            color: '#15803d',
-          }}>
-            {tag}
-          </span>
-        ))}
-      </div>
-
       {/* Premium CTA if applicable */}
       {poi.hasPremiumAudio && poi.premiumRouteId && (
         <div style={{

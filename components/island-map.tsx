@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
-import { AnimatePresence } from 'framer-motion';
+
 import { useCart } from '@/hooks/use-cart';
 import { CartPanel } from './cart-panel';
 import { LanguageSwitcher } from './language-switcher';
@@ -397,6 +397,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   // Reset viewBox when island changes
   useEffect(() => { setVb(INITIAL_VB); }, [activeIsland]);
 
+
   // Non-passive touch listeners so we can preventDefault
   useEffect(() => {
     const svg = svgRef.current;
@@ -529,8 +530,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     if (!chip) return [];
     const clusterPois = mapPois.filter(p => chip.match(p));
     if (clusterPois.length === 0) return [];
-    const pos = getCentroid(clusterPois, activeIsland);
-    return [{ ...chip, count: clusterPois.length, x: pos.x, y: pos.y, pois: clusterPois }];
+    return [{ ...chip, count: clusterPois.length, x: SVG_CENTER, y: SVG_CENTER, pois: clusterPois }];
   })();
 
   // Adjusted display positions — prevents marker overlap without touching lat/lng data
@@ -942,25 +942,23 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       )}
 
       {/* Bottom sheet — detalle del POI seleccionado */}
-      <AnimatePresence>
-        {selectedPoi && (
-          <PoiDetailSheet
-            key={detailSheetKey}
-            pois={detailPois.length ? detailPois : mapPois}
-            selectedPoi={selectedPoi}
-            onPoiChange={(poi) => setSelectedPoi(poi)}
-            onClose={handleCloseSheet}
-            cart={cart}
-            onAddToCart={handleAddToCart}
-            locale={locale}
-            sectionContext={activeSection ? {
-              label: activeSection.label,
-              emoji: activeSection.emoji,
-              color: activeSection.color,
-            } : undefined}
-          />
-        )}
-      </AnimatePresence>
+      {selectedPoi && (
+        <PoiDetailSheet
+          key={detailSheetKey}
+          pois={detailPois.length ? detailPois : mapPois}
+          selectedPoi={selectedPoi}
+          onPoiChange={(poi) => setSelectedPoi(poi)}
+          onClose={handleCloseSheet}
+          cart={cart}
+          onAddToCart={handleAddToCart}
+          locale={locale}
+          sectionContext={activeSection ? {
+            label: activeSection.label,
+            emoji: activeSection.emoji,
+            color: activeSection.color,
+          } : undefined}
+        />
+      )}
 
       {/* Cart panel */}
       <CartPanel cart={cart} isOpen={cartOpen} onClose={() => setCartOpen(false)} />

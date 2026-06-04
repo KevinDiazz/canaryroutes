@@ -1,6 +1,5 @@
 'use client';
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { motion } from 'framer-motion';
 import type { POI, Locale } from '@/lib/types';
 import type { CartState } from '@/hooks/use-cart';
 
@@ -39,6 +38,69 @@ function RichText({ html }: { html: string }) {
       className="rich-poi-text"
       dangerouslySetInnerHTML={{ __html: html }}
     />
+  );
+}
+
+// ── Scroll fade hint ─────────────────────────────────────────────────────────
+function ScrollFade() {
+  return (
+    <div style={{
+      position: 'absolute', bottom: 0, left: 0, right: 0,
+      height: '48px',
+      background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.95) 100%)',
+      pointerEvents: 'none',
+      zIndex: 2,
+    }} />
+  );
+}
+
+// ── Expandable description ───────────────────────────────────────────────────
+const COLLAPSED_LINES = 4;
+
+function ExpandableDescription({ html, color }: { html: string; color: string }) {
+  const [expanded, setExpanded] = useState(false);
+  const [clamped, setClamped] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    setExpanded(false);
+  }, [html]);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    // Comprueba si el contenido es más alto que las líneas colapsadas
+    setClamped(el.scrollHeight > el.clientHeight + 2);
+  }, [html, expanded]);
+
+  return (
+    <div>
+      <div
+        ref={ref}
+        className="rich-poi-text"
+        dangerouslySetInnerHTML={{ __html: html }}
+        style={{
+          display: '-webkit-box',
+          WebkitBoxOrient: 'vertical',
+          WebkitLineClamp: expanded ? 'unset' : COLLAPSED_LINES,
+          overflow: 'hidden',
+          transition: 'all 0.25s ease',
+        } as React.CSSProperties}
+      />
+      {(clamped || expanded) && (
+        <button
+          onClick={() => setExpanded(v => !v)}
+          style={{
+            background: 'none', border: 'none', padding: '4px 0 0',
+            cursor: 'pointer', fontSize: '13px', fontWeight: 700,
+            color, fontFamily: "'JetBrains Mono', monospace",
+            display: 'block',
+          }}
+        >
+          {expanded ? 'ver menos' : '... ver más'}
+        </button>
+      )}
+    </div>
   );
 }
 
@@ -91,6 +153,7 @@ function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps)
                 <img
                   src={poi.images.hero}
                   alt={poi.name}
+                  decoding="async"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                   onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                 />
@@ -131,54 +194,109 @@ function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps)
 interface PhotoGalleryProps {
   poi: POI;
   color: string;
-  fullHeight?: boolean;
 }
 
-function PhotoGallery({ poi, color, fullHeight }: PhotoGalleryProps) {
+function PhotoGallery({ poi, color }: PhotoGalleryProps) {
   const [activePhoto, setActivePhoto] = useState(0);
   const [hasError, setHasError] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
+  // Guarda la src anterior para mantenerla visible durante el crossfade
+  const [prevSrc, setPrevSrc] = useState<string | null>(null);
+  const imgRef = useRef<HTMLImageElement>(null);
 
+  const photos = [poi.images.hero, ...poi.images.gallery].filter(Boolean);
+
+  // Reset completo al cambiar de POI
   useEffect(() => {
     setActivePhoto(0);
     setHasError(false);
+    setIsLoaded(false);
+    setPrevSrc(null);
   }, [poi.slug]);
 
+  // Al cambiar foto, comprueba caché
   useEffect(() => {
     setHasError(false);
-  }, [activePhoto]);
+    setIsLoaded(false);
+    const id = requestAnimationFrame(() => {
+      if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
+        setIsLoaded(true);
+        setPrevSrc(null);
+      }
+    });
+    return () => cancelAnimationFrame(id);
+  }, [poi.slug, activePhoto]);
 
-  const photos = [poi.images.hero, ...poi.images.gallery].filter(Boolean);
+  // Navega guardando la foto actual como fondo para el crossfade
+  const goTo = (idx: number) => {
+    if (idx === activePhoto || idx < 0 || idx >= photos.length) return;
+    setPrevSrc(photos[activePhoto]);
+    setActivePhoto(idx);
+  };
+
+  const showFallback = hasError || photos.length === 0;
 
   return (
     <div style={{
       margin: 0, borderRadius: 0, overflow: 'hidden',
       height: '100%', position: 'relative',
-      background: `linear-gradient(135deg, ${color}44, ${color}22)`,
+      background: '#e2e8f0',   // fondo neutro, sin color de categoría
       flexShrink: 0,
     }}>
-      {!hasError && photos.length > 0 && (
-        <img
-          key={`${poi.slug}-${activePhoto}`}
-          src={photos[activePhoto]}
-          alt={poi.name}
-          style={{
-            width: '100%', height: '100%', objectFit: 'cover', display: 'block',
-            animation: 'storyIn 0.22s ease',
-          }}
-          onError={() => setHasError(true)}
-        />
+      {/* Shimmer — solo en la primera carga (sin foto anterior) */}
+      {!showFallback && !isLoaded && !prevSrc && (
+        <div style={{
+          position: 'absolute', inset: 0,
+          background: `linear-gradient(90deg, ${color}22 25%, ${color}44 50%, ${color}22 75%)`,
+          backgroundSize: '200% 100%',
+          animation: 'shimmer 1.4s ease-in-out infinite',
+        }} />
       )}
-      {(hasError || photos.length === 0) && (
+
+      {/* Emoji fallback */}
+      {showFallback && (
         <div style={{
           position: 'absolute', inset: 0,
           display: 'flex', alignItems: 'center', justifyContent: 'center',
-          fontSize: '64px',
+          fontSize: '64px', pointerEvents: 'none',
         }}>
           {poi.emoji ?? '📍'}
         </div>
       )}
 
-      {/* Indicadores — círculos */}
+      {/* Foto anterior — permanece visible hasta que la nueva esté lista */}
+      {prevSrc && !isLoaded && (
+        <img
+          src={prevSrc}
+          alt=""
+          style={{
+            position: 'absolute', inset: 0,
+            width: '100%', height: '100%', objectFit: 'cover',
+          }}
+        />
+      )}
+
+      {/* Foto activa — hace crossfade sobre la anterior */}
+      {!showFallback && (
+        <img
+          ref={imgRef}
+          key={`${poi.slug}-${activePhoto}`}
+          src={photos[activePhoto]}
+          alt={poi.name}
+          decoding="async"
+          fetchPriority="high"
+          style={{
+            position: 'absolute', inset: 0,
+            width: '100%', height: '100%', objectFit: 'cover',
+            opacity: isLoaded ? 1 : 0,
+            transition: 'opacity 0.3s ease',
+          }}
+          onLoad={() => { setIsLoaded(true); setPrevSrc(null); }}
+          onError={() => setHasError(true)}
+        />
+      )}
+
+      {/* Indicadores */}
       {photos.length > 1 && (
         <div style={{
           position: 'absolute', bottom: 12, left: 0, right: 0,
@@ -199,19 +317,17 @@ function PhotoGallery({ poi, color, fullHeight }: PhotoGalleryProps) {
         </div>
       )}
 
-      {/* Flechas de navegación */}
+      {/* Flechas */}
       {activePhoto > 0 && (
-        <button onClick={() => setActivePhoto(p => p - 1)} style={{
+        <button onClick={() => goTo(activePhoto - 1)} style={{
           position: 'absolute', left: 10, top: '50%', transform: 'translateY(-50%)',
           width: 40, height: 40, borderRadius: '14px',
-          background: 'rgba(255,255,255,0.22)',
-          backdropFilter: 'blur(10px)',
+          background: 'rgba(255,255,255,0.22)', backdropFilter: 'blur(10px)',
           WebkitBackdropFilter: 'blur(10px)',
           border: '1px solid rgba(255,255,255,0.4)',
           color: '#fff', cursor: 'pointer',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
           boxShadow: '0 2px 12px rgba(0,0,0,0.18)',
-          transition: 'background 0.15s',
         }}>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="15 18 9 12 15 6"/>
@@ -219,17 +335,15 @@ function PhotoGallery({ poi, color, fullHeight }: PhotoGalleryProps) {
         </button>
       )}
       {activePhoto < photos.length - 1 && (
-        <button onClick={() => setActivePhoto(p => p + 1)} style={{
+        <button onClick={() => goTo(activePhoto + 1)} style={{
           position: 'absolute', right: 10, top: '50%', transform: 'translateY(-50%)',
           width: 40, height: 40, borderRadius: '14px',
-          background: 'rgba(255,255,255,0.22)',
-          backdropFilter: 'blur(10px)',
+          background: 'rgba(255,255,255,0.22)', backdropFilter: 'blur(10px)',
           WebkitBackdropFilter: 'blur(10px)',
           border: '1px solid rgba(255,255,255,0.4)',
           color: '#fff', cursor: 'pointer',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
           boxShadow: '0 2px 12px rgba(0,0,0,0.18)',
-          transition: 'background 0.15s',
         }}>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="9 18 15 12 9 6"/>
@@ -299,21 +413,41 @@ export function PoiDetailSheet({
   const canRoute = hasCoordinates(selectedPoi);
   const [showTranscript, setShowTranscript] = useState(false);
 
+  // Difiere contenido pesado al frame siguiente para no bloquear la animación CSS
+  const [contentReady, setContentReady] = useState(false);
+  useEffect(() => {
+    setContentReady(false);
+    let id = requestAnimationFrame(() => {
+      id = requestAnimationFrame(() => setContentReady(true));
+    });
+    return () => cancelAnimationFrame(id);
+  }, [selectedPoi.slug]);
+
   useEffect(() => {
     setShowTranscript(false);
   }, [selectedPoi.slug]);
 
-  // Direct DOM ref — bypasses React render cycle and framer-motion prop handling.
-  // We set pointerEvents on the real element the moment close is triggered,
-  // so the exit animation runs with the sheet fully transparent to taps.
   const sheetRef = useRef<HTMLDivElement>(null);
+  const [isExiting, setIsExiting] = useState(false);
 
   const triggerClose = useCallback(() => {
-    if (sheetRef.current) {
-      sheetRef.current.style.pointerEvents = 'none';
-    }
-    onClose();
+    setIsExiting(true);
+    setTimeout(() => { setIsExiting(false); onClose(); }, 260);
   }, [onClose]);
+
+  // Swipe-to-close nativo — sin framer-motion
+  const swipeStartRef = useRef<{ y: number; t: number } | null>(null);
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    swipeStartRef.current = { y: e.touches[0].clientY, t: Date.now() };
+  }, []);
+  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
+    const start = swipeStartRef.current;
+    if (!start) return;
+    swipeStartRef.current = null;
+    const dy = e.changedTouches[0].clientY - start.y;
+    const velocity = dy / Math.max(Date.now() - start.t, 1);
+    if (dy > 80 || velocity > 0.5) triggerClose();
+  }, [triggerClose]);
 
   const openMaps = () => {
     if (!canRoute) return;
@@ -332,18 +466,10 @@ export function PoiDetailSheet({
 
   return (
     <>
-      <motion.div
+      <div
         ref={sheetRef}
-        initial={{ y: '100%' }}
-        animate={{ y: 0 }}
-        exit={{ y: '100%' }}
-        transition={{ type: 'spring', stiffness: 360, damping: 34 }}
-        drag="y"
-        dragConstraints={{ top: 0, bottom: 0 }}
-        dragElastic={{ top: 0.02, bottom: 0.45 }}
-        onDragEnd={(_, info) => {
-          if (info.offset.y > 80 || info.velocity.y > 520) triggerClose();
-        }}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
         style={{
           position: 'fixed',
           top: 0, bottom: 0, left: 0, right: 0,
@@ -352,9 +478,13 @@ export function PoiDetailSheet({
           zIndex: 200,
           overscrollBehavior: 'contain',
           touchAction: 'pan-y',
+          willChange: 'transform',
           display: 'flex',
           flexDirection: 'column',
           overflow: 'hidden',
+          animation: isExiting
+            ? 'sheetDown 0.26s cubic-bezier(0.25,0.46,0.45,0.94) both'
+            : 'sheetUp 0.26s cubic-bezier(0.25,0.46,0.45,0.94) both',
         }}
       >
         {/* ── HEADER — fijo, no scrollea ── */}
@@ -364,8 +494,8 @@ export function PoiDetailSheet({
             <div style={{ width: 42, height: 4, background: '#e2e8f0', borderRadius: 99, display: 'inline-block' }} />
           </div>
 
-          {/* Story bubbles */}
-          {sectionContext && (
+          {/* Contenido diferido — se monta tras el primer frame para no bloquear la animación */}
+          {contentReady && sectionContext && (
             <div style={{
               padding: '6px 14px 4px',
               borderBottom: `1px solid ${sectionContext.color}22`,
@@ -417,48 +547,36 @@ export function PoiDetailSheet({
           </div>
         </div>
 
-        {/* ── FOTO — 52% del viewport ── */}
-        <div style={{ flexShrink: 0, height: '40vh' }}>
-          {showTranscript && selectedPoi.audioTranscript
+        {/* ── FOTO — 40vh, diferida ── */}
+        <div style={{
+          flexShrink: 0, height: '40vh',
+          background: `linear-gradient(135deg, ${color}33, ${color}11)`,
+        }}>
+          {contentReady && (showTranscript && selectedPoi.audioTranscript
             ? <TranscriptPanel html={selectedPoi.audioTranscript} color={color} />
-            : <PhotoGallery poi={selectedPoi} color={color} />}
+            : <PhotoGallery poi={selectedPoi} color={color} />)}
         </div>
 
-        {/* ── TEXTO — flex 1, scroll visible ── */}
-        <div style={{
-          flex: 1,
-          overflowY: 'scroll',
-          padding: '12px 16px 8px',
-          display: 'flex',
-          flexDirection: 'column',
-          gap: '10px',
-          scrollbarWidth: 'thin',
-          scrollbarColor: `${color}66 #f1f5f9`,
-        }}>
-          <RichText html={selectedPoi.description} />
+        {/* ── TEXTO — flex 1, scroll con fade ── */}
+        <div style={{ flex: 1, position: 'relative', overflow: 'hidden' }}>
+          <ScrollFade />
+          <div
+            onTouchStart={(e) => e.stopPropagation()}
+            onTouchMove={(e) => e.stopPropagation()}
+            onTouchEnd={(e) => e.stopPropagation()}
+            style={{
+            height: '100%',
+            overflowY: 'scroll',
+            padding: '12px 16px 24px',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '10px',
+            scrollbarWidth: 'none',
+          }}>
+          {contentReady && <ExpandableDescription html={selectedPoi.description} color={color} />}
 
-          {(selectedPoi.visitDuration || selectedPoi.difficulty) && (
-            <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-              {selectedPoi.visitDuration && (
-                <span style={{
-                  fontSize: '11px', padding: '3px 10px', borderRadius: '20px',
-                  background: '#f8fafc', color: '#64748b', border: '1px solid #e2e8f0',
-                  fontFamily: "'JetBrains Mono', monospace",
-                }}>⏱ {selectedPoi.visitDuration}</span>
-              )}
-              {selectedPoi.difficulty && (
-                <span style={{
-                  fontSize: '11px', padding: '3px 10px', borderRadius: '20px',
-                  background: '#f8fafc', color: '#64748b', border: '1px solid #e2e8f0',
-                  fontFamily: "'JetBrains Mono', monospace",
-                }}>
-                  {selectedPoi.difficulty === 'easy' ? '🟢 Fácil' : selectedPoi.difficulty === 'moderate' ? '🟡 Media' : '🔴 Alta'}
-                </span>
-              )}
-            </div>
-          )}
 
-          {selectedPoi.audioPreview && (
+          {contentReady && selectedPoi.audioPreview && (
             <div style={{
               background: '#f8fafc', borderRadius: '14px',
               padding: '10px 12px', border: '1px solid #e2e8f0',
@@ -471,7 +589,8 @@ export function PoiDetailSheet({
               <audio controls style={{ width: '100%', height: '36px' }} src={selectedPoi.audioPreview} />
             </div>
           )}
-        </div>
+          </div>{/* inner scroll */}
+        </div>{/* outer fade wrapper */}
 
         {/* ── BOTONES — fijos al fondo ── */}
         {(canRoute || selectedPoi.track?.mapsUrl) && (
@@ -544,12 +663,20 @@ export function PoiDetailSheet({
           </div>}
           </div>
         )}
-      </motion.div>
+      </div>
 
       <style>{`
-        @keyframes storyIn {
-          from { opacity: 0; transform: scale(1.04); }
-          to   { opacity: 1; transform: scale(1); }
+        @keyframes sheetUp {
+          from { transform: translateY(100%); }
+          to   { transform: translateY(0); }
+        }
+        @keyframes sheetDown {
+          from { transform: translateY(0); }
+          to   { transform: translateY(100%); }
+        }
+        @keyframes shimmer {
+          0%   { background-position: 200% 0; }
+          100% { background-position: -200% 0; }
         }
         .rich-poi-text {
           color: #374151;

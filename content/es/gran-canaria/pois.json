@@ -1,6 +1,88 @@
 {
   "pois": [
     {
+      "slug": "barranco-guayadeque",
+      "name": "Barranco de Guayadeque",
+      "description": "Uno de los barrancos más emblemáticos de Gran Canaria, conocido por sus cuevas habitadas y sus restaurantes excavados en la roca. El sendero sube por el cauce entre cuevas prehistóricas, cultivos en terrazas y vegetación subtropical hasta las cumbres, con vistas espectaculares hacia el barranco. La ruta no está bien señalizada — imprescindible llevar el track descargado. Al final del recorrido, los restaurantes-cueva de Cueva Bermeja son escala obligada para reponer fuerzas con cocina canaria tradicional.",
+      "shortDescription": "Barrancos con cuevas habitadas, senderos históricos y restaurantes en la roca",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.933479,
+        "lng": -15.482396
+      },
+      "images": {
+        "hero": "/images/gran-canaria/sendero/guayadeque-1.avif",
+        "gallery": [
+          "/images/gran-canaria/sendero/guayadeque-2.avif",
+          "/images/gran-canaria/sendero/guayadeque-3.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "barranco",
+        "cuevas",
+        "historia",
+        "naturaleza",
+        "gastronomia"
+      ],
+      "visitDuration": "4-6h",
+      "difficulty": "moderate",
+      "emoji": "🏔️",
+      "sectionOnly": false,
+      "municipio": "ingenio",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1j2IUm-6sMv_64xNdjZyH7E9Ls5yfeOU",
+        "tips": "Sin señalización — descarga el track antes de ir. Hay muchos cruces confusos. El camino junto a Montaña de las Tierras está obstruido: seguir por la carretera 100 metros. Restaurantes-cueva en Cueva Bermeja para después."
+      }
+    },
+    {
+      "slug": "sendero-guguy",
+      "name": "Sendero a Playa de Güigüi",
+      "description": "Una de las rutas más míticas de Gran Canaria. Desde el pequeño pueblo de Tasartico, el sendero sube y baja el barranco de Güigüi — 1.000 metros de desnivel — hasta llegar a una playa de arena negra completamente virgen e inaccesible por carretera. La senda está bien marcada sin posibilidad de pérdida. Al llegar hay un pequeño chiringuito. Lleva bañador obligatorio y consulta la marea: en pleamar casi no hay playa.",
+      "shortDescription": "9 km desde Tasartico hasta la playa más inaccesible de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 27.922563,
+        "lng": -15.808347
+      },
+      "images": {
+        "hero": "/images/gran-canaria/sendero/guguy-1.avif",
+        "gallery": [
+          "/images/gran-canaria/sendero/guguy-2.avif",
+          "/images/gran-canaria/sendero/guguy-3.avif",
+          "/images/gran-canaria/sendero/guguy-4.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "senderismo",
+        "playa",
+        "virgen",
+        "barranco",
+        "aventura",
+        "circular"
+      ],
+      "visitDuration": "4h-5h",
+      "difficulty": "moderate",
+      "emoji": "🏖️",
+      "sectionOnly": false,
+      "municipio": "aldea",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1DP36z4LvA07IncQ1CNpsd-HWouhjWQk",
+        "distance": "9 km",
+        "duration": "3h30",
+        "type": "circular",
+        "elevationGain": 1064,
+        "maxAltitude": 552,
+        "tips": "Salida desde Tasartico (GC-204). Llevar agua suficiente — no hay fuente en toda la ruta. Consulta la marea antes de ir: en pleamar casi no hay playa. Lleva bañador y toalla."
+      }
+    },
+    {
       "slug": "camino-de-los-tilos-de-moya",
       "name": "Los Tilos de Moya",
       "description": "El único bosque de tilos de Gran Canaria — una reliquia vegetal del Terciario que sobrevivió a las glaciaciones. En solo 2 kilómetros el sendero circular pasa por tilos, laureles, barbuzanos y laurisilva densa. Corto, fácil y completamente distinto a la imagen árida que la mayoría asocia con Canarias. Perfecto para combinar con alguno de los buenos restaurantes de Moya justo después.",
@@ -321,11 +403,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-las-canteras.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-las-canteras-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-las-canteras-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -345,11 +432,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-del-ingles.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-del-ingles-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-del-ingles-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -373,7 +465,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -393,11 +488,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-amadores.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-amadores-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-amadores-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏝️",
       "sectionOnly": false,
@@ -417,11 +517,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-puerto-rico.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-puerto-rico-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-puerto-rico-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⛵",
       "sectionOnly": false,
@@ -441,11 +546,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-mogan.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-mogan-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-mogan-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌺",
       "sectionOnly": false,
@@ -465,11 +575,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-taurito.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-taurito-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-taurito-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -489,11 +604,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tauro.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-tauro-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-tauro-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⚫",
       "sectionOnly": false,
@@ -517,7 +637,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -537,11 +660,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/anfi-del-mar.avif",
-        "gallery": ["/images/gran-canaria/playas/anfi-del-mar-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/anfi-del-mar-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -565,7 +693,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌿",
       "sectionOnly": false,
@@ -589,7 +720,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⚫",
       "sectionOnly": false,
@@ -609,11 +743,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tasartico.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-tasartico-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-tasartico-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐢",
       "sectionOnly": false,
@@ -623,8 +762,8 @@
     {
       "slug": "playa-guguy",
       "name": "Playa de Güigüi",
-      "description": "La playa más inaccesible de Gran Canaria. Solo se llega a pie por sendero de 3 horas o en barco desde Puerto de Mogán. Arena negra volcánica, acantilados y aguas turquesa sin ninguna instalación.",
-      "shortDescription": "La playa más inaccesible de Gran Canaria — 3h a pie o en barco",
+      "description": "La playa más inaccesible de Gran Canaria y una de las más espectaculares. Solo se llega a pie desde Tasartico por un sendero de 9 km circular que sube y baja el barranco de Güigüi — unos 1.000 metros de desnivel. Arena negra volcánica, acantilados imponentes y aguas turquesa sin ninguna instalación. Hay un pequeño chiringuito junto a la playa. La senda está bien marcada y no tiene pérdida, pero consulta la marea antes de ir: en pleamar casi no hay playa.",
+      "shortDescription": "La playa más inaccesible de Gran Canaria — 9 km a pie desde Tasartico",
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
@@ -633,12 +772,17 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-guguy.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-guguy-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-guguy-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
-      "difficulty": "easy",
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "moderate",
       "emoji": "🏔️",
       "sectionOnly": false,
       "municipio": "aldea",
@@ -657,11 +801,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-la-aldea.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-la-aldea-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-la-aldea-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -685,7 +834,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -709,7 +861,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🚢",
       "sectionOnly": false,
@@ -733,7 +888,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌿",
       "sectionOnly": false,
@@ -757,7 +915,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -781,7 +942,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -801,11 +965,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-meloneras.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-meloneras-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-meloneras-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏨",
       "sectionOnly": false,
@@ -825,11 +994,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-san-agustin.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-san-agustin-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-san-agustin-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -853,7 +1027,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -877,7 +1054,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🦅",
       "sectionOnly": false,
@@ -901,7 +1081,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏄",
       "sectionOnly": false,
@@ -921,11 +1104,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-melenara.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-melenara-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-melenara-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -949,7 +1137,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -973,7 +1164,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -997,7 +1191,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1021,7 +1218,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⚓",
       "sectionOnly": false,
@@ -1045,7 +1245,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1069,7 +1272,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -1093,7 +1299,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "💧",
       "sectionOnly": false,
@@ -1117,7 +1326,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🕳️",
       "sectionOnly": false,
@@ -1141,7 +1353,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -1165,7 +1380,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1189,7 +1407,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1199,7 +1420,7 @@
     {
       "slug": "playa-santa-agueda",
       "name": "Playa de Santa Agueda",
-      "description": "Playa pequeña y tranquila frecuentada por residentes locales. Arena oscura, aguas limpias y entorno sin urbanizar. Una de las playas mas desconocidas del norte.",
+      "description": "Playa pequena y tranquila en el norte, frecuentada por residentes locales. Arena oscura, aguas limpias y entorno sin urbanizar. Una de las playas mas desconocidas del norte.",
       "shortDescription": "Pequeña playa desconocida y tranquila en el norte de la isla",
       "island": "gran-canaria",
       "category": "beach",
@@ -1213,7 +1434,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1233,11 +1457,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-puertillo.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-puertillo-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-puertillo-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1261,7 +1490,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1285,7 +1517,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1309,7 +1544,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1333,7 +1571,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌋",
       "sectionOnly": false,
@@ -1348,8 +1589,8 @@
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
-        "lat": 28.168440,
-        "lng": -15.634990
+        "lat": 28.16844,
+        "lng": -15.63499
       },
       "images": {
         "hero": "/images/gran-canaria/playas/roque-prieto.avif",
@@ -1357,11 +1598,739 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏔️",
       "sectionOnly": false,
       "municipio": "aldea",
+      "top": false
+    },
+    {
+      "slug": "casa-de-colon",
+      "name": "Casa de Colón",
+      "description": "Uno de los museos más importantes de Canarias. Explica la relación entre las Islas Canarias y América, además de la historia de los viajes de Cristóbal Colón. Ubicado en pleno casco histórico de Vegueta, en un edificio que era residencia del Gobernador de la isla cuando Colón paró aquí en sus viajes al Nuevo Mundo.",
+      "shortDescription": "Museo sobre Colón y la relación entre Canarias y América, en Vegueta",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0985,
+        "lng": -15.4131
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/casa-colon-1.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/casa-colon-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": false
+    },
+    {
+      "slug": "cueva-pintada",
+      "name": "Museo y Parque Arqueológico Cueva Pintada",
+      "description": "El mejor lugar para conocer cómo vivían los antiguos canarios antes de la conquista. Conserva pinturas geométricas únicas en el archipiélago y restos de un antiguo poblado indígena. Considerado uno de los yacimientos arqueológicos más importantes de la Macaronesia.",
+      "shortDescription": "Las pinturas geométricas prehispánicas más importantes de Canarias",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1434,
+        "lng": -15.6527
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/cueva-pintada-1.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/cueva-pintada-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏺",
+      "sectionOnly": false,
+      "municipio": "galdar",
+      "top": false
+    },
+    {
+      "slug": "catedral-santa-ana",
+      "name": "Catedral de Santa Ana",
+      "description": "El templo más emblemático de Gran Canaria. Su mezcla de estilos arquitectónicos — gótico, renacentista y neoclásico — refleja siglos de historia. Las vistas desde la torre sobre Vegueta y el Puerto son de las mejores de Las Palmas.",
+      "shortDescription": "El templo más emblemático de Gran Canaria en el corazón de Vegueta",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0984,
+        "lng": -15.413
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/catedral-santa-ana-1.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/catedral-santa-ana-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": false
+    },
+    {
+      "slug": "barrio-vegueta",
+      "name": "Barrio de Vegueta",
+      "description": "El barrio fundacional de Las Palmas de Gran Canaria, fundado en 1478. Calles empedradas, plazas históricas, balcones de madera tallada y edificios coloniales que permiten viajar varios siglos atrás. El conjunto histórico más importante de las Islas Canarias.",
+      "shortDescription": "El barrio fundacional de Las Palmas con su casco histórico colonial",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.098,
+        "lng": -15.4125
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/vegueta.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏘️",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": true
+    },
+    {
+      "slug": "museo-canario",
+      "name": "Museo Canario",
+      "description": "La mayor colección arqueológica sobre los antiguos habitantes de Gran Canaria. Destacan las momias, cráneos trepanados, utensilios domésticos y restos de la cultura aborigen guanche. Una visita esencial para entender quiénes vivían en la isla antes de la llegada europea.",
+      "shortDescription": "La mayor colección arqueológica sobre los aborígenes canarios",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0985,
+        "lng": -15.4115
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/museo-canario-1.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/museo-canario-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": false
+    },
+    {
+      "slug": "cenobio-de-valeron",
+      "name": "Cenobio de Valerón",
+      "description": "Espectacular granero colectivo excavado en la roca volcánica por los antiguos canarios. Más de 300 celdas talladas a mano en un acantilado, usadas para almacenar grano. Una de las obras de ingeniería prehispánica más impresionantes de la isla y de toda la Macaronesia.",
+      "shortDescription": "300 celdas talladas en roca volcánica por los aborígenes canarios",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1272,
+        "lng": -15.6326
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/cenobio-valeron-1.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/cenobio-valeron-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏺",
+      "sectionOnly": false,
+      "municipio": "guia",
+      "top": false
+    },
+    {
+      "slug": "risco-caido",
+      "name": "Risco Caído",
+      "description": "Patrimonio Mundial de la UNESCO. Complejo arqueológico y astronómico en el corazón de la cumbre de Gran Canaria. Sus cuevas artificiales contienen grabados y alineaciones con fenómenos astronómicos que demuestran los avanzados conocimientos de los antiguos pobladores de la isla.",
+      "shortDescription": "Patrimonio de la Humanidad — complejo arqueológico y astronómico prehispánico",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.957,
+        "lng": -15.7
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/risco-caido-1.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/risco-caido-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "sectionOnly": false,
+      "municipio": "artenara",
+      "top": true
+    },
+    {
+      "slug": "basilica-del-pino",
+      "name": "Basílica de Nuestra Señora del Pino",
+      "description": "Centro religioso más importante de Gran Canaria y lugar de peregrinación. La Virgen del Pino, patrona de la isla, recibe miles de peregrinos cada 8 de septiembre en una de las romerías más multitudinarias de Canarias. Destaca por su arquitectura y el encanto del casco histórico de Teror.",
+      "shortDescription": "El santuario de la patrona de Gran Canaria en el pintoresco Teror",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0603,
+        "lng": -15.549
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/basilica-el-pino-1.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/basilica-el-pino-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "sectionOnly": false,
+      "municipio": "teror",
+      "top": false
+    },
+    {
+      "slug": "iglesia-san-juan-arucas",
+      "name": "Iglesia de San Juan Bautista de Arucas",
+      "description": "Conocida popularmente como la Catedral de Arucas. Construida íntegramente con piedra volcánica azul local entre 1909 y 1977, es una de las iglesias más impresionantes del archipiélago. Su arquitectura neogótica y la calidad del trabajo en piedra la convierten en una obra de artesanía extraordinaria.",
+      "shortDescription": "La 'Catedral de Arucas' en piedra volcánica azul, joya neogótica de Canarias",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1173,
+        "lng": -15.5309
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/Parroquia-de-San-Juan-Bautista-1.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/Parroquia-de-San-Juan-Bautista-2.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "sectionOnly": false,
+      "municipio": "arucas",
+      "top": false
+    },
+    {
+      "slug": "necropolis-arteara",
+      "name": "Necrópolis de Arteara",
+      "description": "El mayor cementerio aborigen de Gran Canaria, con cientos de túmulos funerarios dispersos entre palmeras en un entorno espectacular del sur de la isla. Un lugar arqueológico de gran importancia que muestra los rituales funerarios de los antiguos canarios.",
+      "shortDescription": "El mayor cementerio aborigen de Gran Canaria entre palmeras en el sur",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.827,
+        "lng": -15.573
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/Necrópolis-de-Arteara-1.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏺",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
+    },
+    {
+      "slug": "castillo-de-mata",
+      "name": "Museo Castillo de Mata",
+      "description": "Fortaleza histórica convertida en museo que explica la evolución de Las Palmas de Gran Canaria y su relación con el mar. Construida para defender la ciudad de los ataques piratas, hoy alberga exposiciones sobre la historia marítima y urbana de la capital.",
+      "shortDescription": "Fortaleza histórica convertida en museo de historia urbana y marítima",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.131,
+        "lng": -15.4363
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/castillo-de-mata-1.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏰",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": false
+    },
+    {
+      "slug": "castillo-de-la-luz",
+      "name": "Castillo de la Luz",
+      "description": "La fortaleza más antigua de Canarias, construida en el siglo XV para defender el Puerto de Las Palmas de los ataques piratas. Hoy convertida en espacio cultural y artístico dedicado a la obra del escultor grancanario Martín Chirino, con exposiciones permanentes y temporales.",
+      "shortDescription": "La fortaleza más antigua de Canarias, hoy espacio de arte contemporáneo",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.1343,
+        "lng": -15.4369
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/castillo-la-luz-1.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏰",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": false
+    },
+    {
+      "slug": "roque-nublo",
+      "name": "Roque Nublo",
+      "description": "El símbolo natural de Gran Canaria. Un enorme monolito volcánico de 80 metros de altura situado a más de 1.800 metros de altitud. Considerado sagrado por los antiguos canarios, ofrece algunas de las mejores vistas de la isla y en días claros permite ver el Teide en Tenerife.",
+      "shortDescription": "El monolito volcánico símbolo de Gran Canaria, a 1.800 metros de altitud",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9705,
+        "lng": -15.6035
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/roque-nublo.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌄",
+      "sectionOnly": false,
+      "municipio": "tejeda",
+      "top": true
+    },
+    {
+      "slug": "roque-bentayga",
+      "name": "Roque Bentayga",
+      "description": "Formación rocosa espectacular en el corazón de la isla, rodeada de uno de los paisajes más fotogénicos de Canarias. Lugar sagrado para los aborígenes canarios, con grabados rupestres y estructuras ceremoniales. Se alza imponente sobre el paisaje de Tejeda con el Roque Nublo al fondo.",
+      "shortDescription": "Formación rocosa sagrada de los aborígenes en el paisaje de Tejeda",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9631,
+        "lng": -15.6623
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/bentaiga.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏔️",
+      "sectionOnly": false,
+      "municipio": "tejeda",
+      "top": false
+    },
+    {
+      "slug": "parque-natural-tamadaba",
+      "name": "Parque Natural de Tamadaba",
+      "description": "El mayor y mejor conservado pinar canario de la isla, declarado Reserva de la Biosfera. Con acantilados que caen directamente al Atlántico, bosques de pinos centenarios y miradores espectaculares, Tamadaba es uno de los espacios naturales más valiosos de Canarias. El mirador del Fin del Mundo ofrece vistas al océano con el Teide al fondo.",
+      "shortDescription": "El mayor pinar canario de la isla, con acantilados sobre el Atlántico",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.04,
+        "lng": -15.74
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/tamadaba.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌲",
+      "sectionOnly": false,
+      "municipio": "agaete",
+      "top": false
+    },
+    {
+      "slug": "dunas-maspalomas",
+      "name": "Dunas de Maspalomas",
+      "description": "Uno de los paisajes más singulares de Europa: un auténtico campo de dunas junto al mar en el extremo sur de Gran Canaria. Reserva Natural Especial, las dunas se extienden por 400 hectáreas y están en constante movimiento. El contraste entre el desierto de arena y el azul del Atlántico es uno de los espectáculos naturales más únicos de España.",
+      "shortDescription": "400 hectáreas de dunas junto al mar, uno de los paisajes únicos de Europa",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.738,
+        "lng": -15.596
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/dunas.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏜️",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": true
+    },
+    {
+      "slug": "caldera-de-bandama",
+      "name": "Caldera de Bandama",
+      "description": "Impresionante cráter volcánico de casi un kilómetro de diámetro y 200 metros de profundidad, uno de los mejores ejemplos de vulcanismo de Gran Canaria. El interior del cráter todavía conserva una antigua finca. Desde el Pico de Bandama se tiene una vista aérea perfecta del conjunto.",
+      "shortDescription": "Cráter volcánico de casi 1 km de diámetro a 20 minutos de Las Palmas",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9778,
+        "lng": -15.4532
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/bandama.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌋",
+      "sectionOnly": false,
+      "municipio": "santa-brigida",
+      "top": true
+    },
+    {
+      "slug": "mirador-del-balcon",
+      "name": "Mirador del Balcón",
+      "description": "Probablemente el mirador más impresionante de toda Gran Canaria. Situado en la carretera GC-200 entre Agaete y La Aldea, ofrece vistas directas sobre los acantilados de la Cola del Dragón y el océano Atlántico. Un espectáculo visual que no tiene equivalente en la isla.",
+      "shortDescription": "El mirador más impresionante de Gran Canaria sobre los acantilados del oeste",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.0234,
+        "lng": -15.7594
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/mirador-el-balcon.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "📸",
+      "sectionOnly": false,
+      "municipio": "agaete",
+      "top": true
+    },
+    {
+      "slug": "mirador-unamuno",
+      "name": "Mirador de Unamuno",
+      "description": "Panorámica espectacular sobre la caldera de Tejeda, el Roque Nublo y el Roque Bentayga. Miguel de Unamuno, desterrado en Fuerteventura, visitó Gran Canaria y quedó maravillado por este paisaje. Uno de los miradores más literarios e icónicos del interior de la isla.",
+      "shortDescription": "Panorámica sobre la caldera de Tejeda y los roques, el mirador más literario",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9686,
+        "lng": -15.6483
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/mirador-unamuno.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "📸",
+      "sectionOnly": false,
+      "municipio": "tejeda",
+      "top": false
+    },
+    {
+      "slug": "mirador-degollada-yeguas",
+      "name": "Mirador Degollada de las Yeguas",
+      "description": "El Gran Cañón de Gran Canaria. Desde este mirador en la cumbre se abre una vista vertiginosa hacia el Barranco de Tirajana, uno de los cañones más profundos de las islas. El contraste entre las paredes de roca y el verde del fondo del barranco crea un paisaje de una escala impresionante.",
+      "shortDescription": "El Gran Cañón de Gran Canaria — vista vertiginosa al Barranco de Tirajana",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.985,
+        "lng": -15.512
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/mirador-degollada-de-las-yeguas.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "📸",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "top": false
+    },
+    {
+      "slug": "mirador-pico-nieves",
+      "name": "Mirador de Pico de las Nieves",
+      "description": "Uno de los puntos más altos de Gran Canaria, a casi 2.000 metros de altitud. Las vistas abarcan toda la isla: el Roque Nublo al oeste, el Teide en Tenerife en días claros, y el vasto paisaje de cumbres y barrancos que forman el corazón de Gran Canaria.",
+      "shortDescription": "Vistas de 360° desde el techo de Gran Canaria al Roque Nublo y el Teide",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9703,
+        "lng": -15.5741
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/pico-de-las-nieves-2.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "📸",
+      "sectionOnly": false,
+      "municipio": "vega-san-mateo",
+      "top": false
+    },
+    {
+      "slug": "mirador-cruz-tejeda",
+      "name": "Mirador de Cruz de Tejeda",
+      "description": "Uno de los panoramas clásicos del interior de Gran Canaria. La Cruz de Tejeda marca el centro geográfico de la isla y desde aquí se puede apreciar la escala y complejidad del paisaje de cumbres. Punto de encuentro de senderistas y viajeros desde hace siglos.",
+      "shortDescription": "El centro geográfico de Gran Canaria con vistas a las cumbres",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.9803,
+        "lng": -15.613
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/mirador-cruz-tejeda.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "📸",
+      "sectionOnly": false,
+      "municipio": "tejeda",
+      "top": false
+    },
+    {
+      "slug": "parque-doramas",
+      "name": "Parque Rural de Doramas",
+      "description": "Los últimos restos de la antigua laurisilva de Gran Canaria, el bosque que cubrió las medianías húmedas de la isla hace miles de años. El parque rural incluye Los Tilos de Moya y el Monte Coello, y es uno de los espacios con mayor biodiversidad de las islas.",
+      "shortDescription": "Los últimos restos de laurisilva de Gran Canaria, con enorme biodiversidad",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.07,
+        "lng": -15.6
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/parque-rural-doramas.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌳",
+      "sectionOnly": false,
+      "municipio": "moya",
+      "top": false
+    },
+    {
+      "slug": "azulejos-veneguera",
+      "name": "Los Azulejos de Veneguera",
+      "description": "Montañas multicolor formadas por alteraciones volcánicas hidrotermales en el suroeste de Gran Canaria. Las tonalidades verdes, amarillas y ocres de la roca crean uno de los paisajes más extraños y fotogénicos de la isla. Un fenómeno geológico único visible desde la carretera.",
+      "shortDescription": "Montañas multicolor volcánicas, uno de los paisajes más extraños de la isla",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.857,
+        "lng": -15.754
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/los-azulejos.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🪨",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "top": false
+    },
+    {
+      "slug": "barranco-las-vacas",
+      "name": "Barranco de las Vacas",
+      "description": "Pequeño cañón de paredes erosionadas por el agua en el sureste de Gran Canaria. Sus formaciones rocosas de colores cálidos y sus paredes esculpidas por siglos de erosión recuerdan a los famosos cañones del suroeste de Estados Unidos. Muy popular entre fotógrafos y geólogos.",
+      "shortDescription": "El mini Gran Cañón de Gran Canaria, favorito de fotógrafos",
+      "island": "gran-canaria",
+      "category": "nature",
+      "coordinates": {
+        "lat": 27.88,
+        "lng": -15.42
+      },
+      "images": {
+        "hero": "/images/gran-canaria/nature/barranco-las-vacas.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🏜️",
+      "sectionOnly": false,
+      "municipio": "aguimes",
+      "top": false
+    },
+    {
+      "slug": "gastronomia-grancanaria",
+      "name": "Gastronomía de Gran Canaria",
+      "description": "Una selección de imprescindibles de la gastronomía grancanaria: gofio, papas arrugadas con mojo, pescado fresco local, sancocho canario, queso de Flor de Guía, chorizo de Teror, potaje de berros, bienmesabe, suspiros de Moya, café de Agaete y vinos locales.",
+      "shortDescription": "Los sabores imprescindibles de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.0988,
+        "lng": -15.4124
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/gastronomia-1.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/gastronomia-2.avif",
+          "/images/gran-canaria/cultural/gastronomia-3.avif",
+          "/images/gran-canaria/cultural/gastronomia-4.avif",
+          "/images/gran-canaria/cultural/gastronomia-5.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "gastronomia",
+        "cultura",
+        "comida",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🍽️",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
       "top": false
     }
   ],
