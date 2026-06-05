@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
+import Image from 'next/image';
 
 import { useCart } from '@/hooks/use-cart';
 import { CartPanel } from './cart-panel';
@@ -131,15 +132,15 @@ const CHIP_CATEGORIES: Array<{
   color: string;
   match: (p: POI) => boolean;
 }> = [
-  { id: 'beach',      icon: '🏖',  label: 'Playas',      color: '#0ea5e9',
+  { id: 'beach',      icon: '/icons/icons8-beach-48.png',   label: 'Playas',      color: '#2090c0',
     match: (p) => p.category === 'beach' },
-  { id: 'hiking',     icon: '🥾',  label: 'Senderos',    color: '#16a34a',
+  { id: 'hiking',     icon: '/icons/icons8-hiking-48.png',  label: 'Senderos',    color: '#2a9e60',
     match: (p) => p.category === 'hiking' },
-  { id: 'culture',    icon: '🏛',  label: 'Cultura',     color: '#7c3aed',
+  { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: 'Cultura',     color: '#6e42b8',
     match: (p) => p.category === 'culture' },
-  { id: 'activities', icon: '🎯',  label: 'Actividades', color: '#f59e0b',
+  { id: 'activities', icon: '/icons/icons8-activities-48.png', label: 'Actividades', color: '#c47a18',
     match: (p) => ACTIVITIES_CATS.includes(p.category) },
-  { id: 'nature',     icon: '🌿',  label: 'Naturaleza',  color: '#22c55e',
+  { id: 'nature',     icon: '/icons/icons8-forest-48.png',  label: 'Naturaleza',  color: '#2ea86e',
     match: (p) => p.category === 'nature' },
 ];
 
@@ -152,28 +153,28 @@ const ISLAND_CONFIGS: Record<Island, {
 }> = {
   'gran-canaria': {
     path: 'M 350.33 142.67 L 355.75 147.88 L 369.29 154.39 L 372 159.61 L 369.29 171.33 L 363.87 185.67 L 361.17 198.7 L 372 211.73 L 372 216.94 L 363.87 220.85 L 358.46 227.36 L 350.33 244.3 L 358.46 254.73 L 361.17 269.06 L 361.17 280.79 L 347.62 286 L 339.5 291.21 L 315.12 318.58 L 304.28 327.7 L 250.11 343.33 L 241.98 347.24 L 239.28 347.24 L 220.31 368.09 L 209.48 372 L 201.35 368.09 L 195.94 362.88 L 187.81 358.97 L 155.31 357.67 L 141.76 353.76 L 128.22 348.55 L 87.59 317.27 L 82.17 309.45 L 79.46 304.24 L 63.21 296.42 L 57.8 291.21 L 55.09 287.3 L 30.71 243 L 28 227.36 L 30.71 211.73 L 28 202.61 L 28 190.88 L 28 179.15 L 30.71 170.03 L 38.83 162.21 L 68.63 147.88 L 82.17 138.76 L 98.43 123.12 L 111.97 103.58 L 109.26 85.33 L 117.39 77.52 L 120.09 64.48 L 117.39 48.85 L 114.68 37.12 L 122.8 37.12 L 130.93 37.12 L 139.06 38.42 L 144.47 42.33 L 155.31 39.73 L 195.94 52.76 L 252.82 52.76 L 298.87 63.18 L 317.83 57.97 L 315.12 31.91 L 336.79 28 L 339.5 29.3 L 344.91 39.73 L 344.91 44.94 L 336.79 47.55 L 331.37 57.97 L 334.08 78.82 L 336.79 108.79 L 339.5 114 L 342.2 123.12 L 344.91 133.55 L 350.33 142.67 Z',
-    fill: '#bff4d2',
-    stroke: '#1f9d61',
+    fill: '#fdfdfc',
+    stroke: '#f5c518',
     viewBox: '0 0 400 400',
     label: 'Gran Canaria',
   },
   tenerife: {
     path: 'M 80,180 C 90,140 115,100 150,75 C 185,50 225,45 265,55 C 305,65 335,90 345,125 C 355,160 340,200 315,225 C 290,250 250,265 210,268 C 170,270 130,258 108,235 C 85,210 72,215 80,180 Z',
-    fill: '#fef3c7',
-    stroke: '#f59e0b',
+    fill: '#fdfdfc',
+    stroke: '#f5c518',
     viewBox: '0 0 400 400',
     label: 'Tenerife',
   },
 };
 
 const CATEGORY_COLORS: Record<POI['category'], string> = {
-  nature: '#16a34a',
-  beach: '#0ea5e9',
-  culture: '#7c3aed',
-  hiking: '#16a34a',
-  viewpoint: '#f59e0b',
-  food: '#ef4444',
-  other: '#6b7280',
+  nature:   '#2ea86e',
+  beach:    '#2090c0',
+  culture:  '#6e42b8',
+  hiking:   '#2a9e60',
+  viewpoint:'#c47a18',
+  food:     '#c44038',
+  other:    '#5a7a90',
 };
 
 function getPoiPosition(poi: POI, island: Island): { x: number; y: number } {
@@ -348,11 +349,16 @@ function CategoryClusterMarker({ icon, color, count, x, y, onClick }: CategoryCl
       <ellipse cx={x} cy={y + R + 3} rx={R * 0.7} ry={4} fill="rgba(0,0,0,0.10)" />
       {/* Main circle */}
       <circle cx={x} cy={y} r={R} fill="white" stroke={color} strokeWidth="2.5" />
-      {/* Emoji */}
-      <text x={x} y={y + 5} textAnchor="middle" fontSize="15"
-        style={{ userSelect: 'none', pointerEvents: 'none' }}>
-        {icon}
-      </text>
+      {/* Icon */}
+      {icon.startsWith('/') ? (
+        <image href={icon} x={x - 10} y={y - 10} width="20" height="20"
+          style={{ userSelect: 'none', pointerEvents: 'none' }} />
+      ) : (
+        <text x={x} y={y + 5} textAnchor="middle" fontSize="15"
+          style={{ userSelect: 'none', pointerEvents: 'none' }}>
+          {icon}
+        </text>
+      )}
       {/* Count badge */}
       <circle cx={x + R - 1} cy={y - R + 1} r={9} fill={color} />
       <text x={x + R - 1} y={y - R + 5} textAnchor="middle" fontSize="8"
@@ -643,7 +649,12 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   }, [cart, showNotification]);
 
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden', background: '#e0f2fe' }}>
+    <div style={{
+      position: 'relative', width: '100%', height: '100%', overflow: 'hidden',
+      backgroundColor: '#e8edf0',
+      backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='70'%3E%3Cpath d='M0 35 Q35 10 70 35 Q105 60 140 35' fill='none' stroke='%2370c4e4' stroke-width='1.1'/%3E%3C/svg%3E")`,
+      backgroundRepeat: 'repeat',
+    }}>
 
       {/* Nav fijo — dentro del mapa para acceder al estado del cart */}
       <nav style={{
@@ -651,48 +662,28 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         top: 0,
         left: 0,
         right: 0,
-        height: '56px',
+        height: "auto",
         padding: '0 12px 0 16px',
         background: 'white',
-        borderBottom: '1px solid #e5e7eb',
+        borderBottom: '1px solid rgba(0,0,0,0.08)',
+        boxShadow: '0 2px 12px rgba(0,0,0,0.10), 0 1px 3px rgba(0,0,0,0.06)',
         display: 'flex',
         alignItems: 'center',
         gap: '12px',
         zIndex: 130,
       }}>
-        {/* Atrás */}
-        <a href={`/${locale}`} style={{
-          color: '#9ca3af',
-          textDecoration: 'none',
-          fontSize: '20px',
-          lineHeight: 1,
-          flexShrink: 0,
-        }}>
-          ←
+        {/* Logo — enlace a inicio */}
+        <a href={`/${locale}`} style={{ flexShrink: 0, lineHeight: 0 }}>
+          <Image
+            src="/logo/file.svg"
+            alt="CanaryRoutes"
+            width={240}
+            height={36}
+            style={{ height: '75px', width: 'auto' }}
+            priority
+            unoptimized
+          />
         </a>
-
-        {/* Logo + isla */}
-        <span style={{
-          fontFamily: "'Cormorant Garamond', Georgia, serif",
-          fontSize: '20px',
-          fontWeight: '700',
-          color: '#1f9d61',
-          flexShrink: 0,
-        }}>
-          CanaryRoutes
-        </span>
-        {islandName && (
-          <span style={{
-            fontFamily: "'Cormorant Garamond', Georgia, serif",
-            fontSize: '16px',
-            color: '#9ca3af',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap',
-          }}>
-            · {islandName}
-          </span>
-        )}
 
         {/* Spacer */}
         <div style={{ flex: 1 }} />
@@ -715,7 +706,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           }}
           title="Mi Ruta"
         >
-          🗺️
+          <img src="/icons/icons8-car-53.png" alt="Mi Ruta" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
           {cart.count > 0 && (
             <span style={{
               position: 'absolute',
@@ -745,10 +736,9 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       <svg
         ref={svgRef}
         viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`}
-        style={{ width: '100%', height: '100%', display: 'block', touchAction: 'none', userSelect: 'none' }}
+        style={{ width: '100%', height: '100%', display: 'block', touchAction: 'none', userSelect: 'none', background: 'transparent' }}
         preserveAspectRatio="xMidYMid meet"
       >
-        <rect x={vb.x} y={vb.y} width={vb.w} height={vb.h} fill="#cce9f9" />
         <path
           d={islandConfig.path}
           fill={islandConfig.fill}
@@ -797,7 +787,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       {/* ── Filter bar — flotante sobre el mapa, bajo el nav ── */}
       <div style={{
         position: 'fixed',
-        top: '64px',
+        top: '75px',
         left: 0,
         right: 0,
         zIndex: 140,
@@ -806,6 +796,27 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         gap: '8px',
         pointerEvents: 'none',
       }}>
+
+        {/* Nombre isla */}
+        {islandName && (
+          <div style={{ display: 'flex', justifyContent: 'center', pointerEvents: 'none' }}>
+            <span style={{
+              fontFamily: "'JetBrains Mono', monospace",
+              fontSize: '14px',
+              fontWeight: '700',
+              letterSpacing: '0.04em',
+              textTransform: 'uppercase',
+              color: '#374151',
+              background: 'white',
+              padding: '6px 20px 8px',
+              borderRadius: '0 0 16px 16px',
+              boxShadow: '0 6px 14px rgba(0,0,0,0.10), 0 2px 4px rgba(0,0,0,0.06)',
+            }}>
+              {islandName}
+            </span>
+          </div>
+        )}
+
         {/* Fila 1: píldora unificada — Municipios · Top · │ · 🌍 */}
         <div style={{ padding: '0 12px', pointerEvents: 'auto', display: 'flex', justifyContent: 'center' }}>
           <div style={{
@@ -813,17 +824,18 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             display: 'inline-flex',
             alignItems: 'center',
             justifyContent:'center',
-            background: 'white',
+            background: '#ffffff',
             borderRadius: '50px',
             border: '1px solid rgba(0,0,0,0.08)',
+            boxShadow: '0 2px 12px rgba(0,0,0,0.10)',
             boxShadow: '0 4px 20px rgba(0,0,0,0.13), 0 1px 3px rgba(0,0,0,0.06)',
             padding: '6px',
             gap: '2px',
           }}>
             {/* Botones de acción */}
             {([
-              { id: 'municipios', icon: '🏘️', label: 'Municipios' },
-              { id: 'top',        icon: '⭐',  label: 'Top'        },
+              { id: 'municipios', icon: '/icons/icons8-houses-48.png', label: 'Municipios' },
+              { id: 'top',        icon: '/icons/icons8-star-48.png',   label: 'Top'        },
             ] as const).map(btn => {
               const isActive = activeFilter === btn.id;
               return (
@@ -849,7 +861,11 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
                     boxShadow: isActive ? '0 2px 8px rgba(31,157,97,0.4)' : 'none',
                   }}
                 >
-                  <span style={{ fontSize: '15px' }}>{btn.icon}</span>
+                  {btn.icon.startsWith('/') ? (
+                    <img src={btn.icon} alt="" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
+                  ) : (
+                    <span style={{ fontSize: '15px' }}>{btn.icon}</span>
+                  )}
                   <span>{btn.label}</span>
                 </button>
           </div>
@@ -857,7 +873,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             })}
                             <div style={{
               width: 1, alignSelf: 'stretch',
-              background: '#e5e7eb',
+              background: 'rgba(26,61,43,0.15)',
               margin: '6px 4px',
               flexShrink: 0,
             }}> </div>
@@ -878,11 +894,11 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           pointerEvents: 'auto',
         }}>
           {([
-            { id: 'beach',      icon: '🏖', label: 'Playas',      color: '#0ea5e9' },
-            { id: 'hiking',     icon: '🥾', label: 'Senderos',    color: '#16a34a' },
-            { id: 'culture',    icon: '🏛', label: 'Cultura',     color: '#7c3aed' },
-            { id: 'activities', icon: '🎯', label: 'Actividades', color: '#f59e0b' },
-            { id: 'nature',     icon: '🌿', label: 'Naturaleza',  color: '#22c55e' },
+            { id: 'beach',      icon: '/icons/icons8-beach-48.png',      label: 'Playas',      color: '#2090c0' },
+            { id: 'hiking',     icon: '/icons/icons8-hiking-48.png',     label: 'Senderos',    color: '#2a9e60' },
+            { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: 'Cultura',     color: '#6e42b8' },
+            { id: 'activities', icon: '/icons/icons8-activities-48.png', label: 'Actividades', color: '#c47a18' },
+            { id: 'nature',     icon: '/icons/icons8-forest-48.png',     label: 'Naturaleza',  color: '#2ea86e' },
           ] as const).map(chip => {
             const isActive = activeFilter === chip.id;
             return (
@@ -909,7 +925,11 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
                   backdropFilter: isActive ? 'none' : 'blur(4px)',
                 }}
               >
-                <span style={{ fontSize: '13px' }}>{chip.icon}</span>
+                {chip.icon.startsWith('/') ? (
+                  <img src={chip.icon} alt="" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
+                ) : (
+                  <span style={{ fontSize: '13px' }}>{chip.icon}</span>
+                )}
                 <span style={{ textTransform: 'uppercase', letterSpacing: '0.06em' }}>
                   {chip.label}
                 </span>
@@ -923,10 +943,10 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       {notification && (
         <div style={{
           position: 'fixed',
-          top: '132px',
+          top: '160px',
           left: '50%',
           transform: 'translateX(-50%)',
-          background: '#1f2937',
+          background: '#1a3d2b',
           color: 'white',
           padding: '10px 20px',
           borderRadius: '8px',

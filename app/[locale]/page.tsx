@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { locales, type Locale } from '@/lib/types';
 import { LanguageSwitcher } from '@/components/language-switcher';
 import { IslandSelector } from '@/components/island-selector';
@@ -15,7 +16,7 @@ export default async function HomePage({
   const locale = rawLocale as Locale;
 
   return (
-    <main style={{ minHeight: '100vh', background: '#f8f7f2', display: 'flex', flexDirection: 'column' }}>
+    <main style={{ minHeight: '100vh', background: '#f0ede6', display: 'flex', flexDirection: 'column' }}>
       {/* Nav */}
       <nav style={{
         padding: '16px 24px',
@@ -23,17 +24,18 @@ export default async function HomePage({
         alignItems: 'center',
         justifyContent: 'space-between',
         background: 'white',
-        borderBottom: '1px solid #e5e7eb',
+        borderBottom: '1px solid rgba(0,0,0,0.08)',
+        boxShadow: '0 2px 12px rgba(0,0,0,0.10), 0 1px 3px rgba(0,0,0,0.06)',
       }}>
-        <span style={{
-          fontFamily: "'Cormorant Garamond', Georgia, serif",
-          fontSize: '22px',
-          fontWeight: '700',
-          color: '#1f9d61',
-          letterSpacing: '-0.5px',
-        }}>
-          🌴 CanaryRoutes
-        </span>
+        <Image
+          src="/logo/file.svg"
+          alt="CanaryRoutes"
+          width={160}
+          height={40}
+          style={{ height: '75px', width: 'auto' }}
+          priority
+          unoptimized
+        />
         <LanguageSwitcher currentLocale={locale} />
       </nav>
 

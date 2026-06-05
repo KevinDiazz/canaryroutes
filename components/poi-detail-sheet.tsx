@@ -4,13 +4,13 @@ import type { POI, Locale } from '@/lib/types';
 import type { CartState } from '@/hooks/use-cart';
 
 const CATEGORY_COLORS: Record<POI['category'], string> = {
-  nature:    '#16a34a',
-  beach:     '#0ea5e9',
-  culture:   '#7c3aed',
-  hiking:    '#16a34a',
-  viewpoint: '#f59e0b',
-  food:      '#ef4444',
-  other:     '#6b7280',
+  nature:    '#2ea86e',
+  beach:     '#2090c0',
+  culture:   '#6e42b8',
+  hiking:    '#2a9e60',
+  viewpoint: '#c47a18',
+  food:      '#c44038',
+  other:     '#5a7a90',
 };
 
 const CATEGORY_LABELS: Record<POI['category'], string> = {
@@ -637,81 +637,44 @@ export function PoiDetailSheet({
             </a>
           )}
 
-          {canRoute && <div style={{ display: 'flex', gap: '8px' }}>
+          {canRoute && <div style={{ display: 'flex', gap: '10px' }}>
             <button onClick={openMaps} style={{
-              flex: 1, padding: '13px 10px', borderRadius: '11px',
+              flex: 1, padding: '14px 10px', borderRadius: '14px',
               border: 'none', background: color, color: 'white',
-              fontSize: '13px', fontWeight: 600, cursor: 'pointer',
-              fontFamily: "'JetBrains Mono', monospace", whiteSpace: 'nowrap',
-            }}>🗺️ Abrir Maps</button>
+              fontSize: '12px', fontWeight: 700, cursor: 'pointer',
+              fontFamily: "'JetBrains Mono', monospace",
+              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+              boxShadow: `0 4px 14px ${color}55`,
+              letterSpacing: '0.04em', textTransform: 'uppercase',
+            }}>
+              <img src="/icons/icons8-location-48.png" alt="" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
+              Abrir Maps
+            </button>
             <button
               onClick={() => onAddToCart(selectedPoi)}
               disabled={inCart || (cart.isFull && !inCart)}
               style={{
-                flex: 1, padding: '13px 10px', borderRadius: '11px', border: 'none',
+                flex: 1, padding: '14px 10px', borderRadius: '14px', border: 'none',
                 background: inCart ? '#d1fae5' : cart.isFull ? '#f3f4f6' : '#1f9d61',
                 color: inCart ? '#059669' : cart.isFull ? '#9ca3af' : 'white',
-                fontWeight: 700, fontSize: '13px',
+                fontWeight: 700, fontSize: '12px',
                 cursor: (cart.isFull && !inCart) ? 'not-allowed' : 'pointer',
                 fontFamily: "'JetBrains Mono', monospace",
-                transition: 'background 0.2s', whiteSpace: 'nowrap',
+                display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                transition: 'background 0.2s',
                 boxShadow: inCart || cart.isFull ? 'none' : '0 4px 14px rgba(31,157,97,0.28)',
+                letterSpacing: '0.04em', textTransform: 'uppercase',
               }}
             >
-              {inCart ? '✓ En tu ruta' : cart.isFull ? `Completa (${cart.count}/4)` : `➕ Mi Ruta · ${cart.count}/4`}
+              {inCart
+                ? '✓ En tu ruta'
+                : cart.isFull
+                ? `Completa (${cart.count}/4)`
+                : <><span style={{ fontSize: '18px', lineHeight: 1, fontWeight: 800 }}>+</span> Mi ruta<img src="/icons/icons8-car-53.png" alt="" style={{ width: '30px', height: '30px', objectFit: 'contain' }} /></>
+              }
             </button>
           </div>}
           </div>
         )}
       </div>
-
-      <style>{`
-        @keyframes sheetUp {
-          from { transform: translateY(100%); }
-          to   { transform: translateY(0); }
-        }
-        @keyframes sheetDown {
-          from { transform: translateY(0); }
-          to   { transform: translateY(100%); }
-        }
-        @keyframes shimmer {
-          0%   { background-position: 200% 0; }
-          100% { background-position: -200% 0; }
-        }
-        .rich-poi-text {
-          color: #374151;
-          font-size: 14px;
-          font-weight: 400;
-          line-height: 1.8;
-          font-family: 'DM Sans', system-ui, sans-serif;
-        }
-        .rich-poi-text p {
-          margin: 0 0 10px;
-        }
-        .rich-poi-text p:last-child {
-          margin-bottom: 0;
-        }
-        .rich-poi-text strong,
-        .rich-poi-text b {
-          color: #0f172a;
-          font-weight: 800;
-        }
-        .rich-poi-text em,
-        .rich-poi-text i {
-          color: #334155;
-        }
-        .rich-poi-text mark {
-          background: #fef3c7;
-          color: #92400e;
-          border-radius: 4px;
-          padding: 0 3px;
-        }
-        .rich-poi-text a {
-          color: #0ea5e9;
-          font-weight: 700;
-          text-decoration: underline;
-        }
-      `}</style>
-    </>
-  );
-}
+      </>)}

@@ -1616,8 +1616,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.0985,
-        "lng": -15.4131
+        "lat": 28.101631,
+        "lng": -15.414051
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/casa-colon-1.avif",
@@ -1645,8 +1645,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.1434,
-        "lng": -15.6527
+        "lat": 28.144182,
+        "lng": -15.655226
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/cueva-pintada-1.avif",
@@ -1674,8 +1674,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.0984,
-        "lng": -15.413
+        "lat": 28.100694,
+        "lng": -15.41508
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/catedral-santa-ana-1.avif",
@@ -1703,8 +1703,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.098,
-        "lng": -15.4125
+        "lat": 28.102483,
+        "lng": -15.413898
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/vegueta.avif",
@@ -1730,8 +1730,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.0985,
-        "lng": -15.4115
+        "lat": 28.099698,
+        "lng": -15.415199
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/museo-canario-1.avif",
@@ -1759,8 +1759,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.1272,
-        "lng": -15.6326
+        "lat": 28.138869,
+        "lng": -15.603783
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/cenobio-valeron-1.avif",
@@ -1788,8 +1788,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 27.957,
-        "lng": -15.7
+        "lat": 28.020626,
+        "lng": -15.64741
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/risco-caido-1.avif",
@@ -1817,8 +1817,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.0603,
-        "lng": -15.549
+        "lat": 28.059687,
+        "lng": -15.547553
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/basilica-el-pino-1.avif",
@@ -1846,8 +1846,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.1173,
-        "lng": -15.5309
+        "lat": 28.118435,
+        "lng": -15.523151
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/Parroquia-de-San-Juan-Bautista-1.avif",
@@ -1875,8 +1875,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 27.827,
-        "lng": -15.573
+        "lat": 27.845769,
+        "lng": -15.569006
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/Necrópolis-de-Arteara-1.avif",
@@ -1902,8 +1902,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.131,
-        "lng": -15.4363
+        "lat": 28.107243,
+        "lng": -15.421396
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/castillo-de-mata-1.avif",
@@ -1929,8 +1929,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.1343,
-        "lng": -15.4369
+        "lat": 28.14877,
+        "lng": -15.424077
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/castillo-la-luz-1.avif",
@@ -1956,8 +1956,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 27.9705,
-        "lng": -15.6035
+        "lat": 27.965698,
+        "lng": -15.601529
       },
       "images": {
         "hero": "/images/gran-canaria/nature/roque-nublo.avif",
@@ -1983,8 +1983,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 27.9631,
-        "lng": -15.6623
+        "lat": 27.989547,
+        "lng": -15.638292
       },
       "images": {
         "hero": "/images/gran-canaria/nature/bentaiga.avif",
@@ -2010,8 +2010,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 28.04,
-        "lng": -15.74
+        "lat": 28.057088,
+        "lng": -15.689167
       },
       "images": {
         "hero": "/images/gran-canaria/nature/tamadaba.avif",
@@ -2037,8 +2037,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 27.738,
-        "lng": -15.596
+        "lat": 27.747408,
+        "lng": -15.5759
       },
       "images": {
         "hero": "/images/gran-canaria/nature/dunas.avif",
@@ -2064,8 +2064,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 27.9778,
-        "lng": -15.4532
+        "lat": 28.037622,
+        "lng": -15.457997
       },
       "images": {
         "hero": "/images/gran-canaria/nature/bandama.avif",
@@ -2091,8 +2091,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 28.0234,
-        "lng": -15.7594
+        "lat": 28.019107,
+        "lng": -15.785281
       },
       "images": {
         "hero": "/images/gran-canaria/nature/mirador-el-balcon.avif",
@@ -2118,8 +2118,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 27.9686,
-        "lng": -15.6483
+        "lat": 28.019511,
+        "lng": -15.646346
       },
       "images": {
         "hero": "/images/gran-canaria/nature/mirador-unamuno.avif",
@@ -2145,8 +2145,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 27.985,
-        "lng": -15.512
+        "lat": 27.81936,
+        "lng": -15.579008
       },
       "images": {
         "hero": "/images/gran-canaria/nature/mirador-degollada-de-las-yeguas.avif",
@@ -2172,8 +2172,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 27.9703,
-        "lng": -15.5741
+        "lat": 27.962107,
+        "lng": -15.571962
       },
       "images": {
         "hero": "/images/gran-canaria/nature/pico-de-las-nieves-2.avif",
@@ -2199,8 +2199,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 27.9803,
-        "lng": -15.613
+        "lat": 28.005953,
+        "lng": -15.599728
       },
       "images": {
         "hero": "/images/gran-canaria/nature/mirador-cruz-tejeda.avif",
@@ -2226,8 +2226,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 28.07,
-        "lng": -15.6
+        "lat": 28.088321,
+        "lng": -15.584982
       },
       "images": {
         "hero": "/images/gran-canaria/nature/parque-rural-doramas.avif",
@@ -2253,8 +2253,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 27.857,
-        "lng": -15.754
+        "lat": 27.921336,
+        "lng": -15.725187
       },
       "images": {
         "hero": "/images/gran-canaria/nature/los-azulejos.avif",
@@ -2280,8 +2280,8 @@
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
-        "lat": 27.88,
-        "lng": -15.42
+        "lat": 27.914317,
+        "lng": -15.475609
       },
       "images": {
         "hero": "/images/gran-canaria/nature/barranco-las-vacas.avif",
@@ -2307,8 +2307,8 @@
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
-        "lat": 28.0988,
-        "lng": -15.4124
+        "lat": 27.933799,
+        "lng": -15.482825
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/gastronomia-1.avif",
