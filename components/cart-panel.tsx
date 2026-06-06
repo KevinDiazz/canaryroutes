@@ -80,10 +80,10 @@ export function CartPanel({ cart, isOpen, onClose }: CartPanelProps) {
           justifyContent: 'space-between',
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <img src="/icons/icons8-car-53.png" alt="" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
             <h3 style={{ margin: 0, fontSize: '20px', fontWeight: '700', color: '#1f2937', fontFamily: "'Outfit', sans-serif" }}>
               Mi Ruta
             </h3>
+            <img src="/icons/icons8-car-53.png" alt="" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
           </div>
           <button
             onClick={onClose}
@@ -113,10 +113,13 @@ export function CartPanel({ cart, isOpen, onClose }: CartPanelProps) {
               textAlign: 'center',
               color: '#9ca3af',
               lineHeight: '1.6',
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center"
             }}>
-              <img src="/icons/icons8-car-53.png" alt="" style={{ width: '48px', height: '48px', objectFit: 'contain', opacity: 0.3, marginBottom: '12px' }} />
               <p style={{ margin: 0, fontSize: '15px', fontFamily: "'Outfit', sans-serif", fontWeight: '600', color: '#6b7280' }}>Tu ruta está vacía</p>
               <p style={{ margin: '6px 0 0', fontSize: '13px', fontFamily: "'Inter', sans-serif", color: '#9ca3af' }}>Toca un punto en el mapa<br />para añadirlo aquí</p>
+              <img src="/icons/icons8-car-53.png" alt="" style={{ width: '48px', height: '48px', objectFit: 'contain', opacity: 0.3, marginBottom: '12px' }} />
             </div>
           ) : (
             <ul style={{ padding: 0, margin: 0 }}>
@@ -161,7 +164,6 @@ export function CartPanel({ cart, isOpen, onClose }: CartPanelProps) {
             </button>
             <p style={{ margin: '8px 0 0', fontSize: '12px', color: '#9ca3af', textAlign: 'center' }}>
               {cart.count} parada{cart.count > 1 ? 's' : ''}
-              {cart.count > 1 ? ' · Ruta optimizada' : ''}
             </p>
           </div>
         )}

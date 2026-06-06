@@ -15,26 +15,38 @@ interface ViewBox { x: number; y: number; w: number; h: number }
 
 const SVG_CENTER = 200;          // centro del contenido (400×400)
 const MIN_SIZE   = 80;           // zoom máximo (~5×)
-const MAX_SIZE   = 400;          // zoom mínimo = vista original completa
+const MOBILE_MAX_SIZE = 400;     // zoom mínimo móvil = vista original completa
+const DESKTOP_MAX_SIZE = 560;    // zoom mínimo escritorio = más aire alrededor de la isla
+
+// Top Y de la isla en coordenadas SVG (400×400)
+const ISLAND_TOP_SVG: Record<Island, number> = {
+  'gran-canaria': 28,
+  'tenerife': 45,
+};
 
 // Vista inicial centrada
-const INITIAL_VB: ViewBox = { x: 0, y: 0, w: MAX_SIZE, h: MAX_SIZE };
+const getInitialVb = (maxSize = MOBILE_MAX_SIZE, centerY = SVG_CENTER): ViewBox => ({
+  x: SVG_CENTER - maxSize / 2,
+  y: centerY - maxSize / 2,
+  w: maxSize,
+  h: maxSize,
+});
 
 /** Limita el viewBox para que el mapa no se pierda y se centre al alejarse al máximo */
-function clampVb(next: ViewBox): ViewBox {
-  const w = Math.min(Math.max(next.w, MIN_SIZE), MAX_SIZE);
-  const h = Math.min(Math.max(next.h, MIN_SIZE), MAX_SIZE);
+function clampVb(next: ViewBox, maxSize = MOBILE_MAX_SIZE, centerY = SVG_CENTER): ViewBox {
+  const w = Math.min(Math.max(next.w, MIN_SIZE), maxSize);
+  const h = Math.min(Math.max(next.h, MIN_SIZE), maxSize);
 
   // Al llegar al zoom mínimo → centrar el mapa
-  if (w >= MAX_SIZE) {
-    return { x: SVG_CENTER - w / 2, y: SVG_CENTER - h / 2, w, h };
+  if (w >= maxSize) {
+    return { x: SVG_CENTER - w / 2, y: centerY - h / 2, w, h };
   }
 
   // Zoom intermedio: evitar salir más del 70% del mapa fuera de pantalla
   const minX = -w * 0.7;
-  const maxX =  w * 0.7 + (MAX_SIZE - w);
+  const maxX =  w * 0.7 + (maxSize - w);
   const minY = -h * 0.7;
-  const maxY =  h * 0.7 + (MAX_SIZE - h);
+  const maxY =  h * 0.7 + (maxSize - h);
 
   return {
     x: Math.min(Math.max(next.x, minX), maxX),
@@ -155,14 +167,14 @@ const ISLAND_CONFIGS: Record<Island, {
     path: 'M 350.33 142.67 L 355.75 147.88 L 369.29 154.39 L 372 159.61 L 369.29 171.33 L 363.87 185.67 L 361.17 198.7 L 372 211.73 L 372 216.94 L 363.87 220.85 L 358.46 227.36 L 350.33 244.3 L 358.46 254.73 L 361.17 269.06 L 361.17 280.79 L 347.62 286 L 339.5 291.21 L 315.12 318.58 L 304.28 327.7 L 250.11 343.33 L 241.98 347.24 L 239.28 347.24 L 220.31 368.09 L 209.48 372 L 201.35 368.09 L 195.94 362.88 L 187.81 358.97 L 155.31 357.67 L 141.76 353.76 L 128.22 348.55 L 87.59 317.27 L 82.17 309.45 L 79.46 304.24 L 63.21 296.42 L 57.8 291.21 L 55.09 287.3 L 30.71 243 L 28 227.36 L 30.71 211.73 L 28 202.61 L 28 190.88 L 28 179.15 L 30.71 170.03 L 38.83 162.21 L 68.63 147.88 L 82.17 138.76 L 98.43 123.12 L 111.97 103.58 L 109.26 85.33 L 117.39 77.52 L 120.09 64.48 L 117.39 48.85 L 114.68 37.12 L 122.8 37.12 L 130.93 37.12 L 139.06 38.42 L 144.47 42.33 L 155.31 39.73 L 195.94 52.76 L 252.82 52.76 L 298.87 63.18 L 317.83 57.97 L 315.12 31.91 L 336.79 28 L 339.5 29.3 L 344.91 39.73 L 344.91 44.94 L 336.79 47.55 L 331.37 57.97 L 334.08 78.82 L 336.79 108.79 L 339.5 114 L 342.2 123.12 L 344.91 133.55 L 350.33 142.67 Z',
     fill: '#fdfdfc',
     stroke: '#f5c518',
-    viewBox: '0 0 400 400',
+    viewBox: '-60 -240 520 520',
     label: 'Gran Canaria',
   },
   tenerife: {
     path: 'M 80,180 C 90,140 115,100 150,75 C 185,50 225,45 265,55 C 305,65 335,90 345,125 C 355,160 340,200 315,225 C 290,250 250,265 210,268 C 170,270 130,258 108,235 C 85,210 72,215 80,180 Z',
     fill: '#fdfdfc',
     stroke: '#f5c518',
-    viewBox: '0 0 400 400',
+    viewBox: '-60 -200 520 520',
     label: 'Tenerife',
   },
 };
@@ -402,17 +414,70 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   const [detailPois, setDetailPois] = useState<POI[]>([]);
   const [detailSheetKey, setDetailSheetKey] = useState(0);
   const cart = useCart();
+  const [mapMaxSize, setMapMaxSize] = useState(MOBILE_MAX_SIZE);
+  const [mapCenterY, setMapCenterY] = useState(SVG_CENTER);
+  const filterBarRef = useRef<HTMLDivElement>(null);
 
   // ── Zoom / Pan ─────────────────────────────────────────────────────────────
-  const [vb, setVb] = useState<ViewBox>(INITIAL_VB);
+  const [vb, setVb] = useState<ViewBox>(() => getInitialVb());
   const svgRef = useRef<SVGSVGElement>(null);
   const touchState = useRef<{
     type: 'none' | 'pan' | 'pinch';
     lastTouches: Touch[];
     lastDist: number;
   }>({ type: 'none', lastTouches: [], lastDist: 0 });
+
+  useEffect(() => {
+    const media = window.matchMedia('(min-width: 768px)');
+    const updateMaxSize = () => {
+      setMapMaxSize(media.matches ? DESKTOP_MAX_SIZE : MOBILE_MAX_SIZE);
+    };
+
+    updateMaxSize();
+    media.addEventListener('change', updateMaxSize);
+    return () => media.removeEventListener('change', updateMaxSize);
+  }, []);
+
+  // Calcula mapCenterY para que la isla arranque 5% por debajo del último chip
+  useEffect(() => {
+    const compute = () => {
+      const filterBar = filterBarRef.current;
+      if (!filterBar) return;
+
+      const filterBarBottom = filterBar.getBoundingClientRect().bottom;
+      const vh = window.innerHeight;
+      const vw = window.innerWidth;
+      const targetIslandTop = filterBarBottom + 0.05 * vh;
+
+      // Con preserveAspectRatio="xMidYMid meet": scale = min(vw,vh) / maxSize
+      const scale = Math.min(vw, vh) / mapMaxSize;
+      const renderedSize = mapMaxSize * scale;
+      // Offset vertical del contenido SVG dentro del viewport
+      const offsetY = (vh - renderedSize) / 2;
+
+      // islandTopSvg mapea a targetIslandTop en pantalla:
+      //   targetIslandTop = offsetY + (islandTopSvg - viewBox.y) * scale
+      //   → viewBox.y = islandTopSvg - (targetIslandTop - offsetY) / scale
+      const islandTopSvg = ISLAND_TOP_SVG[activeIsland];
+      const viewBoxY = islandTopSvg - (targetIslandTop - offsetY) / scale;
+      setMapCenterY(viewBoxY + mapMaxSize / 2);
+    };
+
+    compute();
+
+    const filterBar = filterBarRef.current;
+    if (!filterBar) return;
+    const ro = new ResizeObserver(compute);
+    ro.observe(filterBar);
+    window.addEventListener('resize', compute);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener('resize', compute);
+    };
+  }, [mapMaxSize, activeIsland]);
+
   // Reset viewBox when island changes
-  useEffect(() => { setVb(INITIAL_VB); }, [activeIsland]);
+  useEffect(() => { setVb(getInitialVb(mapMaxSize, mapCenterY)); }, [activeIsland, mapMaxSize, mapCenterY]);
 
 
   // Non-passive touch listeners so we can preventDefault
@@ -459,7 +524,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             w: newW,
             h: newH,
           };
-          return clampVb(candidate);
+          return clampVb(candidate, mapMaxSize, mapCenterY);
         });
 
         // Pan simultáneo mientras se hace pinch
@@ -470,7 +535,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           ...prev,
           x: prev.x - dxScreen / rect.width  * prev.w,
           y: prev.y - dyScreen / rect.height * prev.h,
-        }));
+        }, mapMaxSize, mapCenterY));
 
         touchState.current = { type: 'pinch', lastTouches: [t0, t1], lastDist: newDist };
 
@@ -479,7 +544,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         const prev0 = ts.lastTouches[0];
         const dx = (t.clientX - prev0.clientX) / rect.width  * vb.w;
         const dy = (t.clientY - prev0.clientY) / rect.height * vb.h;
-        setVb(prev => clampVb({ ...prev, x: prev.x - dx, y: prev.y - dy }));
+        setVb(prev => clampVb({ ...prev, x: prev.x - dx, y: prev.y - dy }, mapMaxSize, mapCenterY));
         touchState.current = { ...ts, lastTouches: [t] };
       }
     };
@@ -497,7 +562,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       svg.removeEventListener('touchend',   onEnd);
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [activeIsland, vb]);
+  }, [activeIsland, vb, mapMaxSize, mapCenterY]);
 
   const pois = poisByIsland[activeIsland] ?? [];
   const mapPois = pois.filter((poi) => !poi.sectionOnly);
@@ -668,7 +733,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     }}>
 
       {/* Nav fijo — dentro del mapa para acceder al estado del cart */}
-      <nav style={{
+      <nav className="nav-floating" style={{
         position: 'fixed',
         top: 0, left: 0, right: 0,
         background: 'white',
@@ -679,7 +744,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         flexDirection: 'column',
       }}>
         {/* Fila 1: logo ← → carrito */}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 12px 0 16px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', padding: '0 12px 0 16px', gap: '8px' }}>
           <a href={`/${locale}`} style={{ lineHeight: 0 }}>
             <Image
               src="/logo/file.svg"
@@ -691,6 +756,22 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
               unoptimized
             />
           </a>
+
+          {/* Línea ruta curva POI */}
+          <svg viewBox="0 0 200 30" style={{ flex: 1, height: '30px' }} preserveAspectRatio="xMidYMid meet">
+            <path
+              d="M0,15 Q25,6 50,15 Q75,24 100,15 Q125,6 150,15 Q175,22 200,15"
+              fill="none" stroke="#2090c0" strokeWidth="1.8" strokeDasharray="5,7"
+              strokeLinecap="round" opacity="0.35"
+            />
+            <circle cx="40" cy="13" r="5" fill="white" stroke="#f5c518" strokeWidth="1.5" opacity="0.5"/>
+            <circle cx="40" cy="13" r="2.5" fill="#f5c518" opacity="0.7"/>
+            <circle cx="100" cy="15" r="5" fill="white" stroke="#f5c518" strokeWidth="1.5" opacity="0.5"/>
+            <circle cx="100" cy="15" r="2.5" fill="#f5c518" opacity="0.7"/>
+            <circle cx="168" cy="18" r="5" fill="white" stroke="#f5c518" strokeWidth="1.5" opacity="0.5"/>
+            <circle cx="168" cy="18" r="2.5" fill="#f5c518" opacity="0.7"/>
+          </svg>
+
           {/* Botón carrito */}
           <button
             onClick={() => setCartOpen((v) => !v)}
@@ -722,6 +803,26 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       <svg
         ref={svgRef}
         viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`}
+        onWheel={(event) => {
+          event.preventDefault();
+          const rect = event.currentTarget.getBoundingClientRect();
+          const pivot = screenToSvg(event.clientX, event.clientY, rect, vb);
+          const factor = event.deltaY > 0 ? 1.12 : 0.88;
+
+          setVb(prev => {
+            const newW = prev.w * factor;
+            const newH = prev.h * factor;
+            const scaleW = newW / prev.w;
+            const scaleH = newH / prev.h;
+            const candidate: ViewBox = {
+              x: pivot.x - (pivot.x - prev.x) * scaleW,
+              y: pivot.y - (pivot.y - prev.y) * scaleH,
+              w: newW,
+              h: newH,
+            };
+            return clampVb(candidate, mapMaxSize, mapCenterY);
+          });
+        }}
         style={{ width: '100%', height: '100%', display: 'block', touchAction: 'none', userSelect: 'none', background: 'transparent' }}
         preserveAspectRatio="xMidYMid meet"
       >
@@ -779,7 +880,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       </svg>
 
       {/* ── Filter bar — flotante sobre el mapa, bajo el nav ── */}
-      <div style={{
+      <div ref={filterBarRef} style={{
         position: 'fixed',
         top: '109px',
         left: 0,
@@ -859,11 +960,13 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           </div>
         </div>
 
-        {/* Fila 2: chips de categoría — carrusel horizontal */}
+        {/* Fila 2: chips de categoría — carrusel horizontal sin wrap */}
         <div style={{
           display: 'flex', gap: '7px',
           overflowX: 'auto', scrollbarWidth: 'none',
+          WebkitOverflowScrolling: 'touch',
           padding: '0 12px 4px',
+          flexWrap: 'nowrap',
           pointerEvents: 'auto',
         }}>
           {([
@@ -916,7 +1019,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       {islandName && (
         <div style={{
           position: 'fixed',
-          bottom: '20%', left: 0, right: 0,
+          bottom: '24px', left: 0, right: 0,
           display: 'flex',
           justifyContent: 'center',
           pointerEvents: 'none',

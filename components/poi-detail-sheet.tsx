@@ -41,68 +41,7 @@ function RichText({ html }: { html: string }) {
   );
 }
 
-// ── Scroll fade hint ─────────────────────────────────────────────────────────
-function ScrollFade() {
-  return (
-    <div style={{
-      position: 'absolute', bottom: 0, left: 0, right: 0,
-      height: '48px',
-      background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.95) 100%)',
-      pointerEvents: 'none',
-      zIndex: 2,
-    }} />
-  );
-}
 
-// ── Expandable description ───────────────────────────────────────────────────
-const COLLAPSED_LINES = 4;
-
-function ExpandableDescription({ html, color }: { html: string; color: string }) {
-  const [expanded, setExpanded] = useState(false);
-  const [clamped, setClamped] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    setExpanded(false);
-  }, [html]);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    // Comprueba si el contenido es más alto que las líneas colapsadas
-    setClamped(el.scrollHeight > el.clientHeight + 2);
-  }, [html, expanded]);
-
-  return (
-    <div>
-      <div
-        ref={ref}
-        className="rich-poi-text"
-        dangerouslySetInnerHTML={{ __html: html }}
-        style={{
-          display: '-webkit-box',
-          WebkitBoxOrient: 'vertical',
-          WebkitLineClamp: expanded ? 'unset' : COLLAPSED_LINES,
-          overflow: 'hidden',
-          transition: 'all 0.25s ease',
-        } as React.CSSProperties}
-      />
-      {(clamped || expanded) && (
-        <button
-          onClick={() => setExpanded(v => !v)}
-          style={{
-            background: 'none', border: 'none', padding: '4px 0 0',
-            cursor: 'pointer', fontSize: '13px', fontWeight: 700,
-            color, fontFamily: "'JetBrains Mono', monospace",
-            display: 'block',
-          }}
-        >
-          {expanded ? 'ver menos' : '... ver más'}
-        </button>
-      )}
-    </div>
-  );
-}
 
 // ── Story Bubbles ────────────────────────────────────────────────────────────
 interface StoryBubblesProps {
@@ -113,11 +52,12 @@ interface StoryBubblesProps {
 }
 
 function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps) {
-  const size = compact ? 44 : 64;
+  const size = compact ? 40 : 56;
   return (
-    <div style={{
-      display: 'flex', gap: compact ? '8px' : '12px', overflowX: 'auto',
-      padding: compact ? '6px 14px 4px' : '10px 14px 6px', scrollbarWidth: 'none',
+    <div className="story-bubbles-container" style={{
+      display: 'flex', flexDirection: 'column', gap: compact ? '8px' : '10px',
+      padding: compact ? '0' : '10px 14px 6px', scrollbarWidth: 'none',
+      width: '100%', alignItems: 'center',
     }}>
       {pois.map((poi) => {
         const isActive = poi.slug === activePoi.slug;
@@ -128,7 +68,8 @@ function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps)
             onClick={() => onSelect(poi)}
             style={{
               display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
-              background: 'none', border: 'none', cursor: 'pointer', flexShrink: 0, padding: 0,
+              background: 'none', border: 'none',
+              cursor: 'pointer', flexShrink: 0, padding: 0,
             }}
           >
             <div style={{
@@ -175,16 +116,20 @@ function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps)
                 {pois.indexOf(poi) + 1}
               </span>
             </div>
-            <span style={{
-              fontSize: compact ? '9px' : '10px', fontFamily: "'JetBrains Mono', monospace",
-              color: isActive ? '#0f172a' : '#94a3b8',
-              textAlign: 'center', maxWidth: `${size}px`, lineHeight: 1.2,
-              fontWeight: isActive ? 700 : 400, transition: 'color 0.15s',
+            {!compact && <span style={{
+              fontSize: '13px',
+              fontFamily: "'Outfit', sans-serif",
+              color: isActive ? '#0f172a' : '#6b7280',
+              lineHeight: 1.3,
+              fontWeight: isActive ? 700 : 400,
+              transition: 'color 0.15s',
+              flex: 1,
+              overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
             }}>
               {poi.name.length > 10 ? poi.name.slice(0, 9) + '…' : poi.name}
             </span>
-          </button>
-        );
+      }</button>
+      );
       })}
     </div>
   );
@@ -412,6 +357,7 @@ export function PoiDetailSheet({
   const inCart = cart.items.some(i => i.slug === selectedPoi.slug);
   const canRoute = hasCoordinates(selectedPoi);
   const [showTranscript, setShowTranscript] = useState(false);
+  const [textExpanded, setTextExpanded] = useState(false);
 
   // Difiere contenido pesado al frame siguiente para no bloquear la animación CSS
   const [contentReady, setContentReady] = useState(false);
@@ -425,9 +371,11 @@ export function PoiDetailSheet({
 
   useEffect(() => {
     setShowTranscript(false);
+    setTextExpanded(false);
   }, [selectedPoi.slug]);
 
   const sheetRef = useRef<HTMLDivElement>(null);
+  const [scrollEl, setScrollEl] = useState<HTMLDivElement | null>(null);
   const [isExiting, setIsExiting] = useState(false);
 
   const triggerClose = useCallback(() => {
@@ -470,6 +418,7 @@ export function PoiDetailSheet({
         ref={sheetRef}
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
+        className="poi-sheet"
         style={{
           position: 'fixed',
           top: 0, bottom: 0, left: 0, right: 0,
@@ -487,6 +436,60 @@ export function PoiDetailSheet({
             : 'sheetUp 0.26s cubic-bezier(0.25,0.46,0.45,0.94) both',
         }}
       >
+        {/* ── SIDEBAR IZQUIERDO — solo desktop ── */}
+        {pois.length > 1 && (
+          <div className="bubbles-left-sidebar">
+            {pois.map((poi, idx) => {
+              const isActive = poi.slug === selectedPoi.slug;
+              const ringColor = CATEGORY_COLORS[poi.category];
+              return (
+                <button key={poi.slug} onClick={() => onPoiChange(poi)} style={{
+                  display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
+                  background: 'none', border: 'none', cursor: 'pointer', flexShrink: 0, padding: '4px 0',
+                }}>
+                  <div style={{ position: 'relative',
+                    width: 64, height: 64, borderRadius: '50%',
+                    padding: isActive ? 3 : 2, background: ringColor,
+                    opacity: isActive ? 1 : 0.5,
+                    boxShadow: isActive ? `0 4px 12px ${ringColor}66` : 'none',
+                    transform: isActive ? 'scale(1.08)' : 'scale(1)',
+                    transition: 'all 0.2s',
+                  }}>
+                    <div style={{ width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '2px solid white' }}>
+                      <img src={poi.images.hero} alt={poi.name}
+                        style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                        onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+                      />
+                    </div>
+                    <span style={{
+                      position: 'absolute', bottom: -2, right: -2,
+                      width: 18, height: 18, borderRadius: '50%',
+                      background: isActive ? ringColor : 'white',
+                      border: `2px solid ${ringColor}`,
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      fontSize: '9px', fontWeight: 800,
+                      fontFamily: "'JetBrains Mono', monospace",
+                      color: isActive ? 'white' : ringColor, lineHeight: 1,
+                    }}>{idx + 1}</span>
+                  </div>
+                  <span style={{
+                    fontSize: '10px', fontFamily: "'Inter', sans-serif",
+                    color: isActive ? '#0f172a' : '#94a3b8',
+                    fontWeight: isActive ? 600 : 400,
+                    maxWidth: '64px', textAlign: 'center',
+                    overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                  }}>
+                    {poi.name.length > 8 ? poi.name.slice(0, 7) + '…' : poi.name}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {/* ── CONTENIDO PRINCIPAL ── */}
+        <div className="sheet-main-content">
+
         {/* ── HEADER — fijo, no scrollea ── */}
         <div style={{ flexShrink: 0 }}>
           {/* Drag handle */}
@@ -494,7 +497,57 @@ export function PoiDetailSheet({
             <div style={{ width: 42, height: 4, background: '#e2e8f0', borderRadius: 99, display: 'inline-block' }} />
           </div>
 
-          {/* Contenido diferido — se monta tras el primer frame para no bloquear la animación */}
+          {/* Story bubbles — fila horizontal, solo mobile ── */}
+          {pois.length > 1 && (
+            <div className="bubbles-top" style={{ scrollbarWidth: 'none' }}>
+              {pois.map((poi, idx) => {
+                const isActive = poi.slug === selectedPoi.slug;
+                const ringColor = CATEGORY_COLORS[poi.category];
+                return (
+                  <button key={poi.slug} onClick={() => onPoiChange(poi)} style={{
+                    display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
+                    background: 'none', border: 'none', cursor: 'pointer', flexShrink: 0, padding: 0,
+                  }}>
+                    <div style={{ position: 'relative',
+                      width: 72, height: 72, borderRadius: '50%',
+                      padding: isActive ? 3 : 2, background: ringColor,
+                      opacity: isActive ? 1 : 0.5,
+                      boxShadow: isActive ? `0 4px 12px ${ringColor}66` : 'none',
+                      transform: isActive ? 'scale(1.08)' : 'scale(1)',
+                      transition: 'all 0.2s',
+                    }}>
+                      <div style={{ width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '2px solid white' }}>
+                        <img src={poi.images.hero} alt={poi.name}
+                          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                          onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+                        />
+                      </div>
+                      <span style={{
+                        position: 'absolute', bottom: -2, right: -2,
+                        width: 20, height: 20, borderRadius: '50%',
+                        background: isActive ? ringColor : 'white',
+                        border: `2px solid ${ringColor}`,
+                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        fontSize: '10px', fontWeight: 800,
+                        fontFamily: "'JetBrains Mono', monospace",
+                        color: isActive ? 'white' : ringColor, lineHeight: 1,
+                      }}>{idx + 1}</span>
+                    </div>
+                    <span style={{
+                      fontSize: '10px', fontFamily: "'Inter', sans-serif",
+                      color: isActive ? '#0f172a' : '#94a3b8', fontWeight: isActive ? 600 : 400,
+                      maxWidth: '72px', textAlign: 'center',
+                      overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                    }}>
+                      {poi.name.length > 8 ? poi.name.slice(0, 7) + '…' : poi.name}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          )}
+
+          {/* Contenido diferido */}
           {contentReady && sectionContext && (
             <div style={{
               padding: '6px 14px 4px',
@@ -512,7 +565,6 @@ export function PoiDetailSheet({
               </div>
             </div>
           )}
-          <StoryBubbles pois={pois} activePoi={selectedPoi} onSelect={onPoiChange} />
 
           {/* Title + close */}
           <div style={{
@@ -539,50 +591,150 @@ export function PoiDetailSheet({
           </div>
         </div>
 
-        {/* ── FOTO — 40vh, diferida ── */}
-        <div style={{
-          flexShrink: 0, height: '40vh',
-          background: `linear-gradient(135deg, ${color}33, ${color}11)`,
-        }}>
-          {contentReady && (showTranscript && selectedPoi.audioTranscript
-            ? <TranscriptPanel html={selectedPoi.audioTranscript} color={color} />
-            : <PhotoGallery poi={selectedPoi} color={color} />)}
-        </div>
+        {/* ── ÁREA PRINCIPAL ── */}
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', position: 'relative', overflow: 'hidden' }}>
 
-        {/* ── TEXTO — flex 1, scroll con fade ── */}
-        <div style={{ flex: 1, position: 'relative', overflow: 'hidden' }}>
-          <ScrollFade />
+          {/* Foto — ocupa todo el espacio disponible, sin nada encima */}
+          <div style={{
+            flex: 1,
+            background: `linear-gradient(135deg, ${color}33, ${color}11)`,
+            overflow: 'hidden',
+          }}>
+            {contentReady && (showTranscript && selectedPoi.audioTranscript
+              ? <TranscriptPanel html={selectedPoi.audioTranscript} color={color} />
+              : <PhotoGallery poi={selectedPoi} color={color} />)}
+          </div>
+
+          {/* Barra inferior: 80% texto preview + 20% botón LEER */}
+          <div style={{
+            flexShrink: 0,
+            display: 'flex',
+            alignItems: 'stretch',
+            borderTop: '1px solid #f1f5f9',
+            background: 'white',
+            minHeight: 64,
+          }}>
+            {/* 80% — texto preview */}
+            <div style={{
+              flex: '0 0 80%',
+              padding: '10px 12px 10px 16px',
+              display: 'flex', alignItems: 'center',
+              overflow: 'hidden',
+            }}>
+              <p style={{
+                margin: 0,
+                fontSize: '13px', lineHeight: 1.55, color: '#6b7280',
+                fontFamily: "'Outfit', sans-serif",
+                display: '-webkit-box',
+                WebkitBoxOrient: 'vertical' as const,
+                WebkitLineClamp: 2,
+                overflow: 'hidden',
+              }}>
+                {contentReady && selectedPoi.description.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()}
+              </p>
+            </div>
+
+            {/* 20% — botón LEER */}
+            <button
+              onClick={() => setTextExpanded(true)}
+              onTouchStart={(e) => e.stopPropagation()}
+              onTouchEnd={(e) => e.stopPropagation()}
+              style={{
+                flex: '0 0 20%',
+                border: 'none',
+                borderLeft: `2px solid ${color}22`,
+                background: color,
+                color: 'white',
+                cursor: 'pointer',
+                display: 'flex', flexDirection: 'column',
+                alignItems: 'center', justifyContent: 'center',
+                gap: 4,
+                fontSize: '10px', fontWeight: 800,
+                fontFamily: "'JetBrains Mono', monospace",
+                letterSpacing: '0.06em',
+                transition: 'opacity 0.15s',
+              }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+              LEER
+            </button>
+          </div>
+
+          {/* Panel texto completo — entra desde abajo sobre la foto */}
           <div
-            onTouchStart={(e) => e.stopPropagation()}
-            onTouchMove={(e) => e.stopPropagation()}
-            onTouchEnd={(e) => e.stopPropagation()}
             style={{
+              position: 'absolute',
+              left: 0, right: 0, bottom: 0,
               height: '100%',
-              overflowY: 'scroll',
-              padding: '12px 16px 24px',
+              transform: textExpanded ? 'translateY(0)' : 'translateY(100%)',
+              transition: 'transform 0.38s cubic-bezier(0.32, 0.72, 0, 1)',
+              background: 'white',
+              borderRadius: '20px 20px 0 0',
               display: 'flex',
               flexDirection: 'column',
-              gap: '10px',
-              scrollbarWidth: 'none',
+              boxShadow: '0 -6px 32px rgba(0,0,0,0.13)',
+            }}
+          >
+            {/* Handle + cerrar */}
+            <div style={{
+              flexShrink: 0, padding: '10px 18px 10px',
+              display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+              borderBottom: `1px solid ${color}18`,
             }}>
-            {contentReady && <ExpandableDescription html={selectedPoi.description} color={color} />}
+              <div style={{ width: 36, height: 4, background: '#e2e8f0', borderRadius: 99 }} />
+              <button
+                onClick={() => setTextExpanded(false)}
+                onTouchStart={(e) => e.stopPropagation()}
+                onTouchEnd={(e) => e.stopPropagation()}
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 5,
+                  background: '#f1f5f9', border: 'none', borderRadius: 20,
+                  padding: '6px 14px', cursor: 'pointer',
+                  fontSize: '11px', fontWeight: 700, color: '#374151',
+                  fontFamily: "'JetBrains Mono', monospace",
+                }}
+              >
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="18 15 12 9 6 15" />
+                </svg>
+                CERRAR
+              </button>
+            </div>
 
-
-            {contentReady && selectedPoi.audioPreview && (
-              <div style={{
-                background: '#f8fafc', borderRadius: '14px',
-                padding: '10px 12px', border: '1px solid #e2e8f0',
-              }}>
+            {/* Texto scrollable */}
+            <div
+              ref={(el) => setScrollEl(el)}
+              onTouchStart={(e) => e.stopPropagation()}
+              onTouchMove={(e) => e.stopPropagation()}
+              onTouchEnd={(e) => e.stopPropagation()}
+              style={{
+                flex: 1, overflowY: 'scroll', scrollbarWidth: 'none',
+                padding: '16px 18px 24px',
+              }}
+            >
+              {contentReady && (
+                <div style={{ fontSize: '15px', lineHeight: 1.72, color: '#374151', fontFamily: "'Outfit', sans-serif" }}>
+                  <RichText html={selectedPoi.description} />
+                </div>
+              )}
+              {contentReady && selectedPoi.audioPreview && (
                 <div style={{
-                  fontSize: '10px', fontWeight: 700, color: '#64748b',
-                  letterSpacing: '0.1em', textTransform: 'uppercase',
-                  fontFamily: "'JetBrains Mono', monospace", marginBottom: '6px',
-                }}>🎧 Audioguía preview</div>
-                <audio controls style={{ width: '100%', height: '36px' }} src={selectedPoi.audioPreview} />
-              </div>
-            )}
-          </div>{/* inner scroll */}
-        </div>{/* outer fade wrapper */}
+                  marginTop: '16px', background: '#f8fafc', borderRadius: '14px',
+                  padding: '10px 12px', border: '1px solid #e2e8f0',
+                }}>
+                  <div style={{
+                    fontSize: '10px', fontWeight: 700, color: '#64748b',
+                    letterSpacing: '0.1em', textTransform: 'uppercase',
+                    fontFamily: "'JetBrains Mono', monospace", marginBottom: '6px',
+                  }}>🎧 Audioguía preview</div>
+                  <audio controls style={{ width: '100%', height: '36px' }} src={selectedPoi.audioPreview} />
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
 
         {/* ── BOTONES — fijos al fondo ── */}
         {(canRoute || selectedPoi.track?.mapsUrl) && (
@@ -661,6 +813,7 @@ export function PoiDetailSheet({
             </div>}
           </div>
         )}
+        </div>{/* sheet-main-content */}
       </div>
     </>)
 }

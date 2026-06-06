@@ -36,7 +36,8 @@ export default async function IslandPage({
   const islandName = getIslandDisplayName(island, locale);
 
   return (
-    <div style={{ height: '100svh' }}>
+    <div className="desktop-wrapper">
+    <div className="app-shell" style={{ height: '100svh' }}>
       <IslandMap
         locale={locale}
         poisByIsland={poisByIsland}
@@ -45,6 +46,7 @@ export default async function IslandPage({
         initialIsland={island}
         islandName={islandName}
       />
+    </div>
     </div>
   );
 }
