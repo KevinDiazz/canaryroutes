@@ -416,8 +416,6 @@ export function PoiDetailSheet({
     <>
       <div
         ref={sheetRef}
-        onTouchStart={handleTouchStart}
-        onTouchEnd={handleTouchEnd}
         className="poi-sheet"
         style={{
           position: 'fixed',
@@ -595,11 +593,15 @@ export function PoiDetailSheet({
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', position: 'relative', overflow: 'hidden' }}>
 
           {/* Foto — ocupa todo el espacio disponible, sin nada encima */}
-          <div style={{
-            flex: 1,
-            background: `linear-gradient(135deg, ${color}33, ${color}11)`,
-            overflow: 'hidden',
-          }}>
+          <div
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            style={{
+              flex: 1,
+              background: `linear-gradient(135deg, ${color}33, ${color}11)`,
+              overflow: 'hidden',
+            }}
+          >
             {contentReady && (showTranscript && selectedPoi.audioTranscript
               ? <TranscriptPanel html={selectedPoi.audioTranscript} color={color} />
               : <PhotoGallery poi={selectedPoi} color={color} />)}
@@ -678,16 +680,18 @@ export function PoiDetailSheet({
             }}
           >
             {/* Handle + cerrar */}
-            <div style={{
-              flexShrink: 0, padding: '10px 18px 10px',
-              display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-              borderBottom: `1px solid ${color}18`,
-            }}>
+            <div
+              onTouchStart={handleTouchStart}
+              onTouchEnd={handleTouchEnd}
+              style={{
+                flexShrink: 0, padding: '10px 18px 10px',
+                display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                borderBottom: `1px solid ${color}18`,
+              }}
+            >
               <div style={{ width: 36, height: 4, background: '#e2e8f0', borderRadius: 99 }} />
               <button
                 onClick={() => setTextExpanded(false)}
-                onTouchStart={(e) => e.stopPropagation()}
-                onTouchEnd={(e) => e.stopPropagation()}
                 style={{
                   display: 'inline-flex', alignItems: 'center', gap: 5,
                   background: '#f1f5f9', border: 'none', borderRadius: 20,

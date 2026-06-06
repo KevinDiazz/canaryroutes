@@ -415,7 +415,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   const [detailSheetKey, setDetailSheetKey] = useState(0);
   const cart = useCart();
   const [mapMaxSize, setMapMaxSize] = useState(MOBILE_MAX_SIZE);
-  const [mapCenterY, setMapCenterY] = useState(SVG_CENTER);
+  const mapCenterYRef = useRef(SVG_CENTER);
   const filterBarRef = useRef<HTMLDivElement>(null);
 
   // ── Zoom / Pan ─────────────────────────────────────────────────────────────
@@ -460,7 +460,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       //   → viewBox.y = islandTopSvg - (targetIslandTop - offsetY) / scale
       const islandTopSvg = ISLAND_TOP_SVG[activeIsland];
       const viewBoxY = islandTopSvg - (targetIslandTop - offsetY) / scale;
-      setMapCenterY(viewBoxY + mapMaxSize / 2);
+      mapCenterYRef.current = viewBoxY + mapMaxSize / 2;
     };
 
     compute();
@@ -476,8 +476,8 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     };
   }, [mapMaxSize, activeIsland]);
 
-  // Reset viewBox when island changes
-  useEffect(() => { setVb(getInitialVb(mapMaxSize, mapCenterY)); }, [activeIsland, mapMaxSize, mapCenterY]);
+  // Reset viewBox when island or screen size changes
+  useEffect(() => { setVb(getInitialVb(mapMaxSize, mapCenterYRef.current)); }, [activeIsland, mapMaxSize]);
 
 
   // Non-passive touch listeners so we can preventDefault
@@ -524,7 +524,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             w: newW,
             h: newH,
           };
-          return clampVb(candidate, mapMaxSize, mapCenterY);
+          return clampVb(candidate, mapMaxSize, mapCenterYRef.current);
         });
 
         // Pan simultáneo mientras se hace pinch
@@ -535,7 +535,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           ...prev,
           x: prev.x - dxScreen / rect.width  * prev.w,
           y: prev.y - dyScreen / rect.height * prev.h,
-        }, mapMaxSize, mapCenterY));
+        }, mapMaxSize, mapCenterYRef.current));
 
         touchState.current = { type: 'pinch', lastTouches: [t0, t1], lastDist: newDist };
 
@@ -544,7 +544,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         const prev0 = ts.lastTouches[0];
         const dx = (t.clientX - prev0.clientX) / rect.width  * vb.w;
         const dy = (t.clientY - prev0.clientY) / rect.height * vb.h;
-        setVb(prev => clampVb({ ...prev, x: prev.x - dx, y: prev.y - dy }, mapMaxSize, mapCenterY));
+        setVb(prev => clampVb({ ...prev, x: prev.x - dx, y: prev.y - dy }, mapMaxSize, mapCenterYRef.current));
         touchState.current = { ...ts, lastTouches: [t] };
       }
     };
@@ -562,7 +562,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       svg.removeEventListener('touchend',   onEnd);
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [activeIsland, vb, mapMaxSize, mapCenterY]);
+  }, [activeIsland, vb, mapMaxSize]);
 
   const pois = poisByIsland[activeIsland] ?? [];
   const mapPois = pois.filter((poi) => !poi.sectionOnly);
@@ -820,7 +820,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
               w: newW,
               h: newH,
             };
-            return clampVb(candidate, mapMaxSize, mapCenterY);
+            return clampVb(candidate, mapMaxSize, mapCenterYRef.current);
           });
         }}
         style={{ width: '100%', height: '100%', display: 'block', touchAction: 'none', userSelect: 'none', background: 'transparent' }}
@@ -960,14 +960,18 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           </div>
         </div>
 
-        {/* Fila 2: chips de categoría — carrusel horizontal sin wrap */}
+        {/* Fila 2: chips de categoría — centrados, scroll si no caben */}
         <div style={{
-          display: 'flex', gap: '7px',
           overflowX: 'auto', scrollbarWidth: 'none',
           WebkitOverflowScrolling: 'touch',
           padding: '0 12px 4px',
-          flexWrap: 'nowrap',
           pointerEvents: 'auto',
+        }}>
+        <div style={{
+          display: 'flex', gap: '7px',
+          flexWrap: 'nowrap',
+          width: 'max-content',
+          margin: '0 auto',
         }}>
           {([
             { id: 'beach',      icon: '/icons/icons8-beach-48.png',      label: 'Playas',      color: '#2090c0' },
@@ -1012,6 +1016,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
               </button>
             );
           })}
+        </div>
         </div>
       </div>
 
