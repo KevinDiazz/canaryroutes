@@ -4,23 +4,23 @@ import type { POI, Locale } from '@/lib/types';
 import type { CartState } from '@/hooks/use-cart';
 
 const CATEGORY_COLORS: Record<POI['category'], string> = {
-  nature:    '#2ea86e',
-  beach:     '#2090c0',
-  culture:   '#6e42b8',
-  hiking:    '#2a9e60',
+  nature: '#2ea86e',
+  beach: '#2090c0',
+  culture: '#6e42b8',
+  hiking: '#2a9e60',
   viewpoint: '#c47a18',
-  food:      '#c44038',
-  other:     '#5a7a90',
+  food: '#c44038',
+  other: '#5a7a90',
 };
 
 const CATEGORY_LABELS: Record<POI['category'], string> = {
-  nature:    'Naturaleza',
-  beach:     'Playa',
-  culture:   'Cultura',
-  hiking:    'Senderismo',
+  nature: 'Naturaleza',
+  beach: 'Playa',
+  culture: 'Cultura',
+  hiking: 'Senderismo',
   viewpoint: 'Mirador',
-  food:      'Gastronomía',
-  other:     'Lugar',
+  food: 'Gastronomía',
+  other: 'Lugar',
 };
 
 function hasCoordinates(poi: POI): poi is POI & { coordinates: NonNullable<POI['coordinates']> } {
@@ -330,7 +330,7 @@ function PhotoGallery({ poi, color }: PhotoGalleryProps) {
           boxShadow: '0 2px 12px rgba(0,0,0,0.18)',
         }}>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <polyline points="15 18 9 12 15 6"/>
+            <polyline points="15 18 9 12 15 6" />
           </svg>
         </button>
       )}
@@ -346,7 +346,7 @@ function PhotoGallery({ poi, color }: PhotoGalleryProps) {
           boxShadow: '0 2px 12px rgba(0,0,0,0.18)',
         }}>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <polyline points="9 18 15 12 9 6"/>
+            <polyline points="9 18 15 12 9 6" />
           </svg>
         </button>
       )}
@@ -519,20 +519,12 @@ export function PoiDetailSheet({
             padding: '4px 16px 10px',
             display: 'flex', alignItems: 'flex-start', gap: '10px',
             borderBottom: `1px solid ${color}22`,
+            marginTop: "5px"
           }}>
             <div style={{ flex: 1, minWidth: 0 }}>
-              <span style={{
-                display: 'inline-flex', alignItems: 'center', gap: '5px',
-                fontSize: '11px', padding: '2px 9px', borderRadius: '20px',
-                background: color + 'dd', color: 'white',
-                fontFamily: "'JetBrains Mono', monospace", fontWeight: 700,
-                marginBottom: '5px',
-              }}>
-                {selectedPoi.emoji ?? '📍'} {CATEGORY_LABELS[selectedPoi.category]}
-              </span>
               <h2 style={{
-                margin: 0, fontSize: '20px', fontWeight: 700, color: '#0f172a',
-                fontFamily: "'Cormorant Garamond', Georgia, serif", lineHeight: 1.2,
+                margin: 0, fontSize: '24px', fontWeight: 700, color: '#0f172a',
+                fontFamily: "'Outfit', sans-serif", lineHeight: 1.2,
               }}>
                 {selectedPoi.name}
               </h2>
@@ -565,30 +557,30 @@ export function PoiDetailSheet({
             onTouchMove={(e) => e.stopPropagation()}
             onTouchEnd={(e) => e.stopPropagation()}
             style={{
-            height: '100%',
-            overflowY: 'scroll',
-            padding: '12px 16px 24px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '10px',
-            scrollbarWidth: 'none',
-          }}>
-          {contentReady && <ExpandableDescription html={selectedPoi.description} color={color} />}
-
-
-          {contentReady && selectedPoi.audioPreview && (
-            <div style={{
-              background: '#f8fafc', borderRadius: '14px',
-              padding: '10px 12px', border: '1px solid #e2e8f0',
+              height: '100%',
+              overflowY: 'scroll',
+              padding: '12px 16px 24px',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '10px',
+              scrollbarWidth: 'none',
             }}>
+            {contentReady && <ExpandableDescription html={selectedPoi.description} color={color} />}
+
+
+            {contentReady && selectedPoi.audioPreview && (
               <div style={{
-                fontSize: '10px', fontWeight: 700, color: '#64748b',
-                letterSpacing: '0.1em', textTransform: 'uppercase',
-                fontFamily: "'JetBrains Mono', monospace", marginBottom: '6px',
-              }}>🎧 Audioguía preview</div>
-              <audio controls style={{ width: '100%', height: '36px' }} src={selectedPoi.audioPreview} />
-            </div>
-          )}
+                background: '#f8fafc', borderRadius: '14px',
+                padding: '10px 12px', border: '1px solid #e2e8f0',
+              }}>
+                <div style={{
+                  fontSize: '10px', fontWeight: 700, color: '#64748b',
+                  letterSpacing: '0.1em', textTransform: 'uppercase',
+                  fontFamily: "'JetBrains Mono', monospace", marginBottom: '6px',
+                }}>🎧 Audioguía preview</div>
+                <audio controls style={{ width: '100%', height: '36px' }} src={selectedPoi.audioPreview} />
+              </div>
+            )}
           </div>{/* inner scroll */}
         </div>{/* outer fade wrapper */}
 
@@ -602,79 +594,73 @@ export function PoiDetailSheet({
             background: 'white',
           }}>
 
-          {/* Botón Ver recorrido — solo para POIs con track */}
-          {selectedPoi.track?.mapsUrl && (
-            <a
-              href={selectedPoi.track.mapsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                gap: '8px', padding: '13px 10px', borderRadius: '11px',
-                background: '#0f172a', color: 'white',
-                fontSize: '13px', fontWeight: 700, textDecoration: 'none',
-                fontFamily: "'JetBrains Mono', monospace",
-                boxShadow: '0 4px 14px rgba(15,23,42,0.18)',
-              }}
-            >
-              🥾 Ver recorrido
-              {selectedPoi.track.distance && (
-                <span style={{
-                  background: 'rgba(255,255,255,0.15)', padding: '2px 8px',
-                  borderRadius: '20px', fontSize: '11px', fontWeight: 600,
-                }}>
-                  {selectedPoi.track.distance}
-                </span>
-              )}
-              {selectedPoi.track.duration && (
-                <span style={{
-                  background: 'rgba(255,255,255,0.15)', padding: '2px 8px',
-                  borderRadius: '20px', fontSize: '11px', fontWeight: 600,
-                }}>
-                  {selectedPoi.track.duration}
-                </span>
-              )}
-            </a>
-          )}
+            {/* Botón Ver recorrido — solo para POIs con track */}
+            {selectedPoi.track?.mapsUrl && (
+              <a
+                href={selectedPoi.track.mapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  gap: '8px', padding: '13px 10px', borderRadius: '11px',
+                  background: '#fcb800', color: 'white',
+                  fontSize: '13px', fontWeight: 700, textDecoration: 'none',
+                  fontFamily: "'JetBrains Mono', monospace",
+                  boxShadow: '0 4px 14px rgba(15,23,42,0.18)',
+                }}
+              >
+                <img src="/icons/icons8-track-order-64.png" alt="" style={{ width: '20px', height: '22px', objectFit: 'contain' }} />
+                VER RECORRIDO
+                {selectedPoi.track.distance && (
+                  <span style={{
+                    background: '#facc50', padding: '2px 8px',
+                    borderRadius: '20px', fontSize: '11px', fontWeight: 600,
+                    color:"black",
+                    border:"1px dotted black"
+                  }}>
+                    {selectedPoi.track.distance}
+                  </span>
+                )}
+              </a>
+            )}
 
-          {canRoute && <div style={{ display: 'flex', gap: '10px' }}>
-            <button onClick={openMaps} style={{
-              flex: 1, padding: '14px 10px', borderRadius: '14px',
-              border: 'none', background: color, color: 'white',
-              fontSize: '12px', fontWeight: 700, cursor: 'pointer',
-              fontFamily: "'JetBrains Mono', monospace",
-              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-              boxShadow: `0 4px 14px ${color}55`,
-              letterSpacing: '0.04em', textTransform: 'uppercase',
-            }}>
-              <img src="/icons/icons8-location-48.png" alt="" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
-              Abrir Maps
-            </button>
-            <button
-              onClick={() => onAddToCart(selectedPoi)}
-              disabled={inCart || (cart.isFull && !inCart)}
-              style={{
-                flex: 1, padding: '14px 10px', borderRadius: '14px', border: 'none',
-                background: inCart ? '#d1fae5' : cart.isFull ? '#f3f4f6' : '#1f9d61',
-                color: inCart ? '#059669' : cart.isFull ? '#9ca3af' : 'white',
-                fontWeight: 700, fontSize: '12px',
-                cursor: (cart.isFull && !inCart) ? 'not-allowed' : 'pointer',
+            {canRoute && <div style={{ display: 'flex', gap: '10px' }}>
+              <button onClick={openMaps} style={{
+                flex: 1, padding: '12px', borderRadius: '14px',
+                border: 'none', background: color, color: 'white',
+                fontSize: '12px', fontWeight: 700, cursor: 'pointer',
                 fontFamily: "'JetBrains Mono', monospace",
                 display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-                transition: 'background 0.2s',
-                boxShadow: inCart || cart.isFull ? 'none' : '0 4px 14px rgba(31,157,97,0.28)',
+                boxShadow: `0 4px 14px ${color}55`,
                 letterSpacing: '0.04em', textTransform: 'uppercase',
-              }}
-            >
-              {inCart
-                ? '✓ En tu ruta'
-                : cart.isFull
-                ? `Completa (${cart.count}/4)`
-                : <><span style={{ fontSize: '18px', lineHeight: 1, fontWeight: 800 }}>+</span> Mi ruta<img src="/icons/icons8-car-53.png" alt="" style={{ width: '30px', height: '30px', objectFit: 'contain' }} /></>
-              }
-            </button>
-          </div>}
+              }}>
+                <img src="/icons/icons8-location-48.png" alt="" style={{ width: '30px', height: '30px', objectFit: 'contain' }} />
+                Abrir Maps
+              </button>
+              <button
+                onClick={() => onAddToCart(selectedPoi)}
+                disabled={inCart}
+                style={{
+                  flex: 1, padding: '12px', borderRadius: '14px', border: 'none',
+                  background: inCart ? '#d1fae5' : '#1f9d61',
+                  color: inCart ? '#059669' : 'white',
+                  fontWeight: 700, fontSize: '12px',
+                  cursor: inCart ? 'default' : 'pointer',
+                  fontFamily: "'JetBrains Mono', monospace",
+                  display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                  transition: 'background 0.2s',
+                  boxShadow: inCart ? 'none' : '0 4px 14px rgba(31,157,97,0.28)',
+                  letterSpacing: '0.04em', textTransform: 'uppercase',
+                }}
+              >
+                {inCart
+                  ? '✓ En tu ruta'
+                  : <><span style={{ fontSize: '18px', lineHeight: 1, fontWeight: 800 }}>+</span>Mi Ruta<img src="/icons/icons8-car-53.png" alt="" style={{ width: '30px', height: '30px', objectFit: 'contain' }} /></>
+                }
+              </button>
+            </div>}
           </div>
         )}
       </div>
-      </>)}
+    </>)
+}

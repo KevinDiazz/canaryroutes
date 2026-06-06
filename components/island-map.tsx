@@ -190,15 +190,17 @@ interface PoiMarkerProps {
   onClick: () => void;
   displayX?: number;
   displayY?: number;
+  showPhoto?: boolean;
 }
 
-function PoiMarker({ poi, island, selected, onClick, displayX, displayY }: PoiMarkerProps) {
+function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPhoto }: PoiMarkerProps) {
   const computed = getPoiPosition(poi, island);
   const x = displayX ?? computed.x;
   const y = displayY ?? computed.y;
   const color = CATEGORY_COLORS[poi.category];
-  const R = 14;
+  const R = showPhoto ? 14 : 10;
   const cy = y - R - 8;
+  const clipId = `clip-poi-${poi.slug.replace(/[^a-zA-Z0-9]/g, '-')}`;
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
 
   return (
@@ -212,13 +214,10 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY }: PoiMa
         const start = pointerStartRef.current;
         pointerStartRef.current = null;
         if (!start) return;
-
         const moved = Math.hypot(event.clientX - start.x, event.clientY - start.y);
         if (moved < 10) onClick();
       }}
-      onPointerCancel={() => {
-        pointerStartRef.current = null;
-      }}
+      onPointerCancel={() => { pointerStartRef.current = null; }}
       onTouchStart={(event) => event.stopPropagation()}
       onTouchMove={(event) => event.stopPropagation()}
       onTouchEnd={(event) => event.stopPropagation()}
@@ -230,25 +229,37 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY }: PoiMa
         touchAction: 'manipulation',
       }}
     >
+      {showPhoto && (
+        <defs>
+          <clipPath id={clipId}>
+            <circle cx={x} cy={cy} r={R} />
+          </clipPath>
+        </defs>
+      )}
       {/* Shadow */}
       <ellipse cx={x} cy={y + 3} rx={5} ry={2.5} fill="rgba(15,23,42,0.12)" />
       {/* Pin triangle */}
-      <path
-        d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`}
-        fill={color}
-      />
+      <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill={color} />
       {/* Circle background */}
       <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : '#ffffff'} stroke={color} strokeWidth="2.5" />
-      {/* Emoji label */}
-      <text
-        x={x}
-        y={cy + 5}
-        textAnchor="middle"
-        fontSize="12"
-        style={{ userSelect: 'none', pointerEvents: 'none' }}
-      >
-        {poi.emoji ?? '📍'}
-      </text>
+      {showPhoto ? (
+        <image
+          href={poi.images.hero}
+          x={x - R} y={cy - R}
+          width={R * 2} height={R * 2}
+          clipPath={`url(#${clipId})`}
+          preserveAspectRatio="xMidYMid slice"
+          style={{ userSelect: 'none', pointerEvents: 'none' }}
+        />
+      ) : (
+        <text x={x} y={cy + 5} textAnchor="middle" fontSize="12"
+          style={{ userSelect: 'none', pointerEvents: 'none' }}>
+          {poi.emoji ?? '📍'}
+        </text>
+      )}
+      {selected && showPhoto && (
+        <circle cx={x} cy={cy} r={R + 2} fill="none" stroke="white" strokeWidth="1.5" style={{ pointerEvents: 'none' }} />
+      )}
     </g>
   );
 }
@@ -383,7 +394,7 @@ interface IslandMapProps {
 export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosByIsland, initialIsland = 'gran-canaria', islandName, showLanguageSwitcher = true }: IslandMapProps) {
   const [activeIsland, setActiveIsland] = useState<Island>(initialIsland);
   const [selectedPoi, setSelectedPoi] = useState<POI | null>(null);
-  const [notification, setNotification] = useState<string | null>(null);
+  const [notification, setNotification] = useState<{ msg: string; poi?: POI } | null>(null);
   const [cartOpen, setCartOpen] = useState(false);
   const [activeFilter, setActiveFilter] = useState<string | null>(null);
   const [activeSectionId, setActiveSectionId] = useState<string | null>(null);
@@ -550,7 +561,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       const pos = getPoiPosition(p, activeIsland);
       all.push({ id: p.slug, x: pos.x, y: pos.y });
     });
-    return separateMarkers(all);
+    return separateMarkers(all, 30, 50);
   }, [municipioMarkers, filteredPois, activeIsland]);
 
   const handleSectionSelect = useCallback((sectionId: string) => {
@@ -578,9 +589,9 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     setActiveFilter((current) => current === filterId ? null : filterId);
   }, []);
 
-  const showNotification = useCallback((msg: string) => {
-    setNotification(msg);
-    setTimeout(() => setNotification(null), 2500);
+  const showNotification = useCallback((msg: string, poi?: POI) => {
+    setNotification({ msg, poi });
+    setTimeout(() => setNotification(null), 2800);
   }, []);
 
   const handleCloseSheet = useCallback(() => {
@@ -645,7 +656,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
 
   const handleAddToCart = useCallback((poi: POI) => {
     const result = cart.addPoi(poi);
-    showNotification(result.message);
+    showNotification(result.message, result.success ? poi : undefined);
   }, [cart, showNotification]);
 
   return (
@@ -659,77 +670,52 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       {/* Nav fijo — dentro del mapa para acceder al estado del cart */}
       <nav style={{
         position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        height: "auto",
-        padding: '0 12px 0 16px',
+        top: 0, left: 0, right: 0,
         background: 'white',
         borderBottom: '1px solid rgba(0,0,0,0.08)',
         boxShadow: '0 2px 12px rgba(0,0,0,0.10), 0 1px 3px rgba(0,0,0,0.06)',
-        display: 'flex',
-        alignItems: 'center',
-        gap: '12px',
         zIndex: 130,
+        display: 'flex',
+        flexDirection: 'column',
       }}>
-        {/* Logo — enlace a inicio */}
-        <a href={`/${locale}`} style={{ flexShrink: 0, lineHeight: 0 }}>
-          <Image
-            src="/logo/file.svg"
-            alt="CanaryRoutes"
-            width={240}
-            height={36}
-            style={{ height: '75px', width: 'auto' }}
-            priority
-            unoptimized
-          />
-        </a>
-
-        {/* Spacer */}
-        <div style={{ flex: 1 }} />
-
-        {/* Botón carrito Mi Ruta */}
-        <button
-          onClick={() => setCartOpen((v) => !v)}
-          style={{
-            position: 'relative',
-            background: 'none',
-            border: 'none',
-            cursor: 'pointer',
-            padding: '6px',
-            borderRadius: '10px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '22px',
-            flexShrink: 0,
-          }}
-          title="Mi Ruta"
-        >
-          <img src="/icons/icons8-car-53.png" alt="Mi Ruta" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
-          {cart.count > 0 && (
-            <span style={{
-              position: 'absolute',
-              top: '2px',
-              right: '2px',
-              background: '#1f9d61',
-              color: 'white',
-              fontSize: '10px',
-              fontWeight: '700',
-              lineHeight: 1,
-              minWidth: '16px',
-              height: '16px',
-              borderRadius: '8px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              padding: '0 3px',
-              fontFamily: "'JetBrains Mono', monospace",
-            }}>
-              {cart.count}
-            </span>
-          )}
-        </button>
+        {/* Fila 1: logo ← → carrito */}
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 12px 0 16px' }}>
+          <a href={`/${locale}`} style={{ lineHeight: 0 }}>
+            <Image
+              src="/logo/file.svg"
+              alt="CanaryRoutes"
+              width={240}
+              height={36}
+              style={{ height: '85px', width: 'auto' }}
+              priority
+              unoptimized
+            />
+          </a>
+          {/* Botón carrito */}
+          <button
+            onClick={() => setCartOpen((v) => !v)}
+            style={{
+              position: 'relative', background: 'none', border: 'none',
+              cursor: 'pointer', padding: '6px', borderRadius: '10px',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+            }}
+            title="Mi Ruta"
+          >
+            <img src="/icons/icons8-car-53.png" alt="Mi Ruta" style={{ width: '42px', height: '42px', objectFit: 'contain' }} />
+            {cart.count > 0 && (
+              <span style={{
+                position: 'absolute', top: '2px', right: '2px',
+                background: '#1f9d61', color: 'white',
+                fontSize: '10px', fontWeight: '700', lineHeight: 1,
+                minWidth: '16px', height: '16px', borderRadius: '8px',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                padding: '0 3px', fontFamily: "'JetBrains Mono', monospace",
+              }}>
+                {cart.count}
+              </span>
+            )}
+          </button>
+        </div>
       </nav>
 
       {/* SVG mapa — ocupa toda la pantalla, zoom/pan por touch */}
@@ -739,11 +725,18 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         style={{ width: '100%', height: '100%', display: 'block', touchAction: 'none', userSelect: 'none', background: 'transparent' }}
         preserveAspectRatio="xMidYMid meet"
       >
+        <defs>
+          <linearGradient id="islandStroke"    gradientUnits="userSpaceOnUse">
+            <stop offset="0%"   stopColor="#ffd100" />
+            <stop offset="50%"  stopColor="#ffb300" />
+            <stop offset="100%" stopColor="#079dde" />
+          </linearGradient>
+        </defs>
         <path
           d={islandConfig.path}
           fill={islandConfig.fill}
-          stroke={islandConfig.stroke}
-          strokeWidth="2"
+          stroke="url(#islandStroke)"
+          strokeWidth="2.5"
         />
         {/* Marcadores de municipio */}
         {municipioMarkers.map((m) => (
@@ -768,6 +761,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             onClick={() => handlePoiClick(poi)}
             displayX={adjustedPositions[poi.slug]?.x}
             displayY={adjustedPositions[poi.slug]?.y}
+            showPhoto={activeFilter === 'top'}
           />
         ))}
         {/* Cluster de categoría */}
@@ -787,7 +781,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       {/* ── Filter bar — flotante sobre el mapa, bajo el nav ── */}
       <div style={{
         position: 'fixed',
-        top: '75px',
+        top: '109px',
         left: 0,
         right: 0,
         zIndex: 140,
@@ -796,26 +790,6 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         gap: '8px',
         pointerEvents: 'none',
       }}>
-
-        {/* Nombre isla */}
-        {islandName && (
-          <div style={{ display: 'flex', justifyContent: 'center', pointerEvents: 'none' }}>
-            <span style={{
-              fontFamily: "'JetBrains Mono', monospace",
-              fontSize: '14px',
-              fontWeight: '700',
-              letterSpacing: '0.04em',
-              textTransform: 'uppercase',
-              color: '#374151',
-              background: 'white',
-              padding: '6px 20px 8px',
-              borderRadius: '0 0 16px 16px',
-              boxShadow: '0 6px 14px rgba(0,0,0,0.10), 0 2px 4px rgba(0,0,0,0.06)',
-            }}>
-              {islandName}
-            </span>
-          </div>
-        )}
 
         {/* Fila 1: píldora unificada — Municipios · Top · │ · 🌍 */}
         <div style={{ padding: '0 12px', pointerEvents: 'auto', display: 'flex', justifyContent: 'center' }}>
@@ -827,7 +801,6 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             background: '#ffffff',
             borderRadius: '50px',
             border: '1px solid rgba(0,0,0,0.08)',
-            boxShadow: '0 2px 12px rgba(0,0,0,0.10)',
             boxShadow: '0 4px 20px rgba(0,0,0,0.13), 0 1px 3px rgba(0,0,0,0.06)',
             padding: '6px',
             gap: '2px',
@@ -939,25 +912,105 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         </div>
       </div>
 
+      {/* Nombre isla — footer fijo */}
+      {islandName && (
+        <div style={{
+          position: 'fixed',
+          bottom: '20%', left: 0, right: 0,
+          display: 'flex',
+          justifyContent: 'center',
+          pointerEvents: 'none',
+          zIndex: 120,
+        }}>
+          <div style={{
+            background: 'linear-gradient(#fbad10, #ffc90d)',
+            borderRadius: '22px',
+            padding: '2px',
+          }}>
+            <div style={{
+              background: 'white',
+              borderRadius: '20px',
+              padding: '5px 16px',
+              fontFamily: "'JetBrains Mono', monospace",
+              fontSize: '14px',
+              fontWeight: '700',
+              letterSpacing: '0.12em',
+              textTransform: 'uppercase',
+              color: '#374151',
+            }}>
+              {islandName}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Toast notification */}
       {notification && (
         <div style={{
           position: 'fixed',
-          top: '160px',
+          top: '50%',
           left: '50%',
-          transform: 'translateX(-50%)',
-          background: '#1a3d2b',
-          color: 'white',
-          padding: '10px 20px',
-          borderRadius: '8px',
-          fontSize: '14px',
-          fontWeight: '500',
+          transform: 'translate(-50%, -50%)',
           zIndex: 300,
-          boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
-          whiteSpace: 'nowrap',
           pointerEvents: 'none',
         }}>
-          {notification}
+          <style>{`
+            @keyframes toastIn {
+              from { opacity: 0; transform: translateY(16px) scale(0.95); }
+              to   { opacity: 1; transform: translateY(0) scale(1); }
+            }
+          `}</style>
+          <div style={{ animation: 'toastIn 0.3s cubic-bezier(0.34,1.56,0.64,1) both' }}>
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'white',
+            borderRadius: '16px',
+            boxShadow: '0 8px 32px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.08)',
+            padding: '12px 20px 12px 12px',
+            border: '1px solid rgba(0,0,0,0.06)',
+            minWidth: '300px',
+            maxWidth: '340px',
+          }}>
+            {/* Foto del POI */}
+            {notification.poi?.images?.hero && (
+              <div style={{
+                width: '44px', height: '44px', borderRadius: '10px',
+                overflow: 'hidden', flexShrink: 0,
+              }}>
+                <img
+                  src={notification.poi.images.hero}
+                  alt=""
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              </div>
+            )}
+            {/* Texto */}
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{
+                fontSize: '11px', fontWeight: '700', textTransform: 'uppercase',
+                letterSpacing: '0.06em', color: '#1f9d61',
+                fontFamily: "'JetBrains Mono', monospace",
+                marginBottom: '2px',
+                display: 'flex', alignItems: 'center', gap: '5px',
+              }}>
+              
+                {notification.poi ? '✓ Añadido a tu ruta' : notification.msg}
+                 <img src="/icons/icons8-car-53.png" alt="" style={{ width: '16px', height: '16px', objectFit: 'contain' }} />
+              </div>
+              {notification.poi && (
+                <div style={{
+                  fontSize: '14px', fontWeight: '700', color: '#1f2937',
+                  fontFamily: "'Outfit', sans-serif",
+                  whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
+                }}>
+                  {notification.poi.name}
+                </div>
+              )}
+            </div>
+          </div>
+          </div>
         </div>
       )}
 

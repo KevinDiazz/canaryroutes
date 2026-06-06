@@ -14,7 +14,7 @@ export function RouteCard({ route, locale }: { route: Route; locale: Locale }) {
         borderLeft: '4px solid #1f9d61',
       }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '8px' }}>
-          <h3 style={{ margin: 0, fontSize: '18px', fontWeight: '700', color: '#1f2937', fontFamily: "'Cormorant Garamond', Georgia, serif" }}>
+          <h3 style={{ margin: 0, fontSize: '18px', fontWeight: '700', color: '#1f2937', fontFamily: "'Outfit', sans-serif" }}>
             {route.name}
           </h3>
           <span style={{ fontSize: '18px', fontWeight: '700', color: '#1f9d61', whiteSpace: 'nowrap', marginLeft: '12px' }}>

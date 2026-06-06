@@ -19,11 +19,8 @@ export function useCart(): CartState {
   const [items, setItems] = useState<CartItem[]>([]);
 
   const addPoi = useCallback((poi: POI): { success: boolean; message: string } => {
-    if (items.length >= 4) {
-      return { success: false, message: 'Máximo 4 POIs en versión gratis' };
-    }
     if (items.some((item) => item.slug === poi.slug)) {
-      return { success: false, message: 'Este POI ya está en el carrito' };
+      return { success: false, message: 'Este POI ya está en tu ruta' };
     }
     const newItem: CartItem = { ...poi, cartId: Date.now() + Math.random() };
     setItems((prev) => [...prev, newItem]);
@@ -36,5 +33,5 @@ export function useCart(): CartState {
 
   const clearCart = useCallback(() => setItems([]), []);
 
-  return { items, addPoi, removePoi, clearCart, count: items.length, isFull: items.length >= 4 };
+  return { items, addPoi, removePoi, clearCart, count: items.length, isFull: false };
 }

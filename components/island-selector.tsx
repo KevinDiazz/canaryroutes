@@ -57,7 +57,7 @@ export function IslandSelector({ locale }: { locale: Locale }) {
     }}>
       {/* Título */}
       <p style={{
-        fontFamily: "'Cormorant Garamond', Georgia, serif",
+        fontFamily: "'Outfit', sans-serif",
         fontSize: '15px',
         letterSpacing: '0.15em',
         textTransform: 'uppercase',
@@ -133,7 +133,7 @@ export function IslandSelector({ locale }: { locale: Locale }) {
               {/* Nombre */}
               <div style={{ textAlign: 'center' }}>
                 <p style={{
-                  fontFamily: "'Cormorant Garamond', Georgia, serif",
+                  fontFamily: "'Outfit', sans-serif",
                   fontSize: '22px',
                   fontWeight: '700',
                   color: '#1f2937',
@@ -142,7 +142,7 @@ export function IslandSelector({ locale }: { locale: Locale }) {
                   {ISLAND_LABELS[island][locale]}
                 </p>
                 <p style={{
-                  fontFamily: "'Cormorant Garamond', Georgia, serif",
+                  fontFamily: "'Outfit', sans-serif",
                   fontSize: '14px',
                   color: '#9ca3af',
                   margin: '4px 0 0',
