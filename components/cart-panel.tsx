@@ -62,7 +62,7 @@ export function CartPanel({ cart, isOpen, onClose }: CartPanelProps) {
         maxWidth: '90vw',
         height: '100dvh',
         background: 'white',
-        boxShadow: '-4px 0 24px rgba(0,0,0,0.12)',
+        boxShadow: isOpen ? '-4px 0 24px rgba(0,0,0,0.12)' : 'none',
         display: 'flex',
         flexDirection: 'column',
         zIndex: 350,

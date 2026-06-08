@@ -5,6 +5,48 @@ import { LanguageSwitcher } from '@/components/language-switcher';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+import type { Metadata } from 'next';
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; island: string; route: string }>;
+}): Promise<Metadata> {
+  const { locale: rawLocale, island: rawIsland, route: routeSlug } = await params;
+  const locale = rawLocale as Locale;
+  const island = rawIsland as Island;
+  const route = getRoute(locale, island, routeSlug);
+  if (!route) return {};
+  const islandName = getIslandDisplayName(island, locale);
+  const title = route.name + ' — ' + islandName + ' | CanaryRoutes';
+  const description = route.description?.slice(0, 155) ?? ('Ruta ' + route.name + ' en ' + islandName + '. ' + route.duration + ', ' + route.distance + '.');
+  const url = SITE_URL + '/' + locale + '/' + island + '/routes/' + routeSlug;
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l + '/' + island + '/routes/' + routeSlug])),
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'CanaryRoutes',
+      locale,
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+    },
+  };
+}
+
+
 export async function generateStaticParams() {
   return locales.flatMap((locale) =>
     islands.flatMap((island) =>

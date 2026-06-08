@@ -32,11 +32,29 @@ function hasCoordinates(poi: POI): poi is POI & { coordinates: NonNullable<POI['
   );
 }
 
+function parseMarkdown(text: string): string {
+  return text
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/^- (.+)$/gm, '<li>$1</li>')
+    .replace(/(<li>[^]*?<\/li>(\n|$))+/g, m => `<ul>${m}</ul>`)
+    .split(/\n{2,}/)
+    .map(block => {
+      const b = block.trim();
+      if (!b) return '';
+      if (/^<(h[23]|ul|li)/.test(b)) return b;
+      return `<p>${b.replace(/\n/g, '<br>')}</p>`;
+    })
+    .join('');
+}
+
 function RichText({ html }: { html: string }) {
   return (
     <div
       className="rich-poi-text"
-      dangerouslySetInnerHTML={{ __html: html }}
+      dangerouslySetInnerHTML={{ __html: parseMarkdown(html) }}
     />
   );
 }
@@ -632,7 +650,7 @@ export function PoiDetailSheet({
                 WebkitLineClamp: 2,
                 overflow: 'hidden',
               }}>
-                {contentReady && selectedPoi.description.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()}
+                {contentReady && parseMarkdown(selectedPoi.description).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()}
               </p>
             </div>
 
@@ -756,6 +774,7 @@ export function PoiDetailSheet({
                 href={selectedPoi.track.mapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="poi-btn-track"
                 style={{
                   display: 'flex', alignItems: 'center', justifyContent: 'center',
                   gap: '8px', padding: '13px 10px', borderRadius: '11px',
@@ -781,7 +800,7 @@ export function PoiDetailSheet({
             )}
 
             {canRoute && <div style={{ display: 'flex', gap: '10px' }}>
-              <button onClick={openMaps} style={{
+              <button onClick={openMaps} className="poi-btn" style={{
                 flex: 1, padding: '12px', borderRadius: '14px',
                 border: 'none', background: color, color: 'white',
                 fontSize: '12px', fontWeight: 700, cursor: 'pointer',
@@ -796,6 +815,7 @@ export function PoiDetailSheet({
               <button
                 onClick={() => onAddToCart(selectedPoi)}
                 disabled={inCart}
+                className="poi-btn"
                 style={{
                   flex: 1, padding: '12px', borderRadius: '14px', border: 'none',
                   background: inCart ? '#d1fae5' : '#1f9d61',

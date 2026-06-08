@@ -3,20 +3,18 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'CanaryRoutes',
-  description: 'Audioguías de las Islas Canarias',
+  description: 'Audioguias de las Islas Canarias',
   icons: { icon: '/favicon.ico' },
 };
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
       <body>{children}</body>
     </html>
   );

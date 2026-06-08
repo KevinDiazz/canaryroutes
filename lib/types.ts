@@ -2,7 +2,10 @@ export const locales = ['es', 'en', 'de'] as const;
 export type Locale = typeof locales[number];
 export const defaultLocale: Locale = 'en';
 
-export const islands = ['gran-canaria', 'tenerife'] as const;
+export const islands = [
+  'gran-canaria',
+  // 'tenerife', // TODO: not developed yet
+] as const;
 export type Island = typeof islands[number];
 
 export interface Coordinates {

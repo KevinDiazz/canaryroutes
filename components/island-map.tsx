@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 import { useCart } from '@/hooks/use-cart';
 import { CartPanel } from './cart-panel';
@@ -9,6 +10,7 @@ import { LanguageSwitcher } from './language-switcher';
 import { PoiDetailSheet } from './poi-detail-sheet';
 import { CategoryBubbleNav } from './category-bubble-nav';
 import type { POI, Island, Locale, Section, Municipio } from '@/lib/types';
+import { FILTER_TO_CATEGORY_URL } from '@/lib/categories';
 
 // ── Pinch-zoom helpers ────────────────────────────────────────────────────────
 interface ViewBox { x: number; y: number; w: number; h: number }
@@ -399,16 +401,18 @@ interface IslandMapProps {
   sectionsByIsland: Record<Island, Section[]>;
   municipiosByIsland: Record<Island, Municipio[]>;
   initialIsland?: Island;
+  initialFilter?: string;
   islandName?: string;
   showLanguageSwitcher?: boolean;
 }
 
-export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosByIsland, initialIsland = 'gran-canaria', islandName, showLanguageSwitcher = true }: IslandMapProps) {
+export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosByIsland, initialIsland = 'gran-canaria', initialFilter, islandName, showLanguageSwitcher = true }: IslandMapProps) {
+  const router = useRouter();
   const [activeIsland, setActiveIsland] = useState<Island>(initialIsland);
   const [selectedPoi, setSelectedPoi] = useState<POI | null>(null);
   const [notification, setNotification] = useState<{ msg: string; poi?: POI } | null>(null);
   const [cartOpen, setCartOpen] = useState(false);
-  const [activeFilter, setActiveFilter] = useState<string | null>(null);
+  const [activeFilter, setActiveFilter] = useState<string | null>(initialFilter ?? null);
   const [activeSectionId, setActiveSectionId] = useState<string | null>(null);
   const [selectedMunicipio, setSelectedMunicipio] = useState<string | null>(null);
   const [detailPois, setDetailPois] = useState<POI[]>([]);
@@ -594,9 +598,14 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       })).filter(m => m.count > 0)
     : [];
 
-  // Pines individuales (Top / secciones)
+  // Pines individuales (Top / secciones / categoría con sheet abierta)
   const filteredPois = (() => {
     if (activeFilter === 'top') return mapPois.filter(p => isTopPoi(p));
+    if (activeCategoryChip && selectedPoi) {
+      // Cluster ya fue pulsado → mostrar bubbles individuales de la categoría
+      const chip = CHIP_CATEGORIES.find(c => c.id === activeCategoryChip);
+      return chip ? mapPois.filter(p => chip.match(p)) : [];
+    }
     if (activeFilter?.startsWith('sec:')) {
       const sectionId = activeFilter.slice(4);
       const section = sections.find(s => s.id === sectionId);
@@ -605,9 +614,9 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     return [];
   })();
 
-  // Cluster: solo con chip de categoría activo
+  // Cluster único por categoría (solo cuando la sheet está cerrada)
   const categoryClusters = (() => {
-    if (!activeCategoryChip) return [];
+    if (!activeCategoryChip || selectedPoi) return [];
     const chip = CHIP_CATEGORIES.find(c => c.id === activeCategoryChip);
     if (!chip) return [];
     const clusterPois = mapPois.filter(p => chip.match(p));
@@ -651,8 +660,20 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     setActiveSectionId(null);
     setDetailPois([]);
     setSelectedPoi(null);
-    setActiveFilter((current) => current === filterId ? null : filterId);
-  }, []);
+    // Calcular next fuera del updater (los updaters deben ser puros)
+    setActiveFilter((current) => {
+      const next = current === filterId ? null : filterId;
+      return next;
+    });
+    // Side effect de URL separado del state update
+    const next = activeFilter === filterId ? null : filterId;
+    const CHIP_IDS = ['beach', 'hiking', 'culture', 'nature', 'activities', 'top'];
+    if (next && CHIP_IDS.includes(next) && FILTER_TO_CATEGORY_URL[next]) {
+      window.history.replaceState(null, '', `/${locale}/${activeIsland}/${FILTER_TO_CATEGORY_URL[next]}`);
+    } else {
+      window.history.replaceState(null, '', `/${locale}/${activeIsland}`);
+    }
+  }, [locale, activeIsland, activeFilter]);
 
   const showNotification = useCallback((msg: string, poi?: POI) => {
     setNotification({ msg, poi });
@@ -667,23 +688,26 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   }, []);
 
   const handlePoiClick = useCallback((poi: POI) => {
-    setActiveSectionId(null);
-    setDetailPois(filteredPois.length > 1 ? filteredPois : [poi]);
-    setDetailSheetKey((key) => key + 1);
-    setSelectedPoi(poi);
-  }, [filteredPois]);
+    const CHIP_IDS = ['beach', 'hiking', 'culture', 'nature', 'activities'];
+    const categorySlug = activeFilter && CHIP_IDS.includes(activeFilter)
+      ? FILTER_TO_CATEGORY_URL[activeFilter]
+      : null;
+    if (categorySlug) {
+      router.push(`/${locale}/${activeIsland}/${categorySlug}/${poi.slug}`);
+    } else {
+      router.push(`/${locale}/${activeIsland}/${poi.slug}`);
+    }
+  }, [router, locale, activeIsland, activeFilter]);
 
-  // Tocar un cluster de categoría → abre la sheet con todos los POIs de esa categoría
+  // Tocar un cluster de categoría → muestra bubbles individuales + abre sheet del primer POI
   const handleClusterClick = useCallback((chipId: string) => {
     const chip = CHIP_CATEGORIES.find(c => c.id === chipId);
     if (!chip) return;
-    const pois = mapPois.filter(p => chip.match(p));
-    if (pois.length === 0) return;
-    setActiveSectionId(null);
-    setActiveFilter(chipId);
-    setDetailPois(pois);
+    const categoryPois = mapPois.filter(p => chip.match(p));
+    if (categoryPois.length === 0) return;
+    setDetailPois(categoryPois);
     setDetailSheetKey(k => k + 1);
-    setSelectedPoi(pois[0]);
+    setSelectedPoi(categoryPois[0]);
   }, [mapPois]);
 
   // Tocar un municipio → abre la sheet con todos sus POIs
@@ -1128,7 +1152,14 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           key={detailSheetKey}
           pois={detailPois.length ? detailPois : mapPois}
           selectedPoi={selectedPoi}
-          onPoiChange={(poi) => setSelectedPoi(poi)}
+          onPoiChange={(poi) => {
+            setSelectedPoi(poi);
+            // Actualizar URL cuando se navega entre POIs de una categoría
+            if (activeCategoryChip && FILTER_TO_CATEGORY_URL[activeCategoryChip]) {
+              const catSlug = FILTER_TO_CATEGORY_URL[activeCategoryChip];
+              window.history.replaceState(null, '', `/${locale}/${activeIsland}/${catSlug}/${poi.slug}`);
+            }
+          }}
           onClose={handleCloseSheet}
           cart={cart}
           onAddToCart={handleAddToCart}
@@ -1148,8 +1179,9 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       {/* <CategoryBubbleNav
         sections={sections}
         activeSectionId={activeSectionId}
-        onSectionSelect={handleSectionSelect}
+        onSectionSelect={setActiveSectionId}
       /> */}
+
     </div>
   );
 }
