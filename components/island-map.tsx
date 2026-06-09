@@ -1055,22 +1055,28 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           zIndex: 120,
         }}>
           <div style={{
-            background: 'linear-gradient(#fbad10, #ffc90d)',
+            background: 'linear-gradient(135deg, #ffd100, #ffb300, #079dde)',
             borderRadius: '22px',
             padding: '2px',
           }}>
             <div style={{
-              background: 'white',
+              background: '#000',
               borderRadius: '20px',
               padding: '5px 16px',
-              fontFamily: "'JetBrains Mono', monospace",
-              fontSize: '14px',
-              fontWeight: '700',
-              letterSpacing: '0.12em',
-              textTransform: 'uppercase',
-              color: '#374151',
             }}>
-              {islandName}
+              <span style={{
+                fontFamily: "'JetBrains Mono', monospace",
+                fontSize: '14px',
+                fontWeight: '700',
+                letterSpacing: '0.12em',
+                textTransform: 'uppercase',
+                backgroundImage: 'linear-gradient(135deg, #ffd100, #ffb300, #079dde)',
+                backgroundClip: 'text',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+              }}>
+                {islandName}
+              </span>
             </div>
           </div>
         </div>
@@ -1174,13 +1180,6 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
 
       {/* Cart panel */}
       <CartPanel cart={cart} isOpen={cartOpen} onClose={() => setCartOpen(false)} />
-
-      {/* Bottom category bubble nav — oculto en MVP, activo en develop */}
-      {/* <CategoryBubbleNav
-        sections={sections}
-        activeSectionId={activeSectionId}
-        onSectionSelect={setActiveSectionId}
-      /> */}
 
     </div>
   );

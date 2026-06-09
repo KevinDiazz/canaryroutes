@@ -3,7 +3,7 @@
     {
       "slug": "barranco-guayadeque",
       "name": "Barranco de Guayadeque",
-      "description": "Uno de los barrancos más **emblemáticos de Gran Canaria**, habitado desde la época prehispánica y declarado Zona de Especial Conservación.\n\n### El sendero\nSube por el cauce entre **cuevas prehistóricas**, cultivos en terrazas y vegetación subtropical hasta las cumbres. Las vistas hacia el barranco son espectaculares en todo el recorrido.\n\n### Antes de salir\n- La ruta **no está señalizada** — descarga el track antes de ir\n- Hay varios cruces confusos a mitad de camino\n- El tramo junto a Montaña de las Tierras está obstruido: seguir por la carretera ~100 m\n\n### Recomendación\nLos **restaurantes-cueva de Cueva Bermeja** son escala obligada para reponer fuerzas con cocina canaria tradicional excavada en la roca.",
+      "description": "Uno de los barrancos más **emblemáticos de Gran Canaria**, habitado desde la época prehispánica y declarado Zona de Especial Conservación.\n\n### El sendero\nSube por el cauce entre **cuevas prehistóricas**, cultivos en terrazas y vegetación subtropical hasta las cumbres. Las vistas hacia el barranco son espectaculares en todo el recorrido.\n\n### Antes de salir\n- La ruta **no está señalizada** — descarga el track antes de ir\n- Hay varios cruces confusos a mitad de camino\n \n\n### Recomendación\nLos **restaurantes-cueva ** son escala obligada para reponer fuerzas con cocina canaria tradicional excavada en la roca.",
       "shortDescription": "Barrancos con cuevas habitadas, senderos históricos y restaurantes en la roca",
       "island": "gran-canaria",
       "category": "hiking",
@@ -263,6 +263,7 @@
       "slug": "sendero-caldera-de-bandama",
       "name": "Caldera de Bandama Circular",
       "description": "Una de las mejores rutas para descubrir el pasado volcánico de Gran Canaria. Este sendero circular recorre el borde de la impresionante **Caldera de Bandama**, uno de los cráteres mejor conservados de Canarias, con vistas panorámicas que abarcan desde la costa hasta las cumbres de la isla.\n\n### El sendero\nLa ruta bordea la caldera por senderos elevados que ofrecen vistas continuas al interior del enorme cráter volcánico, a los viñedos cercanos y al paisaje del noreste de Gran Canaria. Un recorrido corto pero muy visual, ideal para conocer la geología de la isla.\n\n### Antes de salir\n- 👟 Usa calzado con buen agarre, el terreno puede ser resbaladizo\n- ⚠️ Algunos tramos son estrechos y con fuertes desniveles\n- 🌬️ Evita la ruta con viento fuerte\n- 📸 Lleva la cámara, las vistas son espectaculares durante todo el recorrido\n\n### Recomendación\nAcércate al mirador principal para obtener una perspectiva completa de la caldera y disfrutar de una de las panorámicas más impresionantes cerca de Las Palmas.",
+      "shortDescription": "Una de las mejores rutas para descubrir el pasado volcánico de Gran Canaria.",
       "island": "gran-canaria",
       "category": "hiking",
       "coordinates": {
@@ -305,7 +306,7 @@
     {
       "slug": "senderos-de-tamadaba",
       "name": "Tamadaba Circular",
-      "description": "Una de las rutas más espectaculares de Gran Canaria, recorriendo el corazón del **Parque Natural de Tamadaba**, declarado **Reserva de la Biosfera**. Entre inmensos pinares y acantilados vertiginosos, ofrece algunas de las mejores vistas de la isla.\n\n### El sendero\nEl recorrido circular atraviesa bosques de **pino canario** centenarios y varios miradores naturales sobre la costa noroeste. El punto más destacado es el famoso **Mirador del Fin del Mundo**, desde donde se contemplan Agaete, el océano Atlántico y, en días despejados, el imponente **Teide** en Tenerife.\n\n### Antes de salir\n- 👟 Ruta sencilla para senderistas acostumbrados a caminar\n- 💧 Hay una fuente de agua cerca del camping de Tamadaba\n- 🧥 Lleva algo de abrigo, especialmente en invierno\n- 📸 Los miradores ofrecen algunas de las mejores fotografías de Gran Canaria\n\n### Recomendación\nAprovecha para visitar **Puerto de las Nieves** y disfrutar de pescado fresco frente al mar después de una jornada rodeado de naturaleza.",
+      "description": "Una de las rutas más espectaculares de Gran Canaria, recorriendo el corazón del **Parque Natural de Tamadaba**, declarado **Reserva de la Biosfera**. Entre inmensos pinares y acantilados vertiginosos, ofrece algunas de las mejores vistas de la isla.\n\n### El sendero\nEl recorrido circular atraviesa bosques de **pino canario** centenarios y varios miradores naturales sobre la costa noroeste. El punto más destacado es el famoso **Mirador de Llanos de la Mimbre**, desde donde se contemplan Agaete, el océano Atlántico y, en días despejados, el imponente **Teide** en Tenerife.\n\n### Antes de salir\n- 👟 Ruta sencilla para senderistas acostumbrados a caminar\n- 💧 Hay una fuente de agua cerca del camping de Tamadaba\n- 🧥 Lleva algo de abrigo, especialmente en invierno\n- 📸 Los miradores ofrecen algunas de las mejores fotografías de Gran Canaria\n\n### Recomendación\nAprovecha para visitar **Puerto de las Nieves** y disfrutar de pescado fresco frente al mar después de una jornada rodeado de naturaleza.",
       "shortDescription": "Circular por el pinar de Tamadaba con vistas al Teide y al océano",
       "island": "gran-canaria",
       "category": "hiking",
@@ -343,13 +344,14 @@
         "type": "circular",
         "elevationGain": 424,
         "maxAltitude": 1433,
-        "tips": "Fuente de agua junto al camping a mitad de ruta. La subida a la Degollada del Humo cansa si hace calor — mejor temprano. Punto estrella: mirador Fin del Mundo sobre Agaete con vistas al Teide."
+        "tips": "Fuente de agua junto al camping a mitad de ruta. La subida a la Degollada del Humo cansa si hace calor — mejor temprano. Punto estrella: mirador Llanos de la Mimbre sobre Agaete con vistas al Teide."
       }
     },
     {
       "slug": "barranco-de-los-cercinalos",
       "name": "Barranco de los Cernícalos",
       "description": "Uno de los barrancos más sorprendentes y refrescantes de Gran Canaria. Gracias a su caudal permanente, este rincón del interior de la isla alberga una exuberante vegetación y varias cascadas que crean un paisaje casi tropical.\n\n### El sendero\nLa ruta sigue el cauce del barranco entre bosques de ribera, pequeñas cascadas y charcas naturales. A lo largo del recorrido aparecen varios saltos de agua, culminando en una espectacular cascada doble rodeada de naturaleza. Los continuos cruces del arroyo convierten la caminata en una experiencia divertida y diferente.\n\n### Antes de salir\n- 👟 Usa calzado con buen agarre, especialmente si el terreno está húmedo\n- 💧 Lleva agua, aunque gran parte de la ruta transcurre a la sombra\n- ⚠️ Los pasos junto al cauce pueden ser resbaladizos\n- 🌅 Mejor visitarlo temprano o entre semana para evitar aglomeraciones\n\n### Recomendación\nRelájate junto al sonido del agua y disfruta de uno de los paisajes más verdes de Gran Canaria, muy diferente a la imagen árida que muchos visitantes esperan encontrar en la isla.",
+      "shortDescription": "El único barranco con agua todo el año y cinco cascadas",
       "island": "gran-canaria",
       "category": "hiking",
       "coordinates": {
@@ -1159,8 +1161,8 @@
     {
       "slug": "charco-san-lorenzo",
       "name": "Charco de San Lorenzo",
-      "description": "Escondido en el interior de Gran Canaria, el **Charco de San Lorenzo** es uno de los rincones naturales más curiosos y poco conocidos de la isla. Esta pequeña poza de agua dulce, alimentada por manantiales y escorrentías, constituye una rareza en un territorio donde predominan los barrancos secos y los paisajes volcánicos.\n\n### La visita\nRodeado de cañas, palmeras y vegetación subtropical, el charco ofrece un entorno tranquilo y fresco que contrasta con las zonas más áridas de la isla. Durante los meses más húmedos, el lugar adquiere un aspecto especialmente verde y atractivo para quienes buscan naturaleza fuera de las rutas habituales.\n\n### Antes de ir\n- 💧 El nivel de agua puede variar según la época del año y las lluvias\n- 👟 Se recomienda calzado cómodo para acceder por los senderos cercanos\n- 🌿 Respeta el entorno natural y evita dejar residuos\n- 📸 Ideal para fotografía de naturaleza y paisajes rurales\n\n### Recomendación\nAprovecha para explorar los caminos y barrancos de los alrededores y descubrir una de las zonas más verdes y desconocidas del interior de Gran Canaria.",
-      "shortDescription": "Poza natural de agua dulce rodeada de vegetación subtropical en el interior de Gran Canaria, un rincón único y poco conocido de la isla.",
+      "description": "Situado en la escarpada costa norte de Gran Canaria, el **Charco de San Lorenzo** es una piscina natural formada por la acción del océano sobre la roca volcánica. Este rincón costero, frecuentado principalmente por residentes locales, ofrece una forma diferente de disfrutar del mar en un entorno tranquilo y alejado de las zonas turísticas más concurridas.\n\n### La visita\nLas pozas naturales se llenan con agua atlántica durante las mareas, creando espacios ideales para el baño cuando las condiciones del mar son favorables. El contraste entre la roca volcánica, el océano y los acantilados del norte convierte este lugar en uno de los rincones costeros más auténticos de la isla.\n\n### Antes de ir\n- 🌊 Consulta siempre el estado del mar y las mareas antes de la visita\n- 👟 Se recomienda calzado para caminar sobre roca volcánica mojada\n- ☀️ Lleva protección solar y agua\n- 📸 Excelente lugar para fotografía costera y paisajes del norte de Gran Canaria\n\n### Recomendación\nAprovecha para recorrer la costa norte y descubrir otras piscinas naturales y rincones marineros donde disfrutar de una de las caras más auténticas y menos conocidas de Gran Canaria.",
+      "shortDescription": "Piscina natural de roca volcánica en la costa norte de Gran Canaria, ideal para disfrutar del océano en un entorno tranquilo y auténtico.",
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
@@ -1231,8 +1233,8 @@
     {
       "slug": "playa-san-felipe",
       "name": "Playa de San Felipe",
-      "description": "Junto al pequeño núcleo costero de San Felipe, en el municipio de Gáldar, se encuentra esta tranquila playa de arena oscura frecuentada principalmente por residentes del norte de Gran Canaria. Lejos de los grandes centros turísticos, conserva un ambiente auténtico y relajado donde el océano marca el ritmo de la vida diaria.\n\n### La visita\nRodeada por un entorno costero tradicional y amplias vistas al Atlántico, **Playa de San Felipe** es un lugar perfecto para pasear junto al mar, desconectar y descubrir una faceta menos conocida de la isla. Su carácter local y su sencillez forman parte de su principal atractivo.\n\n### Antes de ir\n- 🌊 Consulta el estado del mar antes del baño, ya que el oleaje puede ser intenso\n- ☀️ Lleva protección solar y agua\n- 📸 Excelente lugar para fotografiar la costa norte y las puestas de sol\n- 🚶 Ideal para disfrutar de un ambiente tranquilo lejos de las zonas más concurridas\n\n### Recomendación\nAprovecha para explorar la costa de Gáldar y descubrir otros rincones auténticos del norte de Gran Canaria donde la naturaleza y la tradición siguen muy presentes.",
-      "shortDescription": "Playa de arena oscura en Gáldar, con ambiente local, vistas al Atlántico y una experiencia auténtica lejos del turismo masivo de Gran Canaria.",
+      "description": "Junto al pequeño núcleo costero de San Felipe, se encuentra esta tranquila playa de arena oscura frecuentada principalmente por residentes del norte de Gran Canaria. Lejos de los grandes centros turísticos, conserva un ambiente auténtico y relajado donde el océano marca el ritmo de la vida diaria.\n\n### La visita\nRodeada por un entorno costero tradicional y amplias vistas al Atlántico, **Playa de San Felipe** es un lugar perfecto para pasear junto al mar, desconectar y descubrir una faceta menos conocida de la isla. Su carácter local y su sencillez forman parte de su principal atractivo.\n\n### Antes de ir\n- 🌊 Consulta el estado del mar antes del baño, ya que el oleaje puede ser intenso\n- ☀️ Lleva protección solar y agua\n- 📸 Excelente lugar para fotografiar la costa norte y las puestas de sol\n- 🚶 Ideal para disfrutar de un ambiente tranquilo lejos de las zonas más concurridas\n\n### Recomendación\nAprovecha para explorar la costa  y descubrir otros rincones auténticos del norte de Gran Canaria donde la naturaleza y la tradición siguen muy presentes.",
+      "shortDescription": "Playa de arena oscura, con ambiente local, vistas al Atlántico y una experiencia auténtica lejos del turismo masivo de Gran Canaria.",
       "island": "gran-canaria",
       "category": "beach",
       "coordinates": {
@@ -1589,6 +1591,36 @@
       "top": false
     },
     {
+      "slug": "gastronomia-grancanaria",
+      "name": "Gastronomía de Gran Canaria",
+      "description": "La gastronomía de Gran Canaria es una de las expresiones más auténticas de la identidad de la isla. Influenciada por la tradición aborigen, la herencia atlántica y siglos de intercambio cultural, combina productos locales de gran calidad con recetas transmitidas de generación en generación. Desde las cumbres hasta la costa, cada comarca aporta sabores, ingredientes y especialidades que reflejan la diversidad de los paisajes grancanarios.\n\n### Qué probar\nEntre los platos imprescindibles destacan las **papas arrugadas con mojo**, el tradicional **gofio**, el **sancocho canario**, los pescados frescos del Atlántico y los distintos guisos elaborados con productos locales. También sobresalen el prestigioso **Queso de Flor de Guía**, único en el mundo por su elaboración con cuajo vegetal, el popular **chorizo de Teror**, los potajes tradicionales y una creciente oferta gastronómica que combina cocina canaria y creatividad contemporánea.\n\n### Los sabores dulces\nLos postres ocupan un lugar especial en la cocina de la isla. El **bienmesabe**, elaborado con almendras, miel y huevo, es uno de los más representativos. También destacan los famosos **suspiros de Moya**, los dulces conventuales y numerosas especialidades artesanales que pueden encontrarse en mercados y pueblos de toda Gran Canaria.\n\n### Productos únicos de la isla\n- 🧀 Quesos artesanales reconocidos internacionalmente\n- ☕ Café de Agaete, uno de los pocos cafés cultivados en Europa\n- 🍷 Vinos volcánicos producidos en distintas zonas de la isla\n- 🐟 Pescados y mariscos frescos procedentes del Atlántico\n- 🌴 Frutas tropicales cultivadas gracias al clima privilegiado de Gran Canaria\n\n### Antes de sentarte a la mesa\n- 🍽️ Busca restaurantes de cocina local para descubrir recetas tradicionales\n- 🐟 Pregunta por las capturas del día para disfrutar del mejor pescado fresco\n- 🧀 Prueba diferentes variedades de queso canario, entre las más premiadas de España\n- 🛒 Visita mercados locales para conocer productos típicos y gastronomía artesanal\n\n### Recomendación\nExplorar Gran Canaria a través de su gastronomía es una de las mejores formas de descubrir la historia, las tradiciones y el carácter de la isla. Cada plato, producto y receta cuenta una parte del legado cultural que ha convertido a Gran Canaria en uno de los destinos gastronómicos más interesantes de Canarias.",
+
+      "shortDescription": "Descubre los platos típicos, quesos, vinos y sabores tradicionales que convierten a Gran Canaria en un destino gastronómico único.",
+      "island": "gran-canaria",
+      "category": "culture",
+      "coordinates": {
+        "lat": 27.933799,
+        "lng": -15.482825
+      },
+      "images": {
+        "hero": "/images/gran-canaria/cultural/gastronomia-1.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/gastronomia-2.avif",
+          "/images/gran-canaria/cultural/gastronomia-3.avif",
+          "/images/gran-canaria/cultural/gastronomia-4.avif",
+          "/images/gran-canaria/cultural/gastronomia-5.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["gastronomia", "cultura", "comida", "gran-canaria"],
+      "difficulty": "easy",
+      "emoji": "🍽️",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "top": false
+    },
+    {
       "slug": "risco-caido",
       "name": "Centro Interpretación Risco Caído",
       "description": "La mejor forma de descubrir el legado de **Risco Caído**, declarado **Patrimonio Mundial por la UNESCO**. Aunque las cuevas originales no son visitables de forma libre, el Centro de Interpretación permite comprender la importancia arqueológica, cultural y astronómica de uno de los hallazgos más extraordinarios de Canarias.\n\n### La visita\nA través de exposiciones interactivas, recreaciones y recursos audiovisuales, el centro explica cómo los antiguos canarios utilizaban las cuevas sagradas y observaban los ciclos del Sol y la Luna para organizar su vida cotidiana. Una experiencia imprescindible para entender la historia prehispánica de Gran Canaria.\n\n### Antes de entrar\n- 🎟️ Consulta horarios y disponibilidad de visitas guiadas\n- 🎧 Las exposiciones incluyen contenido audiovisual e interactivo\n- 🏛️ Ideal para complementar una ruta por las cumbres de la isla\n- 📸 Las vistas del entorno montañoso merecen una parada adicional\n\n### Recomendación\nAprovecha para explorar los paisajes de Artenara y las cumbres de Gran Canaria, una de las zonas con mayor valor cultural y natural del archipiélago.",
@@ -1615,8 +1647,9 @@
     {
       "slug": "basilica-del-pino",
       "name": "Basílica de Nuestra Señora del Pino",
-      "description": "Centro religioso más importante de Gran Canaria y lugar de peregrinación. La Virgen del Pino, patrona de la isla, recibe miles de peregrinos cada 8 de septiembre en una de las romerías más multitudinarias de Canarias. Destaca por su arquitectura y el encanto del casco histórico de Teror.",
-      "shortDescription": "El santuario de la patrona de Gran Canaria en el pintoresco Teror",
+      "description": "La **Basílica de Nuestra Señora del Pino** es el principal centro religioso de Gran Canaria y uno de los lugares de peregrinación más importantes de Canarias. Situada en el histórico municipio de Teror, alberga la imagen de la **Virgen del Pino**, patrona de la isla, cuya devoción forma parte esencial de la identidad y la tradición canaria.\n\n### La visita\nSu elegante fachada, el imponente campanario y el valioso patrimonio artístico de su interior convierten la basílica en una visita imprescindible para quienes desean conocer la historia y la cultura de Gran Canaria. Cada año, miles de peregrinos llegan hasta Teror para participar en las celebraciones de la Fiesta del Pino, una de las manifestaciones religiosas y populares más importantes del archipiélago.\n\n### Antes de entrar\n- ⛪ Se recomienda vestir de forma respetuosa al acceder al templo\n- 📸 La plaza y el entorno histórico ofrecen excelentes oportunidades fotográficas\n- 🏛️ Combina la visita con un paseo por las calles tradicionales de Teror\n- 🎉 Durante la Fiesta del Pino la afluencia de visitantes es especialmente alta\n\n### Recomendación\nRecorre el casco histórico de Teror, admira sus famosos balcones de madera y disfruta de la gastronomía local en uno de los pueblos con más encanto de Gran Canaria.",
+
+      "shortDescription": "Santuario de la Virgen del Pino, patrona de Gran Canaria, en el histórico pueblo de Teror.",
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
@@ -1639,8 +1672,9 @@
     {
       "slug": "iglesia-san-juan-arucas",
       "name": "Iglesia de San Juan Bautista de Arucas",
-      "description": "Uno de los edificios más impresionantes de Gran Canaria y el gran símbolo de la ciudad de Arucas. Conocida popularmente como la **Catedral de Arucas**, destaca por su espectacular arquitectura **neogótica** y por haber sido construida íntegramente con piedra volcánica extraída de canteras locales.\n\n### La visita\nSus imponentes torres, vidrieras de colores y extraordinarios detalles tallados en piedra convierten esta iglesia en una auténtica obra de arte. Tanto el exterior como el interior reflejan décadas de trabajo artesanal y la importancia histórica de Arucas en la isla.\n\n### Antes de entrar\n- 📸 Su fachada es una de las más fotografiadas de Gran Canaria\n- ⛪ Se recomienda vestir de forma respetuosa durante la visita\n- 🎟️ Consulta los horarios de apertura y celebraciones religiosas\n- 🌅 La iluminación al atardecer resalta especialmente la piedra volcánica\n\n### Recomendación\nAprovecha para pasear por el encantador centro histórico de Arucas y descubrir sus plazas, jardines y edificios modernistas rodeados de tradición canaria.",
-      "shortDescription": "La 'Catedral de Arucas' en piedra volcánica azul, joya neogótica de Canarias",
+      "description": "La **Iglesia de San Juan Bautista de Arucas** es uno de los monumentos más impresionantes de Gran Canaria y el gran símbolo arquitectónico de la ciudad de Arucas. Conocida popularmente como la **Catedral de Arucas**, aunque no posee rango catedralicio, destaca por su espectacular estilo **neogótico** y por haber sido construida íntegramente con piedra volcánica azul extraída de canteras locales.\n\n### La visita\nSus esbeltas torres, las coloridas vidrieras, los elaborados detalles escultóricos y la majestuosidad de su interior convierten este templo en una de las obras arquitectónicas más destacadas de Canarias. Construida entre finales del siglo XIX y principios del XX, refleja el esfuerzo y la prosperidad que marcaron el desarrollo histórico de Arucas.\n\n### Antes de entrar\n- 📸 Su fachada es una de las más fotografiadas de Gran Canaria\n- ⛪ Se recomienda vestir de forma respetuosa durante la visita\n- 🎟️ Consulta los horarios de apertura y celebraciones religiosas\n- 🌅 La luz del atardecer resalta especialmente la belleza de la piedra volcánica\n\n### Recomendación\nAprovecha para recorrer el centro histórico de Arucas, visitar sus plazas y jardines y descubrir el encanto de una de las ciudades más monumentales de Gran Canaria.",
+
+      "shortDescription": "La famosa Catedral de Arucas, una impresionante iglesia neogótica construida en piedra volcánica azul.",
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
@@ -1665,8 +1699,9 @@
     {
       "slug": "necropolis-arteara",
       "name": "Necrópolis de Arteara",
-      "description": "Uno de los yacimientos arqueológicos más importantes de Gran Canaria y el mayor cementerio aborigen de la isla. Situada en el impresionante valle de Arteara, esta necrópolis conserva cientos de túmulos funerarios que permiten conocer mejor las creencias y rituales de los antiguos canarios.\n\n### La visita\nEl recorrido ofrece vistas sobre un extenso conjunto de estructuras funerarias distribuidas por la ladera del valle, rodeadas de palmeras y montañas áridas. Es un lugar único para descubrir el legado prehispánico en un entorno natural de gran belleza.\n\n### Antes de entrar\n- ☀️ Lleva protección solar, gran parte de la visita está expuesta al sol\n- 👟 Se recomienda calzado cómodo para recorrer los senderos cercanos\n- 📸 Las vistas del valle son ideales para fotografía paisajística\n- 🏛️ El centro de interpretación ayuda a comprender la importancia histórica del lugar\n\n### Recomendación\nAprovecha para explorar el cercano valle de Arteara y descubrir uno de los paisajes más singulares y auténticos del sur de Gran Canaria.",
-      "shortDescription": "El mayor cementerio aborigen de Gran Canaria entre palmeras en el sur",
+      "description": "La **Necrópolis de Arteara** es uno de los yacimientos arqueológicos más importantes de Gran Canaria y el mayor cementerio prehispánico de la isla. Situada en el espectacular valle de Arteara, en el municipio de San Bartolomé de Tirajana, conserva cientos de túmulos funerarios que ofrecen una valiosa visión de las creencias, rituales y organización social de los antiguos canarios.\n\n### La visita\nEl conjunto arqueológico se extiende por las laderas del valle, formando un impresionante paisaje cultural rodeado de palmeras, barrancos y montañas volcánicas. Sus más de 800 estructuras funerarias convierten este lugar en uno de los testimonios más relevantes del pasado aborigen de Canarias. La visita permite comprender mejor las costumbres funerarias y la importancia espiritual que este enclave tuvo para los antiguos habitantes de la isla.\n\n### Antes de entrar\n- ☀️ Lleva protección solar, ya que gran parte del recorrido está expuesto al sol\n- 👟 Se recomienda calzado cómodo para recorrer los senderos cercanos\n- 📸 Las vistas panorámicas del valle son excelentes para fotografía de paisaje\n- 🏛️ El centro de interpretación ayuda a comprender el valor histórico y arqueológico del yacimiento\n\n### Recomendación\nAprovecha para explorar el valle de Arteara y los paisajes del interior de Gran Canaria, una zona donde naturaleza, historia y tradición se combinan de forma única.",
+
+      "shortDescription": "La mayor necrópolis aborigen de Gran Canaria, con cientos de túmulos funerarios en el espectacular valle de Arteara.",
       "island": "gran-canaria",
       "category": "culture",
       "coordinates": {
@@ -1785,8 +1820,9 @@
     {
       "slug": "parque-natural-tamadaba",
       "name": "Parque Natural de Tamadaba",
-      "description": "Uno de los espacios naturales más impresionantes y mejor conservados de Gran Canaria. El **Parque Natural de Tamadaba**, declarado **Reserva de la Biosfera**, alberga extensos bosques de pino canario, espectaculares acantilados y algunos de los paisajes más salvajes de todo el archipiélago.\n\n### La visita\nSus carreteras panorámicas, senderos y miradores permiten descubrir un entorno donde la montaña y el océano se encuentran de forma espectacular. Entre sus lugares más destacados se encuentra el famoso **Mirador del Fin del Mundo**, desde donde se contemplan los acantilados del noroeste, el Atlántico y, en días despejados, el majestuoso **Teide** en Tenerife.\n\n### Antes de ir\n- 👟 Existen rutas para todos los niveles de senderismo\n- 🧥 Las temperaturas suelen ser más frescas que en la costa\n- 📸 Uno de los mejores lugares de Gran Canaria para fotografía de naturaleza\n- 🌲 Respeta los senderos y el entorno protegido\n\n### Recomendación\nAcércate a Agaete o a Puerto de las Nieves para disfrutar de la gastronomía local tras explorar uno de los rincones más espectaculares y auténticos de Gran Canaria.",
-      "shortDescription": "El mayor pinar canario de la isla, con acantilados sobre el Atlántico",
+      "description": "El **Parque Natural de Tamadaba** protege uno de los mayores tesoros naturales de Gran Canaria y forma parte de la **Reserva de la Biosfera de la UNESCO**. Este extenso territorio alberga algunos de los pinares mejor conservados de Canarias, profundos barrancos y una impresionante red de acantilados que se precipitan hacia el océano Atlántico.\n\n### La visita\nRecorrer Tamadaba significa adentrarse en un entorno donde la naturaleza permanece prácticamente intacta. Sus carreteras de montaña, senderos forestales y balcones naturales ofrecen panorámicas únicas sobre la costa noroeste y las cumbres de la isla. Entre los puntos más destacados se encuentra el **Mirador de Llanos de la Mimbre**, desde donde se observan el Atlántico, los escarpados acantilados costeros y, en los días más despejados, la silueta del **Teide** elevándose sobre Tenerife.\n\n### Antes de ir\n- 👟 Existen senderos adaptados a diferentes niveles de experiencia\n- 🧥 Las temperaturas suelen ser más frescas que en las zonas costeras\n- 📸 Un lugar excepcional para fotografía de naturaleza y observación de paisajes\n- 🌲 Respeta las áreas protegidas y permanece en los caminos señalizados\n\n### Recomendación\nCompleta la visita descendiendo hasta Agaete o Puerto de las Nieves, donde podrás disfrutar de pescado fresco y contemplar el contraste entre las montañas de Tamadaba y el océano Atlántico.",
+
+      "shortDescription": "El mayor bosque de pino canario de Gran Canaria, rodeado de acantilados, senderos y vistas panorámicas sobre el Atlántico.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -1809,8 +1845,9 @@
     {
       "slug": "dunas-maspalomas",
       "name": "Dunas de Maspalomas",
-      "description": "Situadas en el extremo sur de Gran Canaria, las **Dunas de Maspalomas** forman uno de los paisajes más espectaculares y singulares de Europa. Este inmenso sistema de dunas crea un auténtico desierto junto al océano Atlántico, ofreciendo una imagen única donde arena, mar y cielo se funden en un mismo horizonte.\n\n### La visita\nEsta Reserva Natural protege más de 400 hectáreas de dunas, un oasis de palmeras y una laguna costera que sirven de refugio para numerosas aves migratorias. Recorrer sus senderos permite descubrir uno de los espacios naturales más emblemáticos de Canarias y disfrutar de vistas inolvidables sobre la costa sur de la isla.\n\n### Antes de ir\n- ☀️ Lleva agua, protección solar y gorra\n- 👟 La arena puede alcanzar temperaturas muy altas en verano\n- 📸 El amanecer y el atardecer ofrecen las mejores condiciones para fotografía\n- 🌿 Respeta las zonas protegidas y permanece en los senderos señalizados\n\n### Recomendación\nDisfruta de la extensa Playa de Maspalomas o contempla la puesta de sol junto al histórico Faro de Maspalomas, uno de los símbolos más reconocibles del sur de Gran Canaria.",
-      "shortDescription": "Dunas de Maspalomas, una reserva natural de 400 hectáreas donde un espectacular desierto de arena se encuentra con el Atlántico en Gran Canaria.",
+      "description": "Las **Dunas de Maspalomas** constituyen uno de los grandes iconos de Gran Canaria y uno de los entornos naturales más singulares de Europa. Este extraordinario mar de arena dorada se extiende junto al Atlántico formando un escenario único donde el desierto, el océano y la luz del sur de la isla crean una imagen difícil de olvidar.\n\n### La visita\nProtegido como Reserva Natural Especial, este espacio abarca más de 400 hectáreas que incluyen extensos campos de dunas móviles, un oasis de palmeras y la Charca de Maspalomas, un importante refugio para aves migratorias. Caminar entre sus suaves crestas permite descubrir uno de los lugares más emblemáticos de Canarias y contemplar perspectivas únicas de la costa sur.\n\n### Antes de ir\n- ☀️ Lleva agua, protección solar y gorra\n- 👟 La arena puede alcanzar temperaturas muy elevadas durante el verano\n- 📸 El amanecer y el atardecer ofrecen las mejores condiciones para fotografía\n- 🌿 Respeta las áreas protegidas y utiliza los senderos habilitados\n\n### Recomendación\nCompleta la experiencia paseando por la Playa de Maspalomas o contemplando la puesta de sol junto al histórico Faro de Maspalomas, uno de los símbolos más reconocibles de Gran Canaria.",
+
+      "shortDescription": "Las Dunas de Maspalomas forman un impresionante mar de arena junto al Atlántico y uno de los paisajes más icónicos de Canarias.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -1833,8 +1870,9 @@
     {
       "slug": "caldera-de-bandama",
       "name": "Caldera de Bandama",
-      "description": "Situada a pocos kilómetros de Las Palmas de Gran Canaria, la **Caldera de Bandama** es uno de los paisajes volcánicos más espectaculares de la isla. Este enorme cráter de origen volcánico, con casi un kilómetro de diámetro y más de 200 metros de profundidad, permite comprender la intensa actividad geológica que modeló Gran Canaria durante millones de años.\n\n### La visita\nDesde el cercano **Pico de Bandama** se obtiene una panorámica privilegiada de todo el cráter, sus laderas escarpadas y el paisaje que lo rodea. En el interior todavía se conservan antiguas explotaciones agrícolas y viñedos, creando un llamativo contraste entre naturaleza, historia y tradición rural.\n\n### Antes de ir\n- 📸 El mirador del Pico de Bandama ofrece las mejores vistas del conjunto\n- 👟 Se recomienda calzado cómodo si se desea recorrer los senderos cercanos\n- ☀️ Lleva protección solar, especialmente durante las horas centrales del día\n- 🌅 El amanecer y el atardecer realzan los colores del paisaje volcánico\n\n### Recomendación\nAprovecha para explorar la zona vinícola de Bandama y descubrir otro de los rincones más singulares y sorprendentes del noreste de Gran Canaria.",
-"shortDescription": "Caldera de Bandama, un espectacular cráter volcánico de Gran Canaria con casi un kilómetro de diámetro y vistas panorámicas únicas.",
+      "description": "La **Caldera de Bandama** es uno de los testimonios más impresionantes del origen volcánico de Gran Canaria. Situada a pocos kilómetros de Las Palmas de Gran Canaria, esta enorme depresión natural, formada por una explosión volcánica hace miles de años, alcanza casi un kilómetro de diámetro y más de 200 metros de profundidad, convirtiéndose en uno de los cráteres mejor conservados de Canarias.\n\n### La visita\nDesde el cercano **Pico de Bandama** se disfruta de una de las panorámicas más completas del noreste de la isla, con vistas al cráter, la costa y las montañas del interior. En el fondo de la caldera aún sobreviven antiguas fincas agrícolas y viñedos, creando un singular contraste entre la fuerza de la naturaleza volcánica y siglos de actividad humana.\n\n### Antes de ir\n- 📸 El mirador del Pico de Bandama ofrece las mejores vistas del conjunto\n- 👟 Lleva calzado cómodo si deseas recorrer los senderos del borde o descender al interior\n- ☀️ Se recomienda protección solar durante todo el año\n- 🌅 La luz del amanecer y el atardecer resalta especialmente los colores y relieves del cráter\n\n### Recomendación\nCompleta la visita explorando los viñedos y bodegas de los alrededores, una de las zonas vitivinícolas más tradicionales de Gran Canaria.",
+
+      "shortDescription": "La Caldera de Bandama es uno de los cráteres volcánicos mejor conservados de Canarias, con vistas panorámicas y una gran riqueza geológica.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -1857,8 +1895,9 @@
     {
       "slug": "mirador-del-balcon",
       "name": "Mirador del Balcón",
-      "description": "Situado sobre los espectaculares acantilados de la costa oeste, **Mirador del Balcón** ofrece algunas de las vistas más impresionantes de Gran Canaria. Desde esta plataforma panorámica suspendida sobre el Atlántico se contempla la famosa **Cola del Dragón**, una sucesión de crestas montañosas cuya silueta recuerda al lomo de un gigantesco dragón emergiendo del océano.\n\n### La visita\nLos abruptos acantilados, la inmensidad del Atlántico y la sensación de aislamiento convierten este lugar en uno de los paisajes más espectaculares del archipiélago. Es una parada imprescindible para quienes recorren la carretera del oeste entre Agaete y La Aldea de San Nicolás.\n\n### Antes de ir\n- 📸 Uno de los mejores lugares de Gran Canaria para fotografía de paisaje\n- 🌅 Especialmente espectacular al atardecer\n- 🌬️ Puede hacer bastante viento, especialmente en invierno\n- 🚗 Dispone de zona de aparcamiento junto al mirador\n\n### Recomendación\nContinúa la ruta por la costa oeste hacia Agaete o La Aldea para descubrir algunos de los paisajes más salvajes, auténticos y menos conocidos de Gran Canaria.",
-      "shortDescription": "Mirador del Balcón, el famoso mirador de la Cola del Dragón con espectaculares vistas a los acantilados del oeste de Gran Canaria.",
+      "description": "Suspendido sobre los impresionantes acantilados de la costa occidental de Gran Canaria, el **Mirador del Balcón** ofrece una de las panorámicas más sobrecogedoras de todo el archipiélago. Desde esta plataforma elevada sobre el Atlántico se contempla la famosa **Cola del Dragón**, una sucesión de crestas montañosas cuya silueta recuerda al lomo de un enorme dragón adentrándose en el océano.\n\n### La visita\nLa combinación de abruptos acantilados, mar abierto y paisajes prácticamente intactos convierte este enclave en uno de los mejores lugares para admirar la naturaleza más salvaje de Gran Canaria. Su privilegiada ubicación permite contemplar la inmensidad de la costa oeste, una de las zonas más remotas y espectaculares de la isla.\n\n### Antes de ir\n- 📸 Uno de los mejores miradores de Gran Canaria para fotografía de paisaje\n- 🌅 El atardecer ofrece una luz especialmente espectacular sobre los acantilados\n- 🌬️ El viento puede ser intenso, especialmente durante los meses de invierno\n- 🚗 Dispone de aparcamiento junto al mirador\n\n### Recomendación\nAprovecha la ruta entre Agaete y La Aldea de San Nicolás para descubrir barrancos, acantilados y algunos de los paisajes más impresionantes y menos conocidos de Gran Canaria.",
+
+      "shortDescription": "Mirador del Balcón, el mejor lugar para contemplar la famosa Cola del Dragón y los espectaculares acantilados del oeste de Gran Canaria.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -1881,8 +1920,9 @@
     {
       "slug": "mirador-unamuno",
       "name": "Mirador de Unamuno",
-      "description": "Situado en las cumbres de Gran Canaria, **Mirador de Unamuno** ofrece una de las panorámicas más espectaculares del interior de la isla. Desde este balcón natural se contemplan la **Caldera de Tejeda**, el **Roque Nublo** y el **Roque Bentayga**, tres de los paisajes volcánicos más emblemáticos del archipiélago.\n\n### La visita\nEl mirador debe su nombre al escritor y filósofo **Miguel de Unamuno**, quien quedó profundamente impresionado por la belleza de estas montañas durante su estancia en Canarias. Las vistas permiten apreciar la espectacular geología volcánica del centro de Gran Canaria y la inmensidad de los barrancos que modelan este paisaje único.\n\n### Antes de ir\n- 📸 Uno de los mejores puntos panorámicos de la isla\n- 🌅 Especialmente espectacular al amanecer y al atardecer\n- 🧥 Las temperaturas pueden ser frescas en las cumbres\n- 🚗 Fácil acceso desde la carretera que atraviesa Tejeda\n\n### Recomendación\nContinúa explorando los miradores y senderos de la zona para descubrir por qué este paisaje inspiró a viajeros, escritores y fotógrafos durante generaciones.",
-      "shortDescription": "Mirador de Unamuno, con vistas a la Caldera de Tejeda, Roque Nublo y Roque Bentayga en el corazón montañoso de Gran Canaria.",
+      "description": "Ubicado en el corazón montañoso de Gran Canaria, el **Mirador de Unamuno** ofrece una de las panorámicas más impresionantes de la isla. Desde este privilegiado balcón natural se abre una vista extraordinaria sobre la **Caldera de Tejeda**, el **Roque Nublo** y el **Roque Bentayga**, tres de los grandes símbolos geológicos y paisajísticos del archipiélago.\n\n### La visita\nEl mirador lleva el nombre del escritor y filósofo **Miguel de Unamuno**, quien quedó fascinado por la belleza y grandiosidad de estas montañas durante su visita a Gran Canaria. Desde este punto es posible apreciar la magnitud de los barrancos, las formaciones volcánicas y los contrastes que han convertido el interior de la isla en uno de los paisajes más singulares de Canarias.\n\n### Antes de ir\n- 📸 Uno de los mejores miradores de Gran Canaria para disfrutar de las cumbres\n- 🌅 El amanecer y el atardecer ofrecen condiciones ideales para la fotografía\n- 🧥 Las temperaturas suelen ser más frescas que en la costa\n- 🚗 Fácil acceso desde la carretera que conecta Tejeda con las cumbres centrales\n\n### Recomendación\nCombina la visita con un recorrido por Tejeda y los miradores cercanos para descubrir algunos de los paisajes más emblemáticos y fotografiados de Gran Canaria.",
+
+      "shortDescription": "Mirador de Unamuno, un espectacular balcón natural con vistas a la Caldera de Tejeda, Roque Nublo y Roque Bentayga.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -1905,8 +1945,9 @@
     {
       "slug": "mirador-degollada-yeguas",
       "name": "Mirador Degollada de las Yeguas",
-      "description": "Uno de los miradores más impresionantes de Gran Canaria. Conocido por muchos como el **Gran Cañón de Gran Canaria**, ofrece una panorámica espectacular sobre el inmenso **Barranco de Tirajana**, un paisaje moldeado durante millones de años por la erosión y la actividad volcánica.\n\n### La visita\nDesde este balcón natural se contemplan profundos barrancos, escarpadas paredes rocosas y un horizonte que parece extenderse hasta el infinito. El contraste entre los tonos ocres de la roca y la vegetación del fondo del valle crea una de las estampas más espectaculares del interior de la isla.\n\n### Antes de ir\n- 📸 Uno de los mejores miradores para fotografía panorámica\n- 🌅 La luz del amanecer y del atardecer realza los colores del barranco\n- 🌬️ Puede haber viento, especialmente en las zonas más expuestas\n- 🚗 Fácil acceso desde la carretera entre las cumbres y el sur de la isla\n\n### Recomendación\nContinúa la ruta hacia las cumbres o hacia el sur de Gran Canaria disfrutando de algunos de los paisajes más espectaculares y sorprendentes de la isla.",
-      "shortDescription": "El Gran Cañón de Gran Canaria — vista vertiginosa al Barranco de Tirajana",
+      "description": "El **Mirador Degollada de las Yeguas** ofrece una de las panorámicas más sorprendentes de Gran Canaria. Situado en la transición entre las cumbres y la costa sur, permite contemplar la inmensidad del **Barranco de Tirajana**, un impresionante paisaje esculpido durante millones de años por la erosión y la actividad volcánica. Por sus dimensiones y relieve, muchos visitantes lo comparan con un pequeño Gran Cañón.\n\n### La visita\nDesde este privilegiado balcón natural se despliega un escenario dominado por profundos barrancos, laderas escarpadas y formaciones rocosas que muestran la extraordinaria historia geológica de la isla. Los contrastes entre las tonalidades ocres de la roca, la vegetación del valle y la luz cambiante a lo largo del día convierten cada visita en una experiencia diferente.\n\n### Antes de ir\n- 📸 Uno de los mejores miradores de Gran Canaria para fotografía panorámica\n- 🌅 El amanecer y el atardecer ofrecen una iluminación especialmente espectacular\n- 🌬️ El viento puede ser intenso en las zonas más expuestas\n- 🚗 Fácil acceso desde la carretera que conecta las cumbres con Maspalomas\n\n### Recomendación\nHaz una pausa para contemplar la magnitud del barranco antes de continuar hacia las cumbres o el sur de la isla. Es uno de esos lugares que permite comprender la fuerza de la naturaleza que dio forma a Gran Canaria.",
+
+      "shortDescription": "Mirador Degollada de las Yeguas, una espectacular ventana al Barranco de Tirajana y a los paisajes más impresionantes del interior de Gran Canaria.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -1929,8 +1970,9 @@
     {
       "slug": "mirador-pico-nieves",
       "name": "Mirador de Pico de las Nieves",
-      "description": "Situado en el punto más alto de Gran Canaria, a casi **2.000 metros de altitud**, el **Mirador de Pico de las Nieves** ofrece algunas de las vistas más impresionantes de todo el archipiélago. Desde este espectacular balcón natural se domina gran parte de la isla, con un paisaje de cumbres, barrancos y formaciones volcánicas que se extiende hasta el horizonte.\n\n### La visita\nDesde el mirador se contemplan algunos de los grandes iconos naturales de Gran Canaria, como el **Roque Nublo** y el **Roque Bentayga**. En los días más despejados, la silueta del majestuoso **Teide** emerge sobre el Atlántico, creando una de las panorámicas más espectaculares de Canarias.\n\n### Antes de ir\n- 📸 Uno de los mejores lugares de la isla para fotografía panorámica\n- 🌅 Imprescindible al amanecer o al atardecer\n- 🧥 Las temperaturas suelen ser más bajas que en la costa\n- 🌬️ El viento puede ser intenso incluso en días soleados\n\n### Recomendación\nExplora las carreteras panorámicas y senderos de las cumbres para descubrir algunos de los paisajes más espectaculares y auténticos de Gran Canaria.",
-      "shortDescription": "Mirador de Pico de las Nieves, el punto más alto de Gran Canaria, con vistas al Roque Nublo, al Teide y a las cumbres de la isla.",
+      "description": "Con casi **2.000 metros de altitud**, el **Mirador de Pico de las Nieves** ocupa uno de los puntos más elevados de Gran Canaria y ofrece una perspectiva privilegiada sobre el corazón montañoso de la isla. Desde este extraordinario mirador se despliega un paisaje dominado por profundos barrancos, extensos pinares y formaciones volcánicas que reflejan millones de años de historia geológica.\n\n### La visita\nLas vistas abarcan algunos de los lugares más emblemáticos de Gran Canaria, entre ellos el **Roque Nublo**, el **Roque Bentayga** y las cumbres centrales. En los días despejados, la silueta del **Teide**, en la vecina isla de Tenerife, aparece sobre el horizonte atlántico, creando una de las panorámicas más memorables de todo el archipiélago.\n\n### Antes de ir\n- 📸 Uno de los mejores miradores de Canarias para fotografía de paisaje\n- 🌅 El amanecer y el atardecer ofrecen condiciones excepcionales para disfrutar de las vistas\n- 🧥 Lleva ropa de abrigo, ya que las temperaturas pueden ser notablemente más bajas que en la costa\n- 🌬️ El viento suele ser frecuente incluso durante jornadas soleadas\n\n### Recomendación\nRecorre las carreteras panorámicas y senderos de las cumbres para descubrir la diversidad de paisajes que convierten esta zona en uno de los grandes tesoros naturales de Gran Canaria.",
+
+      "shortDescription": "Mirador de Pico de las Nieves, uno de los puntos más altos de Gran Canaria, con vistas al Roque Nublo, al Teide y a las cumbres de la isla.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -1953,8 +1995,9 @@
     {
       "slug": "mirador-cruz-tejeda",
       "name": "Mirador de Cruz de Tejeda",
-      "description": "Situado en el corazón montañoso de la isla, el **Mirador de Cruz de Tejeda** ofrece una de las panorámicas más representativas de Gran Canaria. Este histórico paso de montaña ha sido durante siglos un punto de encuentro para viajeros, comerciantes y senderistas que recorrían los caminos del interior.\n\n### La visita\nDesde el mirador se disfruta de una amplia vista sobre barrancos, montañas y formaciones volcánicas que muestran toda la diversidad del paisaje de Gran Canaria. En los días despejados pueden contemplarse el **Roque Nublo**, el **Roque Bentayga** e incluso la silueta del **Teide** emergiendo sobre el horizonte de Tenerife.\n\n### Antes de ir\n- 📸 Uno de los mejores lugares para fotografiar las cumbres de la isla\n- 🌅 Especialmente recomendable al amanecer y al atardecer\n- 🧥 Lleva algo de abrigo, incluso en verano\n- 🛍️ En la zona encontrarás puestos de artesanía y productos locales\n\n### Recomendación\nAprovecha para recorrer los senderos cercanos o visitar los pintorescos pueblos de montaña que rodean uno de los paisajes más espectaculares de Gran Canaria.",
-      "shortDescription": "Mirador de Cruz de Tejeda, en el corazón de Gran Canaria, con vistas al Roque Nublo, al Teide y a las cumbres de la isla.",
+      "description": "El **Mirador de Cruz de Tejeda** es uno de los lugares más emblemáticos de las cumbres de Gran Canaria y una parada imprescindible para comprender la espectacular geografía de la isla. Situado en un histórico cruce de caminos utilizado durante siglos por viajeros y comerciantes, ofrece una de las panorámicas más amplias y reconocibles del interior grancanario.\n\n### La visita\nDesde este privilegiado balcón natural se contemplan profundos barrancos, extensas laderas volcánicas y algunos de los grandes símbolos de la isla, como el **Roque Nublo** y el **Roque Bentayga**. En los días de mayor visibilidad, la silueta del **Teide** aparece sobre el Atlántico, completando una de las vistas más icónicas de Canarias.\n\n### Antes de ir\n- 📸 Uno de los mejores miradores para fotografiar las cumbres de Gran Canaria\n- 🌅 El amanecer y el atardecer ofrecen una luz especialmente espectacular\n- 🧥 Lleva algo de abrigo, ya que las temperaturas suelen ser más frescas que en la costa\n- 🛍️ En los alrededores encontrarás puestos de artesanía y productos típicos canarios\n\n### Recomendación\nDedica tiempo a recorrer los senderos cercanos o a visitar los pueblos de Tejeda y Artenara, dos de los rincones con más encanto y tradición de las montañas de Gran Canaria.",
+
+      "shortDescription": "Mirador de Cruz de Tejeda, uno de los balcones naturales más famosos de Gran Canaria, con vistas al Roque Nublo, al Teide y a las cumbres de la isla.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -1977,8 +2020,9 @@
     {
       "slug": "parque-doramas",
       "name": "Parque Rural de Doramas",
-      "description": "Situado en las medianías húmedas del norte de Gran Canaria, el **Parque Rural de Doramas** conserva algunos de los últimos restos de la antigua **laurisilva**, el bosque subtropical que cubría amplias zonas de la isla antes de la llegada de los primeros pobladores. Hoy es uno de los espacios naturales más importantes para comprender la biodiversidad y la historia ecológica de Gran Canaria.\n\n### La visita\nEste extenso espacio protegido incluye lugares emblemáticos como **Los Tilos de Moya**, barrancos cubiertos de vegetación y bosques donde sobreviven especies únicas de flora y fauna. Sus senderos permiten descubrir una cara mucho más verde y húmeda de la isla, muy diferente a los paisajes volcánicos y costeros más conocidos.\n\n### Antes de ir\n- 👟 Existen rutas para todos los niveles de senderismo\n- 🌿 Mantente en los senderos para proteger el ecosistema\n- 📸 Ideal para fotografía de naturaleza y observación de aves\n- 🌧️ Algunas zonas pueden estar húmedas o resbaladizas tras la lluvia\n\n### Recomendación\nAprovecha para visitar los pueblos y miradores del norte de Gran Canaria y descubrir una cara de la isla muy diferente a sus paisajes más áridos y costeros.",
-      "shortDescription": "Parque Rural de Doramas, hogar de los últimos bosques de laurisilva de Gran Canaria y uno de los espacios con mayor biodiversidad de la isla.",
+      "description": "El **Parque Rural de Doramas** protege uno de los entornos naturales más valiosos y singulares de Gran Canaria. Situado en las medianías del norte de la isla, conserva algunos de los últimos vestigios de la antigua **laurisilva**, el bosque subtropical que cubría gran parte del archipiélago antes de la llegada de los primeros pobladores. Su importancia ecológica lo convierte en uno de los mejores lugares para descubrir la biodiversidad canaria.\n\n### La visita\nEste amplio espacio protegido alberga barrancos cubiertos de vegetación, manantiales, bosques húmedos y enclaves tan emblemáticos como **Los Tilos de Moya**. Sus senderos atraviesan paisajes dominados por laureles, tilos, helechos y otras especies autóctonas, ofreciendo una experiencia completamente diferente a la de las zonas más áridas y volcánicas de Gran Canaria.\n\n### Antes de ir\n- 👟 Existen rutas aptas para diferentes niveles de experiencia\n- 🌿 Permanece en los senderos señalizados para proteger los ecosistemas\n- 📸 Excelente destino para fotografía de naturaleza y observación de aves\n- 🌧️ Algunas zonas pueden resultar húmedas o resbaladizas tras la lluvia\n\n### Recomendación\nCombina la visita con los pueblos y miradores del norte de la isla para descubrir una de las zonas más verdes, tranquilas y sorprendentes de Gran Canaria.",
+
+      "shortDescription": "Parque Rural de Doramas, refugio de los últimos bosques de laurisilva y uno de los espacios naturales más biodiversos de Gran Canaria.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -2001,8 +2045,9 @@
     {
       "slug": "azulejos-veneguera",
       "name": "Los Azulejos de Veneguera",
-      "description": "Situados junto a la carretera GC-200, en el oeste de Gran Canaria, **Los Azulejos de Veneguera** forman uno de los paisajes geológicos más sorprendentes de la isla. Sus llamativas tonalidades verdes, amarillas, rojizas y ocres crean una montaña multicolor que destaca entre los paisajes volcánicos del archipiélago y atrae cada año a fotógrafos, viajeros y amantes de la naturaleza.\n\n### La visita\nEstas formaciones únicas son el resultado de antiguos procesos volcánicos e hidrotermales que alteraron la composición de las rocas durante millones de años. El espectacular contraste de colores y texturas convierte este rincón de Veneguera en uno de los lugares más curiosos y fotografiados de Gran Canaria.\n\n### Antes de ir\n- 📸 Imprescindible para amantes de la fotografía y la geología\n- ☀️ Lleva protección solar, la zona tiene poca sombra\n- 🚗 Se observan fácilmente desde la carretera GC-200\n- 🌅 Los colores se intensifican con la luz suave de primera y última hora del día\n\n### Recomendación\nContinúa la ruta por el espectacular oeste de Gran Canaria para descubrir barrancos, acantilados y algunos de los paisajes más salvajes y desconocidos de la isla.",
-      "shortDescription": "Los Azulejos de Veneguera, una espectacular montaña multicolor formada por antiguos procesos volcánicos en el oeste de Gran Canaria.",
+      "description": "**Los Azulejos de Veneguera** forman uno de los paisajes geológicos más sorprendentes y singulares de la isla. Sus llamativas tonalidades verdes, amarillas, rojizas y ocres dibujan una enorme pared multicolor que contrasta con el entorno volcánico y árido característico de esta región, convirtiéndola en una de las maravillas naturales más curiosas del archipiélago.\n\n### La visita\nEstas formaciones deben su aspecto a antiguos procesos volcánicos e hidrotermales que transformaron la composición mineral de las rocas durante millones de años. El resultado es un mosaico natural de colores y texturas que ha convertido este rincón de Veneguera en una parada imprescindible para amantes de la fotografía, la geología y los paisajes poco habituales.\n\n### Antes de ir\n- 📸 Uno de los lugares más fotogénicos de Gran Canaria\n- ☀️ Lleva protección solar, ya que apenas existen zonas de sombra\n- 🚗 Se pueden contemplar fácilmente desde la carretera GC-200\n- 🌅 La luz de primera y última hora realza los colores de la montaña\n\n### Recomendación\nCombina la visita con un recorrido por la espectacular carretera del oeste, donde te esperan profundos barrancos, acantilados sobre el Atlántico y algunos de los paisajes más salvajes y menos explorados de Gran Canaria.",
+
+      "shortDescription": "Los Azulejos de Veneguera, una espectacular formación geológica multicolor creada por antiguos procesos volcánicos en el oeste de Gran Canaria.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -2025,8 +2070,9 @@
     {
       "slug": "barranco-las-vacas",
       "name": "Barranco de las Vacas",
-      "description": "Escondido en el interior de Gran Canaria, el **Barranco de las Vacas** alberga uno de los paisajes más sorprendentes y fotografiados de la isla. Sus estrechas paredes de roca, moldeadas por la erosión del agua durante miles de años, han creado un pequeño cañón de formas onduladas que recuerda a los famosos slot canyons del suroeste de Estados Unidos.\n\n### La visita\nAunque su tamaño es reducido, las sinuosas formas de la roca y sus tonos dorados crean un escenario espectacular para la fotografía. La acción combinada del agua, el viento y el tiempo ha dado lugar a uno de los ejemplos más curiosos de erosión natural que pueden encontrarse en Gran Canaria.\n\n### Antes de ir\n- 📸 Mejor visitarlo temprano para evitar aglomeraciones\n- 👟 Lleva calzado cómodo para caminar por terreno irregular\n- ☀️ La zona tiene poca sombra, especialmente en verano\n- ⚠️ Respeta el entorno y evita subirte a las formaciones rocosas\n\n### Recomendación\nAprovecha para explorar otros paisajes del interior de Gran Canaria y descubrir cómo la actividad volcánica y la erosión han creado algunos de los rincones más sorprendentes de la isla.",
-      "shortDescription": "Barranco de las Vacas, un espectacular cañón de roca erosionada con formas onduladas, uno de los lugares más fotografiados de Gran Canaria.",
+      "description": "Oculto en el interior de Gran Canaria, el **Barranco de las Vacas** alberga una de las formaciones geológicas más sorprendentes de la isla. La erosión del agua a lo largo de miles de años ha esculpido un estrecho cañón de suaves curvas y paredes onduladas que recuerda a los famosos slot canyons del oeste de Estados Unidos, convirtiéndolo en uno de los rincones más fotografiados de Gran Canaria.\n\n### La visita\nAunque sus dimensiones son relativamente reducidas, la belleza de sus formas y la textura de la roca crean un escenario único. Los tonos dorados, las sinuosas paredes y los juegos de luces que se forman en el interior del barranco ofrecen una experiencia visual muy diferente a cualquier otro paisaje de la isla.\n\n### Antes de ir\n- 📸 Visítalo a primera hora para disfrutar de mejores condiciones de luz y menos visitantes\n- 👟 Lleva calzado cómodo para caminar por terreno irregular\n- ☀️ Hay pocas zonas de sombra, especialmente durante los meses más cálidos\n- ⚠️ Respeta el entorno y evita subirte a las formaciones rocosas\n\n### Recomendación\nCombina la visita con otros rincones del interior de Gran Canaria para descubrir cómo la erosión y el origen volcánico de la isla han creado paisajes tan singulares como este pequeño cañón natural.",
+
+      "shortDescription": "Barranco de las Vacas, un espectacular cañón de roca erosionada con formas onduladas y uno de los lugares más fotografiados de Gran Canaria.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -2044,35 +2090,6 @@
       "emoji": "🏜️",
       "sectionOnly": false,
       "municipio": "aguimes",
-      "top": false
-    },
-    {
-      "slug": "gastronomia-grancanaria",
-      "name": "Gastronomía de Gran Canaria",
-      "description": "La gastronomía de Gran Canaria es una mezcla de tradición, producto local y recetas transmitidas durante generaciones. Desde las montañas hasta la costa, la isla ofrece sabores únicos que reflejan su historia, su clima y la riqueza de sus paisajes.\n\n### Qué probar\nEntre los imprescindibles destacan las **papas arrugadas con mojo**, el **gofio**, el **pescado fresco local**, el tradicional **sancocho canario**, el reconocido **Queso de Flor de Guía** y el popular **chorizo de Teror**. También son muy apreciados platos como el **potaje de berros** y los vinos producidos en distintas zonas de la isla.\n\n### Los sabores dulces\nLos amantes de los postres no pueden perderse el **bienmesabe**, los tradicionales **suspiros de Moya** y otros dulces artesanales elaborados en pueblos con una larga tradición repostera.\n\n### Antes de sentarte a la mesa\n- 🍽️ Busca restaurantes de cocina local para una experiencia auténtica\n- 🐟 El pescado fresco suele variar según la temporada\n- ☕ Prueba el singular **café de Agaete**, uno de los pocos cultivados en Europa\n- 🧀 No te marches sin degustar los quesos artesanales de la isla\n\n### Recomendación\nLa mejor forma de conocer Gran Canaria es combinar sus paisajes con su gastronomía. Cada plato cuenta una parte de la historia y la cultura de la isla.",
-      "shortDescription": "Los sabores imprescindibles de Gran Canaria",
-      "island": "gran-canaria",
-      "category": "culture",
-      "coordinates": {
-        "lat": 27.933799,
-        "lng": -15.482825
-      },
-      "images": {
-        "hero": "/images/gran-canaria/cultural/gastronomia-1.avif",
-        "gallery": [
-          "/images/gran-canaria/cultural/gastronomia-2.avif",
-          "/images/gran-canaria/cultural/gastronomia-3.avif",
-          "/images/gran-canaria/cultural/gastronomia-4.avif",
-          "/images/gran-canaria/cultural/gastronomia-5.avif"
-        ]
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": ["gastronomia", "cultura", "comida", "gran-canaria"],
-      "difficulty": "easy",
-      "emoji": "🍽️",
-      "sectionOnly": false,
-      "municipio": "las-palmas",
       "top": false
     }
   ],
