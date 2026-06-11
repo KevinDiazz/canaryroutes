@@ -293,7 +293,7 @@ function MunicipioMarker({ municipio, island, count, selected, onClick, displayX
   const computed = coordsToSvg(municipio.coordinates.lat, municipio.coordinates.lng, island);
   const x = displayX ?? computed.x;
   const y = displayY ?? computed.y;
-  const R = 16;
+  const R = 14;
   const cy = y - R - 8;
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
 
@@ -635,7 +635,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       const pos = getPoiPosition(p, activeIsland);
       all.push({ id: p.slug, x: pos.x, y: pos.y });
     });
-    return separateMarkers(all, 30, 50);
+    return separateMarkers(all, 38, 50);
   }, [municipioMarkers, filteredPois, activeIsland]);
 
   const handleSectionSelect = useCallback((sectionId: string) => {
