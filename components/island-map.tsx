@@ -595,7 +595,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     ? municipios.map(m => ({
         ...m,
         count: mapPois.filter(p => p.municipio === m.slug).length,
-      })).filter(m => m.count > 0)
+      }))
     : [];
 
   // Pines individuales (Top / secciones / categoría con sheet abierta)
@@ -710,31 +710,29 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     setSelectedPoi(categoryPois[0]);
   }, [mapPois]);
 
-  // Tocar un municipio → abre la sheet con todos sus POIs
+  // Tocar un municipio → abre la sheet con el propio municipio + todos sus POIs
   const handleMunicipioClick = useCallback((municipioSlug: string) => {
     const muni = municipios.find(m => m.slug === municipioSlug);
     const mPois = mapPois.filter(p => p.municipio === municipioSlug);
-    if (mPois.length === 0) return;
+    if (!muni) return;
 
-    const allPois = muni
-      ? [
-          {
-            slug: muni.slug,
-            name: muni.name,
-            description: muni.description ?? muni.name,
-            shortDescription: muni.shortDescription ?? '',
-            island: activeIsland,
-            category: 'culture' as const,
-            coordinates: muni.coordinates,
-            images: { hero: muni.heroImage ?? '/images/placeholder.avif', gallery: [] },
-            hasPremiumAudio: false,
-            tags: [],
-            emoji: muni.emoji,
-            municipio: muni.slug,
-          } satisfies POI,
-          ...mPois,
-        ]
-      : mPois;
+    const allPois = [
+      {
+        slug: muni.slug,
+        name: muni.name,
+        description: muni.description ?? muni.name,
+        shortDescription: muni.shortDescription ?? '',
+        island: activeIsland,
+        category: 'culture' as const,
+        coordinates: muni.coordinates,
+        images: muni.images ?? { hero: muni.heroImage ?? '/images/placeholder.avif', gallery: [] },
+        hasPremiumAudio: false,
+        tags: [],
+        emoji: muni.emoji,
+        municipio: muni.slug,
+      } satisfies POI,
+      ...mPois,
+    ];
 
     setActiveSectionId(null);
     setSelectedMunicipio(municipioSlug);

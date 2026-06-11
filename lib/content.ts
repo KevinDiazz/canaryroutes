@@ -71,13 +71,21 @@ export function getSections(locale: Locale, island: Island): Section[] {
   }
 }
 
-export function getMunicipios(island: Island): Municipio[] {
+export function getMunicipios(island: Island, locale: Locale = 'es'): Municipio[] {
   try {
-    const filePath = path.join(contentDir, 'en', island, 'pois.json');
+    const filePath = path.join(contentDir, locale, island, 'pois.json');
     const raw = fs.readFileSync(filePath, 'utf-8');
-    return JSON.parse(raw).municipios as Municipio[] ?? [];
+    const municipios = JSON.parse(raw).municipios as Municipio[] ?? [];
+    if (municipios.length > 0) return municipios;
+    throw new Error('empty');
   } catch {
-    return [];
+    try {
+      const filePath = path.join(contentDir, 'es', island, 'pois.json');
+      const raw = fs.readFileSync(filePath, 'utf-8');
+      return JSON.parse(raw).municipios as Municipio[] ?? [];
+    } catch {
+      return [];
+    }
   }
 }
 

@@ -89,7 +89,9 @@ export interface Municipio {
   coordinates: Coordinates;
   description?: string;
   shortDescription?: string;
+  /** @deprecated use `images.hero` instead */
   heroImage?: string;
+  images?: POIImages;
 }
 
 export interface POIsFile {

@@ -86,8 +86,8 @@ export default async function IslandPage({
   };
 
   const municipiosByIsland = {
-    'gran-canaria': getMunicipios('gran-canaria'),
-    'tenerife': getMunicipios('tenerife'),
+    'gran-canaria': getMunicipios('gran-canaria', locale),
+    'tenerife': getMunicipios('tenerife', locale),
   };
 
   const islandName = getIslandDisplayName(island, locale);

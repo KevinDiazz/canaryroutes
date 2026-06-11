@@ -199,8 +199,8 @@ export default async function SlugPage({
       tenerife: getSections(locale, 'tenerife'),
     };
     const municipiosByIsland = {
-      'gran-canaria': getMunicipios('gran-canaria'),
-      tenerife: getMunicipios('tenerife'),
+      'gran-canaria': getMunicipios('gran-canaria', locale),
+      tenerife: getMunicipios('tenerife', locale),
     };
     const islandName = getIslandDisplayName(island, locale);
     const seoCopy = CATEGORY_SEO[slug]?.[locale]?.[island] ?? CATEGORY_SEO[slug]?.es?.[island];
