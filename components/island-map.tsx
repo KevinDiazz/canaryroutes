@@ -108,7 +108,7 @@ function isTopPoi(poi: POI): boolean {
 // Works on display coords only — does NOT modify underlying lat/lng.
 function separateMarkers(
   markers: Array<{ id: string; x: number; y: number }>,
-  minDist = 38,
+  minDist = 30,
   iterations = 30,
 ): Record<string, { x: number; y: number }> {
   if (markers.length === 0) return {};
@@ -191,6 +191,42 @@ const CATEGORY_COLORS: Record<POI['category'], string> = {
   other:    '#5a7a90',
 };
 
+// Aclara (percent > 0) u oscurece (percent < 0) un color hex un porcentaje dado
+function shadeColor(hex: string, percent: number): string {
+  const num = parseInt(hex.slice(1), 16);
+  let r = (num >> 16) & 0xff;
+  let g = (num >> 8) & 0xff;
+  let b = num & 0xff;
+  if (percent >= 0) {
+    r = Math.round(r + (255 - r) * percent);
+    g = Math.round(g + (255 - g) * percent);
+    b = Math.round(b + (255 - b) * percent);
+  } else {
+    r = Math.round(r * (1 + percent));
+    g = Math.round(g * (1 + percent));
+    b = Math.round(b * (1 + percent));
+  }
+  const toHex = (v: number) => Math.max(0, Math.min(255, v)).toString(16).padStart(2, '0');
+  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+}
+
+// Gama de colores (degradado claro -> oscuro) para cada categoría de POI
+const CATEGORY_GRADIENTS: Record<POI['category'], { light: string; base: string; dark: string }> =
+  Object.fromEntries(
+    Object.entries(CATEGORY_COLORS).map(([cat, color]) => [
+      cat,
+      { light: shadeColor(color, 0.45), base: color, dark: shadeColor(color, -0.35) },
+    ])
+  ) as Record<POI['category'], { light: string; base: string; dark: string }>;
+
+// Color base de los marcadores de municipio y su gama de degradado
+const MUNICIPIO_COLOR = '#2090c0';
+const MUNICIPIO_GRADIENT = {
+  light: shadeColor(MUNICIPIO_COLOR, 0.45),
+  base: MUNICIPIO_COLOR,
+  dark: shadeColor(MUNICIPIO_COLOR, -0.35),
+};
+
 function getPoiPosition(poi: POI, island: Island): { x: number; y: number } {
   if (KNOWN_POSITIONS[poi.slug]) return KNOWN_POSITIONS[poi.slug];
   if (poi.coordinates) return coordsToSvg(poi.coordinates.lat, poi.coordinates.lng, island);
@@ -255,7 +291,7 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
       {/* Pin triangle */}
       <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill={color} />
       {/* Circle background */}
-      <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : '#ffffff'} stroke={color} strokeWidth="2.5" />
+      <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : '#ffffff'} stroke={`url(#poiGradient-${poi.category})`} strokeWidth="2.5" />
       {showPhoto ? (
         <image
           href={poi.images.hero}
@@ -318,14 +354,14 @@ function MunicipioMarker({ municipio, island, count, selected, onClick, displayX
       }}
     >
       <ellipse cx={x} cy={y + 3} rx={5} ry={2.5} fill="rgba(15,23,42,0.12)" />
-      <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill="#1f9d61" />
-      <circle cx={x} cy={cy} r={R + 2} fill={selected ? '#1f9d61' : '#ffffff'} stroke="#1f9d61" strokeWidth="2.5" />
+      <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill="#2090c0" />
+      <circle cx={x} cy={cy} r={R + 2} fill={selected ? '#2090c0' : '#ffffff'} stroke="url(#poiGradient-municipio)" strokeWidth="2.5" />
       <text x={x} y={cy + 5} textAnchor="middle" fontSize="12"
         style={{ userSelect: 'none', pointerEvents: 'none' }}>
         {municipio.emoji ?? '🏘️'}
       </text>
       {/* count badge */}
-      <circle cx={x + R - 1} cy={cy - R + 1} r={8} fill="#1f9d61" />
+      <circle cx={x + R - 1} cy={cy - R + 1} r={8} fill="#FFAD5C" />
       <text x={x + R - 1} y={cy - R + 4} textAnchor="middle" fontSize="7"
         fill="white" fontWeight="700"
         style={{ userSelect: 'none', pointerEvents: 'none', fontFamily: 'monospace' }}>
@@ -635,7 +671,12 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       const pos = getPoiPosition(p, activeIsland);
       all.push({ id: p.slug, x: pos.x, y: pos.y });
     });
-    return separateMarkers(all, 38, 50);
+    const separated = separateMarkers(all, 46, 80);
+    // Desplaza visualmente todos los marcadores un poco hacia abajo,
+    // sin tocar las coordenadas lat/lng reales.
+    const MARKER_Y_OFFSET = 10;
+    Object.values(separated).forEach(p => { p.y += MARKER_Y_OFFSET; });
+    return separated;
   }, [municipioMarkers, filteredPois, activeIsland]);
 
   const handleSectionSelect = useCallback((sectionId: string) => {
@@ -854,6 +895,18 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             <stop offset="50%"  stopColor="#ffb300" />
             <stop offset="100%" stopColor="#079dde" />
           </linearGradient>
+          {Object.entries(CATEGORY_GRADIENTS).map(([cat, shades]) => (
+            <linearGradient key={cat} id={`poiGradient-${cat}`} x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%"   stopColor={shades.light} />
+              <stop offset="50%"  stopColor={shades.base} />
+              <stop offset="100%" stopColor={shades.dark} />
+            </linearGradient>
+          ))}
+          <linearGradient id="poiGradient-municipio" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%"   stopColor={MUNICIPIO_GRADIENT.light} />
+            <stop offset="50%"  stopColor={MUNICIPIO_GRADIENT.base} />
+            <stop offset="100%" stopColor={MUNICIPIO_GRADIENT.dark} />
+          </linearGradient>
         </defs>
         <path
           d={islandConfig.path}
@@ -1014,7 +1067,9 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
                 style={{
                   display: 'flex', alignItems: 'center', gap: '5px',
                   padding: '5px 13px', borderRadius: '20px', flexShrink: 0,
-                  background: isActive ? chip.color : 'rgba(255,255,255,0.92)',
+                  background: isActive
+                    ? `linear-gradient(135deg, ${shadeColor(chip.color, 0.45)}, ${chip.color}, ${shadeColor(chip.color, -0.35)})`
+                    : 'rgba(255,255,255,0.92)',
                   color: isActive ? 'white' : '#4b5563',
                   border: isActive ? 'none' : '1px solid rgba(0,0,0,0.10)',
                   boxShadow: isActive
