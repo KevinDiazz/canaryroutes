@@ -227,6 +227,28 @@ const MUNICIPIO_GRADIENT = {
   dark: shadeColor(MUNICIPIO_COLOR, -0.35),
 };
 
+// Retrasa el montaje de imágenes de marcadores para evitar descargar
+// decenas de fotos a la vez (lag al cargar/cambiar de isla).
+// `index` permite escalonar la carga (primeros marcadores antes que el resto).
+function useLazyMarkerImage(index: number) {
+  // La animación de aparición ya escalona la entrada visual de cada marcador,
+  // así que las imágenes empiezan a descargarse de inmediato (el navegador
+  // las prioriza con loading="lazy"/decoding="async") para que la foto esté
+  // lista lo antes posible cuando el marcador aparece.
+  void index;
+  const [loaded, setLoaded] = useState(false);
+  return { ready: true, loaded, setLoaded };
+}
+
+// Las fotos "hero" son de alta resolución (para la card de detalle). Para los
+// círculos diminutos del mapa usamos una miniatura pre-generada (~120px, 1-3KB)
+// con el sufijo "-marker", generada con `scripts/generate-marker-thumbs.py`.
+function markerThumb(src: string): string {
+  const dot = src.lastIndexOf('.');
+  if (dot === -1) return src;
+  return `${src.slice(0, dot)}-marker${src.slice(dot)}`;
+}
+
 function getPoiPosition(poi: POI, island: Island): { x: number; y: number } {
   if (KNOWN_POSITIONS[poi.slug]) return KNOWN_POSITIONS[poi.slug];
   if (poi.coordinates) return coordsToSvg(poi.coordinates.lat, poi.coordinates.lng, island);
@@ -241,9 +263,11 @@ interface PoiMarkerProps {
   displayX?: number;
   displayY?: number;
   showPhoto?: boolean;
+  index?: number;
+  animate?: boolean;
 }
 
-function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPhoto }: PoiMarkerProps) {
+function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPhoto, index = 0, animate = true }: PoiMarkerProps) {
   const computed = getPoiPosition(poi, island);
   const x = displayX ?? computed.x;
   const y = displayY ?? computed.y;
@@ -252,6 +276,8 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
   const cy = y - R - 8;
   const clipId = `clip-poi-${poi.slug.replace(/[^a-zA-Z0-9]/g, '-')}`;
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
+  const { ready: imageReady, loaded: imageLoaded, setLoaded: setImageLoaded } = useLazyMarkerImage(index);
+  const appearDelay = Math.min(index * 50, 900);
 
   return (
     <g
@@ -277,6 +303,7 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
         transformOrigin: `${x}px ${y}px`,
         transition: 'transform 0.22s cubic-bezier(0.34,1.56,0.64,1)',
         touchAction: 'manipulation',
+        ...(animate ? { animation: `markerFadeIn 0.3s ease-out ${appearDelay}ms both` } : {}),
       }}
     >
       {showPhoto && (
@@ -291,21 +318,19 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
       {/* Pin triangle */}
       <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill={color} />
       {/* Circle background */}
-      <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : '#ffffff'} stroke={`url(#poiGradient-${poi.category})`} strokeWidth="2.5" />
-      {showPhoto ? (
+      <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : (showPhoto ? shadeColor(color, 0.82) : '#ffffff')} stroke={`url(#poiGradient-${poi.category})`} strokeWidth="2.5" />
+      {showPhoto && imageReady && (
         <image
-          href={poi.images.hero}
+          href={markerThumb(poi.images.hero)}
           x={x - R} y={cy - R}
           width={R * 2} height={R * 2}
           clipPath={`url(#${clipId})`}
           preserveAspectRatio="xMidYMid slice"
-          style={{ userSelect: 'none', pointerEvents: 'none' }}
+          loading="lazy"
+          decoding="async"
+          onLoad={() => setImageLoaded(true)}
+          style={{ userSelect: 'none', pointerEvents: 'none', opacity: imageLoaded ? 1 : 0, transition: 'opacity 0.25s' }}
         />
-      ) : (
-        <text x={x} y={cy + 5} textAnchor="middle" fontSize="12"
-          style={{ userSelect: 'none', pointerEvents: 'none' }}>
-          {poi.emoji ?? '📍'}
-        </text>
       )}
       {selected && showPhoto && (
         <circle cx={x} cy={cy} r={R + 2} fill="none" stroke="white" strokeWidth="1.5" style={{ pointerEvents: 'none' }} />
@@ -323,15 +348,21 @@ interface MunicipioMarkerProps {
   onClick: () => void;
   displayX?: number;
   displayY?: number;
+  index?: number;
+  animate?: boolean;
 }
 
-function MunicipioMarker({ municipio, island, count, selected, onClick, displayX, displayY }: MunicipioMarkerProps) {
+function MunicipioMarker({ municipio, island, count, selected, onClick, displayX, displayY, index = 0, animate = true }: MunicipioMarkerProps) {
   const computed = coordsToSvg(municipio.coordinates.lat, municipio.coordinates.lng, island);
   const x = displayX ?? computed.x;
   const y = displayY ?? computed.y;
   const R = 14;
   const cy = y - R - 8;
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
+  const heroImage = municipio.images?.hero ?? municipio.heroImage;
+  const clipId = `clip-muni-${municipio.slug.replace(/[^a-zA-Z0-9]/g, '-')}`;
+  const { ready: imageReady, loaded: imageLoaded, setLoaded: setImageLoaded } = useLazyMarkerImage(index);
+  const appearDelay = Math.min(index * 50, 900);
 
   return (
     <g
@@ -351,15 +382,45 @@ function MunicipioMarker({ municipio, island, count, selected, onClick, displayX
         transform: selected ? 'scale(1.35)' : 'scale(1)',
         transformOrigin: `${x}px ${y}px`,
         transition: 'transform 0.2s cubic-bezier(0.34,1.56,0.64,1)',
+        ...(animate ? { animation: `markerFadeIn 0.3s ease-out ${appearDelay}ms both` } : {}),
       }}
     >
+      {heroImage && (
+        <defs>
+          <clipPath id={clipId}>
+            <circle cx={x} cy={cy} r={R} />
+          </clipPath>
+        </defs>
+      )}
       <ellipse cx={x} cy={y + 3} rx={5} ry={2.5} fill="rgba(15,23,42,0.12)" />
       <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill="#2090c0" />
-      <circle cx={x} cy={cy} r={R + 2} fill={selected ? '#2090c0' : '#ffffff'} stroke="url(#poiGradient-municipio)" strokeWidth="2.5" />
-      <text x={x} y={cy + 5} textAnchor="middle" fontSize="12"
-        style={{ userSelect: 'none', pointerEvents: 'none' }}>
-        {municipio.emoji ?? '🏘️'}
-      </text>
+      <circle cx={x} cy={cy} r={R + 2} fill={selected ? '#2090c0' : (heroImage ? shadeColor('#2090c0', 0.82) : '#ffffff')} stroke="url(#poiGradient-municipio)" strokeWidth="2.5" />
+      {heroImage ? (
+        <>
+          <text x={x} y={cy + 5} textAnchor="middle" fontSize="12"
+            style={{ userSelect: 'none', pointerEvents: 'none', opacity: imageLoaded ? 0 : 1, transition: 'opacity 0.25s' }}>
+            {municipio.emoji ?? '🏘️'}
+          </text>
+          {imageReady && (
+            <image
+              href={markerThumb(heroImage)}
+              x={x - R} y={cy - R}
+              width={R * 2} height={R * 2}
+              clipPath={`url(#${clipId})`}
+              preserveAspectRatio="xMidYMid slice"
+              loading="lazy"
+              decoding="async"
+              onLoad={() => setImageLoaded(true)}
+              style={{ userSelect: 'none', pointerEvents: 'none', opacity: imageLoaded ? 1 : 0, transition: 'opacity 0.25s' }}
+            />
+          )}
+        </>
+      ) : (
+        <text x={x} y={cy + 5} textAnchor="middle" fontSize="12"
+          style={{ userSelect: 'none', pointerEvents: 'none' }}>
+          {municipio.emoji ?? '🏘️'}
+        </text>
+      )}
       {/* count badge */}
       <circle cx={x + R - 1} cy={cy - R + 1} r={8} fill="#FFAD5C" />
       <text x={x + R - 1} y={cy - R + 4} textAnchor="middle" fontSize="7"
@@ -448,10 +509,19 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   const [selectedPoi, setSelectedPoi] = useState<POI | null>(null);
   const [notification, setNotification] = useState<{ msg: string; poi?: POI } | null>(null);
   const [cartOpen, setCartOpen] = useState(false);
-  const [activeFilter, setActiveFilter] = useState<string | null>(initialFilter ?? null);
+  const [activeFilter, setActiveFilter] = useState<string | null>(initialFilter ?? 'top');
   const [activeSectionId, setActiveSectionId] = useState<string | null>(null);
   const [selectedMunicipio, setSelectedMunicipio] = useState<string | null>(null);
   const [detailPois, setDetailPois] = useState<POI[]>([]);
+  // La animación de aparición de los marcadores solo debe verse una vez,
+  // al cargar el mapa. Tras la primera tanda (índices hasta ~900ms + 300ms
+  // de duración), los marcadores se muestran ya estáticos sin re-animarse
+  // al cambiar de filtro/categoría.
+  const [markersAnimated, setMarkersAnimated] = useState(false);
+  useEffect(() => {
+    const t = setTimeout(() => setMarkersAnimated(true), 1300);
+    return () => clearTimeout(t);
+  }, []);
   const [detailSheetKey, setDetailSheetKey] = useState(0);
   const cart = useCart();
   const [mapMaxSize, setMapMaxSize] = useState(MOBILE_MAX_SIZE);
@@ -726,7 +796,12 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     setActiveSectionId(null);
     setSelectedMunicipio(null);
     setDetailPois([]);
-  }, []);
+    // Al cerrar la card de descripción, el mapa vuelve a "Top" — excepto si
+    // estábamos viendo un municipio, en cuyo caso se mantiene esa vista.
+    if (activeFilter === 'municipios') return;
+    setActiveFilter('top');
+    window.history.replaceState(null, '', `/${locale}/${activeIsland}/${FILTER_TO_CATEGORY_URL['top']}`);
+  }, [locale, activeIsland, activeFilter]);
 
   const handlePoiClick = useCallback((poi: POI) => {
     const CHIP_IDS = ['beach', 'hiking', 'culture', 'nature', 'activities'];
@@ -908,6 +983,12 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             <stop offset="100%" stopColor={MUNICIPIO_GRADIENT.dark} />
           </linearGradient>
         </defs>
+        <style>{`
+          @keyframes markerFadeIn {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+          }
+        `}</style>
         <path
           d={islandConfig.path}
           fill={islandConfig.fill}
@@ -915,7 +996,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           strokeWidth="2.5"
         />
         {/* Marcadores de municipio */}
-        {municipioMarkers.map((m) => (
+        {municipioMarkers.map((m, i) => (
           <MunicipioMarker
             key={m.slug}
             municipio={m}
@@ -925,10 +1006,12 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             onClick={() => handleMunicipioClick(m.slug)}
             displayX={adjustedPositions[m.slug]?.x}
             displayY={adjustedPositions[m.slug]?.y}
+            index={i}
+            animate={!markersAnimated}
           />
         ))}
         {/* Pines individuales: Top o sección */}
-        {filteredPois.map((poi) => (
+        {filteredPois.map((poi, i) => (
           <PoiMarker
             key={poi.slug}
             poi={poi}
@@ -938,6 +1021,8 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             displayX={adjustedPositions[poi.slug]?.x}
             displayY={adjustedPositions[poi.slug]?.y}
             showPhoto={activeFilter === 'top'}
+            index={i}
+            animate={!markersAnimated}
           />
         ))}
         {/* Cluster de categoría */}
