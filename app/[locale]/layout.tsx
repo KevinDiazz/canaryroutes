@@ -1,4 +1,5 @@
 import { locales, defaultLocale, type Locale } from '@/lib/types';
+import { CartProvider } from '@/hooks/use-cart';
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -25,7 +26,9 @@ export default async function LocaleLayout({
           __html: "document.documentElement.lang = '" + locale + "';",
         }}
       />
-      {children}
+      <CartProvider locale={locale}>
+        {children}
+      </CartProvider>
     </>
   );
 }

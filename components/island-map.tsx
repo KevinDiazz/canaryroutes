@@ -11,6 +11,7 @@ import { PoiDetailSheet } from './poi-detail-sheet';
 import { CategoryBubbleNav } from './category-bubble-nav';
 import type { POI, Island, Locale, Section, Municipio } from '@/lib/types';
 import { FILTER_TO_CATEGORY_URL } from '@/lib/categories';
+import { useUiStrings } from '@/lib/ui-strings';
 
 // ── Pinch-zoom helpers ────────────────────────────────────────────────────────
 interface ViewBox { x: number; y: number; w: number; h: number }
@@ -152,11 +153,18 @@ const CHIP_CATEGORIES: Array<{
     match: (p) => p.category === 'hiking' },
   { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: 'Cultura',     color: '#6e42b8',
     match: (p) => p.category === 'culture' },
-  { id: 'activities', icon: '/icons/icons8-activities-48.png', label: 'Actividades', color: '#c47a18',
+  { id: 'activities', icon: '/icons/icons8-activities-48.png', label: 'Actividades', color: '#ff5533',
     match: (p) => ACTIVITIES_CATS.includes(p.category) },
   { id: 'nature',     icon: '/icons/icons8-forest-48.png',  label: 'Naturaleza',  color: '#2ea86e',
     match: (p) => p.category === 'nature' },
 ];
+
+function getCategoryIcon(category: POI['category']): string {
+  const chip = CHIP_CATEGORIES.find(c =>
+    c.id === category || (c.id === 'activities' && ACTIVITIES_CATS.includes(category))
+  );
+  return chip?.icon ?? '/icons/icons8-activities-48.png';
+}
 
 const ISLAND_CONFIGS: Record<Island, {
   path: string;
@@ -264,16 +272,17 @@ interface PoiMarkerProps {
   displayX?: number;
   displayY?: number;
   showPhoto?: boolean;
+  showCategoryIcon?: boolean;
   index?: number;
   animate?: boolean;
 }
 
-function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPhoto, index = 0, animate = true }: PoiMarkerProps) {
+function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPhoto, showCategoryIcon, index = 0, animate = true }: PoiMarkerProps) {
   const computed = getPoiPosition(poi, island);
   const x = displayX ?? computed.x;
   const y = displayY ?? computed.y;
-  const color = CATEGORY_COLORS[poi.category];
-  const R = showPhoto ? 14 : 10;
+  const color = poi.gygTourId ? '#ff5533' : CATEGORY_COLORS[poi.category];
+  const R = (showPhoto || showCategoryIcon) ? 14 : 10;
   const cy = y - R - 8;
   const clipId = `clip-poi-${poi.slug.replace(/[^a-zA-Z0-9]/g, '-')}`;
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
@@ -320,7 +329,7 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
       {/* Pin triangle */}
       <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill={color} />
       {/* Circle background */}
-      <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : (showImage ? shadeColor(color, 0.82) : '#ffffff')} stroke={`url(#poiGradient-${poi.category})`} strokeWidth="2.5" />
+      <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : ((showImage || showCategoryIcon) ? shadeColor(color, 0.82) : '#ffffff')} stroke={`url(#poiGradient-${poi.category})`} strokeWidth="2.5" />
       {showImage && imageReady && (
         <image
           href={markerThumb(poi.images.hero)}
@@ -328,14 +337,21 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
           width={R * 2} height={R * 2}
           clipPath={`url(#${clipId})`}
           preserveAspectRatio="xMidYMid slice"
-          loading="lazy"
           decoding="async"
           onLoad={() => setImageLoaded(true)}
           onError={() => setImageErrored(true)}
           style={{ userSelect: 'none', pointerEvents: 'none', opacity: imageLoaded ? 1 : 0, transition: 'opacity 0.25s' }}
         />
       )}
-      {selected && showPhoto && (
+      {showCategoryIcon && (
+        <image
+          href={getCategoryIcon(poi.category)}
+          x={x - 9} y={cy - 9}
+          width="18" height="18"
+          style={{ userSelect: 'none', pointerEvents: 'none' }}
+        />
+      )}
+      {selected && (showPhoto || showCategoryIcon) && (
         <circle cx={x} cy={cy} r={R + 2} fill="none" stroke="white" strokeWidth="1.5" style={{ pointerEvents: 'none' }} />
       )}
     </g>
@@ -362,11 +378,7 @@ function MunicipioMarker({ municipio, island, count, selected, onClick, displayX
   const R = 14;
   const cy = y - R - 8;
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
-  const heroImage = municipio.images?.hero ?? municipio.heroImage;
-  const clipId = `clip-muni-${municipio.slug.replace(/[^a-zA-Z0-9]/g, '-')}`;
-  const { ready: imageReady, loaded: imageLoaded, setLoaded: setImageLoaded, errored: imageErrored, setErrored: setImageErrored } = useLazyMarkerImage(index);
   const appearDelay = Math.min(index * 50, 900);
-  const showImage = Boolean(heroImage) && !imageErrored;
 
   return (
     <g
@@ -389,43 +401,15 @@ function MunicipioMarker({ municipio, island, count, selected, onClick, displayX
         ...(animate ? { animation: `markerFadeIn 0.3s ease-out ${appearDelay}ms both` } : {}),
       }}
     >
-      {heroImage && (
-        <defs>
-          <clipPath id={clipId}>
-            <circle cx={x} cy={cy} r={R} />
-          </clipPath>
-        </defs>
-      )}
       <ellipse cx={x} cy={y + 3} rx={5} ry={2.5} fill="rgba(15,23,42,0.12)" />
       <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill="#2090c0" />
-      <circle cx={x} cy={cy} r={R + 2} fill={selected ? '#2090c0' : (showImage ? shadeColor('#2090c0', 0.82) : '#ffffff')} stroke="url(#poiGradient-municipio)" strokeWidth="2.5" />
-      {heroImage ? (
-        <>
-          <text x={x} y={cy + 5} textAnchor="middle" fontSize="12"
-            style={{ userSelect: 'none', pointerEvents: 'none', opacity: (imageLoaded && !imageErrored) ? 0 : 1, transition: 'opacity 0.25s' }}>
-            {municipio.emoji ?? '🏘️'}
-          </text>
-          {showImage && imageReady && (
-            <image
-              href={markerThumb(heroImage)}
-              x={x - R} y={cy - R}
-              width={R * 2} height={R * 2}
-              clipPath={`url(#${clipId})`}
-              preserveAspectRatio="xMidYMid slice"
-              loading="lazy"
-              decoding="async"
-              onLoad={() => setImageLoaded(true)}
-              onError={() => setImageErrored(true)}
-              style={{ userSelect: 'none', pointerEvents: 'none', opacity: imageLoaded ? 1 : 0, transition: 'opacity 0.25s' }}
-            />
-          )}
-        </>
-      ) : (
-        <text x={x} y={cy + 5} textAnchor="middle" fontSize="12"
-          style={{ userSelect: 'none', pointerEvents: 'none' }}>
-          {municipio.emoji ?? '🏘️'}
-        </text>
-      )}
+      <circle cx={x} cy={cy} r={R + 2} fill={selected ? '#2090c0' : '#ffffff'} stroke="url(#poiGradient-municipio)" strokeWidth="2.5" />
+      <image
+        href="/icons/icons8-houses-48.png"
+        x={x - 9} y={cy - 9}
+        width="18" height="18"
+        style={{ userSelect: 'none', pointerEvents: 'none' }}
+      />
       {/* count badge */}
       <circle cx={x + R - 1} cy={cy - R + 1} r={8} fill="#FFAD5C" />
       <text x={x + R - 1} y={cy - R + 4} textAnchor="middle" fontSize="7"
@@ -509,10 +493,10 @@ interface IslandMapProps {
 }
 
 export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosByIsland, initialIsland = 'gran-canaria', initialFilter, islandName, showLanguageSwitcher = true }: IslandMapProps) {
+  const t = useUiStrings(locale);
   const router = useRouter();
   const [activeIsland, setActiveIsland] = useState<Island>(initialIsland);
   const [selectedPoi, setSelectedPoi] = useState<POI | null>(null);
-  const [notification, setNotification] = useState<{ msg: string; poi?: POI } | null>(null);
   const [cartOpen, setCartOpen] = useState(false);
   const [activeFilter, setActiveFilter] = useState<string | null>(initialFilter ?? 'top');
   const [activeSectionId, setActiveSectionId] = useState<string | null>(null);
@@ -791,11 +775,6 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     }
   }, [locale, activeIsland, activeFilter]);
 
-  const showNotification = useCallback((msg: string, poi?: POI) => {
-    setNotification({ msg, poi });
-    setTimeout(() => setNotification(null), 2800);
-  }, []);
-
   const handleCloseSheet = useCallback(() => {
     setSelectedPoi(null);
     setActiveSectionId(null);
@@ -863,9 +842,8 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   }, [mapPois, municipios, activeIsland]);
 
   const handleAddToCart = useCallback((poi: POI) => {
-    const result = cart.addPoi(poi);
-    showNotification(result.message, result.success ? poi : undefined);
-  }, [cart, showNotification]);
+    cart.addPoi(poi);
+  }, [cart]);
 
   return (
     <div style={{
@@ -1025,7 +1003,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             onClick={() => handlePoiClick(poi)}
             displayX={adjustedPositions[poi.slug]?.x}
             displayY={adjustedPositions[poi.slug]?.y}
-            showPhoto={activeFilter === 'top'}
+            showCategoryIcon={activeFilter === 'top'}
             index={i}
             animate={!markersAnimated}
           />
@@ -1073,8 +1051,8 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           }}>
             {/* Botones de acción */}
             {([
-              { id: 'municipios', icon: '/icons/icons8-houses-48.png', label: 'Municipios' },
-              { id: 'top',        icon: '/icons/icons8-star-48.png',   label: 'Top'        },
+              { id: 'municipios', icon: '/icons/icons8-houses-48.png', label: t.chips.municipios },
+              { id: 'top',        icon: '/icons/icons8-star-48.png',   label: t.chips.top        },
             ] as const).map(btn => {
               const isActive = activeFilter === btn.id;
               return (
@@ -1139,11 +1117,11 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           margin: '0 auto',
         }}>
           {([
-            { id: 'beach',      icon: '/icons/icons8-beach-48.png',      label: 'Playas',      color: '#2090c0' },
-            { id: 'hiking',     icon: '/icons/icons8-hiking-48.png',     label: 'Senderos',    color: '#2a9e60' },
-            { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: 'Cultura',     color: '#6e42b8' },
-            { id: 'activities', icon: '/icons/icons8-activities-48.png', label: 'Actividades', color: '#c47a18' },
-            { id: 'nature',     icon: '/icons/icons8-forest-48.png',     label: 'Naturaleza',  color: '#2ea86e' },
+            { id: 'beach',      icon: '/icons/icons8-beach-48.png',      label: t.chips.beach,      color: '#2090c0' },
+            { id: 'hiking',     icon: '/icons/icons8-hiking-48.png',     label: t.chips.hiking,     color: '#2a9e60' },
+            { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: t.chips.culture,    color: '#6e42b8' },
+            { id: 'activities', icon: '/icons/icons8-activities-48.png', label: t.chips.activities, color: '#ff5533' },
+            { id: 'nature',     icon: '/icons/icons8-forest-48.png',     label: t.chips.nature,     color: '#2ea86e' },
           ] as const).map(chip => {
             const isActive = activeFilter === chip.id;
             return (
@@ -1225,76 +1203,6 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         </div>
       )}
 
-      {/* Toast notification */}
-      {notification && (
-        <div style={{
-          position: 'fixed',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          zIndex: 300,
-          pointerEvents: 'none',
-        }}>
-          <style>{`
-            @keyframes toastIn {
-              from { opacity: 0; transform: translateY(16px) scale(0.95); }
-              to   { opacity: 1; transform: translateY(0) scale(1); }
-            }
-          `}</style>
-          <div style={{ animation: 'toastIn 0.3s cubic-bezier(0.34,1.56,0.64,1) both' }}>
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            background: 'white',
-            borderRadius: '16px',
-            boxShadow: '0 8px 32px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.08)',
-            padding: '12px 20px 12px 12px',
-            border: '1px solid rgba(0,0,0,0.06)',
-            minWidth: '300px',
-            maxWidth: '340px',
-          }}>
-            {/* Foto del POI */}
-            {notification.poi?.images?.hero && (
-              <div style={{
-                width: '44px', height: '44px', borderRadius: '10px',
-                overflow: 'hidden', flexShrink: 0,
-              }}>
-                <img
-                  src={notification.poi.images.hero}
-                  alt=""
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                />
-              </div>
-            )}
-            {/* Texto */}
-            <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{
-                fontSize: '11px', fontWeight: '700', textTransform: 'uppercase',
-                letterSpacing: '0.06em', color: '#1f9d61',
-                fontFamily: "'JetBrains Mono', monospace",
-                marginBottom: '2px',
-                display: 'flex', alignItems: 'center', gap: '5px',
-              }}>
-              
-                {notification.poi ? '✓ Añadido a tu ruta' : notification.msg}
-                 <img src="/icons/icons8-car-53.png" alt="" style={{ width: '16px', height: '16px', objectFit: 'contain' }} />
-              </div>
-              {notification.poi && (
-                <div style={{
-                  fontSize: '14px', fontWeight: '700', color: '#1f2937',
-                  fontFamily: "'Outfit', sans-serif",
-                  whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
-                }}>
-                  {notification.poi.name}
-                </div>
-              )}
-            </div>
-          </div>
-          </div>
-        </div>
-      )}
-
       {/* Bottom sheet — detalle del POI seleccionado */}
       {selectedPoi && (
         <PoiDetailSheet
@@ -1322,7 +1230,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       )}
 
       {/* Cart panel */}
-      <CartPanel cart={cart} isOpen={cartOpen} onClose={() => setCartOpen(false)} />
+      <CartPanel cart={cart} isOpen={cartOpen} onClose={() => setCartOpen(false)} locale={locale} />
 
     </div>
   );

@@ -35,6 +35,10 @@ export interface POI {
   visitDuration?: string;
   difficulty?: 'easy' | 'moderate' | 'hard';
   emoji?: string;
+  /** GetYourGuide tour ID — when present, the POI sheet shows a booking widget */
+  gygTourId?: string;
+  /** Full GetYourGuide affiliate URL for the "Reservar" button */
+  gygUrl?: string;
   /** When true, the POI appears only in section cards — not as a map marker */
   sectionOnly?: boolean;
   /** Slug of the municipality this POI belongs to (e.g. "las-palmas", "mogan") */

@@ -31,6 +31,8 @@ const POISchema = z.object({
   visitDuration: z.string().optional(),
   difficulty: z.enum(['easy', 'moderate', 'hard']).optional(),
   emoji: z.string().optional(),
+  gygTourId: z.string().optional(),
+  gygUrl: z.string().optional(),
 });
 
 const RouteSchema = z.object({

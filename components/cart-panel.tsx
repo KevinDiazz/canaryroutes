@@ -3,14 +3,18 @@ import { CartItem } from './cart-item';
 import { openMapsFromCurrentLocation } from '@/services/maps-service';
 import { useState } from 'react';
 import type { CartState } from '@/hooks/use-cart';
+import type { Locale } from '@/lib/types';
+import { useUiStrings } from '@/lib/ui-strings';
 
 interface CartPanelProps {
   cart: CartState;
   isOpen: boolean;
   onClose: () => void;
+  locale: Locale;
 }
 
-export function CartPanel({ cart, isOpen, onClose }: CartPanelProps) {
+export function CartPanel({ cart, isOpen, onClose, locale }: CartPanelProps) {
+  const t = useUiStrings(locale);
   const [isLoading, setIsLoading] = useState(false);
 
   const handleOpenMaps = async () => {
@@ -81,7 +85,7 @@ export function CartPanel({ cart, isOpen, onClose }: CartPanelProps) {
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <h3 style={{ margin: 0, fontSize: '20px', fontWeight: '700', color: '#1f2937', fontFamily: "'Outfit', sans-serif" }}>
-              Mi Ruta
+              {t.cart.title}
             </h3>
             <img src="/icons/icons8-car-53.png" alt="" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
           </div>
@@ -117,8 +121,8 @@ export function CartPanel({ cart, isOpen, onClose }: CartPanelProps) {
               flexDirection: "column",
               alignItems: "center"
             }}>
-              <p style={{ margin: 0, fontSize: '15px', fontFamily: "'Outfit', sans-serif", fontWeight: '600', color: '#6b7280' }}>Tu ruta está vacía</p>
-              <p style={{ margin: '6px 0 0', fontSize: '13px', fontFamily: "'Inter', sans-serif", color: '#9ca3af' }}>Toca un punto en el mapa<br />para añadirlo aquí</p>
+              <p style={{ margin: 0, fontSize: '15px', fontFamily: "'Outfit', sans-serif", fontWeight: '600', color: '#6b7280' }}>{t.cart.empty}</p>
+              <p style={{ margin: '6px 0 0', fontSize: '13px', fontFamily: "'Inter', sans-serif", color: '#9ca3af', whiteSpace: 'pre-line' }}>{t.cart.emptyHint}</p>
               <img src="/icons/icons8-car-53.png" alt="" style={{ width: '48px', height: '48px', objectFit: 'contain', opacity: 0.3, marginBottom: '12px' }} />
             </div>
           ) : (
@@ -160,10 +164,10 @@ export function CartPanel({ cart, isOpen, onClose }: CartPanelProps) {
               }}
             >
               <img src="/icons/icons8-location-48.png" alt="" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
-              <span>{isLoading ? 'Cargando...' : 'Abrir en Google Maps'}</span>
+              <span>{isLoading ? t.cart.loading : t.cart.openMaps}</span>
             </button>
             <p style={{ margin: '8px 0 0', fontSize: '12px', color: '#9ca3af', textAlign: 'center' }}>
-              {cart.count} parada{cart.count > 1 ? 's' : ''}
+              {cart.count} {cart.count === 1 ? t.cart.stop : t.cart.stops}
             </p>
           </div>
         )}

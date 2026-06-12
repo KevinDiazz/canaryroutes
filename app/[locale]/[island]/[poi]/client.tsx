@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { PoiDetailSheet } from '@/components/poi-detail-sheet';
 import type { POI, Locale, Island } from '@/lib/types';
@@ -18,6 +18,14 @@ export function PoiDetailPageClient({ poi, pois, locale, island, backUrl }: Prop
   const router = useRouter();
   const cart = useCart();
   const [selectedPoi, setSelectedPoi] = useState<POI>(poi);
+
+  // Si Next.js conserva esta instancia del cliente al cambiar de idioma
+  // (navegación suave dentro de [locale]/layout), `poi` llega actualizado
+  // con los datos/fotos del nuevo idioma pero `selectedPoi` quedaría
+  // anclado al valor inicial. Lo resincronizamos cuando cambia el slug.
+  useEffect(() => {
+    setSelectedPoi(poi);
+  }, [poi]);
 
   const handleClose = useCallback(() => {
     router.push(backUrl ?? `/${locale}/${island}`);

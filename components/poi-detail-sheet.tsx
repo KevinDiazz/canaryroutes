@@ -2,6 +2,9 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import type { POI, Locale } from '@/lib/types';
 import type { CartState } from '@/hooks/use-cart';
+import { useUiStrings } from '@/lib/ui-strings';
+import { AvailabilityWidget } from '@/components/affiliate/availability-widget';
+import { GYG_PARTNER_ID } from '@/lib/affiliates';
 
 const CATEGORY_COLORS: Record<POI['category'], string> = {
   nature: '#2ea86e',
@@ -12,6 +15,14 @@ const CATEGORY_COLORS: Record<POI['category'], string> = {
   food: '#c44038',
   other: '#5a7a90',
 };
+
+// Color especial para POIs de actividad (con widget de GetYourGuide)
+const ACTIVITY_COLOR = '#ff5533';
+const ACTIVITY_COLOR_DARK = '#dd431f';
+
+function getPoiColor(poi: POI): string {
+  return poi.gygTourId ? ACTIVITY_COLOR : CATEGORY_COLORS[poi.category];
+}
 
 const CATEGORY_LABELS: Record<POI['category'], string> = {
   nature: 'Naturaleza',
@@ -79,7 +90,7 @@ function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps)
     }}>
       {pois.map((poi) => {
         const isActive = poi.slug === activePoi.slug;
-        const ringColor = CATEGORY_COLORS[poi.category];
+        const ringColor = getPoiColor(poi);
         return (
           <button
             key={poi.slug}
@@ -368,10 +379,11 @@ export function PoiDetailSheet({
   onClose,
   cart,
   onAddToCart,
-  locale: _locale,
+  locale,
   sectionContext,
 }: PoiDetailSheetProps) {
-  const color = CATEGORY_COLORS[selectedPoi.category];
+  const t = useUiStrings(locale);
+  const color = getPoiColor(selectedPoi);
   const inCart = cart.items.some(i => i.slug === selectedPoi.slug);
   const canRoute = hasCoordinates(selectedPoi);
   const [showTranscript, setShowTranscript] = useState(false);
@@ -457,7 +469,7 @@ export function PoiDetailSheet({
           <div className="bubbles-left-sidebar">
             {pois.map((poi, idx) => {
               const isActive = poi.slug === selectedPoi.slug;
-              const ringColor = CATEGORY_COLORS[poi.category];
+              const ringColor = getPoiColor(poi);
               return (
                 <button key={poi.slug} onClick={() => onPoiChange(poi)} style={{
                   display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
@@ -518,7 +530,7 @@ export function PoiDetailSheet({
             <div className="bubbles-top" style={{ scrollbarWidth: 'none' }}>
               {pois.map((poi, idx) => {
                 const isActive = poi.slug === selectedPoi.slug;
-                const ringColor = CATEGORY_COLORS[poi.category];
+                const ringColor = getPoiColor(poi);
                 return (
                   <button key={poi.slug} onClick={() => onPoiChange(poi)} style={{
                     display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
@@ -587,7 +599,7 @@ export function PoiDetailSheet({
             padding: '4px 16px 10px',
             display: 'flex', alignItems: 'flex-start', gap: '10px',
             borderBottom: `1px solid ${color}22`,
-            marginTop: "5px"
+            marginTop: "5px",
           }}>
             <div style={{ flex: 1, minWidth: 0 }}>
               <h2 style={{
@@ -617,12 +629,28 @@ export function PoiDetailSheet({
             style={{
               flex: 1,
               background: `linear-gradient(135deg, ${color}33, ${color}11)`,
-              overflow: 'hidden',
+              overflow: selectedPoi.gygTourId ? 'auto' : 'hidden',
+              display: 'flex',
+              flexDirection: 'column',
+              minHeight: 0,
             }}
           >
-            {contentReady && (showTranscript && selectedPoi.audioTranscript
-              ? <TranscriptPanel html={selectedPoi.audioTranscript} color={color} />
-              : <PhotoGallery poi={selectedPoi} color={color} />)}
+            {contentReady && selectedPoi.gygTourId ? (
+              <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', WebkitOverflowScrolling: 'touch', background: 'white' }}>
+                <div style={{ padding: '14px 16px' }}>
+                  <div style={{
+                    fontSize: '10px', fontWeight: 700, color: '#64748b',
+                    letterSpacing: '0.1em', textTransform: 'uppercase',
+                    fontFamily: "'JetBrains Mono', monospace", marginBottom: '8px',
+                  }}>{t.sheet.bookExperience}</div>
+                  <AvailabilityWidget tourId={selectedPoi.gygTourId} locale={locale} variant="vertical" />
+                </div>
+              </div>
+            ) : (
+              contentReady && (showTranscript && selectedPoi.audioTranscript
+                ? <TranscriptPanel html={selectedPoi.audioTranscript} color={color} />
+                : <PhotoGallery poi={selectedPoi} color={color} />)
+            )}
           </div>
 
           {/* Barra inferior: 80% texto preview + 20% botón LEER */}
@@ -663,7 +691,7 @@ export function PoiDetailSheet({
                 flex: '0 0 20%',
                 border: 'none',
                 borderLeft: `2px solid ${color}22`,
-                background: color,
+                background: selectedPoi.gygTourId ? ACTIVITY_COLOR_DARK : color,
                 color: 'white',
                 cursor: 'pointer',
                 display: 'flex', flexDirection: 'column',
@@ -678,7 +706,7 @@ export function PoiDetailSheet({
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <polyline points="6 9 12 15 18 9" />
               </svg>
-              LEER
+              {t.sheet.read}
             </button>
           </div>
 
@@ -721,7 +749,7 @@ export function PoiDetailSheet({
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="18 15 12 9 6 15" />
                 </svg>
-                CERRAR
+                {t.sheet.close}
               </button>
             </div>
 
@@ -785,7 +813,7 @@ export function PoiDetailSheet({
                 }}
               >
                 <img src="/icons/icons8-track-order-64.png" alt="" style={{ width: '20px', height: '22px', objectFit: 'contain' }} />
-                VER RECORRIDO
+                {t.sheet.viewTrail}
                 {selectedPoi.track.distance && (
                   <span style={{
                     background: '#facc50', padding: '2px 8px',
@@ -800,40 +828,62 @@ export function PoiDetailSheet({
             )}
 
             {canRoute && <div style={{ display: 'flex', gap: '10px' }}>
-              <button onClick={openMaps} className="poi-btn" style={{
-                flex: 1, padding: '12px', borderRadius: '14px',
-                border: 'none', background: color, color: 'white',
-                fontSize: '12px', fontWeight: 700, cursor: 'pointer',
-                fontFamily: "'JetBrains Mono', monospace",
-                display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-                boxShadow: `0 4px 14px ${color}55`,
-                letterSpacing: '0.04em', textTransform: 'uppercase',
-              }}>
-                <img src="/icons/icons8-location-48.png" alt="" style={{ width: '30px', height: '30px', objectFit: 'contain' }} />
-                Abrir Maps
-              </button>
-              <button
-                onClick={() => onAddToCart(selectedPoi)}
-                disabled={inCart}
-                className="poi-btn"
-                style={{
-                  flex: 1, padding: '12px', borderRadius: '14px', border: 'none',
-                  background: inCart ? '#d1fae5' : '#1f9d61',
-                  color: inCart ? '#059669' : 'white',
-                  fontWeight: 700, fontSize: '12px',
-                  cursor: inCart ? 'default' : 'pointer',
-                  fontFamily: "'JetBrains Mono', monospace",
-                  display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-                  transition: 'background 0.2s',
-                  boxShadow: inCart ? 'none' : '0 4px 14px rgba(31,157,97,0.28)',
-                  letterSpacing: '0.04em', textTransform: 'uppercase',
-                }}
-              >
-                {inCart
-                  ? '✓ En tu ruta'
-                  : <><span style={{ fontSize: '18px', lineHeight: 1, fontWeight: 800 }}>+</span>Mi Ruta<img src="/icons/icons8-car-53.png" alt="" style={{ width: '30px', height: '30px', objectFit: 'contain' }} /></>
-                }
-              </button>
+              {selectedPoi.gygTourId ? (
+                <a
+                  href={selectedPoi.gygUrl ?? `https://www.getyourguide.com/-t${selectedPoi.gygTourId}/?partner_id=${GYG_PARTNER_ID}`}
+                  target="_blank"
+                  rel="sponsored noopener"
+                  className="poi-btn"
+                  style={{
+                    flex: 1, padding: '12px', borderRadius: '14px',
+                    border: 'none', background: color, color: 'white',
+                    fontSize: '12px', fontWeight: 700, cursor: 'pointer',
+                    fontFamily: "'JetBrains Mono', monospace",
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                    boxShadow: `0 4px 14px ${color}55`,
+                    letterSpacing: '0.04em', textTransform: 'uppercase',
+                    textDecoration: 'none',
+                  }}>
+                  🎟️ {t.sheet.book}
+                </a>
+              ) : (
+                <>
+                  <button onClick={openMaps} className="poi-btn" style={{
+                    flex: 1, padding: '12px', borderRadius: '14px',
+                    border: 'none', background: color, color: 'white',
+                    fontSize: '12px', fontWeight: 700, cursor: 'pointer',
+                    fontFamily: "'JetBrains Mono', monospace",
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                    boxShadow: `0 4px 14px ${color}55`,
+                    letterSpacing: '0.04em', textTransform: 'uppercase',
+                  }}>
+                    <img src="/icons/icons8-location-48.png" alt="" style={{ width: '30px', height: '30px', objectFit: 'contain' }} />
+                    {t.sheet.openMaps}
+                  </button>
+                  <button
+                    onClick={() => onAddToCart(selectedPoi)}
+                    disabled={inCart}
+                    className="poi-btn"
+                    style={{
+                      flex: 1, padding: '12px', borderRadius: '14px', border: 'none',
+                      background: inCart ? '#d1fae5' : '#1f9d61',
+                      color: inCart ? '#059669' : 'white',
+                      fontWeight: 700, fontSize: '12px',
+                      cursor: inCart ? 'default' : 'pointer',
+                      fontFamily: "'JetBrains Mono', monospace",
+                      display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                      transition: 'background 0.2s',
+                      boxShadow: inCart ? 'none' : '0 4px 14px rgba(31,157,97,0.28)',
+                      letterSpacing: '0.04em', textTransform: 'uppercase',
+                    }}
+                  >
+                    {inCart
+                      ? t.sheet.inRoute
+                      : <><span style={{ fontSize: '18px', lineHeight: 1, fontWeight: 800 }}>+</span>{t.sheet.addRoute}<img src="/icons/icons8-car-53.png" alt="" style={{ width: '30px', height: '30px', objectFit: 'contain' }} /></>
+                    }
+                  </button>
+                </>
+              )}
             </div>}
           </div>
         )}

@@ -2328,6 +2328,72 @@
       "sectionOnly": false,
       "municipio": "aguimes",
       "top": false
+    },
+    {
+      "slug": "crucero-catamaran-puerto-rico",
+      "name": "Catamaran cruise from Puerto Rico",
+      "description": "Set sail from Puerto Rico on a catamaran to look for dolphins and whales in the Atlantic. Stop at a quiet cove for a swim, snorkelling and a drink on board.",
+      "shortDescription": "Catamaran cruise to spot dolphins, with a snorkel stop near Mogán",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.7916,
+        "lng": -15.7186
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/catamaran-puerto-rico.avif",
+        "gallery": [
+          "/images/gran-canaria/actividades/catamaran-puerto-rico.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "catamaran",
+        "delfines",
+        "snorkel",
+        "barco",
+        "mogan"
+      ],
+      "visitDuration": "3.5h",
+      "emoji": "🐬",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "gygTourId": "430098",
+      "gygUrl": "https://www.getyourguide.com/gran-canaria-l418/gran-canaria-crucero-en-catamaran-con-parada-para-hacer-snorkel-t430098/?partner_id=RRMXJXQ"
+    },
+    {
+      "slug": "buggy-valle-ayagaures",
+      "name": "Off-road buggy adventure in Ayagaures Valley",
+      "description": "Drive a buggy along dirt tracks through Ayagaures Valley, with views of the reservoir and mountains of southern Gran Canaria. Guided 2h route through canyons, viewpoints and villages.",
+      "shortDescription": "Guided buggy ride through mountain tracks and reservoirs in southern Gran Canaria",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.8932,
+        "lng": -15.5889
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/buggy-ayagaures.avif",
+        "gallery": [
+          "/images/gran-canaria/actividades/buggy-ayagaures.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "buggy",
+        "aventura",
+        "ayagaures",
+        "todoterreno",
+        "adrenalina"
+      ],
+      "visitDuration": "2h",
+      "emoji": "🚙",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "gygTourId": "212850",
+      "gygUrl": "https://www.getyourguide.com/gran-canaria-l418/gran-canaria-aventura-en-buggy-todoterreno-por-los-canones-t212850/?partner_id=RRMXJXQ"
     }
   ],
   "municipios": [
