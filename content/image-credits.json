@@ -1,0 +1,56 @@
+{
+  "/images/gran-canaria/sendero/guayadeque-1.avif": {
+    "alt": "Vista panorámica del Barranco de Guayadeque desde el mirador",
+    "width": 1600,
+    "height": 1067,
+    "title": "Tilos de Moya264.JPG",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "María González",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:MariaGonzalez",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_Guayadeque.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa_del_ingles_gran_canaria.jpg": {
+    "alt": "Vista general de la Playa del Inglés en Gran Canaria, Islas Canarias",
+    "width": 1600,
+    "height": 1200,
+    "title": "Playa del ingles gran canaria.jpg",
+    "sourceName": "Wikimedia Commons",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "chris.swiss",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_del_ingles_gran_canaria.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": false
+    }
+  },
+  "/images/gran-canaria/sendero/guayadeque-2.avif": {
+    "alt": "Cuevas habitadas en el Barranco de Guayadeque",
+    "width": 1200,
+    "height": 800,
+    "sourceName": "Flickr",
+    "license": {
+      "type": "CC-BY-4.0",
+      "author": "Carlos Pérez",
+      "sourceUrl": "https://www.flickr.com/photos/carlosperez/123456789",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": false
+    }
+  },
+  "/images/gran-canaria/sendero/guayadeque-3.avif": {
+    "alt": "Sendero señalizado en el Barranco de Guayadeque",
+    "width": 1200,
+    "height": 800,
+    "license": {
+      "type": "CC0",
+      "author": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guayadeque_trail.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  }
+}

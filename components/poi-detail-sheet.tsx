@@ -5,6 +5,8 @@ import type { CartState } from '@/hooks/use-cart';
 import { useUiStrings } from '@/lib/ui-strings';
 import { AvailabilityWidget } from '@/components/affiliate/availability-widget';
 import { GYG_PARTNER_ID } from '@/lib/affiliates';
+import { getCreditForPhoto, PhotoCreditLine } from '@/components/photo-credits-carousel';
+import type { PhotoCreditGroup } from '@/lib/image-credits';
 
 const CATEGORY_COLORS: Record<POI['category'], string> = {
   nature: '#2ea86e',
@@ -168,9 +170,10 @@ function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps)
 interface PhotoGalleryProps {
   poi: POI;
   color: string;
+  onActivePhotoChange?: (index: number) => void;
 }
 
-function PhotoGallery({ poi, color }: PhotoGalleryProps) {
+function PhotoGallery({ poi, color, onActivePhotoChange }: PhotoGalleryProps) {
   const [activePhoto, setActivePhoto] = useState(0);
   const [hasError, setHasError] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -187,6 +190,11 @@ function PhotoGallery({ poi, color }: PhotoGalleryProps) {
     setIsLoaded(false);
     setPrevSrc(null);
   }, [poi.slug]);
+
+  // Notifica al padre qué foto está activa (para mostrar su crédito)
+  useEffect(() => {
+    onActivePhotoChange?.(activePhoto);
+  }, [activePhoto, onActivePhotoChange]);
 
   // Al cambiar foto, comprueba caché
   useEffect(() => {
@@ -370,6 +378,7 @@ interface PoiDetailSheetProps {
     emoji: string;
     color: string;
   };
+  photoCreditGroups?: PhotoCreditGroup[];
 }
 
 export function PoiDetailSheet({
@@ -381,6 +390,7 @@ export function PoiDetailSheet({
   onAddToCart,
   locale,
   sectionContext,
+  photoCreditGroups,
 }: PoiDetailSheetProps) {
   const t = useUiStrings(locale);
   const color = getPoiColor(selectedPoi);
@@ -388,6 +398,7 @@ export function PoiDetailSheet({
   const canRoute = hasCoordinates(selectedPoi);
   const [showTranscript, setShowTranscript] = useState(false);
   const [textExpanded, setTextExpanded] = useState(false);
+  const [activePhotoIndex, setActivePhotoIndex] = useState(0);
 
   // Difiere contenido pesado al frame siguiente para no bloquear la animación CSS
   const [contentReady, setContentReady] = useState(false);
@@ -402,6 +413,7 @@ export function PoiDetailSheet({
   useEffect(() => {
     setShowTranscript(false);
     setTextExpanded(false);
+    setActivePhotoIndex(0);
   }, [selectedPoi.slug]);
 
   const sheetRef = useRef<HTMLDivElement>(null);
@@ -649,9 +661,25 @@ export function PoiDetailSheet({
             ) : (
               contentReady && (showTranscript && selectedPoi.audioTranscript
                 ? <TranscriptPanel html={selectedPoi.audioTranscript} color={color} />
-                : <PhotoGallery poi={selectedPoi} color={color} />)
+                : <PhotoGallery poi={selectedPoi} color={color} onActivePhotoChange={setActivePhotoIndex} />)
             )}
           </div>
+
+          {/* Créditos fotográficos — de la foto activa del carrusel, justo debajo de la foto */}
+          {contentReady && photoCreditGroups && (() => {
+            const activeCredit = getCreditForPhoto(photoCreditGroups, activePhotoIndex);
+            if (!activeCredit) return null;
+            return (
+              <div style={{
+                flexShrink: 0,
+                padding: '8px 16px',
+                borderTop: `1px solid ${color}14`,
+                background: 'white',
+              }}>
+                <PhotoCreditLine group={activeCredit} locale={locale} />
+              </div>
+            );
+          })()}
 
           {/* Barra inferior: 80% texto preview + 20% botón LEER */}
           <div style={{

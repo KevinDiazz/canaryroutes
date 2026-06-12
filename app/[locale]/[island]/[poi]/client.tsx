@@ -4,6 +4,7 @@ import { useState, useCallback, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { PoiDetailSheet } from '@/components/poi-detail-sheet';
 import type { POI, Locale, Island } from '@/lib/types';
+import type { PhotoCreditGroup } from '@/lib/image-credits';
 import { useCart } from '@/hooks/use-cart';
 
 interface Props {
@@ -12,9 +13,10 @@ interface Props {
   locale: Locale;
   island: Island;
   backUrl?: string;
+  photoCreditGroups?: PhotoCreditGroup[];
 }
 
-export function PoiDetailPageClient({ poi, pois, locale, island, backUrl }: Props) {
+export function PoiDetailPageClient({ poi, pois, locale, island, backUrl, photoCreditGroups }: Props) {
   const router = useRouter();
   const cart = useCart();
   const [selectedPoi, setSelectedPoi] = useState<POI>(poi);
@@ -54,6 +56,7 @@ export function PoiDetailPageClient({ poi, pois, locale, island, backUrl }: Prop
       cart={cart}
       onAddToCart={handleAddToCart}
       locale={locale}
+      photoCreditGroups={selectedPoi.slug === poi.slug ? photoCreditGroups : undefined}
     />
   );
 }

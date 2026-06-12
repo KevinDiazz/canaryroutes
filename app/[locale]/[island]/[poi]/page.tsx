@@ -8,6 +8,7 @@ import { IslandMap } from '@/components/island-map';
 import { ALL_CATEGORY_SLUGS, CATEGORY_URL_TO_FILTER, CATEGORY_LABELS, POI_CATEGORY_TO_SLUG } from '@/lib/categories';
 import { TouristAttractionJsonLd, BreadcrumbJsonLd } from '@/components/json-ld';
 import { Breadcrumb } from '@/components/breadcrumb';
+import { getPhotoCredits } from '@/lib/image-credits';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
@@ -282,7 +283,13 @@ export default async function SlugPage({
         { name: poi.name, href: '/' + locale + '/' + island + '/' + poiCategorySlug + '/' + poi.slug },
       ]} />
       <div className="app-shell" style={{ height: '100svh' }}>
-        <PoiDetailPageClient poi={poi} pois={pois} locale={locale} island={island} />
+        <PoiDetailPageClient
+          poi={poi}
+          pois={pois}
+          locale={locale}
+          island={island}
+          photoCreditGroups={getPhotoCredits(poi.images)}
+        />
       </div>
     </div>
   );

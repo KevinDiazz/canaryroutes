@@ -7,6 +7,7 @@ import { PoiDetailPageClient } from '../client';
 import { ALL_CATEGORY_SLUGS, CATEGORY_URL_TO_FILTER, CATEGORY_LABELS } from '@/lib/categories';
 import { TouristAttractionJsonLd, BreadcrumbJsonLd } from '@/components/json-ld';
 import { Breadcrumb } from '@/components/breadcrumb';
+import { getPhotoCredits } from '@/lib/image-credits';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
@@ -122,6 +123,7 @@ export default async function CategoryPoiPage({
           locale={locale}
           island={island}
           backUrl={`/${locale}/${island}/${categorySlug}`}
+          photoCreditGroups={getPhotoCredits(poi.images)}
         />
       </div>
     </div>
