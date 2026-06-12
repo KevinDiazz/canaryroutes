@@ -237,7 +237,8 @@ function useLazyMarkerImage(index: number) {
   // lista lo antes posible cuando el marcador aparece.
   void index;
   const [loaded, setLoaded] = useState(false);
-  return { ready: true, loaded, setLoaded };
+  const [errored, setErrored] = useState(false);
+  return { ready: true, loaded, setLoaded, errored, setErrored };
 }
 
 // Las fotos "hero" son de alta resolución (para la card de detalle). Para los
@@ -276,8 +277,9 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
   const cy = y - R - 8;
   const clipId = `clip-poi-${poi.slug.replace(/[^a-zA-Z0-9]/g, '-')}`;
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
-  const { ready: imageReady, loaded: imageLoaded, setLoaded: setImageLoaded } = useLazyMarkerImage(index);
+  const { ready: imageReady, loaded: imageLoaded, setLoaded: setImageLoaded, errored: imageErrored, setErrored: setImageErrored } = useLazyMarkerImage(index);
   const appearDelay = Math.min(index * 50, 900);
+  const showImage = showPhoto && !imageErrored;
 
   return (
     <g
@@ -318,8 +320,8 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
       {/* Pin triangle */}
       <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill={color} />
       {/* Circle background */}
-      <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : (showPhoto ? shadeColor(color, 0.82) : '#ffffff')} stroke={`url(#poiGradient-${poi.category})`} strokeWidth="2.5" />
-      {showPhoto && imageReady && (
+      <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : (showImage ? shadeColor(color, 0.82) : '#ffffff')} stroke={`url(#poiGradient-${poi.category})`} strokeWidth="2.5" />
+      {showImage && imageReady && (
         <image
           href={markerThumb(poi.images.hero)}
           x={x - R} y={cy - R}
@@ -329,6 +331,7 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
           loading="lazy"
           decoding="async"
           onLoad={() => setImageLoaded(true)}
+          onError={() => setImageErrored(true)}
           style={{ userSelect: 'none', pointerEvents: 'none', opacity: imageLoaded ? 1 : 0, transition: 'opacity 0.25s' }}
         />
       )}
@@ -361,8 +364,9 @@ function MunicipioMarker({ municipio, island, count, selected, onClick, displayX
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
   const heroImage = municipio.images?.hero ?? municipio.heroImage;
   const clipId = `clip-muni-${municipio.slug.replace(/[^a-zA-Z0-9]/g, '-')}`;
-  const { ready: imageReady, loaded: imageLoaded, setLoaded: setImageLoaded } = useLazyMarkerImage(index);
+  const { ready: imageReady, loaded: imageLoaded, setLoaded: setImageLoaded, errored: imageErrored, setErrored: setImageErrored } = useLazyMarkerImage(index);
   const appearDelay = Math.min(index * 50, 900);
+  const showImage = Boolean(heroImage) && !imageErrored;
 
   return (
     <g
@@ -394,14 +398,14 @@ function MunicipioMarker({ municipio, island, count, selected, onClick, displayX
       )}
       <ellipse cx={x} cy={y + 3} rx={5} ry={2.5} fill="rgba(15,23,42,0.12)" />
       <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill="#2090c0" />
-      <circle cx={x} cy={cy} r={R + 2} fill={selected ? '#2090c0' : (heroImage ? shadeColor('#2090c0', 0.82) : '#ffffff')} stroke="url(#poiGradient-municipio)" strokeWidth="2.5" />
+      <circle cx={x} cy={cy} r={R + 2} fill={selected ? '#2090c0' : (showImage ? shadeColor('#2090c0', 0.82) : '#ffffff')} stroke="url(#poiGradient-municipio)" strokeWidth="2.5" />
       {heroImage ? (
         <>
           <text x={x} y={cy + 5} textAnchor="middle" fontSize="12"
-            style={{ userSelect: 'none', pointerEvents: 'none', opacity: imageLoaded ? 0 : 1, transition: 'opacity 0.25s' }}>
+            style={{ userSelect: 'none', pointerEvents: 'none', opacity: (imageLoaded && !imageErrored) ? 0 : 1, transition: 'opacity 0.25s' }}>
             {municipio.emoji ?? '🏘️'}
           </text>
-          {imageReady && (
+          {showImage && imageReady && (
             <image
               href={markerThumb(heroImage)}
               x={x - R} y={cy - R}
@@ -411,6 +415,7 @@ function MunicipioMarker({ municipio, island, count, selected, onClick, displayX
               loading="lazy"
               decoding="async"
               onLoad={() => setImageLoaded(true)}
+              onError={() => setImageErrored(true)}
               style={{ userSelect: 'none', pointerEvents: 'none', opacity: imageLoaded ? 1 : 0, transition: 'opacity 0.25s' }}
             />
           )}
