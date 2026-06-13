@@ -101,6 +101,15 @@ export default async function CategoryPoiPage({
   const islandLabel = getIslandDisplayName(island, locale);
   const categoryLabel = CATEGORY_LABELS[categorySlug] ?? categorySlug;
 
+  // Créditos fotográficos de todos los POIs que pueden mostrarse en las
+  // burbujas de navegación, para que el carrusel los muestre al cambiar de POI.
+  const photoCreditsBySlug: Record<string, ReturnType<typeof getPhotoCredits>> = {};
+  for (const p of [poi, ...pois]) {
+    if (!photoCreditsBySlug[p.slug]) {
+      photoCreditsBySlug[p.slug] = getPhotoCredits(p.images);
+    }
+  }
+
   return (
     <div className="desktop-wrapper">
       <TouristAttractionJsonLd poi={poi} island={island} locale={locale} categorySlug={categorySlug} />
@@ -123,7 +132,7 @@ export default async function CategoryPoiPage({
           locale={locale}
           island={island}
           backUrl={`/${locale}/${island}/${categorySlug}`}
-          photoCreditGroups={getPhotoCredits(poi.images)}
+          photoCreditsBySlug={photoCreditsBySlug}
         />
       </div>
     </div>

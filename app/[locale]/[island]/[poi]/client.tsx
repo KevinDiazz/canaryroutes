@@ -13,10 +13,10 @@ interface Props {
   locale: Locale;
   island: Island;
   backUrl?: string;
-  photoCreditGroups?: PhotoCreditGroup[];
+  photoCreditsBySlug?: Record<string, PhotoCreditGroup[]>;
 }
 
-export function PoiDetailPageClient({ poi, pois, locale, island, backUrl, photoCreditGroups }: Props) {
+export function PoiDetailPageClient({ poi, pois, locale, island, backUrl, photoCreditsBySlug }: Props) {
   const router = useRouter();
   const cart = useCart();
   const [selectedPoi, setSelectedPoi] = useState<POI>(poi);
@@ -56,7 +56,7 @@ export function PoiDetailPageClient({ poi, pois, locale, island, backUrl, photoC
       cart={cart}
       onAddToCart={handleAddToCart}
       locale={locale}
-      photoCreditGroups={selectedPoi.slug === poi.slug ? photoCreditGroups : undefined}
+      photoCreditGroups={photoCreditsBySlug?.[selectedPoi.slug]}
     />
   );
 }

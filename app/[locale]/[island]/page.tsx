@@ -1,5 +1,6 @@
 import { locales, islands, type Locale, type Island } from '@/lib/types';
 import { getPOIs, getSections, getMunicipios } from '@/lib/content';
+import { getPhotoCredits, type PhotoCreditGroup } from '@/lib/image-credits';
 import { IslandMap } from '@/components/island-map';
 import { getIslandDisplayName } from '@/lib/i18n';
 import type { Metadata } from 'next';
@@ -92,6 +93,17 @@ export default async function IslandPage({
 
   const islandName = getIslandDisplayName(island, locale);
 
+  // Créditos fotográficos de todos los POIs del mapa, para que la ficha de
+  // detalle (PoiDetailSheet) los muestre también al navegar desde el mapa.
+  const photoCreditsBySlug: Record<string, PhotoCreditGroup[]> = {};
+  for (const islandPois of Object.values(poisByIsland)) {
+    for (const p of islandPois) {
+      if (!photoCreditsBySlug[p.slug]) {
+        photoCreditsBySlug[p.slug] = getPhotoCredits(p.images);
+      }
+    }
+  }
+
   return (
     <div className="desktop-wrapper">
       <div className="app-shell" style={{ height: '100svh' }}>
@@ -102,6 +114,7 @@ export default async function IslandPage({
           municipiosByIsland={municipiosByIsland}
           initialIsland={island}
           islandName={islandName}
+          photoCreditsBySlug={photoCreditsBySlug}
         />
       </div>
     </div>

@@ -10,6 +10,7 @@ import { LanguageSwitcher } from './language-switcher';
 import { PoiDetailSheet } from './poi-detail-sheet';
 import { CategoryBubbleNav } from './category-bubble-nav';
 import type { POI, Island, Locale, Section, Municipio } from '@/lib/types';
+import type { PhotoCreditGroup } from '@/lib/image-credits';
 import { FILTER_TO_CATEGORY_URL } from '@/lib/categories';
 import { useUiStrings } from '@/lib/ui-strings';
 
@@ -490,9 +491,10 @@ interface IslandMapProps {
   initialFilter?: string;
   islandName?: string;
   showLanguageSwitcher?: boolean;
+  photoCreditsBySlug?: Record<string, PhotoCreditGroup[]>;
 }
 
-export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosByIsland, initialIsland = 'gran-canaria', initialFilter, islandName, showLanguageSwitcher = true }: IslandMapProps) {
+export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosByIsland, initialIsland = 'gran-canaria', initialFilter, islandName, showLanguageSwitcher = true, photoCreditsBySlug }: IslandMapProps) {
   const t = useUiStrings(locale);
   const router = useRouter();
   const [activeIsland, setActiveIsland] = useState<Island>(initialIsland);
@@ -1226,6 +1228,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             emoji: activeSection.emoji,
             color: activeSection.color,
           } : undefined}
+          photoCreditGroups={photoCreditsBySlug?.[selectedPoi.slug]}
         />
       )}
 

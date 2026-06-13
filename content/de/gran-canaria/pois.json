@@ -402,9 +402,10 @@
         "lng": -15.428558
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-las-canteras.avif",
+        "hero": "/images/gran-canaria/playas/playa-las-canteras-3.avif",
         "gallery": [
-          "/images/gran-canaria/playas/playa-las-canteras-2.avif"
+          "/images/gran-canaria/playas/playa-las-canteras-2.avif",
+          "/images/gran-canaria/playas/playa-las-canteras.avif"
         ]
       },
       "affiliateLinks": [],
@@ -431,10 +432,9 @@
         "lng": -15.568033
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-del-ingles.avif",
+        "hero": "/images/gran-canaria/playas/playa_del_ingles_gran_canaria.jpg",
         "gallery": [
-          "/images/gran-canaria/playas/playa-del-ingles-2.avif",
-          "/images/gran-canaria/playas/playa_del_ingles_gran_canaria.jpg"
+          "/images/gran-canaria/playas/playa_del_ingles_gran_canaria-3.avif"
         ]
       },
       "affiliateLinks": [],
@@ -462,7 +462,9 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-maspalomas.avif",
-        "gallery": []
+        "gallery": [
+          "/images/gran-canaria/playas/playa-maspalomas-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -490,7 +492,8 @@
       "images": {
         "hero": "/images/gran-canaria/playas/playa-amadores.avif",
         "gallery": [
-          "/images/gran-canaria/playas/playa-amadores-2.avif"
+          "/images/gran-canaria/playas/playa-amadores-2.avif",
+          "/images/gran-canaria/playas/playa-amadores-3.avif"
         ]
       },
       "affiliateLinks": [],
@@ -605,35 +608,6 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tauro.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-tauro-2.avif"
-        ]
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "⚫",
-      "sectionOnly": false,
-      "municipio": "mogan",
-      "top": false
-    },
-    {
-      "slug": "playa-patalavaca",
-      "name": "Playa de Patalavaca",
-      "description": "Zwischen Arguineguín und Anfi del Mar gelegen, ist die **Playa de Patalavaca** ein ruhiger Strand im Süden Gran Canarias, der für sein meist ruhiges Wasser und seine familienfreundliche Atmosphäre bekannt ist. Dank ihrer Lage in einer der sonnigsten Regionen der Insel eignet sie sich hervorragend für einen Strandbesuch zu jeder Jahreszeit.\n\n### Der Besuch\nDie Kombination aus dunklem Sand, geschützten Badebedingungen und einer gepflegten Strandpromenade macht die Playa de Patalavaca zu einer angenehmen Alternative zu den stärker frequentierten Stränden im Süden. Sie ist ideal zum Entspannen, Schwimmen oder um die Aussicht auf die Küste in einer ruhigen und authentischen Umgebung zu genießen.\n\n### Vor dem Besuch\n- 🏖️ Ideal für Familien und entspannte Tage am Meer\n- 🌊 Das Wasser ist während eines Großteils des Jahres ruhig und gut zum Baden geeignet\n- ☀️ Nimm Sonnenschutz und ausreichend Wasser mit, besonders in den Sommermonaten\n- 🍽️ Restaurants und Cafés befinden sich nur wenige Schritte vom Strand entfernt\n\n### Empfehlung\nSpaziere entlang der Küste in Richtung Anfi del Mar oder genieße den Sonnenuntergang über dem Atlantik in einer der angenehmsten und sonnigsten Gegenden Gran Canarias.",
-      "shortDescription": "Die Playa de Patalavaca im Süden Gran Canarias bietet ruhiges Wasser, eine familienfreundliche Atmosphäre und ganzjährig hervorragendes Wetter.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.771729,
-        "lng": -15.687251
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-patalavaca.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -643,7 +617,7 @@
         "gran-canaria"
       ],
       "difficulty": "easy",
-      "emoji": "🏖️",
+      "emoji": "⚫",
       "sectionOnly": false,
       "municipio": "mogan",
       "top": false
@@ -660,9 +634,9 @@
         "lng": -15.694429
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/anfi-del-mar.avif",
+        "hero": "/images/gran-canaria/playas/playa-anfi-del-mar.avif",
         "gallery": [
-          "/images/gran-canaria/playas/anfi-del-mar-2.avif"
+          "/images/gran-canaria/playas/playa-anfi-del-mar-2.avif"
         ]
       },
       "affiliateLinks": [],
@@ -690,7 +664,9 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-veneguera.avif",
-        "gallery": []
+        "gallery": [
+          "/images/gran-canaria/playas/playa-veneguera-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -772,9 +748,9 @@
         "lng": -15.808347
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-guguy.avif",
+        "hero": "/images/gran-canaria/playas/playa-guguy-2.avif",
         "gallery": [
-          "/images/gran-canaria/playas/playa-guguy-2.avif"
+          "/images/gran-canaria/playas/playa-guguy.avif"
         ]
       },
       "affiliateLinks": [],
@@ -830,7 +806,7 @@
         "lng": -15.707947
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/piscinas-naturales-agaete.avif",
+        "hero": "/images/gran-canaria/playas/piscinas-agaete.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -857,8 +833,10 @@
         "lng": -15.711756
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-agaete.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/playas/playa-agaete-2.avif",
+        "gallery": [
+          "/images/gran-canaria/playas/playa-agaete.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -927,33 +905,6 @@
       "top": false
     },
     {
-      "slug": "piscinas-naturales-castillo-romeral",
-      "name": "Piscinas Naturales de Castillo del Romeral",
-      "description": "An der Südostküste Gran Canarias gelegen, zählen die **Natürlichen Meeresschwimmbecken von Castillo del Romeral** zu den beliebtesten Orten der Insel, um den Atlantik sicher zu genießen. Die geschützten Meerwasserbecken bieten eine attraktive Alternative zu klassischen Stränden und werden das ganze Jahr über sowohl von Einheimischen als auch von Besuchern geschätzt.\n\n### Der Besuch\nDirekt an der vulkanischen Küste gelegen, verbinden die Becken kristallklares Meerwasser mit herrlichen Ausblicken auf den Atlantik. Dank des einfachen Zugangs, der Sonnenbereiche und der entspannten Atmosphäre eignen sie sich hervorragend für Familien, Schwimmer und alle, die einen authentischen Küstenort im Südosten Gran Canarias entdecken möchten.\n\n### Vor dem Besuch\n- 🌊 Informiere dich bei starkem Wellengang über die aktuellen Meeresbedingungen\n- 👟 Festes Schuhwerk wird für das Gehen auf vulkanischem Gestein empfohlen\n- ☀️ Sonnenschutz ist besonders in den Sommermonaten wichtig\n- 📸 Die Küstenlandschaft bietet besonders bei Sonnenuntergang wunderschöne Fotomotive\n\n### Empfehlung\nSpaziere entlang der Promenade und genieße die entspannte Atmosphäre von Castillo del Romeral, einem der authentischsten und beliebtesten Küstenorte im Südosten Gran Canarias.",
-      "shortDescription": "Die Natürlichen Meeresschwimmbecken von Castillo del Romeral sind geschützte Meerwasserpools an der vulkanischen Küste im Südosten Gran Canarias.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.79736,
-        "lng": -15.463157
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/castillo-romeral.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏖️",
-      "sectionOnly": false,
-      "municipio": "san-bartolome",
-      "top": false
-    },
-    {
       "slug": "playa-meloneras",
       "name": "Playa de Meloneras",
       "description": "Direkt neben dem berühmten **Leuchtturm von Maspalomas** verbindet die **Playa de Meloneras** eine gepflegte Küstenlandschaft, weite Ausblicke auf den Atlantik und eine ruhigere Atmosphäre als viele andere Strände im Süden Gran Canarias. Umgeben von Palmen, Gärten, eleganten Hotels und einer attraktiven Promenade gehört sie zu den angenehmsten Orten der Insel, um das Meer und das ganzjährig milde Klima zu genießen.\n\n### Der Besuch\nDie Mischung aus hellem und dunklem Sand, meist ruhigem Wasser und großzügigen Flächen zum Spazierengehen macht die Playa de Meloneras zu einem idealen Ort für entspannte Stunden am Meer. Besonders beliebt ist die Küstenpromenade, die Meloneras mit dem Leuchtturm von Maspalomas verbindet und zu den schönsten Spazierwegen Gran Canarias zählt.\n\n### Vor dem Besuch\n- 🏖️ Ideal für alle, die eine ruhige und gepflegte Umgebung suchen\n- ☀️ Sonniges Wetter ist hier während eines Großteils des Jahres garantiert\n- 📸 Ein hervorragender Ort, um den Sonnenuntergang über dem Atlantik zu genießen\n- 🍽️ Entlang der Promenade finden sich Restaurants, Cafés und exklusive Geschäfte\n\n### Empfehlung\nSpaziere bis zum berühmten **Leuchtturm von Maspalomas** und entdecke eine der elegantesten und attraktivsten Küstengegenden im Süden Gran Canarias.",
@@ -995,9 +946,7 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-san-agustin.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-san-agustin-2.avif"
-        ]
+        "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1037,33 +986,6 @@
       "top": false,
       "slug": "playa-las-burras",
       "name": "Playa de Las Burras"
-    },
-    {
-      "description": "Zwischen San Agustín und Bahía Feliz gelegen, gehört die **Playa del Águila** zu den ruhigsten Stränden an der Südküste Gran Canarias. Fernab der belebtesten Touristengebiete bietet sie eine entspannte Atmosphäre, in der man den Atlantik und das ganzjährig milde Klima dieser Region in aller Ruhe genießen kann.\n\n### Der Besuch\nDer dunkle Sandstrand, die weiten Ausblicke auf den Atlantik und die geringe Besucherzahl schaffen eine deutlich ruhigere Umgebung als an vielen benachbarten Stränden. Die Playa del Águila eignet sich ideal zum Sonnenbaden, für Spaziergänge entlang der Küste und für alle, die eine entspannte Alternative zu den bekannteren Badeorten suchen.\n\n### Vor dem Besuch\n- 🏖️ Perfekt für alle, die einen weniger besuchten Strand bevorzugen\n- 🌊 Informiere dich vor dem Baden über die aktuellen Meeresbedingungen\n- ☀️ Sonnenschutz wird besonders in den Sommermonaten empfohlen\n- 📸 Ein hervorragender Ort, um Sonnenaufgänge und den Atlantik zu fotografieren\n\n### Empfehlung\nSpaziere entlang der Küste in Richtung San Agustín oder Bahía Feliz und entdecke einige der ruhigsten und angenehmsten Küstenabschnitte im Süden Gran Canarias.",
-      "shortDescription": "Ein ruhiger Strand im Südosten Gran Canarias, fernab vom Massentourismus und ideal für entspannte Stunden am Atlantik.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.7762,
-        "lng": -15.528697
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-del-aguila.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🦅",
-      "sectionOnly": false,
-      "municipio": "san-bartolome",
-      "top": false,
-      "slug": "playa-del-aguila",
-      "name": "Playa del Águila"
     },
     {
       "slug": "playa-arinaga",
@@ -1241,7 +1163,7 @@
         "lng": -15.41409
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-de-la-laja.avif",
+        "hero": "/images/gran-canaria/playas/playa-la-laja.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1268,7 +1190,7 @@
         "lng": -15.419441
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/piscina-la-laja.avif",
+        "hero": "/images/gran-canaria/playas/piscinas-la-laja.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1284,60 +1206,6 @@
       "top": false
     },
     {
-      "slug": "charco-san-lorenzo",
-      "name": "Charco de San Lorenzo",
-      "description": "An der zerklüfteten Nordküste Gran Canarias gelegen, ist der **Charco de San Lorenzo** ein natürliches Meeresschwimmbecken, das durch die Wirkung des Atlantiks auf vulkanisches Gestein entstanden ist. Dieser bei Einheimischen beliebte Küstenort bietet eine ruhige und authentische Möglichkeit, das Meer fernab der großen Touristenzentren der Insel zu genießen.\n\n### Der Besuch\nDie natürlichen Becken füllen sich bei Flut mit Atlantikwasser und bieten bei günstigen Meeresbedingungen geschützte Bereiche zum Baden. Der Kontrast zwischen schwarzem Vulkangestein, dem Atlantischen Ozean und der eindrucksvollen Nordküste macht diesen Ort zu einem der authentischsten Küstenabschnitte Gran Canarias.\n\n### Vor dem Besuch\n- 🌊 Informiere dich vor dem Besuch über die aktuellen Meeresbedingungen und Gezeiten\n- 👟 Festes Schuhwerk wird für das Gehen auf nassem Vulkangestein empfohlen\n- ☀️ Nimm Sonnenschutz und ausreichend Wasser mit\n- 📸 Ein hervorragender Ort für Küstenfotografie und Landschaftsaufnahmen im Norden Gran Canarias\n\n### Empfehlung\nNutze die Gelegenheit, die Nordküste zu erkunden und weitere natürliche Meerespools sowie traditionelle Küstenorte zu entdecken, die eine der ursprünglichsten und weniger bekannten Seiten Gran Canarias zeigen.",
-      "shortDescription": "Natürliches Meeresschwimmbecken an der Nordküste Gran Canarias, ideal, um den Atlantik in ruhiger und authentischer Umgebung zu genießen.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.144024,
-        "lng": -15.577117
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/charco-san-lorenzo.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "💧",
-      "sectionOnly": false,
-      "municipio": "telde",
-      "top": false
-    },
-    {
-      "slug": "la-furnia",
-      "name": "La Furnia",
-      "description": "An der Küste von Gáldar verbirgt sich **La Furnia**, ein spektakuläres natürliches Meeresschwimmbecken, das durch eine vulkanische Höhle entstanden ist und direkt mit dem Atlantik verbunden ist. Dieser außergewöhnliche Küstenort zählt zu den Lieblingsplätzen vieler Einheimischer, die das Meer in einer einzigartigen und ursprünglichen Umgebung genießen möchten.\n\n### Der Besuch\nDas Becken wird durch kristallklares Atlantikwasser gespeist, das durch Tunnel und Spalten im vulkanischen Gestein eindringt. So entsteht eine faszinierende Kulisse, in der die Kraft des Ozeans und die vulkanische Geologie Gran Canarias auf eindrucksvolle Weise zusammentreffen. Je nach Seegang verändert sich das Erscheinungsbild von La Furnia und macht jeden Besuch zu einem besonderen Erlebnis.\n\n### Vor dem Besuch\n- 🌊 Informiere dich vor dem Besuch über die aktuellen Meeresbedingungen, besonders bei starkem Wellengang\n- 👟 Festes Schuhwerk wird für das Gehen auf vulkanischem Gestein empfohlen\n- ☀️ Nimm Sonnenschutz und ausreichend Wasser mit\n- 📸 Einer der fotogensten Küstenorte im Norden Gran Canarias\n\n### Empfehlung\nErkunde die vulkanische Küste von Gáldar und entdecke weitere natürliche Meerespools und versteckte Küstenlandschaften, die die ursprüngliche Seite Gran Canarias zeigen.",
-      "shortDescription": "Natürliches Meeresschwimmbecken in einer vulkanischen Meereshöhle bei Gáldar mit kristallklarem Wasser und einer der eindrucksvollsten Küstenlandschaften Gran Canarias.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.16104,
-        "lng": -15.674618
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/la-furnia.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🕳️",
-      "sectionOnly": false,
-      "municipio": "ingenio",
-      "top": false
-    },
-    {
       "slug": "piscinas-naturales-charcones",
       "name": "Piscinas Naturales de Charcones",
       "description": "An der Nordküste Gran Canarias gelegen, bieten die **Natürlichen Meeresschwimmbecken von Charcones** ein authentisches Erlebnis für alle, die den Atlantik abseits der bekannten Badeorte genießen möchten. Die durch uralte Lavaströme geformten Becken füllen sich mit kristallklarem Meerwasser und schaffen eine eindrucksvolle Landschaft aus Vulkanfels, Ozean und unberührter Natur.\n\n### Der Besuch\nDer Kontrast zwischen dem schwarzen Lavagestein, dem tiefblauen Atlantik und der rauen Küstenlandschaft macht diesen Ort zu einem der schönsten Naturpools im Norden der Insel. Dank der ruhigen Atmosphäre und der geringen Besucherzahl lassen sich hier Natur und Meer in entspannter Umgebung erleben.\n\n### Vor dem Besuch\n- 🌊 Informiere dich vor dem Besuch über die aktuellen Meeresbedingungen, besonders bei starkem Wellengang\n- 👟 Festes Schuhwerk wird für das Gehen auf vulkanischem Gestein empfohlen\n- ☀️ Nimm ausreichend Wasser und Sonnenschutz mit, da es nur wenige Schattenplätze gibt\n- 📸 Ideal für Küstenfotografie und beeindruckende Vulkanlandschaften\n\n### Empfehlung\nErkunde die Nordküste Gran Canarias und entdecke weitere natürliche Meerespools, Klippen und Küstenlandschaften, in denen der Atlantik die Hauptrolle spielt.",
@@ -1349,7 +1217,7 @@
         "lng": -15.536604
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/piscinas-naturales-charcones.avif",
+        "hero": "/images/gran-canaria/playas/el-puertillo.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1365,87 +1233,6 @@
       "top": false
     },
     {
-      "slug": "playa-san-felipe",
-      "name": "Playa de San Felipe",
-      "description": "Neben dem kleinen Küstenort San Felipe liegt dieser ruhige Strand mit dunklem Sand, der vor allem von Bewohnern des Nordens Gran Canarias besucht wird. Fernab der großen Touristenzentren hat er sich eine authentische und entspannte Atmosphäre bewahrt, in der der Atlantik den Rhythmus des täglichen Lebens bestimmt.\n\n### Der Besuch\nUmgeben von einer traditionellen Küstenlandschaft und weiten Ausblicken auf den Atlantik ist die **Playa de San Felipe** der perfekte Ort für Spaziergänge am Meer, entspannte Stunden und die Entdeckung einer weniger bekannten Seite Gran Canarias. Ihr lokaler Charakter und ihre Schlichtheit machen einen großen Teil ihres Charmes aus.\n\n### Vor dem Besuch\n- 🌊 Informiere dich vor dem Baden über die aktuellen Meeresbedingungen, da der Wellengang stark sein kann\n- ☀️ Nimm Sonnenschutz und ausreichend Wasser mit\n- 📸 Ein hervorragender Ort für Fotos der Nordküste und spektakulärer Sonnenuntergänge\n- 🚶 Ideal für alle, die eine ruhige Atmosphäre abseits der belebten Touristengebiete suchen\n\n### Empfehlung\nNutze die Gelegenheit, die Küste zu erkunden und weitere authentische Orte im Norden Gran Canarias zu entdecken, an denen Natur und Tradition noch immer eine wichtige Rolle spielen.",
-      "shortDescription": "Ein Strand mit dunklem Sand, lokaler Atmosphäre, Blick auf den Atlantik und einem authentischen Erlebnis fernab des Massentourismus auf Gran Canaria.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.144831,
-        "lng": -15.595542
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-san-felipe.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏖️",
-      "sectionOnly": false,
-      "municipio": "galdar",
-      "top": false
-    },
-    {
-      "slug": "playa-agujero",
-      "name": "Playa de El Agujero",
-      "description": "An der Küste von Gáldar verbindet die **Playa de El Agujero** Meer, Geschichte und Archäologie an einem einzigen Ort. Direkt neben der bedeutenden archäologischen Stätte **La Guancha** gelegen, bietet sie die Möglichkeit, das Erbe der Ureinwohner Gran Canarias zu entdecken und gleichzeitig einen der authentischsten Strände im Norden der Insel zu genießen.\n\n### Der Besuch\nDer dunkle Sandstrand, die Ausblicke auf den Atlantik und die Nähe zu den archäologischen Überresten machen diesen Ort zu einem außergewöhnlichen Reiseziel. Die Playa de El Agujero eignet sich perfekt, um kulturelle Entdeckungen mit entspannenden Stunden am Meer in einer geschichtsträchtigen Umgebung zu verbinden.\n\n### Vor dem Besuch\n- 🏛️ Nutze die Gelegenheit, die nahegelegene archäologische Stätte La Guancha zu besichtigen\n- 🌊 Informiere dich vor dem Baden über die aktuellen Meeresbedingungen, besonders in den Wintermonaten\n- ☀️ Nimm Sonnenschutz und ausreichend Wasser mit\n- 📸 Der Kontrast zwischen historischem Erbe und Küstenlandschaft bietet hervorragende Fotomotive\n\n### Empfehlung\nErkunde die Küste von Gáldar weiter und entdecke weitere archäologische und natürliche Sehenswürdigkeiten, die dabei helfen, die Geschichte und Identität Gran Canarias besser zu verstehen.",
-      "shortDescription": "Ein dunkler Sandstrand in Gáldar neben der archäologischen Stätte La Guancha – ideal, um Geschichte, Kultur und Meer an einem Ort zu erleben.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.158085,
-        "lng": -15.66453
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-agujero.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏺",
-      "sectionOnly": false,
-      "municipio": "galdar",
-      "top": false
-    },
-    {
-      "slug": "playa-santa-agueda",
-      "name": "Playa de Santa Agueda",
-      "description": "Versteckt an der Nordküste Gran Canarias liegt die **Playa de Santa Águeda**, ein kleiner Strand, der sich seinen ruhigen und authentischen Charakter bewahrt hat. Fernab der großen Touristenzentren bietet er mit seinem dunklen Sand, dem klaren Wasser und der entspannten Atmosphäre einen idealen Ort, um die Küste in ihrer ursprünglichen Form zu erleben.\n\n### Der Besuch\nUmgeben von einer traditionellen Küstenlandschaft und überwiegend von Einheimischen besucht, lädt dieser Strand dazu ein, die Ruhe des Atlantiks zu genießen und eine weniger bekannte Seite Gran Canarias kennenzulernen. Die natürliche Umgebung und die entspannte Stimmung machen ihn zu einem perfekten Ort für Spaziergänge am Meer und erholsame Stunden am Wasser.\n\n### Vor dem Besuch\n- 🌊 Informiere dich vor dem Baden über die aktuellen Meeresbedingungen\n- ☀️ Nimm Sonnenschutz und ausreichend Wasser mit\n- 📸 Ideal für Küstenfotografie und stimmungsvolle Sonnenuntergänge\n- 🚶 Perfekt für alle, die Ruhe abseits der bekanntesten Strände suchen\n\n### Empfehlung\nErkunde die kleinen Küstenorte der Umgebung und entdecke einige der authentischsten und am wenigsten besuchten Ecken im Norden Gran Canarias.",
-      "shortDescription": "Kleiner Strand mit dunklem Sand an der Nordküste Gran Canarias, bekannt für seine ruhige Atmosphäre, sein klares Wasser und sein authentisches lokales Flair.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.75367,
-        "lng": -15.671976
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-santa-agueda.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏖️",
-      "sectionOnly": false,
-      "municipio": "galdar",
-      "top": false
-    },
-    {
       "slug": "playa-puertillo",
       "name": "Playa del Puertillo",
       "description": "An der Nordküste Gran Canarias liegt die **Playa del Puertillo**, eine kleine Bucht mit entspannter Atmosphäre, in der der traditionelle maritime Charakter der Insel noch spürbar ist. Fernab der großen Touristengebiete wird dieser Küstenabschnitt vor allem von Einheimischen besucht, die das Meer in einer ruhigen und authentischen Umgebung genießen möchten.\n\n### Der Besuch\nDer dunkle Sandstrand, das meist ruhige Wasser und das lokale Flair machen die Playa del Puertillo zu einer hervorragenden Wahl für alle, die weniger überlaufene Strände bevorzugen. Die Küstenlandschaft und die weiten Ausblicke auf den Atlantik laden dazu ein, abzuschalten und die entspannte Atmosphäre der Nordküste Gran Canarias zu genießen.\n\n### Vor dem Besuch\n- 🌊 Informiere dich vor dem Baden über die aktuellen Meeresbedingungen\n- ☀️ Nimm Sonnenschutz mit, besonders in den wärmeren Monaten\n- 📸 Ideal für Küstenfotografie und Spaziergänge entlang des Atlantiks\n- 🚶 Perfekt für alle, die eine authentische und lokale Atmosphäre suchen\n\n### Empfehlung\nErkunde die Küste im Norden Gran Canarias und entdecke weitere Strände, kleine Buchten und Promenaden, die die ruhigere und ursprünglichere Seite der Insel zeigen.",
@@ -1457,10 +1244,8 @@
         "lng": -15.535385
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-puertillo.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-puertillo-2.avif"
-        ]
+        "hero": "/images/gran-canaria/playas/playa-el-puertillo.avif",
+        "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1499,33 +1284,6 @@
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "aguimes",
-      "top": false
-    },
-    {
-      "slug": "playa-costa-alegre",
-      "name": "Playa Costa Alegre",
-      "description": "An der Südostküste Gran Canarias gelegen, ist die **Playa Costa Alegre** die perfekte Wahl für alle, die das Meer in einer ruhigen Umgebung abseits der belebtesten Touristenorte der Insel genießen möchten. Die entspannte und familienfreundliche Atmosphäre macht sie besonders bei Einheimischen und Besuchern beliebt, die weniger überlaufene Strände bevorzugen.\n\n### Der Besuch\nDer Strand verbindet dunklen Sand, meist ruhiges Wasser und schöne Ausblicke auf den Atlantik. Sein lokaler Charakter und die geringe Besucherzahl schaffen eine authentische und entspannte Umgebung, die ideal ist, um einen ruhigen Tag am Meer zu verbringen.\n\n### Vor dem Besuch\n- 🏖️ Ideal für Familien und alle, die Ruhe und Entspannung suchen\n- 🌊 Informiere dich vor dem Baden über die aktuellen Meeresbedingungen\n- ☀️ Nimm Sonnenschutz und ausreichend Wasser mit, besonders in den Sommermonaten\n- 📸 Ein schöner Ort für Sonnenaufgänge und Küstenfotografie\n\n### Empfehlung\nErkunde die Südostküste Gran Canarias und entdecke weitere versteckte Strände und Küstenabschnitte, an denen sich das Meer fernab des Massentourismus von seiner ruhigsten Seite zeigt.",
-      "shortDescription": "Die Playa Costa Alegre ist ein ruhiger Familienstrand im Südosten Gran Canarias mit dunklem Sand, meist ruhigem Wasser und authentischer lokaler Atmosphäre.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.761398,
-        "lng": -15.683835
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-costa-alegre.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏖️",
-      "sectionOnly": false,
-      "municipio": "san-bartolome",
       "top": false
     },
     {
@@ -1580,33 +1338,6 @@
       "emoji": "🌋",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": false
-    },
-    {
-      "slug": "roque-prieto",
-      "name": "Roque Prieto",
-      "description": "An der Nordküste Gran Canarias gelegen, ist **Roque Prieto** einer jener versteckten Orte, die viele Besucher übersehen. Dieser kleine Küstenabschnitt vereint natürliche Meerespools, kristallklares Wasser und eine ruhige Atmosphäre, die vor allem von Einheimischen geschätzt wird.\n\n### Der Besuch\nDie Küste besteht aus vulkanischen Felsplattformen, die über Jahrtausende hinweg vom Atlantik geformt wurden und kleine natürliche Becken geschaffen haben. Bei ruhiger See bieten sie ideale Bedingungen, um das Meer in einer sicheren und naturnahen Umgebung zu genießen. Die weitgehend unbebaute Küstenlandschaft und die offenen Ausblicke auf den Atlantik machen Roque Prieto zu einem perfekten Ort für alle, die eine authentische und weniger touristische Seite Gran Canarias entdecken möchten.\n\n### Vor dem Besuch\n- 🌊 Informiere dich vor dem Baden über die aktuellen Meeresbedingungen\n- 👟 Festes Schuhwerk wird für das Gehen auf vulkanischem Gestein empfohlen\n- ☀️ Nimm ausreichend Wasser und Sonnenschutz mit, da es nur wenige Schattenplätze gibt\n- 📸 Ein hervorragender Ort für Küstenfotografie und beeindruckende Sonnenuntergänge\n\n### Empfehlung\nErkunde die Küste von Santa María de Guía und entdecke weitere versteckte Orte im Norden Gran Canarias, an denen der Atlantik und die vulkanische Landschaft die Hauptrolle spielen.",
-      "shortDescription": "Roque Prieto vereint natürliche Meerespools, vulkanische Küstenlandschaften und kristallklares Wasser in einer ruhigen Ecke im Norden Gran Canarias.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.16844,
-        "lng": -15.63499
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/roque-prieto.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏔️",
-      "sectionOnly": false,
-      "municipio": "aldea",
       "top": false
     },
     {

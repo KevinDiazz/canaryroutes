@@ -402,17 +402,15 @@
         "lng": -15.428558
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-las-canteras.avif",
+        "hero": "/images/gran-canaria/playas/playa-las-canteras-3.avif",
         "gallery": [
-          "/images/gran-canaria/playas/playa-las-canteras-2.avif"
+          "/images/gran-canaria/playas/playa-las-canteras-2.avif",
+          "/images/gran-canaria/playas/playa-las-canteras.avif"
         ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -431,18 +429,14 @@
         "lng": -15.568033
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-del-ingles.avif",
+        "hero": "/images/gran-canaria/playas/playa_del_ingles_gran_canaria.jpg",
         "gallery": [
-          "/images/gran-canaria/playas/playa-del-ingles-2.avif",
-          "/images/gran-canaria/playas/playa_del_ingles_gran_canaria.jpg"
+          "/images/gran-canaria/playas/playa_del_ingles_gran_canaria-3.avif"
         ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -462,14 +456,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-maspalomas.avif",
-        "gallery": []
+        "gallery": ["/images/gran-canaria/playas/playa-maspalomas-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -490,15 +481,13 @@
       "images": {
         "hero": "/images/gran-canaria/playas/playa-amadores.avif",
         "gallery": [
-          "/images/gran-canaria/playas/playa-amadores-2.avif"
+          "/images/gran-canaria/playas/playa-amadores-2.avif",
+          "/images/gran-canaria/playas/playa-amadores-3.avif"
         ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏝️",
       "sectionOnly": false,
@@ -518,16 +507,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-puerto-rico.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-puerto-rico-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-puerto-rico-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "⛵",
       "sectionOnly": false,
@@ -547,16 +531,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-mogan.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-mogan-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-mogan-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌺",
       "sectionOnly": false,
@@ -576,16 +555,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-taurito.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-taurito-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-taurito-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -605,45 +579,13 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tauro.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-tauro-2.avif"
-        ]
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "⚫",
-      "sectionOnly": false,
-      "municipio": "mogan",
-      "top": false
-    },
-    {
-      "slug": "playa-patalavaca",
-      "name": "Playa de Patalavaca",
-      "description": "Situada entre Arguineguín y Anfi del Mar, **Playa de Patalavaca** es una tranquila playa del sur de Gran Canaria conocida por sus aguas calmadas y su agradable ambiente familiar. Su ubicación en una de las zonas más soleadas de la isla la convierte en un lugar perfecto para disfrutar del mar durante todo el año.\n\n### La visita\nLa combinación de arena oscura, mar tranquilo y un cuidado paseo marítimo la convierten en una excelente alternativa a las playas más concurridas del sur. Es un lugar ideal para relajarse, nadar o contemplar las vistas de la costa mientras disfrutas de un ambiente más local y relajado.\n\n### Antes de ir\n- 🏖️ Ideal para familias y para disfrutar de una jornada tranquila junto al mar\n- 🌊 Las aguas suelen ser calmadas durante gran parte del año\n- ☀️ Lleva protección solar y agua, especialmente en verano\n- 🍽️ Encontrarás restaurantes y cafeterías a pocos pasos de la playa\n\n### Recomendación\nPasea por el litoral hacia Anfi del Mar o contempla la puesta de sol sobre el Atlántico en una de las zonas más agradables y soleadas de Gran Canaria.",
-      "shortDescription": "Playa de Patalavaca, en el sur de Gran Canaria, destaca por sus aguas tranquilas, ambiente familiar y excelente clima durante todo el año.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.771729,
-        "lng": -15.687251
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-patalavaca.avif",
         "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
-      "emoji": "🏖️",
+      "emoji": "⚫",
       "sectionOnly": false,
       "municipio": "mogan",
       "top": false
@@ -660,17 +602,12 @@
         "lng": -15.694429
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/anfi-del-mar.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/anfi-del-mar-2.avif"
-        ]
+        "hero": "/images/gran-canaria/playas/playa-anfi-del-mar.avif",
+        "gallery": ["/images/gran-canaria/playas/playa-anfi-del-mar-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -690,14 +627,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-veneguera.avif",
-        "gallery": []
+        "gallery": ["/images/gran-canaria/playas/playa-veneguera-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌿",
       "sectionOnly": false,
@@ -721,10 +655,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "⚫",
       "sectionOnly": false,
@@ -744,16 +675,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tasartico.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-tasartico-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-tasartico-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🐢",
       "sectionOnly": false,
@@ -772,17 +698,12 @@
         "lng": -15.808347
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-guguy.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-guguy-2.avif"
-        ]
+        "hero": "/images/gran-canaria/playas/playa-guguy-2.avif",
+        "gallery": ["/images/gran-canaria/playas/playa-guguy.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "moderate",
       "emoji": "🏔️",
       "sectionOnly": false,
@@ -802,16 +723,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-la-aldea.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-la-aldea-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-la-aldea-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -830,15 +746,12 @@
         "lng": -15.707947
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/piscinas-naturales-agaete.avif",
+        "hero": "/images/gran-canaria/playas/piscinas-agaete.avif",
         "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -857,15 +770,12 @@
         "lng": -15.711756
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-agaete.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/playas/playa-agaete-2.avif",
+        "gallery": ["/images/gran-canaria/playas/playa-agaete.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🚢",
       "sectionOnly": false,
@@ -889,10 +799,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌿",
       "sectionOnly": false,
@@ -916,41 +823,11 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
       "municipio": "galdar",
-      "top": false
-    },
-    {
-      "slug": "piscinas-naturales-castillo-romeral",
-      "name": "Piscinas Naturales de Castillo del Romeral",
-      "description": "Situadas en la costa sureste de Gran Canaria, las **Piscinas Naturales de Castillo del Romeral** son uno de los lugares más populares de la isla para disfrutar del océano de forma segura. Estas piscinas de agua marina, protegidas del fuerte oleaje del Atlántico, ofrecen una experiencia diferente a la de las playas tradicionales y son muy frecuentadas por residentes durante todo el año.\n\n### La visita\nLas piscinas, construidas junto a la costa volcánica, combinan aguas limpias y cristalinas con magníficas vistas al océano. Su fácil acceso, sus zonas de solárium y su ambiente tranquilo las convierten en una opción ideal para familias, nadadores y quienes desean descubrir un rincón auténtico del sureste de Gran Canaria.\n\n### Antes de ir\n- 🌊 Consulta el estado del mar en días de fuerte oleaje\n- 👟 Se recomienda calzado para caminar sobre roca volcánica\n- ☀️ Lleva protección solar, especialmente durante el verano\n- 📸 Las vistas de la costa son especialmente bonitas al atardecer\n\n### Recomendación\nPasea por el paseo marítimo y disfruta del ambiente relajado de Castillo del Romeral, uno de los núcleos costeros más auténticos y apreciados por los habitantes del sureste de Gran Canaria.",
-      "shortDescription": "Piscinas Naturales de Castillo del Romeral, piscinas de agua marina protegidas junto a la costa volcánica del sureste de Gran Canaria.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.79736,
-        "lng": -15.463157
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/castillo-romeral.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏖️",
-      "sectionOnly": false,
-      "municipio": "san-bartolome",
       "top": false
     },
     {
@@ -966,16 +843,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-meloneras.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-meloneras-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-meloneras-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏨",
       "sectionOnly": false,
@@ -995,16 +867,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-san-agustin.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-san-agustin-2.avif"
-        ]
+        "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1026,10 +893,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1037,33 +901,6 @@
       "top": false,
       "slug": "playa-las-burras",
       "name": "Playa de Las Burras"
-    },
-    {
-      "description": "Situada entre San Agustín y Bahía Feliz, **Playa del Águila** es una de las playas más tranquilas de la costa sur de Gran Canaria. Alejada de las zonas más concurridas, ofrece un ambiente relajado donde disfrutar del océano y del excelente clima que caracteriza a esta parte de la isla.\n\n### La visita\nSu arena oscura, las vistas abiertas al Atlántico y la escasa afluencia de visitantes crean una atmósfera mucho más tranquila que la de otras playas cercanas. Es un lugar ideal para tomar el sol, pasear junto al mar y disfrutar de la costa sur con mayor calma.\n\n### Antes de ir\n- 🏖️ Perfecta para quienes buscan una playa menos concurrida\n- 🌊 Consulta las condiciones del mar antes del baño\n- ☀️ Lleva protección solar, especialmente en verano\n- 📸 Excelente lugar para contemplar amaneceres y el océano Atlántico\n\n### Recomendación\nPasea por la costa hacia San Agustín o Bahía Feliz y descubre algunos de los rincones más tranquilos y agradables del sur de Gran Canaria.",
-      "shortDescription": "Playa tranquila en el sureste, sin turismo masivo",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.7762,
-        "lng": -15.528697
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-del-aguila.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🦅",
-      "sectionOnly": false,
-      "municipio": "san-bartolome",
-      "top": false,
-      "slug": "playa-del-aguila",
-      "name": "Playa del Águila"
     },
     {
       "slug": "playa-arinaga",
@@ -1082,10 +919,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏄",
       "sectionOnly": false,
@@ -1105,16 +939,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-melenara.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-melenara-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/playas/playa-melenara-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -1138,10 +967,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1165,10 +991,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -1192,10 +1015,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1219,10 +1039,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "⚓",
       "sectionOnly": false,
@@ -1241,15 +1058,12 @@
         "lng": -15.41409
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-de-la-laja.avif",
+        "hero": "/images/gran-canaria/playas/playa-la-laja.avif",
         "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1268,73 +1082,16 @@
         "lng": -15.419441
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/piscina-la-laja.avif",
+        "hero": "/images/gran-canaria/playas/piscinas-la-laja.avif",
         "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false
-    },
-    {
-      "slug": "charco-san-lorenzo",
-      "name": "Charco de San Lorenzo",
-      "description": "Situado en la escarpada costa norte de Gran Canaria, el **Charco de San Lorenzo** es una piscina natural formada por la acción del océano sobre la roca volcánica. Este rincón costero, frecuentado principalmente por residentes locales, ofrece una forma diferente de disfrutar del mar en un entorno tranquilo y alejado de las zonas turísticas más concurridas.\n\n### La visita\nLas pozas naturales se llenan con agua atlántica durante las mareas, creando espacios ideales para el baño cuando las condiciones del mar son favorables. El contraste entre la roca volcánica, el océano y los acantilados del norte convierte este lugar en uno de los rincones costeros más auténticos de la isla.\n\n### Antes de ir\n- 🌊 Consulta siempre el estado del mar y las mareas antes de la visita\n- 👟 Se recomienda calzado para caminar sobre roca volcánica mojada\n- ☀️ Lleva protección solar y agua\n- 📸 Excelente lugar para fotografía costera y paisajes del norte de Gran Canaria\n\n### Recomendación\nAprovecha para recorrer la costa norte y descubrir otras piscinas naturales y rincones marineros donde disfrutar de una de las caras más auténticas y menos conocidas de Gran Canaria.",
-      "shortDescription": "Piscina natural de roca volcánica en la costa norte de Gran Canaria, ideal para disfrutar del océano en un entorno tranquilo y auténtico.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.144024,
-        "lng": -15.577117
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/charco-san-lorenzo.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "💧",
-      "sectionOnly": false,
-      "municipio": "telde",
-      "top": false
-    },
-    {
-      "slug": "la-furnia",
-      "name": "La Furnia",
-      "description": "En la costa de Galdar se esconde **La Furnia**, una espectacular piscina natural formada por una cavidad volcánica conectada directamente con el océano. Este singular rincón costero es uno de los lugares favoritos de muchos residentes para disfrutar del mar en un entorno diferente y lleno de personalidad.\n\n### La visita\nLa poza se llena con agua atlántica cristalina que entra a través de túneles y grietas en la roca volcánica, creando un escenario único donde el mar y la geología de Gran Canaria se combinan de forma espectacular. Su aspecto cambia según el estado del océano, ofreciendo siempre una experiencia diferente.\n\n### Antes de ir\n- 🌊 Consulta el estado del mar antes de acercarte, especialmente con fuerte oleaje\n- 👟 Se recomienda calzado adecuado para caminar sobre roca volcánica\n- ☀️ Lleva protección solar y agua\n- 📸 Uno de los lugares más fotogénicos de la costa este de Gran Canaria\n\n### Recomendación\nExplora el litoral volcánico de Galdar y descubre otras piscinas naturales y rincones costeros que muestran la cara más auténtica de la isla.",
-      "shortDescription": "Piscina natural formada por una cueva marina volcánica en Galdar, con aguas cristalinas y uno de los paisajes costeros más singulares de Gran Canaria.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.16104,
-        "lng": -15.674618
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/la-furnia.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🕳️",
-      "sectionOnly": false,
-      "municipio": "ingenio",
       "top": false
     },
     {
@@ -1349,100 +1106,16 @@
         "lng": -15.536604
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/piscinas-naturales-charcones.avif",
+        "hero": "/images/gran-canaria/playas/el-puertillo.avif",
         "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
       "municipio": "arucas",
-      "top": false
-    },
-    {
-      "slug": "playa-san-felipe",
-      "name": "Playa de San Felipe",
-      "description": "Junto al pequeño núcleo costero de San Felipe, se encuentra esta tranquila playa de arena oscura frecuentada principalmente por residentes del norte de Gran Canaria. Lejos de los grandes centros turísticos, conserva un ambiente auténtico y relajado donde el océano marca el ritmo de la vida diaria.\n\n### La visita\nRodeada por un entorno costero tradicional y amplias vistas al Atlántico, **Playa de San Felipe** es un lugar perfecto para pasear junto al mar, desconectar y descubrir una faceta menos conocida de la isla. Su carácter local y su sencillez forman parte de su principal atractivo.\n\n### Antes de ir\n- 🌊 Consulta el estado del mar antes del baño, ya que el oleaje puede ser intenso\n- ☀️ Lleva protección solar y agua\n- 📸 Excelente lugar para fotografiar la costa norte y las puestas de sol\n- 🚶 Ideal para disfrutar de un ambiente tranquilo lejos de las zonas más concurridas\n\n### Recomendación\nAprovecha para explorar la costa  y descubrir otros rincones auténticos del norte de Gran Canaria donde la naturaleza y la tradición siguen muy presentes.",
-      "shortDescription": "Playa de arena oscura, con ambiente local, vistas al Atlántico y una experiencia auténtica lejos del turismo masivo de Gran Canaria.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.144831,
-        "lng": -15.595542
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-san-felipe.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏖️",
-      "sectionOnly": false,
-      "municipio": "galdar",
-      "top": false
-    },
-    {
-      "slug": "playa-agujero",
-      "name": "Playa de El Agujero",
-      "description": "En la costa de Gáldar, **Playa de El Agujero** combina mar, historia y arqueología en un mismo lugar. Situada junto al importante yacimiento de **La Guancha**, permite descubrir el legado de los antiguos canarios mientras se disfruta de una de las playas más auténticas del norte de Gran Canaria.\n\n### La visita\nSu arena oscura, las vistas al Atlántico y la cercanía de los restos arqueológicos convierten esta playa en un destino diferente a cualquier otro de la isla. Es un lugar ideal para combinar un paseo cultural con un baño en un entorno tranquilo y lleno de historia.\n\n### Antes de ir\n- 🏛️ Aprovecha la visita para conocer el cercano yacimiento arqueológico de La Guancha\n- 🌊 Consulta el estado del mar antes del baño, especialmente en invierno\n- ☀️ Lleva protección solar y agua\n- 📸 El contraste entre patrimonio histórico y paisaje costero ofrece excelentes fotografías\n\n### Recomendación\nContinúa explorando la costa de Gáldar y descubre otros enclaves arqueológicos y naturales que ayudan a comprender la historia y la identidad de Gran Canaria.",
-      "shortDescription": "Playa de arena oscura en Gáldar junto al yacimiento arqueológico de La Guancha, ideal para combinar historia, cultura y mar en una misma visita.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.158085,
-        "lng": -15.66453
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-agujero.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏺",
-      "sectionOnly": false,
-      "municipio": "galdar",
-      "top": false
-    },
-    {
-      "slug": "playa-santa-agueda",
-      "name": "Playa de Santa Agueda",
-      "description": "Escondida en la costa norte de Gran Canaria, esta pequeña playa conserva un ambiente tranquilo y auténtico que contrasta con las zonas más concurridas de la isla. Su arena oscura, las aguas limpias y la ausencia de grandes desarrollos turísticos la convierten en un lugar ideal para quienes buscan desconectar junto al mar.\n\n### La visita\nRodeada por un paisaje costero tradicional y frecuentada principalmente por residentes locales, la playa ofrece una experiencia sencilla y relajada donde disfrutar del océano en un entorno natural. Es perfecta para pasear, contemplar el Atlántico y descubrir una faceta menos conocida del norte de Gran Canaria.\n\n### Antes de ir\n- 🌊 Consulta las condiciones del mar antes del baño\n- ☀️ Lleva protección solar y agua\n- 📸 Ideal para fotografía costera y puestas de sol\n- 🚶 Perfecta para quienes buscan tranquilidad lejos de las playas más populares\n\n### Recomendación\nExplora los pequeños pueblos costeros de la zona y descubre algunos de los rincones más auténticos y menos visitados del norte de Gran Canaria.",
-      "shortDescription": "Pequeña playa de arena oscura en la costa norte de Gran Canaria, con ambiente local, aguas limpias y un entorno tranquilo alejado del turismo masivo.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.75367,
-        "lng": -15.671976
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-santa-agueda.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏖️",
-      "sectionOnly": false,
-      "municipio": "galdar",
       "top": false
     },
     {
@@ -1457,17 +1130,12 @@
         "lng": -15.535385
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-puertillo.avif",
-        "gallery": [
-          "/images/gran-canaria/playas/playa-puertillo-2.avif"
-        ]
+        "hero": "/images/gran-canaria/playas/playa-el-puertillo.avif",
+        "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1491,41 +1159,11 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "aguimes",
-      "top": false
-    },
-    {
-      "slug": "playa-costa-alegre",
-      "name": "Playa Costa Alegre",
-      "description": "Situada en la costa sureste de Gran Canaria, **Playa Costa Alegre** es una opción perfecta para quienes buscan disfrutar del mar en un entorno tranquilo y alejado de las zonas más concurridas de la isla. Su ambiente relajado y familiar la convierte en un lugar muy apreciado por residentes y visitantes que prefieren playas menos masificadas.\n\n### La visita\nLa playa combina arena oscura, aguas generalmente calmadas y agradables vistas al Atlántico. Su carácter local y la ausencia de grandes aglomeraciones permiten disfrutar de una experiencia más auténtica y pausada junto al mar.\n\n### Antes de ir\n- 🏖️ Ideal para familias y para quienes buscan tranquilidad\n- 🌊 Consulta las condiciones del mar antes del baño\n- ☀️ Lleva protección solar y agua, especialmente durante el verano\n- 📸 Buen lugar para disfrutar de amaneceres y paisajes costeros\n\n### Recomendación\nRecorre la costa del sureste de Gran Canaria y descubre otras playas y rincones poco conocidos donde disfrutar del océano lejos del turismo masivo.",
-      "shortDescription": "Playa Costa Alegre, una tranquila playa familiar del sureste de Gran Canaria, con arena oscura, aguas calmadas y ambiente local.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 27.761398,
-        "lng": -15.683835
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/playa-costa-alegre.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏖️",
-      "sectionOnly": false,
-      "municipio": "san-bartolome",
       "top": false
     },
     {
@@ -1545,10 +1183,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1572,41 +1207,11 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
+      "tags": ["playa", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌋",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": false
-    },
-    {
-      "slug": "roque-prieto",
-      "name": "Roque Prieto",
-      "description": "En la costa norte de Gran Canaria, **Roque Prieto** es uno de esos rincones que muchos visitantes pasan por alto. Esta pequeña cala volcánica combina piscinas naturales, aguas cristalinas y un ambiente tranquilo frecuentado principalmente por residentes de la zona.\n\n### La visita\nLa costa está formada por plataformas de roca volcánica moldeadas por el océano durante miles de años, creando pequeñas pozas naturales ideales para disfrutar del mar en días de calma. Su entorno poco urbanizado y las amplias vistas al Atlántico la convierten en un lugar perfecto para quienes buscan una experiencia más auténtica y alejada de las playas turísticas.\n\n### Antes de ir\n- 🌊 Consulta el estado del mar antes de bañarte\n- 👟 Se recomienda calzado para caminar sobre roca volcánica\n- ☀️ Lleva agua y protección solar, hay pocas zonas de sombra\n- 📸 Excelente lugar para fotografía costera y puestas de sol\n\n### Recomendación\nExplora la costa de Santa María de Guía y descubre otros rincones del norte de Gran Canaria donde el océano y el paisaje volcánico siguen siendo los protagonistas.",
-      "shortDescription": "Roque Prieto combina piscinas naturales, costa volcánica y aguas cristalinas en un tranquilo rincón del norte de Gran Canaria.",
-      "island": "gran-canaria",
-      "category": "beach",
-      "coordinates": {
-        "lat": 28.16844,
-        "lng": -15.63499
-      },
-      "images": {
-        "hero": "/images/gran-canaria/playas/roque-prieto.avif",
-        "gallery": []
-      },
-      "affiliateLinks": [],
-      "hasPremiumAudio": false,
-      "tags": [
-        "playa",
-        "gran-canaria"
-      ],
-      "difficulty": "easy",
-      "emoji": "🏔️",
-      "sectionOnly": false,
-      "municipio": "aldea",
       "top": false
     },
     {
@@ -1622,16 +1227,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/casa-colon-1.avif",
-        "gallery": [
-          "/images/gran-canaria/cultural/casa-colon-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/cultural/casa-colon-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏛️",
       "sectionOnly": false,
@@ -1651,16 +1251,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/cueva-pintada-1.avif",
-        "gallery": [
-          "/images/gran-canaria/cultural/cueva-pintada-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/cultural/cueva-pintada-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1680,16 +1275,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/catedral-santa-ana-1.avif",
-        "gallery": [
-          "/images/gran-canaria/cultural/catedral-santa-ana-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/cultural/catedral-santa-ana-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "⛪",
       "sectionOnly": false,
@@ -1713,10 +1303,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏘️",
       "sectionOnly": false,
@@ -1736,16 +1323,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/museo-canario-1.avif",
-        "gallery": [
-          "/images/gran-canaria/cultural/museo-canario-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/cultural/museo-canario-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏛️",
       "sectionOnly": false,
@@ -1765,16 +1347,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/cenobio-valeron-1.avif",
-        "gallery": [
-          "/images/gran-canaria/cultural/cenobio-valeron-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/cultural/cenobio-valeron-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1803,12 +1380,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "gastronomia",
-        "cultura",
-        "comida",
-        "gran-canaria"
-      ],
+      "tags": ["gastronomia", "cultura", "comida", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🍽️",
       "sectionOnly": false,
@@ -1828,16 +1400,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/risco-caido-1.avif",
-        "gallery": [
-          "/images/gran-canaria/cultural/risco-caido-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/cultural/risco-caido-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏛️",
       "sectionOnly": false,
@@ -1857,16 +1424,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/basilica-el-pino-1.avif",
-        "gallery": [
-          "/images/gran-canaria/cultural/basilica-el-pino-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/cultural/basilica-el-pino-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "⛪",
       "sectionOnly": false,
@@ -1892,10 +1454,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "⛪",
       "sectionOnly": false,
@@ -1919,10 +1478,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1946,10 +1502,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏰",
       "sectionOnly": false,
@@ -1973,10 +1526,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "cultura",
-        "gran-canaria"
-      ],
+      "tags": ["cultura", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏰",
       "sectionOnly": false,
@@ -2000,10 +1550,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌄",
       "sectionOnly": false,
@@ -2027,10 +1574,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏔️",
       "sectionOnly": false,
@@ -2054,10 +1598,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌲",
       "sectionOnly": false,
@@ -2081,10 +1622,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -2108,10 +1646,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌋",
       "sectionOnly": false,
@@ -2135,10 +1670,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -2162,10 +1694,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -2189,10 +1718,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -2216,10 +1742,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -2243,10 +1766,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -2270,10 +1790,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🌳",
       "sectionOnly": false,
@@ -2297,10 +1814,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🪨",
       "sectionOnly": false,
@@ -2324,10 +1838,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "naturaleza",
-        "gran-canaria"
-      ],
+      "tags": ["naturaleza", "gran-canaria"],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -2353,13 +1864,7 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "catamaran",
-        "delfines",
-        "snorkel",
-        "barco",
-        "mogan"
-      ],
+      "tags": ["catamaran", "delfines", "snorkel", "barco", "mogan"],
       "visitDuration": "3.5h",
       "emoji": "🐬",
       "sectionOnly": false,
@@ -2380,19 +1885,11 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/buggy-ayagaures.avif",
-        "gallery": [
-          "/images/gran-canaria/actividades/buggy-ayagaures.avif"
-        ]
+        "gallery": ["/images/gran-canaria/actividades/buggy-ayagaures.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": [
-        "buggy",
-        "aventura",
-        "ayagaures",
-        "todoterreno",
-        "adrenalina"
-      ],
+      "tags": ["buggy", "aventura", "ayagaures", "todoterreno", "adrenalina"],
       "visitDuration": "2h",
       "emoji": "🚙",
       "sectionOnly": false,

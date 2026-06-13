@@ -215,6 +215,17 @@ export default async function SlugPage({
       ? allIslandPois.filter((p) => !!p.top)
       : (catMap[filterId] ? allIslandPois.filter((p) => catMap[filterId].includes(p.category)) : []);
 
+    // Créditos fotográficos de todos los POIs del mapa, para que la ficha de
+    // detalle (PoiDetailSheet) los muestre al seleccionar cualquier POI.
+    const photoCreditsBySlug: Record<string, ReturnType<typeof getPhotoCredits>> = {};
+    for (const islandPois of Object.values(poisByIsland)) {
+      for (const p of islandPois) {
+        if (!photoCreditsBySlug[p.slug]) {
+          photoCreditsBySlug[p.slug] = getPhotoCredits(p.images);
+        }
+      }
+    }
+
     return (
       <div className="desktop-wrapper">
         {/* SSR content for SEO - visually hidden via srOnly, accessible to crawlers and screen readers */}
@@ -242,6 +253,7 @@ export default async function SlugPage({
             initialIsland={island}
             initialFilter={filterId}
             islandName={islandName}
+            photoCreditsBySlug={photoCreditsBySlug}
           />
         </div>
       </div>
@@ -267,6 +279,15 @@ export default async function SlugPage({
   const poiCategorySlug = POI_CATEGORY_TO_SLUG[poi.category] ?? 'actividades';
   const categoryLabel2 = CATEGORY_LABELS[poiCategorySlug] ?? poiCategorySlug;
 
+  // Créditos fotográficos de todos los POIs que pueden mostrarse en las
+  // burbujas de navegación, para que el carrusel los muestre al cambiar de POI.
+  const photoCreditsBySlug: Record<string, ReturnType<typeof getPhotoCredits>> = {};
+  for (const p of [poi, ...pois]) {
+    if (!photoCreditsBySlug[p.slug]) {
+      photoCreditsBySlug[p.slug] = getPhotoCredits(p.images);
+    }
+  }
+
   return (
     <div className="desktop-wrapper">
       <TouristAttractionJsonLd poi={poi} island={island} locale={locale} categorySlug={poiCategorySlug} />
@@ -288,7 +309,7 @@ export default async function SlugPage({
           pois={pois}
           locale={locale}
           island={island}
-          photoCreditGroups={getPhotoCredits(poi.images)}
+          photoCreditsBySlug={photoCreditsBySlug}
         />
       </div>
     </div>
