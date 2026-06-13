@@ -1,19 +1,21 @@
 {
-  "/images/gran-canaria/playas/playa_del_ingles.avif": {
-    "alt": "Vista de la playa de Playa del Inglés en Gran Canaria",
-    "width": 1600,
-    "height": 1200,
-    "title": "Stranden i Playa del Inglés.jpg",
-    "sourceName": "Wikimedia Commons",
-    "modifications": "Convertida a AVIF y optimizada para web",
-    "license": {
-      "type": "CC0",
-      "author": "Cosmomind",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stranden_i_Playa_del_Ingl%C3%A9s.jpg?uselang=es",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  "/images/gran-canaria/playas/playa_del_ingles_gran_canaria.jpg": {
+    "alt": "Vista general de la Playa del Inglés en Gran Canaria, Islas Canarias",
+  "width": 1600,
+  "height": 1200,
+  "title": "Playa del ingles gran canaria.jpg",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-2.0",
+    "author": "chris.swiss",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_del_ingles_gran_canaria.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "modified": true
     }
   },
-  "/images/gran-canaria/playas/playa_del_ingles-3.avif": {
+
+  "/images/gran-canaria/playas/playa_del_ingles_gran_canaria-3.avif": {
     "alt": "Vista de la Playa del Inglés en Gran Canaria",
     "width": 1600,
     "height": 1200,
@@ -73,35 +75,35 @@
     }
   },
   "/images/gran-canaria/playas/playa-maspalomas.avif": {
-    "alt": "Playa de Maspalomas y el faro de Maspalomas en Gran Canaria",
-    "width": 1600,
-    "height": 1724,
-    "title": "Playa maspalomas faro gran canaria.jpg",
-    "sourceName": "Wikimedia Commons",
-    "modifications": "Convertida a AVIF y optimizada para web",
-    "license": {
-      "type": "CC-BY-SA-3.0",
-      "author": "Roland Steinebach",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_maspalomas_faro_gran_canaria.jpg?uselang=es",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "modified": true
+"alt": "Vista aérea de la costa turística de Maspalomas, Playa del Inglés y Meloneras en Gran Canaria",
+  "width": 1600,
+  "height": 1200,
+  "title": "Aerial image of the coast of Gran Canaria.jpg",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-2.0",
+    "author": "JUAN RAMON RODRIGUEZ SOSA",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_coast_of_Gran_Canaria.jpg?uselang=es",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "modified": true
     }
-  },
+},
   "/images/gran-canaria/playas/playa-maspalomas-2.avif": {
-    "alt": "Vista aérea de la costa turística de Maspalomas, Playa del Inglés y Meloneras en Gran Canaria",
-    "width": 1600,
-    "height": 1200,
-    "title": "Aerial image of the coast of Gran Canaria.jpg",
-    "sourceName": "Wikimedia Commons",
-    "modifications": "Convertida a AVIF y optimizada para web",
-    "license": {
-      "type": "CC-BY-SA-2.0",
-      "author": "JUAN RAMON RODRIGUEZ SOSA",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_coast_of_Gran_Canaria.jpg?uselang=es",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-      "modified": true
-    }
-  },
+  "alt": "Vista panorámica de la Playa de Maspalomas y el Faro de Maspalomas en Gran Canaria",
+  "width": 1600,
+  "height": 786,
+  "title": "Gran Canaria-Maspalomas-40-Strand-Faro-2015-gje.jpg",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-4.0",
+    "author": "Gerd Eichmann",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaria-Maspalomas-40-Strand-Faro-2015-gje.jpg?uselang=es",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "modified": true
+  }
+},
   "/images/gran-canaria/playas/playa-maspalomas-3.avif": {
     "alt": "Vista panorámica de la Playa de Maspalomas y el Faro de Maspalomas en Gran Canaria",
     "width": 1600,
@@ -398,16 +400,16 @@
     "modified": true
   }
 },"/images/gran-canaria/playas/playa-la-aldea-2.avif": {
-  "alt": "Túnel junto a la costa de la Playa de La Aldea en Gran Canaria",
+   "alt": "Vista de la Playa de La Aldea y la costa de La Aldea de San Nicolás en Gran Canaria",
   "width": 1600,
-  "height": 1200,
-  "title": "Túnel en la playa - panoramio.jpg",
+  "height": 1063,
+  "title": "Playa La Aldea (GPS) - panoramio (2).jpg",
   "sourceName": "Wikimedia Commons",
   "modifications": "Convertida a AVIF y optimizada para web",
   "license": {
     "type": "CC-BY-3.0",
-    "author": "Toni Teror",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:T%C3%BAnel_en_la_playa_-_panoramio.jpg",
+    "author": "Jarek Prokop",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_La_Aldea_(GPS)_-_panoramio_(2).jpg",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "modified": true
   }
@@ -425,7 +427,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "modified": true
   }
-},"/images/gran-canaria/piscinas/piscinas-agaete.avif": {
+},"/images/gran-canaria/playas/piscinas-agaete.avif": {
   "alt": "Piscinas naturales de Agaete junto al océano Atlántico en Gran Canaria",
   "width": 1600,
   "height": 738,
@@ -480,7 +482,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-2.avif": {
+},"/images/gran-canaria/playas/playa-sardina-2.avif": {
   "alt": "Vista de la Playa de Sardina del Norte en Gáldar, Gran Canaria",
   "width": 1024,
   "height": 768,
@@ -630,7 +632,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-alcaravaneras.avif": {
+},"/images/gran-canaria/playas/playa-alcanavaneras.avif": {
   "alt": "Vista panorámica de la Playa de Las Alcaravaneras en Las Palmas de Gran Canaria",
   "width": 1600,
   "height": 800,
@@ -672,21 +674,8 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-el-puertillo.avif": {
-  "alt": "Vista de la playa y costa de El Puertillo en Gran Canaria",
-  "width": 1600,
-  "height": 1067,
-  "title": "El Puertillo D81 5164 (39617961171).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "Bengt Nyman",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Puertillo_D81_5164_(39617961171).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-el-puertillo-2.avif": {
+},
+"/images/gran-canaria/playas/playa-el-puertillo.avif": {
   "alt": "Vista panorámica de El Puertillo y su costa en Gran Canaria",
   "width": 1600,
   "height": 754,
@@ -697,6 +686,20 @@
     "type": "CC-BY-2.0",
     "author": "Bengt Nyman",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Puertillo_D81_5167_(38721739595).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "modified": true
+  }
+},"/images/gran-canaria/playas/el-puertillo.avif": {
+  "alt": "Vista de la playa y costa de El Puertillo en Gran Canaria",
+  "width": 1600,
+  "height": 1067,
+  "title": "El Puertillo D81 5164 (39617961171).jpg",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-2.0",
+    "author": "Bengt Nyman",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Puertillo_D81_5164_(39617961171).jpg",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "modified": true
   }

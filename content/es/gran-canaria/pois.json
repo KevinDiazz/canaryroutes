@@ -735,7 +735,7 @@
       "top": false
     },
     {
-      "slug": "piscinas-naturales-agaete",
+      "slug": "piscinas-agaete",
       "name": "Piscinas Naturales de Agaete",
       "description": "Formadas por antiguas coladas de lava volcánica junto al **Puerto de las Nieves**, las **Piscinas Naturales de Agaete** son uno de los lugares más espectaculares del norte de Gran Canaria para disfrutar del océano. Estas pozas naturales se llenan con agua atlántica cristalina, creando un espacio perfecto para bañarse mientras se contempla la fuerza del mar y el paisaje volcánico de la costa.\n\n### La visita\nEste conjunto de piscinas naturales ofrece zonas para nadar, tomar el sol y contemplar el Atlántico rompiendo contra la roca volcánica. El contraste entre la lava negra, el azul intenso del océano y las montañas que rodean Agaete convierte el lugar en uno de los rincones más fotogénicos de la isla.\n\n### Antes de ir\n- 🌊 Consulta el estado del mar, especialmente en días de fuerte oleaje\n- 👟 Se recomienda calzado adecuado para caminar sobre roca volcánica\n- ☀️ Lleva protección solar, hay pocas zonas de sombra\n- 📸 Ideal para fotografía costera y puestas de sol\n\n### Recomendación\nPasea por el cercano **Puerto de las Nieves** y disfruta de pescado fresco frente al mar en uno de los pueblos costeros con más encanto de Gran Canaria.",
       "shortDescription": "Piscinas Naturales de Agaete, impresionantes pozas de lava volcánica con agua cristalina junto al Puerto de las Nieves en Gran Canaria.",
@@ -819,7 +819,7 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-sardina.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-2.avif"]
+        "gallery": ["/images/gran-canaria/playas/playa-sardina-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1130,8 +1130,8 @@
         "lng": -15.535385
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-el-puertillo-2.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-el-puertillo-2.avif"]
+        "hero": "/images/gran-canaria/playas/playa-el-puertillo.avif",
+        "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
