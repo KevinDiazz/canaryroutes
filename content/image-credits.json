@@ -1,5 +1,5 @@
 {
-  "/images/gran-canaria/playas/playa-del-ingles-2.avif": {
+  "/images/gran-canaria/playas/playa_del_ingles.avif": {
     "alt": "Vista de la playa de Playa del Inglés en Gran Canaria",
     "width": 1600,
     "height": 1200,
@@ -13,7 +13,7 @@
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
     }
   },
-  "/images/gran-canaria/playas/playa-del-ingles-3.avif": {
+  "/images/gran-canaria/playas/playa_del_ingles-3.avif": {
     "alt": "Vista de la Playa del Inglés en Gran Canaria",
     "width": 1600,
     "height": 1200,
@@ -355,7 +355,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-guigui.avif": {
+},"/images/gran-canaria/playas/playa-guguy.avif": {
   "alt": "Vista de la Playa de Güi Güi en la costa oeste de Gran Canaria",
   "width": 1600,
   "height": 1064,
@@ -369,7 +369,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-guigui-2.avif": {
+},"/images/gran-canaria/playas/playa-guguy-2.avif": {
   "alt": "Vista de la Playa de Güi Güi rodeada de acantilados en Gran Canaria",
   "width": 1600,
   "height": 1067,
@@ -425,7 +425,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "modified": true
   }
-},"/images/gran-canaria/piscinas/piscinas-naturales-agaete.avif": {
+},"/images/gran-canaria/piscinas/piscinas-agaete.avif": {
   "alt": "Piscinas naturales de Agaete junto al océano Atlántico en Gran Canaria",
   "width": 1600,
   "height": 738,
@@ -438,7 +438,7 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piscinas_naturales_de_Agaete.jpg",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
   }
-},"/images/gran-canaria/playas/playa-puerto-de-las-nieves.avif": {
+},"/images/gran-canaria/playas/playa-agaete.avif": {
   "alt": "Playa y puerto de Las Nieves en Agaete, Gran Canaria",
   "width": 800,
   "height": 416,
@@ -452,7 +452,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-puerto-de-las-nieves-2.avif": {
+},"/images/gran-canaria/playas/playa-agaete-2.avif": {
   "alt": "Playa de Puerto de Las Nieves en Agaete, Gran Canaria",
   "width": 1023,
   "height": 680,
@@ -466,7 +466,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-sardina-del-norte.avif": {
+},"/images/gran-canaria/playas/playa-sardina.avif": {
   "alt": "Vista del Puerto y Playa de Sardina del Norte en Gáldar, Gran Canaria",
   "width": 1600,
   "height": 1203,
@@ -480,7 +480,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-sardina-del-norte-2.avif": {
+},"/images/gran-canaria/playas/playa-2.avif": {
   "alt": "Vista de la Playa de Sardina del Norte en Gáldar, Gran Canaria",
   "width": 1024,
   "height": 768,
@@ -602,7 +602,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-el-veril.avif": {
+},"/images/gran-canaria/playas/playa-veril.avif": {
   "alt": "Vista aérea de la parte norte de la Playa de El Veril en Gran Canaria",
   "width": 1600,
   "height": 1067,
@@ -630,7 +630,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-las-alcaravaneras.avif": {
+},"/images/gran-canaria/playas/playa-alcaravaneras.avif": {
   "alt": "Vista panorámica de la Playa de Las Alcaravaneras en Las Palmas de Gran Canaria",
   "width": 1600,
   "height": 800,
@@ -672,7 +672,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/el-puertillo.avif": {
+},"/images/gran-canaria/playas/playa-el-puertillo.avif": {
   "alt": "Vista de la playa y costa de El Puertillo en Gran Canaria",
   "width": 1600,
   "height": 1067,
@@ -686,7 +686,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/el-puertillo.avif": {
+},"/images/gran-canaria/playas/playa-el-puertillo-2.avif": {
   "alt": "Vista panorámica de El Puertillo y su costa en Gran Canaria",
   "width": 1600,
   "height": 754,
@@ -708,9 +708,8 @@
   "sourceName": "CanaryRoutes",
   "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
   "license": {
-    "type": "Copyright",
-    "author": "CanaryRoutes",
-    "modified": true
+    "type": "OWN",
+    "author": "CanaryRoutes"
   }
 },"/images/gran-canaria/playas/playa-guayedra.avif": {
   "alt": "Vista de Playa de Guayedra en Gran Canaria",
@@ -720,11 +719,10 @@
   "sourceName": "CanaryRoutes",
   "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
   "license": {
-    "type": "Copyright",
-    "author": "CanaryRoutes",
-    "modified": true
+    "type": "OWN",
+    "author": "CanaryRoutes"
   }
-},"/images/gran-canaria/playas/playa-arguineguin.avif": {
+},"/images/gran-canaria/playas/playa-maranuelas.avif": {
   "alt": "Vista panorámica de la Playa de Arguineguín en Gran Canaria",
   "width": 1600,
   "height": 729,
@@ -746,9 +744,8 @@
   "sourceName": "CanaryRoutes",
   "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
   "license": {
-    "type": "Copyright",
-    "author": "CanaryRoutes",
-    "modified": true
+    "type": "OWN",
+    "author": "CanaryRoutes"
   }
 }
 }

@@ -819,7 +819,7 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-sardina.avif",
-        "gallery": []
+        "gallery": ["/images/gran-canaria/playas/playa-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1130,8 +1130,8 @@
         "lng": -15.535385
       },
       "images": {
-        "hero": "/images/gran-canaria/playas/playa-el-puertillo.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/playas/playa-el-puertillo-2.avif",
+        "gallery": ["/images/gran-canaria/playas/playa-el-puertillo-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
