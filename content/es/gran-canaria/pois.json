@@ -310,9 +310,7 @@
       },
       "images": {
         "hero": "/images/gran-canaria/sendero/tamadaba-1.avif",
-        "gallery": [
-          "/images/gran-canaria/sendero/tamadaba-2.avif"
-        ]
+        "gallery": ["/images/gran-canaria/sendero/tamadaba-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1267,8 +1265,11 @@
         "lng": -15.41508
       },
       "images": {
-        "hero": "/images/gran-canaria/cultural/catedral-santa-ana-1.avif",
-        "gallery": ["/images/gran-canaria/cultural/catedral-santa-ana-2.avif"]
+        "hero": "/images/gran-canaria/cultural/santa-ana-2.avif",
+        "gallery": [
+          "/images/gran-canaria/cultural/santa-ana-1.avif",
+          "/images/gran-canaria/cultural/santa-ana-3.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1315,7 +1316,7 @@
         "lng": -15.415199
       },
       "images": {
-        "hero": "/images/gran-canaria/cultural/museo-canario-1.avif",
+        "hero": "/images/gran-canaria/cultural/museo-canario.avif",
         "gallery": ["/images/gran-canaria/cultural/museo-canario-2.avif"]
       },
       "affiliateLinks": [],
@@ -1340,7 +1341,7 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/cenobio-valeron-1.avif",
-        "gallery": ["/images/gran-canaria/cultural/cenobio-valeron-2.avif"]
+        "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1363,12 +1364,11 @@
         "lng": -15.482825
       },
       "images": {
-        "hero": "/images/gran-canaria/cultural/gastronomia-1.avif",
+        "hero": "/images/gran-canaria/cultural/queso-de-flor.avif",
         "gallery": [
-          "/images/gran-canaria/cultural/gastronomia-2.avif",
-          "/images/gran-canaria/cultural/gastronomia-3.avif",
-          "/images/gran-canaria/cultural/gastronomia-4.avif",
-          "/images/gran-canaria/cultural/gastronomia-5.avif"
+          "/images/gran-canaria/cultural/papas-arrugadas.avif",
+          "/images/gran-canaria/cultural/pescado.avif",
+          "/images/gran-canaria/cultural/gofio.avif"
         ]
       },
       "affiliateLinks": [],
@@ -1392,8 +1392,8 @@
         "lng": -15.64741
       },
       "images": {
-        "hero": "/images/gran-canaria/cultural/risco-caido-1.avif",
-        "gallery": ["/images/gran-canaria/cultural/risco-caido-2.avif"]
+        "hero": "/images/gran-canaria/cultural/risco-caido.avif",
+        "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1440,9 +1440,9 @@
         "lng": -15.523151
       },
       "images": {
-        "hero": "/images/gran-canaria/cultural/Parroquia-de-San-Juan-Bautista-1.avif",
+        "hero": "/images/gran-canaria/cultural/iglesia-san-juan-bautista-arucas.avif",
         "gallery": [
-          "/images/gran-canaria/cultural/Parroquia-de-San-Juan-Bautista-2.avif"
+          "/images/gran-canaria/cultural/iglesia-san-juan-bautista-arucas-2.avif"
         ]
       },
       "affiliateLinks": [],
@@ -1466,8 +1466,8 @@
         "lng": -15.569006
       },
       "images": {
-        "hero": "/images/gran-canaria/cultural/necropolis-de-arteara-1.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/cultural/tumulo-del-rey.avif",
+        "gallery": ["/images/gran-canaria/cultural/necropolis-arteara.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1490,7 +1490,7 @@
         "lng": -15.421396
       },
       "images": {
-        "hero": "/images/gran-canaria/cultural/castillo-de-mata-1.avif",
+        "hero": "/images/gran-canaria/cultural/castillo-de-mata.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1514,7 +1514,7 @@
         "lng": -15.424077
       },
       "images": {
-        "hero": "/images/gran-canaria/cultural/castillo-la-luz-1.avif",
+        "hero": "/images/gran-canaria/cultural/castillo-de-la-luz.avif",
         "gallery": []
       },
       "affiliateLinks": [],

@@ -1074,57 +1074,397 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "modified": true
     }
-  },"/images/gran-canaria/sendero/tamadaba-2.avif": {
-  "alt": "Paisaje del Parque Natural de Tamadaba en Gran Canaria",
-  "width": 1600,
-  "height": 1067,
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Iván Hernández Cazorla",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Natural_de_Tamadaba_19.JPG",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
+  },
+  "/images/gran-canaria/sendero/tamadaba-2.avif": {
+    "alt": "Paisaje del Parque Natural de Tamadaba en Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Iván Hernández Cazorla",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Natural_de_Tamadaba_19.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/cernicalos-1.avif": {
+    "alt": "Inicio del sendero del Barranco de los Cernícalos en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Gerda Arendt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_de_los_cerniculos,_Gran_Canaria,_entry.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/cernicalos-2.avif": {
+    "alt": "Vista hacia el este del Barranco de los Cernícalos en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Gerda Arendt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_de_los_cerniculos,_Gran_Canaria,_view_to_the_east.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/cernicalos-3.avif": {
+    "alt": "Barranco de los Cernícalos en Gran Canaria",
+    "width": 640,
+    "height": 720,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Turismo de Gran Canaria",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_de_cernicalos.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/casa-colon-1.avif": {
+    "alt": "Patio de la Casa de Colón en Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Sailko",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_de_colon,_las_palmas_01.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/casa-colon-2.avif": {
+    "alt": "Patio de Armas de la Casa de Colón en Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 1155,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Wolfgang Sauber",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Palmas_Casa_de_Colon_-_Patio_de_Armas_1.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/cueva-pintada-1.avif": {
+    "alt": "Excavaciones del Museo y Parque Arqueológico Cueva Pintada de Gáldar en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Wolfgang Sauber",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%A1ldar_Cueva_Pintada_-_Ausgrabung_1b.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/cueva-pintada-2.avif": {
+    "alt": "Cerámica aborigen canaria expuesta en el Museo y Parque Arqueológico Cueva Pintada de Gáldar",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Wolfgang Sauber",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%A1ldar_Cueva_Pintada_-_Ausstellung_1.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/santa-ana-1.avif": {
+    "alt": "Catedral de Santa Ana en Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "dronepicr",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Santa_Ana,_Las_Palmas,_Gran_Canaria_(52758074255).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/santa-ana-2.avif": {
+    "alt": "Fachada de la Catedral de Santa Ana en Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 1102,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Ana_Cathedral_EM1B9161_(38816571625).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/santa-ana-3.avif": {
+    "alt": "Interior de la Catedral de Santa Ana en Las Palmas de Gran Canaria",
+    "width": 1218,
+    "height": 1600,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC0",
+      "author": "AndyScott",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaria,_Las_Palmas,_Cathedral_of_Santa_Ana,_interior_06.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/vegueta.avif": {
+    "alt": "Vista del barrio de Vegueta desde la torre de la Catedral de Santa Ana en Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 652,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegueta_D81_6060_View_from_Santa_Ana_church_bell_tower_(32313549676).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/museo-canario.avif": {
+    "alt": "Fachada del Museo Canario en el barrio de Vegueta de Las Palmas de Gran Canaria",
+    "width": 1024,
+    "height": 768,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC0",
+      "author": "Alavisan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museo_Canario.JPG",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/museo-canario-2.avif": {
+    "alt": "Piezas arqueológicas expuestas en el Museo Canario de Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Cnbrb",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museo_Canario_collection_09.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/cenobio-valeron-1.avif": {
+    "alt": "Detalle del Cenobio de Valerón en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Thebrainchamber1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cenobio_de_Valer%C3%B3n_13.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/queso-de-flor.avif": {
+    "alt": "Queso de Flor de Guía, producto tradicional de Gran Canaria",
+    "width": 1024,
+    "height": 768,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.5",
+      "author": "Sergio Gil",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queso_de_flor.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/papas-arrugadas.avif": {
+    "alt": "Papas arrugadas con mojo, plato tradicional de Canarias",
+    "width": 1280,
+    "height": 960,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Fer..",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Papasarrugadas.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/pescado.avif": {
+    "alt": "Vieja a la plancha con papas arrugadas y mojo, plato tradicional canario",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Gerda Arendt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barlovento,_La_Palma,_vieja.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/gofio.avif": {
+    "alt": "Gofio escaldado, plato tradicional de la gastronomía canaria",
+    "width": 1024,
+    "height": 768,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "barraquito",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gofioescaldado.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/risco-caido.avif": {
+    "alt": "Risco Caído y las Montañas Sagradas de Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "El Coleccionista de Instantes Fotografía & Video",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Risco_Ca%C3%ADdo_y_las_Monta%C3%B1as_Sagradas_de_Gran_Canaria_ya_son_Patrimonio_Mundial_(48219954402).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/basilica-el-pino-1.avif": {
+    "alt": "Basílica de Nuestra Señora del Pino en Teror, Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Sailko",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_del_Pino_12.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/basilica-el-pino-2.avif": {
+    "alt": "Calles históricas del centro de Teror en Gran Canaria",
+    "width": 1600,
+    "height": 928,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teror_D81_6112_(38999457345).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/iglesia-san-juan-bautista-arucas.avif": {
+    "alt": "Iglesia de San Juan Bautista de Arucas en Gran Canaria",
+    "width": 1600,
+    "height": 1477,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-4.0",
+      "author": "Gerd Eichmann",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaria-Arucas-04-Kathedrale_San_Juan_Bautista-2015-gje.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/iglesia-san-juan-bautista-arucas-2.avif": {
+    "alt": "Parroquia de San Juan Bautista de Arucas en Gran Canaria",
+    "width": 1600,
+    "height": 1048,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "trolvag",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parroquia_de_San_Juan_Bautista_-_panoramio_(1).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/tumulo-del-rey.avif": {
+    "alt": "Túmulo del Rey en la Necrópolis de Maipés de Agaete, Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Abel-Arkeós",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:T%C3%BAmulo_del_Rey..jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/necropolis-arteara.avif": {
+    "alt": "Necrópolis de Arteara al atardecer en Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "Victor R. Ruiz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:WLM14ES_-_Sunset_at_Necr%C3%B3polis_de_Arteara_-_rvr.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/castillo-de-mata.avif": {
+    "alt": "Entrada al Museo Castillo de Mata en Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Beta15",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castillo_de_Mata_02.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/cultural/castillo-de-la-luz.avif": {
+    "alt": "Castillo de la Luz en Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 1025,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castillo_de_la_Luz_D81_5344_(27910263459).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
   }
-},"/images/gran-canaria/sendero/cernicalos-1.avif": {
-  "alt": "Inicio del sendero del Barranco de los Cernícalos en Gran Canaria",
-  "width": 1600,
-  "height": 1200,
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Gerda Arendt",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_de_los_cerniculos,_Gran_Canaria,_entry.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/sendero/cernicalos-2.avif": {
-  "alt": "Vista hacia el este del Barranco de los Cernícalos en Gran Canaria",
-  "width": 1600,
-  "height": 1200,
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Gerda Arendt",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_de_los_cerniculos,_Gran_Canaria,_view_to_the_east.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/sendero/cernicalos-3.avif": {
-  "alt": "Barranco de los Cernícalos en Gran Canaria",
-  "width": 640,
-  "height": 720,
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Turismo de Gran Canaria",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_de_cernicalos.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-}
 }
