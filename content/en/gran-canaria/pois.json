@@ -228,10 +228,7 @@
       },
       "images": {
         "hero": "/images/gran-canaria/sendero/pico-de-las-nieves-1.avif",
-        "gallery": [
-          "/images/gran-canaria/sendero/pico-de-las-nieves-2.avif",
-          "/images/gran-canaria/sendero/pico-de-las-nieves-3.avif"
-        ]
+        "gallery": []
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -272,10 +269,7 @@
       },
       "images": {
         "hero": "/images/gran-canaria/sendero/caldera-bandama-1.avif",
-        "gallery": [
-          "/images/gran-canaria/sendero/caldera-bandama-2.avif",
-          "/images/gran-canaria/sendero/caldera-bandama-3.avif"
-        ]
+        "gallery": ["/images/gran-canaria/sendero/caldera-bandama-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -317,8 +311,7 @@
       "images": {
         "hero": "/images/gran-canaria/sendero/tamadaba-1.avif",
         "gallery": [
-          "/images/gran-canaria/sendero/tamadaba-2.avif",
-          "/images/gran-canaria/sendero/tamadaba-3.avif"
+          "/images/gran-canaria/sendero/tamadaba-2.avif"
         ]
       },
       "affiliateLinks": [],
@@ -359,10 +352,10 @@
         "lng": -15.473875
       },
       "images": {
-        "hero": "/images/gran-canaria/sendero/barranco-cernicalos-1.avif",
+        "hero": "/images/gran-canaria/sendero/cernicalos-1.avif",
         "gallery": [
-          "/images/gran-canaria/sendero/barranco-cernicalos-2.avif",
-          "/images/gran-canaria/sendero/barranco-cernicalos-3.avif"
+          "/images/gran-canaria/sendero/cernicalos-2.avif",
+          "/images/gran-canaria/sendero/cernicalos-3.avif"
         ]
       },
       "affiliateLinks": [],
