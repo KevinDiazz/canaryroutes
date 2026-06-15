@@ -1,17 +1,17 @@
 {
   "/images/gran-canaria/playas/playa_del_ingles_gran_canaria.jpg": {
     "alt": "Vista general de la Playa del Inglés en Gran Canaria, Islas Canarias",
-  "width": 1600,
-  "height": 1200,
-  "title": "Playa del ingles gran canaria.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-2.0",
-    "author": "chris.swiss",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_del_ingles_gran_canaria.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-    "modified": true
+    "width": 1600,
+    "height": 1200,
+    "title": "Playa del ingles gran canaria.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "chris.swiss",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_del_ingles_gran_canaria.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
     }
   },
 
@@ -75,35 +75,35 @@
     }
   },
   "/images/gran-canaria/playas/playa-maspalomas.avif": {
-"alt": "Vista aérea de la costa turística de Maspalomas, Playa del Inglés y Meloneras en Gran Canaria",
-  "width": 1600,
-  "height": 1200,
-  "title": "Aerial image of the coast of Gran Canaria.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-2.0",
-    "author": "JUAN RAMON RODRIGUEZ SOSA",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_coast_of_Gran_Canaria.jpg?uselang=es",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-    "modified": true
+    "alt": "Vista aérea de la costa turística de Maspalomas, Playa del Inglés y Meloneras en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "title": "Aerial image of the coast of Gran Canaria.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "JUAN RAMON RODRIGUEZ SOSA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_coast_of_Gran_Canaria.jpg?uselang=es",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
     }
-},
+  },
   "/images/gran-canaria/playas/playa-maspalomas-2.avif": {
-  "alt": "Vista panorámica de la Playa de Maspalomas y el Faro de Maspalomas en Gran Canaria",
-  "width": 1600,
-  "height": 786,
-  "title": "Gran Canaria-Maspalomas-40-Strand-Faro-2015-gje.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-4.0",
-    "author": "Gerd Eichmann",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaria-Maspalomas-40-Strand-Faro-2015-gje.jpg?uselang=es",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "modified": true
-  }
-},
+    "alt": "Vista panorámica de la Playa de Maspalomas y el Faro de Maspalomas en Gran Canaria",
+    "width": 1600,
+    "height": 786,
+    "title": "Gran Canaria-Maspalomas-40-Strand-Faro-2015-gje.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-4.0",
+      "author": "Gerd Eichmann",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaria-Maspalomas-40-Strand-Faro-2015-gje.jpg?uselang=es",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": true
+    }
+  },
   "/images/gran-canaria/playas/playa-maspalomas-3.avif": {
     "alt": "Vista panorámica de la Playa de Maspalomas y el Faro de Maspalomas en Gran Canaria",
     "width": 1600,
@@ -133,622 +133,998 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "modified": true
     }
-  },"/images/gran-canaria/playas/playa-amadores-2.avif": {
-  "alt": "Vista panorámica de la Playa de Amadores en Mogán, Gran Canaria",
-  "width": 1600,
-  "height": 399,
-  "title": "Amadores D81 6625 (38430623460).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "Bengt Nyman",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amadores_D81_6625_(38430623460).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-amadores-3.avif": {
-  "alt": "Vista panorámica de la Playa de Amadores y la costa de Puerto Rico en Gran Canaria",
-  "width": 1600,
-  "height": 493,
-  "title": "Amadores D81 6647 (39343578605).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "Bengt Nyman",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amadores_D81_6647_(39343578605).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-puerto-rico.avif": {
-  "alt": "Vista panorámica de la Playa de Puerto Rico en Mogán, Gran Canaria",
-  "width": 1600,
-  "height": 809,
-  "title": "Puerto Rico EM1B0015 (25370049267).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "Bengt Nyman",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_Rico_EM1B0015_(25370049267).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-puerto-rico-2.avif": {
-  "alt": "Vista de la Playa de Puerto Rico y la costa sur de Gran Canaria",
-  "width": 1600,
-  "height": 1200,
-  "title": "Gran Canaira 2011 - panoramio.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Roy Hastings",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaira_2011_-_panoramio.jpg?uselang=es",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-mogan.avif": {
-  "alt": "Vista panorámica de Puerto de Mogán en Gran Canaria",
-  "width": 1600,
-  "height": 896,
-  "title": "Puerto de Mogán, May 2018 -02.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Martin Falbisoner",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_Mog%C3%A1n,_May_2018_-02.jpg?uselang=es",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-mogan-2.avif": {
-  "alt": "Vista panorámica de la Playa de Mogán y Puerto de Mogán en Gran Canaria",
-  "width": 1600,
-  "height": 643,
-  "title": "Puerto de Mogán D81 6587 (25303857987).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "Bengt Nyman",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_Mog%C3%A1n_D81_6587_(25303857987).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-taurito.avif": {
-  "alt": "Vista de la Playa de Taurito y su entorno costero en Gran Canaria",
-  "width": 1600,
-  "height": 1200,
-  "title": "Taurito kz5.JPG",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-3.0",
-    "author": "Kenraiz",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taurito_kz5.JPG",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-taurito-2.avif": {
-  "alt": "Vista de la Playa de Taurito y los hoteles del valle de Taurito en Gran Canaria",
-  "width": 1600,
-  "height": 1136,
-  "title": "Taurito kz4.JPG",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-3.0",
-    "author": "Kenraiz",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taurito_kz4.JPG",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-tauro.avif": {
-  "alt": "Vista de la Playa de Tauro en la costa suroeste de Gran Canaria",
-  "width": 1600,
-  "height": 1200,
-  "title": "Playa de Tauro 9547.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-4.0",
-    "author": "Gerd Fahrenhorst",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Tauro_9547.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-anfi-del-mar.avif": {
-  "alt": "Vista de Anfi del Mar y su playa de arena blanca en Gran Canaria",
-  "width": 1600,
-  "height": 1200,
-  "title": "Amfi del Mar, det såkalte Lyngsenteret, på Gran Canaria.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Svend Aage Madsen",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amfi_del_Mar,_det_s%C3%A5kalte_Lyngsenteret,_p%C3%A5_Gran_Canaria.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-anfi-del-mar-2.avif": {
-  "alt": "Vista de la Playa de Anfi del Mar en la costa sur de Gran Canaria",
-  "width": 1600,
-  "height": 1200,
-  "title": "Anfi Del Mar - panoramio (1).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Gfox228",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anfi_Del_Mar_-_panoramio_(1).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-veneguera.avif": {
-  "alt": "Vista de la Playa de Veneguera en la costa oeste de Gran Canaria",
-  "width": 1600,
-  "height": 1063,
-  "title": "Playa de Veneguera (I) - panoramio.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Jarek Prokop",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Veneguera_(I)_-_panoramio.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-veneguera-2.avif": {
-  "alt": "Sendero y paisaje costero camino a la Playa de Veneguera en Gran Canaria",
-  "width": 1600,
-  "height": 900,
-  "title": "From Veneguera to Playa de Veneguera (X) - panoramio.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Jarek Prokop",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:From_Veneguera_to_Playa_de_Veneguera_(X)_-_panoramio.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-tasarte.avif": {
-  "alt": "Vista de la Playa de Tasarte en la costa oeste de Gran Canaria",
-  "width": 1600,
-  "height": 900,
-  "title": "Playa de Tasarte (III) - panoramio.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Jarek Prokop",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Tasarte_(III)_-_panoramio.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-tasartico.avif": {
-  "alt": "Vista de la Playa de Tasartico en la costa oeste de Gran Canaria",
-  "width": 1600,
-  "height": 900,
-  "title": "Playa de Tasartico (X) - panoramio.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Jarek Prokop",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Tasartico_(X)_-_panoramio.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-tasartico-2.avif": {
-  "alt": "Vista de la Playa de Tasartico y su entorno natural en la costa oeste de Gran Canaria",
-  "width": 1600,
-  "height": 900,
-  "title": "Playa de Tasartico (IV) - panoramio.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Jarek Prokop",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Tasartico_(IV)_-_panoramio.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-guguy.avif": {
-  "alt": "Vista de la Playa de Güi Güi en la costa oeste de Gran Canaria",
-  "width": 1600,
-  "height": 1064,
-  "title": "Playa de Guigui (II) - panoramio.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Jarek Prokop",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Guigui_(II)_-_panoramio.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-guguy-2.avif": {
-  "alt": "Vista de la Playa de Güi Güi rodeada de acantilados en Gran Canaria",
+  },
+  "/images/gran-canaria/playas/playa-amadores-2.avif": {
+    "alt": "Vista panorámica de la Playa de Amadores en Mogán, Gran Canaria",
+    "width": 1600,
+    "height": 399,
+    "title": "Amadores D81 6625 (38430623460).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amadores_D81_6625_(38430623460).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-amadores-3.avif": {
+    "alt": "Vista panorámica de la Playa de Amadores y la costa de Puerto Rico en Gran Canaria",
+    "width": 1600,
+    "height": 493,
+    "title": "Amadores D81 6647 (39343578605).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amadores_D81_6647_(39343578605).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-puerto-rico.avif": {
+    "alt": "Vista panorámica de la Playa de Puerto Rico en Mogán, Gran Canaria",
+    "width": 1600,
+    "height": 809,
+    "title": "Puerto Rico EM1B0015 (25370049267).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_Rico_EM1B0015_(25370049267).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-puerto-rico-2.avif": {
+    "alt": "Vista de la Playa de Puerto Rico y la costa sur de Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "title": "Gran Canaira 2011 - panoramio.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Roy Hastings",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaira_2011_-_panoramio.jpg?uselang=es",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-mogan.avif": {
+    "alt": "Vista panorámica de Puerto de Mogán en Gran Canaria",
+    "width": 1600,
+    "height": 896,
+    "title": "Puerto de Mogán, May 2018 -02.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Martin Falbisoner",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_Mog%C3%A1n,_May_2018_-02.jpg?uselang=es",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-mogan-2.avif": {
+    "alt": "Vista panorámica de la Playa de Mogán y Puerto de Mogán en Gran Canaria",
+    "width": 1600,
+    "height": 643,
+    "title": "Puerto de Mogán D81 6587 (25303857987).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_Mog%C3%A1n_D81_6587_(25303857987).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-taurito.avif": {
+    "alt": "Vista de la Playa de Taurito y su entorno costero en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "title": "Taurito kz5.JPG",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Kenraiz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taurito_kz5.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-taurito-2.avif": {
+    "alt": "Vista de la Playa de Taurito y los hoteles del valle de Taurito en Gran Canaria",
+    "width": 1600,
+    "height": 1136,
+    "title": "Taurito kz4.JPG",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Kenraiz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taurito_kz4.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-tauro.avif": {
+    "alt": "Vista de la Playa de Tauro en la costa suroeste de Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "title": "Playa de Tauro 9547.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-4.0",
+      "author": "Gerd Fahrenhorst",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Tauro_9547.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-anfi-del-mar.avif": {
+    "alt": "Vista de Anfi del Mar y su playa de arena blanca en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "title": "Amfi del Mar, det såkalte Lyngsenteret, på Gran Canaria.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Svend Aage Madsen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amfi_del_Mar,_det_s%C3%A5kalte_Lyngsenteret,_p%C3%A5_Gran_Canaria.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-anfi-del-mar-2.avif": {
+    "alt": "Vista de la Playa de Anfi del Mar en la costa sur de Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "title": "Anfi Del Mar - panoramio (1).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Gfox228",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anfi_Del_Mar_-_panoramio_(1).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-veneguera.avif": {
+    "alt": "Vista de la Playa de Veneguera en la costa oeste de Gran Canaria",
+    "width": 1600,
+    "height": 1063,
+    "title": "Playa de Veneguera (I) - panoramio.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Veneguera_(I)_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-veneguera-2.avif": {
+    "alt": "Sendero y paisaje costero camino a la Playa de Veneguera en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "From Veneguera to Playa de Veneguera (X) - panoramio.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:From_Veneguera_to_Playa_de_Veneguera_(X)_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-tasarte.avif": {
+    "alt": "Vista de la Playa de Tasarte en la costa oeste de Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "Playa de Tasarte (III) - panoramio.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Tasarte_(III)_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-tasartico.avif": {
+    "alt": "Vista de la Playa de Tasartico en la costa oeste de Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "Playa de Tasartico (X) - panoramio.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Tasartico_(X)_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-tasartico-2.avif": {
+    "alt": "Vista de la Playa de Tasartico y su entorno natural en la costa oeste de Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "Playa de Tasartico (IV) - panoramio.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Tasartico_(IV)_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-guguy.avif": {
+    "alt": "Vista de la Playa de Güi Güi en la costa oeste de Gran Canaria",
+    "width": 1600,
+    "height": 1064,
+    "title": "Playa de Guigui (II) - panoramio.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Guigui_(II)_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-guguy-2.avif": {
+    "alt": "Vista de la Playa de Güi Güi rodeada de acantilados en Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "title": "Guigui-grancanaria.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Lexthoonen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guigui-grancanaria.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-la-aldea.avif": {
+    "alt": "Vista de la Playa de La Aldea en La Aldea de San Nicolás, Gran Canaria",
+    "width": 1600,
+    "height": 1063,
+    "title": "Playa La Aldea (GPS) - panoramio.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_La_Aldea_(GPS)_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-la-aldea-2.avif": {
+    "alt": "Vista de la Playa de La Aldea y la costa de La Aldea de San Nicolás en Gran Canaria",
+    "width": 1600,
+    "height": 1063,
+    "title": "Playa La Aldea (GPS) - panoramio (2).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_La_Aldea_(GPS)_-_panoramio_(2).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-la-aldea-3.avif": {
+    "alt": "Vista de la Playa de La Aldea y la costa de La Aldea de San Nicolás en Gran Canaria",
+    "width": 1600,
+    "height": 1063,
+    "title": "Playa La Aldea (GPS) - panoramio (2).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_La_Aldea_(GPS)_-_panoramio_(2).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/piscinas-agaete.avif": {
+    "alt": "Piscinas naturales de Agaete junto al océano Atlántico en Gran Canaria",
+    "width": 1600,
+    "height": 738,
+    "title": "Piscinas naturales de Agaete.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC0",
+      "author": "Grgor12",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piscinas_naturales_de_Agaete.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  "/images/gran-canaria/playas/playa-agaete.avif": {
+    "alt": "Playa y puerto de Las Nieves en Agaete, Gran Canaria",
+    "width": 800,
+    "height": 416,
+    "title": "PuertodelasNieves.JPG",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Monie",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PuertodelasNieves.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-agaete-2.avif": {
+    "alt": "Playa de Puerto de Las Nieves en Agaete, Gran Canaria",
+    "width": 1023,
+    "height": 680,
+    "title": "Plaža - panoramio (6).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "nikola_pu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pla%C5%BEa_-_panoramio_(6).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-sardina.avif": {
+    "alt": "Vista del Puerto y Playa de Sardina del Norte en Gáldar, Gran Canaria",
+    "width": 1600,
+    "height": 1203,
+    "title": "Puerto de Sardina.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Rebexho",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_Sardina.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-sardina-2.avif": {
+    "alt": "Vista de la Playa de Sardina del Norte en Gáldar, Gran Canaria",
+    "width": 1024,
+    "height": 768,
+    "title": "Playa de Sardina 1 - panoramio.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Toni Teror",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Sardina_1_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-meloneras.avif": {
+    "alt": "Vista de la Playa de Meloneras y la costa sur de Gran Canaria",
+    "width": 1600,
+    "height": 986,
+    "title": "Meloneras (2288654031).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Tony Hisgett",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meloneras_(2288654031).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-meloneras-2.avif": {
+    "alt": "Vista de la Playa de Meloneras y el Paseo de Meloneras en Gran Canaria",
+    "width": 1600,
+    "height": 937,
+    "title": "Maspalomas west coast.jpg",
+    "sourceName": "Wikimedia Commons",
+    "license": {
+      "type": "CC0",
+      "author": "Wouter Hagens",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maspalomas_west_coast.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  "/images/gran-canaria/playas/playa-san-agustin.avif": {
+    "alt": "Vista panorámica de la Playa de San Agustín en Gran Canaria",
+    "width": 1600,
+    "height": 681,
+    "title": "San Agustin beach.jpg",
+    "sourceName": "Wikimedia Commons",
+    "license": {
+      "type": "CC0",
+      "author": "Wouter Hagens",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Agustin_beach.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  "/images/gran-canaria/playas/playa-las-burras.avif": {
+    "alt": "Vista panorámica de la Playa de Las Burras al amanecer en Gran Canaria",
+    "width": 1600,
+    "height": 611,
+    "title": "Beach - San Agustín.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "H. Zell",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_-_San_Agust%C3%ADn.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-arinaga.avif": {
+    "alt": "Vista aérea de la Playa de Arinaga en Gran Canaria",
+    "width": 800,
+    "height": 600,
+    "title": "Playa arinaga.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Angel Isleño",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_arinaga.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-melenara.avif": {
+    "alt": "Vista de la Playa de Melenara en Telde, Gran Canaria",
+    "width": 1600,
+    "height": 1050,
+    "title": "Gran Canaria, Telde, Playa de Melenara.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Wiki05",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaria,_Telde,_Playa_de_Melenara.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-melenara-2.avif": {
+    "alt": "Escultura de Neptuno junto a la Playa de Melenara en Telde, Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "title": "Playa de Melenara - Neptuno - panoramio.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Canarina",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Melenara_-_Neptuno_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-tufia.avif": {
+    "alt": "Vista del pueblo costero y la Playa de Tufia en Telde, Gran Canaria",
+    "width": 1600,
+    "height": 567,
+    "title": "Pueblo de Tufia.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "Victor R. Ruiz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pueblo_de_Tufia.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-veril.avif": {
+    "alt": "Vista aérea de la parte norte de la Playa de El Veril en Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "title": "Northern part of El Veril Beach, Gran Canaria (52757669111).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "dronepicr",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northern_part_of_El_Veril_Beach,_Gran_Canaria_(52757669111).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-la-garita.avif": {
+    "alt": "Vista de la Playa de La Garita en Telde, Gran Canaria",
+    "width": 1280,
+    "height": 720,
+    "title": "Csm Gran-Canaria-La-Garita- 52199cf1f0.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Soniahmoreno",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Csm_Gran-Canaria-La-Garita-_52199cf1f0.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-alcanavaneras.avif": {
+    "alt": "Vista panorámica de la Playa de Las Alcaravaneras en Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 800,
+    "title": "Playa de Las Alcaravaneras.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Las_Alcaravaneras.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-la-laja.avif": {
+    "alt": "Vista de la Playa de La Laja en Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "Playa de La Laja.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "spanginator",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_La_Laja.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/piscinas-la-laja.avif": {
+    "alt": "Piscinas naturales de La Laja junto al océano en Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "Piscinas de la Laja 02.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Beta15",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piscinas_de_la_Laja_02.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-el-puertillo.avif": {
+    "alt": "Vista panorámica de El Puertillo y su costa en Gran Canaria",
+    "width": 1600,
+    "height": 754,
+    "title": "El Puertillo D81 5167 (38721739595).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Puertillo_D81_5167_(38721739595).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/el-puertillo.avif": {
+    "alt": "Vista de la playa y costa de El Puertillo en Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "title": "El Puertillo D81 5164 (39617961171).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Puertillo_D81_5164_(39617961171).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-besudo.avif": {
+    "alt": "Vista de Playa del Besudo en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "playa-besudo.avif",
+    "sourceName": "CanaryRoutes",
+    "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "OWN",
+      "author": "CanaryRoutes"
+    }
+  },
+  "/images/gran-canaria/playas/playa-guayedra.avif": {
+    "alt": "Vista de Playa de Guayedra en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "playa-guayedra.avif",
+    "sourceName": "CanaryRoutes",
+    "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "OWN",
+      "author": "CanaryRoutes"
+    }
+  },
+  "/images/gran-canaria/playas/playa-maranuelas.avif": {
+    "alt": "Vista panorámica de la Playa de Arguineguín en Gran Canaria",
+    "width": 1600,
+    "height": 729,
+    "title": "Arguineguin Playa1.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.5",
+      "author": "Bård Ove Myhr",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arguineguin_Playa1.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/playas/playa-montana-arena.avif": {
+    "alt": "Vista de la Playa de Montaña Arena en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "playa-montana-arena.avif",
+    "sourceName": "CanaryRoutes",
+    "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "OWN",
+      "author": "CanaryRoutes"
+    }
+  },
+  "/images/gran-canaria/sendero/guayadeque-1.avif": {
+    "alt": "Vista del Barranco de Guayadeque en dirección a la costa en Gran Canaria",
+    "width": 1600,
+    "height": 1198,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC0",
+      "author": "Álvaro Ávila",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barrango_Guayadeque_hacia_el_mar.JPG",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/guayadeque-2.avif": {
+    "alt": "Paisaje del Barranco de Guayadeque en Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Mololo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guayadeque_paisaje_4.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/guayadeque-3.avif": {
+    "alt": "Riachuelo en el Barranco de Guayadeque en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Josemmdiaz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guayadeque,_riachuelo.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/guguy-2.avif": {
+    "alt": "Sendero entre Tasártico y la Playa de Güi Güi en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Oktoober",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GC_Tasartico-G%C3%BCiG%C3%BCi-matkarada3.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/guguy-4.avif": {
+    "alt": "Sendero de Tasártico hacia la Playa de Güi Güi en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Oktoober",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GC_Tasartico-G%C3%BCiG%C3%BCi-matkarada2.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/guguy-1.avif": {
+    "alt": "Descenso final hacia la Playa de Güi Güi desde el sendero de Tasártico en Gran Canaria",
+    "width": 1280,
+    "height": 851,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tasartico_to_Guigui_(XV)_final_descent_to_the_beach_of_Guigui_(Gui-Gui)_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/guguy-3.avif": {
+    "alt": "Sendero entre Tasártico y Güi Güi en Gran Canaria",
+    "width": 1280,
+    "height": 851,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Jarek Prokop",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tasartico_to_Guigui_(IV)_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/tilos-de-moya-1.avif": {
+    "alt": "Centro de Interpretación de Los Tilos de Moya en Gran Canaria",
+    "width": 1600,
+    "height": 912,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Salva Bnj.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centro_de_interpretaci%C3%B3n_de_Los_Tilos_de_Moya.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/tilos-de-moya-2.avif": {
+    "alt": "Paisaje de Los Tilos de Moya en Gran Canaria",
+    "width": 1024,
+    "height": 768,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Toni Teror",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Tilos_2_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/tilos-de-moya-3.avif": {
+    "alt": "Sendero en Los Tilos de Moya en Gran Canaria",
+    "width": 1024,
+    "height": 768,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Toni Teror",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sendero_en_Los_Tilos_3_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/barranco-azuaje-1.avif": {
+    "alt": "Camino por el Barranco de Azuaje en Gran Canaria",
+    "width": 1024,
+    "height": 768,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Toni Teror",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camino_por_el_barranco_de_Azuaje_2_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/barranco-azuaje-2.avif": {
+    "alt": "Paisaje del Barranco de Azuaje en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Hecsuag",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_de_Azuaje_II.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/barranco-azuaje-3.avif": {
+    "alt": "Riachuelo en el Barranco de Azuaje en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Hecsuag",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riachuelo_Azuaje_III.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/roque-nublo-1.avif": {
+    "alt": "Roque Nublo en Gran Canaria",
+    "width": 1200,
+    "height": 1600,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Sailko",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roque_nublo_08.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/roque-nublo-2.avif": {
+    "alt": "Sendero de subida al Roque Nublo en Gran Canaria",
+    "width": 1600,
+    "height": 899,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Obdulio Obduliez",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sendero_de_subida_al_Roque_Nublo.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/roque-nublo-3.avif": {
+    "alt": "Vista cercana del Roque Nublo en Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC0",
+      "author": "Cap1000",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roque_Nublo_2.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/pico-de-las-nieves-1.avif": {
+    "alt": "Vista desde el Pico de las Nieves en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Oktoober",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GC_Pico_de_las_Nieves2.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/caldera-bandama-1.avif": {
+    "alt": "Vista de la Caldera de Bandama en Gran Canaria",
+    "width": 1024,
+    "height": 683,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "El Coleccionista de Instantes Fotografía & Video",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruta_de_la_Caldera_de_Bandama_-_Gran_Canaria_(5442251603).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/caldera-bandama-2.avif": {
+    "alt": "Vista aérea de la Caldera de Bandama en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Canary Dron",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caldera_a_vista_de_dron.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/sendero/tamadaba-1.avif": {
+    "alt": "Pinos canarios en el Parque Natural de Tamadaba en Gran Canaria",
+    "width": 1600,
+    "height": 993,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Tamara k",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamadaba,_Pinos_Canarios.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },"/images/gran-canaria/sendero/tamadaba-2.avif": {
+  "alt": "Paisaje del Parque Natural de Tamadaba en Gran Canaria",
   "width": 1600,
   "height": 1067,
-  "title": "Guigui-grancanaria.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-3.0",
-    "author": "Lexthoonen",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guigui-grancanaria.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-la-aldea.avif": {
-  "alt": "Vista de la Playa de La Aldea en La Aldea de San Nicolás, Gran Canaria",
-  "width": 1600,
-  "height": 1063,
-  "title": "Playa La Aldea (GPS) - panoramio.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Jarek Prokop",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_La_Aldea_(GPS)_-_panoramio.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-la-aldea-2.avif": {
-   "alt": "Vista de la Playa de La Aldea y la costa de La Aldea de San Nicolás en Gran Canaria",
-  "width": 1600,
-  "height": 1063,
-  "title": "Playa La Aldea (GPS) - panoramio (2).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Jarek Prokop",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_La_Aldea_(GPS)_-_panoramio_(2).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-la-aldea-3.avif": {
-  "alt": "Vista de la Playa de La Aldea y la costa de La Aldea de San Nicolás en Gran Canaria",
-  "width": 1600,
-  "height": 1063,
-  "title": "Playa La Aldea (GPS) - panoramio (2).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Jarek Prokop",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_La_Aldea_(GPS)_-_panoramio_(2).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/piscinas-agaete.avif": {
-  "alt": "Piscinas naturales de Agaete junto al océano Atlántico en Gran Canaria",
-  "width": 1600,
-  "height": 738,
-  "title": "Piscinas naturales de Agaete.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC0",
-    "author": "Grgor12",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piscinas_naturales_de_Agaete.jpg",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-  }
-},"/images/gran-canaria/playas/playa-agaete.avif": {
-  "alt": "Playa y puerto de Las Nieves en Agaete, Gran Canaria",
-  "width": 800,
-  "height": 416,
-  "title": "PuertodelasNieves.JPG",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-3.0",
-    "author": "Monie",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PuertodelasNieves.JPG",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-agaete-2.avif": {
-  "alt": "Playa de Puerto de Las Nieves en Agaete, Gran Canaria",
-  "width": 1023,
-  "height": 680,
-  "title": "Plaža - panoramio (6).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-3.0",
-    "author": "nikola_pu",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pla%C5%BEa_-_panoramio_(6).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-sardina.avif": {
-  "alt": "Vista del Puerto y Playa de Sardina del Norte en Gáldar, Gran Canaria",
-  "width": 1600,
-  "height": 1203,
-  "title": "Puerto de Sardina.jpg",
   "sourceName": "Wikimedia Commons",
   "modifications": "Convertida a AVIF y optimizada para web",
   "license": {
     "type": "CC-BY-SA-4.0",
-    "author": "Rebexho",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_Sardina.jpg",
+    "author": "Iván Hernández Cazorla",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Natural_de_Tamadaba_19.JPG",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-sardina-2.avif": {
-  "alt": "Vista de la Playa de Sardina del Norte en Gáldar, Gran Canaria",
-  "width": 1024,
-  "height": 768,
-  "title": "Playa de Sardina 1 - panoramio.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-3.0",
-    "author": "Toni Teror",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Sardina_1_-_panoramio.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-meloneras.avif": {
-  "alt": "Vista de la Playa de Meloneras y la costa sur de Gran Canaria",
-  "width": 1600,
-  "height": 986,
-  "title": "Meloneras (2288654031).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "Tony Hisgett",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meloneras_(2288654031).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-meloneras-2.avif": {
-  "alt": "Vista de la Playa de Meloneras y el Paseo de Meloneras en Gran Canaria",
-  "width": 1600,
-  "height": 937,
-  "title": "Maspalomas west coast.jpg",
-  "sourceName": "Wikimedia Commons",
-  "license": {
-    "type": "CC0",
-    "author": "Wouter Hagens",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maspalomas_west_coast.jpg",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-  }
-},"/images/gran-canaria/playas/playa-san-agustin.avif": {
-  "alt": "Vista panorámica de la Playa de San Agustín en Gran Canaria",
-  "width": 1600,
-  "height": 681,
-  "title": "San Agustin beach.jpg",
-  "sourceName": "Wikimedia Commons",
-  "license": {
-    "type": "CC0",
-    "author": "Wouter Hagens",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Agustin_beach.jpg",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-  }
-},"/images/gran-canaria/playas/playa-las-burras.avif": {
-  "alt": "Vista panorámica de la Playa de Las Burras al amanecer en Gran Canaria",
-  "width": 1600,
-  "height": 611,
-  "title": "Beach - San Agustín.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "H. Zell",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_-_San_Agust%C3%ADn.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-arinaga.avif": {
-  "alt": "Vista aérea de la Playa de Arinaga en Gran Canaria",
-  "width": 800,
-  "height": 600,
-  "title": "Playa arinaga.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-3.0",
-    "author": "Angel Isleño",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_arinaga.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-melenara.avif": {
-  "alt": "Vista de la Playa de Melenara en Telde, Gran Canaria",
-  "width": 1600,
-  "height": 1050,
-  "title": "Gran Canaria, Telde, Playa de Melenara.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-3.0",
-    "author": "Wiki05",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaria,_Telde,_Playa_de_Melenara.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-melenara-2.avif": {
-  "alt": "Escultura de Neptuno junto a la Playa de Melenara en Telde, Gran Canaria",
+},"/images/gran-canaria/sendero/cernicalos-1.avif": {
+  "alt": "Inicio del sendero del Barranco de los Cernícalos en Gran Canaria",
   "width": 1600,
   "height": 1200,
-  "title": "Playa de Melenara - Neptuno - panoramio.jpg",
   "sourceName": "Wikimedia Commons",
   "modifications": "Convertida a AVIF y optimizada para web",
   "license": {
-    "type": "CC-BY-SA-3.0",
-    "author": "Canarina",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Melenara_-_Neptuno_-_panoramio.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "type": "CC-BY-SA-4.0",
+    "author": "Gerda Arendt",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_de_los_cerniculos,_Gran_Canaria,_entry.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-tufia.avif": {
-  "alt": "Vista del pueblo costero y la Playa de Tufia en Telde, Gran Canaria",
+},"/images/gran-canaria/sendero/cernicalos-2.avif": {
+  "alt": "Vista hacia el este del Barranco de los Cernícalos en Gran Canaria",
   "width": 1600,
-  "height": 567,
-  "title": "Pueblo de Tufia.jpg",
+  "height": 1200,
   "sourceName": "Wikimedia Commons",
   "modifications": "Convertida a AVIF y optimizada para web",
   "license": {
-    "type": "CC-BY-SA-2.0",
-    "author": "Victor R. Ruiz",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pueblo_de_Tufia.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "type": "CC-BY-SA-4.0",
+    "author": "Gerda Arendt",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_de_los_cerniculos,_Gran_Canaria,_view_to_the_east.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
   }
-},"/images/gran-canaria/playas/playa-veril.avif": {
-  "alt": "Vista aérea de la parte norte de la Playa de El Veril en Gran Canaria",
-  "width": 1600,
-  "height": 1067,
-  "title": "Northern part of El Veril Beach, Gran Canaria (52757669111).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "dronepicr",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northern_part_of_El_Veril_Beach,_Gran_Canaria_(52757669111).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-la-garita.avif": {
-  "alt": "Vista de la Playa de La Garita en Telde, Gran Canaria",
-  "width": 1280,
+},"/images/gran-canaria/sendero/cernicalos-3.avif": {
+  "alt": "Barranco de los Cernícalos en Gran Canaria",
+  "width": 640,
   "height": 720,
-  "title": "Csm Gran-Canaria-La-Garita- 52199cf1f0.jpg",
   "sourceName": "Wikimedia Commons",
   "modifications": "Convertida a AVIF y optimizada para web",
   "license": {
     "type": "CC-BY-SA-4.0",
-    "author": "Soniahmoreno",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Csm_Gran-Canaria-La-Garita-_52199cf1f0.jpg",
+    "author": "Turismo de Gran Canaria",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_de_cernicalos.jpg",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
-  }
-},"/images/gran-canaria/playas/playa-alcanavaneras.avif": {
-  "alt": "Vista panorámica de la Playa de Las Alcaravaneras en Las Palmas de Gran Canaria",
-  "width": 1600,
-  "height": 800,
-  "title": "Playa de Las Alcaravaneras.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Bengt Nyman",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Las_Alcaravaneras.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-la-laja.avif": {
-  "alt": "Vista de la Playa de La Laja en Las Palmas de Gran Canaria",
-  "width": 1600,
-  "height": 900,
-  "title": "Playa de La Laja.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-2.0",
-    "author": "spanginator",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_La_Laja.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/piscinas-la-laja.avif": {
-  "alt": "Piscinas naturales de La Laja junto al océano en Las Palmas de Gran Canaria",
-  "width": 1600,
-  "height": 900,
-  "title": "Piscinas de la Laja 02.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Beta15",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piscinas_de_la_Laja_02.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},
-"/images/gran-canaria/playas/playa-el-puertillo.avif": {
-  "alt": "Vista panorámica de El Puertillo y su costa en Gran Canaria",
-  "width": 1600,
-  "height": 754,
-  "title": "El Puertillo D81 5167 (38721739595).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "Bengt Nyman",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Puertillo_D81_5167_(38721739595).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/el-puertillo.avif": {
-  "alt": "Vista de la playa y costa de El Puertillo en Gran Canaria",
-  "width": 1600,
-  "height": 1067,
-  "title": "El Puertillo D81 5164 (39617961171).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "Bengt Nyman",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Puertillo_D81_5164_(39617961171).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-besudo.avif": {
-  "alt": "Vista de Playa del Besudo en Gran Canaria",
-  "width": 1600,
-  "height": 900,
-  "title": "playa-besudo.avif",
-  "sourceName": "CanaryRoutes",
-  "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "OWN",
-    "author": "CanaryRoutes"
-  }
-},"/images/gran-canaria/playas/playa-guayedra.avif": {
-  "alt": "Vista de Playa de Guayedra en Gran Canaria",
-  "width": 1600,
-  "height": 900,
-  "title": "playa-guayedra.avif",
-  "sourceName": "CanaryRoutes",
-  "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "OWN",
-    "author": "CanaryRoutes"
-  }
-},"/images/gran-canaria/playas/playa-maranuelas.avif": {
-  "alt": "Vista panorámica de la Playa de Arguineguín en Gran Canaria",
-  "width": 1600,
-  "height": 729,
-  "title": "Arguineguin Playa1.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.5",
-    "author": "Bård Ove Myhr",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arguineguin_Playa1.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
-    "modified": true
-  }
-},"/images/gran-canaria/playas/playa-montana-arena.avif": {
-  "alt": "Vista de la Playa de Montaña Arena en Gran Canaria",
-  "width": 1600,
-  "height": 900,
-  "title": "playa-montana-arena.avif",
-  "sourceName": "CanaryRoutes",
-  "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "OWN",
-    "author": "CanaryRoutes"
   }
 }
 }
