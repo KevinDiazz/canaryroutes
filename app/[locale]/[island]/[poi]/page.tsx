@@ -225,6 +225,15 @@ export default async function SlugPage({
         }
       }
     }
+    // Créditos de municipios: al hacer click en un marcador de municipio se crea
+    // un POI sintético con su mismo slug, por lo que sus créditos deben estar aquí.
+    for (const munis of Object.values(municipiosByIsland)) {
+      for (const m of munis) {
+        if (m.images && !photoCreditsBySlug[m.slug]) {
+          photoCreditsBySlug[m.slug] = getPhotoCredits(m.images);
+        }
+      }
+    }
 
     return (
       <div className="desktop-wrapper">

@@ -1897,5 +1897,34 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "modified": true
   }
+},"/images/gran-canaria/municipios/ingenio.avif": {
+  "alt": "Vista panorámica del casco histórico de Ingenio en Gran Canaria",
+  "width": 1600,
+  "height": 833,
+  "title": "Ingenio panoramica.jpg",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "Mololo",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ingenio_panoramica.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
+},
+"/images/gran-canaria/municipios/aguimes.avif": {
+  "alt": "Vista panorámica del casco histórico de Agüimes desde el noreste",
+  "width": 1600,
+  "height": 828,
+  "title": "Panorama of Agüimes, May 2018.jpg",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "Martin Falbisoner",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ag%C3%BCimes,_May_2018.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
 }
 }
