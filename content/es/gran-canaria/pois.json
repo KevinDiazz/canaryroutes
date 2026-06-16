@@ -269,7 +269,9 @@
       },
       "images": {
         "hero": "/images/gran-canaria/sendero/caldera-bandama-1.avif",
-        "gallery": ["/images/gran-canaria/sendero/caldera-bandama-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/sendero/caldera-bandama-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -310,7 +312,9 @@
       },
       "images": {
         "hero": "/images/gran-canaria/sendero/tamadaba-1.avif",
-        "gallery": ["/images/gran-canaria/sendero/tamadaba-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/sendero/tamadaba-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -401,7 +405,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -427,7 +434,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -447,11 +457,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-maspalomas.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-maspalomas-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-maspalomas-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -478,7 +493,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏝️",
       "sectionOnly": false,
@@ -498,11 +516,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-puerto-rico.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-puerto-rico-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-puerto-rico-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⛵",
       "sectionOnly": false,
@@ -522,11 +545,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-mogan.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-mogan-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-mogan-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌺",
       "sectionOnly": false,
@@ -546,11 +574,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-taurito.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-taurito-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-taurito-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -574,7 +607,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⚫",
       "sectionOnly": false,
@@ -594,11 +630,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-anfi-del-mar.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-anfi-del-mar-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-anfi-del-mar-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -618,11 +659,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-veneguera.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-veneguera-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-veneguera-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌿",
       "sectionOnly": false,
@@ -646,7 +692,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⚫",
       "sectionOnly": false,
@@ -666,11 +715,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tasartico.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-tasartico-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-tasartico-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐢",
       "sectionOnly": false,
@@ -690,11 +744,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-guguy-2.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-guguy.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-guguy.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "moderate",
       "emoji": "🏔️",
       "sectionOnly": false,
@@ -714,11 +773,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-la-aldea.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-la-aldea-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-la-aldea-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -742,7 +806,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -762,11 +829,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-agaete-2.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-agaete.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-agaete.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🚢",
       "sectionOnly": false,
@@ -790,7 +862,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌿",
       "sectionOnly": false,
@@ -810,11 +885,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-sardina.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-sardina-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-sardina-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -834,11 +914,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-meloneras.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-meloneras-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-meloneras-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏨",
       "sectionOnly": false,
@@ -862,7 +947,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -884,7 +972,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -910,7 +1001,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏄",
       "sectionOnly": false,
@@ -930,11 +1024,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-melenara.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-melenara-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-melenara-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -958,7 +1057,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -982,7 +1084,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -1006,7 +1111,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1030,7 +1138,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⚓",
       "sectionOnly": false,
@@ -1054,7 +1165,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1078,7 +1192,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -1102,7 +1219,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -1126,7 +1246,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1150,7 +1273,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1174,7 +1300,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1198,7 +1327,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌋",
       "sectionOnly": false,
@@ -1218,11 +1350,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/casa-colon-1.avif",
-        "gallery": ["/images/gran-canaria/cultural/casa-colon-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/cultural/casa-colon-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏛️",
       "sectionOnly": false,
@@ -1242,11 +1379,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/cueva-pintada-1.avif",
-        "gallery": ["/images/gran-canaria/cultural/cueva-pintada-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/cultural/cueva-pintada-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1273,7 +1415,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⛪",
       "sectionOnly": false,
@@ -1297,7 +1442,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏘️",
       "sectionOnly": false,
@@ -1317,11 +1465,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/museo-canario.avif",
-        "gallery": ["/images/gran-canaria/cultural/museo-canario-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/cultural/museo-canario-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏛️",
       "sectionOnly": false,
@@ -1345,7 +1498,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1373,7 +1529,12 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["gastronomia", "cultura", "comida", "gran-canaria"],
+      "tags": [
+        "gastronomia",
+        "cultura",
+        "comida",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🍽️",
       "sectionOnly": false,
@@ -1397,7 +1558,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏛️",
       "sectionOnly": false,
@@ -1417,11 +1581,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/basilica-el-pino-1.avif",
-        "gallery": ["/images/gran-canaria/cultural/basilica-el-pino-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/cultural/basilica-el-pino-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⛪",
       "sectionOnly": false,
@@ -1447,7 +1616,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⛪",
       "sectionOnly": false,
@@ -1467,11 +1639,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/tumulo-del-rey.avif",
-        "gallery": ["/images/gran-canaria/cultural/necropolis-arteara.avif"]
+        "gallery": [
+          "/images/gran-canaria/cultural/necropolis-arteara.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1495,7 +1672,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏰",
       "sectionOnly": false,
@@ -1519,7 +1699,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏰",
       "sectionOnly": false,
@@ -1539,11 +1722,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/nature/roque-nublo-3.avif",
-        "gallery": ["/images/gran-canaria/nature/roque-nublo-4.avif"]
+        "gallery": [
+          "/images/gran-canaria/nature/roque-nublo-4.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌄",
       "sectionOnly": false,
@@ -1567,7 +1755,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏔️",
       "sectionOnly": false,
@@ -1591,7 +1782,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌲",
       "sectionOnly": false,
@@ -1611,11 +1805,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/nature/dunas-de-maspalomas-1.avif",
-        "gallery": ["/images/gran-canaria/nature/dunas-de-maspalomas-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/nature/dunas-de-maspalomas-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -1639,7 +1838,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌋",
       "sectionOnly": false,
@@ -1663,7 +1865,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -1687,7 +1892,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -1711,7 +1919,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -1735,7 +1946,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -1759,7 +1973,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -1783,7 +2000,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌳",
       "sectionOnly": false,
@@ -1803,11 +2023,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/nature/los-azulejos.avif",
-        "gallery": ["/images/gran-canaria/nature/los-azulejos-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/nature/los-azulejos-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🪨",
       "sectionOnly": false,
@@ -1831,7 +2056,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -1857,7 +2085,13 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["catamaran", "delfines", "snorkel", "barco", "mogan"],
+      "tags": [
+        "catamaran",
+        "delfines",
+        "snorkel",
+        "barco",
+        "mogan"
+      ],
       "visitDuration": "3.5h",
       "emoji": "🐬",
       "sectionOnly": false,
@@ -1878,11 +2112,19 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/buggy-ayagaures.avif",
-        "gallery": ["/images/gran-canaria/actividades/buggy-ayagaures.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/buggy-ayagaures.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["buggy", "aventura", "ayagaures", "todoterreno", "adrenalina"],
+      "tags": [
+        "buggy",
+        "aventura",
+        "ayagaures",
+        "todoterreno",
+        "adrenalina"
+      ],
       "visitDuration": "2h",
       "emoji": "🚙",
       "sectionOnly": false,

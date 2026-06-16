@@ -1719,8 +1719,10 @@
         "lng": -15.601529
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/roque-nublo.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/nature/roque-nublo-3.avif",
+        "gallery": [
+          "/images/gran-canaria/nature/roque-nublo-4.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1746,7 +1748,7 @@
         "lng": -15.638292
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/bentaiga.avif",
+        "hero": "/images/gran-canaria/nature/roque-bentayga.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1773,7 +1775,7 @@
         "lng": -15.689167
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/tamadaba.avif",
+        "hero": "/images/gran-canaria/sendero/tamadaba-2.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1800,8 +1802,10 @@
         "lng": -15.5759
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/dunas.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/nature/dunas-de-maspalomas-1.avif",
+        "gallery": [
+          "/images/gran-canaria/nature/dunas-de-maspalomas-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1827,7 +1831,7 @@
         "lng": -15.457997
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/bandama.avif",
+        "hero": "/images/gran-canaria/sendero/caldera-bandama-1.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1854,7 +1858,7 @@
         "lng": -15.785281
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/mirador-el-balcon.avif",
+        "hero": "/images/gran-canaria/nature/mirador-del-balcon.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1908,7 +1912,7 @@
         "lng": -15.579008
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/mirador-degollada-de-las-yeguas.avif",
+        "hero": "/images/gran-canaria/nature/mirador-yeguas.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1935,7 +1939,7 @@
         "lng": -15.571962
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/pico-de-las-nieves-2.avif",
+        "hero": "/images/gran-canaria/sendero/pico-de-las-nieves-1.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1953,8 +1957,8 @@
     {
       "slug": "mirador-cruz-tejeda",
       "name": "Mirador de Cruz de Tejeda",
-      "description": "El **Mirador de Cruz de Tejeda** es uno de los lugares más emblemáticos de las cumbres de Gran Canaria y una parada imprescindible para comprender la espectacular geografía de la isla. Situado en un histórico cruce de caminos utilizado durante siglos por viajeros y comerciantes, ofrece una de las panorámicas más amplias y reconocibles del interior grancanario.\n\n### La visita\nDesde este privilegiado balcón natural se contemplan profundos barrancos, extensas laderas volcánicas y algunos de los grandes símbolos de la isla, como el **Roque Nublo** y el **Roque Bentayga**. En los días de mayor visibilidad, la silueta del **Teide** aparece sobre el Atlántico, completando una de las vistas más icónicas de Canarias.\n\n### Antes de ir\n- 📸 Uno de los mejores miradores para fotografiar las cumbres de Gran Canaria\n- 🌅 El amanecer y el atardecer ofrecen una luz especialmente espectacular\n- 🧥 Lleva algo de abrigo, ya que las temperaturas suelen ser más frescas que en la costa\n- 🛍️ En los alrededores encontrarás puestos de artesanía y productos típicos canarios\n\n### Recomendación\nDedica tiempo a recorrer los senderos cercanos o a visitar los pueblos de Tejeda y Artenara, dos de los rincones con más encanto y tradición de las montañas de Gran Canaria.",
-      "shortDescription": "Mirador de Cruz de Tejeda, uno de los balcones naturales más famosos de Gran Canaria, con vistas al Roque Nublo, al Teide y a las cumbres de la isla.",
+      "description": "The **Cruz de Tejeda Viewpoint** is one of the most iconic landmarks in Gran Canaria's highland region and an unmissable stop for anyone wishing to understand the island's spectacular geography. Located at a historic crossroads used for centuries by travellers and merchants, it offers one of the widest and most recognisable panoramas of the island's mountainous interior.\n\n### The Visit\nFrom this privileged natural balcony, visitors can admire deep ravines, sweeping volcanic slopes and some of the island's most celebrated landmarks, including **Roque Nublo** and **Roque Bentayga**. On the clearest days, the silhouette of **Mount Teide** appears above the Atlantic, completing one of the most iconic views in the Canary Islands.\n\n### Before You Go\n- 📸 One of the best viewpoints in Gran Canaria for photographing the highland scenery\n- 🌅 Sunrise and sunset provide particularly spectacular lighting conditions\n- 🧥 Bring a light jacket, as temperatures are often cooler here than on the coast\n- 🛍️ Nearby stalls sell local crafts and traditional Canarian products\n\n### Recommendation\nTake time to explore the surrounding trails or visit the villages of Tejeda and Artenara, two of the most charming and traditional communities in the mountains of Gran Canaria.",
+      "shortDescription": "Cruz de Tejeda Viewpoint is one of Gran Canaria's most celebrated natural balconies, with stunning views of Roque Nublo, Mount Teide and the island's central highlands.",
       "island": "gran-canaria",
       "category": "nature",
       "coordinates": {
@@ -1962,7 +1966,7 @@
         "lng": -15.599728
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/mirador-cruz-tejeda.avif",
+        "hero": "/images/gran-canaria/nature/cruz-de-tejeda.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1989,7 +1993,7 @@
         "lng": -15.584982
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/parque-rural-doramas.avif",
+        "hero": "/images/gran-canaria/nature/rural-doramas.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -2017,7 +2021,9 @@
       },
       "images": {
         "hero": "/images/gran-canaria/nature/los-azulejos.avif",
-        "gallery": []
+        "gallery": [
+          "/images/gran-canaria/nature/los-azulejos-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
