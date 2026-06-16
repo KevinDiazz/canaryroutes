@@ -1466,5 +1466,182 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
       "modified": true
     }
+  },
+  "/images/gran-canaria/nature/roque-nublo-3.avif": {
+    "alt": "Roque Nublo en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Basotxerri",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roque_Nublo_27.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/roque-nublo-4.avif": {
+    "alt": "Roque Nublo con una persona para mostrar su escala en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "MiljenkoSuljic",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roque_Nublo_2024-12-14.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/roque-bentayga.avif": {
+    "alt": "Roque Bentayga en el interior montañoso de Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "El Coleccionista de Instantes",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roque_Bentayga_on_Gran_Canaria_-_2015-06-08_A.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/dunas-de-maspalomas-1.avif": {
+    "alt": "Dunas de Maspalomas en el sur de Gran Canaria",
+    "width": 1600,
+    "height": 1047,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Marc Ryckaert (MJJR)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GC_Dunas_de_Maspalomas_R08.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/dunas-de-maspalomas-2.avif": {
+    "alt": "Paisaje de las Dunas de Maspalomas en Gran Canaria",
+    "width": 1048,
+    "height": 1600,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Marc Ryckaert (MJJR)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GC_Dunas_de_Maspalomas_R09.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/mirador-del-balcon.avif": {
+    "alt": "Vista panorámica desde el Mirador del Balcón en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "sourceName": "CanaryRoutes",
+    "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "Copyright",
+      "author": "CanaryRoutes",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/mirador-unamuno.avif": {
+    "alt": "Estatua de Miguel de Unamuno en el Mirador de Unamuno de Artenara, Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Wolfgang Sauber",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artenara_Mirador_de_Unamuno_-_Statue_2.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/mirador-yeguas.avif": {
+    "alt": "Vista desde el Mirador de la Degollada de las Yeguas en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0-ES",
+      "author": "Aglaya72",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ES7010025-Gran_Canaria-Fataga-Mirador_de_Degollada_de_las_Yeguas-IMG_0746.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/cruz-de-tejeda.avif": {
+    "alt": "Vista desde Cruz de Tejeda con el Roque Nublo al fondo en Gran Canaria",
+    "width": 1199,
+    "height": 799,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Ageless BA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cruz-de-Tejeda-2.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/rural-doramas.avif": {
+    "alt": "Paisaje del Parque Rural de Doramas en el Barranco de Valleseco, Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Teknad",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Rural_de_Doramas_-_Valleseco.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },"/images/gran-canaria/nature/los-azulejos.avif": {
+  "alt": "Fuente de los Azulejos en Gran Canaria",
+  "width": 1600,
+  "height": 1200,
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-3.0",
+    "author": "H. Zell",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fuente_de_los_Azulejos_01.JPG",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "modified": true
   }
+},"/images/gran-canaria/nature/los-azulejos-2.avif": {
+  "alt": "Formaciones rocosas de colores en la Fuente de los Azulejos, Gran Canaria",
+  "width": 1600,
+  "height": 1067,
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-2.0",
+    "author": "Tony Hisgett",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interesting_Rocks_2_(2282500010).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "modified": true
+  }
+},"/images/gran-canaria/nature/barranco-las-vacas.avif": {
+  "alt": "Formaciones rocosas del Barranco de Las Vacas entre Temisas y Agüimes, Gran Canaria",
+  "width": 1600,
+  "height": 1067,
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-2.0",
+    "author": "El Coleccionista de Instantes",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rocks_in_Barranco_Las_Vacas_on_Gran_Canaria_03.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "modified": true
+  }
+}
 }

@@ -1538,8 +1538,8 @@
         "lng": -15.601529
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/roque-nublo.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/nature/roque-nublo-3.avif",
+        "gallery": ["/images/gran-canaria/nature/roque-nublo-4.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1562,7 +1562,7 @@
         "lng": -15.638292
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/bentaiga.avif",
+        "hero": "/images/gran-canaria/nature/roque-bentayga.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1586,7 +1586,7 @@
         "lng": -15.689167
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/tamadaba.avif",
+        "hero": "/images/gran-canaria/sendero/tamadaba-2.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1610,8 +1610,8 @@
         "lng": -15.5759
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/dunas.avif",
-        "gallery": []
+        "hero": "/images/gran-canaria/nature/dunas-de-maspalomas-1.avif",
+        "gallery": ["/images/gran-canaria/nature/dunas-de-maspalomas-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -1634,7 +1634,7 @@
         "lng": -15.457997
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/bandama.avif",
+        "hero": "/images/gran-canaria/sendero/caldera-bandama-1.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1658,7 +1658,7 @@
         "lng": -15.785281
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/mirador-el-balcon.avif",
+        "hero": "/images/gran-canaria/nature/mirador-del-balcon.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1706,7 +1706,7 @@
         "lng": -15.579008
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/mirador-degollada-de-las-yeguas.avif",
+        "hero": "/images/gran-canaria/nature/mirador-yeguas.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1730,7 +1730,7 @@
         "lng": -15.571962
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/pico-de-las-nieves-2.avif",
+        "hero": "/images/gran-canaria/sendero/pico-de-las-nieves-1.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1754,7 +1754,7 @@
         "lng": -15.599728
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/mirador-cruz-tejeda.avif",
+        "hero": "/images/gran-canaria/nature/cruz-de-tejeda.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1778,7 +1778,7 @@
         "lng": -15.584982
       },
       "images": {
-        "hero": "/images/gran-canaria/nature/parque-rural-doramas.avif",
+        "hero": "/images/gran-canaria/nature/rural-doramas.avif",
         "gallery": []
       },
       "affiliateLinks": [],
@@ -1803,7 +1803,7 @@
       },
       "images": {
         "hero": "/images/gran-canaria/nature/los-azulejos.avif",
-        "gallery": []
+        "gallery": ["/images/gran-canaria/nature/los-azulejos-2.avif"]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
