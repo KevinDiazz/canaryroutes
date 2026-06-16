@@ -850,7 +850,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   return (
     <div style={{
       position: 'relative', width: '100%', height: '100%', overflow: 'hidden',
-      backgroundColor: '#e8edf0',
+      backgroundColor: '#eef4f8',
       backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='70'%3E%3Cpath d='M0 35 Q35 10 70 35 Q105 60 140 35' fill='none' stroke='%2370c4e4' stroke-width='1.1'/%3E%3C/svg%3E")`,
       backgroundRepeat: 'repeat',
     }}>

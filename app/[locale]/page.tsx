@@ -74,7 +74,7 @@ export default async function HomePage({
   return (
     <div className="desktop-wrapper">
       <OrganizationJsonLd locale={locale} />
-    <main className="app-shell" style={{ minHeight: '100vh', background: '#f0ede6', display: 'flex', flexDirection: 'column', height: 'auto' }}>
+    <main className="app-shell" style={{ minHeight: '100vh', background: '#f7f5ef', display: 'flex', flexDirection: 'column', height: 'auto' }}>
       {/* Nav */}
       <nav style={{
         padding: '16px 24px',

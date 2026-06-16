@@ -1604,43 +1604,297 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "modified": true
     }
-  },"/images/gran-canaria/nature/los-azulejos.avif": {
-  "alt": "Fuente de los Azulejos en Gran Canaria",
+  },
+  "/images/gran-canaria/nature/los-azulejos.avif": {
+    "alt": "Fuente de los Azulejos en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "H. Zell",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fuente_de_los_Azulejos_01.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/los-azulejos-2.avif": {
+    "alt": "Formaciones rocosas de colores en la Fuente de los Azulejos, Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Tony Hisgett",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interesting_Rocks_2_(2282500010).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/nature/barranco-las-vacas.avif": {
+    "alt": "Formaciones rocosas del Barranco de Las Vacas entre Temisas y Agüimes, Gran Canaria",
+    "width": 1600,
+    "height": 1067,
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "El Coleccionista de Instantes",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rocks_in_Barranco_Las_Vacas_on_Gran_Canaria_03.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/agaete.avif": {
+    "alt": "Vista panorámica de Playa de Las Nieves y el puerto de Agaete en Gran Canaria",
+    "width": 1600,
+    "height": 800,
+    "title": "Agaete, Gran Canaria D81 8167 (32250604994).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agaete,_Gran_Canaria_D81_8167_(32250604994).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/artenara.avif": {
+    "alt": "Vista panorámica del pueblo de Artenara desde el Mirador de La Atalaya en Gran Canaria",
+    "width": 1600,
+    "height": 1200,
+    "title": "Artenara - Ausblick 5c Ortsansicht.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Wolfgang Sauber",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artenara_-_Ausblick_5c_Ortsansicht.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/arucas.avif": {
+    "alt": "Vista del casco histórico de Arucas y la iglesia de San Juan Bautista en Gran Canaria",
+    "width": 1600,
+    "height": 1111,
+    "title": "An einem Sonntag Vormittag in Arucas. 11.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Holger Uwe Schmitt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:An_einem_Sonntag_Vormittag_in_Arucas._11.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/firgas.avif": {
+    "alt": "Paseo de Gran Canaria con mosaicos y arte cerámico en Firgas",
+    "width": 1600,
+    "height": 1113,
+    "title": "1995 gestalteten spanische Künstler den Pasedo de Gran Canaria. 06.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Holger Uwe Schmitt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1995_gestalteten_spanische_K%C3%BCnstler_den_Pasedo_de_Gran_Canaria._06.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/galdar.avif": {
+    "alt": "Vista panorámica del casco histórico de Gáldar en Gran Canaria",
+    "width": 1600,
+    "height": 903,
+    "title": "Gáldar, en Gran Canaria (Las Palmas, España).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%A1ldar,_en_Gran_Canaria_(Las_Palmas,_Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/aldea.avif": {
+    "alt": "Vista de La Aldea de San Nicolás en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "Fotografía propia",
+    "sourceName": "Archivo propio",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "Propietario",
+      "author": "Kevin Diaz",
+      "sourceUrl": "",
+      "licenseUrl": "",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/las-palmas.avif": {
+    "alt": "Vista panorámica de Las Palmas de Gran Canaria",
+    "width": 1600,
+    "height": 1068,
+    "title": "Las Palmas D81 5983 (32295016606).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Palmas_D81_5983_(32295016606).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/mogan.avif": {
+    "alt": "Vista panorámica de Puerto de Mogán en Gran Canaria",
+    "width": 1600,
+    "height": 800,
+    "title": "Puerto Mogan NZ7 0311 (49434319656).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_Mogan_NZ7_0311_(49434319656).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/moya.avif": {
+    "alt": "Vista panorámica del casco urbano de Moya en Gran Canaria",
+    "width": 1296,
+    "height": 733,
+    "title": "Moya, en Gran Canaria (Las Palmas, España).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Kabaeh49",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moya,_en_Gran_Canaria_(Las_Palmas,_Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/santa-brigida.avif": {
+    "alt": "Vista panorámica de Santa Brígida en Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "Santa Brígida, en Gran Canaria (Las Palmas, España).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Br%C3%ADgida,_en_Gran_Canaria_(Las_Palmas,_Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/santa-lucia.avif": {
+    "alt": "Iglesia de Santa Lucía en Santa Lucía de Tirajana, Gran Canaria",
+    "width": 1600,
+    "height": 1165,
+    "title": "Gran Canaria Santa Lucia iglesia R01.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Marc Ryckaert",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaria_Santa_Lucia_iglesia_R01.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/guia.avif": {
+    "alt": "Vista del casco urbano de Santa María de Guía, Gran Canaria",
+    "width": 1600,
+    "height": 1456,
+    "title": "Guia NZ7 0596 (49469082666).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guia_NZ7_0596_(49469082666).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/tejeda.avif": {
+    "alt": "Vista panorámica de Tejeda con el Roque Nublo y el Roque Bentayga al fondo",
+    "width": 1600,
+    "height": 561,
+    "title": "Tejeda - Gran Canaria.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "H. Zell",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tejeda_-_Gran_Canaria.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },"/images/gran-canaria/municipios/telde.avif": {
+  "alt": "Vista panorámica del casco urbano de Telde, Gran Canaria",
   "width": 1600,
-  "height": 1200,
+  "height": 533,
+  "title": "Telde 2016 07.jpg",
   "sourceName": "Wikimedia Commons",
   "modifications": "Convertida a AVIF y optimizada para web",
   "license": {
-    "type": "CC-BY-SA-3.0",
-    "author": "H. Zell",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fuente_de_los_Azulejos_01.JPG",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "type": "CC-BY-SA-4.0",
+    "author": "Bengt Nyman",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Telde_2016_07.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "modified": true
   }
-},"/images/gran-canaria/nature/los-azulejos-2.avif": {
-  "alt": "Formaciones rocosas de colores en la Fuente de los Azulejos, Gran Canaria",
+},"/images/gran-canaria/municipios/valleseco.avif": {
+  "alt": "Vista general de Valleseco desde La Laguna de Valleseco, Gran Canaria",
+  "width": 987,
+  "height": 552,
+  "title": "Valleseco, en Gran Canaria (Las Palmas, España).jpg",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "Tolagorn",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valleseco,_en_Gran_Canaria_(Las_Palmas,_Espa%C3%B1a).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
+},"/images/gran-canaria/municipios/valsequillo.avif": {
+  "alt": "Vista panorámica del casco urbano de Valsequillo de Gran Canaria",
   "width": 1600,
-  "height": 1067,
+  "height": 831,
+  "title": "Valsequillo de Gran Canaria D81 8100 (32958370611).jpg",
   "sourceName": "Wikimedia Commons",
   "modifications": "Convertida a AVIF y optimizada para web",
   "license": {
     "type": "CC-BY-2.0",
-    "author": "Tony Hisgett",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interesting_Rocks_2_(2282500010).jpg",
+    "author": "Bengt Nyman",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valsequillo_de_Gran_Canaria_D81_8100_(32958370611).jpg",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "modified": true
   }
-},"/images/gran-canaria/nature/barranco-las-vacas.avif": {
-  "alt": "Formaciones rocosas del Barranco de Las Vacas entre Temisas y Agüimes, Gran Canaria",
+},"/images/gran-canaria/municipios/san-mateo.avif": {
+  "alt": "Vista panorámica de Vega de San Mateo rodeada por el paisaje de medianías de Gran Canaria",
   "width": 1600,
-  "height": 1067,
+  "height": 900,
+  "title": "Vega de San Mateo, en Gran Canaria (Las Palmas, España).jpg",
   "sourceName": "Wikimedia Commons",
   "modifications": "Convertida a AVIF y optimizada para web",
   "license": {
-    "type": "CC-BY-SA-2.0",
-    "author": "El Coleccionista de Instantes",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rocks_in_Barranco_Las_Vacas_on_Gran_Canaria_03.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "type": "CC-BY-SA-3.0",
+    "author": "Krzysztof Ziarnek (Kenraiz)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vega_de_San_Mateo,_en_Gran_Canaria_(Las_Palmas,_Espa%C3%B1a).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "modified": true
   }
 }
