@@ -1544,7 +1544,7 @@
     "sourceName": "CanaryRoutes",
     "modifications": "Fotografía propia convertida a AVIF y optimizada para web",
     "license": {
-      "type": "Copyright",
+      "type": "OWN",
       "author": "CanaryRoutes",
       "modified": true
     }
@@ -1570,7 +1570,7 @@
     "sourceName": "Wikimedia Commons",
     "modifications": "Convertida a AVIF y optimizada para web",
     "license": {
-      "type": "CC-BY-SA-3.0-ES",
+      "type": "CC-BY-SA-3.0",
       "author": "Aglaya72",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:ES7010025-Gran_Canaria-Fataga-Mirador_de_Degollada_de_las_Yeguas-IMG_0746.JPG",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/",
@@ -1730,7 +1730,7 @@
     "sourceName": "Archivo propio",
     "modifications": "Convertida a AVIF y optimizada para web",
     "license": {
-      "type": "Propietario",
+      "type": "OWN",
       "author": "Kevin Diaz",
       "sourceUrl": "",
       "licenseUrl": "",

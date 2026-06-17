@@ -2,6 +2,8 @@
 import { useRouter } from 'next/navigation';
 import type { Locale } from '@/lib/types';
 
+type IslandSelectorLocale = Locale | 'no' | 'da' | 'fi' | 'sv';
+
 // SVG paths exactos de gran-canaria-map-v2.jsx
 const ISLAND_SVGS: Record<string, { path: string; fill: string; stroke: string; viewBox: string }> = {
   'gran-canaria': {
@@ -18,7 +20,7 @@ const ISLAND_SVGS: Record<string, { path: string; fill: string; stroke: string; 
   },
 };
 
-const ISLAND_LABELS: Record<string, Record<Locale, string>> = {
+const ISLAND_LABELS: Record<string, Record<IslandSelectorLocale, string>> = {
   'gran-canaria': {
     es: 'Gran Canaria', en: 'Gran Canaria', de: 'Gran Canaria',
     no: 'Gran Canaria', da: 'Gran Canaria', fi: 'Gran Canaria', sv: 'Gran Canaria',
@@ -29,7 +31,7 @@ const ISLAND_LABELS: Record<string, Record<Locale, string>> = {
   },
 };
 
-const ISLAND_SUBTITLES: Record<string, Record<Locale, string>> = {
+const ISLAND_SUBTITLES: Record<string, Record<IslandSelectorLocale, string>> = {
   'gran-canaria': {
     es: 'La isla redonda', en: 'The round island', de: 'Die runde Insel',
     no: 'Den runde øya', da: 'Den runde ø', fi: 'Pyöreä saari', sv: 'Den runda ön',
@@ -40,7 +42,7 @@ const ISLAND_SUBTITLES: Record<string, Record<Locale, string>> = {
   },
 };
 
-export function IslandSelector({ locale }: { locale: Locale }) {
+export function IslandSelector({ locale }: { locale: IslandSelectorLocale }) {
   const router = useRouter();
 
   const islands = ['gran-canaria', 'tenerife'] as const;

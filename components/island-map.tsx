@@ -338,7 +338,6 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
           width={R * 2} height={R * 2}
           clipPath={`url(#${clipId})`}
           preserveAspectRatio="xMidYMid slice"
-          decoding="async"
           onLoad={() => setImageLoaded(true)}
           onError={() => setImageErrored(true)}
           style={{ userSelect: 'none', pointerEvents: 'none', opacity: imageLoaded ? 1 : 0, transition: 'opacity 0.25s' }}
@@ -686,13 +685,15 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   const activeCategoryChip = activeFilter && CATEGORY_CHIP_IDS.includes(activeFilter)
     ? activeFilter : null;
 
-  // Marcadores de municipio: sin filtro o con "municipios"
-  const showMunicipioMarkers = !activeFilter || activeFilter === 'municipios';
+  // Marcadores de municipio: sin filtro, con "municipios", o con "top" (solo los top)
+  const showMunicipioMarkers = !activeFilter || activeFilter === 'municipios' || activeFilter === 'top';
   const municipioMarkers = showMunicipioMarkers
-    ? municipios.map(m => ({
-        ...m,
-        count: mapPois.filter(p => p.municipio === m.slug).length,
-      }))
+    ? municipios
+        .filter(m => activeFilter === 'top' ? !!m.top : true)
+        .map(m => ({
+          ...m,
+          count: mapPois.filter(p => p.municipio === m.slug).length,
+        }))
     : [];
 
   // Pines individuales (Top / secciones / categoría con sheet abierta)

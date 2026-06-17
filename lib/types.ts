@@ -4,7 +4,7 @@ export const defaultLocale: Locale = 'en';
 
 export const islands = [
   'gran-canaria',
-  // 'tenerife', // TODO: not developed yet
+  'tenerife',
 ] as const;
 export type Island = typeof islands[number];
 
@@ -187,6 +187,10 @@ export interface Municipio {
   /** @deprecated use `images.hero` instead */
   heroImage?: string;
   images?: POIImages;
+  /** When true, appears in the Top filter on the map */
+  top?: boolean;
+  /** Direct Google Maps place URL */
+  mapsUrl?: string;
 }
 
 export interface POIsFile {

@@ -5,6 +5,8 @@ import { ALL_CATEGORY_SLUGS, CATEGORY_URL_TO_FILTER } from '@/lib/categories';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
+export const dynamic = 'force-static';
+
 const CAT_MAP: Record<string, string[]> = {
   beach: ['beach'], hiking: ['hiking'], culture: ['culture'],
   nature: ['nature'], activities: ['viewpoint', 'food', 'other'],

@@ -655,7 +655,10 @@ export function PoiDetailSheet({
                     letterSpacing: '0.1em', textTransform: 'uppercase',
                     fontFamily: "'JetBrains Mono', monospace", marginBottom: '8px',
                   }}>{t.sheet.bookExperience}</div>
-                  <AvailabilityWidget tourId={selectedPoi.gygTourId} locale={locale} variant="vertical" />
+                  {/* max-width: 400px fuerza a GYG a renderizar el widget en modo vertical en desktop */}
+                  <div style={{ maxWidth: '400px', margin: '0 auto' }}>
+                    <AvailabilityWidget tourId={selectedPoi.gygTourId} locale={locale} variant="vertical" />
+                  </div>
                 </div>
               </div>
             ) : (
@@ -861,18 +864,43 @@ export function PoiDetailSheet({
                   href={selectedPoi.gygUrl ?? `https://www.getyourguide.com/-t${selectedPoi.gygTourId}/?partner_id=${GYG_PARTNER_ID}`}
                   target="_blank"
                   rel="sponsored noopener"
-                  className="poi-btn"
+                  className="poi-btn gyg-book-btn"
                   style={{
-                    flex: 1, padding: '12px', borderRadius: '14px',
-                    border: 'none', background: color, color: 'white',
-                    fontSize: '12px', fontWeight: 700, cursor: 'pointer',
-                    fontFamily: "'JetBrains Mono', monospace",
-                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-                    boxShadow: `0 4px 14px ${color}55`,
-                    letterSpacing: '0.04em', textTransform: 'uppercase',
+                    flex: 1, padding: '13px 16px', borderRadius: '16px',
+                    border: 'none',
+                    background: 'linear-gradient(135deg, #FF5533 0%, #FF7043 100%)',
+                    color: 'white',
+                    cursor: 'pointer',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px',
+                    boxShadow: '0 4px 16px rgba(255,85,51,0.40)',
                     textDecoration: 'none',
-                  }}>
-                  🎟️ {t.sheet.book}
+                    transition: 'transform 0.15s, box-shadow 0.15s',
+                  }}
+                  onMouseEnter={e => {
+                    (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(-1px)';
+                    (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 6px 20px rgba(255,85,51,0.50)';
+                  }}
+                  onMouseLeave={e => {
+                    (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(0)';
+                    (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 4px 16px rgba(255,85,51,0.40)';
+                  }}
+                >
+                  {/* Calendar icon */}
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                    <rect x="3" y="4" width="18" height="18" rx="3"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/>
+                    <line x1="8" y1="2" x2="8" y2="6"/>
+                    <line x1="3" y1="10" x2="21" y2="10"/>
+                    <path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/>
+                  </svg>
+                  <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: 1.2 }}>
+                    <span style={{ fontSize: '13px', fontWeight: 800, fontFamily: "'Inter', sans-serif", letterSpacing: '0.02em', textTransform: 'uppercase' }}>
+                      {t.sheet.book}
+                    </span>
+                    <span style={{ fontSize: '10px', fontWeight: 400, fontFamily: "'Inter', sans-serif", opacity: 0.88, letterSpacing: '0.01em' }}>
+                      via GetYourGuide
+                    </span>
+                  </span>
                 </a>
               ) : (
                 <>

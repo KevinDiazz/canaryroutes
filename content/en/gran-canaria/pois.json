@@ -84,6 +84,7 @@
     },
     {
       "slug": "camino-de-los-tilos-de-moya",
+      "top": true,
       "name": "Los Tilos de Moya",
       "description": "A journey through one of the greenest and most surprising landscapes in Gran Canaria. **Los Tilos de Moya** preserves one of the last remaining fragments of the ancient laurel forest that once covered much of the Canary Islands millions of years ago.\n\n### The Trail\nThis easy circular route passes through a lush forest of til trees, laurels and barbusano trees, surrounded by dense vegetation and humid ravines. It is a landscape completely different from the sunny volcanic scenery that many visitors expect to find on Gran Canaria.\n\n### Before You Go\n- 👟 An easy trail suitable for most visitors\n- 🌧️ The path can be slippery after rainfall\n- 📸 Ideal for nature photography and birdwatching\n- 🌿 Stay on marked paths to help protect the fragile ecosystem\n\n### Recommendation\nTake the opportunity to visit the historic town centre of Moya or enjoy traditional Canarian cuisine in one of the local restaurants nearby.",
       "shortDescription": "Los Tilos de Moya is a circular forest trail through Gran Canaria's last remaining laurel woodland, one of the island's most unique natural landscapes.",
@@ -173,6 +174,7 @@
     },
     {
       "slug": "sendero-roque-nublo",
+      "top": true,
       "name": "Sendero Roque Nublo",
       "description": "The most famous hiking trail in Gran Canaria and an essential experience for anyone wanting to discover the island's mountainous heart. This route leads to the impressive **Roque Nublo**, one of the most iconic natural landmarks in the Canary Islands.\n\n### The Trail\nA short and accessible walk through stunning highland scenery featuring pine forests, volcanic rock formations and sweeping panoramic views. As you gain elevation, the landscapes of central Gran Canaria become increasingly spectacular.\n\n### Before You Go\n- 👟 Suitable for most visitors and fitness levels\n- 🧥 Bring a light jacket, especially during the winter months\n- 📸 Perfect for photography and sunset views\n- 🚗 Arrive early to secure parking on busy days\n\n### Recommendation\nTake a few moments to admire the views towards **Mount Teide** on Tenerife and the surrounding peaks of Gran Canaria, one of the most iconic landscapes in the Canary Islands.",
       "shortDescription": "The classic hiking route to Roque Nublo, the most iconic natural landmark in Gran Canaria.",
@@ -1425,7 +1427,7 @@
       "emoji": "🏺",
       "sectionOnly": false,
       "municipio": "galdar",
-      "top": false,
+      "top": true,
       "mapsUrl": "https://maps.app.goo.gl/Snaq5kduJZjTaxbe7"
     },
     {
@@ -1576,7 +1578,7 @@
       "emoji": "🍽️",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false,
+      "top": true,
       "mapsUrl": "https://www.google.com/maps/search/restaurantes+comida+canaria/@28.0024747,-15.6176588,74825m/data=!3m1!1e3!4m4!2m3!5m1!4e9!6e5?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D"
     },
     {
@@ -1664,7 +1666,7 @@
       "emoji": "⛪",
       "sectionOnly": false,
       "municipio": "arucas",
-      "top": false,
+      "top": true,
       "mapsUrl": "https://maps.app.goo.gl/dgWgAvcF4iJAF3716"
     },
     {
@@ -2006,7 +2008,7 @@
       "emoji": "📸",
       "sectionOnly": false,
       "municipio": "vega-san-mateo",
-      "top": false,
+      "top": true,
       "mapsUrl": "https://maps.app.goo.gl/XdNaJh8C1XuwfwWN8"
     },
     {
@@ -2126,7 +2128,7 @@
     {
       "slug": "crucero-catamaran-puerto-rico",
       "name": "Catamaran cruise from Puerto Rico",
-      "description": "Set sail from Puerto Rico on a catamaran to look for dolphins and whales in the Atlantic. Stop at a quiet cove for a swim, snorkelling and a drink on board.",
+      "description": "One of the most popular activities on Gran Canaria's south coast: a **catamaran** cruise from **Puerto Rico** harbour combining dolphin and whale watching in the open Atlantic with a stop to swim and snorkel in crystal-clear waters.\n\n### The experience\nDuring the trip, the boat sails into the **Atlantic Ocean** while guides scan the water for common dolphins, striped dolphins and, with luck, larger cetaceans. The stop at a quiet cove allows you to snorkel in remarkably clear water. Soft drinks are served on board, and some departures include light snacks.\n\n### What to expect\n- 🐬 Dolphin spotting with a high success rate\n- 🤿 Snorkelling with equipment included in calm waters\n- 🛥️ Sun deck and shaded areas on board\n- ☀️ Spectacular views of the Mogán cliffs and the southwest coast\n- 🥤 Drinks included during the cruise\n\n### Duration and logistics\nThe excursion lasts approximately **3.5 hours**. Departure is from **Puerto Rico harbour**, well connected with Maspalomas, Playa del Inglés and the rest of the south coast. Arriving early to check in is recommended.\n\n### Is it worth it?\n**Yes, especially if you are travelling with children or as a family.** Seeing wild dolphins in their natural habitat is an unforgettable experience, and the combination of snorkelling and coastal scenery makes this one of the most complete activities Gran Canaria has to offer.\n\n### Tips\n- 🧴 Apply sunscreen before boarding\n- 👟 Wear comfortable footwear and bring swimwear\n- 🎒 No previous snorkelling experience required\n- 📷 Keep your camera ready from the moment you set sail — dolphins can appear at any time\n- 🌊 If you are prone to seasickness, take preventive medication before departure\n\n### Recommendation\nBook in advance, especially during high season (July–September), as places fill up quickly. One of the best value-for-money activities in southern Gran Canaria.",
       "shortDescription": "Catamaran cruise to spot dolphins, with a snorkel stop near Mogán",
       "island": "gran-canaria",
       "category": "other",
@@ -2154,12 +2156,12 @@
       "sectionOnly": false,
       "municipio": "mogan",
       "gygTourId": "430098",
-      "gygUrl": "https://www.getyourguide.com/gran-canaria-l418/gran-canaria-crucero-en-catamaran-con-parada-para-hacer-snorkel-t430098/?partner_id=RRMXJXQ"
+      "gygUrl": "https://gyg.me/bpWKmDi7"
     },
     {
       "slug": "buggy-valle-ayagaures",
       "name": "Off-road buggy adventure in Ayagaures Valley",
-      "description": "Drive a buggy along dirt tracks through Ayagaures Valley, with views of the reservoir and mountains of southern Gran Canaria. Guided 2h route through canyons, viewpoints and villages.",
+      "description": "A different kind of adventure for discovering the interior of **Gran Canaria** behind the wheel of an off-road **buggy**. The route winds along dirt tracks through the **Ayagaures Valley**, one of the most authentic valleys in the south of the island, with views of the reservoir, mountains and landscapes that have nothing in common with the tourist coast.\n\n### The experience\nThe tour sets off in a guided convoy of buggies from the meeting point in the south of the island. Over **2 hours**, the route crosses canyons, natural viewpoints and dirt tracks that are almost impossible to reach any other way. Local guides explain the geology and history of the valley throughout the trip.\n\n### What to expect\n- 🚙 Two-seater buggies that are easy to drive — no licence required for some models\n- 🏔️ Unique inland scenery: canyons, reservoir and southern mountains\n- 🗺️ Guided convoy tour with a local guide\n- 📸 Stops at viewpoints with panoramic vistas\n- ⚡ Guaranteed adrenaline on dirt tracks and tight corners\n\n### Duration and logistics\n**2-hour** excursion. The departure point is in **southern Gran Canaria**, easily accessible from Maspalomas, Playa del Inglés and the southern resort corridor. Safety equipment is provided.\n\n### Is it worth it?\n**Absolutely, especially for those looking for something beyond the beach.** Ayagaures Valley is virtually unknown to mass tourism, guaranteeing an authentic experience far from the most crowded areas.\n\n### Tips\n- 👓 Bring sunglasses or protective eyewear — the tracks kick up dust\n- 👕 Wear clothes you don't mind getting dirty\n- 📷 Keep your camera in a safe spot while driving\n- ☀️ Sun protection is essential as there is little shade\n- 🚗 Check whether a driving licence is required for the buggy model\n\n### Recommendation\nPerfect for couples, groups of friends or families with older children. Combine it with an afternoon on Maspalomas beach or a visit to the Maspalomas Dunes to make the most of your day.",
       "shortDescription": "Guided buggy ride through mountain tracks and reservoirs in southern Gran Canaria",
       "island": "gran-canaria",
       "category": "other",
@@ -2187,7 +2189,157 @@
       "sectionOnly": false,
       "municipio": "san-bartolome",
       "gygTourId": "212850",
-      "gygUrl": "https://www.getyourguide.com/gran-canaria-l418/gran-canaria-aventura-en-buggy-todoterreno-por-los-canones-t212850/?partner_id=RRMXJXQ"
+      "gygUrl": "https://gyg.me/8iDwIDmh"
+    },
+    {
+      "slug": "excursion-submarina-mogan",
+      "name": "Submarine Excursion in Puerto de Mogán",
+      "description": "One of the most original and accessible experiences in Gran Canaria: a real **submarine excursion** aboard the **Golden Shark (Tiburón Dorado)**, which descends to 25 metres below the surface off Puerto de Mogán — no wetsuit, no diving experience required.\n\n### The experience\nThe **Tiburón Dorado** is a tourist submarine that lets you explore the Atlantic Ocean floor in comfort, seated and watching through large panoramic windows. During the **40-minute** dive, you'll discover several **wrecks** (deliberately sunk vessels), coral formations and rich marine life while an audioguide available in **9 languages** explains what you're seeing.\n\n### What to expect\n- 🦈 Descend to 25 metres with no pressure change and no diving equipment\n- 🐠 Atlantic marine life: grouper, rays, moray eels, shoals of fish\n- ⚓ Wrecks and artificial reef structures placed on the seabed\n- 📺 TV screens for each passenger showing the submarine's manoeuvres\n- 🎧 Audioguide in 9 languages: Spanish, English, German, French, Italian, Swedish, Norwegian, Danish and Finnish\n- 📸 Take your own photos through the windows throughout the dive\n\n### Duration and logistics\nThe excursion lasts **40 minutes**. The boarding point is the **Pantalán Dique Sur jetty** in Puerto de Mogán. Redeem your voucher at the boarding area at least **20 minutes before** departure. Gates close 10 minutes before the start. Free pick-up from the southern resort area may be available — contact the provider directly: **0034 928 56 51 08** (Monday–Sunday, 10:00–16:00).\n\n### Is it worth it?\n**Yes, especially for families with children.** The activity requires no special skills or physical condition (suitable from age 2), and offers a completely different perspective on the underwater world. Over 4,000 reviews with an average rating of **4.4 out of 5** speak for themselves.\n\n### Tips\n- ⏰ Arrive at the jetty well in advance — the pier is longer than it looks from the car park\n- 📷 Bring a charged camera or phone to photograph through the windows\n- 🎧 Select your audioguide language before the dive begins\n- 🧥 The interior of the submarine can be cool — bring a light layer\n- 🅿️ The nearest car park is about 15 minutes' walk from the actual boarding point; factor this into your timing\n\n### Recommendation\nA perfect activity to combine with a stroll around the charming village of **Puerto de Mogán**, one of the most beautiful in Gran Canaria. Book in advance during high season as places are limited.",
+      "shortDescription": "Real submarine excursion to 25 metres depth with audioguide in 9 languages off Puerto de Mogán",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.8158695,
+        "lng": -15.764217
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/submarino-mogan.avif",
+        "gallery": ["/images/gran-canaria/actividades/submarino-mogan.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["submarine", "mogan", "seabed", "wrecks", "family", "golden shark", "atlantida"],
+      "visitDuration": "40min",
+      "emoji": "🦈",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "gygTourId": "202429",
+      "gygUrl": "https://gyg.me/j3E8WNUM"
+    },
+    {
+      "slug": "aqualand-maspalomas",
+      "name": "Aqualand Maspalomas — Water Park",
+      "description": "The most complete water park in southern Gran Canaria and one of the leading family leisure destinations in the entire archipelago. **Aqualand Maspalomas** features slides of every speed, shape and height, wave pools, lazy rivers and attractions for the little ones, all within a park open **365 days a year** under the Maspalomas sun.\n\n### The experience\nFrom free-fall slides for thrill-seekers to gentle family slides and splash zones for young children, the park offers something for every member of the family. The grounds are well maintained, with spacious relaxation areas, restaurants and shops inside the park.\n\n### What to expect\n- 🎢 High-speed and free-fall slides for adrenaline lovers\n- 🌊 Artificial wave pools and lazy rivers\n- 👨‍👩‍👧 Dedicated children's zones with smaller attractions\n- ♿ Wheelchair accessible\n- ☀️ Sun loungers and shaded rest areas\n- 🍔 Restaurants and picnic areas within the park\n\n### Duration and logistics\nTicket valid for **1 full day**. Open 365 days a year. Located in southern Gran Canaria, well connected to the main tourist areas: Maspalomas, Playa del Inglés, Meloneras and Arguineguín.\n\n### Is it worth it?\n**Yes, especially for families with children.** It is the perfect complement to beach days and one of the most popular activities among tourists and locals in the south of the island. The variety of attractions guarantees hours of fun for all ages.\n\n### Tips\n- 🧴 Bring high-factor sunscreen — hours spent in and out of water add up quickly\n- 👟 Wear water shoes on the park grounds\n- 🎒 Leave valuables in the park's lockers\n- ⏰ Arrive early in high season to avoid queues at the most popular attractions\n- 🏖️ Combine your visit with nearby Maspalomas beach or the dunes to complete the day\n\n### Recommendation\nBook your ticket online in advance to skip the box office queue, especially in summer. A full day at Aqualand is one of the best options for families looking for active fun in southern Gran Canaria.",
+      "shortDescription": "The largest water park in southern Gran Canaria with slides for all ages, open 365 days a year in Maspalomas",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.7558,
+        "lng": -15.5860
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/aqualand-maspalomas.avif",
+        "gallery": ["/images/gran-canaria/actividades/aqualand-maspalomas.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["aqualand", "maspalomas", "water park", "slides", "family", "water", "adrenaline"],
+      "visitDuration": "1 day",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "gygTourId": "258557",
+      "gygUrl": "https://gyg.me/oMOVgxTh"
+    },
+    {
+      "slug": "poema-del-mar-las-palmas",
+      "name": "Poema del Mar — Skip-the-Line Entry",
+      "description": "One of the most spectacular aquariums in Europe and the cultural jewel of **Las Palmas de Gran Canaria**. **Poema del Mar** immerses visitors in the biodiversity of the world's oceans through contemporary design installations that recreate tropical water ecosystems, coral reefs, mangroves and the depths of the Atlantic.\n\n### The experience\nThe journey through **Poema del Mar** is a visual and sensory immersion in the marine world. Its underwater tunnels, panoramic aquariums and interactive exhibits allow you to observe sharks, rays, tropical fish, jellyfish and hundreds of ocean species up close. The space is designed to offer unique perspectives from every angle, creating a memorable experience for all ages.\n\n### What to expect\n- 🦈 Sharks, rays and large predators in large-format aquariums\n- 🐠 Coral reefs and tropical fish from the Indo-Pacific and Atlantic\n- 🌿 Mangrove ecosystem recreations and coastal habitats\n- 🔭 360° underwater tunnels\n- 🎟️ Skip-the-line entry — direct access to the aquarium\n- 📱 Interactive signage and information panels\n\n### Duration and logistics\nTicket valid for **1 full day**. Located at the **Muelle de Santa Catalina**, in the heart of Las Palmas de Gran Canaria, with excellent public transport connections and nearby parking areas.\n\n### Is it worth it?\n**Absolutely — it is the best-rated attraction in Gran Canaria.** With a score of **4.8 out of 5** across more than 4,000 verified reviews, Poema del Mar is one of the highest-satisfaction activities on the entire island. A must for families and solo travellers alike.\n\n### Tips\n- ⏰ Skip-the-line entry is a huge advantage in high season — don't waste time queuing\n- 📷 The tunnel zones and panoramic aquariums offer the best photo opportunities\n- 🚌 Santa Catalina pier is well connected to the rest of the city\n- 🕐 Allow at least 2–3 hours to explore the aquarium at a relaxed pace\n- 🍽️ Combine your visit with a stroll through Las Palmas and the port restaurant area\n\n### Recommendation\nSuitable for any type of traveller. If you visit Las Palmas de Gran Canaria, **Poema del Mar** is the most highly rated cultural visit in the city. Book online to guarantee direct, queue-free access.",
+      "shortDescription": "The most spectacular aquarium in Gran Canaria with skip-the-line entry, rated 4.8★ across over 4,000 reviews, at the Santa Catalina pier in Las Palmas",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1231,
+        "lng": -15.4388
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/poema-del-mar.avif",
+        "gallery": ["/images/gran-canaria/actividades/poema-del-mar.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["aquarium", "las palmas", "poema del mar", "sharks", "biodiversity", "family", "skip the line"],
+      "visitDuration": "2-3h",
+      "emoji": "🐠",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "gygTourId": "407471",
+      "gygUrl": "https://gyg.me/NbxEYYzC"
+    },
+    {
+      "slug": "mundo-del-platano-tour",
+      "name": "Guided Tour and Tasting at Mundo del Plátano",
+      "description": "One of the most highly rated cultural and gastronomic experiences in Gran Canaria: a **guided tour of a real banana farm** where you discover the secrets of cultivation, history and the products made from the Canarian banana — one of the most famous and prized in Europe.\n\n### The experience\nDuring the **40-minute** tour, an expert guide explains the life cycle of the banana plant, the different varieties grown in Gran Canaria, traditional farming techniques and the historical importance of banana cultivation to the Canarian economy. The tour ends with a **tasting** of banana-based products: from fresh banana to artisan liqueurs, chocolates and preserves.\n\n### What to expect\n- 🍌 Tour of a real, working banana farm in full production\n- 🌱 Explanation of Canarian banana varieties and cultivation methods\n- 📜 History of the banana in Gran Canaria and its agricultural importance\n- 🍫 Tasting of artisan products made from banana\n- 🗣️ Guide in Spanish and English\n- 👨‍👩‍👧 Suitable for all ages\n\n### Duration and logistics\nThe tour lasts **40 minutes**. The activity takes place on a farm on the island of Gran Canaria. Comfortable footwear and sun protection are recommended for the outdoor sections of the tour.\n\n### Is it worth it?\n**Yes, especially if you are interested in Canarian culture and gastronomy.** Rated **4.8 out of 5** across more than 3,000 verified reviews, it is one of the highest-rated tours in Gran Canaria. Ideal for those who want to discover the island beyond its beaches and scenery.\n\n### Tips\n- 👟 Wear comfortable shoes for walking through the farm\n- ☀️ Sun protection recommended — part of the tour is outdoors\n- 📷 The farm offers wonderful photo opportunities with banana plants heavy with fruit\n- 🍌 If you have a banana allergy, check the tasting products in advance\n- ⏰ Short tour, easy to combine with other activities on the same day\n\n### Recommendation\nAn original and authentic visit that connects you to the agricultural history of Gran Canaria. Perfect for curious travellers, food lovers and families with children. Book in advance as places are limited.",
+      "shortDescription": "40-minute guided tour of a real banana farm with artisan product tasting, rated 4.8★ across more than 3,000 reviews",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1058,
+        "lng": -15.5222
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/mundo-platano.avif",
+        "gallery": ["/images/gran-canaria/actividades/mundo-platano.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["banana", "farm", "tasting", "tour", "agriculture", "gastronomy", "arucas"],
+      "visitDuration": "40min",
+      "emoji": "🍌",
+      "sectionOnly": false,
+      "municipio": "arucas",
+      "gygTourId": "441625",
+      "gygUrl": "https://gyg.me/f0LZI7ib"
+    },
+    {
+      "slug": "parasailing-puerto-rico",
+      "name": "Parasailing in Puerto Rico de Gran Canaria",
+      "description": "One of the most thrilling aerial experiences on the southern coast of Gran Canaria: **parasailing** over the crystal-clear waters of **Puerto Rico**, towed by a speedboat with up to 300 metres of line, taking in panoramic views of the coastline, the mountains, and the open Atlantic.\n\n### The Experience\nThe flight lasts **10–12 minutes** and is available in two options: a **150-metre line** for a moderate height, or a **300-metre line** for those who want to go higher and enjoy an even more breathtaking perspective. Take-off and landing are both from the boat itself — no need to get wet and no previous experience required.\n\n### What to Expect\n- 🪂 10–12 minute flight over the Atlantic Ocean\n- 📏 Choice of 150 m or 300 m line height\n- 🚤 Dry take-off and landing directly from the boat\n- 👥 Small group: maximum 3 participants per flight\n- 🏖️ Panoramic views of Puerto Rico, the southern coast, and the mountains\n- 🗣️ English and Spanish-speaking crew\n\n### Duration & Logistics\nThe flight itself lasts **10–12 minutes**. The activity departs from **Puerto Rico Marina**, in the south of Gran Canaria. No prior experience or special fitness level is needed. Suitable for most ages (weight restrictions may apply — check before booking).\n\n### Is It Worth It?\n**Absolutely, especially if you're after adrenaline and aerial views.** Rated **4.6 out of 5** across nearly 650 reviews, this is one of the top-rated water activities in the area. The small group (max 3 people) ensures a personal, uncrowded experience.\n\n### Tips\n- 📷 Bring a waterproof case for your phone or camera — or trust the crew's photos\n- 👕 Wear comfortable, light clothing — no need for swimwear if you prefer to stay dry\n- ☀️ Apply sunscreen before boarding\n- 🌬️ Activity is weather-dependent; strong winds may lead to cancellation\n- ⏰ Total time including boarding and waiting: approximately 30–45 minutes\n\n### Who Is It For?\nPerfect for couples, groups of friends, or families with teenagers looking for a dose of excitement and the best aerial views of southern Gran Canaria.",
+      "shortDescription": "Parasailing over the Atlantic from Puerto Rico marina with panoramic coastal views, 150 m or 300 m line options, max 3 participants per flight",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.7886,
+        "lng": -15.7133
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/parasailing-puerto-rico.avif",
+        "gallery": ["/images/gran-canaria/actividades/parasailing-puerto-rico.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["parasailing", "puerto rico", "flight", "adrenaline", "sea", "mogan", "water sports"],
+      "visitDuration": "10-12min",
+      "emoji": "🪂",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "gygTourId": "407036",
+      "gygUrl": "https://gyg.me/CrV0ZDyx"
+    },
+    {
+      "slug": "camello-dunas-maspalomas",
+      "name": "Camel Ride Through the Maspalomas Dunes",
+      "description": "One of the most iconic experiences in southern Gran Canaria: riding a camel through the legendary **Maspalomas Dunes**, a unique desert landscape in Europe that feels straight out of the Sahara. Led by Sahrawi guides, this 30-minute ride is an unforgettable way to explore one of the most spectacular natural settings in the Canary Islands.\n\n### The Experience\nThe camels are fitted with **comfortable two-person saddles**, so there's no need to ride directly on the hump. **Sahrawi guides** accompany the entire ride, sharing fascinating facts about the animals and the natural environment. The route winds through golden sand dunes with views stretching out to the Atlantic horizon.\n\n### What's Included\n- 🐪 **30-minute camel ride** through the dunes\n- 🎫 Insurance included\n- 🚌 Hotel pickup and drop-off available\n- 🗣️ Guides in Spanish, English, and German\n\n### Not Suitable For\n- People with mobility issues or wheelchair users\n- People with vertigo\n- People weighing more than **100 kg**\n\n### Meeting Point\nFrom **Charca Maspalomas**, follow **Calle Oceania** for about 5 minutes. You'll find the camel station (Camello Safari Duna Oasis) on your right.\n\n### Is It Worth It?\nWith a rating of **4.4 out of 5** across nearly **4,800 reviews**, this is one of the most popular and best-rated activities in southern Gran Canaria. Travellers consistently praise the excellent care given to the animals, the friendliness of the guides, and the charm of the desert landscape.\n\n### Tips\n- ☀️ Bring sunscreen, water, and insect repellent — essentials in the dunes\n- 👕 Wear comfortable, breathable clothing; it can get very hot in summer\n- 👶 Children under 3 can ride free with a parent\n- ⏰ Entry is on a first-come, first-served basis — arrive with some time to spare\n- 📍 Signage to the meeting point can be sparse; follow Calle Oceania from Charca Maspalomas\n\n### Who Is It For?\nPerfect for families, couples, or any traveller looking for a truly different experience in a landscape that's unique in all of Europe. Pair it with a sunset stroll through the dunes for a perfect afternoon in the south of Gran Canaria.",
+      "shortDescription": "30-minute camel ride through the iconic Maspalomas Dunes with Sahrawi guides, two-person saddles and a unique desert landscape unlike anywhere else in Europe",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.7429623,
+        "lng": -15.5958491
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/camello-dunas-maspalomas.avif",
+        "gallery": ["/images/gran-canaria/actividades/camello-dunas-maspalomas.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["camel", "dunes", "maspalomas", "desert", "safari", "nature", "san-bartolome-de-tirajana"],
+      "visitDuration": "30min",
+      "emoji": "🐪",
+      "sectionOnly": false,
+      "municipio": "san-bartolome-de-tirajana",
+      "gygTourId": "212022",
+      "gygUrl": "https://gyg.me/KBp8WrDH"
     }
   ],
   "municipios": [

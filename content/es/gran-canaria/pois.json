@@ -90,6 +90,7 @@
       "shortDescription": "El único bosque de tilos de la isla en 2 km de sendero circular",
       "island": "gran-canaria",
       "category": "hiking",
+      "top":true,
       "coordinates": {
         "lat": 28.09313,
         "lng": -15.594503
@@ -179,6 +180,7 @@
       "shortDescription": "Ruta clásica hacia el icono natural de Gran Canaria",
       "island": "gran-canaria",
       "category": "hiking",
+       "top":true,
       "coordinates": {
         "lat": 27.965672,
         "lng": -15.601531
@@ -1288,7 +1290,7 @@
       "emoji": "🏺",
       "sectionOnly": false,
       "municipio": "galdar",
-      "top": false
+      "top": true
     },
     {
       "slug": "catedral-santa-ana",
@@ -1400,7 +1402,8 @@
       "shortDescription": "Descubre los platos típicos, quesos, vinos y sabores tradicionales que convierten a Gran Canaria en un destino gastronómico único.",
       "island": "gran-canaria",
       "category": "culture",
-      "mapsUrl": "https://www.google.com/maps/search/restaurantes+comida+canaria/@28.0024747,-15.6176588,74825m/data=!3m1!1e3!4m4!2m3!5m1!4e9!6e5?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
+      "top":true,
+      "mapsUrl": "https://www.google.com/maps/search/restaurantes+comida+canaria/@27.9711957,-15.6557746,61910m/data=!3m1!1e3!4m4!2m3!5m1!4e3!6e5?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
       "coordinates": {
         "lat": 27.933799,
         "lng": -15.482825
@@ -1419,8 +1422,7 @@
       "difficulty": "easy",
       "emoji": "🍽️",
       "sectionOnly": false,
-      "municipio": "las-palmas",
-      "top": false
+      "municipio": "las-palmas"
     },
     {
       "slug": "risco-caido",
@@ -1445,7 +1447,7 @@
       "emoji": "🏛️",
       "sectionOnly": false,
       "municipio": "artenara",
-      "top": true
+      "top": false
     },
     {
       "slug": "basilica-del-pino",
@@ -1497,7 +1499,7 @@
       "emoji": "⛪",
       "sectionOnly": false,
       "municipio": "arucas",
-      "top": false
+      "top": true
     },
     {
       "slug": "necropolis-arteara",
@@ -1797,7 +1799,7 @@
       "emoji": "📸",
       "sectionOnly": false,
       "municipio": "vega-san-mateo",
-      "top": false
+      "top": true
     },
     {
       "slug": "mirador-cruz-tejeda",
@@ -1902,7 +1904,7 @@
     {
       "slug": "crucero-catamaran-puerto-rico",
       "name": "Crucero en catamarán por Puerto Rico",
-      "description": "Zarpa desde Puerto Rico en catamarán para buscar delfines y ballenas en el Atlántico. Parada en una cala para nadar, hacer snorkel y tomar un refresco a bordo.",
+      "description": "Uno de los planes más populares de la costa sur de Gran Canaria: un crucero en **catamarán** desde el puerto de **Puerto Rico** que combina la búsqueda de delfines y ballenas en alta mar con una parada para nadar y hacer snorkel en aguas cristalinas.\n\n### La experiencia\nDurante el trayecto, el barco navega por el **Atlántico** mientras los guías exploran el océano en busca de delfines comunes, delfines listados y, con suerte, cetáceos de mayor tamaño. La parada en una cala tranquila permite disfrutar del snorkel en aguas de gran transparencia. A bordo se sirven refrescos y, en algunas modalidades, comida ligera.\n\n### Qué esperar\n- 🐬 Avistamiento de delfines con alta probabilidad de éxito\n- 🤿 Snorkel con equipo incluido en aguas calmas\n- 🛥️ Cubierta solar y zonas de sombra a bordo\n- ☀️ Vistas espectaculares del acantilado de Mogán y la costa suroeste\n- 🥤 Bebidas incluidas durante el crucero\n\n### Duración y logística\nLa excursión tiene una duración aproximada de **3,5 horas**. La salida es desde el **Puerto de Puerto Rico**, bien comunicado con Maspalomas, Playa del Inglés y el sur de la isla. Se recomienda llegar con antelación para registrarse.\n\n### ¿Merece la pena?\n**Sí, especialmente si viajas con niños o en familia.** El avistamiento de delfines en libertad es una experiencia que no se olvida fácilmente, y la combinación con el snorkel y las vistas del litoral sur la convierte en una de las actividades más completas de Gran Canaria.\n\n### Consejos\n- 🧴 Aplica protector solar antes de subir a bordo\n- 👟 Lleva calzado cómodo y ropa de baño\n- 🎒 No se necesita experiencia previa para el snorkel\n- 📷 Ten la cámara lista desde que el barco zarpa, los delfines pueden aparecer en cualquier momento\n- 🌊 Si eres sensible al mareo, toma medicación preventiva antes de la salida\n\n### Recomendación\nReserva con antelación, especialmente en temporada alta (julio-septiembre), ya que las plazas se agotan rápido. Es una de las actividades con mejor relación calidad-precio del sur de Gran Canaria.",
       "shortDescription": "Catamarán con avistamiento de delfines y parada para snorkel cerca de Mogán",
       "island": "gran-canaria",
       "category": "other",
@@ -1924,12 +1926,12 @@
       "sectionOnly": false,
       "municipio": "mogan",
       "gygTourId": "430098",
-      "gygUrl": "https://www.getyourguide.com/gran-canaria-l418/gran-canaria-crucero-en-catamaran-con-parada-para-hacer-snorkel-t430098/?partner_id=RRMXJXQ"
+      "gygUrl": "https://gyg.me/bpWKmDi7"
     },
     {
       "slug": "buggy-valle-ayagaures",
       "name": "Aventura en buggy por el Valle de Ayagaures",
-      "description": "Recorre en buggy pistas de tierra del Valle de Ayagaures, con vistas al embalse y montañas del sur de Gran Canaria. Ruta guiada de 2h entre cañones, miradores y pueblos tradicionales.",
+      "description": "Una aventura diferente para descubrir el interior de **Gran Canaria** al volante de un **buggy** todoterreno. La ruta recorre las pistas de tierra del **Valle de Ayagaures**, uno de los valles más auténticos del sur de la isla, con vistas al embalse, montañas y paisajes que poco tienen que ver con la costa turística.\n\n### La experiencia\nEl tour parte guiado en convoy de buggies desde el punto de encuentro en el sur de la isla. Durante **2 horas**, la ruta atraviesa cañones, miradores naturales y caminos de tierra por los que difícilmente se accede de otra manera. Los guías locales explican la geología y la historia del valle a lo largo del recorrido.\n\n### Qué esperar\n- 🚙 Buggies de 2 plazas fáciles de conducir, sin carnet necesario en algunos modelos\n- 🏔️ Paisajes de interior únicos: cañones, embalse y montañas del sur\n- 🗺️ Ruta guiada en convoy con guía local\n- 📸 Paradas en miradores con vistas panorámicas\n- ⚡ Adrenalina garantizada en pistas de tierra y curvas cerradas\n\n### Duración y logística\nExcursión de **2 horas** de duración. El punto de salida se encuentra en el **sur de Gran Canaria**, con fácil acceso desde Maspalomas, Playa del Inglés y el corredor turístico del sur. Se proporciona equipo de seguridad.\n\n### ¿Merece la pena?\n**Sin duda, especialmente para quienes buscan algo diferente a la playa.** El Valle de Ayagaures es prácticamente desconocido para el turismo de masas, lo que garantiza una experiencia auténtica lejos de las zonas más concurridas.\n\n### Consejos\n- 👓 Lleva gafas de sol o de protección: las pistas levantan polvo\n- 👕 Ropa que no te importe manchar\n- 📷 Lleva la cámara en un lugar seguro durante la conducción\n- ☀️ Protección solar imprescindible, ya que hay pocas zonas de sombra\n- 🚗 Confirma si se requiere carnet de conducir según el modelo de buggy\n\n### Recomendación\nIdeal para parejas, grupos de amigos o familias con niños mayores. Combínalo con una tarde en la playa de Maspalomas o una visita a las Dunas de Maspalomas para aprovechar el día al máximo.",
       "shortDescription": "Ruta guiada en buggy por pistas de montaña y embalses al sur de Gran Canaria",
       "island": "gran-canaria",
       "category": "other",
@@ -1949,7 +1951,157 @@
       "sectionOnly": false,
       "municipio": "san-bartolome",
       "gygTourId": "212850",
-      "gygUrl": "https://www.getyourguide.com/gran-canaria-l418/gran-canaria-aventura-en-buggy-todoterreno-por-los-canones-t212850/?partner_id=RRMXJXQ"
+      "gygUrl": "https://gyg.me/8iDwIDmh"
+    },
+    {
+      "slug": "excursion-submarina-mogan",
+      "name": "Excursión Submarina en Puerto de Mogán",
+      "description": "Una de las experiencias más originales y accesibles de Gran Canaria: una **excursión en submarino real** a bordo del **Tiburón Dorado**, que desciende hasta 25 metros de profundidad frente al Puerto de Mogán sin necesidad de traje de buceo ni experiencia previa.\n\n### La experiencia\nEl **Tiburón Dorado** es un submarino turístico que permite explorar el fondo del océano Atlántico cómodamente sentado, observando a través de grandes ventanales panorámicos. Durante los **40 minutos** de inmersión, descubrirás varios **pecios** (barcos hundidos artificialmente), formaciones coralinas y una rica fauna marina mientras una audioguía disponible en **9 idiomas** explica lo que ves.\n\n### Qué esperar\n- 🦈 Descenso hasta 25 metros sin presión ni equipo de buceo\n- 🐠 Fauna marina atlántica: meros, rayas, morenas, bancos de peces\n- ⚓ Naufragios y pecios colocados expresamente en el fondo\n- 📺 Pantallas de TV para cada pasajero con imágenes de las maniobras\n- 🎧 Audioguía en 9 idiomas: español, inglés, alemán, francés, italiano, sueco, noruego, danés y finés\n- 📸 Posibilidad de hacer tus propias fotos desde el interior\n\n### Duración y logística\nLa excursión dura **40 minutos**. El punto de embarque es el **muelle de Pantalán Dique Sur** en Puerto de Mogán. Hay que canjear el cupón **al menos 20 minutos antes** de la salida. Las puertas de embarque cierran 10 minutos antes del inicio. Posible recogida gratuita en la zona sur contactando al proveedor: **0034 928 56 51 08** (lunes a domingo, 10:00–16:00 h).\n\n### ¿Merece la pena?\n**Sí, especialmente para familias con niños.** La actividad no requiere ninguna habilidad ni condición física especial (apta desde los 2 años), y ofrece una perspectiva completamente diferente al mundo marino. Las más de 4.000 reseñas con una valoración media de **4,4 sobre 5** avalan su calidad.\n\n### Consejos\n- ⏰ Llega al embarcadero con bastante antelación — el muelle es más largo de lo que parece desde el parking\n- 📷 Lleva la cámara o el móvil cargado para fotografiar desde los ventanales\n- 🎧 Selecciona el idioma de la audioguía antes de comenzar la inmersión\n- 🧥 El interior del submarino puede ser fresco, lleva algo de abrigo ligero\n- 🅿️ El parking más cercano está a unos 15 minutos caminando del embarcadero real; calcula bien los tiempos\n\n### Recomendación\nUna actividad perfecta para combinar con un paseo por el encantador **Puerto de Mogán**, uno de los pueblos más bonitos de Gran Canaria. Reserva con antelación en temporada alta ya que las plazas son limitadas.",
+      "shortDescription": "Excursión en submarino real hasta 25 metros de profundidad con audioguía en 9 idiomas frente al Puerto de Mogán",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.8158695,
+        "lng": -15.764217
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/submarino-mogan.avif",
+        "gallery": ["/images/gran-canaria/actividades/submarino-mogan.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["submarino", "mogan", "fondo marino", "naufragios", "familia", "tiburon dorado", "atlantida"],
+      "visitDuration": "40min",
+      "emoji": "🦈",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "gygTourId": "202429",
+      "gygUrl": "https://gyg.me/j3E8WNUM"
+    },
+    {
+      "slug": "aqualand-maspalomas",
+      "name": "Aqualand Maspalomas — Parque Acuático",
+      "description": "El parque acuático más completo del sur de Gran Canaria y uno de los referentes del ocio familiar en todo el archipiélago. **Aqualand Maspalomas** cuenta con toboganes de todas las velocidades, formas y alturas, zonas de olas, piscinas de río lento y atracciones para los más pequeños, todo en un recinto abierto los **365 días del año** bajo el sol de Maspalomas.\n\n### La experiencia\nDesde toboganes de caída libre para los más atrevidos hasta toboganes familiares suaves y zonas de chapoteo para niños, el parque ofrece algo para cada miembro de la familia. El entorno está cuidado, con amplias zonas de descanso, restaurantes y tiendas dentro del recinto.\n\n### Qué esperar\n- 🎢 Toboganes de alta velocidad y caída libre para amantes de la adrenalina\n- 🌊 Piscinas de olas artificiales y río lento\n- 👨‍👩‍👧 Zonas exclusivas para niños pequeños con atracciones de menor altura\n- ♿ Accesible en silla de ruedas\n- ☀️ Tumbonas y zonas de descanso bajo el sol de Maspalomas\n- 🍔 Restaurantes y zonas de picnic dentro del recinto\n\n### Duración y logística\nEntrada válida para **1 día completo**. El parque está abierto los 365 días del año. Ubicado en el sur de Gran Canaria, muy bien comunicado con las principales zonas turísticas: Maspalomas, Playa del Inglés, Meloneras y Arguineguín.\n\n### ¿Merece la pena?\n**Sí, especialmente para familias con niños.** Es el complemento perfecto a los días de playa y una de las actividades más populares entre turistas y locales en el sur de la isla. La variedad de atracciones garantiza horas de diversión para todas las edades.\n\n### Consejos\n- 🧴 Lleva protector solar de alta protección, las horas de exposición en el agua son intensas\n- 👟 Usa calzado de agua para los suelos del parque\n- 🎒 Deja los objetos de valor en las taquillas del recinto\n- ⏰ Llega temprano en temporada alta para evitar colas en las atracciones más populares\n- 🏖️ Combina la visita con la cercana playa de Maspalomas o las dunas para completar el día\n\n### Recomendación\nReserva el ticket online con antelación para evitar colas en taquilla, especialmente en verano. Una jornada completa en Aqualand es una de las mejores opciones para familias que buscan diversión activa en el sur de Gran Canaria.",
+      "shortDescription": "El mayor parque acuático del sur de Gran Canaria con toboganes para todas las edades, abierto los 365 días del año en Maspalomas",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.7558,
+        "lng": -15.5860
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/aqualand-maspalomas.avif",
+        "gallery": ["/images/gran-canaria/actividades/aqualand-maspalomas.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["aqualand", "maspalomas", "parque acuatico", "toboganes", "familia", "agua", "adrenalina"],
+      "visitDuration": "1 día",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "san-bartolome",
+      "gygTourId": "258557",
+      "gygUrl": "https://gyg.me/oMOVgxTh"
+    },
+    {
+      "slug": "poema-del-mar-las-palmas",
+      "name": "Poema del Mar — Entrada sin colas",
+      "description": "Uno de los acuarios más espectaculares de Europa y la joya cultural de **Las Palmas de Gran Canaria**. **Poema del Mar** sumerge al visitante en la biodiversidad de los océanos del mundo a través de instalaciones de diseño contemporáneo que recrean ecosistemas de aguas tropicales, corales, manglares y las profundidades del Atlántico.\n\n### La experiencia\nEl recorrido por **Poema del Mar** es una inmersión visual y sensorial en el mundo marino. Sus túneles submarinos, acuarios panorámicos y exhibiciones interactivas permiten observar de cerca tiburones, rayas, peces tropicales, medusas y cientos de especies oceánicas. El diseño del espacio está pensado para ofrecer perspectivas únicas desde todos los ángulos, creando una experiencia memorable para todas las edades.\n\n### Qué esperar\n- 🦈 Tiburones, rayas y grandes depredadores en acuarios de gran formato\n- 🐠 Arrecifes de coral y peces tropicales del Indo-Pacífico y el Atlántico\n- 🌿 Recreación de ecosistemas de manglares y hábitats costeros\n- 🔭 Túneles submarinos con vistas de 360°\n- 🎟️ Entrada sin colas — acceso directo al acuario\n- 📱 Señalización interactiva y paneles informativos\n\n### Duración y logística\nEntrada válida para **1 día completo**. Ubicado en el **Muelle de Santa Catalina**, en pleno corazón de Las Palmas de Gran Canaria, con excelentes conexiones de transporte público y zonas de aparcamiento cercanas.\n\n### ¿Merece la pena?\n**Sin duda — es el mejor valorado de Gran Canaria.** Con una puntuación de **4,8 sobre 5** en más de 4.000 reseñas verificadas, Poema del Mar es una de las actividades con mayor satisfacción del usuario de toda la isla. Imprescindible tanto para familias como para viajeros en solitario interesados en la biodiversidad marina.\n\n### Consejos\n- ⏰ La entrada sin colas es una ventaja enorme en temporada alta: no pierdas tiempo esperando\n- 📷 Las zonas de túneles y los acuarios panorámicos ofrecen las mejores fotografías\n- 🚌 El muelle de Santa Catalina está bien comunicado con el resto de la ciudad\n- 🕐 Calcula al menos 2-3 horas para recorrer el acuario con tranquilidad\n- 🍽️ Combina la visita con un paseo por Las Palmas y la zona de restaurantes del puerto\n\n### Recomendación\nIdeal para cualquier tipo de viajero. Si visitas Las Palmas de Gran Canaria, **Poema del Mar** es la visita cultural más valorada de la ciudad. Reserva online para asegurarte el acceso directo sin esperas.",
+      "shortDescription": "El acuario más espectacular de Gran Canaria con entrada sin colas, 4,8★ en más de 4.000 reseñas, en el Muelle de Santa Catalina de Las Palmas",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1231,
+        "lng": -15.4388
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/poema-del-mar.avif",
+        "gallery": ["/images/gran-canaria/actividades/poema-del-mar.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["acuario", "las palmas", "poema del mar", "tiburones", "biodiversidad", "familia", "sin colas"],
+      "visitDuration": "2-3h",
+      "emoji": "🐠",
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "gygTourId": "407471",
+      "gygUrl": "https://gyg.me/NbxEYYzC"
+    },
+    {
+      "slug": "mundo-del-platano-tour",
+      "name": "Tour guiado y degustación en el Mundo del Plátano",
+      "description": "Una de las experiencias culturales y gastronómicas mejor valoradas de Gran Canaria: un **tour guiado por una finca platanera** auténtica donde descubrir los secretos del cultivo, la historia y la elaboración de los productos del plátano canario, uno de los más famosos y cotizados de Europa.\n\n### La experiencia\nDurante los **40 minutos** del recorrido, un guía experto explica el ciclo de vida de la planta del plátano, las distintas variedades cultivadas en Gran Canaria, las técnicas agrícolas tradicionales y la importancia histórica de este cultivo para la economía canaria. El tour termina con una **degustación** de productos elaborados con plátano: desde el plátano fresco hasta licores, chocolates y conservas artesanales.\n\n### Qué esperar\n- 🍌 Recorrido por una finca platanera real en plena producción\n- 🌱 Explicación de las variedades de plátano canario y su cultivo\n- 📜 Historia del plátano en Gran Canaria y su importancia agrícola\n- 🍫 Degustación de productos artesanales elaborados con plátano\n- 🗣️ Guía en español e inglés\n- 👨‍👩‍👧 Actividad apta para todas las edades\n\n### Duración y logística\nEl tour tiene una duración de **40 minutos**. La actividad se desarrolla en una finca de la isla de Gran Canaria. Se recomienda llevar calzado cómodo y protección solar para el recorrido exterior por los cultivos.\n\n### ¿Merece la pena?\n**Sí, especialmente si te interesa la cultura y gastronomía canaria.** Con una valoración de **4,8 sobre 5** en más de 3.000 reseñas verificadas, es uno de los tours mejor puntuados de Gran Canaria. Ideal para quienes quieren conocer la isla más allá de sus playas y naturaleza.\n\n### Consejos\n- 👟 Lleva calzado cómodo para el recorrido por la finca\n- ☀️ Protección solar recomendada, parte del tour es al aire libre\n- 📷 La finca ofrece imágenes muy fotogénicas de las plantas cargadas de racimos\n- 🍌 Alérgicos al plátano: consulta la composición de los productos de degustación\n- ⏰ Tour de duración corta, fácil de combinar con otras actividades del día\n\n### Recomendación\nUna visita original y auténtica que conecta con la historia agrícola de Gran Canaria. Perfecta para viajeros curiosos, amantes de la gastronomía y familias con niños. Reserva con antelación ya que las plazas son limitadas.",
+      "shortDescription": "Tour guiado de 40 minutos por una finca platanera con degustación de productos artesanales, 4,8★ en más de 3.000 reseñas",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1058,
+        "lng": -15.5222
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/mundo-platano.avif",
+        "gallery": ["/images/gran-canaria/actividades/mundo-platano.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["platano", "finca", "degustacion", "tour", "agricultura", "gastronomia", "arucas"],
+      "visitDuration": "40min",
+      "emoji": "🍌",
+      "sectionOnly": false,
+      "municipio": "arucas",
+      "gygTourId": "441625",
+      "gygUrl": "https://gyg.me/f0LZI7ib"
+    },
+    {
+      "slug": "parasailing-puerto-rico",
+      "name": "Parasailing en Puerto Rico de Gran Canaria",
+      "description": "Una de las experiencias de vuelo más espectaculares del sur de Gran Canaria: **parasailing** sobre las aguas cristalinas de **Puerto Rico**, remolcado por una lancha motora a hasta 300 metros de línea, con vistas panorámicas de la costa, las montañas y el Atlántico.\n\n### La experiencia\nEl vuelo dura entre **10 y 12 minutos** y puede realizarse en dos modalidades: con línea de **150 metros** para una altura moderada, o con línea de **300 metros** para los que quieran alcanzar mayor altitud y disfrutar de una perspectiva aún más impresionante. El despegue y aterrizaje se realizan desde la propia embarcación, sin necesidad de mojarse ni de experiencia previa.\n\n### Qué esperar\n- 🪂 Vuelo de 10–12 minutos sobre el Atlántico\n- 📏 Elección entre línea de 150 m o 300 m de altura\n- 🚤 Despegue y aterrizaje desde la embarcación — sin mojarte\n- 👥 Grupo reducido: máximo 3 participantes por vuelo\n- 🏖️ Vistas panorámicas de Puerto Rico, la costa sur y las montañas\n- 🗣️ Equipo en español e inglés\n\n### Duración y logística\nEl vuelo en sí dura **10–12 minutos**. La actividad parte desde el **Puerto de Puerto Rico**, en el sur de Gran Canaria. No se requiere experiencia previa ni condición física especial. Apto para la mayoría de edades (consultar restricciones de peso).\n\n### ¿Merece la pena?\n**Sí, especialmente si buscas adrenalina y vistas desde el aire.** Con **4,6 sobre 5** en casi 650 reseñas, es una de las actividades náuticas mejor valoradas de la zona. El grupo reducido (máximo 3 personas) garantiza una experiencia personal y sin aglomeraciones.\n\n### Consejos\n- 📷 Lleva la cámara o el móvil en una funda resistente al agua o confía en las fotos del equipo\n- 👕 Ropa cómoda y ligera — no hace falta bañador si no quieres mojarte\n- ☀️ Protección solar imprescindible antes de subir a bordo\n- 🌬️ La actividad está sujeta a condiciones meteorológicas; en caso de viento fuerte puede cancelarse\n- ⏰ Duración total de la actividad incluyendo embarque y espera: aproximadamente 30–45 min\n\n### Recomendación\nPerfecto para parejas, amigos o familias con adolescentes que busquen una dosis de adrenalina y las mejores vistas del litoral sur de Gran Canaria desde el aire.",
+      "shortDescription": "Parasailing sobre el Atlántico desde Puerto Rico con vistas panorámicas de la costa sur, líneas de 150 o 300 m, grupos de máximo 3 personas",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.7886,
+        "lng": -15.7133
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/parasailing-puerto-rico.avif",
+        "gallery": ["/images/gran-canaria/actividades/parasailing-puerto-rico.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["parasailing", "puerto rico", "vuelo", "adrenalina", "mar", "mogan", "deportes nauticos"],
+      "visitDuration": "10-12min",
+      "emoji": "🪂",
+      "sectionOnly": false,
+      "municipio": "mogan",
+      "gygTourId": "407036",
+      "gygUrl": "https://gyg.me/CrV0ZDyx"
+    },
+    {
+      "slug": "camello-dunas-maspalomas",
+      "name": "Paseo en camello por las dunas de Maspalomas",
+      "description": "Una de las experiencias más icónicas del sur de Gran Canaria: recorrer a lomos de camello las legendarias **dunas de Maspalomas**, un paisaje desértico único en Europa que parece sacado del Sáhara. Guiados por expertos saharauis, este paseo de 30 minutos es una manera memorable de descubrir uno de los parajes naturales más espectaculares de las Islas Canarias.\n\n### La experiencia\nLos camellos están equipados con **cómodas monturas de dos plazas**, por lo que no es necesario cabalgar directamente sobre la joroba. Los **guías saharauis** acompañan todo el recorrido, explicando curiosidades sobre estos animales y el entorno natural. El paseo discurre entre las sinuosas dunas de arena dorada con vistas al horizonte del Atlántico.\n\n### Qué incluye\n- 🐪 Paseo en camello de **30 minutos** por las dunas\n- 🎫 Seguro incluido\n- 🚌 Servicio de recogida y regreso al hotel disponible\n- 🗣️ Guías en español, inglés y alemán\n\n### No apto para\n- Personas con problemas de movilidad o en silla de ruedas\n- Personas con vértigo\n- Personas que pesen más de **100 kg**\n\n### Punto de encuentro\nDesde **Charca Maspalomas**, continúa 5 minutos por la **Calle Oceania**. A mano derecha encontrarás la estación de camellos del operador Camello Safari Duna Oasis.\n\n### ¿Merece la pena?\nCon **4,4 sobre 5** en casi **4.800 reseñas**, este paseo es uno de los más populares y valorados del sur de Gran Canaria. Los viajeros destacan especialmente el trato excelente a los animales, la simpatía de los guías y el encanto del paisaje desértico.\n\n### Consejos\n- ☀️ Protector solar, agua y repelente de insectos son imprescindibles\n- 👕 Ropa cómoda y transpirable; el calor puede ser intenso en verano\n- 👶 Los niños menores de 3 años pueden montar gratis con sus padres\n- ⏰ El acceso es por orden de llegada — llega con margen de tiempo\n- 📍 La señalización hasta el punto de encuentro puede ser escasa; sigue las indicaciones de Calle Oceania desde la Charca de Maspalomas\n\n### Recomendación\nIdeal para familias, parejas o cualquier viajero que quiera vivir una experiencia diferente en un entorno natural único en Europa. Combínalo con un paseo al atardecer por las dunas para una tarde perfecta en el sur de Gran Canaria.",
+      "shortDescription": "Paseo de 30 minutos a lomos de camello por las icónicas dunas de Maspalomas con guías saharauis, monturas de dos plazas y paisaje desértico único en Europa",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.7429623,
+        "lng": -15.5958491
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/camello-dunas-maspalomas.avif",
+        "gallery": ["/images/gran-canaria/actividades/camello-dunas-maspalomas.avif"]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": ["camello", "dunas", "maspalomas", "desierto", "safari", "naturaleza", "san-bartolome-de-tirajana"],
+      "visitDuration": "30min",
+      "emoji": "🐪",
+      "sectionOnly": false,
+      "municipio": "san-bartolome-de-tirajana",
+      "gygTourId": "212022",
+      "gygUrl": "https://gyg.me/KBp8WrDH"
     }
   ],
   "sections": [],
@@ -2182,6 +2334,7 @@
     {
       "slug": "tejeda",
       "name": "Tejeda",
+      "top": true,
       "emoji": "🌸",
       "coordinates": {
         "lat": 27.995,
@@ -2217,6 +2370,7 @@
         "lat": 28.061619,
         "lng": -15.545572
       },
+      "top": true,
       "description": "**Teror** es uno de los pueblos más emblemáticos, visitados y queridos de **Gran Canaria**. Situado en las verdes medianías del norte de la isla, destaca por su extraordinario patrimonio histórico, sus tradicionales balcones de madera y por albergar la **Basílica de Nuestra Señora del Pino**, santuario de la patrona de **Gran Canaria**. Su ambiente tranquilo, su riqueza cultural y su importancia religiosa convierten a **Teror** en una parada imprescindible para quienes desean conocer las tradiciones más auténticas de Canarias.\n\n### Qué ver en Teror\nEl principal atractivo es la impresionante **Basílica de Nuestra Señora del Pino**, uno de los lugares de peregrinación más importantes de Canarias. También merece la pena recorrer el hermoso **Casco Histórico de Teror**, famoso por sus balcones canarios de madera tallada, sus calles empedradas y sus elegantes casas señoriales. Otros lugares destacados son la **Plaza del Pino**, los antiguos conventos y las numerosas tiendas de productos artesanales y gastronomía local repartidas por el centro del municipio.\n\n### Qué hacer en Teror\n**Teror** es perfecto para pasear sin prisas y disfrutar de uno de los pueblos con más encanto de **Gran Canaria**. Puedes visitar la basílica, descubrir la arquitectura tradicional canaria, recorrer los senderos que atraviesan las medianías o disfrutar del famoso mercado dominical, considerado uno de los más populares de la isla. Además, es un excelente lugar para degustar productos típicos como el conocido **chorizo de Teror** y otros alimentos artesanales.\n\n### ¿Merece la pena visitar Teror?\n**Absolutamente.** Teror es uno de los municipios con más personalidad de **Gran Canaria** y una visita imprescindible para quienes desean descubrir la historia, la cultura y las tradiciones canarias. Su patrimonio arquitectónico y religioso lo convierten en uno de los pueblos más bonitos y representativos de toda la isla.\n\n### Consejos para la visita\n- 🕊️ Visita la **Basílica de Nuestra Señora del Pino**, uno de los templos más importantes de Canarias\n- 📸 Recorre las calles históricas y fotografía los famosos balcones tradicionales de **Teror**\n- 🏛️ Pasea por la **Plaza del Pino**, corazón histórico y social del municipio\n- 🛍️ Si visitas el pueblo en domingo, aprovecha para recorrer su popular mercado tradicional\n- 🌭 Prueba el famoso **chorizo de Teror**, uno de los productos gastronómicos más conocidos de **Gran Canaria**\n- 🚶 Explora los senderos y paisajes naturales de las medianías que rodean el municipio\n- 🌿 Combina la visita con otros pueblos cercanos como **Firgas**, **Arucas** o **Moya**\n\n### Recomendación\nDedica al menos medio día a descubrir **Teror**. Entre la **Basílica del Pino**, sus balcones históricos, su ambiente tradicional y algunas de las costumbres más arraigadas de **Gran Canaria**, encontrarás uno de los pueblos más auténticos, bonitos y representativos de toda la isla.",
       "shortDescription": "Teror destaca por la Basílica del Pino, sus famosos balcones canarios, su mercado tradicional y uno de los cascos históricos más bonitos de Gran Canaria.",
       "images": {

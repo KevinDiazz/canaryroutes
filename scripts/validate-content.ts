@@ -4,7 +4,7 @@ import path from 'path';
 
 const locales = ['es', 'en', 'de', 'no', 'da', 'fi', 'sv'] as const;
 const islands = ['gran-canaria', 'tenerife'] as const;
-const MAX_POI_DESCRIPTION_LENGTH = 186;
+const MAX_POI_SHORT_DESCRIPTION_LENGTH = 186;
 
 const CoordinatesSchema = z.object({
   lat: z.number().min(-90).max(90),
@@ -14,8 +14,8 @@ const CoordinatesSchema = z.object({
 const POISchema = z.object({
   slug: z.string().min(1),
   name: z.string().min(1),
-  description: z.string().min(10).max(MAX_POI_DESCRIPTION_LENGTH),
-  shortDescription: z.string().min(5),
+  description: z.string().min(10),
+  shortDescription: z.string().min(5).max(MAX_POI_SHORT_DESCRIPTION_LENGTH),
   island: z.enum(islands),
   category: z.enum(['nature', 'beach', 'culture', 'hiking', 'viewpoint', 'food', 'other']),
   coordinates: CoordinatesSchema.optional(),

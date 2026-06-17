@@ -1,6 +1,15 @@
 import type { Locale } from './types';
 
-const strings = {
+type UiStringGroup = Record<string, string>;
+
+interface UiStrings {
+  chips: UiStringGroup;
+  sheet: UiStringGroup;
+  cart: UiStringGroup;
+  credits: UiStringGroup;
+}
+
+const strings: Record<Locale, UiStrings> = {
   es: {
     chips: {
       beach:       'Playas',
@@ -130,7 +139,7 @@ const strings = {
       ownNotice:     'Eigenes Foto von CanaryRoutes',
     },
   },
-} satisfies Record<Locale, typeof strings['es']>;
+};
 
 export function useUiStrings(locale: Locale) {
   return strings[locale] ?? strings['en'];
