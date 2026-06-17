@@ -413,7 +413,8 @@
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": true
+      "top": true,
+      "mapsUrl": "https://maps.app.goo.gl/Hj4kk7yPPwVxZeqs8"
     },
     {
       "slug": "playa-del-ingles",
@@ -442,7 +443,8 @@
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": true
+      "top": true,
+      "mapsUrl": "https://maps.app.goo.gl/mvf1kEkU8H2Jr5uR7"
     },
     {
       "slug": "playa-maspalomas",
@@ -471,7 +473,8 @@
       "emoji": "🏜️",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/ES2uFPdUywoH9VCw5"
     },
     {
       "slug": "playa-amadores",
@@ -501,7 +504,8 @@
       "emoji": "🏝️",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/zeMNRk3tcB9547hj9"
     },
     {
       "slug": "playa-puerto-rico",
@@ -530,7 +534,8 @@
       "emoji": "⛵",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/NSL2KZYbNFZKb6eC7"
     },
     {
       "slug": "playa-mogan",
@@ -559,7 +564,8 @@
       "emoji": "🌺",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/xcu8umbZszMUP6A96"
     },
     {
       "slug": "playa-taurito",
@@ -588,7 +594,8 @@
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/F6ymPNFCVJSfU37G6"
     },
     {
       "slug": "playa-tauro",
@@ -615,7 +622,8 @@
       "emoji": "⚫",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/rUPReN1xojLWfTND6"
     },
     {
       "slug": "anfi-del-mar",
@@ -644,7 +652,8 @@
       "emoji": "🌊",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/VChpVSPDmF5QFJBz9"
     },
     {
       "slug": "playa-veneguera",
@@ -673,7 +682,8 @@
       "emoji": "🌿",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/zsyyJdufN1DMKVmVA"
     },
     {
       "slug": "playa-tasarte",
@@ -700,7 +710,8 @@
       "emoji": "⚫",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/u8cMZuVHwRAy1Fvk7"
     },
     {
       "slug": "playa-tasartico",
@@ -729,7 +740,8 @@
       "emoji": "🐢",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/nFcWeXKyEN82EHMV6"
     },
     {
       "slug": "playa-guguy",
@@ -758,7 +770,8 @@
       "emoji": "🏔️",
       "sectionOnly": false,
       "municipio": "aldea",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/sRrFPxG8pHe776f57"
     },
     {
       "slug": "playa-la-aldea",
@@ -787,7 +800,8 @@
       "emoji": "🌊",
       "sectionOnly": false,
       "municipio": "aldea",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/ow87188h6Hi8pqN18"
     },
     {
       "slug": "piscinas-naturales-agaete",
@@ -814,7 +828,8 @@
       "emoji": "🌊",
       "sectionOnly": false,
       "municipio": "agaete",
-      "top": true
+      "top": true,
+      "mapsUrl": "https://maps.app.goo.gl/tHfv6Zk34eat77wp9"
     },
     {
       "slug": "playa-agaete",
@@ -843,7 +858,8 @@
       "emoji": "🚢",
       "sectionOnly": false,
       "municipio": "agaete",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/9Vk7Q3G2aooJD3Ar7"
     },
     {
       "slug": "playa-guayedra",
@@ -870,7 +886,8 @@
       "emoji": "🌿",
       "sectionOnly": false,
       "municipio": "agaete",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/HiJzYducQgtLip767"
     },
     {
       "slug": "playa-sardina",
@@ -897,7 +914,8 @@
       "emoji": "🐟",
       "sectionOnly": false,
       "municipio": "galdar",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/TvZmH7BWf8Fzq6Jy8"
     },
     {
       "slug": "playa-meloneras",
@@ -926,7 +944,8 @@
       "emoji": "🏨",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/wnw2hwJBNQ69nwLq5"
     },
     {
       "slug": "playa-san-agustin",
@@ -953,7 +972,8 @@
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/nr322tyGKWC7YujJ9"
     },
     {
       "description": "Zwischen San Agustín und Playa del Inglés gelegen, gehört die **Playa de Las Burras** zu den ruhigeren Stränden an der Südküste Gran Canarias. Die entspannte Atmosphäre, die Nähe zu Wohngebieten und die vergleichsweise geringe Besucherzahl machen sie zu einer idealen Wahl für alle, die das Meer in einer gelassenen Umgebung genießen möchten.\n\n### Der Besuch\nDer breite Strand aus dunklem Sand und das meist ruhige Wasser bieten beste Voraussetzungen für einen entspannten Tag am Atlantik. Die gepflegte Strandpromenade lädt zu Spaziergängen entlang der Küste ein und verbindet die Playa de Las Burras bequem mit den benachbarten Stränden des Südens.\n\n### Vor dem Besuch\n- 🏖️ Perfekt für Familien und alle, die Ruhe und Erholung suchen\n- 🌊 Die Badebedingungen sind während eines Großteils des Jahres angenehm\n- ☀️ Nimm Sonnenschutz und ausreichend Wasser mit, besonders in den Sommermonaten\n- 🚶 Die Promenade eignet sich hervorragend für Spaziergänge direkt am Meer\n\n### Empfehlung\nGenieße eine Mahlzeit mit Blick auf den Atlantik oder erkunde die Küste zu Fuß und entdecke einige der beliebtesten Strände im Süden Gran Canarias.",
@@ -1007,7 +1027,8 @@
       "emoji": "🏄",
       "sectionOnly": false,
       "municipio": "aguimes",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/qvHnXN1LfsfU8Gkw7"
     },
     {
       "slug": "playa-melenara",
@@ -1036,7 +1057,8 @@
       "emoji": "🐟",
       "sectionOnly": false,
       "municipio": "telde",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/UbJvaExTLfwnYVok6"
     },
     {
       "slug": "playa-tufia",
@@ -1063,7 +1085,8 @@
       "emoji": "🏺",
       "sectionOnly": false,
       "municipio": "telde",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/yyceT4pvmepVAdAU7"
     },
     {
       "slug": "playa-la-garita",
@@ -1090,7 +1113,8 @@
       "emoji": "🐟",
       "sectionOnly": false,
       "municipio": "telde",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/D5F193F476uzaw4k9"
     },
     {
       "slug": "playa-veril",
@@ -1117,7 +1141,8 @@
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/5ho3poXM8hrTCmbF8"
     },
     {
       "slug": "playa-alcanavaneras",
@@ -1144,7 +1169,8 @@
       "emoji": "⚓",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/5YFRnPC9shGk8vJx9"
     },
     {
       "slug": "playa-de-la-laja",
@@ -1171,7 +1197,8 @@
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/dk9ekiAgRQMVHUBm8"
     },
     {
       "slug": "piscina-la-laja",
@@ -1198,7 +1225,8 @@
       "emoji": "🌊",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/uwhK9dVLnwMZnvBw8"
     },
     {
       "slug": "piscinas-naturales-charcones",
@@ -1225,7 +1253,8 @@
       "emoji": "🌊",
       "sectionOnly": false,
       "municipio": "arucas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/Nr1GzPgaDMeyVVq28"
     },
     {
       "slug": "playa-puertillo",
@@ -1252,7 +1281,8 @@
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "telde",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/pm9ki6su76pG8e8GA"
     },
     {
       "slug": "playa-besudo",
@@ -1279,7 +1309,8 @@
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "aguimes",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/i7kwBTYjLMnN3nvK6"
     },
     {
       "slug": "playa-maranuelas",
@@ -1306,7 +1337,8 @@
       "emoji": "🏖️",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/ACzjQBuNrtTwRR1s7"
     },
     {
       "slug": "playa-montana-arena",
@@ -1333,7 +1365,8 @@
       "emoji": "🌋",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/bMm5S79uvsYY2ESf7"
     },
     {
       "slug": "casa-de-colon",
@@ -1362,7 +1395,8 @@
       "emoji": "🏛️",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/MpRkRAj2EtLVMowE6"
     },
     {
       "slug": "cueva-pintada",
@@ -1391,7 +1425,8 @@
       "emoji": "🏺",
       "sectionOnly": false,
       "municipio": "galdar",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/Snaq5kduJZjTaxbe7"
     },
     {
       "slug": "catedral-santa-ana",
@@ -1421,7 +1456,8 @@
       "emoji": "⛪",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/wBcmoSKxzGZxHPt69"
     },
     {
       "slug": "barrio-vegueta",
@@ -1448,7 +1484,8 @@
       "emoji": "🏘️",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": true
+      "top": true,
+      "mapsUrl": "https://maps.app.goo.gl/Pem5YsmVSc57xmt2A"
     },
     {
       "slug": "museo-canario",
@@ -1477,7 +1514,8 @@
       "emoji": "🏛️",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/cvDr7n4tSPLv5yjK9"
     },
     {
       "slug": "cenobio-de-valeron",
@@ -1504,7 +1542,8 @@
       "emoji": "🏺",
       "sectionOnly": false,
       "municipio": "guia",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/xVf3NF43isSkC2sU8"
     },
     {
       "slug": "gastronomia-grancanaria",
@@ -1537,7 +1576,8 @@
       "emoji": "🍽️",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://www.google.com/maps/search/restaurantes+comida+canaria/@28.0024747,-15.6176588,74825m/data=!3m1!1e3!4m4!2m3!5m1!4e9!6e5?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D"
     },
     {
       "slug": "risco-caido",
@@ -1564,7 +1604,8 @@
       "emoji": "🏛️",
       "sectionOnly": false,
       "municipio": "artenara",
-      "top": true
+      "top": true,
+      "mapsUrl": "https://maps.app.goo.gl/zv3vgAxUx46SAGPP7"
     },
     {
       "slug": "basilica-del-pino",
@@ -1593,7 +1634,8 @@
       "emoji": "⛪",
       "sectionOnly": false,
       "municipio": "teror",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/VZTsviGsS3dfbza98"
     },
     {
       "slug": "iglesia-san-juan-arucas",
@@ -1622,7 +1664,8 @@
       "emoji": "⛪",
       "sectionOnly": false,
       "municipio": "arucas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/dgWgAvcF4iJAF3716"
     },
     {
       "slug": "necropolis-arteara",
@@ -1651,7 +1694,8 @@
       "emoji": "🏺",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/knMZnrxWDo378DdD6"
     },
     {
       "slug": "castillo-de-mata",
@@ -1678,7 +1722,8 @@
       "emoji": "🏰",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/AfER5VuYKDt9xTdL9"
     },
     {
       "slug": "castillo-de-la-luz",
@@ -1705,7 +1750,8 @@
       "emoji": "🏰",
       "sectionOnly": false,
       "municipio": "las-palmas",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/s59PMeA1n7qB693a7"
     },
     {
       "slug": "roque-nublo",
@@ -1734,7 +1780,8 @@
       "emoji": "🌄",
       "sectionOnly": false,
       "municipio": "tejeda",
-      "top": true
+      "top": true,
+      "mapsUrl": "https://maps.app.goo.gl/LFqFND9o33WLGEeMA"
     },
     {
       "slug": "roque-bentayga",
@@ -1761,7 +1808,8 @@
       "emoji": "🏔️",
       "sectionOnly": false,
       "municipio": "tejeda",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/fLrPRHu7hv9h5zz38"
     },
     {
       "slug": "parque-natural-tamadaba",
@@ -1788,7 +1836,8 @@
       "emoji": "🌲",
       "sectionOnly": false,
       "municipio": "agaete",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/TZKkUpab4yVjPcnX6"
     },
     {
       "slug": "dunas-maspalomas",
@@ -1817,7 +1866,8 @@
       "emoji": "🏜️",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": true
+      "top": true,
+      "mapsUrl": "https://maps.app.goo.gl/pnVpeH2PwzFEExCo7"
     },
     {
       "slug": "caldera-de-bandama",
@@ -1844,7 +1894,8 @@
       "emoji": "🌋",
       "sectionOnly": false,
       "municipio": "santa-brigida",
-      "top": true
+      "top": true,
+      "mapsUrl": "https://maps.app.goo.gl/fZ7eHVcGNWrq33Rp8"
     },
     {
       "slug": "mirador-del-balcon",
@@ -1871,7 +1922,8 @@
       "emoji": "📸",
       "sectionOnly": false,
       "municipio": "agaete",
-      "top": true
+      "top": true,
+      "mapsUrl": "https://maps.app.goo.gl/iEppjSdE5Md6nXpc7"
     },
     {
       "slug": "mirador-unamuno",
@@ -1898,7 +1950,8 @@
       "emoji": "📸",
       "sectionOnly": false,
       "municipio": "tejeda",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/hrEFt4unRfS53iib8"
     },
     {
       "slug": "mirador-degollada-yeguas",
@@ -1925,7 +1978,8 @@
       "emoji": "📸",
       "sectionOnly": false,
       "municipio": "san-bartolome",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/xdZX28sEpnvPWXqe8"
     },
     {
       "slug": "mirador-pico-nieves",
@@ -1952,7 +2006,8 @@
       "emoji": "📸",
       "sectionOnly": false,
       "municipio": "vega-san-mateo",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/XdNaJh8C1XuwfwWN8"
     },
     {
       "slug": "mirador-cruz-tejeda",
@@ -1979,7 +2034,8 @@
       "emoji": "📸",
       "sectionOnly": false,
       "municipio": "tejeda",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/yPbyQSVTenuhRdvKA"
     },
     {
       "slug": "parque-doramas",
@@ -2006,7 +2062,8 @@
       "emoji": "🌳",
       "sectionOnly": false,
       "municipio": "moya",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/EQBintKzPQTVYNeb8"
     },
     {
       "slug": "azulejos-veneguera",
@@ -2035,7 +2092,8 @@
       "emoji": "🪨",
       "sectionOnly": false,
       "municipio": "mogan",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/4A3sSGFeCS8jGbJe6"
     },
     {
       "slug": "barranco-las-vacas",
@@ -2062,7 +2120,8 @@
       "emoji": "🏜️",
       "sectionOnly": false,
       "municipio": "aguimes",
-      "top": false
+      "top": false,
+      "mapsUrl": "https://maps.app.goo.gl/sKMfPxjp1cFYhfCTA"
     },
     {
       "slug": "crucero-catamaran-puerto-rico",
