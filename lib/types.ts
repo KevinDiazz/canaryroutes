@@ -133,6 +133,9 @@ export interface POI {
   municipio?: string;
   /** When true, appears in the Top filter on the map */
   top?: boolean;
+  /** Direct Google Maps place URL (e.g. https://maps.app.goo.gl/...) — when present,
+   *  the "Open in Maps" button opens the exact place with its info and photos */
+  mapsUrl?: string;
   /** Hiking track data */
   track?: {
     mapsUrl: string;

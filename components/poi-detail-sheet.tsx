@@ -441,10 +441,10 @@ export function PoiDetailSheet({
 
   const openMaps = () => {
     if (!canRoute) return;
-    window.open(
-      `https://www.google.com/maps/search/?api=1&query=${selectedPoi.coordinates.lat},${selectedPoi.coordinates.lng}`,
-      '_blank'
-    );
+    const url = selectedPoi.mapsUrl
+      ? selectedPoi.mapsUrl
+      : `https://www.google.com/maps/search/?api=1&query=${selectedPoi.coordinates.lat},${selectedPoi.coordinates.lng}`;
+    window.open(url, '_blank');
   };
   const openDir = () => {
     if (!canRoute) return;
