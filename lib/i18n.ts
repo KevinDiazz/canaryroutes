@@ -28,7 +28,7 @@ export function getIslandDisplayName(island: Island, locale: Locale): string {
       no: 'Tenerife', da: 'Tenerife', fi: 'Tenerife', sv: 'Teneriffa',
     },
   };
-  return names[island][locale];
+  return names[island]?.[locale] ?? island;
 }
 
 export function localePath(locale: Locale, ...segments: string[]): string {

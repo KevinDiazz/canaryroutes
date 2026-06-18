@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import { locales, islands, type Locale, type Island } from '@/lib/types';
 import { getPOIs, getSections, getMunicipios } from '@/lib/content';
 import { getPhotoCredits, type PhotoCreditGroup } from '@/lib/image-credits';
@@ -28,6 +29,7 @@ export async function generateMetadata({
   const { locale: rawLocale, island: rawIsland } = await params;
   const locale = rawLocale as Locale;
   const island = rawIsland as Island;
+  if (!(islands as readonly string[]).includes(island)) return {};
   const islandName = getIslandDisplayName(island, locale);
   const desc = islandDescriptions[island]?.[locale] ?? islandDescriptions[island]?.['en'] ?? '';
   const title = `${islandName} — Mapa de viaje | CanaryRoutes`;
@@ -75,6 +77,8 @@ export default async function IslandPage({
   const { locale: rawLocale, island: rawIsland } = await params;
   const locale = rawLocale as Locale;
   const island = rawIsland as Island;
+
+  if (!(islands as readonly string[]).includes(island)) notFound();
 
   const poisByIsland: Record<Island, ReturnType<typeof getPOIs>> = {
     'gran-canaria': getPOIs(locale, 'gran-canaria'),

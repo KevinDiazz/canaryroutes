@@ -1,7 +1,5 @@
 'use client';
 import { CartItem } from './cart-item';
-import { openMapsFromCurrentLocation } from '@/services/maps-service';
-import { useState } from 'react';
 import type { CartState } from '@/hooks/use-cart';
 import type { Locale } from '@/lib/types';
 import { useUiStrings } from '@/lib/ui-strings';
@@ -15,32 +13,6 @@ interface CartPanelProps {
 
 export function CartPanel({ cart, isOpen, onClose, locale }: CartPanelProps) {
   const t = useUiStrings(locale);
-  const [isLoading, setIsLoading] = useState(false);
-
-  const handleOpenMaps = async () => {
-    if (cart.items.length === 0) return;
-    setIsLoading(true);
-    try {
-      await openMapsFromCurrentLocation(
-        cart.items
-          .flatMap((i) => {
-            if (
-              typeof i.coordinates?.lat !== 'number' ||
-              !Number.isFinite(i.coordinates.lat) ||
-              typeof i.coordinates?.lng !== 'number' ||
-              !Number.isFinite(i.coordinates.lng)
-            ) {
-              return [];
-            }
-            return [{ lat: i.coordinates.lat, lng: i.coordinates.lng }];
-          })
-      );
-    } catch (e) {
-      alert(e instanceof Error ? e.message : 'Error abriendo Maps');
-    } finally {
-      setIsLoading(false);
-    }
-  };
 
   return (
     <>
@@ -139,35 +111,11 @@ export function CartPanel({ cart, isOpen, onClose, locale }: CartPanelProps) {
           )}
         </div>
 
-        {/* Footer con botón Maps */}
+        {/* Footer — contador + hint */}
         {cart.items.length > 0 && (
-          <div style={{ padding: '16px', borderTop: '1px solid #f3f4f6' }}>
-            <button
-              onClick={handleOpenMaps}
-              disabled={isLoading}
-              style={{
-                width: '100%',
-                padding: '14px',
-                background: isLoading ? '#e5e7eb' : 'linear-gradient(135deg, #1f9d61, #47c987)',
-                color: isLoading ? '#9ca3af' : 'white',
-                border: 'none',
-                borderRadius: '12px',
-                fontWeight: '700',
-                fontSize: '15px',
-                cursor: isLoading ? 'not-allowed' : 'pointer',
-                fontFamily: "'JetBrains Mono', monospace",
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                gap: '8px',
-                boxShadow: isLoading ? 'none' : '0 4px 16px rgba(31,157,97,0.3)',
-              }}
-            >
-              <img src="/icons/icons8-location-48.png" alt="" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
-              <span>{isLoading ? t.cart.loading : t.cart.openMaps}</span>
-            </button>
-            <p style={{ margin: '8px 0 0', fontSize: '12px', color: '#9ca3af', textAlign: 'center' }}>
-              {cart.count} {cart.count === 1 ? t.cart.stop : t.cart.stops}
+          <div style={{ padding: '12px 16px', borderTop: '1px solid #f3f4f6', textAlign: 'center' }}>
+            <p style={{ margin: 0, fontSize: '12px', color: '#9ca3af' }}>
+              {cart.count} {cart.count === 1 ? t.cart.stop : t.cart.stops} · {t.cart.tapToOpen ?? 'Toca una parada para abrir en Maps'}
             </p>
           </div>
         )}

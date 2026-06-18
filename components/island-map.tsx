@@ -193,13 +193,14 @@ const ISLAND_CONFIGS: Record<Island, {
 };
 
 const CATEGORY_COLORS: Record<POI['category'], string> = {
-  nature:   '#2ea86e',
-  beach:    '#2090c0',
-  culture:  '#6e42b8',
-  hiking:   '#2a9e60',
-  viewpoint:'#c47a18',
-  food:     '#c44038',
-  other:    '#5a7a90',
+  nature:    '#2ea86e',
+  beach:     '#2090c0',
+  culture:   '#6e42b8',
+  hiking:    '#2a9e60',
+  viewpoint: '#c47a18',
+  food:      '#c44038',
+  other:     '#5a7a90',
+  transport: '#f59e0b',
 };
 
 // Aclara (percent > 0) u oscurece (percent < 0) un color hex un porcentaje dado
@@ -873,7 +874,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         <div style={{ display: 'flex', alignItems: 'center', padding: '0 12px 0 16px', gap: '8px' }}>
           <a href={`/${locale}`} style={{ lineHeight: 0 }}>
             <Image
-              src="/logo/file.svg"
+              src="/logo/file.png"
               alt="CanaryRoutes"
               width={240}
               height={36}
@@ -1124,46 +1125,57 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           {([
             { id: 'beach',      icon: '/icons/icons8-beach-48.png',      label: t.chips.beach,      color: '#2090c0' },
             { id: 'activities', icon: '/icons/icons8-activities-48.png', label: t.chips.activities, color: '#ff5533' },
-            { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: t.chips.culture,    color: '#6e42b8' },
+            { id: 'hiking',     icon: '/icons/icons8-hiking-48.png',     label: t.chips.hiking,     color: '#2a9e60' },
             { id: 'transport',  icon: '/icons/icons8-car-53.png',        label: t.chips.transport,  color: '#f59e0b' },
+            { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: t.chips.culture,    color: '#6e42b8' },
             { id: 'nature',     icon: '/icons/icons8-forest-48.png',     label: t.chips.nature,     color: '#2ea86e' },
           ] as const).map(chip => {
             const isActive = activeFilter === chip.id;
+            const grad = `linear-gradient(135deg, ${shadeColor(chip.color, 0.45)}, ${chip.color}, ${shadeColor(chip.color, -0.35)})`;
             return (
-              <button
+              /* Wrapper con borde degradado (1px padding + fondo sólido interior) */
+              <div
                 key={chip.id}
-                onPointerUp={(event) => {
-                  event.preventDefault();
-                  event.stopPropagation();
-                  handleFilterToggle(chip.id);
-                }}
                 style={{
-                  display: 'flex', alignItems: 'center', gap: '5px',
-                  padding: '5px 13px', borderRadius: '20px', flexShrink: 0,
-                  background: isActive
-                    ? `linear-gradient(135deg, ${shadeColor(chip.color, 0.45)}, ${chip.color}, ${shadeColor(chip.color, -0.35)})`
-                    : 'rgba(255,255,255,0.92)',
-                  color: isActive ? 'white' : '#4b5563',
-                  border: isActive ? 'none' : '1px solid rgba(0,0,0,0.10)',
+                  background: grad,
+                  borderRadius: '21px',
+                  padding: '1px',
                   boxShadow: isActive
                     ? `0 3px 10px ${chip.color}55`
                     : '0 1px 3px rgba(0,0,0,0.08)',
-                  fontSize: '11px', fontWeight: isActive ? 700 : 500,
-                  cursor: 'pointer',
-                  fontFamily: "'JetBrains Mono', monospace",
-                  transition: 'all 0.18s',
-                  backdropFilter: isActive ? 'none' : 'blur(4px)',
+                  flexShrink: 0,
                 }}
               >
-                {chip.icon.startsWith('/') ? (
-                  <img src={chip.icon} alt="" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
-                ) : (
-                  <span style={{ fontSize: '13px' }}>{chip.icon}</span>
-                )}
-                <span style={{ textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-                  {chip.label}
-                </span>
-              </button>
+                <button
+                  onPointerUp={(event) => {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    handleFilterToggle(chip.id);
+                  }}
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: '5px',
+                    padding: '5px 13px', borderRadius: '20px',
+                    background: isActive ? grad : '#ffffff',
+                    color: isActive ? 'white' : '#4b5563',
+                    border: 'none',
+                    fontSize: '11px', fontWeight: isActive ? 700 : 500,
+                    cursor: 'pointer',
+                    fontFamily: "'JetBrains Mono', monospace",
+                    transition: 'all 0.18s',
+                    backdropFilter: isActive ? 'none' : 'blur(4px)',
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  {chip.icon.startsWith('/') ? (
+                    <img src={chip.icon} alt="" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
+                  ) : (
+                    <span style={{ fontSize: '13px' }}>{chip.icon}</span>
+                  )}
+                  <span style={{ textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+                    {chip.label}
+                  </span>
+                </button>
+              </div>
             );
           })}
         </div>
@@ -1181,22 +1193,22 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           zIndex: 120,
         }}>
           <div style={{
-            background: 'linear-gradient(135deg, #ffd100, #ffb300, #079dde)',
-            borderRadius: '22px',
-            padding: '2px',
+            background: 'linear-gradient(90deg, #ffd100, #ffb300, #f5a520)',
+            borderRadius: '30px',
+            padding: '1px',
+            boxShadow: '0 4px 16px rgba(13,27,74,0.12), 0 1px 3px rgba(0,0,0,0.08)',
           }}>
             <div style={{
-              background: '#000',
-              borderRadius: '20px',
-              padding: '5px 16px',
+              background: '#ffffff',
+              borderRadius: '29px',
+              padding: '7px 20px',
             }}>
               <span style={{
-                fontFamily: "'JetBrains Mono', monospace",
-                fontSize: '14px',
+                fontFamily: "'Outfit', sans-serif",
+                fontSize: '17px',
                 fontWeight: '700',
-                letterSpacing: '0.12em',
-                textTransform: 'uppercase',
-                backgroundImage: 'linear-gradient(135deg, #ffd100, #ffb300, #079dde)',
+                letterSpacing: '0.06em',
+                backgroundImage: 'linear-gradient(90deg, #0d1b4a 0%, #00b5d8 100%)',
                 backgroundClip: 'text',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',

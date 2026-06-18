@@ -92,7 +92,7 @@ export function OrganizationJsonLd({ locale }: { locale: Locale }) {
     '@type': 'Organization',
     name: 'CanaryRoutes',
     url: `${SITE_URL}/${locale}`,
-    logo: `${SITE_URL}/logo/file.svg`,
+    logo: `${SITE_URL}/logo/file.png`,
     description: 'Plataforma turistica premium para descubrir las Islas Canarias.',
     areaServed: {
       '@type': 'Place',

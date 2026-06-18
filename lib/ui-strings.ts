@@ -39,6 +39,7 @@ const strings: Record<Locale, UiStrings> = {
       openMaps:    'Abrir en Google Maps',
       stop:        'parada',
       stops:       'paradas',
+      tapToOpen:   'Toca una parada para abrir en Maps',
     },
     credits: {
       title:        '📷 Créditos fotográficos',
@@ -83,6 +84,7 @@ const strings: Record<Locale, UiStrings> = {
       openMaps:    'Open in Google Maps',
       stop:        'stop',
       stops:       'stops',
+      tapToOpen:   'Tap a stop to open in Maps',
     },
     credits: {
       title:        '📷 Photo credits',
@@ -127,6 +129,7 @@ const strings: Record<Locale, UiStrings> = {
       openMaps:    'In Google Maps öffnen',
       stop:        'Halt',
       stops:       'Halte',
+      tapToOpen:   'Halte antippen, um Maps zu öffnen',
     },
     credits: {
       title:        '📷 Bildnachweise',

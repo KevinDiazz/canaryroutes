@@ -800,13 +800,22 @@ export function PoiDetailSheet({
             background: 'white',
             minHeight: 64,
           }}>
-            {/* 80% — texto preview */}
-            <div style={{
-              flex: '0 0 80%',
-              padding: '10px 12px 10px 16px',
-              display: 'flex', alignItems: 'center',
-              overflow: 'hidden',
-            }}>
+            {/* 80% — texto preview (clickable → abre panel de lectura) */}
+            <button
+              onClick={() => setTextExpanded(true)}
+              onTouchStart={(e) => e.stopPropagation()}
+              onTouchEnd={(e) => e.stopPropagation()}
+              style={{
+                flex: '0 0 80%',
+                padding: '10px 12px 10px 16px',
+                display: 'flex', alignItems: 'center',
+                overflow: 'hidden',
+                background: 'none',
+                border: 'none',
+                cursor: 'pointer',
+                textAlign: 'left',
+              }}
+            >
               <p style={{
                 margin: 0,
                 fontSize: '13px', lineHeight: 1.55, color: '#6b7280',
@@ -818,7 +827,7 @@ export function PoiDetailSheet({
               }}>
                 {contentReady && plainDescription}
               </p>
-            </div>
+            </button>
 
             {/* 20% — botón LEER */}
             <button

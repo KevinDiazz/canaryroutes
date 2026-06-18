@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -119,6 +119,14 @@ h1, h2, h3, h4, h5, h6 {
     border: none !important;
     outline: none !important;
   }
+}
+
+/* ── Home page: scrollable shell ────────────────────────────────────── */
+.app-shell-home {
+  height: auto !important;
+  min-height: 100vh !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
 }
 
 /* ── Rich text markdown ─────────────────────────────────────────────── */

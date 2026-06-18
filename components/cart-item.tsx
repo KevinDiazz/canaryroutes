@@ -9,6 +9,7 @@ const CATEGORY_COLORS: Record<string, string> = {
   viewpoint: '#c47a18',
   food:      '#c44038',
   other:     '#5a7a90',
+  transport: '#f59e0b',
 };
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -19,6 +20,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   viewpoint: 'Mirador',
   food:      'Gastronomía',
   other:     'Lugar',
+  transport: 'Transporte',
 };
 
 interface CartItemProps {
@@ -31,15 +33,30 @@ export function CartItem({ index, poi, onRemove }: CartItemProps) {
   const color = CATEGORY_COLORS[poi.category] ?? '#5a7a90';
   const label = CATEGORY_LABELS[poi.category] ?? poi.category;
 
+  const mapsHref = poi.mapsUrl
+    ?? (poi.coordinates
+      ? `https://www.google.com/maps/search/?api=1&query=${poi.coordinates.lat},${poi.coordinates.lng}`
+      : undefined);
+
+  const handleCardClick = () => {
+    if (mapsHref) window.open(mapsHref, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <li style={{ listStyle: 'none', margin: '10px 0' }}>
-      <div style={{
-        position: 'relative',
-        height: '100px',
-        borderRadius: '14px',
-        overflow: 'hidden',
-        boxShadow: '0 2px 12px rgba(0,0,0,0.14)',
-      }}>
+      <div
+        onClick={handleCardClick}
+        role={mapsHref ? 'button' : undefined}
+        aria-label={mapsHref ? `Abrir ${poi.name} en Maps` : undefined}
+        style={{
+          position: 'relative',
+          height: '100px',
+          borderRadius: '14px',
+          overflow: 'hidden',
+          boxShadow: '0 2px 12px rgba(0,0,0,0.14)',
+          cursor: mapsHref ? 'pointer' : 'default',
+        }}
+      >
         {/* Foto de fondo */}
         <img
           src={poi.images?.hero ?? '/images/placeholder.avif'}
@@ -71,9 +88,9 @@ export function CartItem({ index, poi, onRemove }: CartItemProps) {
           {index + 1}
         </div>
 
-        {/* Botón eliminar */}
+        {/* Botón eliminar — stopPropagation para no abrir Maps */}
         <button
-          onClick={onRemove}
+          onClick={(e) => { e.stopPropagation(); onRemove(); }}
           title={`Eliminar ${poi.name}`}
           style={{
             position: 'absolute', top: '8px', right: '8px',
@@ -91,7 +108,7 @@ export function CartItem({ index, poi, onRemove }: CartItemProps) {
           ✕
         </button>
 
-        {/* Texto en la parte inferior */}
+        {/* Texto inferior */}
         <div style={{
           position: 'absolute', bottom: 0, left: 0, right: 0,
           padding: '8px 12px 10px',
