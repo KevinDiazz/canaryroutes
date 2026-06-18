@@ -112,7 +112,7 @@ export interface POI {
   description: string;
   shortDescription: string;
   island: Island;
-  category: 'nature' | 'beach' | 'culture' | 'hiking' | 'viewpoint' | 'food' | 'other';
+  category: 'nature' | 'beach' | 'culture' | 'hiking' | 'viewpoint' | 'food' | 'other' | 'transport';
   coordinates?: Coordinates;
   images: POIImages;
   audioPreview?: string;
@@ -136,6 +136,13 @@ export interface POI {
   /** Direct Google Maps place URL (e.g. https://maps.app.goo.gl/...) — when present,
    *  the "Open in Maps" button opens the exact place with its info and photos */
   mapsUrl?: string;
+  /** DiscoverCars location slug — when present, the POI sheet shows a car rental booking widget.
+   *  Example: "spain-canary-islands/gran-canaria" */
+  discoverCarsLocation?: string;
+  /** Full DiscoverCars affiliate URL for the CTA button */
+  discoverCarsUrl?: string;
+  /** Official website URL — when present, shows a full-width "Visit website" button in the POI sheet */
+  websiteUrl?: string;
   /** Hiking track data */
   track?: {
     mapsUrl: string;

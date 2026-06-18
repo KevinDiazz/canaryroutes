@@ -1,6 +1,97 @@
 {
   "pois": [
     {
+      "slug": "alquiler-coche-gran-canaria",
+      "name": "Mietwagen auf Gran Canaria",
+      "shortDescription": "Mietwagenpreise auf Gran Canaria vergleichen und bis zu 70% sparen.",
+      "description": "Mit einem Mietwagen ist Gran Canaria am freiesten und bequemsten zu erkunden: von den Dünen von Maspalomas bis zum Roque Nublo, von den Schluchten im Inselinnern bis zu den Küstendörfern. Mit über **70 km Autobahn** und gut ausgeschilderten Straßen ist die Insel ideal für einen Roadtrip.\n\n### Warum ein Auto mieten?\n- 🚗 Zugang zu Orten ohne öffentlichen Nahverkehr (Güi-Güi, Veneguera, Tasarte)\n- 🗺️ Völlige Freiheit bei Zeiten und Stopps\n- ⛽ Günstigerer Kraftstoff als auf dem spanischen Festland (IGIC-Steuer bei 0%)\n- 🌡️ Stabiles Klima das ganze Jahr — ideal für Cabrios\n- 💶 Sehr wettbewerbsfähige Preise, besonders außerhalb der Hochsaison\n\n### Praktische Tipps\n**Flughafen-Abholung:** Die meisten Firmen haben einen Schalter am Flughafen Gran Canaria (LPA). In der Hochsaison (Dezember–Januar und Juli–August) frühzeitig buchen.\n\n**Versicherung:** Wir empfehlen den **Vollkasko-Schutz** (im Suchformular enthalten), um Überraschungen mit dem Eigenanteil zu vermeiden.\n\n**Welches Auto wählen:**\n- Küstenstraßen und Autobahn → kleiner Kompaktwagen (Seat Ibiza, VW Polo)\n- Innenland und Schluchten → Crossover oder SUV (Seat Arona, Dacia Duster)\n- Gruppe von 4-5 Personen → Kombi oder Mittelklasse\n\n### Die besten Routen\nVon Las Palmas bietet die **GC-1 Richtung Süden** Meerblick bis nach Maspalomas. Die **GC-60** durch das Zentrum ist eine der spektakulärsten Straßen Spaniens. Der Abstecher nach **Tejeda und Artenara** ist ein Muss.\n\nNutze das Suchformular, um Preise von Hertz, Sixt, Europcar, Goldcar, ClickRent und über 50 lokalen und internationalen Anbietern zu vergleichen.",
+      "island": "gran-canaria",
+      "category": "transport",
+      "emoji": "🚗",
+      "coordinates": {
+        "lat": 27.9202,
+        "lng": -15.3878
+      },
+      "images": {
+        "hero": "/images/gran-canaria/transport/alquiler-coche-gran-canaria.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "Auto",
+        "Mietwagen",
+        "Transport",
+        "fahren",
+        "Freiheit",
+        "gran-canaria"
+      ],
+      "visitDuration": "Den ganzen Tag",
+      "discoverCarsLocation": "spain-canary-islands/gran-canaria",
+      "discoverCarsUrl": "https://www.discovercars.com/spain-canary-islands/gran-canaria?a_aid=canaryroutes&currency=eur",
+      "affiliateLinks": [],
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "guagua-global-gran-canaria",
+      "category": "transport",
+      "emoji": "🚌",
+      "coordinates": {
+        "lat": 28.1079,
+        "lng": -15.4158
+      },
+      "images": {
+        "hero": "/images/gran-canaria/transport/guagua-global.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "mapsUrl": "https://maps.app.goo.gl/8Q2rGczqEKQ5Kw9n8",
+      "name": "Guagua Global — Überlandbus",
+      "shortDescription": "Das Überlandbus-Netz Gran Canarias mit 129 Linien, die die gesamte Insel verbinden — vom Flughafen bis in den Süden.",
+      "description": "**Guagua Global** ist der Überlandbus-Betreiber von Gran Canaria. Mit **129 Linien** und über **2.500 Haltestellen** deckt er nahezu die gesamte Insel zu sehr günstigen Preisen ab.\n\n### Wichtige Linien für Touristen\n- 🛫 **Linie 60** — Flughafen (LPA) ↔ Las Palmas de Gran Canaria\n- 🌅 **Linie 66** — Flughafen (LPA) ↔ Faro de Maspalomas\n- 🏖️ **Linie 30** — Las Palmas ↔ Playa del Inglés / Maspalomas\n- 🌊 **Linie 91** — Playa del Cura ↔ Las Palmas\n- 🏔️ **Linie 18** — Las Palmas ↔ Tejeda (Inselinneres)\n\n### Preise und Zahlung\n- 💶 Einzelfahrschein: **~1,40 €** (Zahlung per Bankkarte oder App)\n- 📱 Kontaktlose Zahlung mit Bankkarte direkt im Bus möglich\n- 🎟️ Mehrfahrtenkarten auf der Website und in der App erhältlich\n\n### Praktische Tipps\n**Vom Flughafen:** Linie 60 fährt ins Zentrum von Las Palmas, Linie 66 verbindet direkt mit Maspalomas — ideal für Urlauber im Süden ohne Taxi.\n\n**App und Echtzeit-Info:** Lade die Guagua Global App herunter, um Echtzeit-Fahrpläne zu sehen, Routen zu planen und Fahrkarten online zu kaufen.\n\n**Hauptbahnhof:** Die Busstation San Telmo (Las Palmas) ist der zentrale Knotenpunkt der meisten Überlandlinien.\n\n🌐 Mehr Infos und Fahrpläne auf [guaguasglobal.com](https://guaguasglobal.com)",
+      "tags": [
+        "Bus",
+        "Guagua",
+        "Transport",
+        "öffentlich",
+        "Flughafen",
+        "gran-canaria"
+      ],
+      "visitDuration": "Je nach Strecke",
+      "island": "gran-canaria",
+      "websiteUrl": "https://guaguasglobal.com"
+    },
+    {
+      "slug": "guaguas-municipales-las-palmas",
+      "category": "transport",
+      "emoji": "🚌",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/transport/guagua-municipal.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "mapsUrl": "https://maps.app.goo.gl/T3zFXNbhJVuPq8Xf8",
+      "name": "Guaguas Municipales — Stadtbus Las Palmas",
+      "shortDescription": "Das Stadtbusnetz von Las Palmas de Gran Canaria. Deckt die gesamte Stadt mit über 30 Linien für nur 1,35 € ab.",
+      "description": "**Guaguas Municipales** ist das öffentliche Stadtverkehrsunternehmen von Las Palmas de Gran Canaria. Wer in der Hauptstadt übernachtet oder die Stadt erkunden möchte, kommt damit am günstigsten voran.\n\n### Nützliche Linien für Touristen\n- 🏖️ **Linie 1** — Parque San Telmo ↔ Las Canteras (entlang der Strandpromenade)\n- 🏛️ **Linie 12** — Ciudad Alta ↔ Vegueta (historische Altstadt)\n- 🚢 **Linie 30** — Parque Santa Catalina ↔ Puerto (Kreuzfahrtterminal)\n- 🛒 **Linie 25** — Zentrum ↔ Las Arenas / El Corte Inglés\n\n### Preise und Zahlung\n- 💶 Einzelfahrschein: **1,35 €**\n- 📱 Kontaktlose Zahlung mit Bankkarte direkt im Bus möglich\n- 🎟️ 10-Fahrten-Karte auf der Website und an Verkaufsstellen erhältlich\n- 🔄 Kostenloser Umstieg auf Guagua Global-Linien innerhalb derselben Fahrt\n\n### Praktische Tipps\n**Strand Las Canteras:** Die Linie 1 fährt sehr häufig und verbindet die gesamte Küstenmeile — ideal, um vom Stadtzentrum zum Strand zu gelangen.\n\n**Vegueta (Altstadt):** Mit der Linie 12 erreicht man die historische Altstadt mit der Kathedrale, dem Kanarischen Museum und dem überdachten Markt.\n\n**App:** Die Guaguas Municipales App zeigt Echtzeit-Fahrpläne und hilft bei der Routenplanung.\n\n🌐 Mehr Infos auf [guaguas.com](https://www.guaguas.com)",
+      "tags": [
+        "Bus",
+        "Stadtbus",
+        "Transport",
+        "öffentlich",
+        "Las Palmas",
+        "Stadt"
+      ],
+      "visitDuration": "Je nach Strecke",
+      "island": "gran-canaria",
+      "websiteUrl": "https://www.guaguas.com"
+    },
+    {
       "slug": "barranco-guayadeque",
       "name": "Barranco de Guayadeque",
       "description": "Der **Barranco de Guayadeque** gehört zu den beeindruckendsten und geschichtsträchtigsten Schluchten Gran Canarias. Seit der vorspanischen Zeit bewohnt und heute als Schutzgebiet ausgewiesen, vereint er spektakuläre Landschaften, archäologische Fundstätten und eine einzigartige Höhlenkultur, die bis heute lebendig geblieben ist.\n\n### Die Wanderung\nDie Route führt durch eine beeindruckende Schlucht mit steilen Felswänden, prähistorischen Höhlen, terrassenförmig angelegten Feldern und üppiger subtropischer Vegetation. Mit zunehmender Höhe eröffnen sich immer wieder spektakuläre Ausblicke über das Tal und die umliegenden Berge, wodurch der Barranco de Guayadeque zu den schönsten Wandergebieten der Insel zählt.\n\n### Vor dem Start\n- 🥾 Die Route ist nur teilweise ausgeschildert – ein GPS-Track wird empfohlen\n- ⚠️ Einige Wegkreuzungen können unterwegs verwirrend sein\n- 💧 Nimm ausreichend Wasser mit, besonders an warmen Tagen\n- 📸 Perfekt für Natur-, Landschafts- und Archäologiefotografie\n\n### Empfehlung\nDie berühmten Höhlenrestaurants des Tals sind ein absolutes Highlight. Dort kannst du traditionelle kanarische Gerichte in einzigartiger Atmosphäre genießen – direkt in den Fels gebaut.",
@@ -2156,7 +2247,8 @@
       "sectionOnly": false,
       "municipio": "mogan",
       "gygTourId": "430098",
-      "gygUrl": "https://gyg.me/bpWKmDi7"
+      "gygUrl": "https://gyg.me/bpWKmDi7",
+      "top": true
     },
     {
       "slug": "buggy-valle-ayagaures",
@@ -2189,7 +2281,8 @@
       "sectionOnly": false,
       "municipio": "san-bartolome",
       "gygTourId": "212850",
-      "gygUrl": "https://gyg.me/8iDwIDmh"
+      "gygUrl": "https://gyg.me/8iDwIDmh",
+      "top": true
     },
     {
       "slug": "excursion-submarina-mogan",
@@ -2204,11 +2297,21 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/submarino-mogan.avif",
-        "gallery": ["/images/gran-canaria/actividades/submarino-mogan.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/submarino-mogan.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["u-boot", "mogan", "meeresgrund", "wracks", "familie", "goldener hai", "atlantida"],
+      "tags": [
+        "u-boot",
+        "mogan",
+        "meeresgrund",
+        "wracks",
+        "familie",
+        "goldener hai",
+        "atlantida"
+      ],
       "visitDuration": "40min",
       "emoji": "🦈",
       "sectionOnly": false,
@@ -2225,15 +2328,25 @@
       "category": "other",
       "coordinates": {
         "lat": 27.7558,
-        "lng": -15.5860
+        "lng": -15.586
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/aqualand-maspalomas.avif",
-        "gallery": ["/images/gran-canaria/actividades/aqualand-maspalomas.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/aqualand-maspalomas.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["aqualand", "maspalomas", "wasserpark", "rutschen", "familie", "wasser", "adrenalinfun"],
+      "tags": [
+        "aqualand",
+        "maspalomas",
+        "wasserpark",
+        "rutschen",
+        "familie",
+        "wasser",
+        "adrenalinfun"
+      ],
       "visitDuration": "1 Tag",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -2254,17 +2367,28 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/poema-del-mar.avif",
-        "gallery": ["/images/gran-canaria/actividades/poema-del-mar.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/poema-del-mar.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["aquarium", "las palmas", "poema del mar", "haie", "biodiversitat", "familie", "ohne warteschlange"],
+      "tags": [
+        "aquarium",
+        "las palmas",
+        "poema del mar",
+        "haie",
+        "biodiversitat",
+        "familie",
+        "ohne warteschlange"
+      ],
       "visitDuration": "2-3h",
       "emoji": "🐠",
       "sectionOnly": false,
       "municipio": "las-palmas",
       "gygTourId": "407471",
-      "gygUrl": "https://gyg.me/NbxEYYzC"
+      "gygUrl": "https://gyg.me/NbxEYYzC",
+      "top": true
     },
     {
       "slug": "mundo-del-platano-tour",
@@ -2279,11 +2403,21 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/mundo-platano.avif",
-        "gallery": ["/images/gran-canaria/actividades/mundo-platano.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/mundo-platano.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["banane", "plantage", "verkostung", "tour", "landwirtschaft", "gastronomie", "arucas"],
+      "tags": [
+        "banane",
+        "plantage",
+        "verkostung",
+        "tour",
+        "landwirtschaft",
+        "gastronomie",
+        "arucas"
+      ],
       "visitDuration": "40min",
       "emoji": "🍌",
       "sectionOnly": false,
@@ -2304,11 +2438,21 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/parasailing-puerto-rico.avif",
-        "gallery": ["/images/gran-canaria/actividades/parasailing-puerto-rico.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/parasailing-puerto-rico.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["parasailing", "puerto rico", "flug", "adrenalin", "meer", "mogan", "wassersport"],
+      "tags": [
+        "parasailing",
+        "puerto rico",
+        "flug",
+        "adrenalin",
+        "meer",
+        "mogan",
+        "wassersport"
+      ],
       "visitDuration": "10-12min",
       "emoji": "🪂",
       "sectionOnly": false,
@@ -2329,17 +2473,97 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/camello-dunas-maspalomas.avif",
-        "gallery": ["/images/gran-canaria/actividades/camello-dunas-maspalomas.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/camello-dunas-maspalomas.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["kamel", "dünen", "maspalomas", "wüste", "safari", "natur", "san-bartolome-de-tirajana"],
+      "tags": [
+        "kamel",
+        "dünen",
+        "maspalomas",
+        "wüste",
+        "safari",
+        "natur",
+        "san-bartolome-de-tirajana"
+      ],
       "visitDuration": "30min",
       "emoji": "🐪",
       "sectionOnly": false,
       "municipio": "san-bartolome-de-tirajana",
       "gygTourId": "212022",
       "gygUrl": "https://gyg.me/KBp8WrDH"
+    },
+    {
+      "slug": "cena-espectaculo-nomad-sala-scala",
+      "name": "NOMAD Dinner-Show in der Sala Scala",
+      "description": "Ein Abend, den du nicht vergessen wirst: die **NOMAD**-Show in der legendären **Sala Scala** auf Gran Canaria gilt als die beste Dinner-Show Europas. Eine mitreißende Reise durch die drei Kontinente, die die kanarische Identität geprägt haben — zum Leben erweckt von mehr als **30 internationalen Künstlern** auf der Bühne.\n\n### Die Show\nÜber **3 Stunden** lang füllen Live-Musik, Tanz, Akrobatik und modernste Spezialeffekte die Bühne, die mit **20 Metern LED-Screens** und spektakulärer Beleuchtung ausgestattet ist. Jede Nummer ist choreografiert, um zu überraschen, zu bewegen und das Leben von der ersten Sekunde an zu feiern — bis hin zum Finale, bei dem die Künstler die Bühne verlassen und gemeinsam mit dem Publikum feiern.\n\n### Was ist inbegriffen\n- 🎭 **3 Stunden** Live-Show mit 30+ internationalen Künstlern\n- 🍽️ **Km-0-Degustationsmenü** (je nach Ticketkategorie) — lokale Produkte als Stars des Abends\n- 🎬 20-Meter-LED-Screens, Spezialeffekte und modernste Beleuchtungstechnik\n- ♿ Rollstuhlgerecht\n- 🍷 Getränke nicht inbegriffen (zu fairen Preisen vor Ort erhältlich)\n\n### Ticketoptionen\n- **Nur Show** — genieße die Vorstellung ohne Abendessen\n- **Dinner + Show** — die beliebteste Option: komplette Show + Degustationsmenü\n- **Scala VIP** — Premium-Erlebnis mit den besten Plätzen im Haus\n- **Show + offene Weinbar** — Abendessen, Show und Wein inklusive\n- **Silvester** — besondere Ausgabe zum Jahreswechsel\n\n### Spielplan\n**Donnerstag bis Sonntag** um **20:00 Uhr**. Gesamtdauer: 3 bis 5 Stunden je nach gewähltem Paket.\n\n### Lohnt es sich?\n**Absolut.** Mit **4,7 von 5 Sternen** bei mehr als **750 Bewertungen** loben Reisende durchgehend die Qualität der Show, das Degustationsmenü und die einzigartige Atmosphäre eines Saals mit **über 35 Jahren Geschichte**. Es ist eines der gefeiertsten Abenderlebnisse auf ganz Gran Canaria.\n\n### Tipps\n- 🎟️ Frühzeitig buchen — die Vorstellungen sind schnell ausgebucht, besonders in der Hauptsaison und am Wochenende\n- 👗 Kein strikter Dresscode, aber der Anlass lädt zu einem gepflegten Look ein\n- 📱 Wenn du mit dem Handy filmst, interagieren die Künstler mit der Kamera — nutze das aus!\n- 📍 Im Bereich Maspalomas gelegen, von den meisten Hotels im Süden leicht erreichbar\n- 🚫 Rauchen im Innenbereich nicht gestattet\n\n### Für wen ist es geeignet?\nIdeal für Paare, Freundesgruppen oder alle, die einen besonderen Anlass feiern möchten. Die Option Dinner + Show bietet das beste Preis-Leistungs-Verhältnis und verwandelt den Abend in ein rundum unvergessliches Erlebnis.",
+      "shortDescription": "Europas beste Dinner-Show: 30+ internationale Künstler, Live-Musik, Akrobatik und ein Km-0-Degustationsmenü in der legendären Sala Scala auf Gran Canaria",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.7705076,
+        "lng": -15.5427723
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/cena-espectaculo-nomad-sala-scala.avif",
+        "gallery": [
+          "/images/gran-canaria/actividades/cena-espectaculo-nomad-sala-scala.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "dinner show",
+        "sala scala",
+        "nomad",
+        "show",
+        "nachtleben",
+        "maspalomas",
+        "san-bartolome-de-tirajana"
+      ],
+      "visitDuration": "3-5h",
+      "emoji": "🎭",
+      "sectionOnly": false,
+      "municipio": "san-bartolome-de-tirajana",
+      "gygTourId": "608186",
+      "gygUrl": "https://gyg.me/41WKuXQ6"
+    },
+    {
+      "slug": "palmitos-park-maspalomas",
+      "name": "Palmitos Park — Eintrittskarte mit Delfin- und Vogelshows",
+      "description": "Nur **10 Kilometer vom Leuchtturm Maspalomas** entfernt ist der **Palmitos Park** einer der außergewöhnlichsten Zoo-Botanischen Parks Europas: eine einzigartige Kombination aus botanischem Garten, Zoo, Aquarium und Live-Tiervorführungen, eingebettet in eine natürliche Schluchtlandschaft im Süden Gran Canarias.\n\n### Was du erleben wirst\nDer Park beherbergt Tiere und Pflanzen aus allen 5 Kontinenten — darunter einige wirklich bemerkenswerte Highlights:\n\n- 🐬 **Delfinarium** — die Attraktion des Parks schlechthin, mit eindrucksvoller Ausstellung und Live-Vorführungen\n- 🦅 **Greifvogelshow** — Flugvorführung mit Falken, Adlern und Geiern\n- 🦜 **Exotische Vogelshow** — Kinder dürfen Papageien und Tropenvögel aus der Hand füttern\n- 🦎 **Reptilienhaus** — darunter ein **Komodo-Waran** aus der ersten in Europa in Gefangenschaft gezüchteten Generation (bis zu 3 m lang und 90 kg schwer)\n- 🐊 **Kaimansee** — Brillenkaimane, Kalifornische Schmuckschildkröten und die Gran-Canaria-Rieseneidechse\n- 🐒 **Primateninsel** — Talapoins und weitere Primatenarten\n- 🦔 **Besondere Tiere** — Erdferkel, Erdmännchen und Wallabys\n- 🦋 **Schmetterlingshaus** — tropischer Innengarten mit frei fliegenden Schmetterlingen\n- 🐠 **Aquarium** — Ausstellung mit Tropen- und Meeresfischen\n- 🦔 **Gürteltiershow** — beliebte interaktive Vorführung, besonders bei jüngeren Besuchern\n\n### Was ist inbegriffen\n- 🎟️ Parkeintritt und Zugang zu **allen Shows** (Delfine, Papageien, Greifvögel und exotische Vögel)\n- 🚗 Kostenloser Parkplatz\n- 🍽️ Essen und Getränke im Park erhältlich\n- ♿ Rollstuhlgerecht\n\n### Öffnungszeiten\n**Letzter Einlass um 17:00 Uhr**. Ein Besuch am Vormittag wird empfohlen, um alle Shows bequem zu sehen — ein vollständiger Besuchstag dauert in der Regel 4 bis 6 Stunden.\n\n### Lohnt es sich?\nMit **4,7 von 5 Sternen** bei mehr als **1.600 Bewertungen** ist der Palmitos Park einer der bestbewerteten Parks auf den Kanarischen Inseln. Besucher heben besonders die Delfinshow, den direkten Tierkontakt und die Schönheit der natürlichen Umgebung hervor.\n\n### Tipps\n- ☀️ Sonnenschutz ist unerlässlich — große Teile des Parks liegen im Freien\n- 👟 Bequemes Schuhwerk für die Wege und Terrassen des Parks\n- 🕐 Am Eingang den Showplan checken, um den Tag zu planen und nichts zu verpassen\n- 🍽️ Es gibt ein Restaurant und Picknickbereiche im Park\n- 📍 Im Barranco de los Palmitos gelegen, 10 km vom Leuchtturm Maspalomas\n\n### Für wen ist es geeignet?\nEin perfekter Ausflug für Familien mit Kindern, Paare oder jeden Reisenden, der Natur, exotische Tiere und erstklassige Live-Shows in einer einzigartigen Umgebung verbinden möchte. Frühzeitig buchen, um den Eintritt zu sichern.",
+      "shortDescription": "Einzigartiger Zoo-Botanischer Park 10 km von Maspalomas mit Delfinshows, Greifvögeln, exotischen Vogelvorführungen, Schmetterlingshaus, Aquarium und Komodo-Waran",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.834636,
+        "lng": -15.616334
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/palmitos-park-maspalomas.avif",
+        "gallery": [
+          "/images/gran-canaria/actividades/palmitos-park-maspalomas.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "palmitos park",
+        "delfine",
+        "vögel",
+        "zoo",
+        "familie",
+        "maspalomas",
+        "san-bartolome-de-tirajana"
+      ],
+      "visitDuration": "4-6h",
+      "emoji": "🐬",
+      "sectionOnly": false,
+      "municipio": "san-bartolome-de-tirajana",
+      "gygTourId": "258742",
+      "gygUrl": "https://gyg.me/TwT5ZaUg"
     }
   ],
   "sections": [],

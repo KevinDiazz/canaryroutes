@@ -5,6 +5,7 @@ export const CATEGORY_URL_TO_FILTER: Record<string, string> = {
   'cultura':     'culture',
   'naturaleza':  'nature',
   'actividades': 'activities',
+  'transporte':  'transport',
   'top':         'top',
 };
 
@@ -14,6 +15,7 @@ export const FILTER_TO_CATEGORY_URL: Record<string, string> = {
   'culture':     'cultura',
   'nature':      'naturaleza',
   'activities':  'actividades',
+  'transport':   'transporte',
   'top':         'top',
 };
 
@@ -23,6 +25,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   'cultura':     'Cultura',
   'naturaleza':  'Naturaleza',
   'actividades': 'Actividades',
+  'transporte':  'Transporte',
   'top':         'Top',
 };
 
@@ -37,4 +40,5 @@ export const POI_CATEGORY_TO_SLUG: Record<string, string> = {
   viewpoint: 'actividades',
   food:      'actividades',
   other:     'actividades',
+  transport: 'transporte',
 };

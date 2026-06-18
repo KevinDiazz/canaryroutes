@@ -14,7 +14,6 @@
       "modified": true
     }
   },
-
   "/images/gran-canaria/playas/playa_del_ingles_gran_canaria-3.avif": {
     "alt": "Vista de la Playa del Inglés en Gran Canaria",
     "width": 1600,
@@ -1841,90 +1840,128 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "modified": true
     }
-  },"/images/gran-canaria/municipios/telde.avif": {
-  "alt": "Vista panorámica del casco urbano de Telde, Gran Canaria",
-  "width": 1600,
-  "height": 533,
-  "title": "Telde 2016 07.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Bengt Nyman",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Telde_2016_07.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
+  },
+  "/images/gran-canaria/municipios/telde.avif": {
+    "alt": "Vista panorámica del casco urbano de Telde, Gran Canaria",
+    "width": 1600,
+    "height": 533,
+    "title": "Telde 2016 07.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Telde_2016_07.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/valleseco.avif": {
+    "alt": "Vista general de Valleseco desde La Laguna de Valleseco, Gran Canaria",
+    "width": 987,
+    "height": 552,
+    "title": "Valleseco, en Gran Canaria (Las Palmas, España).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Tolagorn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valleseco,_en_Gran_Canaria_(Las_Palmas,_Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/valsequillo.avif": {
+    "alt": "Vista panorámica del casco urbano de Valsequillo de Gran Canaria",
+    "width": 1600,
+    "height": 831,
+    "title": "Valsequillo de Gran Canaria D81 8100 (32958370611).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Bengt Nyman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valsequillo_de_Gran_Canaria_D81_8100_(32958370611).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/san-mateo.avif": {
+    "alt": "Vista panorámica de Vega de San Mateo rodeada por el paisaje de medianías de Gran Canaria",
+    "width": 1600,
+    "height": 900,
+    "title": "Vega de San Mateo, en Gran Canaria (Las Palmas, España).jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Krzysztof Ziarnek (Kenraiz)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vega_de_San_Mateo,_en_Gran_Canaria_(Las_Palmas,_Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/ingenio.avif": {
+    "alt": "Vista panorámica del casco histórico de Ingenio en Gran Canaria",
+    "width": 1600,
+    "height": 833,
+    "title": "Ingenio panoramica.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Mololo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ingenio_panoramica.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/municipios/aguimes.avif": {
+    "alt": "Vista panorámica del casco histórico de Agüimes desde el noreste",
+    "width": 1600,
+    "height": 828,
+    "title": "Panorama of Agüimes, May 2018.jpg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Martin Falbisoner",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ag%C3%BCimes,_May_2018.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/gran-canaria/transport/guagua-global.avif": {
+    "alt": "Autobús Guagua Global en Gran Canaria",
+    "title": "Guaguas Gran Canaria Sur",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Eddy Verschueren",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guaguas_Gran_Canaria_Sur_(30956433245).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  "/images/gran-canaria/transport/guagua-municipal.avif": {
+    "alt": "Guagua Municipal de Las Palmas de Gran Canaria",
+    "title": "Guaguas Municipales Las palmas Gran Canaria",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Eddy Verschueren",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guaguas_Municipales_Las_palmas_Gran_Canaria_(22777087168).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  "/images/gran-canaria/transport/alquiler-coche-gran-canaria.avif": {
+    "alt": "Coche de alquiler en Gran Canaria",
+    "sourceName": "Unsplash",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC0",
+      "sourceUrl": "https://unsplash.com"
+    }
   }
-},"/images/gran-canaria/municipios/valleseco.avif": {
-  "alt": "Vista general de Valleseco desde La Laguna de Valleseco, Gran Canaria",
-  "width": 987,
-  "height": 552,
-  "title": "Valleseco, en Gran Canaria (Las Palmas, España).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Tolagorn",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valleseco,_en_Gran_Canaria_(Las_Palmas,_Espa%C3%B1a).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/municipios/valsequillo.avif": {
-  "alt": "Vista panorámica del casco urbano de Valsequillo de Gran Canaria",
-  "width": 1600,
-  "height": 831,
-  "title": "Valsequillo de Gran Canaria D81 8100 (32958370611).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "Bengt Nyman",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valsequillo_de_Gran_Canaria_D81_8100_(32958370611).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/municipios/san-mateo.avif": {
-  "alt": "Vista panorámica de Vega de San Mateo rodeada por el paisaje de medianías de Gran Canaria",
-  "width": 1600,
-  "height": 900,
-  "title": "Vega de San Mateo, en Gran Canaria (Las Palmas, España).jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-3.0",
-    "author": "Krzysztof Ziarnek (Kenraiz)",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vega_de_San_Mateo,_en_Gran_Canaria_(Las_Palmas,_Espa%C3%B1a).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "modified": true
-  }
-},"/images/gran-canaria/municipios/ingenio.avif": {
-  "alt": "Vista panorámica del casco histórico de Ingenio en Gran Canaria",
-  "width": 1600,
-  "height": 833,
-  "title": "Ingenio panoramica.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Mololo",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ingenio_panoramica.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},
-"/images/gran-canaria/municipios/aguimes.avif": {
-  "alt": "Vista panorámica del casco histórico de Agüimes desde el noreste",
-  "width": 1600,
-  "height": 828,
-  "title": "Panorama of Agüimes, May 2018.jpg",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Convertida a AVIF y optimizada para web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Martin Falbisoner",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ag%C3%BCimes,_May_2018.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-}
 }

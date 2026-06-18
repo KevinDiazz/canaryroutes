@@ -29,9 +29,34 @@ export function PoiDetailPageClient({ poi, pois, locale, island, backUrl, photoC
     setSelectedPoi(poi);
   }, [poi]);
 
+  const mapUrl = backUrl ?? `/${locale}/${island}`;
+
   const handleClose = useCallback(() => {
-    router.push(backUrl ?? `/${locale}/${island}`);
-  }, [router, locale, island, backUrl]);
+    router.push(mapUrl);
+  }, [router, mapUrl]);
+
+  // Interceptar el botón Atrás / gesto de retroceso en mobile.
+  //
+  // Usamos una ref para que el efecto solo se registre UNA VEZ al montar.
+  // Si el efecto tuviera [mapUrl, router] como deps podría re-ejecutarse y
+  // empujar múltiples estados ficticios, obligando al usuario a pulsar Atrás
+  // varias veces.
+  //
+  // window.location.replace es más fiable que router.push dentro de popstate
+  // porque evita conflictos con el router interno de Next.js.
+  useEffect(() => {
+    // Garantizar que el mapa esté en el historial justo antes del POI.
+    // Técnica: replaceState cambia la entrada actual a la URL del mapa,
+    // luego pushState restaura la URL del POI como nueva entrada encima.
+    //
+    // Historial resultante: [..., /isla (mapa), /isla/poi (actual)]
+    //
+    // Al pulsar Atrás, el navegador va al mapa y Next.js lo renderiza
+    // de forma natural — sin listeners de popstate ni conflictos con el router.
+    const poiUrl = window.location.href;
+    window.history.replaceState(null, '', mapUrl);
+    window.history.pushState(null, '', poiUrl);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handlePoiChange = useCallback((newPoi: POI) => {
     setSelectedPoi(newPoi);

@@ -148,16 +148,18 @@ const CHIP_CATEGORIES: Array<{
   color: string;
   match: (p: POI) => boolean;
 }> = [
-  { id: 'beach',      icon: '/icons/icons8-beach-48.png',   label: 'Playas',      color: '#2090c0',
+  { id: 'beach',      icon: '/icons/icons8-beach-48.png',      label: 'Playas',      color: '#2090c0',
     match: (p) => p.category === 'beach' },
-  { id: 'hiking',     icon: '/icons/icons8-hiking-48.png',  label: 'Senderos',    color: '#2a9e60',
-    match: (p) => p.category === 'hiking' },
-  { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: 'Cultura',     color: '#6e42b8',
-    match: (p) => p.category === 'culture' },
   { id: 'activities', icon: '/icons/icons8-activities-48.png', label: 'Actividades', color: '#ff5533',
     match: (p) => ACTIVITIES_CATS.includes(p.category) },
-  { id: 'nature',     icon: '/icons/icons8-forest-48.png',  label: 'Naturaleza',  color: '#2ea86e',
+  { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: 'Cultura',     color: '#6e42b8',
+    match: (p) => p.category === 'culture' },
+  { id: 'transport',  icon: '/icons/icons8-car-53.png',        label: 'Transporte',  color: '#f59e0b',
+    match: (p) => p.category === 'transport' },
+  { id: 'nature',     icon: '/icons/icons8-forest-48.png',     label: 'Naturaleza',  color: '#2ea86e',
     match: (p) => p.category === 'nature' },
+  { id: 'hiking',     icon: '/icons/icons8-hiking-48.png',     label: 'Senderos',    color: '#2a9e60',
+    match: (p) => p.category === 'hiking' },
 ];
 
 function getCategoryIcon(category: POI['category']): string {
@@ -681,7 +683,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   // Chip de categoría       → UN cluster con el total de esa categoría
   // Sección                 → pines individuales de la sección
 
-  const CATEGORY_CHIP_IDS = ['beach', 'hiking', 'culture', 'nature', 'activities'];
+  const CATEGORY_CHIP_IDS = ['beach', 'hiking', 'culture', 'nature', 'activities', 'transport'];
   const activeCategoryChip = activeFilter && CATEGORY_CHIP_IDS.includes(activeFilter)
     ? activeFilter : null;
 
@@ -1121,9 +1123,9 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         }}>
           {([
             { id: 'beach',      icon: '/icons/icons8-beach-48.png',      label: t.chips.beach,      color: '#2090c0' },
-            { id: 'hiking',     icon: '/icons/icons8-hiking-48.png',     label: t.chips.hiking,     color: '#2a9e60' },
-            { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: t.chips.culture,    color: '#6e42b8' },
             { id: 'activities', icon: '/icons/icons8-activities-48.png', label: t.chips.activities, color: '#ff5533' },
+            { id: 'culture',    icon: '/icons/icons8-museum-64.png',     label: t.chips.culture,    color: '#6e42b8' },
+            { id: 'transport',  icon: '/icons/icons8-car-53.png',        label: t.chips.transport,  color: '#f59e0b' },
             { id: 'nature',     icon: '/icons/icons8-forest-48.png',     label: t.chips.nature,     color: '#2ea86e' },
           ] as const).map(chip => {
             const isActive = activeFilter === chip.id;

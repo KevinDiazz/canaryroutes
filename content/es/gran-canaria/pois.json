@@ -1,6 +1,97 @@
 {
   "pois": [
     {
+      "slug": "alquiler-coche-gran-canaria",
+      "name": "Alquiler de Coche en Gran Canaria",
+      "shortDescription": "Compara precios de alquiler de coches en Gran Canaria y ahorra hasta un 70% con los mejores proveedores.",
+      "description": "Moverse por Gran Canaria en coche propio es la forma más libre y cómoda de descubrir la isla: desde las dunas de Maspalomas hasta el Roque Nublo, desde los barrancos del interior hasta los pueblos de costa. Con más de **70 km de autopista** y carreteras bien señalizadas, es una isla perfecta para el turismo en coche.\n\n### ¿Por qué alquilar?\n- 🚗 Acceso a lugares sin transporte público (Güi-Güi, Veneguera, Tasarte)\n- 🗺️ Libertad total de horarios y paradas\n- ⛽ Gasolina más barata que en Península (sin impuesto de hidrocarburos IGIC al 0%)\n- 🌡️ Clima estable todo el año — ideal para descapotables\n- 💶 Precios muy competitivos, especialmente fuera de temporada alta\n\n### Consejos prácticos\n**Recogida en aeropuerto:** La mayoría de compañías tienen mostrador en el Aeropuerto de Gran Canaria (LPA). Reserva con antelación en temporada alta (diciembre–enero y julio–agosto).\n\n**Seguro:** Recomendamos contratar la **Cobertura Completa** (incluida en el buscador) para evitar sorpresas con la franquicia.\n\n**Qué tipo de coche elegir:**\n- Carreteras de costa y autopista → utilitario pequeño (Seat Ibiza, VW Polo)\n- Interior y barrancos → crossover o SUV (Seat Arona, Dacia Duster)\n- Grupo de 4-5 personas → compacto o familiar\n\n### Las mejores rutas en coche\nDesde Las Palmas, el **Camino Real del Sur** (GC-1 hasta Maspalomas) ofrece vistas del océano. La **GC-60** que cruza el centro es una de las carreteras más espectaculares de España. El desvío hacia **Tejeda y Artenara** es obligatorio.\n\nUsa el buscador para comparar precios entre Hertz, Sixt, Europcar, Goldcar, ClickRent y más de 50 proveedores locales e internacionales.",
+      "island": "gran-canaria",
+      "category": "transport",
+      "emoji": "🚗",
+      "coordinates": {
+        "lat": 27.9202,
+        "lng": -15.3878
+      },
+      "images": {
+        "hero": "/images/gran-canaria/transport/alquiler-coche-gran-canaria.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "tags": [
+        "coche",
+        "alquiler",
+        "transporte",
+        "conducir",
+        "libertad",
+        "gran-canaria"
+      ],
+      "visitDuration": "Todo el día",
+      "discoverCarsLocation": "spain-canary-islands/gran-canaria",
+      "discoverCarsUrl": "https://www.discovercars.com/spain-canary-islands/gran-canaria?a_aid=canaryroutes&currency=eur",
+      "affiliateLinks": [],
+      "municipio": "las-palmas"
+    },
+    {
+      "slug": "guagua-global-gran-canaria",
+      "category": "transport",
+      "emoji": "🚌",
+      "coordinates": {
+        "lat": 28.1079,
+        "lng": -15.4158
+      },
+      "images": {
+        "hero": "/images/gran-canaria/transport/guagua-global.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "mapsUrl": "https://maps.app.goo.gl/8Q2rGczqEKQ5Kw9n8",
+      "name": "Guagua Global — Bus Interurbano",
+      "shortDescription": "La red de autobuses interurbanos de Gran Canaria con 129 líneas que conectan toda la isla desde el aeropuerto hasta el sur.",
+      "description": "**Guagua Global** es el operador de transporte interurbano de Gran Canaria. Con **129 líneas** y más de **2.500 paradas**, cubre prácticamente toda la isla a un precio muy asequible.\n\n### Líneas clave para turistas\n- 🛫 **Línea 60** — Aeropuerto (LPA) ↔ Las Palmas de Gran Canaria\n- 🌅 **Línea 66** — Aeropuerto (LPA) ↔ Faro de Maspalomas\n- 🏖️ **Línea 30** — Las Palmas ↔ Playa del Inglés / Maspalomas\n- 🌊 **Línea 91** — Playa del Cura ↔ Las Palmas\n- 🏔️ **Línea 18** — Las Palmas ↔ Tejeda (interior)\n\n### Tarifas y pago\n- 💶 Billete sencillo: **~1,40 €** (pago con tarjeta bancaria o app)\n- 📱 Se puede pagar con tarjeta contactless directamente en el autobús\n- 🎟️ Bonos de viajes múltiples disponibles en la web y en la app\n\n### Consejos prácticos\n**Desde el aeropuerto:** La línea 60 llega hasta el centro de Las Palmas y la línea 66 conecta directamente con Maspalomas — ideal si te alojas en el sur sin necesidad de taxi.\n\n**App y tiempo real:** Descarga la app de Guagua Global para ver horarios en tiempo real, planificar rutas y comprar billetes online.\n\n**Estación principal:** La Estación de Guaguas de San Telmo (Las Palmas) es el hub central donde conectan la mayoría de líneas interurbanas.\n\n🌐 Más info y horarios en [guaguasglobal.com](https://guaguasglobal.com)",
+      "tags": [
+        "bus",
+        "guagua",
+        "transporte",
+        "publico",
+        "aeropuerto",
+        "gran-canaria"
+      ],
+      "visitDuration": "Varía según ruta",
+      "island": "gran-canaria",
+      "websiteUrl": "https://guaguasglobal.com"
+    },
+    {
+      "slug": "guaguas-municipales-las-palmas",
+      "category": "transport",
+      "emoji": "🚌",
+      "coordinates": {
+        "lat": 28.1235,
+        "lng": -15.4366
+      },
+      "images": {
+        "hero": "/images/gran-canaria/transport/guagua-municipal.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "mapsUrl": "https://maps.app.goo.gl/T3zFXNbhJVuPq8Xf8",
+      "name": "Guaguas Municipales — Bus Urbano Las Palmas",
+      "shortDescription": "La red de autobuses urbanos de Las Palmas de Gran Canaria. Cubre toda la ciudad con más de 30 líneas a tan solo 1,35 €.",
+      "description": "**Guaguas Municipales** es la empresa pública de transporte urbano de Las Palmas de Gran Canaria. Si te alojas en la capital o quieres moverte por la ciudad, es la forma más económica y cómoda de hacerlo.\n\n### Líneas útiles para turistas\n- 🏖️ **Línea 1** — Parque San Telmo ↔ Las Canteras (pegada al paseo marítimo)\n- 🏛️ **Línea 12** — Ciudad Alta ↔ Vegueta (barrio histórico)\n- 🚢 **Línea 30** — Parque Santa Catalina ↔ Puerto (terminal de cruceros)\n- 🛒 **Línea 25** — Centro ↔ Las Arenas / El Corte Inglés\n\n### Tarifas y pago\n- 💶 Billete sencillo: **1,35 €**\n- 📱 Pago con tarjeta contactless directamente en el autobús\n- 🎟️ Bono 10 viajes disponible en la web y puntos de venta\n- 🔄 Combinación gratuita con líneas Guagua Global en mismo servicio\n\n### Consejos prácticos\n**Playa de Las Canteras:** La línea 1 es la más frecuente y conecta toda la franja costera — perfecta para ir a la playa desde el centro.\n\n**Vegueta (casco histórico):** Usa la línea 12 para llegar al barrio histórico con la Catedral, el Museo Canario y el mercado cubierto.\n\n**App:** Descarga la app de Guaguas Municipales para ver horarios en tiempo real y planificar tu ruta.\n\n🌐 Más info en [guaguas.com](https://www.guaguas.com)",
+      "tags": [
+        "bus",
+        "guagua",
+        "urbano",
+        "transporte",
+        "las-palmas",
+        "ciudad"
+      ],
+      "visitDuration": "Varía según ruta",
+      "island": "gran-canaria",
+      "websiteUrl": "https://www.guaguas.com"
+    },
+    {
       "slug": "barranco-guayadeque",
       "name": "Barranco de Guayadeque",
       "description": "Uno de los barrancos más **emblemáticos de Gran Canaria**, habitado desde la época prehispánica y declarado Zona de Especial Conservación.\n\n### El sendero\nSube por el cauce entre **cuevas prehistóricas**, cultivos en terrazas y vegetación subtropical hasta las cumbres. Las vistas hacia el barranco son espectaculares en todo el recorrido.\n\n### Antes de salir\n- La ruta **no está señalizada** — descarga el track antes de ir\n- Hay varios cruces confusos a mitad de camino\n \n\n### Recomendación\nLos **restaurantes-cueva ** son escala obligada para reponer fuerzas con cocina canaria tradicional excavada en la roca.",
@@ -90,7 +181,7 @@
       "shortDescription": "El único bosque de tilos de la isla en 2 km de sendero circular",
       "island": "gran-canaria",
       "category": "hiking",
-      "top":true,
+      "top": true,
       "coordinates": {
         "lat": 28.09313,
         "lng": -15.594503
@@ -180,7 +271,7 @@
       "shortDescription": "Ruta clásica hacia el icono natural de Gran Canaria",
       "island": "gran-canaria",
       "category": "hiking",
-       "top":true,
+      "top": true,
       "coordinates": {
         "lat": 27.965672,
         "lng": -15.601531
@@ -272,7 +363,9 @@
       },
       "images": {
         "hero": "/images/gran-canaria/sendero/caldera-bandama-1.avif",
-        "gallery": ["/images/gran-canaria/sendero/caldera-bandama-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/sendero/caldera-bandama-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -313,7 +406,9 @@
       },
       "images": {
         "hero": "/images/gran-canaria/sendero/tamadaba-1.avif",
-        "gallery": ["/images/gran-canaria/sendero/tamadaba-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/sendero/tamadaba-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
@@ -405,7 +500,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -432,7 +530,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -453,11 +554,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-maspalomas.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-maspalomas-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-maspalomas-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -485,7 +591,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏝️",
       "sectionOnly": false,
@@ -506,11 +615,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-puerto-rico.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-puerto-rico-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-puerto-rico-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⛵",
       "sectionOnly": false,
@@ -531,11 +645,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-mogan.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-mogan-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-mogan-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌺",
       "sectionOnly": false,
@@ -556,11 +675,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-taurito.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-taurito-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-taurito-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -585,7 +709,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⚫",
       "sectionOnly": false,
@@ -606,11 +733,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-anfi-del-mar.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-anfi-del-mar-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-anfi-del-mar-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -631,11 +763,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-veneguera.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-veneguera-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-veneguera-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌿",
       "sectionOnly": false,
@@ -660,7 +797,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⚫",
       "sectionOnly": false,
@@ -681,11 +821,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-tasartico.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-tasartico-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-tasartico-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐢",
       "sectionOnly": false,
@@ -706,11 +851,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-guguy-2.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-guguy.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-guguy.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "moderate",
       "emoji": "🏔️",
       "sectionOnly": false,
@@ -731,11 +881,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-la-aldea.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-la-aldea-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-la-aldea-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -760,7 +915,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -781,11 +939,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-agaete-2.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-agaete.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-agaete.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🚢",
       "sectionOnly": false,
@@ -810,7 +973,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌿",
       "sectionOnly": false,
@@ -831,11 +997,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-sardina.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-sardina-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-sardina-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -856,11 +1027,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-meloneras.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-meloneras-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-meloneras-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏨",
       "sectionOnly": false,
@@ -885,7 +1061,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -908,7 +1087,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -935,7 +1117,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏄",
       "sectionOnly": false,
@@ -956,11 +1141,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/playas/playa-melenara.avif",
-        "gallery": ["/images/gran-canaria/playas/playa-melenara-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/playas/playa-melenara-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -985,7 +1175,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1010,7 +1203,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🐟",
       "sectionOnly": false,
@@ -1035,7 +1231,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1060,7 +1259,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⚓",
       "sectionOnly": false,
@@ -1085,7 +1287,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1110,7 +1315,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -1135,7 +1343,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -1160,7 +1371,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1185,7 +1399,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1210,7 +1427,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏖️",
       "sectionOnly": false,
@@ -1235,7 +1455,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["playa", "gran-canaria"],
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌋",
       "sectionOnly": false,
@@ -1256,11 +1479,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/casa-colon-1.avif",
-        "gallery": ["/images/gran-canaria/cultural/casa-colon-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/cultural/casa-colon-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏛️",
       "sectionOnly": false,
@@ -1281,11 +1509,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/cueva-pintada-1.avif",
-        "gallery": ["/images/gran-canaria/cultural/cueva-pintada-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/cultural/cueva-pintada-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1313,7 +1546,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⛪",
       "sectionOnly": false,
@@ -1338,7 +1574,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏘️",
       "sectionOnly": false,
@@ -1359,11 +1598,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/museo-canario.avif",
-        "gallery": ["/images/gran-canaria/cultural/museo-canario-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/cultural/museo-canario-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏛️",
       "sectionOnly": false,
@@ -1388,7 +1632,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1402,7 +1649,7 @@
       "shortDescription": "Descubre los platos típicos, quesos, vinos y sabores tradicionales que convierten a Gran Canaria en un destino gastronómico único.",
       "island": "gran-canaria",
       "category": "culture",
-      "top":true,
+      "top": true,
       "mapsUrl": "https://www.google.com/maps/search/restaurantes+comida+canaria/@27.9711957,-15.6557746,61910m/data=!3m1!1e3!4m4!2m3!5m1!4e3!6e5?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
       "coordinates": {
         "lat": 27.933799,
@@ -1418,7 +1665,12 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["gastronomia", "cultura", "comida", "gran-canaria"],
+      "tags": [
+        "gastronomia",
+        "cultura",
+        "comida",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🍽️",
       "sectionOnly": false,
@@ -1442,7 +1694,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏛️",
       "sectionOnly": false,
@@ -1463,11 +1718,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/basilica-el-pino-1.avif",
-        "gallery": ["/images/gran-canaria/cultural/basilica-el-pino-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/cultural/basilica-el-pino-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⛪",
       "sectionOnly": false,
@@ -1494,7 +1754,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "⛪",
       "sectionOnly": false,
@@ -1515,11 +1778,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/cultural/tumulo-del-rey.avif",
-        "gallery": ["/images/gran-canaria/cultural/necropolis-arteara.avif"]
+        "gallery": [
+          "/images/gran-canaria/cultural/necropolis-arteara.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏺",
       "sectionOnly": false,
@@ -1544,7 +1812,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏰",
       "sectionOnly": false,
@@ -1569,7 +1840,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["cultura", "gran-canaria"],
+      "tags": [
+        "cultura",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏰",
       "sectionOnly": false,
@@ -1590,11 +1864,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/nature/roque-nublo-3.avif",
-        "gallery": ["/images/gran-canaria/nature/roque-nublo-4.avif"]
+        "gallery": [
+          "/images/gran-canaria/nature/roque-nublo-4.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌄",
       "sectionOnly": false,
@@ -1619,7 +1898,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏔️",
       "sectionOnly": false,
@@ -1644,7 +1926,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌲",
       "sectionOnly": false,
@@ -1665,11 +1950,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/nature/dunas-de-maspalomas-1.avif",
-        "gallery": ["/images/gran-canaria/nature/dunas-de-maspalomas-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/nature/dunas-de-maspalomas-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -1694,7 +1984,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌋",
       "sectionOnly": false,
@@ -1719,7 +2012,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -1744,7 +2040,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -1769,7 +2068,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -1794,7 +2096,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -1819,7 +2124,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "📸",
       "sectionOnly": false,
@@ -1844,7 +2152,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🌳",
       "sectionOnly": false,
@@ -1865,11 +2176,16 @@
       },
       "images": {
         "hero": "/images/gran-canaria/nature/los-azulejos.avif",
-        "gallery": ["/images/gran-canaria/nature/los-azulejos-2.avif"]
+        "gallery": [
+          "/images/gran-canaria/nature/los-azulejos-2.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🪨",
       "sectionOnly": false,
@@ -1894,7 +2210,10 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["naturaleza", "gran-canaria"],
+      "tags": [
+        "naturaleza",
+        "gran-canaria"
+      ],
       "difficulty": "easy",
       "emoji": "🏜️",
       "sectionOnly": false,
@@ -1920,13 +2239,20 @@
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["catamaran", "delfines", "snorkel", "barco", "mogan"],
+      "tags": [
+        "catamaran",
+        "delfines",
+        "snorkel",
+        "barco",
+        "mogan"
+      ],
       "visitDuration": "3.5h",
       "emoji": "🐬",
       "sectionOnly": false,
       "municipio": "mogan",
       "gygTourId": "430098",
-      "gygUrl": "https://gyg.me/bpWKmDi7"
+      "gygUrl": "https://gyg.me/bpWKmDi7",
+      "top": true
     },
     {
       "slug": "buggy-valle-ayagaures",
@@ -1941,17 +2267,26 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/buggy-ayagaures.avif",
-        "gallery": ["/images/gran-canaria/actividades/buggy-ayagaures.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/buggy-ayagaures.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["buggy", "aventura", "ayagaures", "todoterreno", "adrenalina"],
+      "tags": [
+        "buggy",
+        "aventura",
+        "ayagaures",
+        "todoterreno",
+        "adrenalina"
+      ],
       "visitDuration": "2h",
       "emoji": "🚙",
       "sectionOnly": false,
       "municipio": "san-bartolome",
       "gygTourId": "212850",
-      "gygUrl": "https://gyg.me/8iDwIDmh"
+      "gygUrl": "https://gyg.me/8iDwIDmh",
+      "top": true
     },
     {
       "slug": "excursion-submarina-mogan",
@@ -1966,11 +2301,21 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/submarino-mogan.avif",
-        "gallery": ["/images/gran-canaria/actividades/submarino-mogan.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/submarino-mogan.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["submarino", "mogan", "fondo marino", "naufragios", "familia", "tiburon dorado", "atlantida"],
+      "tags": [
+        "submarino",
+        "mogan",
+        "fondo marino",
+        "naufragios",
+        "familia",
+        "tiburon dorado",
+        "atlantida"
+      ],
       "visitDuration": "40min",
       "emoji": "🦈",
       "sectionOnly": false,
@@ -1987,15 +2332,25 @@
       "category": "other",
       "coordinates": {
         "lat": 27.7558,
-        "lng": -15.5860
+        "lng": -15.586
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/aqualand-maspalomas.avif",
-        "gallery": ["/images/gran-canaria/actividades/aqualand-maspalomas.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/aqualand-maspalomas.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["aqualand", "maspalomas", "parque acuatico", "toboganes", "familia", "agua", "adrenalina"],
+      "tags": [
+        "aqualand",
+        "maspalomas",
+        "parque acuatico",
+        "toboganes",
+        "familia",
+        "agua",
+        "adrenalina"
+      ],
       "visitDuration": "1 día",
       "emoji": "🌊",
       "sectionOnly": false,
@@ -2016,17 +2371,28 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/poema-del-mar.avif",
-        "gallery": ["/images/gran-canaria/actividades/poema-del-mar.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/poema-del-mar.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["acuario", "las palmas", "poema del mar", "tiburones", "biodiversidad", "familia", "sin colas"],
+      "tags": [
+        "acuario",
+        "las palmas",
+        "poema del mar",
+        "tiburones",
+        "biodiversidad",
+        "familia",
+        "sin colas"
+      ],
       "visitDuration": "2-3h",
       "emoji": "🐠",
       "sectionOnly": false,
       "municipio": "las-palmas",
       "gygTourId": "407471",
-      "gygUrl": "https://gyg.me/NbxEYYzC"
+      "gygUrl": "https://gyg.me/NbxEYYzC",
+      "top": true
     },
     {
       "slug": "mundo-del-platano-tour",
@@ -2041,11 +2407,21 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/mundo-platano.avif",
-        "gallery": ["/images/gran-canaria/actividades/mundo-platano.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/mundo-platano.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["platano", "finca", "degustacion", "tour", "agricultura", "gastronomia", "arucas"],
+      "tags": [
+        "platano",
+        "finca",
+        "degustacion",
+        "tour",
+        "agricultura",
+        "gastronomia",
+        "arucas"
+      ],
       "visitDuration": "40min",
       "emoji": "🍌",
       "sectionOnly": false,
@@ -2066,11 +2442,21 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/parasailing-puerto-rico.avif",
-        "gallery": ["/images/gran-canaria/actividades/parasailing-puerto-rico.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/parasailing-puerto-rico.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["parasailing", "puerto rico", "vuelo", "adrenalina", "mar", "mogan", "deportes nauticos"],
+      "tags": [
+        "parasailing",
+        "puerto rico",
+        "vuelo",
+        "adrenalina",
+        "mar",
+        "mogan",
+        "deportes nauticos"
+      ],
       "visitDuration": "10-12min",
       "emoji": "🪂",
       "sectionOnly": false,
@@ -2091,17 +2477,97 @@
       },
       "images": {
         "hero": "/images/gran-canaria/actividades/camello-dunas-maspalomas.avif",
-        "gallery": ["/images/gran-canaria/actividades/camello-dunas-maspalomas.avif"]
+        "gallery": [
+          "/images/gran-canaria/actividades/camello-dunas-maspalomas.avif"
+        ]
       },
       "affiliateLinks": [],
       "hasPremiumAudio": false,
-      "tags": ["camello", "dunas", "maspalomas", "desierto", "safari", "naturaleza", "san-bartolome-de-tirajana"],
+      "tags": [
+        "camello",
+        "dunas",
+        "maspalomas",
+        "desierto",
+        "safari",
+        "naturaleza",
+        "san-bartolome-de-tirajana"
+      ],
       "visitDuration": "30min",
       "emoji": "🐪",
       "sectionOnly": false,
       "municipio": "san-bartolome-de-tirajana",
       "gygTourId": "212022",
       "gygUrl": "https://gyg.me/KBp8WrDH"
+    },
+    {
+      "slug": "cena-espectaculo-nomad-sala-scala",
+      "name": "Cena Espectáculo NOMAD en Sala Scala",
+      "description": "Una noche que no olvidarás: el espectáculo **NOMAD** en la legendaria **Sala Scala** de Gran Canaria es considerado el mejor show con cena de Europa. Un viaje apasionante a través de los tres continentes que forjaron la identidad canaria, narrado con la energía de más de **30 artistas internacionales** en escena.\n\n### El espectáculo\nDurante **3 horas**, música en directo, danza, acrobacias y efectos visuales de última generación se suceden en un escenario equipado con **20 metros de pantallas LED** e iluminación espectacular. Cada número está coreografiado para sorprender, emocionar y celebrar la vida desde el primer instante hasta el final — donde los propios artistas bajan al público para rematar la noche con una pequeña fiesta.\n\n### Qué incluye\n- 🎭 **3 horas** de espectáculo en vivo con más de 30 artistas internacionales\n- 🍽️ **Menú degustación de kilómetro 0** (según categoría de entrada) — producto local como protagonista\n- 🎬 20 metros de pantallas, efectos especiales e iluminación de última generación\n- ♿ Accesible en silla de ruedas\n- 🍷 Bebidas no incluidas (precios muy razonables en sala)\n\n### Opciones de entrada\n- **Solo espectáculo** — disfruta del show sin cena\n- **Cena-espectáculo** — la opción más popular: show completo + menú degustación\n- **Scala VIP** — experiencia premium con los mejores asientos\n- **Barra libre con vino** — cena + show + vino incluido\n- **Nochevieja** — edición especial fin de año\n\n### Horarios\nDe **jueves a domingo** a las **20:00 h**. Duración total: entre 3 y 5 horas según el paquete elegido.\n\n### ¿Merece la pena?\n**Absolutamente.** Con **4,7 sobre 5** en más de **750 reseñas**, los viajeros destacan la calidad del espectáculo, el menú degustación y el ambiente único de una sala con **más de 35 años de historia**. Es una de las experiencias nocturnas más valoradas de toda Gran Canaria.\n\n### Consejos\n- 🎟️ Reserva con antelación — las sesiones se llenan, especialmente en temporada alta y fines de semana\n- 👗 No hay código de vestimenta estricto, pero la ocasión merece ir arreglado\n- 📱 Si grabas con el móvil, los artistas interactúan con la cámara — ¡aprovéchalo!\n- 📍 Situado en la zona de Maspalomas, accesible desde la mayoría de hoteles del sur\n- 🚫 No se permite fumar en el interior\n\n### Recomendación\nPerfecto para parejas, grupos de amigos o para celebrar una ocasión especial. La opción cena + espectáculo ofrece la mejor relación calidad-precio y convierte la noche en un plan completo e inolvidable.",
+      "shortDescription": "El mejor espectáculo con cena de Europa: 30 artistas internacionales, música en directo, acrobacias y menú degustación km 0 en la icónica Sala Scala de Gran Canaria",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.7705076,
+        "lng": -15.5427723
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/cena-espectaculo-nomad-sala-scala.avif",
+        "gallery": [
+          "/images/gran-canaria/actividades/cena-espectaculo-nomad-sala-scala.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "cena espectaculo",
+        "sala scala",
+        "nomad",
+        "show",
+        "noche",
+        "maspalomas",
+        "san-bartolome-de-tirajana"
+      ],
+      "visitDuration": "3-5h",
+      "emoji": "🎭",
+      "sectionOnly": false,
+      "municipio": "san-bartolome-de-tirajana",
+      "gygTourId": "608186",
+      "gygUrl": "https://gyg.me/41WKuXQ6"
+    },
+    {
+      "slug": "palmitos-park-maspalomas",
+      "name": "Palmitos Park — Entrada con Espectáculos de Delfines y Aves",
+      "description": "A solo **10 kilómetros del faro de Maspalomas**, **Palmitos Park** es uno de los parques zoobotánicos más especiales de Europa: una combinación única de jardín botánico, zoo, acuario y espectáculos de animales enclavada en un entorno natural de barrancos y palmeras en el sur de Gran Canaria.\n\n### Qué verás\nEl parque alberga una colección de animales y plantas de los 5 continentes, con algunas joyas verdaderamente únicas:\n\n- 🐬 **Delfinario** — el espectáculo estrella del parque, con una impresionante exposición y actuaciones en directo\n- 🦅 **Espectáculo de aves rapaces** — exhibición de vuelo con halcones, águilas y buitres\n- 🦜 **Espectáculo de aves exóticas** — los niños pueden dar de comer a loros y aves tropicales\n- 🦎 **Reptiles** — incluyendo un **dragón de Komodo** de primera generación criado en cautividad en Europa (hasta 3 m de longitud y 90 kg)\n- 🐊 **Lago de los caimanes** — caimanes de anteojos, tortugas californianas y el lagarto gigante de Gran Canaria\n- 🐒 **Isla de los Primates** — talapoines y otras especies de primates\n- 🦔 **Animales singulares** — cerdos hormigueros, suricatas y ualabíes\n- 🦋 **Mariposario** — jardín tropical interior con mariposas en libertad\n- 🐠 **Acuario** — exposición de peces tropicales y marinos\n- 🦔 **Show del armadillo** — número interactivo muy popular entre los más pequeños\n\n### Qué incluye\n- 🎟️ Entrada al parque y a **todos los espectáculos** (delfines, loros, aves rapaces y aves exóticas)\n- 🚗 Aparcamiento gratuito\n- 🍽️ Comida y bebida disponibles en el parque\n- ♿ Accesible en silla de ruedas\n\n### Horarios\nLa **última entrada es a las 17:00 h**. Se recomienda llegar por la mañana para ver todos los espectáculos con calma — la jornada completa dura entre 4 y 6 horas.\n\n### ¿Merece la pena?\nCon **4,7 sobre 5** en más de **1.600 reseñas**, Palmitos Park es uno de los parques mejor valorados de las Islas Canarias. Los visitantes destacan especialmente el espectáculo de delfines, el trato cercano con los animales y la belleza del entorno natural.\n\n### Consejos\n- ☀️ Protección solar imprescindible — el parque es en gran parte al aire libre\n- 👟 Calzado cómodo para caminar por los senderos y terrazas del parque\n- 🕐 Consulta los horarios de los espectáculos al entrar para no perderte ninguno\n- 🍽️ Hay restaurante y zonas de picnic en el interior\n- 📍 Situado en el Barranco de los Palmitos, a 10 km del faro de Maspalomas\n\n### Recomendación\nPlan perfecto para familias con niños, parejas o cualquier viajero que quiera combinar naturaleza, animales exóticos y espectáculos de alta calidad en un entorno único. Reserva con antelación para garantizar tu entrada.",
+      "shortDescription": "Parque zoobotánico único a 10 km de Maspalomas con espectáculos de delfines, aves rapaces y aves exóticas, mariposario, acuario y dragón de Komodo",
+      "island": "gran-canaria",
+      "category": "other",
+      "coordinates": {
+        "lat": 27.834636,
+        "lng": -15.616334
+      },
+      "images": {
+        "hero": "/images/gran-canaria/actividades/palmitos-park-maspalomas.avif",
+        "gallery": [
+          "/images/gran-canaria/actividades/palmitos-park-maspalomas.avif"
+        ]
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "palmitos park",
+        "delfines",
+        "aves",
+        "zoo",
+        "familia",
+        "maspalomas",
+        "san-bartolome-de-tirajana"
+      ],
+      "visitDuration": "4-6h",
+      "emoji": "🐬",
+      "sectionOnly": false,
+      "municipio": "san-bartolome-de-tirajana",
+      "gygTourId": "258742",
+      "gygUrl": "https://gyg.me/TwT5ZaUg"
     }
   ],
   "sections": [],

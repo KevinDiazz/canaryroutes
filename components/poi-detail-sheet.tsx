@@ -1,9 +1,10 @@
 'use client';
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo, memo } from 'react';
 import type { POI, Locale } from '@/lib/types';
 import type { CartState } from '@/hooks/use-cart';
 import { useUiStrings } from '@/lib/ui-strings';
 import { AvailabilityWidget } from '@/components/affiliate/availability-widget';
+import { DiscoverCarsWidget } from '@/components/affiliate/discover-cars-widget';
 import { GYG_PARTNER_ID } from '@/lib/affiliates';
 import { getCreditForPhoto, PhotoCreditLine } from '@/components/photo-credits-carousel';
 import type { PhotoCreditGroup } from '@/lib/image-credits';
@@ -15,6 +16,7 @@ const CATEGORY_COLORS: Record<POI['category'], string> = {
   hiking: '#2a9e60',
   viewpoint: '#c47a18',
   food: '#c44038',
+  transport: '#f59e0b',
   other: '#5a7a90',
 };
 
@@ -26,6 +28,22 @@ function getPoiColor(poi: POI): string {
   return poi.gygTourId ? ACTIVITY_COLOR : CATEGORY_COLORS[poi.category];
 }
 
+/**
+ * Devuelve la URL del thumbnail 80×80 WebP generado para los bubbles.
+ * /images/gran-canaria/cultural/foo.avif → /images/gran-canaria/thumbs/cultural/foo.webp
+ * Si no existe la thumb (imagen externa u otro origen), devuelve la URL original.
+ */
+function getBubbleThumb(heroUrl: string): string {
+  if (!heroUrl.startsWith('/images/')) return heroUrl;
+  const parts = heroUrl.split('/');
+  // ['', 'images', 'gran-canaria', 'cultural', 'foo.avif']
+  if (parts.length < 5) return heroUrl;
+  const filename = parts[parts.length - 1].replace(/\.[^.]+$/, '.webp');
+  const category = parts[parts.length - 2];
+  const island = parts[parts.length - 3];
+  return `/images/${island}/thumbs/${category}/${filename}`;
+}
+
 const CATEGORY_LABELS: Record<POI['category'], string> = {
   nature: 'Naturaleza',
   beach: 'Playa',
@@ -33,6 +51,7 @@ const CATEGORY_LABELS: Record<POI['category'], string> = {
   hiking: 'Senderismo',
   viewpoint: 'Mirador',
   food: 'Gastronomía',
+  transport: 'Transporte',
   other: 'Lugar',
 };
 
@@ -63,14 +82,15 @@ function parseMarkdown(text: string): string {
     .join('');
 }
 
-function RichText({ html }: { html: string }) {
+const RichText = memo(function RichText({ html }: { html: string }) {
+  const parsed = useMemo(() => parseMarkdown(html), [html]);
   return (
     <div
       className="rich-poi-text"
-      dangerouslySetInnerHTML={{ __html: parseMarkdown(html) }}
+      dangerouslySetInnerHTML={{ __html: parsed }}
     />
   );
-}
+});
 
 
 
@@ -112,7 +132,7 @@ function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps)
                 ? `0 10px 24px -8px ${ringColor}88, 0 0 0 3px ${ringColor}22`
                 : 'none',
               transform: isActive ? 'translateY(-2px) scale(1.06)' : 'scale(1)',
-              transition: 'all 0.25s cubic-bezier(0.34,1.56,0.64,1)',
+              transition: 'transform 0.12s ease-out, opacity 0.12s ease-out, box-shadow 0.12s ease-out',
               position: 'relative',
             }}>
               <div style={{
@@ -123,7 +143,7 @@ function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps)
                 fontSize: compact ? '16px' : '24px',
               }}>
                 <img
-                  src={poi.images.hero}
+                  src={getBubbleThumb(poi.images.hero)}
                   alt={poi.name}
                   decoding="async"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
@@ -173,23 +193,28 @@ interface PhotoGalleryProps {
   onActivePhotoChange?: (index: number) => void;
 }
 
-function PhotoGallery({ poi, color, onActivePhotoChange }: PhotoGalleryProps) {
+const PhotoGallery = memo(function PhotoGallery({ poi, color, onActivePhotoChange }: PhotoGalleryProps) {
   const [activePhoto, setActivePhoto] = useState(0);
   const [hasError, setHasError] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   // Guarda la src anterior para mantenerla visible durante el crossfade
   const [prevSrc, setPrevSrc] = useState<string | null>(null);
   const imgRef = useRef<HTMLImageElement>(null);
+  // Ref para retener el hero del POI anterior y usarlo como fondo durante el switch
+  const prevHeroRef = useRef<string | null>(null);
 
   const photos = [poi.images.hero, ...poi.images.gallery].filter(Boolean);
 
-  // Reset completo al cambiar de POI
+  // Reset al cambiar de POI — mantener hero anterior como fondo para crossfade suave
   useEffect(() => {
+    const prev = prevHeroRef.current;
+    prevHeroRef.current = photos[0] ?? null;
     setActivePhoto(0);
     setHasError(false);
     setIsLoaded(false);
-    setPrevSrc(null);
-  }, [poi.slug]);
+    // Si la imagen ya está en caché (precargada), no mostrar la anterior
+    setPrevSrc(prev !== photos[0] ? (prev ?? null) : null);
+  }, [poi.slug]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Notifica al padre qué foto está activa (para mostrar su crédito)
   useEffect(() => {
@@ -334,7 +359,7 @@ function PhotoGallery({ poi, color, onActivePhotoChange }: PhotoGalleryProps) {
       )}
     </div>
   );
-}
+});
 
 function TranscriptPanel({ html, color }: { html: string; color: string }) {
   return (
@@ -360,6 +385,21 @@ function TranscriptPanel({ html, color }: { html: string; color: string }) {
         Transcripción
       </div>
       <RichText html={html} />
+    </div>
+  );
+}
+
+// ── GYG widget container ─────────────────────────────────────────────────────
+interface GygWidgetContainerProps {
+  children: React.ReactNode;
+}
+
+function GygWidgetContainer({ children }: GygWidgetContainerProps) {
+  return (
+    <div style={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', background: 'white' }}>
+      <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', WebkitOverflowScrolling: 'touch' as const }}>
+        {children}
+      </div>
     </div>
   );
 }
@@ -393,6 +433,18 @@ export function PoiDetailSheet({
   photoCreditGroups,
 }: PoiDetailSheetProps) {
   const t = useUiStrings(locale);
+
+  // Estado local optimista para el bubble activo:
+  // se actualiza en el mismo tick del click sin esperar el round-trip al padre.
+  const [activeBubbleSlug, setActiveBubbleSlug] = useState(selectedPoi.slug);
+  // Sincroniza si el padre cambia selectedPoi por otra vía
+  useEffect(() => { setActiveBubbleSlug(selectedPoi.slug); }, [selectedPoi.slug]);
+
+  const handlePoiChange = useCallback((poi: POI) => {
+    setActiveBubbleSlug(poi.slug); // visual inmediato
+    onPoiChange(poi);               // actualiza el contenido
+  }, [onPoiChange]);
+
   const color = getPoiColor(selectedPoi);
   const inCart = cart.items.some(i => i.slug === selectedPoi.slug);
   const canRoute = hasCoordinates(selectedPoi);
@@ -400,21 +452,45 @@ export function PoiDetailSheet({
   const [textExpanded, setTextExpanded] = useState(false);
   const [activePhotoIndex, setActivePhotoIndex] = useState(0);
 
-  // Difiere contenido pesado al frame siguiente para no bloquear la animación CSS
-  const [contentReady, setContentReady] = useState(false);
+  // Precargar hero Y galería de todos los POIs del grupo en cuanto se abre el sheet.
+  // Así el switch de burbuja y el scroll de galería no esperan red.
   useEffect(() => {
-    setContentReady(false);
-    let id = requestAnimationFrame(() => {
-      id = requestAnimationFrame(() => setContentReady(true));
+    pois.forEach(poi => {
+      const srcs = [poi.images?.hero, ...(poi.images?.gallery ?? [])].filter(Boolean) as string[];
+      srcs.forEach(src => {
+        const img = new window.Image();
+        img.src = src;
+      });
     });
-    return () => cancelAnimationFrame(id);
-  }, [selectedPoi.slug]);
+  }, [pois]);
 
+  // Descripción plana (para el snippet de 2 líneas) — memoizada para no
+  // recalcular parseMarkdown en cada render.
+  const plainDescription = useMemo(() =>
+    parseMarkdown(selectedPoi.description).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim(),
+    [selectedPoi.description],
+  );
+
+  // Difiere contenido pesado SOLO en el primer mount para no bloquear la animación de apertura.
+  // En switches posteriores (cambio de bubble) se muestra inmediatamente.
+  // Fusionado con los resets de estado para evitar un commit extra.
+  const [contentReady, setContentReady] = useState(false);
+  const mountedRef = useRef(false);
   useEffect(() => {
+    if (!mountedRef.current) {
+      mountedRef.current = true;
+      setContentReady(false);
+      let id = requestAnimationFrame(() => {
+        id = requestAnimationFrame(() => setContentReady(true));
+      });
+      return () => cancelAnimationFrame(id);
+    }
+    // Cambios de POI posteriores: contenido inmediato + resets en un solo commit
+    setContentReady(true);
     setShowTranscript(false);
     setTextExpanded(false);
     setActivePhotoIndex(0);
-  }, [selectedPoi.slug]);
+  }, [selectedPoi.slug]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const sheetRef = useRef<HTMLDivElement>(null);
   const [scrollEl, setScrollEl] = useState<HTMLDivElement | null>(null);
@@ -480,23 +556,23 @@ export function PoiDetailSheet({
         {pois.length > 1 && (
           <div className="bubbles-left-sidebar">
             {pois.map((poi, idx) => {
-              const isActive = poi.slug === selectedPoi.slug;
+              const isActive = poi.slug === activeBubbleSlug;
               const ringColor = getPoiColor(poi);
               return (
-                <button key={poi.slug} onClick={() => onPoiChange(poi)} style={{
+                <button key={poi.slug} onClick={() => handlePoiChange(poi)} style={{
                   display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
                   background: 'none', border: 'none', cursor: 'pointer', flexShrink: 0, padding: '4px 0',
                 }}>
                   <div style={{ position: 'relative',
                     width: 64, height: 64, borderRadius: '50%',
                     padding: isActive ? 3 : 2, background: ringColor,
-                    opacity: isActive ? 1 : 0.5,
+                    opacity: isActive ? 1 : 0.65,
                     boxShadow: isActive ? `0 4px 12px ${ringColor}66` : 'none',
-                    transform: isActive ? 'scale(1.08)' : 'scale(1)',
-                    transition: 'all 0.2s',
+                    transform: isActive ? 'scale(1.05)' : 'scale(1)',
+                    transition: 'none',
                   }}>
                     <div style={{ width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '2px solid white' }}>
-                      <img src={poi.images.hero} alt={poi.name}
+                      <img src={getBubbleThumb(poi.images.hero)} alt={poi.name}
                         style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                         onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                       />
@@ -541,23 +617,23 @@ export function PoiDetailSheet({
           {pois.length > 1 && (
             <div className="bubbles-top" style={{ scrollbarWidth: 'none' }}>
               {pois.map((poi, idx) => {
-                const isActive = poi.slug === selectedPoi.slug;
+                const isActive = poi.slug === activeBubbleSlug;
                 const ringColor = getPoiColor(poi);
                 return (
-                  <button key={poi.slug} onClick={() => onPoiChange(poi)} style={{
+                  <button key={poi.slug} onClick={() => handlePoiChange(poi)} style={{
                     display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
                     background: 'none', border: 'none', cursor: 'pointer', flexShrink: 0, padding: 0,
                   }}>
                     <div style={{ position: 'relative',
                       width: 72, height: 72, borderRadius: '50%',
                       padding: isActive ? 3 : 2, background: ringColor,
-                      opacity: isActive ? 1 : 0.5,
+                      opacity: isActive ? 1 : 0.65,
                       boxShadow: isActive ? `0 4px 12px ${ringColor}66` : 'none',
-                      transform: isActive ? 'scale(1.08)' : 'scale(1)',
-                      transition: 'all 0.2s',
+                      transform: isActive ? 'scale(1.05)' : 'scale(1)',
+                      transition: 'none',
                     }}>
                       <div style={{ width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '2px solid white' }}>
-                        <img src={poi.images.hero} alt={poi.name}
+                        <img src={getBubbleThumb(poi.images.hero)} alt={poi.name}
                           style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                           onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                         />
@@ -606,28 +682,55 @@ export function PoiDetailSheet({
             </div>
           )}
 
-          {/* Title + close */}
+          {/* Title row: nombre + ← Mapa a la derecha */}
           <div style={{
-            padding: '4px 16px 10px',
-            display: 'flex', alignItems: 'flex-start', gap: '10px',
-            borderBottom: `1px solid ${color}22`,
-            marginTop: "5px",
+            padding: '8px 16px 14px',
+            display: 'flex', alignItems: 'center', gap: 12,
+            borderBottom: `1px solid ${color}20`,
+            marginTop: '4px',
           }}>
-            <div style={{ flex: 1, minWidth: 0 }}>
-              <h2 style={{
-                margin: 0, fontSize: '24px', fontWeight: 700, color: '#0f172a',
-                fontFamily: "'Outfit', sans-serif", lineHeight: 1.2,
-              }}>
-                {selectedPoi.name}
-              </h2>
-            </div>
-            <button onClick={triggerClose} style={{
-              flexShrink: 0, width: 30, height: 30, borderRadius: '50%',
-              background: 'rgba(0,0,0,0.07)', border: '1px solid rgba(0,0,0,0.08)',
-              color: '#374151', cursor: 'pointer', fontSize: '13px',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              marginTop: '2px',
-            }}>✕</button>
+            {/* Nombre */}
+            <h2 style={{
+              margin: 0, flex: 1, minWidth: 0,
+              fontSize: '24px', fontWeight: 700, color: '#0f172a',
+              fontFamily: "'Outfit', sans-serif", lineHeight: 1.2,
+            }}>
+              {selectedPoi.name}
+            </h2>
+
+            {/* ← Mapa — pill con color de isla, anclado a la derecha */}
+            <button
+              onClick={triggerClose}
+              aria-label="Volver al mapa"
+              style={{
+                flexShrink: 0,
+                display: 'flex', alignItems: 'center', gap: 5,
+                height: 34, padding: '0 13px 0 9px',
+                borderRadius: 20,
+                background: '#fff',
+                border: `1.5px solid ${color}40`,
+                boxShadow: `0 1px 4px rgba(0,0,0,0.08)`,
+                color: color,
+                cursor: 'pointer',
+                fontSize: '13px', fontWeight: 700,
+                fontFamily: "'Inter', sans-serif",
+                letterSpacing: '-0.01em',
+                transition: 'box-shadow 0.15s ease, transform 0.1s ease',
+              }}
+              onMouseEnter={e => {
+                (e.currentTarget as HTMLButtonElement).style.boxShadow = `0 3px 10px ${color}30`;
+                (e.currentTarget as HTMLButtonElement).style.transform = 'translateY(-1px)';
+              }}
+              onMouseLeave={e => {
+                (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 1px 4px rgba(0,0,0,0.08)';
+                (e.currentTarget as HTMLButtonElement).style.transform = 'translateY(0)';
+              }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+              Mapa
+            </button>
           </div>
         </div>
 
@@ -641,26 +744,30 @@ export function PoiDetailSheet({
             style={{
               flex: 1,
               background: `linear-gradient(135deg, ${color}33, ${color}11)`,
-              overflow: selectedPoi.gygTourId ? 'auto' : 'hidden',
+              overflow: (selectedPoi.gygTourId || selectedPoi.discoverCarsLocation) ? 'auto' : 'hidden',
               display: 'flex',
               flexDirection: 'column',
               minHeight: 0,
             }}
           >
             {contentReady && selectedPoi.gygTourId ? (
-              <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', WebkitOverflowScrolling: 'touch', background: 'white' }}>
-                <div style={{ padding: '14px 16px' }}>
-                  <div style={{
-                    fontSize: '10px', fontWeight: 700, color: '#64748b',
-                    letterSpacing: '0.1em', textTransform: 'uppercase',
-                    fontFamily: "'JetBrains Mono', monospace", marginBottom: '8px',
-                  }}>{t.sheet.bookExperience}</div>
-                  {/* max-width: 400px fuerza a GYG a renderizar el widget en modo vertical en desktop */}
+              <GygWidgetContainer>
+                <div style={{ padding: '12px 16px 20px' }}>
                   <div style={{ maxWidth: '400px', margin: '0 auto' }}>
-                    <AvailabilityWidget tourId={selectedPoi.gygTourId} locale={locale} variant="vertical" />
+                    <AvailabilityWidget key={selectedPoi.gygTourId} tourId={selectedPoi.gygTourId} locale={locale} variant="vertical" />
                   </div>
                 </div>
-              </div>
+              </GygWidgetContainer>
+            ) : contentReady && selectedPoi.discoverCarsLocation ? (
+              <GygWidgetContainer>
+                <div style={{ padding: '12px 16px 20px' }}>
+                  <DiscoverCarsWidget
+                    key={selectedPoi.discoverCarsLocation}
+                    location={selectedPoi.discoverCarsLocation}
+                    locale={locale}
+                  />
+                </div>
+              </GygWidgetContainer>
             ) : (
               contentReady && (showTranscript && selectedPoi.audioTranscript
                 ? <TranscriptPanel html={selectedPoi.audioTranscript} color={color} />
@@ -709,7 +816,7 @@ export function PoiDetailSheet({
                 WebkitLineClamp: 2,
                 overflow: 'hidden',
               }}>
-                {contentReady && parseMarkdown(selectedPoi.description).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()}
+                {contentReady && plainDescription}
               </p>
             </div>
 
@@ -818,7 +925,7 @@ export function PoiDetailSheet({
         </div>
 
         {/* ── BOTONES — fijos al fondo ── */}
-        {(canRoute || selectedPoi.track?.mapsUrl) && (
+        {(canRoute || selectedPoi.track?.mapsUrl || selectedPoi.websiteUrl) && (
           <div style={{
             flexShrink: 0,
             padding: '10px 16px 16px',
@@ -826,6 +933,52 @@ export function PoiDetailSheet({
             display: 'flex', flexDirection: 'column', gap: '8px',
             background: 'white',
           }}>
+
+            {/* Botón Visitar web — full-width, aparece cuando el POI tiene websiteUrl */}
+            {selectedPoi.websiteUrl && (
+              <a
+                href={selectedPoi.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  gap: '9px', padding: '14px 16px', borderRadius: '14px',
+                  background: 'linear-gradient(135deg, #0f766e 0%, #0d9488 100%)',
+                  color: 'white', textDecoration: 'none',
+                  boxShadow: '0 4px 16px rgba(15,118,110,0.38)',
+                  transition: 'transform 0.15s, box-shadow 0.15s',
+                }}
+                onMouseEnter={e => {
+                  (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(-1px)';
+                  (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 6px 20px rgba(15,118,110,0.50)';
+                }}
+                onMouseLeave={e => {
+                  (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(0)';
+                  (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 4px 16px rgba(15,118,110,0.38)';
+                }}
+              >
+                {/* Globe icon */}
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="2" y1="12" x2="22" y2="12"/>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+                <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: 1.2 }}>
+                  <span style={{ fontSize: '13px', fontWeight: 800, fontFamily: "'Inter', sans-serif", letterSpacing: '0.02em', textTransform: 'uppercase' }}>
+                    {locale === 'es' ? 'Visitar web oficial' : locale === 'de' ? 'Offizielle Website' : 'Visit official website'}
+                  </span>
+                  <span style={{ fontSize: '10px', fontWeight: 400, fontFamily: "'Inter', sans-serif", opacity: 0.88, letterSpacing: '0.01em' }}>
+                    {selectedPoi.websiteUrl.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+                  </span>
+                </span>
+                {/* External link arrow */}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginLeft: 'auto' }}>
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            )}
 
             {/* Botón Ver recorrido — solo para POIs con track */}
             {selectedPoi.track?.mapsUrl && (
@@ -858,7 +1011,7 @@ export function PoiDetailSheet({
               </a>
             )}
 
-            {canRoute && <div style={{ display: 'flex', gap: '10px' }}>
+            {canRoute && !selectedPoi.websiteUrl && <div style={{ display: 'flex', gap: '10px' }}>
               {selectedPoi.gygTourId ? (
                 <a
                   href={selectedPoi.gygUrl ?? `https://www.getyourguide.com/-t${selectedPoi.gygTourId}/?partner_id=${GYG_PARTNER_ID}`}
@@ -885,7 +1038,6 @@ export function PoiDetailSheet({
                     (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 4px 16px rgba(255,85,51,0.40)';
                   }}
                 >
-                  {/* Calendar icon */}
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
                     <rect x="3" y="4" width="18" height="18" rx="3"/>
                     <line x1="16" y1="2" x2="16" y2="6"/>
@@ -899,6 +1051,47 @@ export function PoiDetailSheet({
                     </span>
                     <span style={{ fontSize: '10px', fontWeight: 400, fontFamily: "'Inter', sans-serif", opacity: 0.88, letterSpacing: '0.01em' }}>
                       via GetYourGuide
+                    </span>
+                  </span>
+                </a>
+              ) : selectedPoi.discoverCarsLocation ? (
+                <a
+                  href={selectedPoi.discoverCarsUrl ?? `https://www.discovercars.com/${selectedPoi.discoverCarsLocation}?a_aid=canaryroutes&currency=eur`}
+                  target="_blank"
+                  rel="sponsored noopener"
+                  className="poi-btn"
+                  style={{
+                    flex: 1, padding: '13px 16px', borderRadius: '16px',
+                    border: 'none',
+                    background: 'linear-gradient(135deg, #007ac2 0%, #0099e6 100%)',
+                    color: 'white',
+                    cursor: 'pointer',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px',
+                    boxShadow: '0 4px 16px rgba(0,122,194,0.40)',
+                    textDecoration: 'none',
+                    transition: 'transform 0.15s, box-shadow 0.15s',
+                  }}
+                  onMouseEnter={e => {
+                    (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(-1px)';
+                    (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 6px 20px rgba(0,122,194,0.50)';
+                  }}
+                  onMouseLeave={e => {
+                    (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(0)';
+                    (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 4px 16px rgba(0,122,194,0.40)';
+                  }}
+                >
+                  {/* Car icon */}
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                    <path d="M5 17H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1l3-4h10l3 4h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2"/>
+                    <circle cx="7.5" cy="17.5" r="2.5"/>
+                    <circle cx="16.5" cy="17.5" r="2.5"/>
+                  </svg>
+                  <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: 1.2 }}>
+                    <span style={{ fontSize: '13px', fontWeight: 800, fontFamily: "'Inter', sans-serif", letterSpacing: '0.02em', textTransform: 'uppercase' }}>
+                      {locale === 'es' ? 'Buscar coche' : locale === 'de' ? 'Auto suchen' : 'Search car'}
+                    </span>
+                    <span style={{ fontSize: '10px', fontWeight: 400, fontFamily: "'Inter', sans-serif", opacity: 0.88, letterSpacing: '0.01em' }}>
+                      via DiscoverCars
                     </span>
                   </span>
                 </a>
