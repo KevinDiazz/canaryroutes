@@ -1,6 +1,7 @@
 'use client';
 
 import { createContext, useContext, useState, useCallback, useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
 import type { POI, Locale } from '@/lib/types';
 
 export interface CartItem extends POI {
@@ -21,7 +22,14 @@ interface NotificationState {
   poi?: POI;
 }
 
-const STORAGE_KEY = 'canaryroutes-cart';
+/** Devuelve la clave de localStorage para el carrito de una isla concreta.
+ *  Ej: /es/gran-canaria/... → 'canaryroutes-cart-gran-canaria'
+ *  Si no hay isla en la ruta se usa la key genérica. */
+function storageKeyForPath(pathname: string): string {
+  // pathname: /locale/island/...  → segments[2] es la isla
+  const island = pathname.split('/')[2];
+  return island ? `canaryroutes-cart-${island}` : 'canaryroutes-cart';
+}
 
 const MESSAGES: Record<Locale, { alreadyAdded: string; added: (name: string) => string; toastTitle: string }> = {
   es: {
@@ -46,39 +54,56 @@ const FALLBACK_MESSAGES = MESSAGES.es;
 const CartContext = createContext<CartState | null>(null);
 
 export function CartProvider({ children, locale }: { children: React.ReactNode; locale: Locale }) {
+  const pathname = usePathname();
+  const storageKey = storageKeyForPath(pathname);
+
   const [items, setItems] = useState<CartItem[]>([]);
   const [notification, setNotification] = useState<NotificationState | null>(null);
-  // Evita que el efecto de guardado escriba "[]" en su primera ejecución,
-  // antes de que el efecto de carga haya podido restaurar el carrito
-  // persistido. Sin esto, remontar el CartProvider (p.ej. al cambiar de
-  // idioma) podía borrar el carrito guardado en localStorage.
-  const isFirstSave = useRef(true);
   const messages = MESSAGES[locale] ?? FALLBACK_MESSAGES;
 
-  // Carga el carrito persistido (sobrevive a navegaciones completas, p.ej. cambio de idioma)
+  // Ref con la key actualmente cargada. Cuando cambia la isla (y por tanto
+  // la storageKey), resetea isFirstSave para no sobrescribir la nueva isla
+  // con el carrito vacío antes de que el efecto de carga termine.
+  const loadedKeyRef = useRef<string>('');
+  const isFirstSave = useRef(true);
+
+  // Detecta cambio de isla y resetea el flag de primer guardado
+  useEffect(() => {
+    if (loadedKeyRef.current !== storageKey) {
+      isFirstSave.current = true;
+    }
+  }, [storageKey]);
+
+  // Carga el carrito de la isla actual (se re-ejecuta al cambiar de isla)
   useEffect(() => {
     try {
-      const raw = window.localStorage.getItem(STORAGE_KEY);
+      const raw = window.localStorage.getItem(storageKey);
       if (raw) {
         const parsed = JSON.parse(raw) as CartItem[];
         if (Array.isArray(parsed)) setItems(parsed);
+        else setItems([]);
+      } else {
+        setItems([]);
       }
     } catch {
-      // localStorage no disponible o JSON corrupto — se ignora
+      setItems([]);
     }
-  }, []);
+    loadedKeyRef.current = storageKey;
+  }, [storageKey]);
 
+  // Guarda el carrito de la isla actual; salta la primera ejecución tras
+  // cada carga para evitar machacar datos antes de que setItems se procese.
   useEffect(() => {
     if (isFirstSave.current) {
       isFirstSave.current = false;
       return;
     }
     try {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+      window.localStorage.setItem(storageKey, JSON.stringify(items));
     } catch {
       // almacenamiento lleno o no disponible — se ignora
     }
-  }, [items]);
+  }, [items, storageKey]);
 
   const showNotification = useCallback((msg: string, poi?: POI) => {
     setNotification({ msg, poi });

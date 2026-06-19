@@ -54,7 +54,7 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
           width: '36px',
           height: '36px',
           borderRadius: '50%',
-          border: '2px solid rgba(255,255,255,0.8)',
+          border: '2px solid #000000',
           background: 'white',
           cursor: 'pointer',
           display: 'flex',

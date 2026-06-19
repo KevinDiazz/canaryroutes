@@ -28,6 +28,18 @@ function getPoiColor(poi: POI): string {
   return poi.gygTourId ? ACTIVITY_COLOR : CATEGORY_COLORS[poi.category];
 }
 
+function shadeColor(hex: string, amount: number): string {
+  const num = parseInt(hex.replace('#', ''), 16);
+  const r = Math.min(255, Math.max(0, (num >> 16) + Math.round(255 * amount)));
+  const g = Math.min(255, Math.max(0, ((num >> 8) & 0xff) + Math.round(255 * amount)));
+  const b = Math.min(255, Math.max(0, (num & 0xff) + Math.round(255 * amount)));
+  return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+}
+
+function ringGradient(color: string): string {
+  return `linear-gradient(135deg, ${shadeColor(color, 0.45)}, ${color}, ${shadeColor(color, -0.35)})`;
+}
+
 /**
  * Devuelve la URL del thumbnail 80×80 WebP generado para los bubbles.
  * /images/gran-canaria/cultural/foo.avif → /images/gran-canaria/thumbs/cultural/foo.webp
@@ -561,13 +573,13 @@ export function PoiDetailSheet({
               return (
                 <button key={poi.slug} onClick={() => handlePoiChange(poi)} style={{
                   display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
-                  background: 'none', border: 'none', cursor: 'pointer', flexShrink: 0, padding: '4px 0',
+                  background: 'none', border: 'none', cursor: 'pointer', flexShrink: 0, padding: '2px 0',
                 }}>
                   <div style={{ position: 'relative',
-                    width: 64, height: 64, borderRadius: '50%',
-                    padding: isActive ? 3 : 2, background: ringColor,
+                    width: 80, height: 80, borderRadius: '50%',
+                    padding: isActive ? 4 : 3, background: ringGradient(ringColor),
                     opacity: isActive ? 1 : 0.65,
-                    boxShadow: isActive ? `0 4px 12px ${ringColor}66` : 'none',
+                    boxShadow: 'none',
                     transform: isActive ? 'scale(1.05)' : 'scale(1)',
                     transition: 'none',
                   }}>
@@ -592,10 +604,10 @@ export function PoiDetailSheet({
                     fontSize: '10px', fontFamily: "'Inter', sans-serif",
                     color: isActive ? '#0f172a' : '#94a3b8',
                     fontWeight: isActive ? 600 : 400,
-                    maxWidth: '64px', textAlign: 'center',
+                    maxWidth: '80px', textAlign: 'center',
                     overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
                   }}>
-                    {poi.name.length > 8 ? poi.name.slice(0, 7) + '…' : poi.name}
+                    {poi.name.length > 9 ? poi.name.slice(0, 8) + '…' : poi.name}
                   </span>
                 </button>
               );
@@ -625,10 +637,10 @@ export function PoiDetailSheet({
                     background: 'none', border: 'none', cursor: 'pointer', flexShrink: 0, padding: 0,
                   }}>
                     <div style={{ position: 'relative',
-                      width: 72, height: 72, borderRadius: '50%',
-                      padding: isActive ? 3 : 2, background: ringColor,
+                      width: 88, height: 88, borderRadius: '50%',
+                      padding: isActive ? 4 : 3, background: ringGradient(ringColor),
                       opacity: isActive ? 1 : 0.65,
-                      boxShadow: isActive ? `0 4px 12px ${ringColor}66` : 'none',
+                      boxShadow: 'none',
                       transform: isActive ? 'scale(1.05)' : 'scale(1)',
                       transition: 'none',
                     }}>
@@ -652,10 +664,10 @@ export function PoiDetailSheet({
                     <span style={{
                       fontSize: '10px', fontFamily: "'Inter', sans-serif",
                       color: isActive ? '#0f172a' : '#94a3b8', fontWeight: isActive ? 600 : 400,
-                      maxWidth: '72px', textAlign: 'center',
+                      maxWidth: '88px', textAlign: 'center',
                       overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
                     }}>
-                      {poi.name.length > 8 ? poi.name.slice(0, 7) + '…' : poi.name}
+                      {poi.name.length > 10 ? poi.name.slice(0, 9) + '…' : poi.name}
                     </span>
                   </button>
                 );
@@ -682,13 +694,42 @@ export function PoiDetailSheet({
             </div>
           )}
 
-          {/* Title row: nombre + ← Mapa a la derecha */}
+          {/* Title row: ← Mapa a la izquierda + nombre */}
           <div style={{
             padding: '8px 16px 14px',
             display: 'flex', alignItems: 'center', gap: 12,
             borderBottom: `1px solid ${color}20`,
             marginTop: '4px',
           }}>
+            {/* ← Mapa — mismo estilo que botón LEER */}
+            <button
+              onClick={triggerClose}
+              aria-label="Volver al mapa"
+              style={{
+                flexShrink: 0,
+                border: 'none',
+                background: color,
+                color: 'white',
+                cursor: 'pointer',
+                display: 'flex', flexDirection: 'column',
+                alignItems: 'center', justifyContent: 'center',
+                gap: 4,
+                fontSize: '10px', fontWeight: 800,
+                fontFamily: "'JetBrains Mono', monospace",
+                letterSpacing: '0.06em',
+                transition: 'opacity 0.15s',
+                padding: '8px 14px',
+                borderRadius: 8,
+              }}
+              onMouseEnter={e => { (e.currentTarget as HTMLButtonElement).style.opacity = '0.85'; }}
+              onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.opacity = '1'; }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+              MAPA
+            </button>
+
             {/* Nombre */}
             <h2 style={{
               margin: 0, flex: 1, minWidth: 0,
@@ -697,40 +738,6 @@ export function PoiDetailSheet({
             }}>
               {selectedPoi.name}
             </h2>
-
-            {/* ← Mapa — pill con color de isla, anclado a la derecha */}
-            <button
-              onClick={triggerClose}
-              aria-label="Volver al mapa"
-              style={{
-                flexShrink: 0,
-                display: 'flex', alignItems: 'center', gap: 5,
-                height: 34, padding: '0 13px 0 9px',
-                borderRadius: 20,
-                background: '#fff',
-                border: `1.5px solid ${color}40`,
-                boxShadow: `0 1px 4px rgba(0,0,0,0.08)`,
-                color: color,
-                cursor: 'pointer',
-                fontSize: '13px', fontWeight: 700,
-                fontFamily: "'Inter', sans-serif",
-                letterSpacing: '-0.01em',
-                transition: 'box-shadow 0.15s ease, transform 0.1s ease',
-              }}
-              onMouseEnter={e => {
-                (e.currentTarget as HTMLButtonElement).style.boxShadow = `0 3px 10px ${color}30`;
-                (e.currentTarget as HTMLButtonElement).style.transform = 'translateY(-1px)';
-              }}
-              onMouseLeave={e => {
-                (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 1px 4px rgba(0,0,0,0.08)';
-                (e.currentTarget as HTMLButtonElement).style.transform = 'translateY(0)';
-              }}
-            >
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="15 18 9 12 15 6" />
-              </svg>
-              Mapa
-            </button>
           </div>
         </div>
 

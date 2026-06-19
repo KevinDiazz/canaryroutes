@@ -26,13 +26,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bubbles-top {
   display: flex;
-  gap: 12px;
+  gap: 8px;
   overflow-x: auto;
   overflow-y: visible;
   /* overflow-x:auto fuerza overflow-y:auto por spec CSS,
-     lo compensamos con padding para que el scale(1.05) y
-     el box-shadow del bubble activo no queden recortados */
-  padding: 12px 16px 18px;
+     lo compensamos con padding para que el scale(1.05) no quede recortado */
+  padding: 8px 12px 12px;
   border-bottom: 1px solid #f1f5f9;
   -webkit-overflow-scrolling: touch;
 }
@@ -52,15 +51,13 @@ h1, h2, h3, h4, h5, h6 {
     display: flex !important;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
-    width: 96px;
+    gap: 6px;
+    width: 108px;
     flex-shrink: 0;
     overflow-y: auto;
     overflow-x: hidden;
     scrollbar-width: none;
-    /* padding horizontal para que scale(1.05) y box-shadow no se recorten
-       (overflow-x:hidden sí puede coexistir con overflow-y:auto en webkit) */
-    padding: 16px 14px;
+    padding: 12px 8px;
     border-right: 1px solid #f1f5f9;
     background: #fafafa;
   }

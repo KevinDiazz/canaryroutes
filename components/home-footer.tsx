@@ -48,7 +48,7 @@ export function HomeFooter({ locale }: { locale: Locale }) {
 
   return (
     <footer style={{
-      background: '#0d1b2e',
+      background: '#0a0a0a',
       color: 'rgba(255,255,255,0.75)',
       padding: '40px 24px 32px',
       marginTop: 'auto',
