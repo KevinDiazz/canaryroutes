@@ -1182,40 +1182,36 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         </div>
       </div>
 
-      {/* Nombre isla — footer fijo */}
+      {/* Nombre isla — barra inferior */}
       {islandName && (
         <div style={{
-          position: 'fixed',
-          bottom: '24px', left: 0, right: 0,
-          display: 'flex',
-          justifyContent: 'center',
+          position: 'absolute',
+          bottom: 0, left: 0, right: 0,
+          zIndex: 10,
           pointerEvents: 'none',
-          zIndex: 120,
         }}>
           <div style={{
-            background: 'linear-gradient(90deg, #ffd100, #ffb300, #f5a520)',
-            borderRadius: '30px',
-            padding: '1px',
-            boxShadow: '0 4px 16px rgba(13,27,74,0.12), 0 1px 3px rgba(0,0,0,0.08)',
+            background: 'white',
+            borderTop: '1px solid rgba(0,0,0,0.07)',
+            borderRadius: '20px 20px 0 0',
+            boxShadow: '0 -4px 20px rgba(0,0,0,0.08)',
+            padding: '10px 24px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
           }}>
-            <div style={{
-              background: '#ffffff',
-              borderRadius: '29px',
-              padding: '7px 20px',
+            <span style={{
+              fontFamily: "'Caveat', cursive",
+              fontSize: '22px',
+              fontWeight: '700',
+              letterSpacing: '0.02em',
+              backgroundImage: 'linear-gradient(90deg, #0d1b4a 0%, #00b5d8 100%)',
+              backgroundClip: 'text',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
             }}>
-              <span style={{
-                fontFamily: "'Outfit', sans-serif",
-                fontSize: '17px',
-                fontWeight: '700',
-                letterSpacing: '0.06em',
-                backgroundImage: 'linear-gradient(90deg, #0d1b4a 0%, #00b5d8 100%)',
-                backgroundClip: 'text',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-              }}>
-                {islandName}
-              </span>
-            </div>
+              {islandName}
+            </span>
           </div>
         </div>
       )}

@@ -32,19 +32,19 @@ const HERO_TEXT: Record<Locale, {
     eyebrow: 'Tu guía de viaje digital',
     headline: 'Descubre las\nIslas Canarias',
     sub: 'Tu guía de viaje digital',
-    stats: ['7 islas', '500+ lugares', 'Mapas interactivos'],
+    stats: ['7 islas', '+500 lugares', 'Mapas interactivos'],
   },
   en: {
     eyebrow: 'Your digital travel guide',
     headline: 'Discover the\nCanary Islands',
     sub: 'Your digital travel guide',
-    stats: ['7 islands', '500+ places', 'Interactive maps'],
+    stats: ['7 islands', '+500 places', 'Interactive maps'],
   },
   de: {
     eyebrow: 'Dein digitaler Reiseführer',
     headline: 'Entdecke die\nKanarischen Inseln',
     sub: 'Dein digitaler Reiseführer',
-    stats: ['7 Inseln', '500+ Orte', 'Interaktive Karten'],
+    stats: ['7 Inseln', '+500 Orte', 'Interaktive Karten'],
   },
 };
 
@@ -105,9 +105,9 @@ export default async function HomePage({
         className="app-shell app-shell-home"
         style={{ background: '#ffffff', display: 'flex', flexDirection: 'column' }}
       >
-        {/* ── Nav — igual que el mapa en desktop ───────────────────── */}
+        {/* ── Nav ─────────────────────────────────────────────────────── */}
         <nav style={{
-          padding: '0 12px 0 16px',
+          padding: '0 20px 0 20px',
           display: 'flex',
           alignItems: 'center',
           gap: '8px',
@@ -116,8 +116,10 @@ export default async function HomePage({
           border: '1px solid rgba(0,0,0,0.08)',
           boxShadow: '0 4px 8px -2px rgba(0,0,0,0.10), 0 2px 12px rgba(0,0,0,0.08)',
           position: 'absolute',
-          top: '15px', left: '12px', right: '12px',
+          top: '15px', left: '16px', right: '16px',
           zIndex: 20,
+          maxWidth: '1200px',
+          margin: '0 auto',
         }}>
           <Image
             src="/logo/logoByN-removebg-preview.png"
@@ -141,7 +143,7 @@ export default async function HomePage({
         <section
           style={{
             position: 'relative',
-            minHeight: '480px',
+            minHeight: 'clamp(480px, 60vh, 680px)',
             display: 'flex',
             alignItems: 'flex-start',
             justifyContent: 'center',
@@ -189,24 +191,26 @@ export default async function HomePage({
               fill="#ffffff"
             />
           </svg>
-          {/* Contenido — h1 arriba, stats anclados al fondo */}
+          {/* Contenido */}
           <div style={{
             position: 'absolute', inset: 0, zIndex: 1,
             display: 'flex', flexDirection: 'column', alignItems: 'center',
-            paddingTop: '120px',
+            paddingTop: 'clamp(120px, 16vh, 180px)',
             textAlign: 'center',
+            paddingLeft: '24px',
+            paddingRight: '24px',
           }}>
-            {/* Título — posición fija arriba */}
+            {/* Título */}
             <h1 style={{
               fontFamily: "'Caveat', cursive",
-              fontSize: 'clamp(42px, 11vw, 58px)',
+              fontSize: 'clamp(42px, 11vw, 88px)',
               fontWeight: '700',
               color: 'white',
               margin: '0',
-              lineHeight: '1.08',
+              lineHeight: '1.05',
               whiteSpace: 'pre-line',
               letterSpacing: '-0.01em',
-              textShadow: '0 2px 24px rgba(0,0,0,0.50)',
+              textShadow: '0 2px 32px rgba(0,0,0,0.45)',
             }}>
               {hero.headline}
             </h1>
@@ -214,26 +218,27 @@ export default async function HomePage({
             {/* Subtítulo */}
             <p style={{
               fontFamily: "'Outfit', sans-serif",
-              fontSize: '14px', fontWeight: '400',
-              color: 'rgba(255,255,255,0.80)',
-              margin: '80px 0 22px', letterSpacing: '0.02em',
+              fontSize: 'clamp(14px, 1.4vw, 18px)',
+              fontWeight: '400',
+              color: 'rgba(255,255,255,0.82)',
+              margin: '80px 0 22px',
+              letterSpacing: '0.02em',
               textShadow: '0 1px 6px rgba(0,0,0,0.4)',
             }}>
               {hero.sub}
             </p>
 
-            {/* Stats — centrados al fondo */}
+            {/* Stats */}
             <div style={{
-              display: 'flex', alignItems: 'center', gap: '10px',
+              display: 'flex', alignItems: 'center', gap: '14px',
               background: 'rgba(255,255,255,0.12)',
               backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)',
-              borderRadius: '28px', padding: '8px 20px',
+              borderRadius: '32px', padding: '10px 28px',
               border: '1px solid rgba(255,255,255,0.18)',
-              marginBottom: '60px',
             }}>
               {hero.stats.map((stat, i) => (
-                <span key={stat} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <span style={{ fontFamily: "'Outfit', sans-serif", fontSize: '13px', fontWeight: '600', color: 'rgba(255,255,255,0.92)', whiteSpace: 'nowrap' }}>
+                <span key={stat} style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+                  <span style={{ fontFamily: "'Outfit', sans-serif", fontSize: 'clamp(13px, 1.1vw, 15px)', fontWeight: '600', color: 'rgba(255,255,255,0.92)', whiteSpace: 'nowrap' }}>
                     {stat}
                   </span>
                   {i < hero.stats.length - 1 && (

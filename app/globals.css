@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Gloria+Hallelujah&family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -127,6 +127,93 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100vh !important;
   overflow-y: auto !important;
   overflow-x: hidden !important;
+}
+
+/* ── Home page: desktop overrides ───────────────────────────────────── */
+@media (min-width: 768px) {
+  .desktop-wrapper:has(.app-shell-home) {
+    align-items: flex-start;
+  }
+  .app-shell-home {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* ── Island selector responsive ─────────────────────────────────────── */
+.island-selector-wrapper {
+  padding: 14px 16px 52px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+.island-grid-active {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+}
+.island-card-active {
+  padding: 24px 16px 18px;
+  min-height: unset;
+  justify-content: flex-start;
+}
+.island-card-active svg {
+  width: 110px;
+  height: 110px;
+}
+.island-card-active .island-name {
+  font-size: 22px;
+}
+.island-grid-coming-soon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 440px;
+  margin: 0 auto;
+  width: 100%;
+}
+.island-header {
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  .island-selector-wrapper {
+    padding: 20px 32px 72px;
+    gap: 36px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .island-grid-active {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    max-width: 680px;
+  }
+  .island-card-active {
+    padding: 40px 24px 32px;
+    min-height: 260px;
+    justify-content: center;
+  }
+  .island-card-active svg {
+    width: 150px;
+    height: 150px;
+  }
+  .island-card-active .island-name {
+    font-size: 28px;
+  }
+  .island-grid-coming-soon {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    max-width: 860px;
+  }
+  .island-header {
+    font-size: 38px;
+  }
 }
 
 /* ── Rich text markdown ─────────────────────────────────────────────── */

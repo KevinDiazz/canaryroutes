@@ -116,15 +116,14 @@ export function IslandSelector({ locale }: { locale: IslandSelectorLocale }) {
   const comingSoonIslands = ISLANDS.filter(i => !i.active);
 
   return (
-    <div style={{ padding: '0px 16px 52px', display: 'flex', flexDirection: 'column', gap: '24px' }}>
+    <div className="island-selector-wrapper">
 
       {/* ── Section header ── */}
-      <p style={{
-        fontFamily: "'Outfit', sans-serif",
-        fontSize: '22px',
-        fontWeight: '600',
+      <p className="island-header" style={{
+        fontFamily: "'Gloria Hallelujah', cursive",
+        fontWeight: '400',
         fontStyle: 'normal',
-        color: '#59aad0',
+        color: '#1a1a1a',
         textAlign: 'center',
         margin: 0,
         letterSpacing: '0.01em',
@@ -132,26 +131,19 @@ export function IslandSelector({ locale }: { locale: IslandSelectorLocale }) {
         {CHOOSE_DEST[locale]}
       </p>
 
-      {/* ── Active island cards — 2 por fila en mobile ── */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(2, 1fr)',
-        gap: '14px',
-        maxWidth: '480px',
-        margin: '0 auto',
-        width: '100%',
-      }}>
+      {/* ── Active island cards ── */}
+      <div className="island-grid-active">
         {activeIslands.map((island) => (
           <button
             key={island.id}
             onClick={() => router.push(`/${locale}/${island.id}`)}
+            className="island-card-active"
             style={{
               backgroundImage: 'url(/images/fondo_card.avif)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               border: '2px solid rgba(0,0,0,0.08)',
               borderRadius: '20px',
-              padding: '24px 16px 18px',
               cursor: 'pointer',
               display: 'flex',
               flexDirection: 'column',
@@ -173,12 +165,11 @@ export function IslandSelector({ locale }: { locale: IslandSelectorLocale }) {
               e.currentTarget.style.transform = 'translateY(0)';
             }}
           >
-            <svg viewBox={island.viewBox} style={{ width: '110px', height: '110px', position: 'relative', zIndex: 1 }} xmlns="http://www.w3.org/2000/svg">
-              <path d={island.path} fill="white" stroke="white" strokeWidth="3" style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.25))' }} />
+            <svg viewBox={island.viewBox} style={{ position: 'relative', zIndex: 1 }} xmlns="http://www.w3.org/2000/svg">
+              <path d={island.path} fill="white" stroke="white" strokeWidth="3" style={{ filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.28))' }} />
             </svg>
-            <p style={{
+            <p className="island-name" style={{
               fontFamily: "'Cormorant Garamond', serif",
-              fontSize: '22px',
               fontWeight: '700',
               color: 'white',
               margin: 0,
@@ -196,18 +187,18 @@ export function IslandSelector({ locale }: { locale: IslandSelectorLocale }) {
       {/* ── Coming soon ── */}
       <div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
-          <div style={{ flex: 1, height: '1px', background: '#b8d6e0' }} />
+          <div style={{ flex: 1, height: '1px', background: '#a8d5b5' }} />
           <span style={{
             fontFamily: "'Cormorant Garamond', serif",
             fontSize: '15px', fontWeight: '600', fontStyle: 'italic',
-            color: '#7d96a3',
+            color: '#3a9e68',
           }}>
             {COMING_SOON[locale]}
           </span>
-          <div style={{ flex: 1, height: '1px', background: '#b8d6e0' }} />
+          <div style={{ flex: 1, height: '1px', background: '#a8d5b5' }} />
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px', maxWidth: '440px', margin: '0 auto' }}>
+        <div className="island-grid-coming-soon">
           {comingSoonIslands.map((island) => (
             <div
               key={island.id}
@@ -222,6 +213,8 @@ export function IslandSelector({ locale }: { locale: IslandSelectorLocale }) {
                 display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px',
                 cursor: 'not-allowed', userSelect: 'none',
                 overflow: 'hidden',
+                width: '130px',
+                flexShrink: 0,
               }}
             >
               <svg viewBox={island.viewBox} style={{ width: '56px', height: '56px' }} xmlns="http://www.w3.org/2000/svg">
