@@ -44,7 +44,7 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
   const current = localeData[currentLocale] ?? localeData['en'];
 
   return (
-    <>
+    <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
       {/* Botón circular con icono de bandera */}
       <button
         ref={btnRef}
@@ -82,9 +82,9 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
         <div
           ref={dropRef}
           style={{
-            position: 'fixed',
-            top: '100px',
-            right: '16px',
+            position: 'absolute',
+            top: 'calc(100% + 10px)',
+            right: 0,
             background: 'white',
             border: '1px solid #e5e7eb',
             borderRadius: '16px',
@@ -130,6 +130,6 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
           })}
         </div>
       )}
-    </>
+    </div>
   );
 }

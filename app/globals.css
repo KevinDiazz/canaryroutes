@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Gloria+Hallelujah&family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Chelsea+Market&family=Gloria+Hallelujah&family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ── Desktop: mapa centrado y acotado ──────────────────────────────── */
 @media (min-width: 768px) {
   body {
-    background-color: #ffffff;
+    background-color: #eef4f8;
     background-image: none;
   }
 
@@ -213,6 +213,16 @@ h1, h2, h3, h4, h5, h6 {
   }
   .island-header {
     font-size: 38px;
+  }
+}
+
+/* ── Hero subtitle spacing ──────────────────────────────────────────── */
+.hero-sub {
+  margin: 80px 0 22px;
+}
+@media (min-width: 768px) {
+  .hero-sub {
+    margin: 24px 0 18px;
   }
 }
 

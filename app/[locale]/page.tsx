@@ -4,6 +4,7 @@ import { LanguageSwitcher } from '@/components/language-switcher';
 import { IslandSelector } from '@/components/island-selector';
 import type { Metadata } from 'next';
 import { OrganizationJsonLd } from '@/components/json-ld';
+import { HomeFooter } from '@/components/home-footer';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
@@ -216,12 +217,11 @@ export default async function HomePage({
             </h1>
 
             {/* Subtítulo */}
-            <p style={{
+            <p className="hero-sub" style={{
               fontFamily: "'Outfit', sans-serif",
               fontSize: 'clamp(14px, 1.4vw, 18px)',
               fontWeight: '400',
               color: 'rgba(255,255,255,0.82)',
-              margin: '80px 0 22px',
               letterSpacing: '0.02em',
               textShadow: '0 1px 6px rgba(0,0,0,0.4)',
             }}>
@@ -252,6 +252,9 @@ export default async function HomePage({
 
         {/* ── Island selector ──────────────────────────────────────────── */}
         <IslandSelector locale={locale} />
+
+        {/* ── Footer ───────────────────────────────────────────────────── */}
+        <HomeFooter locale={locale} />
       </main>
     </div>
   );

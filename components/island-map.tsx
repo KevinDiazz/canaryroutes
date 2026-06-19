@@ -1183,32 +1183,37 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       </div>
 
       {/* Nombre isla — barra inferior */}
-      {islandName && (
+      {islandName && !selectedPoi && (
         <div style={{
-          position: 'absolute',
-          bottom: 0, left: 0, right: 0,
+          position: 'fixed',
+          bottom: 0, left: '50%',
+          transform: 'translateX(-50%)',
+          width: 'calc(100% + 80px)',
+          maxWidth: 'calc(min(900px, 100vw) + 80px)',
           zIndex: 10,
           pointerEvents: 'none',
         }}>
           <div style={{
-            background: 'white',
-            borderTop: '1px solid rgba(0,0,0,0.07)',
-            borderRadius: '20px 20px 0 0',
-            boxShadow: '0 -4px 20px rgba(0,0,0,0.08)',
-            padding: '10px 24px',
+            backgroundImage: 'url(/images/arena-negra.avif)',
+            backgroundSize: '300px',
+            backgroundRepeat: 'repeat',
+            borderRadius: '50% 50% 40px 40px / 70px 70px 40px 40px',
+            boxShadow: '0 -8px 28px rgba(0,0,0,0.22)',
+            padding: '0 24px',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
+            minHeight: '90px',
+            height: '90px',
           }}>
             <span style={{
-              fontFamily: "'Caveat', cursive",
-              fontSize: '22px',
+              fontFamily: "'Outfit', sans-serif",
+              fontSize: '26px',
               fontWeight: '700',
-              letterSpacing: '0.02em',
-              backgroundImage: 'linear-gradient(90deg, #0d1b4a 0%, #00b5d8 100%)',
-              backgroundClip: 'text',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
+              letterSpacing: '0.12em',
+              color: 'white',
+              textShadow: '0 2px 10px rgba(0,0,0,0.5)',
+              textTransform: 'uppercase',
             }}>
               {islandName}
             </span>

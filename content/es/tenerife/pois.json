@@ -97,6 +97,889 @@
       "emoji": "🏔️",
       "top": true,
       "municipio": "santiago-del-teide"
+    },
+    {
+      "slug": "playa-de-las-teresitas",
+      "name": "Playa de Las Teresitas",
+      "shortDescription": "Arena dorada del Sáhara y aguas protegidas a 10 minutos de Santa Cruz",
+      "description": "La playa más famosa del norte de Tenerife tiene un origen tan singular como espectacular: su **arena dorada fue importada directamente del Sáhara** en los años 70, transformando una cala de guijarros en una de las playas más bonitas del archipiélago. Situada a tan solo diez minutos de Santa Cruz, es el refugio costero de la capital.\n\n### La visita\nUn rompeolas de casi un kilómetro protege la bahía del oleaje atlántico, creando aguas permanentemente tranquilas ideales para nadar en familia. Palmeras imperiales bordean el paseo marítimo y el pueblo pesquero de San Andrés —con sus legendarios restaurantes de pescado fresco— queda a un corto paseo. A pocos metros, el **Castillo de San Andrés**, una fortaleza del siglo XVI, añade un toque histórico al entorno.\n\n### Antes de ir\n- 🌅 En verano llega antes de las 11h — la playa se llena rápido, especialmente los fines de semana\n- 🚌 Bus 910 desde la Estación de Guaguas de Santa Cruz — 20 minutos, 1,35 €\n- 🐟 No te vayas sin comer en San Andrés: las gambas rojas y las lapas a la brasa son imprescindibles\n- 🏊 Aguas tranquilas todo el año gracias al rompeolas — perfecta incluso para niños pequeños\n- 🅿️ Parking gratuito junto a la playa, aunque en verano se llena temprano\n\n### Recomendación\nCombina el baño con una comida en los restaurantes de San Andrés y una visita al castillo: Las Teresitas no es solo una playa, es una experiencia completa del norte de Tenerife.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4829,
+        "lng": -16.1924
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/teresitas/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/teresitas/1.avif",
+          "/images/tenerife/playas/teresitas/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "arena-dorada",
+        "norte",
+        "familiar",
+        "santa-cruz",
+        "aguas-tranquilas"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": true,
+      "municipio": "santa-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/Kp2kKJeqW3F9xbVQ8"
+    },
+    {
+      "slug": "playa-de-los-cristianos",
+      "name": "Playa de Los Cristianos",
+      "shortDescription": "El corazón del sur: playa de arena oscura con el puerto más animado de Tenerife",
+      "description": "El corazón turístico del sur de Tenerife late con fuerza en Los Cristianos. Su playa de **arena volcánica oscura** y aguas cálidas comparte protagonismo con uno de los puertos más animados de Canarias, desde el que parten cada día ferries a La Gomera, excursiones en catamarán y los mejores tours de avistamiento de cetáceos de la isla.\n\n### La visita\nLos Cristianos conserva el alma de un pueblo pescador absorbido por el turismo moderno, y eso es parte de su encanto. El paseo marítimo mezcla chiringuitos y terrazas con tiendas locales, el mercado municipal ofrece cocina canaria de verdad y el ambiente del atardecer en la plaza es puro sur de Tenerife. Para los amantes del agua, las excursiones de avistamiento de ballenas piloto —habituales en estas aguas durante todo el año— son una experiencia que no olvidarás.\n\n### Antes de ir\n- 🐬 Reserva el tour de cetáceos por la mañana temprano — las condiciones del mar son más suaves y los avistamientos más frecuentes\n- ⛵ Si quieres ir a La Gomera, los ferries salen desde aquí varias veces al día (45 minutos)\n- 🍽️ El mercado municipal y las calles del casco histórico son la mejor zona para comer cocina canaria\n- 🚌 Bus 111 desde Las Américas y bus 111/487 desde Costa Adeje — muy frecuente\n- 🏖️ La playa es más tranquila en el extremo sur, junto al puerto\n\n### Recomendación\nEmpieza el día con un baño en la playa, almuerza papas arrugadas con mojo en el mercado y por la tarde sube a un barco: Los Cristianos está hecho para disfrutarlo a varios ritmos.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.05,
+        "lng": -16.713
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/los-cristianos/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/los-cristianos/1.avif",
+          "/images/tenerife/playas/los-cristianos/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "sur",
+        "puerto",
+        "cetáceos",
+        "animada",
+        "familiar"
+      ],
+      "visitDuration": "Medio día",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": true,
+      "municipio": "arona",
+      "mapsUrl": "https://maps.app.goo.gl/fVqkPv8Vq1qFZjqT8"
+    },
+    {
+      "slug": "playa-del-duque",
+      "name": "Playa del Duque",
+      "shortDescription": "La playa más exclusiva del sur: arena blanca, aguas turquesa y hoteles de lujo",
+      "description": "Si hay una playa en Tenerife que podría confundirse con el Caribe, es la Playa del Duque. **Arena fina color dorado claro, aguas turquesa y transparentes**, y el fondo de los hoteles más exclusivos del sur crean un conjunto de una elegancia difícil de encontrar en las costas españolas.\n\n### La visita\nLas aguas son someras y tranquilas, perfectas para niños y para los que prefieren el baño sin sobresaltos. En el extremo norte de la playa, donde las rocas emergen del agua, hay un punto de snorkel excelente con peces de roca, erizos y cangrejos. A diez minutos a pie está **Puerto Colón**, el gran puerto deportivo de Costa Adeje, desde el que salen catamaranes hacia Los Gigantes y excursiones de avistamiento de cetáceos con garantía de avistamiento. El entorno del Duque, con su paseo de palmeras y las terrazas de los hoteles, está pensado para disfrutar con calma.\n\n### Antes de ir\n- 🅿️ El parking gratuito junto a la playa tiene plazas limitadas — llega antes de las 10h en temporada alta\n- 🤿 Lleva máscara de buceo: el extremo norte tiene fondos muy interesantes para el snorkel\n- 🚤 Desde Puerto Colón (10 min a pie) salen excursiones en catamarán y tours de cetáceos — reserva online con antelación\n- 🍹 El paseo de El Duque tiene terrazas y chiringuitos para comer sin alejarte de la arena\n- 🚌 Bus 473 desde Los Cristianos y Santa Cruz\n\n### Recomendación\nMañana en la playa, tarde en catamarán rumbo a Los Gigantes y cena en una de las terrazas de Costa Adeje: Playa del Duque es el punto de partida perfecto para un día de lujo en el sur de Tenerife.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0808,
+        "lng": -16.7402
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/duque/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/duque/1.avif",
+          "/images/tenerife/playas/duque/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "sur",
+        "exclusiva",
+        "arena-clara",
+        "lujo",
+        "costa-adeje"
+      ],
+      "visitDuration": "Medio día",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": true,
+      "municipio": "adeje",
+      "mapsUrl": "https://maps.app.goo.gl/pJnMGmFqQ9TZVjYr6"
+    },
+    {
+      "slug": "playa-de-la-arena",
+      "name": "Playa de La Arena",
+      "shortDescription": "Arena negra volcánica, bandera azul y vistas directas a La Gomera",
+      "description": "Una de las mejores playas de la costa oeste de Tenerife, y una de las más desconocidas para el turismo internacional. **Arena negra volcánica perfectamente redonda**, aguas de una claridad sorprendente y vistas directas a la silueta de La Gomera en el horizonte: La Arena es el tipo de playa que te hace sentir que has descubierto algo propio.\n\n### La visita\nLa cala está protegida del viento por las laderas que la rodean, lo que mantiene el agua en calma y la temperatura del aire varios grados por encima de la costa sur. Tiene **Bandera Azul** de manera continuada por la calidad del agua y sus servicios. El paseo marítimo de Puerto de Santiago rodea la playa y concentra algunos de los mejores restaurantes de pescado fresco de la costa oeste. A cinco minutos en coche están los acantilados de Los Gigantes, desde donde salen los mejores tours de avistamiento de ballenas y delfines de la isla.\n\n### Antes de ir\n- 🤿 El extremo sur de la playa —donde las rocas se encuentran con la arena— es un punto de snorkel excelente con mucha vida marina\n- 🐋 Combina la visita con un tour de cetáceos desde el puerto de Los Gigantes, a 5 min en coche\n- 🏖️ La arena negra acumula calor: es de las playas más templadas del sur incluso en invierno\n- 🐟 Prueba el pescado fresco en los restaurantes del paseo marítimo de Puerto de Santiago\n- 🅿️ Aparcar en las calles del pueblo (gratuito) o en el pequeño parking junto al paseo\n\n### Recomendación\nLa Arena funciona perfecta como base de operaciones para la costa oeste: baño, snorkel, comida en el pueblo y por la tarde subirse al barco para ver las ballenas en Los Gigantes.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.2126,
+        "lng": -16.8323
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/la-arena/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/la-arena/1.avif",
+          "/images/tenerife/playas/la-arena/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "arena-negra",
+        "oeste",
+        "bandera-azul",
+        "snorkeling",
+        "la-gomera"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/zNyKSwTM5AUVZ3JG7"
+    },
+    {
+      "slug": "playa-de-benijo",
+      "name": "Playa de Benijo",
+      "shortDescription": "Playa salvaje en el corazón de Anaga: roques negros, olas bravas y sin masificación",
+      "description": "Hay playas bonitas en Tenerife y luego está Benijo. Enclavada en el extremo nororiental de la isla, dentro del **Parque Rural de Anaga**, es la playa más salvaje y auténtica de Tenerife: sin hamacas, sin chiringuitos, sin hoteles a la vista. Solo el Atlántico abierto, la arena negra volcánica y los **Roques de Anaga** emergiendo del agua frente a la orilla.\n\n### La visita\nLos Roques —dos formaciones volcánicas que parecen guardianes del lugar— son el icono fotográfico de Benijo y uno de los paisajes más reconocibles de todo el archipiélago. La carretera de acceso ya es parte de la experiencia: curvas de montaña entre bosques de laurisilva, cultivos en terrazas y pequeños pueblos de Anaga que parecen detenidos en el tiempo. El oleaje es abierto y puede ser intenso, especialmente en invierno.\n\n### Antes de ir\n- ⚠️ El oleaje puede ser peligroso — consulta el estado del mar antes de bañarte y no entres si hay bandera roja\n- 📸 La hora dorada del amanecer y del atardecer es el mejor momento para fotografiar los Roques\n- 🚗 Carretera TF-134 desde La Laguna dirección Taganana — curvas estrechas, conduce con precaución\n- 🅿️ El aparcamiento junto a la playa es pequeño y gratuito — en fin de semana se llena pronto\n- 🎒 No hay ningún servicio en la playa — lleva agua, comida y recoge tu basura\n\n### Recomendación\nVe a primera hora de la mañana, cuando la luz del sol golpea los Roques y la playa está casi vacía: Benijo en ese momento es uno de los lugares más especiales de las Islas Canarias.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.5588,
+        "lng": -16.1772
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/benijo/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/benijo/1.avif",
+          "/images/tenerife/playas/benijo/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "salvaje",
+        "anaga",
+        "roques",
+        "norte",
+        "naturaleza",
+        "virgen"
+      ],
+      "visitDuration": "3-5h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/nT6kJx8a3b2Vp9bQ6"
+    },
+    {
+      "slug": "el-medano",
+      "name": "El Médano",
+      "shortDescription": "La meca del windsurf y kitesurf en Canarias: viento constante, arena kilométrica y ambiente joven",
+      "description": "El Médano es la playa diferente de Tenerife. Mientras el resto del sur busca el sol sin viento, este pueblo abraza el **viento constante del Atlántico** y lo ha convertido en su mayor atractivo: es el mejor spot de windsurf y kitesurf de España, y punto de referencia mundial para los deportes de vela ligera. Un ambiente joven, cosmopolita y siempre en movimiento.\n\n### La visita\nMás de **dos kilómetros de arena fina** flanqueados por el viento, con el inconfundible **Roque del Moro** —un diente de roca volcánica que emerge del mar— presidiendo la bahía. Las escuelas de windsurf y kitesurf están a pie de playa, el alquiler de equipos es muy asequible y los instructores internacionales hacen del Médano el mejor lugar para aprender estos deportes en España. Si prefieres bañarte sin tabla, la **Playa Grande**, al sur, ofrece aguas más tranquilas. Para después, la plaza central con sus cafés y terrazas es de las más animadas del sur.\n\n### Antes de ir\n- 🏄 El viento sopla con más fuerza por la tarde — si quieres aprender, las mañanas son más suaves\n- 🌊 La Playa Grande, al sur del Roque del Moro, tiene aguas más calmadas para los que no practican deportes de viento\n- 🚗 El aeropuerto Reina Sofía (TFS) está a solo 5 minutos en coche — ideal como primera o última parada\n- 🚌 Bus 116 desde Los Cristianos (30 min)\n- 🍺 La plaza central y las terrazas alrededor son el epicentro del ambiente vespertino — no te lo pierdas al atardecer\n\n### Recomendación\nVen por la tarde, busca una mesa en la terraza de la plaza central y observa cómo los kitesurfistas cruzan la bahía con el Roque del Moro de fondo: es una de las mejores postales del sur de Tenerife.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0454,
+        "lng": -16.5376
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/el-medano/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/el-medano/1.avif",
+          "/images/tenerife/playas/el-medano/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "windsurf",
+        "kitesurf",
+        "sur",
+        "deporte",
+        "viento",
+        "roque-del-moro"
+      ],
+      "visitDuration": "Medio día",
+      "difficulty": "easy",
+      "emoji": "🏄",
+      "municipio": "granadilla",
+      "mapsUrl": "https://maps.app.goo.gl/dKx7PpN2Yn5H6hQZ9"
+    },
+    {
+      "slug": "alquiler-coche-tenerife",
+      "name": "Alquiler de coche en Tenerife",
+      "shortDescription": "Imprescindible para explorar la isla: cómo, dónde y cuánto cuesta alquilar un coche",
+      "description": "Tenerife es una isla grande y variada, y **alquilar un coche es la forma más libre y eficiente de explorarla**. Desde el aeropuerto Reina Sofía (sur) o el aeropuerto Los Rodeos (norte), tienes acceso inmediato a las principales compañías. Los precios son de los más competitivos de Europa gracias a la competencia y al régimen fiscal canario.\n\n### La visita\nCon coche, en un día puedes combinar el Teide por la mañana, los acantilados de Los Gigantes al mediodía y una puesta de sol en el Médano. Sin coche, esa misma ruta requeriría dos o tres días en transporte público. La autopista TF-1 conecta el sur con el norte en menos de 45 minutos, y la TF-5 une Santa Cruz con Puerto de la Cruz en 30 minutos. Las carreteras de montaña (Masca, Anaga) requieren precaución pero son perfectamente transitables con un turismo estándar.\n\n### Antes de ir\n- 🛬 Reserva desde España siempre por DiscoverCars o similar — hasta un 40% más barato que en mostradores del aeropuerto\n- 📋 Necesitas carnet de conducir, tarjeta de crédito y tener más de 21 años (algunos operadores, 25)\n- ⛽ Gasolineras abundantes en el sur — en el norte y la montaña, llena antes de subir\n- 🔑 Los coches automáticos se agotan rápido en temporada alta: reserva con antelación\n- 🅿️ Aparcar en Santa Cruz y Puerto de la Cruz puede ser complicado — usa los parkings de pago\n\n### Recomendación\nReserva online al menos 48h antes de llegar, elige un seguro completo sin franquicia y planifica rutas en sentido antihorario para aprovechar mejor la luz del día.",
+      "island": "tenerife",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.0445,
+        "lng": -16.5725
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/alquiler-coche/hero.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "transporte",
+        "coche",
+        "alquiler",
+        "aeropuerto",
+        "movilidad"
+      ],
+      "emoji": "🚗",
+      "municipio": "granadilla",
+      "discoverCarsLocation": "spain-canary-islands/tenerife",
+      "discoverCarsUrl": "https://www.discovercars.com/spain-canary-islands/tenerife?a_aid=canaryroutes"
+    },
+    {
+      "slug": "titsa-tenerife",
+      "name": "TITSA — Guaguas de Tenerife",
+      "shortDescription": "La red de guaguas interurbanas que conecta toda la isla de forma económica",
+      "description": "La **TITSA** (Transportes Interurbanos de Tenerife S.A.) es la red de autobuses públicos que conecta prácticamente todos los rincones de la isla, desde Santa Cruz hasta El Médano, desde Puerto de la Cruz hasta Los Gigantes. Es la opción más económica para moverse y una experiencia auténtica.\n\n### La visita\nLas líneas más útiles para turistas son la **111** (Santa Cruz – Los Cristianos, rápida), la **343** (Santa Cruz – La Laguna – Puerto de la Cruz), la **348** (Puerto de la Cruz – Teide – Los Cristianos, la ruta panorámica por excelencia) y la **910** (Santa Cruz – Las Teresitas). Las guaguas son modernas, con aire acondicionado y WiFi en las líneas principales. La **tarjeta BONO** permite viajes con descuento del 50% respecto al precio en efectivo.\n\n### Antes de ir\n- 📱 Descarga la app TITSA o consulta titsa.com para horarios actualizados — los domingos hay servicio reducido\n- 💳 Carga la tarjeta BONO en las estaciones principales — rentable desde el segundo viaje\n- 🕐 Las líneas expresas al sur (111, 110) son las más rápidas y frecuentes\n- 🏔️ La línea 348 atraviesa el Parque Nacional del Teide — una ruta panorámica que no requiere coche\n- 🎫 El billete sencillo en efectivo desde Santa Cruz al sur cuesta ~3,50 €; con BONO, menos de 2 €\n\n### Recomendación\nSi solo visitas el sur o el norte, la guagua es suficiente. Si quieres explorar el Teide, Anaga o Masca, alquila un coche al menos para esos días.",
+      "island": "tenerife",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.4636,
+        "lng": -16.2518
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/titsa/hero.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "transporte",
+        "bus",
+        "guagua",
+        "titsa",
+        "público",
+        "económico"
+      ],
+      "emoji": "🚌",
+      "municipio": "santa-cruz",
+      "websiteUrl": "https://www.titsa.com"
+    },
+    {
+      "slug": "la-laguna-casco",
+      "name": "La Laguna — Casco Histórico",
+      "shortDescription": "Ciudad Patrimonio de la Humanidad con la arquitectura colonial más bella de Canarias",
+      "description": "San Cristóbal de La Laguna fue la primera ciudad no amurallada de la historia de España, un experimento urbanístico del siglo XV que influyó directamente en el diseño de ciudades como Lima, La Habana o San Juan de Puerto Rico. La UNESCO la reconoció Patrimonio de la Humanidad en 1999. Su casco histórico, con calles de lava negra y fachadas coloniales de colores, es el más bello de Canarias.\n\n### La visita\nEl eje principal es la **Calle Obispo Rey Redondo**, flanqueada por casonas nobles, iglesias barrocas y el Convento de Santa Clara. La **Catedral de La Laguna**, construida en el siglo XX pero de estilo neogótico austero, alberga el Cristo de La Laguna, la imagen más venerada de Tenerife. En la **Plaza del Adelantado**, el corazón de la ciudad, se concentran el mercado municipal, el Ayuntamiento y algunas de las mejores cafeterías de la isla. La ciudad también alberga la universidad más antigua de Canarias, lo que le da un ambiente joven y bohemio permanente.\n\n### Antes de ir\n- 🚋 El tranvía conecta La Laguna con Santa Cruz en 30 minutos — la forma más cómoda de llegar\n- 🕐 Dedica al menos 3 horas al casco histórico; hay mucho que ver y callejear\n- ☕ Las calles laterales de la Calle Herradores y alrededores concentran los mejores cafés y restaurantes locales\n- 📸 La luz de la mañana sobre las fachadas coloniales es la mejor para fotografiar\n- 🎭 En Semana Santa, La Laguna vive una de las procesiones más impresionantes de España\n\n### Recomendación\nCombina La Laguna con el Parque Rural de Anaga: sal de la ciudad hacia el noreste y en 20 minutos estarás en un bosque de laurisilva de película.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4853,
+        "lng": -16.3139
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/la-laguna/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/la-laguna/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "patrimonio-humanidad",
+        "colonial",
+        "historia",
+        "catedral",
+        "unesco",
+        "casco-histórico"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/XbEpHvWXaBTMZ2FA9"
+    },
+    {
+      "slug": "puerto-de-la-cruz",
+      "name": "Puerto de la Cruz",
+      "shortDescription": "La capital turística del norte: jardines, piscinas naturales y el primer resort de Canarias",
+      "description": "Puerto de la Cruz fue el primer destino turístico moderno de Tenerife, elegido en el siglo XX por la aristocracia europea —y especialmente británica— que buscaba escapar de los inviernos fríos. Hoy conserva ese encanto cosmopolita de ciudad que lleva décadas recibiendo al mundo sin perder su identidad canaria.\n\n### La visita\nEl corazón del pueblo es la **Plaza del Charco**, rodeada de dragos centenarios y palmeras, con terrazas que invitan a quedarse. Las **Piscinas Lago Martiánez**, diseñadas por el artista local César Manrique, son una maravilla de la arquitectura orgánica canaria: piscinas de agua salada de distintos tamaños integradas en el paisaje volcánico negro, con el mar Atlántico de fondo. El **Jardín Botánico** —uno de los más antiguos de España— alberga especies tropicales traídas de todo el mundo. Y a solo 10 minutos está el **Loro Parque**, el zoo más premiado del mundo.\n\n### Antes de ir\n- 🌊 Las Piscinas Lago Martiánez tienen entrada de pago (~8 €) pero valen cada céntimo — llega por la mañana\n- 🚌 Bus 343 desde Santa Cruz (45 min) y Bus 101/102 desde Los Gigantes\n- 🛍️ El mercado municipal del martes y sábado es el mejor para productos locales\n- 🌴 El Jardín Botánico está a 10 minutos a pie del centro — no tiene pérdida\n- 🍷 La Calle Blanco y sus alrededores concentran los mejores bares y restaurantes\n\n### Recomendación\nLlega por la mañana, pasa las primeras horas en las piscinas de Martiánez, come en el centro y por la tarde sube al Loro Parque: Puerto de la Cruz se disfruta sin prisa.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4147,
+        "lng": -16.549
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/puerto-de-la-cruz/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "norte",
+        "piscinas",
+        "manrique",
+        "jardín",
+        "turismo",
+        "cosmopolita"
+      ],
+      "visitDuration": "Día completo",
+      "difficulty": "easy",
+      "emoji": "🌴",
+      "top": true,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/3CKJvX1H3aMJqnUT8"
+    },
+    {
+      "slug": "loro-parque",
+      "name": "Loro Parque",
+      "shortDescription": "El zoo más premiado del mundo: orcas, ballenas, pingüinos y la mayor colección de loros",
+      "description": "Fundado en 1972 como parque de loros, Loro Parque ha evolucionado hasta convertirse en uno de los parques zoológicos más valorados del planeta, galardonado repetidamente como mejor zoo del mundo según TripAdvisor. Sus instalaciones de vanguardia, el programa de conservación de especies y los espectáculos de orcas y delfines lo convierten en la mayor atracción familiar de Tenerife.\n\n### La visita\nEl parque alberga más de 30 especies de primates, los únicos **orcas en Europa** fuera de SeaWorld, una de las colonias de **pingüinos antárticos** más grandes en cautividad, tiburones, cocodrilos y la mayor colección de loros del mundo con más de 3.000 ejemplares de 350 especies. Los shows de orcas, delfines y sea lions tienen lugar varias veces al día. PlanetPenguin, el hábitat de pingüinos, simula la Antártida con nieve real.\n\n### Antes de ir\n- 🎟️ Compra la entrada online — hasta un 15% más barato y evitas colas\n- 🕘 Llega a la apertura (10h) para ver los primeros shows sin aglomeraciones\n- 🐋 El show de orcas tiene capacidad limitada — llega 20 minutos antes para conseguir sitio\n- 🚌 Bus 343/107 desde Puerto de la Cruz dirección Loro Parque (parada propia)\n- ☀️ El parque requiere un día completo para verlo todo — lleva protector solar y agua\n\n### Recomendación\nLlega a las 10h, asiste primero al show de orcas (10:30h), luego explora PlanetPenguin y los acuarios, y termina el día con los delfines: Loro Parque está diseñado para un día completo sin aburrirte.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4067,
+        "lng": -16.5713
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/loro-parque/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/loro-parque/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "zoo",
+        "orcas",
+        "pingüinos",
+        "familia",
+        "norte",
+        "premios"
+      ],
+      "visitDuration": "Día completo",
+      "difficulty": "easy",
+      "emoji": "🦜",
+      "top": true,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/P9xV1y7f4m1Xqn1H8",
+      "websiteUrl": "https://www.loroparque.com"
+    },
+    {
+      "slug": "piramides-de-guimar",
+      "name": "Pirámides de Güímar",
+      "shortDescription": "Misteriosas construcciones escalonadas que Thor Heyerdahl vinculó con el antiguo Egipto",
+      "description": "En el municipio costero de Güímar, en el sureste de Tenerife, se conservan seis **pirámides escalonadas de piedra volcánica negra** cuyo origen sigue siendo objeto de debate. El explorador noruego Thor Heyerdahl —famoso por la expedición Kon-Tiki— las estudió en los años 90 y propuso que no eran simples montones de piedras agrícolas sino construcciones intencionales con orientación astronómica, posiblemente vinculadas a rutas comerciales precolombinas.\n\n### La visita\nEl parque etnográfico creado por Heyerdahl incluye las pirámides, un museo con reproducciones de balsas de juncos y objetos de navegación, y jardines de plantas endémicas. La orientación de las pirámides hacia el solsticio de verano es el argumento más sólido a favor de su construcción intencional. El paisaje de fondo, con el Teide dominando el horizonte, añade una dimensión casi mística al conjunto.\n\n### Antes de ir\n- 🎟️ Entrada ~12 €; visita guiada disponible en varios idiomas\n- 🕐 Dedica entre 2 y 3 horas — el museo es tan interesante como las pirámides\n- 🚗 Difícil en transporte público — mejor en coche, a 40 minutos de Santa Cruz por la TF-1\n- 📸 La mejor foto es desde la zona elevada del parque con el Teide al fondo\n- 🌵 El jardín botánico del parque incluye especies endémicas de las Canarias\n\n### Recomendación\nIdeal para combinar con una parada en el pueblo de Güímar y los miradores del sureste, zona mucho menos visitada y con vistas espectaculares al mar.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3108,
+        "lng": -16.3939
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/piramides-guimar/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "historia",
+        "pirámides",
+        "arqueología",
+        "misterio",
+        "heyerdahl",
+        "sureste"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🔺",
+      "municipio": "guimar",
+      "mapsUrl": "https://maps.app.goo.gl/9y3M4K9A8RQLsDWQ7",
+      "websiteUrl": "https://www.piramidesdeguimar.es"
+    },
+    {
+      "slug": "parque-garcia-sanabria",
+      "name": "Parque García Sanabria",
+      "shortDescription": "El jardín más grande de Santa Cruz: arte urbano, fuentes y dragos centenarios",
+      "description": "El Parque García Sanabria es el jardín municipal más grande de las Islas Canarias y uno de los espacios verdes más hermosos del archipiélago. Inaugurado en 1926, ocupa seis hectáreas en el centro de Santa Cruz y combina jardines tropicales con una colección permanente de **escultura contemporánea al aire libre**, resultado del Simposio Internacional de Escultura de 1973.\n\n### La visita\nPalmeras reales, ficus centenarios, fuentes monumentales y piezas de escultores internacionales conviven en un espacio que es, a la vez, parque urbano y museo al aire libre. Los **dragos milenarios** —el árbol símbolo de Canarias— son los más impresionantes de Santa Cruz. El parque está a dos minutos a pie del Auditorio de Calatrava y del Museo de Naturaleza y Arqueología, lo que lo convierte en el eje cultural del centro de la capital.\n\n### Antes de ir\n- 🆓 Entrada gratuita — abierto todos los días\n- 🌿 Mejor visita por la mañana, cuando la luz entra entre los árboles y el calor todavía es suave\n- 🖼️ El mapa de esculturas está disponible en la entrada — hay más de 40 piezas repartidas por el parque\n- 📍 A 5 minutos a pie del Auditorio de Calatrava, del Mercado de Nuestra Señora de África y de la playa de Las Teresitas (en guagua)\n- 🍦 Los puestos de helados y las terrazas de la avenida contigua son un clásico de la tarde santacrucera\n\n### Recomendación\nEmpezar el día en el parque, continuar al Auditorio y terminar con un paseo por el mercado de África: es la ruta perfecta para conocer el corazón cultural de Santa Cruz.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4636,
+        "lng": -16.2518
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/garcia-sanabria/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/garcia-sanabria/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "parque",
+        "escultura",
+        "jardín",
+        "santa-cruz",
+        "dragos",
+        "arte-urbano"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🌳",
+      "municipio": "santa-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/Ku3hJVBJzxCuNbUM6"
+    },
+    {
+      "slug": "masca",
+      "name": "Masca",
+      "shortDescription": "El pueblo más dramático de Tenerife: barrancos verticales, casas colgadas y silencio",
+      "description": "Masca es uno de esos lugares que te dejan sin palabras. Enclavado en el macizo de Teno, el rincón más antiguo geológicamente de Tenerife, el pueblo se aferra a una cresta entre barrancos de paredes verticales a más de 700 metros de altura. Cuando llegas y asomas a ese paisaje, entiendes por qué esta aldea de menos de 100 habitantes aparece en todas las listas de los pueblos más bonitos de España.\n\n### La visita\nEl pueblo en sí es pequeño: unas pocas casas de piedra volcánica negra con tejados de tejas rojas, terrazas con vistas al abismo, un par de restaurantes con papas y queso de Teno y tiendas de artesanía. El atractivo está en el **paisaje que lo rodea**: el Barranco de Masca —que desciende hasta el mar a través de un cañón de paredes de 300 metros— es una de las rutas de senderismo más famosas de Canarias. También puedes visitar Masca como parada de una ruta circular por el norte que incluye Los Gigantes, el Mirador de Cherfe y la costa de Buenavista.\n\n### Antes de ir\n- 🚗 La carretera TF-436 es muy estrecha y con curvas cerradas — conduce despacio, especialmente si vas en camper\n- 🕐 Llega antes de las 10h para evitar los autobuses turísticos y tener el pueblo casi para ti\n- 🏔️ Si haces el barranco, organiza el regreso: solo se puede volver en barco hasta Los Gigantes (reserva online) o subir de vuelta a pie\n- 📸 El mejor mirador está a 500m antes de llegar al pueblo, junto a la carretera\n- 🌡️ La temperatura sube mucho en el barranco en verano — no recomendable de julio a septiembre\n\n### Recomendación\nVisita Masca temprano por la mañana, desayuna en una de las terrazas con vistas al barranco y continúa hacia Los Gigantes por la costa: es uno de los días más espectaculares que puedes hacer en Tenerife.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2121,
+        "lng": -16.8432
+      },
+      "images": {
+        "hero": "/images/tenerife/naturaleza/masca/hero.avif",
+        "gallery": [
+          "/images/tenerife/naturaleza/masca/1.avif",
+          "/images/tenerife/naturaleza/masca/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "pueblo",
+        "barranco",
+        "teno",
+        "norte",
+        "senderismo",
+        "dramático"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🏘️",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/YJg3HzEJ9fBJ7bEV9"
+    },
+    {
+      "slug": "parque-rural-anaga",
+      "name": "Parque Rural de Anaga",
+      "shortDescription": "El bosque de laurisilva más antiguo de Europa, en el extremo norte de Tenerife",
+      "description": "El Parque Rural de Anaga es una de las joyas naturales más extraordinarias de Europa y, sin embargo, uno de los rincones de Tenerife más ignorados por el turismo de masas. Este macizo montañoso en el extremo nororiental de la isla alberga el **mayor bosque de laurisilva del mundo**, un ecosistema relicto del Terciario que sobrevivió a la última glaciación aquí, en las Canarias.\n\n### La visita\nLa laurisilva es un bosque subtropical húmedo de una belleza impresionante: árboles cubiertos de musgo y líquenes, helechos gigantes, niebla que se filtra entre las copas y un silencio absoluto interrumpido solo por el canto de los pájaros endémicos. Los miradores del **Pico del Inglés** y de **Cruz del Carmen** ofrecen vistas sobre un mar de nubes que cubre el norte de la isla. Desde los pueblos de Taganana y El Bailadero se accede a algunas de las mejores rutas de senderismo de la isla.\n\n### Antes de ir\n- 🌫️ La niebla es frecuente — viene con ropa abrigada aunque sea verano\n- 🚗 Carretera TF-12 desde La Laguna dirección Pico del Inglés — curvas pero asfaltada\n- 🎒 El Centro de Visitantes de Cruz del Carmen tiene mapas de senderos y exposición del ecosistema\n- 🐦 El pájaro endémico del Parque es el Petirrojo de Tenerife — muy fácil de ver en los senderos\n- 🏖️ Combina con Playa de Benijo, a 20 minutos por la TF-134 desde Taganana\n\n### Recomendación\nSube a primera hora a Cruz del Carmen, camina 30 minutos por el sendero de laurisilva, para en el mirador del Pico del Inglés y baja a Taganana para comer en uno de sus bares: un día de naturaleza pura.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.5417,
+        "lng": -16.2055
+      },
+      "images": {
+        "hero": "/images/tenerife/naturaleza/anaga/hero.avif",
+        "gallery": [
+          "/images/tenerife/naturaleza/anaga/1.avif",
+          "/images/tenerife/naturaleza/anaga/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "laurisilva",
+        "bosque",
+        "anaga",
+        "naturaleza",
+        "niebla",
+        "endémico"
+      ],
+      "visitDuration": "Medio día",
+      "difficulty": "easy",
+      "emoji": "🌿",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/YeXMu7J5tFPaV9Qa8"
+    },
+    {
+      "slug": "paisaje-lunar",
+      "name": "Paisaje Lunar",
+      "shortDescription": "Formaciones de toba volcánica blanca que simulan la superficie de la Luna, a 2.000 m de altitud",
+      "description": "A 2.000 metros de altitud, entre los pinares de Vilaflor, se esconde uno de los paisajes más surrealistas de las Islas Canarias: el **Paisaje Lunar**. Columnas, agujas y conos de **toba volcánica blanca y amarilla** erosionados durante milenios por el agua y el viento crean un escenario que recuerda a la superficie de la Luna.\n\n### La visita\nSolo se puede acceder a pie, por el sendero PR-TF 72 desde la zona de aparcamiento de Vilaflor (unos 45 minutos de subida suave por pinar de Pino Canario). Las formaciones tienen entre 2 y 5 metros de altura y puedes caminar entre ellas. La combinación de la toba blanca con el cielo azul profundo de la altitud crea un contraste fotográfico espectacular. En días despejados, el Teide se ve imponente al fondo.\n\n### Antes de ir\n- 🚗 Acceso por la TF-21 desde Vilaflor — aparcar en el área habilitada junto a la carretera (gratuito)\n- 🥾 Se recomienda calzado de senderismo — el camino tiene algo de desnivel pero es asequible\n- ⏱️ La ruta ida y vuelta dura entre 2 y 3 horas — sale mejor hacerlo por la mañana\n- 🌡️ La temperatura a 2.000m es 8-10°C más fría que en la costa — lleva chaqueta\n- 📸 La luz de media mañana (10-12h) es la mejor para fotografiar las formaciones blancas\n\n### Recomendación\nCombina el Paisaje Lunar con una visita al pueblo de Vilaflor —el más alto de España— y una parada en las Cañadas del Teide: es la ruta de interior más espectacular de Tenerife.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.1687,
+        "lng": -16.6319
+      },
+      "images": {
+        "hero": "/images/tenerife/naturaleza/paisaje-lunar/hero.avif",
+        "gallery": [
+          "/images/tenerife/naturaleza/paisaje-lunar/1.avif",
+          "/images/tenerife/naturaleza/paisaje-lunar/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "volcánico",
+        "toba",
+        "altitud",
+        "senderismo",
+        "surrealista",
+        "vilaflor"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "moderate",
+      "emoji": "🌕",
+      "top": true,
+      "municipio": "vilaflor",
+      "mapsUrl": "https://maps.app.goo.gl/HgNPx7CJQaGM2fTs6"
+    },
+    {
+      "slug": "mirador-pico-ingles",
+      "name": "Mirador del Pico del Inglés",
+      "shortDescription": "El mejor mirador de Anaga: vistas de 360° sobre el norte de Tenerife y La Gomera",
+      "description": "El Mirador del Pico del Inglés, a 992 metros de altitud en el corazón del Parque Rural de Anaga, ofrece una de las vistas más espectaculares de todo Tenerife y, en días despejados, uno de los panoramas insulares más impresionantes del Atlántico. Su nombre viene de los antiguos turistas británicos que subían hasta aquí en el siglo XIX para contemplar el paisaje.\n\n### La visita\nDesde el mirador se domina visualmente el macizo de Anaga en toda su extensión: barrancos profundos cubiertos de laurisilva, el océano Atlántico en el horizonte, la silueta de Gran Canaria al sur y La Gomera al oeste. A tus pies, cuando hay nubes, se forma un **mar de nubes espectacular** que cubre el norte de la isla y que el Teide, al fondo, parece flotar sobre él. La estructura del mirador está bien habilitada con barandillas y paneles informativos.\n\n### Antes de ir\n- 🌫️ El mirador está frecuentemente entre nubes — comprueba la webcam de Anaga antes de subir\n- 🕐 La mejor visibilidad suele ser a primera hora de la mañana antes de que suba la niebla\n- 🚗 Carretera TF-12 desde La Laguna, bien señalizada — aparcamiento gratuito junto al mirador\n- 📸 Si hay mar de nubes, la foto desde aquí es de las más espectaculares de Tenerife\n- 🌿 Junto al mirador empieza el sendero al bosque de laurisilva de Cruz del Carmen\n\n### Recomendación\nMadruga, sube antes de las 9h cuando la niebla aún no ha subido, y si tienes suerte con el mar de nubes, verás uno de los espectáculos naturales más hermosos de las Canarias.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.5373,
+        "lng": -16.2285
+      },
+      "images": {
+        "hero": "/images/tenerife/naturaleza/pico-ingles/hero.avif",
+        "gallery": [
+          "/images/tenerife/naturaleza/pico-ingles/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "anaga",
+        "vistas",
+        "mar-de-nubes",
+        "norte",
+        "panorámica"
+      ],
+      "visitDuration": "1h",
+      "difficulty": "easy",
+      "emoji": "🔭",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/Y5M3LPqo3BGPM7AV8"
+    },
+    {
+      "slug": "las-canadas-del-teide",
+      "name": "Las Cañadas del Teide",
+      "shortDescription": "La caldera volcánica más grande de España: un mar de lava solidificada a 2.000 metros",
+      "description": "Las Cañadas del Teide son el corazón del Parque Nacional y el escenario más lunar de toda España. Esta **caldera volcánica de 16 km de diámetro** —la más grande del país— es el resultado del colapso de un antiguo supervulcán y está rodeada por paredes de hasta 600 metros de altura. En su interior, el Teide y el Pico Viejo dominan un paisaje de lavas solidificadas de colores imposibles.\n\n### La visita\nEl camino circular de las Cañadas (TF-21) es uno de los recorridos en coche más espectaculares de Europa: malpaíses de lava negra, los Roques de García —formaciones volcánicas de 100 metros que parecen esculturas abstractas—, el Llano de Ucanca con su superficie de arena blanca y volcánica, y los horizontes ilimitados de un paisaje que cambia de color con la luz del día. La Parador Nacional de Las Cañadas está en el interior de la caldera y es la base perfecta para los que quieren ver el amanecer desde el Teide.\n\n### Antes de ir\n- 🎫 El Parque Nacional es gratuito — el teleférico y el acceso a la cumbre requieren reserva online con meses de antelación\n- 🌡️ La temperatura puede bajar a 0°C incluso en verano — lleva ropa de abrigo siempre\n- 🔭 La contaminación lumínica es mínima — las Cañadas son uno de los mejores spots de astroturismo de Europa\n- 🚗 TF-21 desde La Orotava (norte) o desde Vilaflor (sur) — la ruta norte tiene mejores vistas\n- ⛽ No hay gasolineras en el Parque — llena el depósito antes de subir\n\n### Recomendación\nSube a primera hora, para en los Roques de García a caminar 30 minutos, súbete al teleférico si tienes reserva y quédate al atardecer para ver cómo el Teide proyecta su sombra triangular sobre las nubes del norte.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.25,
+        "lng": -16.61
+      },
+      "images": {
+        "hero": "/images/tenerife/naturaleza/canadas/hero.avif",
+        "gallery": [
+          "/images/tenerife/naturaleza/canadas/1.avif",
+          "/images/tenerife/naturaleza/canadas/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "caldera",
+        "lava",
+        "volcán",
+        "parque-nacional",
+        "altitud",
+        "roques"
+      ],
+      "visitDuration": "Medio día",
+      "difficulty": "easy",
+      "emoji": "🌋",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/B8mVnUwAHG8sXYRS7"
+    },
+    {
+      "slug": "barranco-del-infierno",
+      "name": "Barranco del Infierno",
+      "shortDescription": "La ruta de senderismo más famosa de Tenerife: cascada de 80m y paredes de 200m",
+      "description": "El Barranco del Infierno es la excursión de senderismo más popular de Tenerife y una de las más espectaculares de Canarias. Parte del casco histórico de Adeje y asciende por un barranco de paredes verticales hasta una **cascada permanente de 80 metros** —la más alta de Tenerife—, todo en un entorno de vegetación subtropical frondosa y absolutamente ajeno al turismo de playa del sur.\n\n### La visita\nLa ruta es lineal, de 7,5 km de ida y vuelta con unos 350 metros de desnivel acumulado. El sendero sigue el cauce del barranco, con pasos estrechos, puentes de madera sobre el agua y zonas donde las paredes se cierran hasta unos pocos metros de anchura. El microclima húmedo del barranco mantiene una vegetación exuberante de helechos, tabaibas y tarajales. La cascada al final del recorrido es el gran premio.\n\n### Antes de ir\n- 🎟️ Acceso con reserva previa obligatoria y cupo diario limitado — reserva en la web del Cabildo\n- 🥾 Calzado de senderismo imprescindible — el terreno es irregular y hay partes mojadas\n- ⏱️ Duración: 3-4 horas ida y vuelta a ritmo tranquilo\n- 🚗 Aparcar en el pueblo de Adeje — el acceso al barranco es a pie desde el casco histórico\n- 💧 Llevar al menos 1,5 litros de agua por persona — en verano es muy caluroso\n\n### Recomendación\nEmpieza temprano (apertura a las 8h) para evitar el calor y las aglomeraciones. Reserva con varios días de antelación, especialmente en temporada alta.",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.1213,
+        "lng": -16.7278
+      },
+      "images": {
+        "hero": "/images/tenerife/senderismo/barranco-infierno/hero.avif",
+        "gallery": [
+          "/images/tenerife/senderismo/barranco-infierno/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "senderismo",
+        "barranco",
+        "cascada",
+        "adeje",
+        "sur",
+        "popular"
+      ],
+      "visitDuration": "4-5h",
+      "difficulty": "moderate",
+      "emoji": "🥾",
+      "top": true,
+      "municipio": "adeje",
+      "track": {
+        "mapsUrl": "https://maps.app.goo.gl/SxQx5QGqQkRH5K9d8",
+        "distance": "7.5 km",
+        "duration": "3-4h",
+        "type": "ida-vuelta",
+        "elevationGain": 350
+      },
+      "mapsUrl": "https://maps.app.goo.gl/SxQx5QGqQkRH5K9d8"
+    },
+    {
+      "slug": "sendero-masca",
+      "name": "Barranco de Masca",
+      "shortDescription": "El descenso más épico de Tenerife: 5km por un cañón de 300m hasta el mar",
+      "description": "El Barranco de Masca es la ruta de senderismo más épica de Tenerife y una de las más espectaculares de toda España. El sendero desciende desde el pueblo de Masca a través de un **cañón de paredes de hasta 300 metros** hasta llegar a una cala virgen a la que solo se puede acceder a pie o en barco. Un recorrido de 5 km que concentra todo el poder geológico del macizo de Teno.\n\n### La visita\nEl descenso dura entre 2,5 y 3,5 horas por terreno irregular, con tramos de escalada baja, pasos por el lecho del barranco con agua y zonas de vegetación subtropical que contrastan con las paredes de roca volcánica desnuda. Al final, una pequeña **playa de cantos negros** te espera junto al Atlántico. El regreso es obligatoriamente en **barco hasta Los Gigantes** —el pueblo no tiene otro acceso por tierra— y forma parte de la experiencia.\n\n### Antes de ir\n- 🎟️ Reserva el barco de regreso ANTES de empezar (salidas desde la cala a las 13h, 15h y 16h aprox.) — sin reserva puedes quedarte atrapado\n- 🥾 Calzado de senderismo de agarre con suela de goma — hay partes mojadas y resbaladizas\n- ⏱️ Sale temprano desde Masca (8-9h) para llegar antes del calor del mediodía\n- 💧 Mínimo 2 litros de agua por persona — no hay fuentes en el recorrido\n- ⚠️ La ruta está cerrada en días de lluvia o riesgo de crecida\n\n### Recomendación\nReserva el barco con días de antelación, llega a Masca antes de las 9h y organiza la logística antes de empezar: la recompensa al final —una cala virgen y el barco cruzando frente a Los Gigantes— lo vale todo.",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2121,
+        "lng": -16.8432
+      },
+      "images": {
+        "hero": "/images/tenerife/senderismo/barranco-masca/hero.avif",
+        "gallery": [
+          "/images/tenerife/senderismo/barranco-masca/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "senderismo",
+        "barranco",
+        "masca",
+        "cañón",
+        "barco",
+        "oeste",
+        "épico"
+      ],
+      "visitDuration": "5-7h",
+      "difficulty": "hard",
+      "emoji": "🥾",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "track": {
+        "mapsUrl": "https://maps.app.goo.gl/R5Yp4K2nJ3nQbPUA7",
+        "distance": "5 km",
+        "duration": "2.5-3.5h",
+        "type": "lineal",
+        "elevationGain": -490,
+        "tips": "Ruta solo de bajada. Regreso obligatorio en barco desde la cala hasta Los Gigantes."
+      },
+      "mapsUrl": "https://maps.app.goo.gl/R5Yp4K2nJ3nQbPUA7"
+    },
+    {
+      "slug": "sendero-paisaje-lunar",
+      "name": "Ruta Paisaje Lunar (PR-TF 72)",
+      "shortDescription": "El camino a las columnas de toba blanca volcánica entre pinares a 2.000 m de altitud",
+      "description": "El sendero PR-TF 72 es la ruta oficial de acceso al Paisaje Lunar, una de las formaciones geológicas más singulares de Tenerife. El camino discurre íntegramente entre el **bosque de Pino Canario** de Vilaflor —el más alto de Tenerife—, con el olor a resina y la vista filtrada entre las copas hasta que de repente el pinar se abre y aparecen las agujas de toba blanca.\n\n### La visita\nEl sendero de 6 km ida y vuelta tiene un desnivel suave de unos 200 metros y transcurre por una pista forestal bien señalizada. El bosque de Pino Canario a esta altitud es impresionante en sí mismo: árboles de 20-30 metros de altura, el suelo cubierto de pinocha y el silencio absoluto roto solo por el viento. A mitad de camino, las vistas al sur de la isla —con el Atlántico en el horizonte— son excepcionales.\n\n### Antes de ir\n- 🚗 Aparcamiento en la zona habilitada junto a la TF-21, km 64 aproximadamente (señalizado)\n- 🥾 Calzado cómodo — el sendero está bien mantenido y no requiere equipo técnico\n- 🌡️ En invierno puede haber nieve o hielo en la pista — consulta condiciones antes de salir\n- ⏱️ Duración total: 2,5-3,5h con parada fotográfica en el Paisaje Lunar\n- 📸 La mejor luz para fotografiar las formaciones es entre las 10h y las 13h\n\n### Recomendación\nCombina este sendero con una visita al Parque Nacional del Teide el mismo día: ambos están en la TF-21 y la combinación constituye el mejor plan de interior de Tenerife.",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.1687,
+        "lng": -16.6319
+      },
+      "images": {
+        "hero": "/images/tenerife/senderismo/paisaje-lunar/hero.avif",
+        "gallery": [
+          "/images/tenerife/senderismo/paisaje-lunar/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "senderismo",
+        "pinar",
+        "vilaflor",
+        "altitud",
+        "volcánico",
+        "PR-TF 72"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🥾",
+      "municipio": "vilaflor",
+      "track": {
+        "mapsUrl": "https://maps.app.goo.gl/VpSxEbKnzJcGCpnS8",
+        "distance": "6 km",
+        "duration": "2.5-3.5h",
+        "type": "ida-vuelta",
+        "elevationGain": 200,
+        "maxAltitude": 2200,
+        "code": "PR-TF 72"
+      },
+      "mapsUrl": "https://maps.app.goo.gl/VpSxEbKnzJcGCpnS8"
+    },
+    {
+      "slug": "montana-blanca-teide",
+      "name": "Montaña Blanca — Acceso al Teide",
+      "shortDescription": "La ruta de senderismo al cráter del Teide: 8km a 3.718m por lava solidificada",
+      "description": "La ruta desde Montaña Blanca hasta el cráter del Teide es el ascenso a pie más importante de España y uno de los más espectaculares de Europa. Sin teleférico, sin colas: solo tú, el sendero de lava solidificada y el horizonte del Atlántico a tus pies. Una experiencia que muy pocos olvidan.\n\n### La visita\nEl sendero (TF-38) parte de la zona de aparcamiento de Montaña Blanca, a 2.350 metros de altitud, y asciende 8 km hasta el Refugio Altavista (3.260m) y de ahí al cráter (3.718m). El paisaje cambia radicalmente con la altitud: primero lava picón rojo, luego huevos del Teide (formaciones de lava en forma de huevo), luego roca volcánica pura y finalmente el borde del cráter con fumarolas de azufre. La cima requiere **permiso previo gratuito** del Parque Nacional.\n\n### Antes de ir\n- 🎫 El permiso para el cráter es gratuito pero limitado (200 personas/día) — reserva en reservasparquesnacionales.es con meses de antelación\n- 🌄 Sube la tarde anterior y duerme en el Refugio Altavista para hacer la cumbre al amanecer\n- 🌡️ La temperatura en la cumbre puede ser de -10°C incluso en verano — equipo de montaña imprescindible\n- 💧 Bebe agua constantemente — la altitud deshidrata más rápido de lo que parece\n- ⛑️ El mal de altura puede afectar a partir de 2.500m — descansa si sientes mareo o dolor de cabeza\n\n### Recomendación\nDuerme en el Refugio Altavista, sube a la cumbre para el amanecer con la isla cubierta de nubes bajo tus pies, y baja por el teleférico: es la mejor experiencia de montaña que puedes tener en Canarias.",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2723,
+        "lng": -16.6424
+      },
+      "images": {
+        "hero": "/images/tenerife/senderismo/montana-blanca/hero.avif",
+        "gallery": [
+          "/images/tenerife/senderismo/montana-blanca/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "senderismo",
+        "teide",
+        "cumbre",
+        "alta-montaña",
+        "TF-38",
+        "altavista"
+      ],
+      "visitDuration": "8-10h",
+      "difficulty": "hard",
+      "emoji": "🏔️",
+      "top": true,
+      "municipio": "la-orotava",
+      "track": {
+        "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9",
+        "distance": "16 km",
+        "duration": "8-10h",
+        "type": "ida-vuelta",
+        "elevationGain": 1370,
+        "maxAltitude": 3718,
+        "code": "TF-38",
+        "tips": "Permiso gratuito obligatorio para el cráter. Refugio Altavista disponible para pernocta."
+      },
+      "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9"
+    },
+    {
+      "slug": "siam-park",
+      "name": "Siam Park",
+      "shortDescription": "El mejor parque acuático del mundo según TripAdvisor: olas de 3 metros y ambiente tailandés",
+      "description": "Siam Park lleva más de una década siendo reconocido como el **mejor parque acuático del mundo** por TripAdvisor Travellers' Choice. No es una afirmación de marketing: sus instalaciones, tamaño y espectacularidad justifican el título. Situado en Costa Adeje, es la experiencia de ocio más popular de todo el sur de Tenerife.\n\n### La visita\nEl parque tiene una **ola artificial de 3 metros** que es la más famosa de Europa —perfecta para surfear sin salir de la piscina—, el Tower of Power con una caída vertical de 28 metros a través de un acuario con tiburones, el tobogán más largo de España y una playa de arena blanca rodeada de arquitectura tailandesa de la que es difícil querer salir. La paleta visual del parque, con pagodas doradas y jardinería tropical, es extraordinaria.\n\n### Antes de ir\n- 🎟️ Compra la entrada online — hasta un 25% más barato y evitas las colas de taquilla\n- 🕘 Llega a la apertura (10h) — la ola de surf se llena en seguida\n- 🌊 Los mejores toboganes para adrenalina son el Tower of Power y el Dragon; para familia, el Mai Thai River\n- 🅿️ Parking gratuito incluido — acceso fácil desde la TF-1 salida 28\n- ☀️ El parque está pensado para un día completo — lleva protector solar de sobra\n\n### Recomendación\nIr entre semana evita las colas del fin de semana en la ola de surf. Lleva ropa seca de recambio y planifica la visita como un día completo sin prisa.",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0778,
+        "lng": -16.7178
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/siam-park/hero.avif",
+        "gallery": [
+          "/images/tenerife/actividades/siam-park/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "parque-acuático",
+        "familia",
+        "olas",
+        "sur",
+        "costa-adeje",
+        "ocio"
+      ],
+      "visitDuration": "Día completo",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": true,
+      "municipio": "adeje",
+      "mapsUrl": "https://maps.app.goo.gl/aBZ1J2pX3KmMNFyH9",
+      "websiteUrl": "https://www.siampark.net"
+    },
+    {
+      "slug": "avistamiento-cetaceos-los-gigantes",
+      "name": "Avistamiento de Cetáceos en Los Gigantes",
+      "shortDescription": "Ballenas piloto y delfines permanentes en el mejor punto de avistamiento de Canarias",
+      "description": "El canal entre Tenerife y La Gomera es uno de los **hábitats de cetáceos más ricos del Atlántico**. Las aguas profundas frente a Los Gigantes albergan una de las pocas colonias **residentes** de calderones o ballenas piloto de Europa, lo que significa que puedes verlos prácticamente cualquier día del año, no solo en temporada.\n\n### La visita\nDesde el puerto de Los Gigantes salen varias compañías con barcos catamarán y zodiac que se acercan a los grupos de calderones con total seguridad y respeto al código de conducta de avistamiento. Los delfines listados y mulares también son frecuentes. Las excursiones duran entre 2 y 3 horas e incluyen parada para nadar y snorkel en una zona de aguas cristalinas junto a los acantilados. Ver un calderón a metros del barco, con Los Gigantes al fondo, es una experiencia que no tiene comparación.\n\n### Antes de ir\n- 🕘 Los tours matutinos (9-11h) ofrecen las mejores condiciones del mar\n- 🎟️ Reserva online con antelación — las compañías responsables tienen cupos limitados\n- 🐋 La presencia de calderones es del 95%+ en cualquier mes del año\n- 🌊 Si te mareas con facilidad, elige un catamarán grande en lugar de zodiac\n- 🤿 Los tours con snorkel incluyen equipo — lleva solo el bañador y una toalla\n\n### Recomendación\nElige compañías con código de conducta de avistamiento (no persiguen ni rodean a los animales). Las mejores están certificadas por el programa Whale Watching Tenerife.",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.2441,
+        "lng": -16.8399
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/cetaceos/hero.avif",
+        "gallery": [
+          "/images/tenerife/actividades/cetaceos/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "ballenas",
+        "delfines",
+        "cetáceos",
+        "barco",
+        "los-gigantes",
+        "marino"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🐋",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/K3xB6TqL7vN9pZjA8"
+    },
+    {
+      "slug": "gastronomia-tenerife",
+      "name": "Gastronomía Canaria en Tenerife",
+      "shortDescription": "Papas arrugadas, mojo, gofio y los mejores vinos del Atlántico: guía gastronómica de la isla",
+      "description": "La cocina canaria de Tenerife es una de las más originales de España: mezcla de influencias atlánticas, americanas, africanas y mediterráneas con ingredientes propios que no encontrarás en ningún otro lugar. Lejos del turismo, la gastronomía de la isla es un mundo de sabores auténticos.\n\n### La visita\nLas **papas arrugadas con mojo** son el plato más reconocible: papas pequeñas hervidas en agua salada hasta que la sal forma una costra en la piel, servidas con mojo verde (cilantro y ajo) o mojo rojo (pimentón y vinagre). El **gofio** —harina de cereales tostados, herencia de los guanches— aparece en sopas, postres y como acompañamiento. El **rancho canario**, el **caldo de papas** y el **potaje de berros** son los platos de cuchara más tradicionales. Los vinos del Valle de La Orotava y de la D.O. Tacoronte-Acentejo se encuentran entre los mejores vinos atlánticos del mundo.\n\n### Antes de ir\n- 🍽️ Mejor gastronomía tradicional: mercado de Nuestra Señora de África (Santa Cruz), Taganana (Anaga), San Andrés y los pueblos del norte como La Orotava\n- 🌶️ El mojo rojo y el mojo verde son tan distintos que pedir los dos es obligatorio\n- 🍷 Busca vinos con D.O. Tacoronte-Acentejo o Valle de La Orotava — los listán negro y blanco son variedades únicas del mundo\n- 🐟 El pescado fresco (vieja, cherne, sama) a la plancha con mojo es la mejor comida costera\n- 🍮 El bienmesabe y el frangollo son los postres tradicionales a no perderse\n\n### Recomendación\nEvita los restaurantes del paseo marítimo de los grandes resorts y busca las guachinches del norte: pequeños bares familiares con vino de la casa y tapas de producto local. Es la experiencia gastronómica más auténtica de Tenerife.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4636,
+        "lng": -16.2518
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/gastronomia/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/gastronomia/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "gastronomía",
+        "papas-arrugadas",
+        "mojo",
+        "gofio",
+        "vino",
+        "guachinche"
+      ],
+      "visitDuration": "Variable",
+      "difficulty": "easy",
+      "emoji": "🍽️",
+      "municipio": "santa-cruz",
+      "sectionOnly": true
     }
   ],
   "sections": [
@@ -158,6 +1041,65 @@
         "teide",
         "los-gigantes"
       ]
+    },
+    {
+      "id": "playas",
+      "label": "Playas",
+      "emoji": "🏖️",
+      "color": "#0ea5e9",
+      "pois": [
+        "playa-de-las-teresitas",
+        "playa-de-los-cristianos",
+        "playa-del-duque",
+        "playa-de-la-arena",
+        "playa-de-benijo",
+        "el-medano"
+      ]
+    },
+    {
+      "id": "senderismo",
+      "label": "Senderismo",
+      "emoji": "🥾",
+      "color": "#16a34a",
+      "pois": [
+        "barranco-del-infierno",
+        "sendero-masca",
+        "sendero-paisaje-lunar",
+        "montana-blanca-teide"
+      ]
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura e Historia",
+      "emoji": "🏛️",
+      "color": "#7c3aed",
+      "pois": [
+        "la-laguna-casco",
+        "puerto-de-la-cruz",
+        "loro-parque",
+        "piramides-de-guimar",
+        "parque-garcia-sanabria"
+      ]
+    },
+    {
+      "id": "actividades",
+      "label": "Actividades",
+      "emoji": "🌊",
+      "color": "#0284c7",
+      "pois": [
+        "siam-park",
+        "avistamiento-cetaceos-los-gigantes"
+      ]
+    },
+    {
+      "id": "transporte",
+      "label": "Cómo Moverse",
+      "emoji": "🚗",
+      "color": "#94a3b8",
+      "pois": [
+        "alquiler-coche-tenerife",
+        "titsa-tenerife"
+      ]
     }
   ],
   "municipios": [
@@ -196,6 +1138,111 @@
       "shortDescription": "Los acantilados de Los Gigantes y el avistamiento de ballenas en el oeste de Tenerife",
       "description": "Santiago del Teide es el municipio del espectacular oeste de Tenerife. Los Gigantes, acantilados de hasta 600 metros que caen verticalmente al Atlántico, crean el paisaje más dramático de la isla. Las aguas frente a la costa albergan una de las colonias de cetáceos más estables de Europa: delfines y ballenas piloto son avistables casi a diario en temporada.",
       "heroImage": "/images/tenerife/los-gigantes/hero.avif"
+    },
+    {
+      "slug": "arona",
+      "name": "Arona",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 28.05,
+        "lng": -16.713
+      },
+      "shortDescription": "Los Cristianos y las playas del sur: el corazón turístico de Tenerife",
+      "description": "Arona concentra algunas de las playas más populares del sur de Tenerife, con Los Cristianos como referencia. Puerto pesquero convertido en destino turístico, conserva la autenticidad de sus calles históricas junto a una oferta de restauración, ocio y deportes náuticos de primer nivel. Desde aquí parten los ferries a La Gomera y El Hierro.",
+      "images": {
+        "hero": "/images/tenerife/playas/los-cristianos/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "adeje",
+      "name": "Adeje",
+      "emoji": "🌴",
+      "coordinates": {
+        "lat": 28.0808,
+        "lng": -16.7402
+      },
+      "shortDescription": "Costa Adeje y Playa del Duque: la zona más exclusiva y elegante del sur de Tenerife",
+      "description": "Adeje es el municipio de la Costa Adeje, el área turística premium del sur de Tenerife. La Playa del Duque, rodeada por los hoteles más lujosos de la isla, y la vecina Playa de Fañabé son sus joyas costeras. El Barranco del Infierno, accesible desde el casco histórico, ofrece una ruta de senderismo espectacular entre paredes verticales.",
+      "images": {
+        "hero": "/images/tenerife/playas/duque/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "granadilla",
+      "name": "Granadilla de Abona",
+      "emoji": "🏄",
+      "coordinates": {
+        "lat": 28.0454,
+        "lng": -16.5376
+      },
+      "shortDescription": "El Médano y el mejor windsurf y kitesurf de España a 5 minutos del aeropuerto",
+      "description": "Granadilla de Abona alberga El Médano, el spot de windsurf y kitesurf más famoso de España. Sus playas de arena fina y viento constante atraen a deportistas de todo el mundo, mientras que el Roque del Moro es uno de los iconos naturales del sur de la isla. El aeropuerto internacional Reina Sofía (TFS) está a apenas 5 minutos en coche.",
+      "images": {
+        "hero": "/images/tenerife/playas/el-medano/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "la-laguna",
+      "name": "San Cristóbal de La Laguna",
+      "emoji": "🌿",
+      "coordinates": {
+        "lat": 28.4853,
+        "lng": -16.3139
+      },
+      "shortDescription": "Ciudad Patrimonio de la Humanidad y puerta al Parque Rural de Anaga",
+      "description": "La Laguna es la ciudad universitaria de Tenerife y Patrimonio de la Humanidad por la UNESCO, con un centro histórico de arquitectura colonial que influyó en el diseño de las ciudades latinoamericanas. Es también la puerta al Parque Rural de Anaga, el bosque de laurisilva más extenso de Europa, donde se encuentran joyas naturales como la Playa de Benijo y los Roques de Anaga.",
+      "images": {
+        "hero": "/images/tenerife/playas/benijo/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "puerto-de-la-cruz",
+      "name": "Puerto de la Cruz",
+      "emoji": "🌴",
+      "coordinates": {
+        "lat": 28.4147,
+        "lng": -16.549
+      },
+      "shortDescription": "La capital turística del norte: piscinas Martiánez, Loro Parque y el primer resort histórico de Tenerife",
+      "description": "Puerto de la Cruz es el destino turístico histórico de Tenerife y el más importante del norte de la isla. Las piscinas Lago Martiánez, diseñadas por César Manrique, el Jardín Botánico —uno de los más antiguos de España— y el Loro Parque hacen de este municipio la referencia cultural y de ocio del norte. Su casco histórico conserva el encanto de la ciudad que durante décadas recibió a la aristocracia europea.",
+      "images": {
+        "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "guimar",
+      "name": "Güímar",
+      "emoji": "🔺",
+      "coordinates": {
+        "lat": 28.3108,
+        "lng": -16.3939
+      },
+      "shortDescription": "Las misteriosas pirámides escalonadas en el sureste tranquilo de Tenerife",
+      "description": "Güímar es un municipio del sureste de Tenerife famoso por sus pirámides escalonadas de piedra volcánica negra, estudiadas por Thor Heyerdahl en los años 90. El entorno es uno de los más tranquilos y auténticos de la isla, lejos del turismo masivo del sur.",
+      "images": {
+        "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "vilaflor",
+      "name": "Vilaflor",
+      "emoji": "🌲",
+      "coordinates": {
+        "lat": 28.1568,
+        "lng": -16.6334
+      },
+      "shortDescription": "El pueblo más alto de España: pinar canario, Paisaje Lunar y acceso al Parque Nacional",
+      "description": "Vilaflor, a 1.400 metros de altitud, es el pueblo más alto de España y la puerta sur al Parque Nacional del Teide. Su entorno de pinares centenarios de Pino Canario alberga el Paisaje Lunar, una de las formaciones geológicas más singulares de las Canarias.",
+      "images": {
+        "hero": "/images/tenerife/naturaleza/paisaje-lunar/hero.avif",
+        "gallery": []
+      }
     }
   ]
 }

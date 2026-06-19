@@ -1,0 +1,1247 @@
+{
+  "pois": [
+    {
+      "slug": "teide",
+      "name": "Teide",
+      "description": "Spaniens höchster Vulkan mit 3.715 Metern. Ein UNESCO-Welterbe-Nationalpark. Seine mondähnlichen Lavalandschaften und die Seilbahn zur Gipfelstation machen ihn zum meistbesuchten Ort Spaniens.",
+      "shortDescription": "Spaniens höchster Vulkan, UNESCO-Welterbe",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2723,
+        "lng": -16.6424
+      },
+      "images": {
+        "hero": "/images/tenerife/teide/hero.avif",
+        "gallery": [
+          "/images/tenerife/teide/1.avif"
+        ]
+      },
+      "audioPreview": "/audio/previews/de/teide-preview.mp3",
+      "hasPremiumAudio": true,
+      "premiumRouteId": "volcano-route",
+      "tags": [
+        "vulkan",
+        "nationalpark",
+        "wandern",
+        "seilbahn",
+        "gipfel"
+      ],
+      "visitDuration": "3-5h",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "top": true,
+      "municipio": "la-orotava"
+    },
+    {
+      "slug": "santa-cruz",
+      "name": "Santa Cruz de Tenerife",
+      "description": "Hauptstadt von Teneriffa und Heimat des berühmtesten Karnevals Spaniens, der als Veranstaltung von internationalem touristischen Interesse anerkannt ist. Großer Handelshafen, García-Sanabria-Park und die moderne Architektur von Calatravas Auditorium.",
+      "shortDescription": "Hauptstadt Teneriffas und Heimat des berühmtesten Karnevals Spaniens",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4636,
+        "lng": -16.2518
+      },
+      "images": {
+        "hero": "/images/tenerife/santa-cruz/hero.avif",
+        "gallery": [
+          "/images/tenerife/santa-cruz/1.avif"
+        ]
+      },
+      "audioPreview": "/audio/previews/de/santa-cruz-preview.mp3",
+      "hasPremiumAudio": true,
+      "premiumRouteId": "volcano-route",
+      "tags": [
+        "stadt",
+        "karneval",
+        "kultur",
+        "hafen",
+        "auditorium"
+      ],
+      "visitDuration": "halber Tag",
+      "emoji": "🏙️",
+      "municipio": "santa-cruz",
+      "top": true
+    },
+    {
+      "slug": "los-gigantes",
+      "name": "Los Gigantes",
+      "description": "Klippen bis zu 600 Meter hoch, die senkrecht in den Atlantik fallen. Bootsausflüge zur Beobachtung von Delfinen und Grindwalen in ihrem natürlichen Lebensraum. Das dramatischste Dorf an der Westküste Teneriffas.",
+      "shortDescription": "600 m hohe Klippen und Walbeobachtung an der Westküste",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2441,
+        "lng": -16.8399
+      },
+      "images": {
+        "hero": "/images/tenerife/los-gigantes/hero.avif",
+        "gallery": [
+          "/images/tenerife/los-gigantes/1.avif"
+        ]
+      },
+      "audioPreview": "/audio/previews/de/los-gigantes-preview.mp3",
+      "hasPremiumAudio": true,
+      "premiumRouteId": "volcano-route",
+      "tags": [
+        "klippen",
+        "wale",
+        "delfine",
+        "boot",
+        "westen"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏔️",
+      "top": true,
+      "municipio": "santiago-del-teide"
+    },
+    {
+      "slug": "playa-de-las-teresitas",
+      "name": "Playa de Las Teresitas",
+      "shortDescription": "Goldener Sahara-Sand und geschützte ruhige Gewässer nur 10 Minuten von Santa Cruz",
+      "description": "Der berühmteste Strand im Norden Teneriffas hat einen so einzigartigen wie spektakulären Ursprung: **Sein goldener Sand wurde in den 1970er-Jahren direkt aus der Sahara importiert** und verwandelte eine Kieselbucht in einen der schönsten Strände des Archipels. Nur zehn Minuten von Santa Cruz entfernt ist er der Küstenzufluchtsort der Hauptstadt.\n\n### Der Besuch\nEin fast einen Kilometer langer Wellenbrecher schützt die Bucht vor dem atlantischen Wellengang und schafft dauerhaft ruhiges Wasser, das ideal zum Schwimmen mit der Familie ist. Königspalmen säumen die Promenade, und das Fischerdorf San Andrés — mit seinen legendären Restaurants für frischen Fisch — ist nur einen kurzen Spaziergang entfernt. Wenige Meter vom Strand entfernt verleiht das **Castillo de San Andrés**, eine Festung aus dem 16. Jahrhundert, dem Umfeld eine historische Dimension.\n\n### Vor der Abreise\n- 🌅 Im Sommer vor 11 Uhr anreisen — der Strand füllt sich schnell, besonders an Wochenenden\n- 🚌 Bus 910 vom Busbahnhof Santa Cruz — 20 Minuten, 1,35 €\n- 🐟 San Andrés nicht verlassen ohne zu essen: Rote Garnelen und gegrillte Napfschnecken sind ein Muss\n- 🏊 Dank des Wellenbrechers das ganze Jahr über ruhiges Wasser — perfekt sogar für sehr kleine Kinder\n- 🅿️ Kostenloser Parkplatz neben dem Strand, füllt sich im Sommer aber früh\n\n### Empfehlung\nEinen Badestopp mit einem Mittagessen in einem Restaurant in San Andrés und einem Besuch der Burg kombinieren: Las Teresitas ist mehr als ein Strand — es ist ein vollständiges Erlebnis im Norden Teneriffas.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4829,
+        "lng": -16.1924
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/teresitas/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/teresitas/1.avif",
+          "/images/tenerife/playas/teresitas/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "goldsand",
+        "norden",
+        "familienfreundlich",
+        "santa-cruz",
+        "ruhiges-wasser"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": true,
+      "municipio": "santa-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/Kp2kKJeqW3F9xbVQ8"
+    },
+    {
+      "slug": "playa-de-los-cristianos",
+      "name": "Playa de Los Cristianos",
+      "shortDescription": "Das Herz des Südens: Dunkelstrand mit Teneriffas lebendigstem Hafen",
+      "description": "Das touristische Herz Südteneriffas schlägt am stärksten in Los Cristianos. Sein Strand mit **dunklem Vulkansand** und warmem, geschütztem Wasser teilt die Bühne mit einem der belebtesten Häfen der Kanarischen Inseln — dem täglichen Ausgangspunkt für Fähren nach La Gomera, Katamarantrips und die besten Walbeobachtungstouren der Insel.\n\n### Der Besuch\nLos Cristianos bewahrt die Seele eines vom modernen Tourismus aufgesaugten Fischerdorfes, und das ist ein großer Teil seines Charmes. Die Strandpromenade verbindet Strandcafés und Terrassen mit lokalen Geschäften, der Stadtmarkt bietet authentisch kanarische Küche, und die Atmosphäre bei Sonnenuntergang auf dem Platz ist pures Südteneriffa. Für Wasserliebhaber bieten Pilotwal-Beobachtungstouren — die Wale sind das ganze Jahr über in diesen Gewässern heimisch — eine der unvergesslichsten Wildtierbegegnungen im Atlantik.\n\n### Vor der Abreise\n- 🐬 Walbeobachtung für den frühen Morgen buchen — die Seebedingungen sind ruhiger und Sichtungen häufiger\n- ⛵ Für einen Besuch auf La Gomera fahren täglich mehrmals Fähren von hier ab (45 Minuten)\n- 🍽️ Der Stadtmarkt und die Straßen des alten Dorfes sind die beste Gegend für kanarische Küche\n- 🚌 Bus 111 von Las Américas und Bus 111/487 von Costa Adeje — sehr häufige Verbindung\n- 🏖️ Der Strand ist am südlichen Ende, nahe dem Hafen, ruhiger\n\n### Empfehlung\nDen Tag mit einem Badestopp beginnen, auf dem Markt Papas arrugadas mit Mojo essen und nachmittags ein Boot besteigen: Los Cristianos ist gemacht, um in verschiedenen Rhythmen genossen zu werden.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.05,
+        "lng": -16.713
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/los-cristianos/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/los-cristianos/1.avif",
+          "/images/tenerife/playas/los-cristianos/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "süden",
+        "hafen",
+        "wale",
+        "lebendig",
+        "familienfreundlich"
+      ],
+      "visitDuration": "Halber Tag",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": true,
+      "municipio": "arona",
+      "mapsUrl": "https://maps.app.goo.gl/fVqkPv8Vq1qFZjqT8"
+    },
+    {
+      "slug": "playa-del-duque",
+      "name": "Playa del Duque",
+      "shortDescription": "Der exklusivste Strand des Südens: weißer Sand, türkisfarbenes Wasser und Luxushotels",
+      "description": "Wenn es einen Strand auf Teneriffa gibt, der mit der Karibik verwechselt werden könnte, dann ist es Playa del Duque. **Feiner, hellgoldener Sand, klares türkisfarbenes Wasser** und der Hintergrund der exklusivsten Hotels des Südens schaffen eine Eleganz, die an spanischen Küsten selten zu finden ist.\n\n### Der Besuch\nDas Wasser ist flach und ruhig — ideal für Kinder und alle, die lieber ohne Aufregung schwimmen. Am nördlichen Ende des Strandes, wo Felsen aus dem Wasser ragen, gibt es einen ausgezeichneten Schnorchelspot mit Felsfischen, Seeigeln und Krabben. Zehn Minuten zu Fuß entfernt liegt **Puerto Colón**, die große Marina von Costa Adeje, von der aus täglich Katamarane nach Los Gigantes und Walbeobachtungstouren mit garantierten Sichtungen ablegen. Die gesamte Duque-Strandpromenade mit ihrer Palmenallee und den Hotelterrassen ist darauf ausgelegt, gemächlich genossen zu werden.\n\n### Vor der Abreise\n- 🅿️ Der kostenlose Parkplatz neben dem Strand hat begrenzte Plätze — in der Hochsaison vor 10 Uhr ankommen\n- 🤿 Schnorchelmaske mitbringen: Das nördliche Felsenende hat wirklich interessantes Meeresleben\n- 🚤 Katamaran- und Walbeobachtungstouren starten von Puerto Colón (10 Min. zu Fuß) — online im Voraus buchen\n- 🍹 Die Duque-Promenade hat Strandcafés und Terrassen für das Mittagessen ohne den Sand zu verlassen\n- 🚌 Bus 473 von Los Cristianos und Santa Cruz\n\n### Empfehlung\nVormittags am Strand, nachmittags auf einem Katamaran nach Los Gigantes, abends auf einer Terrasse in Costa Adeje: Playa del Duque ist der perfekte Ausgangspunkt für einen luxuriösen Tag im Süden Teneriffas.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0808,
+        "lng": -16.7402
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/duque/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/duque/1.avif",
+          "/images/tenerife/playas/duque/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "süden",
+        "exklusiv",
+        "heller-sand",
+        "luxus",
+        "costa-adeje"
+      ],
+      "visitDuration": "Halber Tag",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": true,
+      "municipio": "adeje",
+      "mapsUrl": "https://maps.app.goo.gl/pJnMGmFqQ9TZVjYr6"
+    },
+    {
+      "slug": "playa-de-la-arena",
+      "name": "Playa de La Arena",
+      "shortDescription": "Schwarzer Vulkansand, Blaue-Flagge-Qualität und Blick direkt auf La Gomera",
+      "description": "Einer der besten Strände an der Westküste Teneriffas, und einer der internationalem Tourismus am wenigsten bekannten. **Perfekt runder schwarzer Vulkansand**, überraschend klares Wasser und direkter Blick auf die Silhouette La Gomeras am Horizont: La Arena ist genau die Art von Strand, die das Gefühl vermittelt, etwas ganz Eigenes entdeckt zu haben.\n\n### Der Besuch\nDie Bucht ist durch die umliegenden Hügelhänge vor dem Wind geschützt, was das Wasser ruhig hält und die Lufttemperatur mehrere Grad wärmer als an der Südküste macht. Der Strand hält kontinuierlich eine **Blaue Flagge** für Wasserqualität und Strandeinrichtungen. Die Strandpromenade von Puerto de Santiago umgibt den Strand und konzentriert einige der besten Frischfischrestaurants der Westküste. Fünf Minuten mit dem Auto entfernt liegen die Los Gigantes-Klippen, von wo die besten Wal- und Delfinbeobachtungstouren der Insel starten.\n\n### Vor der Abreise\n- 🤿 Das südliche Ende des Strandes — wo Felsen auf Sand treffen — ist ein ausgezeichneter Schnorchelspot mit reichhaltigem Meeresleben\n- 🐋 Den Besuch mit einer Walbeobachtungstour vom Hafen Los Gigantes kombinieren, 5 Minuten mit dem Auto entfernt\n- 🏖️ Schwarzer Sand speichert Wärme: einer der wärmsten Strände der Insel, sogar im Winter\n- 🐟 Den frischen Fisch in den Restaurants an der Strandpromenade von Puerto de Santiago probieren\n- 🅿️ Im Dorf parken (kostenlos) oder auf dem kleinen Parkplatz neben der Promenade\n\n### Empfehlung\nLa Arena funktioniert perfekt als Stützpunkt für die Westküste: schwimmen, schnorcheln, Mittagessen im Dorf und nachmittags ein Boot für die Walbeobachtung in Los Gigantes besteigen.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.2126,
+        "lng": -16.8323
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/la-arena/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/la-arena/1.avif",
+          "/images/tenerife/playas/la-arena/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "schwarzer-sand",
+        "westen",
+        "blaue-flagge",
+        "schnorcheln",
+        "la-gomera"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/zNyKSwTM5AUVZ3JG7"
+    },
+    {
+      "slug": "playa-de-benijo",
+      "name": "Playa de Benijo",
+      "shortDescription": "Wilder Strand im Herzen von Anaga: schwarze Felsen, Atlantikwellen und kein Massentourismus",
+      "description": "Es gibt schöne Strände auf Teneriffa — und dann gibt es Benijo. Eingebettet in die äußerste nordöstliche Spitze der Insel, inmitten des **Anaga-Landschaftsparks**, ist es Teneriffas wildester und authentischster Strand: keine Sonnenliegen, keine Strandcafés, keine Hotels in Sichtweite. Nur der offene Atlantik, schwarzer Vulkansand und die **Roques de Anaga**, die vor der Küste aus dem Wasser ragen.\n\n### Der Besuch\nDie Roques — zwei Vulkanformationen, die wie Wächter über die Bucht wachen — sind das fotografische Wahrzeichen von Benijo und eine der bekanntesten Landschaften des gesamten Archipels. Die Anfahrt zum Strand ist schon Teil des Erlebnisses: Bergkurven durch Lorbeerwälder, terrassierte Felder und kleine Anaga-Weiler, die in der Zeit stillzustehen scheinen. Die Brandung ist offener Atlantik und kann kräftig sein, besonders im Winter.\n\n### Vor der Abreise\n- ⚠️ Die Wellen können gefährlich sein — Seebedingungen vor dem Schwimmen prüfen und niemals bei roter Flagge ins Wasser gehen\n- 📸 Die goldene Stunde bei Sonnenauf- und -untergang ist der beste Zeitpunkt, um die Roques zu fotografieren\n- 🚗 Straße TF-134 von La Laguna Richtung Taganana — enge Bergkurven, vorsichtig fahren\n- 🅿️ Der kleine Parkplatz neben dem Strand ist kostenlos — an Wochenenden füllt er sich früh\n- 🎒 Keinerlei Einrichtungen am Strand — Wasser und Essen mitbringen und allen Müll mitnehmen\n\n### Empfehlung\nBei Tagesanbruch hinfahren, wenn die Sonne auf die Roques trifft und der Strand fast leer ist: Benijo in diesem Moment ist einer der beeindruckendsten Orte auf den gesamten Kanarischen Inseln.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.5588,
+        "lng": -16.1772
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/benijo/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/benijo/1.avif",
+          "/images/tenerife/playas/benijo/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "wild",
+        "anaga",
+        "felsen",
+        "norden",
+        "natur",
+        "ursprünglich"
+      ],
+      "visitDuration": "3-5h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/nT6kJx8a3b2Vp9bQ6"
+    },
+    {
+      "slug": "el-medano",
+      "name": "El Médano",
+      "shortDescription": "Spaniens Windsurfing- und Kitesurfing-Hauptstadt: konstanter Passatwind, langer Sandstrand und junges Flair",
+      "description": "El Médano ist Teneriffas anderer Strand. Während der Rest des Südens sonnenscheinreiche Windstille sucht, hat dieses Dorf den **konstanten atlantischen Passatwind** angenommen und ihn zu seinem größten Aktivposten gemacht: Es ist der beste Windsurfing- und Kitesurfing-Spot Spaniens und eine weltweite Referenz für Leichtwindwassersport. Jung, kosmopolitisch und immer in Bewegung.\n\n### Der Besuch\nMehr als **zwei Kilometer feiner Sand**, flankiert vom Wind, mit dem unverwechselbaren **Roque del Moro** — ein Vulkanfelszahn, der aus dem Meer ragt — der über die Bucht wacht. Windsurfing- und Kitesurfingschulen betreiben direkt am Strand, die Ausrüstungsmiete ist sehr erschwinglich, und die internationalen Instruktoren machen El Médano zum besten Ort Spaniens, um diese Sportarten zu erlernen. Wer lieber ohne Brett schwimmt: **Playa Grande** im Süden bietet ruhigeres Wasser. Und danach ist der Zentralplatz mit seinen Cafés und Terrassen einer der lebendigsten im Süden.\n\n### Vor der Abreise\n- 🏄 Der Wind bläst nachmittags am stärksten — wer lernen möchte, findet morgens ruhigere Bedingungen\n- 🌊 Playa Grande, südlich des Roque del Moro, hat ruhigeres Wasser für Schwimmer ohne Windgerät\n- 🚗 Der Flughafen Reina Sofía (TFS) ist nur 5 Minuten entfernt — ideal als erster oder letzter Stop der Reise\n- 🚌 Bus 116 von Los Cristianos (30 Min.)\n- 🍺 Der Zentralplatz und die umliegenden Terrassen sind der Mittelpunkt des Abendlebens — bei Sonnenuntergang nicht verpassen\n\n### Empfehlung\nNachmittags ankommen, einen Tisch auf der Terrasse des Zentralplatzes suchen und dabei zusehen, wie Kitesurfer mit dem Roque del Moro im Hintergrund die Bucht überqueren: eine der schönsten Szenerien im Süden Teneriffas.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0454,
+        "lng": -16.5376
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/el-medano/hero.avif",
+        "gallery": [
+          "/images/tenerife/playas/el-medano/1.avif",
+          "/images/tenerife/playas/el-medano/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "windsurfing",
+        "kitesurfing",
+        "süden",
+        "sport",
+        "wind",
+        "roque-del-moro"
+      ],
+      "visitDuration": "Halber Tag",
+      "difficulty": "easy",
+      "emoji": "🏄",
+      "municipio": "granadilla",
+      "mapsUrl": "https://maps.app.goo.gl/dKx7PpN2Yn5H6hQZ9"
+    },
+    {
+      "slug": "alquiler-coche-tenerife",
+      "name": "Autovermietung auf Teneriffa",
+      "shortDescription": "Unverzichtbar für die Erkundung der Insel: wie, wo und was die Anmietung eines Autos kostet",
+      "description": "Teneriffa ist eine große und abwechslungsreiche Insel, und **ein Mietwagen ist die freieste und effizienteste Art, sie zu erkunden**. Vom Flughafen Reina Sofía (Süden) oder Los Rodeos (Norden) aus haben Sie unmittelbaren Zugang zu allen großen Mietwagengesellschaften. Die Preise gehören dank des starken Wettbewerbs und des Sondersteuerregimes der Kanarischen Inseln zu den günstigsten in Europa.\n\n### Der Besuch\nMit einem Auto können Sie an einem einzigen Tag den Teide am Morgen, die Klippen von Los Gigantes um Mittag und einen Sonnenuntergang in El Médano kombinieren. Ohne Auto würde dieselbe Route zwei bis drei Tage mit öffentlichen Verkehrsmitteln erfordern. Die Autobahn TF-1 verbindet den Süden mit dem Norden in weniger als 45 Minuten, und die TF-5 verbindet Santa Cruz mit Puerto de la Cruz in 30 Minuten. Bergstraßen (Masca, Anaga) erfordern Vorsicht, sind aber mit einem Standardauto problemlos befahrbar.\n\n### Vor der Abreise\n- 🛬 Immer von zu Hause über DiscoverCars oder ähnliches buchen — bis zu 40% günstiger als an den Flughafenschaltern\n- 📋 Sie benötigen Führerschein, Kreditkarte und müssen über 21 Jahre alt sein (manche Anbieter verlangen 25)\n- ⛽ Tankstellen sind im Süden reichlich vorhanden — im Norden und in den Bergen vorher tanken\n- 🔑 Automatikfahrzeuge sind in der Hochsaison schnell ausgebucht: im Voraus reservieren\n- 🅿️ Parken in Santa Cruz und Puerto de la Cruz kann schwierig sein — kostenpflichtige Parkplätze nutzen\n\n### Empfehlung\nMindestens 48 Stunden vor Ankunft online buchen, Vollkaskoversicherung ohne Selbstbeteiligung wählen und Routen gegen den Uhrzeigersinn planen, um das Tageslicht optimal zu nutzen.",
+      "island": "tenerife",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.0445,
+        "lng": -16.5725
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/alquiler-coche/hero.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "transport",
+        "auto",
+        "mietwagen",
+        "flughafen",
+        "mobilität"
+      ],
+      "emoji": "🚗",
+      "municipio": "granadilla",
+      "discoverCarsLocation": "spain-canary-islands/tenerife",
+      "discoverCarsUrl": "https://www.discovercars.com/spain-canary-islands/tenerife?a_aid=canaryroutes"
+    },
+    {
+      "slug": "titsa-tenerife",
+      "name": "TITSA — Busse auf Teneriffa",
+      "shortDescription": "Das Überlandbusnetz, das die gesamte Insel günstig verbindet",
+      "description": "**TITSA** (Transportes Interurbanos de Tenerife S.A.) ist das öffentliche Busnetz, das praktisch jeden Winkel der Insel verbindet, von Santa Cruz bis El Médano, von Puerto de la Cruz bis Los Gigantes. Es ist die günstigste Möglichkeit, sich fortzubewegen, und ein authentisches lokales Erlebnis.\n\n### Der Besuch\nDie nützlichsten Linien für Besucher sind **111** (Santa Cruz – Los Cristianos, Express), **343** (Santa Cruz – La Laguna – Puerto de la Cruz), **348** (Puerto de la Cruz – Teide – Los Cristianos, die große Panoramaroute der Insel) und **910** (Santa Cruz – Las Teresitas). Die Busse sind modern mit Klimaanlage und WLAN auf den Hauptstrecken. Die **BONO-Karte** gibt 50% Rabatt gegenüber Bargeldtarifen.\n\n### Vor der Abreise\n- 📱 Die TITSA-App herunterladen oder titsa.com für aktuelle Fahrpläne prüfen — sonntags eingeschränkter Service\n- 💳 BONO-Karte an den Hauptbahnhöfen aufladen — rentabel ab der zweiten Fahrt\n- 🕐 Expresslinien in den Süden (111, 110) sind die schnellsten und häufigsten\n- 🏔️ Linie 348 durchquert den Teide-Nationalpark — eine malerische Route, die kein Auto erfordert\n- 🎫 Eine Einzelfahrt bar von Santa Cruz in den Süden kostet ~3,50 €; mit BONO unter 2 €\n\n### Empfehlung\nWenn Sie nur den Süden oder Norden besuchen, reicht der Bus. Wenn Sie Teide, Anaga oder Masca erkunden möchten, mieten Sie zumindest für diese Tage ein Auto.",
+      "island": "tenerife",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.4636,
+        "lng": -16.2518
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/titsa/hero.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "transport",
+        "bus",
+        "öffentlich",
+        "titsa",
+        "günstig"
+      ],
+      "emoji": "🚌",
+      "municipio": "santa-cruz",
+      "websiteUrl": "https://www.titsa.com"
+    },
+    {
+      "slug": "la-laguna-casco",
+      "name": "La Laguna — Altstadt",
+      "shortDescription": "UNESCO-Weltkulturerbe mit der schönsten Kolonialarchitektur der Kanarischen Inseln",
+      "description": "San Cristóbal de La Laguna war die erste unbefestigte Stadt in der Geschichte Spaniens — ein städtebauliches Experiment aus dem 15. Jahrhundert, das direkt das Design von Städten wie Lima, Havanna und San Juan de Puerto Rico beeinflusste. Die UNESCO erkannte sie 1999 als Weltkulturerbe an. Ihre Altstadt mit schwarzen Lavastraßen und bunten Kolonialfassaden ist die schönste der Kanarischen Inseln.\n\n### Der Besuch\nDie Hauptachse ist die **Calle Obispo Rey Redondo**, gesäumt von Adelshäusern, Barockkirchen und dem Kloster Santa Clara. Die **Kathedrale von La Laguna**, im 20. Jahrhundert im nüchternen neugotischen Stil erbaut, beherbergt den Cristo de La Laguna, das meistverehrte Bildnis Teneriffas. Auf der **Plaza del Adelantado**, dem Herz der Stadt, befinden sich der Stadtmarkt, das Rathaus und einige der besten Cafés der Insel. Die Stadt beherbergt auch die älteste Universität der Kanarischen Inseln, was ihr eine dauerhaft junge und bohemische Atmosphäre verleiht.\n\n### Vor der Abreise\n- 🚋 Die Straßenbahn verbindet La Laguna mit Santa Cruz in 30 Minuten — der komfortabelste Weg dorthin\n- 🕐 Mindestens 3 Stunden für die Altstadt einplanen; es gibt viel zu sehen und zu entdecken\n- ☕ Die Nebenstraßen der Calle Herradores und Umgebung konzentrieren die besten lokalen Cafés und Restaurants\n- 📸 Das Morgenlicht auf den Kolonialfassaden eignet sich am besten für Fotos\n- 🎭 In der Karwoche erlebt La Laguna eine der beeindruckendsten Prozessionen Spaniens\n\n### Empfehlung\nLa Laguna mit dem Parque Rural de Anaga kombinieren: die Stadt nordostwärts verlassen und in 20 Minuten ist man in einem filmreifen Lorbeerwald.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4853,
+        "lng": -16.3139
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/la-laguna/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/la-laguna/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "weltkulturerbe",
+        "kolonial",
+        "geschichte",
+        "kathedrale",
+        "unesco",
+        "altstadt"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/XbEpHvWXaBTMZ2FA9"
+    },
+    {
+      "slug": "puerto-de-la-cruz",
+      "name": "Puerto de la Cruz",
+      "shortDescription": "Die Tourismushauptstadt des Nordens: Gärten, Naturbecken und Teneriffas erstes Resort",
+      "description": "Puerto de la Cruz war Teneriffas erster moderner Tourismusort, im 20. Jahrhundert von der europäischen — und besonders britischen — Aristokratie gewählt, die dem kalten Winter entfliehen wollte. Heute bewahrt es diesen kosmopolitischen Charme einer Stadt, die seit Jahrzehnten die Welt empfängt, ohne ihre kanarische Identität zu verlieren.\n\n### Der Besuch\nDas Herz des Ortes ist die **Plaza del Charco**, umgeben von jahrhundertealten Drachenbäumen und Palmen, mit Terrassen, die zum Verweilen einladen. Die **Lago Martiánez Pools**, entworfen vom lokalen Künstler César Manrique, sind ein Wunder der organischen kanarischen Architektur: Salzwasserbecken verschiedener Größen, die in die schwarze Vulkanlandschaft integriert sind, mit dem Atlantik als Kulisse. Der **Botanische Garten** — einer der ältesten Spaniens — beherbergt tropische Arten aus aller Welt. Und nur 10 Minuten entfernt liegt der **Loro Parque**, der meistausgezeichnete Zoo der Welt.\n\n### Vor der Abreise\n- 🌊 Lago Martiánez hat Eintritt (~8 €), ist aber jeden Cent wert — morgens ankommen\n- 🚌 Bus 343 von Santa Cruz (45 Min.) und Bus 101/102 von Los Gigantes\n- 🛍️ Der Dienstag- und Samstagmarkt ist der beste für lokale Produkte\n- 🌴 Der Botanische Garten ist 10 Gehminuten vom Zentrum entfernt\n- 🍷 Calle Blanco und Umgebung bieten die besten Bars und Restaurants\n\n### Empfehlung\nMorgens ankommen, die ersten Stunden in den Martiánez-Pools verbringen, im Zentrum zu Mittag essen und nachmittags zum Loro Parque fahren: Puerto de la Cruz genießt man ohne Eile.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4147,
+        "lng": -16.549
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/puerto-de-la-cruz/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "norden",
+        "becken",
+        "manrique",
+        "garten",
+        "tourismus",
+        "kosmopolitisch"
+      ],
+      "visitDuration": "Ganzer Tag",
+      "difficulty": "easy",
+      "emoji": "🌴",
+      "top": true,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/3CKJvX1H3aMJqnUT8"
+    },
+    {
+      "slug": "loro-parque",
+      "name": "Loro Parque",
+      "shortDescription": "Der meistausgezeichnete Zoo der Welt: Orcas, Wale, Pinguine und die größte Papageiensammlung",
+      "description": "1972 als Papageienpark gegründet, hat sich Loro Parque zu einem der am höchsten bewerteten Zoos des Planeten entwickelt, von TripAdvisor wiederholt als bester Zoo der Welt ausgezeichnet. Seine hochmodernen Anlagen, Artenschutzprogramme und Orca- und Delfinshows machen ihn zur größten Familienattraktion Teneriffas.\n\n### Der Besuch\nDer Park beherbergt mehr als 30 Primatenarten, die einzigen **Orcas in Europa** außerhalb von SeaWorld, eine der größten in Gefangenschaft gehaltenen **Antarktispinguin**-Kolonien der Welt, Haie, Krokodile und die weltgrößte Papageiensammlung mit mehr als 3.000 Exemplaren aus 350 Arten. Orca-, Delfin- und Seelöwenshows finden mehrmals täglich statt. PlanetPenguin, der Pinguinlebensraum, simuliert die Antarktis mit echtem Schnee.\n\n### Vor der Abreise\n- 🎟️ Tickets online kaufen — bis zu 15% günstiger und keine Warteschlangen\n- 🕘 Zur Öffnung ankommen (10 Uhr), um die ersten Shows ohne Gedränge zu erleben\n- 🐋 Die Orcashow hat begrenzte Kapazität — 20 Minuten früher kommen, um einen Platz zu bekommen\n- 🚌 Bus 343/107 von Puerto de la Cruz Richtung Loro Parque (eigene Haltestelle)\n- ☀️ Der Park erfordert einen ganzen Tag — Sonnencreme und Wasser mitbringen\n\n### Empfehlung\nUm 10 Uhr ankommen, zuerst die Orcashow besuchen (10:30 Uhr), dann PlanetPenguin und die Aquarien erkunden und den Tag mit den Delfinen beenden: Loro Parque ist für einen ganzen Tag ohne Langeweile ausgelegt.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4067,
+        "lng": -16.5713
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/loro-parque/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/loro-parque/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "zoo",
+        "orcas",
+        "pinguine",
+        "familie",
+        "norden",
+        "auszeichnungen"
+      ],
+      "visitDuration": "Ganzer Tag",
+      "difficulty": "easy",
+      "emoji": "🦜",
+      "top": true,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/P9xV1y7f4m1Xqn1H8",
+      "websiteUrl": "https://www.loroparque.com"
+    },
+    {
+      "slug": "piramides-de-guimar",
+      "name": "Pyramiden von Güímar",
+      "shortDescription": "Mysteriöse Stufenkonstruktionen, die Thor Heyerdahl mit dem alten Ägypten in Verbindung brachte",
+      "description": "In der Küstengemeinde Güímar im Südosten Teneriffas stehen sechs **gestufte Pyramiden aus schwarzem Vulkanstein**, deren Ursprung weiterhin diskutiert wird. Der norwegische Forscher Thor Heyerdahl — bekannt durch die Kon-Tiki-Expedition — untersuchte sie in den 1990er-Jahren und schlug vor, dass es sich nicht um einfache landwirtschaftliche Steinhaufen handele, sondern um absichtliche Konstruktionen mit astronomischer Ausrichtung, möglicherweise mit vorkolumbianischen Handelsrouten verbunden.\n\n### Der Besuch\nDer von Heyerdahl geschaffene ethnographische Park umfasst die Pyramiden, ein Museum mit Reproduktionen von Schilfschiffen und Navigationsobjekten sowie Gärten mit endemischen Pflanzen. Die Ausrichtung der Pyramiden zur Sommersonnenwende ist das stärkste Argument für eine absichtliche Konstruktion. Die Hintergrundlandschaft mit dem Teide am Horizont verleiht der Anlage eine fast mystische Dimension.\n\n### Vor der Abreise\n- 🎟️ Eintritt ~12 €; Führungen in mehreren Sprachen verfügbar\n- 🕐 2–3 Stunden einplanen — das Museum ist genauso interessant wie die Pyramiden selbst\n- 🚗 Mit öffentlichen Verkehrsmitteln schwierig — besser mit dem Auto, 40 Minuten von Santa Cruz über die TF-1\n- 📸 Das beste Foto entsteht vom erhöhten Bereich des Parks mit dem Teide im Hintergrund\n- 🌵 Der Botanische Garten des Parks umfasst endemische Kanarische Arten\n\n### Empfehlung\nIdeal kombiniert mit einem Halt im Dorf Güímar und den Aussichtspunkten im Südosten — ein viel weniger besuchtes Gebiet mit spektakulärem Meerblick.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3108,
+        "lng": -16.3939
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/piramides-guimar/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "geschichte",
+        "pyramiden",
+        "archäologie",
+        "geheimnis",
+        "heyerdahl",
+        "südosten"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🔺",
+      "municipio": "guimar",
+      "mapsUrl": "https://maps.app.goo.gl/9y3M4K9A8RQLsDWQ7",
+      "websiteUrl": "https://www.piramidesdeguimar.es"
+    },
+    {
+      "slug": "parque-garcia-sanabria",
+      "name": "García Sanabria Park",
+      "shortDescription": "Santa Cruz' größter Garten: Stadtkunst, Brunnen und jahrhundertealte Drachenbäume",
+      "description": "Der García Sanabria Park ist der größte Stadtgarten der Kanarischen Inseln und einer der schönsten Grünräume des Archipels. 1926 eingeweiht, umfasst er sechs Hektar im Zentrum von Santa Cruz und kombiniert tropische Gärten mit einer permanenten Sammlung **zeitgenössischer Freiluftplastiken**, Ergebnis des Internationalen Skulpturensymposiums von 1973.\n\n### Der Besuch\nKönigliche Palmen, jahrhundertealte Fikusbäume, monumentale Brunnen und Werke internationaler Bildhauer koexistieren in einem Raum, der gleichzeitig Stadtpark und Freilichtmuseum ist. Die **alten Drachenbäume** — der Symbolbaum der Kanarischen Inseln — sind die beeindruckendsten in Santa Cruz. Der Park liegt zwei Gehminuten vom Calatrava-Auditorium und dem Natur- und Archäologiemuseum entfernt.\n\n### Vor der Abreise\n- 🆓 Freier Eintritt — täglich geöffnet\n- 🌿 Am besten morgens besuchen, wenn das Licht durch die Bäume fällt und die Hitze noch mild ist\n- 🖼️ Die Skulpturenkarte ist am Eingang erhältlich — mehr als 40 Werke verteilt im Park\n- 📍 5 Gehminuten vom Calatrava-Auditorium, dem Markt Nuestra Señora de África und Linie zur Playa Teresitas\n- 🍦 Die Eisstände und Terrassencafés der angrenzenden Allee sind ein klassischer Santa Cruz-Nachmittag\n\n### Empfehlung\nDen Tag im Park beginnen, zum Auditorium weitergehen und mit einem Spaziergang durch den Afrika-Markt enden: die perfekte Route, um das kulturelle Herz von Santa Cruz kennenzulernen.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4636,
+        "lng": -16.2518
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/garcia-sanabria/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/garcia-sanabria/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "park",
+        "skulptur",
+        "garten",
+        "santa-cruz",
+        "drachenbäume",
+        "stadtkunst"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🌳",
+      "municipio": "santa-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/Ku3hJVBJzxCuNbUM6"
+    },
+    {
+      "slug": "masca",
+      "name": "Masca",
+      "shortDescription": "Teneriffas dramatischstes Dorf: senkrechte Schluchten, an Klippen hängende Häuser und Stille",
+      "description": "Masca ist einer jener Orte, die einen sprachlos machen. Eingebettet in das Teno-Massiv — die geologisch älteste Ecke Teneriffas — klammert sich das Dorf an einen Grat zwischen senkrechten Schluchten auf mehr als 700 Metern Höhe. Wenn man ankommt und dieses Panorama sieht, versteht man, warum dieser Weiler mit weniger als 100 Einwohnern auf jeder Liste der schönsten Dörfer Spaniens erscheint.\n\n### Der Besuch\nDas Dorf selbst ist klein: ein paar Häuser aus schwarzem Vulkanstein mit roten Ziegeldächern, Terrassen mit Blick in den Abgrund, ein paar Restaurants mit Papas und Teno-Käse sowie Kunsthandwerksläden. Die eigentliche Attraktion ist die **umliegende Landschaft**: die Masca-Schlucht — die durch einen Canyon mit 300 Meter hohen Wänden bis zum Meer absteigt — ist eine der bekanntesten Wanderrouten der Kanarischen Inseln. Man kann Masca auch als Zwischenstopp einer Rundroute durch den Norden besuchen, die Los Gigantes, den Mirador de Cherfe und die Küste von Buenavista einschließt.\n\n### Vor der Abreise\n- 🚗 Die Straße TF-436 ist sehr schmal und kurvenreich — langsam fahren, besonders mit Wohnmobilen\n- 🕐 Vor 10 Uhr ankommen, um Touristenbusse zu vermeiden und das Dorf fast für sich zu haben\n- 🏔️ Bei der Schluchtwanderung die Rückfahrt organisieren: Rückkehr nur per Boot nach Los Gigantes (online buchen) oder zu Fuß bergauf\n- 📸 Der beste Aussichtspunkt liegt 500m vor dem Dorf, an der Straße\n- 🌡️ Die Temperatur in der Schlucht steigt im Sommer stark an — von Juli bis September nicht empfehlenswert\n\n### Empfehlung\nMasca früh morgens besuchen, auf einer Terrasse mit Blick auf die Schlucht frühstücken und weiter nach Los Gigantes an der Küste fahren: einer der spektakulärsten Tage, die man auf Teneriffa verbringen kann.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2121,
+        "lng": -16.8432
+      },
+      "images": {
+        "hero": "/images/tenerife/naturaleza/masca/hero.avif",
+        "gallery": [
+          "/images/tenerife/naturaleza/masca/1.avif",
+          "/images/tenerife/naturaleza/masca/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "dorf",
+        "schlucht",
+        "teno",
+        "norden",
+        "wandern",
+        "dramatisch"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🏘️",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/YJg3HzEJ9fBJ7bEV9"
+    },
+    {
+      "slug": "parque-rural-anaga",
+      "name": "Parque Rural de Anaga",
+      "shortDescription": "Europas ältester Lorbeerwald im äußersten Norden Teneriffas",
+      "description": "Der Parque Rural de Anaga ist eines der außergewöhnlichsten Naturjuwele Europas und dennoch einer der von Massentourismus am meisten ignorierten Winkel Teneriffas. Dieses Gebirgsmassiv an der nordöstlichen Spitze der Insel beherbergt den **weltgrößten Lorbeerwald** — ein Reliktökosystem aus dem Tertiär, das hier auf den Kanaren die letzte Eiszeit überlebt hat.\n\n### Der Besuch\nDer Lorbeerwald ist ein feuchter subtropischer Wald von atemberaubender Schönheit: von Moos und Flechten bedeckte Bäume, Riesenfarne, Nebel, der sich durch die Baumkronen filtert, und eine absolute Stille, nur vom Gesang endemischer Vögel unterbrochen. Die Aussichtspunkte am **Pico del Inglés** und an **Cruz del Carmen** bieten Ausblicke auf ein Wolkenmeer, das den Norden der Insel bedeckt. Von den Dörfern Taganana und El Bailadero aus sind einige der besten Wanderwege der Insel erreichbar.\n\n### Vor der Abreise\n- 🌫️ Nebel ist häufig — warme Kleidung mitbringen, auch im Sommer\n- 🚗 Straße TF-12 von La Laguna Richtung Pico del Inglés — kurvig, aber asphaltiert\n- 🎒 Das Besucherzentrum in Cruz del Carmen hat Wanderkarten und eine Ausstellung zum Ökosystem\n- 🐦 Das endemische Rotkehlchen von Teneriffa ist auf den Wanderwegen sehr leicht zu sehen\n- 🏖️ Mit Playa de Benijo kombinieren, 20 Minuten über die TF-134 von Taganana entfernt\n\n### Empfehlung\nFrühzeitig nach Cruz del Carmen aufsteigen, 30 Minuten auf dem Lorbeerwald-Wanderweg gehen, am Aussichtspunkt Pico del Inglés anhalten und nach Taganana hinabsteigen, um in einer der Bars zu Mittag zu essen: ein Tag reiner Natur.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.5417,
+        "lng": -16.2055
+      },
+      "images": {
+        "hero": "/images/tenerife/naturaleza/anaga/hero.avif",
+        "gallery": [
+          "/images/tenerife/naturaleza/anaga/1.avif",
+          "/images/tenerife/naturaleza/anaga/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "lorbeerwald",
+        "wald",
+        "anaga",
+        "natur",
+        "nebel",
+        "endemisch"
+      ],
+      "visitDuration": "Halber Tag",
+      "difficulty": "easy",
+      "emoji": "🌿",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/YeXMu7J5tFPaV9Qa8"
+    },
+    {
+      "slug": "paisaje-lunar",
+      "name": "Paisaje Lunar",
+      "shortDescription": "Weiße Vulkantuffformationen, die die Mondoberfläche auf 2.000 m Höhe simulieren",
+      "description": "Auf 2.000 Metern Höhe, versteckt zwischen den Kiefernwäldern von Vilaflor, verbirgt sich eine der surrealistischsten Landschaften der Kanarischen Inseln: das **Paisaje Lunar**. Durch Wasser und Wind über Jahrtausende erodierte Säulen, Nadeln und Kegel aus **weißem und gelbem Vulkantuff** schaffen eine Szenerie, die tatsächlich an die Oberfläche des Mondes erinnert.\n\n### Der Besuch\nEs ist nur zu Fuß zugänglich, über den Wanderweg PR-TF 72 vom Parkplatz Vilaflor aus (etwa 45 Minuten sanften Anstiegs durch Kanarischen Kiefernwald). Die Formationen sind zwischen 2 und 5 Meter hoch, und man kann frei zwischen ihnen laufen. Die Kombination aus weißem Tuff vor dem tiefblauen Himmel in der Höhe schafft spektakuläre fotografische Kontraste. An klaren Tagen ist der Teide eindrucksvoll im Hintergrund zu sehen.\n\n### Vor der Abreise\n- 🚗 Zugang über die TF-21 von Vilaflor — am ausgewiesenen Bereich neben der Straße parken (kostenlos)\n- 🥾 Wanderschuhe empfohlen — der Weg hat etwas Gefälle, ist aber zugänglich\n- ⏱️ Hin- und Rückweg dauert 2–3 Stunden — besser morgens durchführen\n- 🌡️ Auf 2.000 m ist es 8–10°C kälter als an der Küste — Jacke mitbringen\n- 📸 Das Morgenlicht (10–12 Uhr) eignet sich am besten für Fotos der weißen Formationen\n\n### Empfehlung\nPaisaje Lunar mit einem Besuch des Dorfes Vilaflor — Spaniens höchstgelegenes Dorf — und einem Halt an den Teide-Cañadas kombinieren: die spektakulärste Inlandsroute auf Teneriffa.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.1687,
+        "lng": -16.6319
+      },
+      "images": {
+        "hero": "/images/tenerife/naturaleza/paisaje-lunar/hero.avif",
+        "gallery": [
+          "/images/tenerife/naturaleza/paisaje-lunar/1.avif",
+          "/images/tenerife/naturaleza/paisaje-lunar/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "vulkanisch",
+        "tuff",
+        "höhe",
+        "wandern",
+        "surreal",
+        "vilaflor"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "moderate",
+      "emoji": "🌕",
+      "top": true,
+      "municipio": "vilaflor",
+      "mapsUrl": "https://maps.app.goo.gl/HgNPx7CJQaGM2fTs6"
+    },
+    {
+      "slug": "mirador-pico-ingles",
+      "name": "Mirador del Pico del Inglés",
+      "shortDescription": "Anaga's bester Aussichtspunkt: 360°-Panorama über Nordteneriffa und La Gomera",
+      "description": "Der Mirador del Pico del Inglés auf 992 Metern Höhe im Herzen des Parque Rural de Anaga bietet einen der spektakulärsten Ausblicke auf ganz Teneriffa und an klaren Tagen eines der beeindruckendsten Inselpanoramen im Atlantik. Seinen Namen verdankt er den alten britischen Touristen, die im 19. Jahrhundert heraufkamen, um die Landschaft zu genießen.\n\n### Der Besuch\nVom Aussichtspunkt aus überblickt man das gesamte Anaga-Massiv: tiefe, mit Lorbeerwald bedeckte Schluchten, der Atlantik am Horizont, die Silhouette Gran Canarias im Süden und La Gomeras im Westen. Tief unten, wenn Wolken aufziehen, bildet sich ein **spektakuläres Wolkenmeer**, das den Norden der Insel bedeckt, über dem der Teide in der Ferne zu schweben scheint. Der Aussichtspunkt ist gut mit Geländern und Informationstafeln ausgestattet.\n\n### Vor der Abreise\n- 🌫️ Der Aussichtspunkt liegt häufig in Wolken — vor der Auffahrt die Anaga-Webcam prüfen\n- 🕐 Die beste Sicht ist meist früh morgens, bevor der Nebel aufsteigt\n- 🚗 Straße TF-12 von La Laguna, gut ausgeschildert — kostenloser Parkplatz neben dem Aussichtspunkt\n- 📸 Bei Wolkenmeer ist das Foto von hier eines der spektakulärsten auf Teneriffa\n- 🌿 Der Lorbeerwald-Wanderweg Cruz del Carmen beginnt neben dem Aussichtspunkt\n\n### Empfehlung\nFrüh aufstehen, vor 9 Uhr ankommen, wenn der Nebel noch nicht aufgestiegen ist, und bei Glück mit dem Wolkenmeer eines der schönsten Naturschauspiele der Kanarischen Inseln erleben.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.5373,
+        "lng": -16.2285
+      },
+      "images": {
+        "hero": "/images/tenerife/naturaleza/pico-ingles/hero.avif",
+        "gallery": [
+          "/images/tenerife/naturaleza/pico-ingles/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "anaga",
+        "ausblicke",
+        "wolkenmeer",
+        "norden",
+        "panorama"
+      ],
+      "visitDuration": "1h",
+      "difficulty": "easy",
+      "emoji": "🔭",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/Y5M3LPqo3BGPM7AV8"
+    },
+    {
+      "slug": "las-canadas-del-teide",
+      "name": "Las Cañadas del Teide",
+      "shortDescription": "Spaniens größte Vulkankaldera: ein Meer aus erstarrter Lava auf 2.000 Metern Höhe",
+      "description": "Las Cañadas del Teide sind das Herz des Nationalparks und die mondähnlichste Landschaft ganz Spaniens. Diese **Vulkankaldera von 16 km Durchmesser** — die größte des Landes — entstand durch den Kollaps eines alten Supervulkans und ist von bis zu 600 Meter hohen Wänden umgeben. Im Inneren dominieren Teide und Pico Viejo eine Landschaft aus erstarrten Laven in unmöglichen Farben.\n\n### Der Besuch\nDie Cañadas-Rundstraße (TF-21) ist eine der spektakulärsten Autofahrten Europas: Badlands aus schwarzer Lava, die Roques de García — 100 Meter hohe Vulkanformationen, die wie abstrakte Skulpturen wirken —, der Llano de Ucanca mit seiner weißen Vulkansandoberfläche und die grenzenlosen Horizonte einer Landschaft, die sich mit dem Tageslicht in der Farbe verändert. Das Parador Nacional de Las Cañadas liegt im Inneren der Kaldera und ist die perfekte Basis für alle, die den Sonnenaufgang vom Teide aus erleben möchten.\n\n### Vor der Abreise\n- 🎫 Der Nationalpark ist kostenlos — Seilbahn und Gipfelzugang erfordern eine Online-Buchung Monate im Voraus\n- 🌡️ Die Temperatur kann auch im Sommer auf 0°C fallen — immer warme Kleidung mitbringen\n- 🔭 Lichtverschmutzung ist minimal — Las Cañadas ist einer der besten Astrotourismus-Spots Europas\n- 🚗 TF-21 von La Orotava (Norden) oder Vilaflor (Süden) — die nördliche Route hat die besseren Aussichten\n- ⛽ Keine Tankstellen im Park — vor der Auffahrt tanken\n\n### Empfehlung\nFrühzeitig aufsteigen, bei den Roques de García für einen 30-minütigen Spaziergang anhalten, bei Buchung die Seilbahn nehmen und zum Sonnenuntergang bleiben, um zu sehen, wie der Teide seinen dreieckigen Schatten auf die Nordwolken wirft.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.25,
+        "lng": -16.61
+      },
+      "images": {
+        "hero": "/images/tenerife/naturaleza/canadas/hero.avif",
+        "gallery": [
+          "/images/tenerife/naturaleza/canadas/1.avif",
+          "/images/tenerife/naturaleza/canadas/2.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "kaldera",
+        "lava",
+        "vulkan",
+        "nationalpark",
+        "höhe",
+        "roques"
+      ],
+      "visitDuration": "Halber Tag",
+      "difficulty": "easy",
+      "emoji": "🌋",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/B8mVnUwAHG8sXYRS7"
+    },
+    {
+      "slug": "barranco-del-infierno",
+      "name": "Barranco del Infierno",
+      "shortDescription": "Teneriffas berühmteste Wanderroute: 80m-Wasserfall und 200m-Schluchtwände",
+      "description": "Der Barranco del Infierno ist Teneriffas beliebteste Wanderroute und eine der spektakulärsten der Kanarischen Inseln. Sie beginnt im historischen Ortskern von Adeje und führt durch eine Schlucht mit senkrechten Wänden zu einem **dauerhaften 80-Meter-Wasserfall** — dem höchsten auf Teneriffa — in einer üppig subtropisch begrünten Umgebung, die nichts mit dem Strandtourismus der nahen Südküste zu tun hat.\n\n### Der Besuch\nDie Route ist linear — 7,5 km hin und zurück mit rund 350 Höhenmetern kumuliertem Anstieg. Der Weg folgt dem Schluchtengrund mit engen Passagen, Holzbrücken über das Wasser und Abschnitten, in denen sich die Wände auf wenige Meter verengen. Das feuchte Mikroklima unterhält eine üppige Vegetation aus Farnen, Tabaibas und Tarajales. Der Wasserfall am Ende ist die große Belohnung.\n\n### Vor der Abreise\n- 🎟️ Voranmeldung ist Pflicht, Tageskontingent begrenzt — Buchung auf der Website des Cabildo\n- 🥾 Wanderschuhe unbedingt erforderlich — unebenes Gelände und teils nasse Stellen\n- ⏱️ Dauer: 3–4 Stunden hin und zurück in gemächlichem Tempo\n- 🚗 Im Dorf Adeje parken — Zugang zur Schlucht zu Fuß vom historischen Ortskern\n- 💧 Mindestens 1,5 Liter Wasser pro Person mitbringen — im Sommer ist es sehr heiß\n\n### Empfehlung\nFrühzeitig starten (Öffnung um 8 Uhr), um Hitze und Menschenmassen zu vermeiden. Einige Tage im Voraus buchen, besonders in der Hochsaison.",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.1213,
+        "lng": -16.7278
+      },
+      "images": {
+        "hero": "/images/tenerife/senderismo/barranco-infierno/hero.avif",
+        "gallery": [
+          "/images/tenerife/senderismo/barranco-infierno/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "wandern",
+        "schlucht",
+        "wasserfall",
+        "adeje",
+        "süden",
+        "beliebt"
+      ],
+      "visitDuration": "4-5h",
+      "difficulty": "moderate",
+      "emoji": "🥾",
+      "top": true,
+      "municipio": "adeje",
+      "track": {
+        "mapsUrl": "https://maps.app.goo.gl/SxQx5QGqQkRH5K9d8",
+        "distance": "7.5 km",
+        "duration": "3-4h",
+        "type": "ida-vuelta",
+        "elevationGain": 350
+      },
+      "mapsUrl": "https://maps.app.goo.gl/SxQx5QGqQkRH5K9d8"
+    },
+    {
+      "slug": "sendero-masca",
+      "name": "Masca-Schlucht",
+      "shortDescription": "Teneriffas epischster Abstieg: 5km durch einen 300m-Canyon bis ans Meer",
+      "description": "Die Masca-Schlucht ist Teneriffas epischste Wanderroute und eine der spektakulärsten ganz Spaniens. Der Weg führt vom Dorf Masca durch einen **Canyon mit bis zu 300 Meter hohen Wänden** bis zu einer unberührten Bucht, die nur zu Fuß oder mit dem Boot erreichbar ist. 5 km, die die gesamte geologische Dramatik des Teno-Massivs konzentrieren.\n\n### Der Besuch\nDer Abstieg dauert 2,5 bis 3,5 Stunden über unebenes Gelände mit Kletterpassagen, Abschnitten auf dem nassen Schluchtengrund und subtropischer Vegetation, die mit den kahlen Vulkanfelsenwänden kontrastiert. Am Ende erwartet eine kleine **Schwarzkiesbucht** neben dem Atlantik. Die Rückkehr erfolgt zwingend per **Boot nach Los Gigantes** — die Bucht hat keinen anderen Landzugang — und diese Bootsfahrt ist Teil des Erlebnisses.\n\n### Vor der Abreise\n- 🎟️ Rückfahrtboot VOR dem Start buchen (Abfahrten aus der Bucht ca. 13, 15 und 16 Uhr) — ohne Buchung kann man stranden\n- 🥾 Wanderschuhe mit Gummisohle — nasse und rutschige Abschnitte\n- ⏱️ Frühzeitig in Masca aufbrechen (8–9 Uhr), um vor der Mittagshitze anzukommen\n- 💧 Mindestens 2 Liter Wasser pro Person — keine Wasserquellen auf der Route\n- ⚠️ Route bei Regen oder Überschwemmungsrisiko geschlossen\n\n### Empfehlung\nDas Boot Tage im Voraus buchen, vor 9 Uhr in Masca ankommen und die Logistik vor dem Start klären: die Belohnung am Ende — eine unberührte Bucht und eine Bootsfahrt an den Los Gigantes-Klippen vorbei — ist jeden Aufwand wert.",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2121,
+        "lng": -16.8432
+      },
+      "images": {
+        "hero": "/images/tenerife/senderismo/barranco-masca/hero.avif",
+        "gallery": [
+          "/images/tenerife/senderismo/barranco-masca/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "wandern",
+        "schlucht",
+        "masca",
+        "canyon",
+        "boot",
+        "westen",
+        "episch"
+      ],
+      "visitDuration": "5-7h",
+      "difficulty": "hard",
+      "emoji": "🥾",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "track": {
+        "mapsUrl": "https://maps.app.goo.gl/R5Yp4K2nJ3nQbPUA7",
+        "distance": "5 km",
+        "duration": "2.5-3.5h",
+        "type": "lineal",
+        "elevationGain": -490,
+        "tips": "Nur Abstieg. Rückkehr per Boot von der Bucht nach Los Gigantes — im Voraus buchen."
+      },
+      "mapsUrl": "https://maps.app.goo.gl/R5Yp4K2nJ3nQbPUA7"
+    },
+    {
+      "slug": "sendero-paisaje-lunar",
+      "name": "Paisaje-Lunar-Wanderweg (PR-TF 72)",
+      "shortDescription": "Der Weg zu den weißen Vulkantuffsäulen durch Kiefernwald auf 2.000m Höhe",
+      "description": "Der Wanderweg PR-TF 72 ist die offizielle Route zum Paisaje Lunar, einer der einzigartigsten geologischen Formationen Teneriffas. Der Weg verläuft vollständig durch den **Kanarischen Kiefernwald von Vilaflor** — den höchsten auf Teneriffa —, mit Harzduft und Licht, das durch die Baumkronen filtert, bis sich der Wald plötzlich öffnet und die weißen Tuffnadeln erscheinen.\n\n### Der Besuch\nDer 6 km lange Hin- und Rückweg hat einen sanften Anstieg von rund 200 Metern und folgt einem gut markierten Forstweg. Der Kanarische Kiefernwald auf dieser Höhe ist in sich beeindruckend: 20–30 Meter hohe Bäume, der Boden mit Kiefernnadeln bedeckt und absolute Stille, nur vom Wind unterbrochen. Auf halber Strecke sind die Ausblicke nach Süden — mit dem Atlantik am Horizont — außergewöhnlich.\n\n### Vor der Abreise\n- 🚗 Parkplatz im ausgewiesenen Bereich neben der TF-21, ca. km 64 (ausgeschildert)\n- 🥾 Bequemes Schuhwerk — der Weg ist gut gepflegt und erfordert keine technische Ausrüstung\n- 🌡️ Im Winter kann es auf dem Weg Schnee oder Eis geben — Bedingungen vorher prüfen\n- ⏱️ Gesamtdauer: 2,5–3,5h mit Fotostopp am Paisaje Lunar\n- 📸 Das beste Licht für Fotos der Formationen ist zwischen 10 und 13 Uhr\n\n### Empfehlung\nDiesen Wanderweg mit einem Besuch des Teide-Nationalparks am selben Tag kombinieren: Beide liegen an der TF-21 und bilden zusammen den besten Ausflug ins Landesinnere Teneriffas.",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.1687,
+        "lng": -16.6319
+      },
+      "images": {
+        "hero": "/images/tenerife/senderismo/paisaje-lunar/hero.avif",
+        "gallery": [
+          "/images/tenerife/senderismo/paisaje-lunar/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "wandern",
+        "kiefernwald",
+        "vilaflor",
+        "höhe",
+        "vulkanisch",
+        "PR-TF 72"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🥾",
+      "municipio": "vilaflor",
+      "track": {
+        "mapsUrl": "https://maps.app.goo.gl/VpSxEbKnzJcGCpnS8",
+        "distance": "6 km",
+        "duration": "2.5-3.5h",
+        "type": "ida-vuelta",
+        "elevationGain": 200,
+        "maxAltitude": 2200,
+        "code": "PR-TF 72"
+      },
+      "mapsUrl": "https://maps.app.goo.gl/VpSxEbKnzJcGCpnS8"
+    },
+    {
+      "slug": "montana-blanca-teide",
+      "name": "Montaña Blanca — Teide-Gipfel",
+      "shortDescription": "Die Wanderroute zum Teide-Krater: 8km auf 3.718m über erstarrter Lava",
+      "description": "Die Route von Montaña Blanca zum Teide-Krater ist der wichtigste Gipfelanstieg zu Fuß in Spanien und einer der spektakulärsten in Europa. Kein Seil, keine Schlangen: nur Sie, ein Weg aus erstarrter Lava und der Atlantikhorizont weit unter Ihren Füßen. Ein Erlebnis, das nur sehr wenige je vergessen.\n\n### Der Besuch\nDer Weg (TF-38) beginnt am Parkplatz Montaña Blanca auf 2.350 Metern Höhe und steigt 8 km zum Refugio Altavista (3.260m) und dann zum Krater (3.718m) auf. Die Landschaft ändert sich dramatisch mit der Höhe: zuerst roter Schlackenlava, dann Teide-Eier (eiförmige Lavaformationen), dann nackter Vulkanfels und schließlich der Kraterrand mit Schwefelgas-Fumarolen. Der Gipfel erfordert eine **kostenlose Genehmigung** des Nationalparks.\n\n### Vor der Abreise\n- 🎫 Die Kratergenehmigung ist kostenlos, aber begrenzt (200 Personen/Tag) — auf reservasparquesnacionales.es Monate im Voraus buchen\n- 🌄 Am Vortag aufsteigen und im Refugio Altavista übernachten, um den Gipfel bei Sonnenaufgang zu erreichen\n- 🌡️ Gipfeltemperatur kann auch im Sommer auf -10°C fallen — ordentliche Bergausrüstung ist unerlässlich\n- 💧 Ständig Wasser trinken — Höhe dehydriert schneller als erwartet\n- ⛑️ Höhenkrankheit kann ab 2.500m auftreten — bei Schwindel oder Kopfschmerzen ausruhen\n\n### Empfehlung\nIm Refugio Altavista übernachten, bei Sonnenaufgang den Gipfel erreichen, während die Insel in Wolken unter Ihren Füßen liegt, und mit der Seilbahn absteigen: das beste Bergerlebnis auf den Kanarischen Inseln.",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2723,
+        "lng": -16.6424
+      },
+      "images": {
+        "hero": "/images/tenerife/senderismo/montana-blanca/hero.avif",
+        "gallery": [
+          "/images/tenerife/senderismo/montana-blanca/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "wandern",
+        "teide",
+        "gipfel",
+        "hochgebirge",
+        "TF-38",
+        "altavista"
+      ],
+      "visitDuration": "8-10h",
+      "difficulty": "hard",
+      "emoji": "🏔️",
+      "top": true,
+      "municipio": "la-orotava",
+      "track": {
+        "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9",
+        "distance": "16 km",
+        "duration": "8-10h",
+        "type": "ida-vuelta",
+        "elevationGain": 1370,
+        "maxAltitude": 3718,
+        "code": "TF-38",
+        "tips": "Kostenlose Genehmigung für den Krater Pflicht. Refugio Altavista für Übernachtung verfügbar."
+      },
+      "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9"
+    },
+    {
+      "slug": "siam-park",
+      "name": "Siam Park",
+      "shortDescription": "Der beste Wasserpark der Welt laut TripAdvisor: 3-Meter-Wellen und Thai-Atmosphäre",
+      "description": "Siam Park wird seit mehr als einem Jahrzehnt von TripAdvisor Travellers' Choice als **bester Wasserpark der Welt** anerkannt. Das ist keine Marketingbehauptung: seine Anlagen, seine Größe und seine Spektakularität rechtfertigen den Titel vollständig. Gelegen in Costa Adeje ist er das beliebteste Freizeiterlebnis im gesamten Süden Teneriffas.\n\n### Der Besuch\nDer Park verfügt über eine **3 Meter hohe Kunstwelle** — die berühmteste in Europa, ideal zum Surfen ohne Pool zu verlassen —, den Tower of Power mit einem 28-Meter-Senkrecht-Abgang durch ein Hai-Aquarium, Spaniens längste Wasserrutsche und einen Weißsandstrand umgeben von thailändischer Architektur, der wirklich schwer zu verlassen ist. Die visuelle Palette des Parks mit goldenen Pagoden und tropischer Bepflanzung ist außergewöhnlich.\n\n### Vor der Abreise\n- 🎟️ Tickets online kaufen — bis zu 25% günstiger und keine Kassenschlangen\n- 🕘 Zur Öffnung ankommen (10 Uhr) — die Surfwelle füllt sich schnell\n- 🌊 Beste Adrenalinrutschen: Tower of Power und Dragon; für Familien: Mai Thai River\n- 🅿️ Kostenloser Parkplatz inklusive — gute Anbindung von der TF-1, Ausfahrt 28\n- ☀️ Der Park ist für einen ganzen Tag ausgelegt — genug Sonnencreme mitbringen\n\n### Empfehlung\nWochentags kommen vermeidet Wochenendwarteschlangen an der Surfwelle. Trockene Wechselkleidung mitbringen und den Besuch als vollen, entspannten Tag planen.",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0778,
+        "lng": -16.7178
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/siam-park/hero.avif",
+        "gallery": [
+          "/images/tenerife/actividades/siam-park/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "wasserpark",
+        "familie",
+        "wellen",
+        "süden",
+        "costa-adeje",
+        "freizeit"
+      ],
+      "visitDuration": "Ganzer Tag",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": true,
+      "municipio": "adeje",
+      "mapsUrl": "https://maps.app.goo.gl/aBZ1J2pX3KmMNFyH9",
+      "websiteUrl": "https://www.siampark.net"
+    },
+    {
+      "slug": "avistamiento-cetaceos-los-gigantes",
+      "name": "Walbeobachtung in Los Gigantes",
+      "shortDescription": "Ansässige Kurzflossen-Grindwale und Delfine im besten Walbeobachtungsspot der Kanaren",
+      "description": "Der Kanal zwischen Teneriffa und La Gomera ist einer der **artenreichsten Cetaceen-Lebensräume im Atlantik**. Die tiefen Gewässer vor Los Gigantes beherbergen eine der wenigen **ansässigen** Kurzflossen-Grindwal-Kolonien Europas — was bedeutet, dass man sie praktisch an jedem Tag des Jahres sehen kann, nicht nur in der Saison.\n\n### Der Besuch\nVom Hafen Los Gigantes aus operieren mehrere Unternehmen mit Katamaranbooten und Schlauchbooten, die sich Grindwalgruppen sicher und entsprechend dem Walbeobachtungsverhalten nähern. Gestreifte und Große Tümmler sind ebenfalls häufig. Touren dauern 2–3 Stunden und beinhalten einen Schwimm- und Schnorchelstopp im kristallklaren Wasser neben den Klippen. Einen Grindwal in Meternähe vom Boot aus zu sehen, mit den Los Gigantes-Klippen dahinter, ist ein unvergleichliches Erlebnis.\n\n### Vor der Abreise\n- 🕘 Morgentouren (9–11 Uhr) bieten die besten Seebedingungen\n- 🎟️ Online im Voraus buchen — verantwortungsvolle Anbieter haben begrenzte Kapazitäten\n- 🐋 Grindwal-Sichtungen liegen in jedem Monat des Jahres bei über 95%\n- 🌊 Bei Neigung zur Seekrankheit einen großen Katamaran statt Schlauchboot wählen\n- 🤿 Schnorcheltouren beinhalten Ausrüstung — nur Badeanzug und Handtuch mitbringen\n\n### Empfehlung\nAnbieter wählen, die vom Programm Whale Watching Tenerife zertifiziert sind — sie halten sich an Verhaltenskodizes und jagen oder umzingeln die Tiere nicht.",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.2441,
+        "lng": -16.8399
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/cetaceos/hero.avif",
+        "gallery": [
+          "/images/tenerife/actividades/cetaceos/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "wale",
+        "delfine",
+        "cetaceen",
+        "boot",
+        "los-gigantes",
+        "marin"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🐋",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/K3xB6TqL7vN9pZjA8"
+    },
+    {
+      "slug": "gastronomia-tenerife",
+      "name": "Kanarische Küche auf Teneriffa",
+      "shortDescription": "Papas arrugadas, Mojo, Gofio und die besten atlantischen Weine: der Gastronomieführer der Insel",
+      "description": "Die kanarische Küche auf Teneriffa ist eine der originellsten Spaniens: eine Mischung aus atlantischen, amerikanischen, afrikanischen und mediterranen Einflüssen mit einheimischen Zutaten, die man nirgendwo sonst findet. Abseits des Tourismus ist die Gastronomie der Insel eine Welt authentischer Aromen.\n\n### Der Besuch\n**Papas arrugadas mit Mojo** sind das bekannteste Gericht: kleine Kartoffeln in stark gesalzenem Wasser gekocht, bis sich eine Salzkruste auf der Schale bildet, serviert mit grünem Mojo (Koriander und Knoblauch) oder rotem Mojo (Paprika und Essig). **Gofio** — Mehl aus geröstetem Getreide, ein Erbe der Guanchen — erscheint in Suppen, Desserts und als Beilage. **Rancho canario**, **Caldo de papas** und **Potaje de berros** sind die traditionellsten Eintöpfe. Weine aus dem Valle de La Orotava und der D.O. Tacoronte-Acentejo gehören zu den besten atlantischen Weinen der Welt.\n\n### Vor der Abreise\n- 🍽️ Beste traditionelle Küche: Markt Nuestra Señora de África (Santa Cruz), Taganana (Anaga), San Andrés und Nordorte wie La Orotava\n- 🌶️ Roter und grüner Mojo sind so verschieden, dass es Pflicht ist, beide zu bestellen\n- 🍷 Nach Weinen mit D.O. Tacoronte-Acentejo oder Valle de La Orotava Ausschau halten — Listán Negro und Listán Blanco sind weltweit einzigartige Sorten\n- 🐟 Frischer Fisch (Papageienfisch, Zackenbarsch, Meerbrasse) gegrillt mit Mojo ist das beste Küstengericht\n- 🍮 Bienmesabe und Frangollo sind die traditionellen Desserts, die man nicht verpassen darf\n\n### Empfehlung\nResortpromenaden-Restaurants meiden und die Guachinches im Norden aufsuchen: kleine Familienbars mit Hauswein und lokalen Tapas. Das ist das authentischste Gastronomie-Erlebnis auf Teneriffa.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4636,
+        "lng": -16.2518
+      },
+      "images": {
+        "hero": "/images/tenerife/cultura/gastronomia/hero.avif",
+        "gallery": [
+          "/images/tenerife/cultura/gastronomia/1.avif"
+        ]
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "gastronomie",
+        "papas-arrugadas",
+        "mojo",
+        "gofio",
+        "wein",
+        "guachinche"
+      ],
+      "visitDuration": "Variabel",
+      "difficulty": "easy",
+      "emoji": "🍽️",
+      "municipio": "santa-cruz",
+      "sectionOnly": true
+    }
+  ],
+  "sections": [
+    {
+      "id": "historia",
+      "label": "Geschichte",
+      "emoji": "🏰",
+      "color": "#6366f1",
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
+    },
+    {
+      "id": "cultura-canaria",
+      "label": "Kanarische Kultur",
+      "emoji": "🎭",
+      "color": "#ec4899",
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
+    },
+    {
+      "id": "gastronomia",
+      "label": "Gastronomie",
+      "emoji": "🍽️",
+      "color": "#f97316",
+      "pois": [
+        "santa-cruz"
+      ]
+    },
+    {
+      "id": "naturaleza",
+      "label": "Natur",
+      "emoji": "🌿",
+      "color": "#22c55e",
+      "pois": [
+        "teide",
+        "los-gigantes"
+      ]
+    },
+    {
+      "id": "tradiciones",
+      "label": "Traditionen",
+      "emoji": "💃",
+      "color": "#a855f7",
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "label": "Wissenswertes",
+      "emoji": "🔍",
+      "color": "#06b6d4",
+      "pois": [
+        "teide",
+        "los-gigantes"
+      ]
+    },
+    {
+      "id": "playas",
+      "label": "Strände",
+      "emoji": "🏖️",
+      "color": "#0ea5e9",
+      "pois": [
+        "playa-de-las-teresitas",
+        "playa-de-los-cristianos",
+        "playa-del-duque",
+        "playa-de-la-arena",
+        "playa-de-benijo",
+        "el-medano"
+      ]
+    },
+    {
+      "id": "senderismo",
+      "label": "Wandern",
+      "emoji": "🥾",
+      "color": "#16a34a",
+      "pois": [
+        "barranco-del-infierno",
+        "sendero-masca",
+        "sendero-paisaje-lunar",
+        "montana-blanca-teide"
+      ]
+    },
+    {
+      "id": "cultura",
+      "label": "Kultur & Geschichte",
+      "emoji": "🏛️",
+      "color": "#7c3aed",
+      "pois": [
+        "la-laguna-casco",
+        "puerto-de-la-cruz",
+        "loro-parque",
+        "piramides-de-guimar",
+        "parque-garcia-sanabria"
+      ]
+    },
+    {
+      "id": "actividades",
+      "label": "Aktivitäten",
+      "emoji": "🌊",
+      "color": "#0284c7",
+      "pois": [
+        "siam-park",
+        "avistamiento-cetaceos-los-gigantes"
+      ]
+    },
+    {
+      "id": "transporte",
+      "label": "Anreise & Mobilität",
+      "emoji": "🚗",
+      "color": "#94a3b8",
+      "pois": [
+        "alquiler-coche-tenerife",
+        "titsa-tenerife"
+      ]
+    }
+  ],
+  "municipios": [
+    {
+      "slug": "santa-cruz",
+      "name": "Santa Cruz de Tenerife",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 28.4636,
+        "lng": -16.2518
+      },
+      "shortDescription": "Hauptstadt Teneriffas und Heimat des berühmtesten Karnevals Spaniens",
+      "description": "Santa Cruz de Tenerife ist die Hauptstadt der Insel und eine der lebendigsten Städte der Kanarischen Inseln. Der Karneval von Santa Cruz, der als Veranstaltung von internationalem touristischen Interesse anerkannt ist, ist nach Rio de Janeiro der zweitgrößte der Welt. Das Auditorium von Calatrava und der García-Sanabria-Park verleihen der Stadt ein einzigartiges kulturelles Profil.",
+      "heroImage": "/images/tenerife/santa-cruz/hero.avif"
+    },
+    {
+      "slug": "la-orotava",
+      "name": "La Orotava",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 28.2723,
+        "lng": -16.6424
+      },
+      "shortDescription": "Der Nationalpark Teide, Spaniens höchster Vulkan und UNESCO-Welterbe",
+      "description": "La Orotava beherbergt das Herzstück des Nationalparks Teide, des meistbesuchten Vulkans der Welt und mit 3.715 Metern Spaniens höchstem Gipfel. Die mondähnlichen Lavalandschaften, das Wolkenmeer rund um die Caldera und die Seilbahn zur Gipfelstation machen diese Gemeinde zum Pflichtbesuch auf Teneriffa. UNESCO-Welterbe.",
+      "heroImage": "/images/tenerife/teide/hero.avif"
+    },
+    {
+      "slug": "santiago-del-teide",
+      "name": "Santiago del Teide",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 28.2441,
+        "lng": -16.8399
+      },
+      "shortDescription": "Die Klippen von Los Gigantes und Walbeobachtung an der Westküste Teneriffas",
+      "description": "Santiago del Teide ist die Gemeinde der spektakulären Westküste Teneriffas. Los Gigantes, Klippen bis zu 600 Meter hoch, die senkrecht in den Atlantik fallen, schaffen die dramatischste Landschaft der Insel. Die Küstengewässer beherbergen eine der stabilsten Walkolonien Europas: Delfine und Grindwale sind in der Saison fast täglich zu sichten.",
+      "heroImage": "/images/tenerife/los-gigantes/hero.avif"
+    },
+    {
+      "slug": "arona",
+      "name": "Arona",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 28.05,
+        "lng": -16.713
+      },
+      "shortDescription": "Los Cristianos und die Südstrände: das touristische Herz Teneriffas",
+      "description": "Arona beherbergt einige der beliebtesten Strände im Süden Teneriffas, mit Los Cristianos als Herzstück. Ein Fischerhafen, der zum touristischen Ziel wurde, bewahrt die Authentizität seiner historischen Gassen neben erstklassiger Gastronomie, Unterhaltung und Wassersport. Von hier fahren auch die Fähren nach La Gomera und El Hierro ab.",
+      "images": {
+        "hero": "/images/tenerife/playas/los-cristianos/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "adeje",
+      "name": "Adeje",
+      "emoji": "🌴",
+      "coordinates": {
+        "lat": 28.0808,
+        "lng": -16.7402
+      },
+      "shortDescription": "Costa Adeje und Playa del Duque: der exklusivste und eleganteste Bereich im Süden Teneriffas",
+      "description": "Adeje ist die Gemeinde der Costa Adeje, dem Premium-Tourismusgebiet im Süden Teneriffas. Die Playa del Duque, umgeben von den luxuriösesten Hotels der Insel, und die benachbarte Playa de Fañabé sind die Küstenperlen. Der Barranco del Infierno, zugänglich vom historischen Ortskern, bietet eine spektakuläre Wanderroute zwischen senkrechten Wänden.",
+      "images": {
+        "hero": "/images/tenerife/playas/duque/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "granadilla",
+      "name": "Granadilla de Abona",
+      "emoji": "🏄",
+      "coordinates": {
+        "lat": 28.0454,
+        "lng": -16.5376
+      },
+      "shortDescription": "El Médano und Spaniens bestes Windsurfing und Kitesurfing, 5 Minuten vom Flughafen",
+      "description": "Granadilla de Abona beherbergt El Médano, Spaniens bekanntesten Windsurfing- und Kitesurfing-Spot. Seine langen Feinsandstrände und konstanter Passatwind ziehen Wassersportler aus aller Welt an, während der Roque del Moro eines der ikonischsten Naturwahrzeichen des Südens ist. Der internationale Flughafen Reina Sofía (TFS) ist nur 5 Minuten mit dem Auto entfernt.",
+      "images": {
+        "hero": "/images/tenerife/playas/el-medano/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "la-laguna",
+      "name": "San Cristóbal de La Laguna",
+      "emoji": "🌿",
+      "coordinates": {
+        "lat": 28.4853,
+        "lng": -16.3139
+      },
+      "shortDescription": "UNESCO-Welterbestadt und Tor zum Landschaftspark Anaga",
+      "description": "La Laguna ist Teneriffas Universitätsstadt und UNESCO-Weltkulturerbe mit einem kolonialen Stadtkern, der die Gestaltung lateinamerikanischer Städte beeinflusste. Es ist auch das Tor zum Landschaftspark Anaga, dem größten Lorbeerwald Europas, wo Naturjuwelen wie die Playa de Benijo und die Roques de Anaga warten.",
+      "images": {
+        "hero": "/images/tenerife/playas/benijo/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "puerto-de-la-cruz",
+      "name": "Puerto de la Cruz",
+      "emoji": "🌴",
+      "coordinates": {
+        "lat": 28.4147,
+        "lng": -16.549
+      },
+      "shortDescription": "Die Tourismushauptstadt des Nordens: Martiánez-Pools, Loro Parque und Teneriffas ursprüngliches historisches Resort",
+      "description": "Puerto de la Cruz ist Teneriffas historischer Tourismusort und der wichtigste im Norden der Insel. Die von César Manrique gestalteten Lago-Martiánez-Pools, der Botanische Garten — einer der ältesten Spaniens — und der Loro Parque machen diese Gemeinde zur Kultur- und Freizeitreferenz des Nordens.",
+      "images": {
+        "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "guimar",
+      "name": "Güímar",
+      "emoji": "🔺",
+      "coordinates": {
+        "lat": 28.3108,
+        "lng": -16.3939
+      },
+      "shortDescription": "Die mysteriösen Stufenpyramiden im ruhigen Südosten Teneriffas",
+      "description": "Güímar ist eine Gemeinde im Südosten Teneriffas, bekannt für ihre Stufenpyramiden aus schwarzem Vulkanstein, die Thor Heyerdahl in den 1990er-Jahren untersuchte.",
+      "images": {
+        "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "vilaflor",
+      "name": "Vilaflor",
+      "emoji": "🌲",
+      "coordinates": {
+        "lat": 28.1568,
+        "lng": -16.6334
+      },
+      "shortDescription": "Spaniens höchstes Dorf: Kanarischer Kiefernwald, Paisaje Lunar und Tor zum Nationalpark",
+      "description": "Vilaflor liegt auf 1.400 Metern Höhe und ist Spaniens höchstes Dorf sowie das südliche Eingangstor zum Teide-Nationalpark. Seine alten Kanarischen Kiefernwälder beherbergen das Paisaje Lunar, eine der einzigartigsten geologischen Formationen der Kanarischen Inseln.",
+      "images": {
+        "hero": "/images/tenerife/naturaleza/paisaje-lunar/hero.avif",
+        "gallery": []
+      }
+    }
+  ]
+}
