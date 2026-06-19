@@ -20,66 +20,58 @@ const ISLANDS: IslandConfig[] = [
     active: true,
     viewBox: '0 0 400 420',
     path: 'M 350.33 142.67 L 355.75 147.88 L 369.29 154.39 L 372 159.61 L 369.29 171.33 L 363.87 185.67 L 361.17 198.7 L 372 211.73 L 372 216.94 L 363.87 220.85 L 358.46 227.36 L 350.33 244.3 L 358.46 254.73 L 361.17 269.06 L 361.17 280.79 L 347.62 286 L 339.5 291.21 L 315.12 318.58 L 304.28 327.7 L 250.11 343.33 L 241.98 347.24 L 239.28 347.24 L 220.31 368.09 L 209.48 372 L 201.35 368.09 L 195.94 362.88 L 187.81 358.97 L 155.31 357.67 L 141.76 353.76 L 128.22 348.55 L 87.59 317.27 L 82.17 309.45 L 79.46 304.24 L 63.21 296.42 L 57.8 291.21 L 55.09 287.3 L 30.71 243 L 28 227.36 L 30.71 211.73 L 28 202.61 L 28 190.88 L 28 179.15 L 30.71 170.03 L 38.83 162.21 L 68.63 147.88 L 82.17 138.76 L 98.43 123.12 L 111.97 103.58 L 109.26 85.33 L 117.39 77.52 L 120.09 64.48 L 117.39 48.85 L 114.68 37.12 L 122.8 37.12 L 130.93 37.12 L 139.06 38.42 L 144.47 42.33 L 155.31 39.73 L 195.94 52.76 L 252.82 52.76 L 298.87 63.18 L 317.83 57.97 L 315.12 31.91 L 336.79 28 L 339.5 29.3 L 344.91 39.73 L 344.91 44.94 L 336.79 47.55 L 331.37 57.97 L 334.08 78.82 L 336.79 108.79 L 339.5 114 L 342.2 123.12 L 344.91 133.55 L 350.33 142.67 Z',
-    fill: '#bff4d2',
-    stroke: '#1f9d61',
+    fill: '#df7302',
+    stroke: '#07040b',
   },
   {
     id: 'tenerife',
     active: true,
-    viewBox: '0 0 440 320',
-    path: 'M 80,180 C 90,140 115,100 150,75 C 185,50 225,45 265,55 C 305,65 335,90 345,125 C 355,160 340,200 315,225 C 290,250 250,265 210,268 C 170,270 130,258 108,235 C 85,210 72,215 80,180 Z',
-    fill: '#fef3c7',
-    stroke: '#f59e0b',
+    viewBox: '0 0 200 166',
+    path: 'M 185.0,10.0 L 168.0,14.9 L 144.2,11.7 L 141.8,17.0 L 123.1,26.8 L 121.7,33.7 L 110.5,46.0 L 85.8,57.1 L 66.8,56.1 L 49.0,63.3 L 35.3,61.5 L 30.8,57.5 L 10.0,66.6 L 28.4,90.4 L 28.9,104.9 L 50.9,134.6 L 50.9,142.9 L 56.5,144.8 L 58.8,155.8 L 94.8,150.7 L 121.5,119.7 L 122.1,106.0 L 136.5,80.8 L 136.3,62.4 L 149.5,53.5 L 164.7,35.4 L 189.0,23.9 L 190.0,17.5 Z',
+    fill: '#dff1f7',
+    stroke: '#1a1a1a',
   },
 
   // ── Coming soon ────────────────────────────────────────────────────────
   {
     id: 'lanzarote',
     active: false,
-    viewBox: '0 0 320 210',
-    path: 'M 35,150 C 55,90 135,40 215,45 C 295,50 325,100 295,155 C 265,205 175,225 100,205 C 40,190 20,195 35,150 Z',
-    fill: '#e2e8f0',
-    stroke: '#94a3b8',
+    viewBox: '0 0 175 200',
+    path: 'M 141.7,19.6 L 128.4,15.3 L 125.8,10.0 L 118.8,11.1 L 120.4,23.3 L 125.8,28.1 L 116.2,39.7 L 117.8,47.7 L 130.0,50.9 L 125.8,70.5 L 119.9,78.0 L 107.7,72.1 L 82.2,76.4 L 72.1,90.2 L 50.9,93.9 L 31.8,110.4 L 26.5,121.5 L 26.5,150.7 L 10.0,166.1 L 14.2,183.6 L 32.8,183.1 L 46.1,190.0 L 58.8,176.7 L 63.6,164.5 L 93.9,159.2 L 106.6,149.6 L 125.2,145.4 L 145.9,128.9 L 156.5,95.0 L 151.2,80.6 L 163.5,69.5 L 165.0,54.6 L 160.8,45.0 L 145.9,36.5 L 147.0,27.5 Z',
+    fill: '#dff1f7',
+    stroke: '#1a1a1a',
   },
   {
     id: 'fuerteventura',
     active: false,
-    viewBox: '0 0 210 370',
-    path: 'M 105,22 C 155,18 195,58 205,120 C 215,182 195,275 162,335 C 143,365 90,355 68,295 C 46,235 48,132 75,65 C 85,38 95,24 105,22 Z',
-    fill: '#e2e8f0',
-    stroke: '#94a3b8',
+    viewBox: '0 0 176 200',
+    path: 'M 156.9,11.8 L 141.3,10.0 L 121.9,19.9 L 123.2,29.1 L 117.2,42.5 L 117.4,52.8 L 102.8,81.0 L 91.8,92.0 L 88.5,108.1 L 79.3,120.6 L 76.3,145.0 L 68.9,155.2 L 35.6,176.2 L 13.6,175.5 L 10.0,185.8 L 21.0,182.8 L 52.1,190.0 L 75.3,161.1 L 121.2,150.1 L 143.7,139.6 L 159.4,101.0 L 155.7,78.1 L 162.3,72.2 L 165.8,51.7 L 162.4,20.0 Z',
+    fill: '#dff1f7',
+    stroke: '#1a1a1a',
   },
   {
     id: 'la-palma',
     active: false,
-    viewBox: '0 0 240 350',
-    path: 'M 120,22 C 172,22 212,70 215,132 C 218,194 198,272 163,325 C 144,350 102,342 78,298 C 52,248 52,152 78,86 C 92,46 106,22 120,22 Z',
-    fill: '#e2e8f0',
-    stroke: '#94a3b8',
+    viewBox: '0 0 133 200',
+    path: 'M 42.8,10.0 L 13.3,38.9 L 10.0,56.6 L 19.9,71.1 L 28.4,98.7 L 39.6,113.8 L 42.2,127.6 L 60.6,154.5 L 61.9,172.3 L 71.1,190.0 L 80.3,190.0 L 85.5,174.2 L 108.5,137.4 L 111.8,113.1 L 106.6,93.4 L 111.8,79.6 L 123.0,65.8 L 123.0,59.9 L 110.5,42.8 L 109.9,33.0 L 102.0,17.2 L 86.2,15.3 L 80.3,18.5 L 67.8,18.5 L 55.3,15.3 L 52.7,10.0 Z',
+    fill: '#dff1f7',
+    stroke: '#1a1a1a',
   },
   {
     id: 'la-gomera',
     active: false,
-    viewBox: '0 0 260 255',
-    path: 'M 130,22 C 196,22 248,72 248,138 C 248,204 196,242 130,242 C 64,242 12,200 12,138 C 12,76 64,22 130,22 Z',
-    fill: '#e2e8f0',
-    stroke: '#94a3b8',
+    viewBox: '0 0 200 181',
+    path: 'M 33.2,21.6 L 16.2,58.7 L 10.0,103.5 L 20.0,118.2 L 29.3,121.2 L 26.2,133.6 L 47.1,146.0 L 48.6,153.7 L 56.4,156.0 L 64.8,166.1 L 75.7,166.1 L 84.2,171.5 L 98.1,166.1 L 122.8,165.3 L 129.0,156.0 L 137.5,158.3 L 151.4,142.1 L 157.6,142.1 L 159.9,132.1 L 173.0,127.4 L 190.0,109.7 L 186.1,100.4 L 187.7,81.8 L 173.8,58.7 L 165.3,61.0 L 147.5,47.9 L 146.0,42.4 L 134.4,42.4 L 120.5,23.9 L 99.6,19.3 L 82.6,20.0 L 74.1,10.0 L 64.8,10.0 L 54.0,19.3 L 40.9,23.1 Z',
+    fill: '#dff1f7',
+    stroke: '#1a1a1a',
   },
   {
     id: 'el-hierro',
     active: false,
-    viewBox: '0 0 255 275',
-    path: 'M 128,18 C 198,32 248,108 238,178 C 228,248 168,272 108,262 C 52,252 18,198 18,143 C 18,83 58,32 128,18 Z',
-    fill: '#e2e8f0',
-    stroke: '#94a3b8',
-  },
-  {
-    id: 'la-graciosa',
-    active: false,
-    viewBox: '0 0 280 195',
-    path: 'M 68,68 C 108,38 198,42 228,72 C 258,102 252,158 212,175 C 172,192 94,188 62,155 C 32,124 32,96 68,68 Z',
-    fill: '#e2e8f0',
-    stroke: '#94a3b8',
+    viewBox: '0 0 200 178',
+    path: 'M 190.0,39.3 L 174.5,16.2 L 161.4,10.0 L 148.5,10.2 L 142.9,17.1 L 132.1,19.8 L 126.3,30.6 L 114.8,25.1 L 111.7,30.6 L 122.5,39.5 L 121.4,44.4 L 108.3,55.3 L 103.2,54.8 L 91.0,70.6 L 74.4,76.4 L 70.6,81.9 L 56.8,76.4 L 49.7,78.1 L 36.9,64.2 L 19.5,72.1 L 14.9,81.0 L 22.0,95.5 L 10.0,101.0 L 11.8,110.1 L 26.2,121.4 L 36.2,112.1 L 43.3,117.9 L 54.4,118.8 L 60.8,126.3 L 66.6,120.3 L 74.4,123.6 L 81.0,120.5 L 97.7,139.0 L 110.1,164.0 L 119.9,167.8 L 130.3,164.0 L 135.6,152.9 L 130.1,138.3 L 137.8,121.9 L 139.6,105.2 L 144.5,99.9 L 158.5,99.2 L 157.8,93.5 L 164.9,85.7 L 162.0,76.8 Z',
+    fill: '#dff1f7',
+    stroke: '#1a1a1a',
   },
 ];
 
@@ -93,7 +85,6 @@ const ISLAND_LABELS: Record<string, Record<IslandSelectorLocale, string>> = {
   'la-palma':      { es: 'La Palma',       en: 'La Palma',       de: 'La Palma',       no: 'La Palma',       da: 'La Palma',       fi: 'La Palma',       sv: 'La Palma'       },
   'la-gomera':     { es: 'La Gomera',      en: 'La Gomera',      de: 'La Gomera',      no: 'La Gomera',      da: 'La Gomera',      fi: 'La Gomera',      sv: 'La Gomera'      },
   'el-hierro':     { es: 'El Hierro',      en: 'El Hierro',      de: 'El Hierro',      no: 'El Hierro',      da: 'El Hierro',      fi: 'El Hierro',      sv: 'El Hierro'      },
-  'la-graciosa':   { es: 'La Graciosa',    en: 'La Graciosa',    de: 'La Graciosa',    no: 'La Graciosa',    da: 'La Graciosa',    fi: 'La Graciosa',    sv: 'La Graciosa'    },
 };
 
 const ISLAND_SUBTITLES: Record<string, Record<IslandSelectorLocale, string>> = {
@@ -104,7 +95,6 @@ const ISLAND_SUBTITLES: Record<string, Record<IslandSelectorLocale, string>> = {
   'la-palma':      { es: 'La isla bonita',        en: 'The beautiful island',  de: 'Die schöne Insel',      no: 'Den vakre øya',     da: 'Den smukke ø',     fi: 'Kaunis saari',      sv: 'Den vackra ön'       },
   'la-gomera':     { es: 'La isla del Silbo',     en: 'Island of the Silbo',   de: 'Die Silbo-Insel',       no: 'Silbo-øya',         da: 'Silbo-øen',        fi: 'Silbon saari',      sv: 'Silbo-ön'            },
   'el-hierro':     { es: 'La isla del meridiano', en: 'The meridian island',   de: 'Die Meridianinsel',     no: 'Meridianøya',       da: 'Meridianøen',      fi: 'Meridiaanisaari',   sv: 'Meridianöns ö'       },
-  'la-graciosa':   { es: 'La isla minúscula',     en: 'The tiny island',       de: 'Die winzige Insel',     no: 'Den lille øya',     da: 'Den lille ø',      fi: 'Pieni saari',       sv: 'Den lilla ön'        },
 };
 
 const CHOOSE_DEST: Record<IslandSelectorLocale, string> = {
@@ -126,116 +116,125 @@ export function IslandSelector({ locale }: { locale: IslandSelectorLocale }) {
   const comingSoonIslands = ISLANDS.filter(i => !i.active);
 
   return (
-    <div style={{ padding: '28px 20px 48px', display: 'flex', flexDirection: 'column', gap: '28px' }}>
+    <div style={{ padding: '0px 16px 52px', display: 'flex', flexDirection: 'column', gap: '24px' }}>
 
       {/* ── Section header ── */}
       <p style={{
         fontFamily: "'Outfit', sans-serif",
-        fontSize: '13px',
+        fontSize: '22px',
         fontWeight: '600',
-        letterSpacing: '0.16em',
-        textTransform: 'uppercase',
-        color: '#9ca3af',
+        fontStyle: 'normal',
+        color: '#59aad0',
         textAlign: 'center',
         margin: 0,
+        letterSpacing: '0.01em',
       }}>
         {CHOOSE_DEST[locale]}
       </p>
 
-      {/* ── Active island cards ── */}
-      <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>
+      {/* ── Active island cards — 2 por fila en mobile ── */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(2, 1fr)',
+        gap: '14px',
+        maxWidth: '480px',
+        margin: '0 auto',
+        width: '100%',
+      }}>
         {activeIslands.map((island) => (
           <button
             key={island.id}
             onClick={() => router.push(`/${locale}/${island.id}`)}
             style={{
-              background: 'white',
-              border: '2px solid #e5e7eb',
-              borderRadius: '24px',
-              padding: '28px 32px 22px',
+              backgroundImage: 'url(/images/fondo_card.avif)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              border: '2px solid rgba(0,0,0,0.08)',
+              borderRadius: '20px',
+              padding: '24px 16px 18px',
               cursor: 'pointer',
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              gap: '14px',
-              width: '220px',
-              transition: 'all 0.25s ease',
-              boxShadow: '0 2px 10px rgba(0,0,0,0.06)',
+              gap: '12px',
+              transition: 'all 0.22s ease',
+              boxShadow: '0 2px 12px rgba(0,0,0,0.10)',
+              position: 'relative',
+              overflow: 'hidden',
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.borderColor = island.stroke;
-              e.currentTarget.style.boxShadow = `0 12px 40px rgba(0,0,0,0.12)`;
-              e.currentTarget.style.transform = 'translateY(-4px)';
-              const pathEl = e.currentTarget.querySelector('path') as SVGPathElement | null;
-              if (pathEl) pathEl.style.fill = island.stroke;
+              e.currentTarget.style.borderColor = 'rgba(0,0,0,0.22)';
+              e.currentTarget.style.boxShadow = '0 10px 32px rgba(0,0,0,0.22)';
+              e.currentTarget.style.transform = 'translateY(-3px)';
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.borderColor = '#e5e7eb';
-              e.currentTarget.style.boxShadow = '0 2px 10px rgba(0,0,0,0.06)';
+              e.currentTarget.style.borderColor = 'rgba(0,0,0,0.08)';
+              e.currentTarget.style.boxShadow = '0 2px 12px rgba(0,0,0,0.10)';
               e.currentTarget.style.transform = 'translateY(0)';
-              const pathEl = e.currentTarget.querySelector('path') as SVGPathElement | null;
-              if (pathEl) pathEl.style.fill = island.fill;
             }}
           >
-            <svg viewBox={island.viewBox} style={{ width: '130px', height: '130px' }} xmlns="http://www.w3.org/2000/svg">
-              <path d={island.path} fill={island.fill} stroke={island.stroke} strokeWidth="3" style={{ transition: 'fill 0.25s ease' }} />
+            <svg viewBox={island.viewBox} style={{ width: '110px', height: '110px', position: 'relative', zIndex: 1 }} xmlns="http://www.w3.org/2000/svg">
+              <path d={island.path} fill="white" stroke="white" strokeWidth="3" style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.25))' }} />
             </svg>
-            <div style={{ textAlign: 'center' }}>
-              <p style={{ fontFamily: "'Outfit', sans-serif", fontSize: '20px', fontWeight: '700', color: '#1f2937', margin: 0 }}>
-                {ISLAND_LABELS[island.id][locale]}
-              </p>
-              <p style={{ fontFamily: "'Outfit', sans-serif", fontSize: '13px', color: '#9ca3af', margin: '3px 0 0', fontStyle: 'italic' }}>
-                {ISLAND_SUBTITLES[island.id][locale]}
-              </p>
-            </div>
+            <p style={{
+              fontFamily: "'Cormorant Garamond', serif",
+              fontSize: '22px',
+              fontWeight: '700',
+              color: 'white',
+              margin: 0,
+              letterSpacing: '0.01em',
+              position: 'relative',
+              zIndex: 1,
+              textShadow: '0 1px 8px rgba(0,0,0,0.35)',
+            }}>
+              {ISLAND_LABELS[island.id][locale]}
+            </p>
           </button>
         ))}
       </div>
 
       {/* ── Coming soon ── */}
       <div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '18px' }}>
-          <div style={{ flex: 1, height: '1px', background: '#e5e7eb' }} />
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
+          <div style={{ flex: 1, height: '1px', background: '#b8d6e0' }} />
           <span style={{
-            fontFamily: "'Outfit', sans-serif",
-            fontSize: '11px', fontWeight: '700',
-            letterSpacing: '0.18em', textTransform: 'uppercase',
-            color: '#cbd5e1',
+            fontFamily: "'Cormorant Garamond', serif",
+            fontSize: '15px', fontWeight: '600', fontStyle: 'italic',
+            color: '#7d96a3',
           }}>
             {COMING_SOON[locale]}
           </span>
-          <div style={{ flex: 1, height: '1px', background: '#e5e7eb' }} />
+          <div style={{ flex: 1, height: '1px', background: '#b8d6e0' }} />
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px', maxWidth: '440px', margin: '0 auto' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px', maxWidth: '440px', margin: '0 auto' }}>
           {comingSoonIslands.map((island) => (
             <div
               key={island.id}
               aria-disabled="true"
               style={{
-                background: 'white',
-                border: '1.5px solid #f1f5f9',
+                backgroundImage: 'url(/images/fondo_card_inactive.avif)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                border: '1.5px solid rgba(0,0,0,0.08)',
                 borderRadius: '16px',
                 padding: '14px 10px 12px',
                 display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px',
-                cursor: 'not-allowed', opacity: 0.72, userSelect: 'none',
+                cursor: 'not-allowed', userSelect: 'none',
+                overflow: 'hidden',
               }}
             >
-              <svg viewBox={island.viewBox} style={{ width: '64px', height: '64px' }} xmlns="http://www.w3.org/2000/svg">
-                <path d={island.path} fill={island.fill} stroke={island.stroke} strokeWidth="3" />
+              <svg viewBox={island.viewBox} style={{ width: '56px', height: '56px' }} xmlns="http://www.w3.org/2000/svg">
+                <path d={island.path} fill="white" stroke="white" strokeWidth="3" style={{ filter: 'drop-shadow(0 1px 4px rgba(0,0,0,0.20))' }} />
               </svg>
-              <p style={{ fontFamily: "'Outfit', sans-serif", fontSize: '12px', fontWeight: '700', color: '#9ca3af', margin: 0, textAlign: 'center', lineHeight: '1.2' }}>
+              <p style={{
+                fontFamily: "'Cormorant Garamond', serif",
+                fontSize: '13px', fontWeight: '600',
+                color: 'white', margin: 0, textAlign: 'center', lineHeight: '1.2',
+                textShadow: '0 1px 6px rgba(0,0,0,0.35)',
+              }}>
                 {ISLAND_LABELS[island.id][locale]}
               </p>
-              <span style={{
-                fontFamily: "'Outfit', sans-serif",
-                fontSize: '9px', fontWeight: '700',
-                letterSpacing: '0.1em', textTransform: 'uppercase',
-                color: '#cbd5e1', background: '#f8fafc',
-                borderRadius: '6px', padding: '2px 6px',
-              }}>
-                {COMING_SOON[locale]}
-              </span>
             </div>
           ))}
         </div>

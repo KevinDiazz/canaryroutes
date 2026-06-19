@@ -83,8 +83,8 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
           ref={dropRef}
           style={{
             position: 'fixed',
-            top: '124px',
-            right: '12px',
+            top: '100px',
+            right: '16px',
             background: 'white',
             border: '1px solid #e5e7eb',
             borderRadius: '16px',
