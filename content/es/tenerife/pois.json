@@ -28,7 +28,7 @@
       "visitDuration": "3-5h",
       "difficulty": "moderate",
       "emoji": "🌋",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava"
     },
     {
@@ -53,7 +53,7 @@
       "visitDuration": "medio día",
       "emoji": "🏙️",
       "municipio": "santa-cruz",
-      "top": true
+      "top": false
     },
     {
       "slug": "los-gigantes",
@@ -77,7 +77,7 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏔️",
-      "top": true,
+      "top": false,
       "municipio": "santiago-del-teide"
     },
     {
@@ -108,7 +108,7 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": true,
+      "top": false,
       "municipio": "santa-cruz",
       "mapsUrl": "https://maps.app.goo.gl/Kp2kKJeqW3F9xbVQ8"
     },
@@ -141,7 +141,7 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": true,
+      "top": false,
       "municipio": "el-rosario",
       "mapsUrl": "https://maps.app.goo.gl/9KsQfGztpeScHKyz6"
     },
@@ -174,7 +174,7 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/4xFhR7Hh5u9fYJfR9"
     },
@@ -256,7 +256,7 @@
         "lng": -16.5638
       },
       "images": {
-        "hero": "/images/tenerife/playas/playa_maria_jimenez_tenerife.avif",
+        "hero": "/images/tenerife/playas/playa_puerto_de_la_cruz_tenerife.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -306,7 +306,7 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": true,
+      "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/5W4zY9oM5j3vQm1E9"
     },
@@ -355,7 +355,7 @@
         "lng": -16.7368
       },
       "images": {
-        "hero": "/images/tenerife/playas/playa_de_la_pinta_tenerife.avif",
+        "hero": "/images/tenerife/playas/playa_la_pinta_tenerife.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -372,7 +372,7 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": true,
+      "top": false,
       "municipio": "adeje",
       "mapsUrl": "https://maps.app.goo.gl/fQ9s7m4s4v4Xw1mM6"
     },{
@@ -404,7 +404,7 @@
   "visitDuration": "2-4h",
   "difficulty": "easy",
   "emoji": "🏖️",
-  "top": true,
+  "top": false,
   "municipio": "arona",
   "mapsUrl": "https://maps.app.goo.gl/Z3m4Y8b8yLzKXqD47"
 },{
@@ -436,7 +436,7 @@
   "visitDuration": "2-4h",
   "difficulty": "easy",
   "emoji": "🏖️",
-  "top": true,
+  "top": false,
   "municipio": "adeje",
   "mapsUrl": "https://maps.app.goo.gl/GiJ4W7p9vR5h7qgZ6"
 },{
@@ -468,7 +468,7 @@
   "visitDuration": "2-4h",
   "difficulty": "easy",
   "emoji": "🏖️",
-  "top": true,
+  "top": false,
   "municipio": "arona",
   "mapsUrl": "https://maps.app.goo.gl/jx8j5jv7vGQ4V7Xj8"
 },{
@@ -500,7 +500,7 @@
   "visitDuration": "3-5h",
   "difficulty": "easy",
   "emoji": "🏖️",
-  "top": true,
+  "top": false,
   "municipio": "arona",
   "mapsUrl": "https://maps.app.goo.gl/UjM5V7a9G8WfYvNQ8"
 },{
@@ -532,7 +532,7 @@
   "visitDuration": "3-5h",
   "difficulty": "easy",
   "emoji": "🏖️",
-  "top": true,
+  "top": false,
   "municipio": "adeje",
   "mapsUrl": "https://maps.app.goo.gl/LsY5n8Lz2iM7Jk4Y9"
 },{
@@ -564,7 +564,7 @@
   "visitDuration": "3-5h",
   "difficulty": "easy",
   "emoji": "🏖️",
-  "top": true,
+  "top": false,
   "municipio": "granadilla-de-abona",
   "mapsUrl": "https://maps.app.goo.gl/6hP2R5N4Yf7wJtT38"
 },{
@@ -596,7 +596,7 @@
   "visitDuration": "2-4h",
   "difficulty": "easy",
   "emoji": "🏖️",
-  "top": true,
+  "top": false,
   "municipio": "guia-de-isora",
   "mapsUrl": "https://maps.app.goo.gl/y9hL6Y4K4m3hJ9M79"
 },{
@@ -628,7 +628,7 @@
   "visitDuration": "1-3h",
   "difficulty": "easy",
   "emoji": "🏖️",
-  "top": true,
+  "top": false,
   "municipio": "santiago-del-teide",
   "mapsUrl": "https://maps.app.goo.gl/1z8nqJk7n6v8oR2L9"
 },{
@@ -660,7 +660,7 @@
   "visitDuration": "1-3h",
   "difficulty": "easy",
   "emoji": "🌊",
-  "top": true,
+  "top": false,
   "municipio": "san-cristobal-de-la-laguna",
   "mapsUrl": "https://maps.app.goo.gl/x6Wf6Q9a2kKjv9rL8"
 },
@@ -693,7 +693,7 @@
   "visitDuration": "1-3h",
   "difficulty": "easy",
   "emoji": "🌊",
-  "top": true,
+  "top": false,
   "municipio": "san-cristobal-de-la-laguna",
   "mapsUrl": "https://maps.app.goo.gl/Q2oL4n3nQ7xN8w4J6"
 },
@@ -709,7 +709,7 @@
     "lng": -16.4106
   },
   "images": {
-    "hero": "/images/tenerife/playas/piscina_natural_mesa_del_mar_tenerife.avif",
+    "hero": "/images/tenerife/playas/playa_mesa_del_mar_tenerife.avif",
     "gallery": []
   },
   "hasPremiumAudio": false,
@@ -758,7 +758,7 @@
   "visitDuration": "30min-1h",
   "difficulty": "easy",
   "emoji": "🌊",
-  "top": true,
+  "top": false,
   "municipio": "san-juan-de-la-rambla",
   "mapsUrl": "https://maps.app.goo.gl/6qT9JqQjN3Kf6j7Q7"
 },{
@@ -790,7 +790,7 @@
   "visitDuration": "1-3h",
   "difficulty": "easy",
   "emoji": "🌊",
-  "top": true,
+  "top": false,
   "municipio": "garachico",
   "mapsUrl": "https://maps.app.goo.gl/4J3yQ9x2t6qHfG9S8"
 },{
@@ -822,7 +822,7 @@
   "visitDuration": "1-2h",
   "difficulty": "easy",
   "emoji": "🌊",
-  "top": true,
+  "top": false,
   "municipio": "los-silos",
   "mapsUrl": "https://maps.app.goo.gl/6GxVQ8jM9jJmK2Lr6"
 },{
@@ -854,7 +854,7 @@
   "visitDuration": "2-4h",
   "difficulty": "easy",
   "emoji": "🌊",
-  "top": true,
+  "top": false,
   "municipio": "santa-cruz-de-tenerife",
   "mapsUrl": "https://maps.app.goo.gl/xzG3mY5P9vL8jD8v7"
 },{
@@ -886,7 +886,7 @@
   "visitDuration": "3-5h",
   "difficulty": "easy",
   "emoji": "🏊",
-  "top": true,
+  "top": false,
   "municipio": "puerto-de-la-cruz",
   "mapsUrl": "https://maps.app.goo.gl/2S4W8vP6K9gR7mJZ7"
 },
@@ -919,7 +919,7 @@
   "visitDuration": "2-4h",
   "difficulty": "easy",
   "emoji": "🏖️",
-  "top": true,
+  "top": false,
   "municipio": "arona",
   "mapsUrl": "https://maps.app.goo.gl/W8w4Hn7VwN3bPjHc6"
 },
@@ -951,7 +951,7 @@
       "visitDuration": "Medio día",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": true,
+      "top": false,
       "municipio": "adeje",
       "mapsUrl": "https://maps.app.goo.gl/pJnMGmFqQ9TZVjYr6"
     },
@@ -1123,7 +1123,7 @@
       "visitDuration": "3-4h",
       "difficulty": "easy",
       "emoji": "🏛️",
-      "top": true,
+      "top": false,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/XbEpHvWXaBTMZ2FA9"
     },
@@ -1155,7 +1155,7 @@
       "visitDuration": "Día completo",
       "difficulty": "easy",
       "emoji": "🌴",
-      "top": true,
+      "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/3CKJvX1H3aMJqnUT8"
     },
@@ -1180,7 +1180,7 @@
       "visitDuration": "Día completo",
       "difficulty": "easy",
       "emoji": "🦜",
-      "top": true,
+      "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/P9xV1y7f4m1Xqn1H8",
       "websiteUrl": "https://www.loroparque.com"
@@ -1279,7 +1279,7 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🏘️",
-      "top": true,
+      "top": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/YJg3HzEJ9fBJ7bEV9"
     },
@@ -1314,7 +1314,7 @@
       "visitDuration": "Medio día",
       "difficulty": "easy",
       "emoji": "🌿",
-      "top": true,
+      "top": false,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/YeXMu7J5tFPaV9Qa8"
     },
@@ -1349,7 +1349,7 @@
       "visitDuration": "2-3h",
       "difficulty": "moderate",
       "emoji": "🌕",
-      "top": true,
+      "top": false,
       "municipio": "vilaflor",
       "mapsUrl": "https://maps.app.goo.gl/HgNPx7CJQaGM2fTs6"
     },
@@ -1381,7 +1381,7 @@
       "visitDuration": "1h",
       "difficulty": "easy",
       "emoji": "🔭",
-      "top": true,
+      "top": false,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/Y5M3LPqo3BGPM7AV8"
     },
@@ -1416,7 +1416,7 @@
       "visitDuration": "Medio día",
       "difficulty": "easy",
       "emoji": "🌋",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/B8mVnUwAHG8sXYRS7"
     },
@@ -1441,7 +1441,7 @@
       "visitDuration": "4-5h",
       "difficulty": "moderate",
       "emoji": "🥾",
-      "top": true,
+      "top": false,
       "municipio": "adeje",
       "track": {
         "mapsUrl": "https://maps.app.goo.gl/SxQx5QGqQkRH5K9d8",
@@ -1481,7 +1481,7 @@
       "visitDuration": "5-7h",
       "difficulty": "hard",
       "emoji": "🥾",
-      "top": true,
+      "top": false,
       "municipio": "santiago-del-teide",
       "track": {
         "mapsUrl": "https://maps.app.goo.gl/R5Yp4K2nJ3nQbPUA7",
@@ -1561,7 +1561,7 @@
       "visitDuration": "8-10h",
       "difficulty": "hard",
       "emoji": "🏔️",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava",
       "track": {
         "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9",
@@ -1603,7 +1603,7 @@
       "visitDuration": "Día completo",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": true,
+      "top": false,
       "municipio": "adeje",
       "mapsUrl": "https://maps.app.goo.gl/aBZ1J2pX3KmMNFyH9",
       "websiteUrl": "https://www.siampark.net"
@@ -1636,7 +1636,7 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🐋",
-      "top": true,
+      "top": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/K3xB6TqL7vN9pZjA8"
     },

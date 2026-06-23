@@ -22,10 +22,10 @@
     "sourceName": "Wikimedia Commons",
     "modifications": "Convertida a AVIF y optimizada para web",
     "license": {
-      "type": "CC-BY-SA-3.0",
-      "author": "rene boulay",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canaries_Tenerife_Los_Cristianos_Playa_-_panoramio.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "type": "CC-BY-SA-2.0",
+      "author": "Tony Hisgett",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenerife_Los_Cristianos_2_(8541029925).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "modified": true
     }
   },
@@ -163,7 +163,21 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "modified": true
       }
-    },
+    },"/images/tenerife/playas/playa_puerto_de_la_cruz_tenerife.avif": {
+  "alt": "Vista de una playa en Puerto de la Cruz, Tenerife",
+  "width": 5266,
+  "height": 3511,
+  "title": "playa_puerto_de_la_cruz_tenerife.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "Lmbuga (Luis Miguel Bugallo Sánchez)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_la_Cruz._Tenerife._Espa%C3%B1a_eue56.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
+},
     "/images/tenerife/playas/playa_de_los_abriguitos_tenerife.avif": {
       "alt": "Vista de la playa y el núcleo costero de Abades en Arico, Tenerife",
       "width": 6960,
