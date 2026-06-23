@@ -305,6 +305,11 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
   const y = displayY ?? computed.y;
   const color = poi.gygTourId ? '#ff5533' : CATEGORY_COLORS[poi.category];
   const R = (showPhoto || showCategoryIcon) ? 14 : 10;
+  // En top filter, los POIs de actividades (GYG o categorías secundarias) usan el degradado naranja
+  const isActivityPoi = poi.gygTourId || ACTIVITIES_CATS.includes(poi.category);
+  const strokeGradId = (showCategoryIcon && isActivityPoi)
+    ? 'poiGradient-activities'
+    : `poiGradient-${poi.category}`;
   const cy = y - R - 8;
   const clipId = `clip-poi-${poi.slug.replace(/[^a-zA-Z0-9]/g, '-')}`;
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
@@ -351,7 +356,7 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
       {/* Pin triangle */}
       <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill={color} />
       {/* Circle background */}
-      <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : ((showImage || showCategoryIcon) ? shadeColor(color, 0.82) : '#ffffff')} stroke={`url(#poiGradient-${poi.category})`} strokeWidth="2.5" />
+      <circle cx={x} cy={cy} r={R + 2} fill={selected ? color : ((showImage || showCategoryIcon) ? shadeColor(color, 0.82) : '#ffffff')} stroke={`url(#${strokeGradId})`} strokeWidth="2.5" />
       {showImage && imageReady && (
         <image
           href={markerThumb(poi.images.hero)}
@@ -1029,6 +1034,12 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
               <stop offset="100%" stopColor={shades.dark} />
             </linearGradient>
           ))}
+          {/* Degradado actividades (GYG + viewpoint/food/other) — usado en top filter */}
+          <linearGradient id="poiGradient-activities" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%"   stopColor={shadeColor('#ff5533', 0.45)} />
+            <stop offset="50%"  stopColor="#ff5533" />
+            <stop offset="100%" stopColor={shadeColor('#ff5533', -0.35)} />
+          </linearGradient>
           <linearGradient id="poiGradient-municipio" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%"   stopColor={MUNICIPIO_GRADIENT.light} />
             <stop offset="50%"  stopColor={MUNICIPIO_GRADIENT.base} />
@@ -1137,7 +1148,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
                   style={{
                     display: 'flex', alignItems: 'center', gap: '5px',
                     padding: '7px 14px', borderRadius: '40px',
-                    background: isActive ? '#1f9d61' : 'transparent',
+                    background: isActive ? '#1f9d61' : 'rgba(0,0,0,0.04)',
                     color: isActive ? 'white' : '#374151',
                     border: 'none',
                     fontSize: '14px', fontWeight: isActive ? 700 : 500,
@@ -1145,7 +1156,9 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
                     fontFamily: "'JetBrains Mono', monospace",
                     transition: 'all 0.2s',
                     whiteSpace: 'nowrap',
-                    boxShadow: isActive ? '0 2px 8px rgba(31,157,97,0.4)' : 'none',
+                    boxShadow: isActive
+                      ? '0 2px 8px rgba(31,157,97,0.4)'
+                      : 'inset 0 2px 4px rgba(0,0,0,0.14), inset 0 1px 2px rgba(0,0,0,0.10)',
                   }}
                 >
                   {btn.icon.startsWith('/') ? (

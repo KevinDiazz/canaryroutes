@@ -13,9 +13,7 @@
       },
       "images": {
         "hero": "/images/tenerife/teide/hero.avif",
-        "gallery": [
-          "/images/tenerife/teide/1.avif"
-        ]
+        "gallery": ["/images/tenerife/teide/1.avif"]
       },
       "audioPreview": "/audio/previews/es/teide-preview.mp3",
       "hasPremiumAudio": true,
@@ -46,20 +44,12 @@
       },
       "images": {
         "hero": "/images/tenerife/santa-cruz/hero.avif",
-        "gallery": [
-          "/images/tenerife/santa-cruz/1.avif"
-        ]
+        "gallery": ["/images/tenerife/santa-cruz/1.avif"]
       },
       "audioPreview": "/audio/previews/es/santa-cruz-preview.mp3",
       "hasPremiumAudio": true,
       "premiumRouteId": "volcano-route",
-      "tags": [
-        "ciudad",
-        "carnaval",
-        "cultura",
-        "puerto",
-        "auditorio"
-      ],
+      "tags": ["ciudad", "carnaval", "cultura", "puerto", "auditorio"],
       "visitDuration": "medio día",
       "emoji": "🏙️",
       "municipio": "santa-cruz",
@@ -78,20 +68,12 @@
       },
       "images": {
         "hero": "/images/tenerife/los-gigantes/hero.avif",
-        "gallery": [
-          "/images/tenerife/los-gigantes/1.avif"
-        ]
+        "gallery": ["/images/tenerife/los-gigantes/1.avif"]
       },
       "audioPreview": "/audio/previews/es/los-gigantes-preview.mp3",
       "hasPremiumAudio": true,
       "premiumRouteId": "volcano-route",
-      "tags": [
-        "acantilados",
-        "ballenas",
-        "delfines",
-        "barco",
-        "oeste"
-      ],
+      "tags": ["acantilados", "ballenas", "delfines", "barco", "oeste"],
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏔️",
@@ -110,11 +92,8 @@
         "lng": -16.1924
       },
       "images": {
-        "hero": "/images/tenerife/playas/teresitas/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/teresitas/1.avif",
-          "/images/tenerife/playas/teresitas/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_de_las_teresitas_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -134,40 +113,816 @@
       "mapsUrl": "https://maps.app.goo.gl/Kp2kKJeqW3F9xbVQ8"
     },
     {
-      "slug": "playa-de-los-cristianos",
-      "name": "Playa de Los Cristianos",
-      "shortDescription": "El corazón del sur: playa de arena oscura con el puerto más animado de Tenerife",
-      "description": "El corazón turístico del sur de Tenerife late con fuerza en Los Cristianos. Su playa de **arena volcánica oscura** y aguas cálidas comparte protagonismo con uno de los puertos más animados de Canarias, desde el que parten cada día ferries a La Gomera, excursiones en catamarán y los mejores tours de avistamiento de cetáceos de la isla.\n\n### La visita\nLos Cristianos conserva el alma de un pueblo pescador absorbido por el turismo moderno, y eso es parte de su encanto. El paseo marítimo mezcla chiringuitos y terrazas con tiendas locales, el mercado municipal ofrece cocina canaria de verdad y el ambiente del atardecer en la plaza es puro sur de Tenerife. Para los amantes del agua, las excursiones de avistamiento de ballenas piloto —habituales en estas aguas durante todo el año— son una experiencia que no olvidarás.\n\n### Antes de ir\n- 🐬 Reserva el tour de cetáceos por la mañana temprano — las condiciones del mar son más suaves y los avistamientos más frecuentes\n- ⛵ Si quieres ir a La Gomera, los ferries salen desde aquí varias veces al día (45 minutos)\n- 🍽️ El mercado municipal y las calles del casco histórico son la mejor zona para comer cocina canaria\n- 🚌 Bus 111 desde Las Américas y bus 111/487 desde Costa Adeje — muy frecuente\n- 🏖️ La playa es más tranquila en el extremo sur, junto al puerto\n\n### Recomendación\nEmpieza el día con un baño en la playa, almuerza papas arrugadas con mojo en el mercado y por la tarde sube a un barco: Los Cristianos está hecho para disfrutarlo a varios ritmos.",
+      "slug": "playa-de-radazul",
+      "name": "Playa de Radazul",
+      "shortDescription": "Arena oscura, aguas cristalinas y ambiente tranquilo junto al puerto deportivo",
+      "description": "Escondida en la costa sureste de Tenerife, **Playa de Radazul** es una de las playas urbanas más agradables y tranquilas de la isla. Protegida por diques que reducen el oleaje, ofrece aguas cristalinas y condiciones excelentes para el baño durante prácticamente todo el año. Su ubicación junto al puerto deportivo le da un ambiente diferente al de otras playas de Tenerife, con vistas a veleros y embarcaciones recreativas.\n\n### La visita\nLa playa combina arena volcánica oscura y pequeños guijarros, con una longitud aproximada de 200 metros. Gracias a la protección artificial de la bahía, el mar suele permanecer calmado, convirtiéndola en una opción muy popular entre familias, nadadores y aficionados al snorkel. El paseo marítimo conecta la playa con varios restaurantes, cafeterías y terrazas donde disfrutar de las vistas al océano.\n\nA pocos pasos se encuentra el **Puerto Deportivo de Radazul**, uno de los principales puertos deportivos de Tenerife, desde donde parten actividades náuticas y excursiones de buceo. La transparencia del agua convierte la zona en uno de los mejores lugares del área metropolitana para observar vida marina.\n\n### Antes de ir\n- 🏖️ Playa protegida por diques — aguas tranquilas durante gran parte del año\n- 🤿 Excelente zona para snorkel y buceo gracias a la claridad del agua\n- 🚗 Aparcamiento relativamente fácil fuera de las horas punta de verano\n- ☀️ Orientación sur — disfruta de muchas horas de sol incluso en invierno\n- 🍽️ Restaurantes y cafeterías en el paseo marítimo y el puerto deportivo\n- 🚌 Conexión mediante transporte público desde Santa Cruz y La Laguna\n\n### Recomendación\nSi buscas una playa cómoda cerca de Santa Cruz pero lejos de las multitudes de Las Teresitas, Radazul es una de las mejores alternativas. Combina un baño relajado con un paseo por el puerto deportivo y una comida frente al mar para disfrutar de una jornada costera completa.",
       "island": "tenerife",
       "category": "beach",
       "coordinates": {
-        "lat": 28.05,
-        "lng": -16.713
+        "lat": 28.4017,
+        "lng": -16.3218
       },
       "images": {
-        "hero": "/images/tenerife/playas/los-cristianos/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/los-cristianos/1.avif",
-          "/images/tenerife/playas/los-cristianos/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_de_radazul_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
       "tags": [
         "playa",
+        "arena-volcanica",
         "sur",
-        "puerto",
-        "cetáceos",
-        "animada",
-        "familiar"
+        "familiar",
+        "snorkel",
+        "aguas-tranquilas",
+        "puerto-deportivo"
       ],
-      "visitDuration": "Medio día",
+      "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏖️",
       "top": true,
-      "municipio": "arona",
-      "mapsUrl": "https://maps.app.goo.gl/fVqkPv8Vq1qFZjqT8"
+      "municipio": "el-rosario",
+      "mapsUrl": "https://maps.app.goo.gl/9KsQfGztpeScHKyz6"
     },
+    {
+      "slug": "playa-el-bollullo",
+      "name": "Playa El Bollullo",
+      "shortDescription": "Espectacular playa salvaje de arena negra bajo los acantilados de La Orotava",
+      "description": "Considerada por muchos como una de las playas más bonitas de Tenerife, **Playa El Bollullo** es un rincón salvaje de arena volcánica negra situado al pie de los impresionantes acantilados del Valle de La Orotava. Lejos de los grandes complejos turísticos, conserva un carácter natural que recuerda cómo eran las costas de la isla antes del desarrollo turístico.\n\n### La visita\nLa playa se extiende a lo largo de unos 400 metros y está rodeada por abruptas paredes volcánicas cubiertas de vegetación. El contraste entre la arena negra, el azul intenso del Atlántico y los verdes cultivos de plataneras crea uno de los paisajes costeros más fotogénicos de Tenerife.\n\nEl acceso requiere un corto descenso a pie desde el aparcamiento o desde los senderos que atraviesan las plantaciones de plátanos. El entorno es espectacular, aunque el mar suele presentar oleaje y corrientes, especialmente durante el invierno y los días de mar de fondo. Por ello, es una playa más adecuada para disfrutar del paisaje y tomar el sol que para nadar largas distancias.\n\n### Antes de ir\n- 🌊 Atención al estado del mar — las corrientes pueden ser fuertes algunos días\n- 🚶 Acceso mediante un sendero con escaleras desde la zona de aparcamiento\n- 📸 Uno de los lugares más fotogénicos del norte de Tenerife\n- ☀️ Mejor visitarla por la mañana o al atardecer para evitar las horas más calurosas\n- 🍌 El camino atraviesa tradicionales plantaciones de plátanos del Valle de La Orotava\n- 🍽️ Chiringuito y restaurante cercanos según temporada\n\n### Recomendación\nCombina la visita con un recorrido por el Valle de La Orotava o con las cercanas playas de Los Patos y Ancón. El Bollullo ofrece una de las experiencias costeras más auténticas y salvajes de Tenerife, perfecta para quienes buscan naturaleza y paisajes espectaculares lejos de las zonas más concurridas.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4012,
+        "lng": -16.5456
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_el_bollullo_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "arena-negra",
+        "norte",
+        "salvaje",
+        "fotografia",
+        "acantilados",
+        "naturaleza"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/4xFhR7Hh5u9fYJfR9"
+    },
+    {
+      "slug": "playa-del-muelle",
+      "name": "Playa del Muelle",
+      "shortDescription": "Pequeña playa histórica junto al antiguo puerto pesquero de Puerto de la Cruz",
+      "description": "Situada en el corazón de Puerto de la Cruz, **Playa del Muelle** es una pequeña cala urbana cargada de historia. Durante siglos fue uno de los principales puntos de actividad marítima del norte de Tenerife y todavía conserva el encanto del antiguo puerto pesquero que dio origen a la ciudad.\n\n### La visita\nEsta diminuta playa de arena volcánica y callaos se encuentra protegida por el muelle histórico, creando una zona de baño relativamente tranquila cuando las condiciones del mar lo permiten. Su ubicación es inmejorable: rodeada de restaurantes tradicionales, terrazas y algunos de los rincones más emblemáticos de Puerto de la Cruz.\n\nDesde aquí se obtienen magníficas vistas del litoral norte de Tenerife, con el perfil del Valle de La Orotava y el Teide dominando el horizonte en los días despejados. A pocos metros se encuentran la Plaza del Charco, el paseo marítimo y el histórico barrio pesquero de La Ranilla, uno de los lugares con más personalidad de la ciudad.\n\n### Antes de ir\n- 🏛️ Una de las playas más históricas de Tenerife\n- 🌊 El estado del baño depende del oleaje y las mareas\n- 📸 Excelente lugar para fotografías del casco antiguo y el puerto\n- 🍽️ Rodeada de restaurantes de pescado y marisco fresco\n- 🚶 Perfecta para combinar con un paseo por Puerto de la Cruz\n- ☀️ Ambiente local durante todo el año\n\n### Recomendación\nMás que una playa para pasar todo el día, Playa del Muelle es una parada imprescindible para descubrir la historia marinera de Puerto de la Cruz. Combínala con una visita a la Plaza del Charco, el barrio de La Ranilla y el cercano Lago Martiánez para disfrutar de una de las zonas más auténticas del norte de Tenerife.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4169,
+        "lng": -16.5519
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_del_muelle_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "arena-negra",
+        "puerto-de-la-cruz",
+        "historica",
+        "urbana",
+        "casco-antiguo",
+        "norte"
+      ],
+      "visitDuration": "30min-1h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/6nKf6YvJ8vXv5b5S9"
+    },
+    {
+      "slug": "playa-del-castillo",
+      "name": "Playa del Castillo",
+      "shortDescription": "Amplia playa de arena negra junto al histórico Castillo de San Felipe",
+      "description": "Ubicada en el extremo occidental de Puerto de la Cruz, **Playa del Castillo** es una extensa playa de arena volcánica negra que combina patrimonio histórico, paisajes atlánticos y un ambiente mucho más tranquilo que otras zonas de baño del municipio. Debe su nombre al cercano **Castillo de San Felipe**, una fortaleza construida en el siglo XVII para defender la costa norte de Tenerife de los ataques piratas.\n\n### La visita\nLa playa forma parte del mismo frente litoral que Playa Jardín y comparte con ella las impresionantes vistas del océano y del Teide. Su amplia extensión de arena negra permite disfrutar de una sensación de espacio poco habitual en una playa urbana.\n\nEl paseo marítimo conecta fácilmente con el centro de Puerto de la Cruz y ofrece agradables recorridos junto al mar. La presencia del castillo aporta un atractivo cultural adicional, convirtiendo la visita en una combinación perfecta de historia, paisaje y costa.\n\nLas condiciones del mar pueden variar según el estado del Atlántico, por lo que conviene prestar atención a las banderas y a las indicaciones de los servicios de vigilancia cuando estén operativos.\n\n### Antes de ir\n- 🏰 Visita el Castillo de San Felipe, uno de los monumentos históricos más importantes de Puerto de la Cruz\n- 🌊 Consulta el estado del mar antes de bañarte, especialmente en invierno\n- 📸 Magníficas vistas del Teide en días despejados\n- 🚶 Conectada con Playa Jardín y el paseo marítimo de la ciudad\n- 🌅 Excelente lugar para contemplar el atardecer sobre la costa norte\n- 🍽️ Restaurantes y cafeterías a poca distancia a pie\n\n### Recomendación\nCombina la visita con un recorrido por Playa Jardín y el Castillo de San Felipe. Es una de las mejores zonas para comprender la relación histórica entre Puerto de la Cruz y el mar, mientras disfrutas de una de las playas urbanas más amplias del norte de Tenerife.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4216,
+        "lng": -16.5603
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_del_castillo_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "arena-negra",
+        "puerto-de-la-cruz",
+        "castillo",
+        "historia",
+        "urbana",
+        "norte"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/6o6Q1xK6H8xW9h1a9"
+    },
+    {
+      "slug": "playa-maria-jimenez",
+      "name": "Playa María Jiménez",
+      "shortDescription": "Pequeña playa de arena negra y ambiente local en la costa de Puerto de la Cruz",
+      "description": "Alejada de las zonas más concurridas del municipio, **Playa María Jiménez** es una pequeña playa de arena volcánica negra frecuentada principalmente por residentes locales. Su carácter tranquilo y poco turístico la convierte en una opción interesante para quienes desean descubrir una faceta más auténtica de la costa norte de Tenerife.\n\n### La visita\nLa playa se encuentra junto al barrio de Punta Brava, en una zona donde el océano Atlántico muestra toda su fuerza. Rodeada de formaciones volcánicas y con vistas abiertas al litoral norte, ofrece una experiencia diferente a las grandes playas urbanas de la isla.\n\nDebido a la exposición al mar abierto, las condiciones para el baño pueden variar considerablemente según el oleaje. En días tranquilos es posible disfrutar de la playa y del entorno costero, mientras que durante los episodios de mar de fondo conviene extremar la precaución.\n\nSu principal atractivo es la tranquilidad. Aquí no encontrarás grandes servicios turísticos ni aglomeraciones, sino un rincón costero sencillo donde observar la vida cotidiana de Puerto de la Cruz y disfrutar del paisaje atlántico.\n\n### Antes de ir\n- 🌊 Consulta siempre el estado del mar antes de bañarte\n- 🏖️ Playa frecuentada principalmente por residentes locales\n- 📸 Buenas vistas de la costa norte y del océano Atlántico\n- 🚶 Fácil acceso desde el entorno urbano de Puerto de la Cruz\n- ☀️ Ambiente tranquilo durante gran parte del año\n- 🌋 Entorno característico de la costa volcánica tinerfeña\n\n### Recomendación\nSi ya has visitado Playa Jardín y los lugares más conocidos de Puerto de la Cruz, Playa María Jiménez ofrece una visión más auténtica y menos turística del litoral norte. Puede combinarse fácilmente con una visita al barrio de Punta Brava y al cercano Loro Parque.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4238,
+        "lng": -16.5638
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_maria_jimenez_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "arena-negra",
+        "puerto-de-la-cruz",
+        "local",
+        "tranquila",
+        "costa-volcanica",
+        "norte"
+      ],
+      "visitDuration": "30min-1h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/6cK4wVf8k6e7j7jY8"
+    },
+    {
+      "slug": "playa-san-telmo",
+      "name": "Playa San Telmo",
+      "shortDescription": "Histórica playa urbana de arena negra junto al paseo marítimo de Puerto de la Cruz",
+      "description": "Situada en pleno centro de Puerto de la Cruz, **Playa San Telmo** es una de las zonas de baño más emblemáticas del norte de Tenerife. Rodeada por el animado paseo marítimo y los históricos edificios del casco urbano, combina el encanto tradicional de la ciudad con unas magníficas vistas al océano Atlántico y al Valle de La Orotava.\n\n### La visita\nLa playa se encuentra protegida parcialmente por formaciones volcánicas y muros costeros que crean una zona de baño más resguardada que otras áreas del litoral norte. Su arena negra volcánica y su ubicación privilegiada la convierten en una de las playas urbanas más accesibles de Tenerife.\n\nA pocos metros se encuentran algunos de los lugares más conocidos de Puerto de la Cruz, como el Paseo de San Telmo, la Plaza del Charco y el complejo de Lago Martiánez. Gracias a esta ubicación, es una parada habitual tanto para residentes como para visitantes que desean combinar playa, gastronomía y paseo urbano en una sola jornada.\n\nLos atardeceres desde San Telmo son especialmente populares, con vistas abiertas hacia los acantilados de la costa norte y el océano Atlántico.\n\n### Antes de ir\n- 🏖️ Una de las playas urbanas más céntricas de Tenerife\n- 🚶 Perfecta para combinar con una visita al casco histórico\n- 🌊 Consulta el estado del mar, especialmente durante episodios de fuerte oleaje\n- 📸 Excelentes vistas del litoral norte y del océano Atlántico\n- 🍽️ Rodeada de cafeterías, restaurantes y terrazas\n- 🌅 Muy recomendable al atardecer\n\n### Recomendación\nCombina el baño con un paseo por el Paseo de San Telmo, una visita a Lago Martiánez y una cena frente al mar. Es una de las mejores zonas para disfrutar del ambiente histórico y marinero de Puerto de la Cruz sin alejarse del centro de la ciudad.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4149,
+        "lng": -16.5508
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_san_telmo_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "arena-negra",
+        "puerto-de-la-cruz",
+        "urbana",
+        "centro",
+        "san-telmo",
+        "norte"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": true,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/5W4zY9oM5j3vQm1E9"
+    },
+    {
+      "slug": "playa-de-los-abriguitos",
+      "name": "Playa de Los Abriguitos",
+      "shortDescription": "Pequeña cala de arena negra y ambiente local junto a los acantilados del sur de Tenerife",
+      "description": "Escondida en la costa de Arico, **Playa de Los Abriguitos** es una pequeña cala de arena volcánica negra que conserva el carácter tranquilo y poco urbanizado del sur tradicional de Tenerife. Alejada de las grandes zonas turísticas, ofrece una experiencia auténtica donde el paisaje volcánico y el océano Atlántico son los auténticos protagonistas.\n\n### La visita\nLa playa se encuentra protegida parcialmente por formaciones rocosas que ayudan a suavizar el oleaje en determinadas condiciones. Su reducido tamaño y su ambiente relajado la convierten en un lugar frecuentado principalmente por residentes y por viajeros que buscan rincones menos conocidos de la isla.\n\nEl entorno destaca por los tonos oscuros de la roca volcánica y las vistas abiertas al Atlántico. La ausencia de grandes infraestructuras turísticas permite disfrutar de una sensación de tranquilidad cada vez más difícil de encontrar en otras zonas costeras de Tenerife.\n\n### Antes de ir\n- 🌊 Consulta el estado del mar antes de bañarte\n- 🏖️ Playa pequeña con ambiente tranquilo y poco masificado\n- ☀️ Excelente clima durante gran parte del año\n- 📸 Buen lugar para fotografiar la costa volcánica del sur de Tenerife\n- 🚗 Se recomienda llegar en vehículo propio\n- 🥤 Servicios limitados en la propia playa\n\n### Recomendación\nCombina la visita con otros rincones costeros del municipio de Arico, como Porís de Abona o las piscinas naturales de la zona. Es una parada ideal para quienes desean descubrir una Tenerife menos conocida y más auténtica.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1458,
+        "lng": -16.4321
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_de_los_abriguitos_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "arena-negra",
+        "sur",
+        "arico",
+        "tranquila",
+        "local",
+        "costa-volcanica"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "arico",
+      "mapsUrl": "https://maps.app.goo.gl/4J4o2Yh8m8q6QqL86"
+    },
+    {
+      "slug": "playa-de-la-pinta",
+      "name": "Playa de La Pinta",
+      "shortDescription": "Playa familiar de arena dorada junto al puerto deportivo de Puerto Colón",
+      "description": "Situada entre Costa Adeje y Puerto Colón, **Playa de La Pinta** es una de las playas familiares más populares del sur de Tenerife. Su arena dorada, sus aguas tranquilas y su ubicación junto al principal puerto deportivo turístico de la isla la convierten en una opción ideal para quienes buscan comodidad, servicios y actividades náuticas.\n\n### La visita\nLa playa se encuentra protegida por diques que reducen el oleaje y crean una amplia zona de baño segura para familias con niños. Sus aguas suelen permanecer tranquilas durante todo el año, favoreciendo el baño, el paddle surf y otras actividades acuáticas ligeras.\n\nA un lado de la playa se encuentra **Puerto Colón**, punto de partida de muchas excursiones para observar cetáceos, paseos en barco, actividades de pesca deportiva y deportes acuáticos. El paseo marítimo conecta fácilmente con las playas cercanas de Torviscas y Fañabé, formando uno de los tramos costeros más animados de Costa Adeje.\n\n### Antes de ir\n- 👨‍👩‍👧‍👦 Una de las mejores playas familiares del sur de Tenerife\n- 🌊 Aguas normalmente tranquilas gracias a los diques de protección\n- ⛵ Junto a Puerto Colón, principal puerto turístico de Costa Adeje\n- ☀️ Excelente clima durante todo el año\n- 🍽️ Gran oferta de restaurantes, cafeterías y tiendas en el paseo marítimo\n- 🚿 Dispone de servicios, hamacas, sombrillas y accesibilidad adaptada\n\n### Recomendación\nCombina unas horas de playa con una excursión de avistamiento de delfines y ballenas desde Puerto Colón. La Pinta es una de las mejores opciones para disfrutar de una jornada cómoda en familia sin alejarse de la amplia oferta de ocio de Costa Adeje.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0789,
+        "lng": -16.7368
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_de_la_pinta_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "playa",
+        "arena-dorada",
+        "costa-adeje",
+        "familiar",
+        "puerto-colon",
+        "sur",
+        "aguas-tranquilas"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": true,
+      "municipio": "adeje",
+      "mapsUrl": "https://maps.app.goo.gl/fQ9s7m4s4v4Xw1mM6"
+    },{
+  "slug": "playa-del-camison",
+  "name": "Playa del Camisón",
+  "shortDescription": "Pequeña playa de arena dorada y aguas tranquilas entre Los Cristianos y Las Américas",
+  "description": "Ubicada entre Playa de Las Américas y Los Cristianos, **Playa del Camisón** es una de las playas más cuidadas y agradables del sur de Tenerife. Su tamaño reducido, la calidad de sus aguas y el entorno ajardinado que la rodea la convierten en una de las favoritas para quienes buscan tranquilidad sin alejarse de las principales zonas turísticas.\n\n### La visita\nLa playa está protegida por espigones de piedra que crean una bahía de aguas calmadas durante gran parte del año. La arena dorada, importada como en muchas de las playas turísticas del sur, ofrece una experiencia cómoda para tomar el sol y disfrutar del baño.\n\nUno de sus elementos más característicos son las palmeras y jardines que bordean la playa, aportando un ambiente más elegante y relajado que otras zonas costeras cercanas. Además, forma parte del extenso paseo marítimo que conecta Costa Adeje, Playa de Las Américas y Los Cristianos, permitiendo recorrer varios kilómetros junto al mar.\n\n### Antes de ir\n- 🌊 Aguas tranquilas gracias a los espigones de protección\n- 🌴 Entorno ajardinado y muy cuidado\n- 👨‍👩‍👧‍👦 Ideal para familias y bañistas que buscan tranquilidad\n- 🚶 Situada junto al paseo marítimo entre Los Cristianos y Las Américas\n- ☀️ Excelente orientación y clima durante todo el año\n- 🍽️ Amplia oferta de restaurantes, cafeterías y hoteles en los alrededores\n\n### Recomendación\nCombina la visita con un paseo por la Milla de Oro de Playa de Las Américas o con una caminata costera hasta Los Cristianos. Playa del Camisón ofrece una de las experiencias más agradables y relajadas del sur de Tenerife, especialmente para quienes buscan aguas tranquilas y un ambiente cuidado.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.0586,
+    "lng": -16.7298
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/playa_del_camison_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "playa",
+    "arena-dorada",
+    "arona",
+    "familias",
+    "aguas-tranquilas",
+    "playa-de-las-americas",
+    "los-cristianos"
+  ],
+  "visitDuration": "2-4h",
+  "difficulty": "easy",
+  "emoji": "🏖️",
+  "top": true,
+  "municipio": "arona",
+  "mapsUrl": "https://maps.app.goo.gl/Z3m4Y8b8yLzKXqD47"
+},{
+  "slug": "playa-de-torviscas",
+  "name": "Playa de Torviscas",
+  "shortDescription": "Playa de arena dorada y ambiente animado en el corazón turístico de Costa Adeje",
+  "description": "Situada entre Puerto Colón y Playa Fañabé, **Playa de Torviscas** es una de las playas más populares de Costa Adeje. Su amplia franja de arena dorada, sus aguas tranquilas y la gran oferta de ocio y restauración la convierten en uno de los puntos más concurridos del sur de Tenerife.\n\n### La visita\nLa playa forma parte del gran paseo marítimo que conecta Costa Adeje con Playa de Las Américas y Los Cristianos. Gracias a los diques de protección, el oleaje suele ser suave durante gran parte del año, creando condiciones ideales para el baño y las actividades acuáticas ligeras.\n\nEl ambiente es animado y cosmopolita, especialmente durante los meses de mayor afluencia turística. A lo largo del paseo encontrarás terrazas, restaurantes, tiendas, heladerías y numerosos servicios orientados al visitante.\n\nDesde la playa se pueden contemplar magníficas vistas de la isla de La Gomera, especialmente durante los atardeceres despejados. Además, la proximidad de Puerto Colón permite acceder fácilmente a excursiones marítimas y actividades de ocio en el mar.\n\n### Antes de ir\n- 👨‍👩‍👧‍👦 Playa ideal para familias gracias a sus aguas tranquilas\n- ☀️ Excelente clima durante todo el año\n- 🚶 Conectada por paseo marítimo con Fañabé, La Pinta y Las Américas\n- ⛵ Muy cerca de Puerto Colón y sus excursiones marítimas\n- 🍽️ Gran oferta de restaurantes, cafeterías y comercios\n- ♿ Playa accesible con numerosos servicios turísticos\n\n### Recomendación\nCombina la playa con un paseo hasta Playa Fañabé o Puerto Colón. Si buscas una jornada cómoda con todos los servicios cerca y un ambiente animado, Torviscas es una de las mejores opciones del sur de Tenerife.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.0818,
+    "lng": -16.7352
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/playa_de_torviscas_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "playa",
+    "arena-dorada",
+    "costa-adeje",
+    "familias",
+    "sur",
+    "puerto-colon",
+    "aguas-tranquilas"
+  ],
+  "visitDuration": "2-4h",
+  "difficulty": "easy",
+  "emoji": "🏖️",
+  "top": true,
+  "municipio": "adeje",
+  "mapsUrl": "https://maps.app.goo.gl/GiJ4W7p9vR5h7qgZ6"
+},{
+  "slug": "playa-de-troya",
+  "name": "Playa de Troya",
+  "shortDescription": "La playa más emblemática de Playa de Las Américas, con arena dorada y ambiente vibrante",
+  "description": "Ubicada en el corazón de Playa de Las Américas, **Playa de Troya** es una de las playas más famosas y concurridas del sur de Tenerife. Gracias a su ubicación privilegiada, su arena dorada y la enorme oferta de ocio que la rodea, se ha convertido en uno de los principales puntos de encuentro para visitantes de todo el mundo.\n\n### La visita\nLa playa está dividida en dos sectores, Troya I y Troya II, separados por un pequeño paseo marítimo. Ambas zonas cuentan con arena dorada y están protegidas por diques que reducen el oleaje, permitiendo disfrutar de aguas tranquilas durante gran parte del año.\n\nSu localización en pleno centro turístico significa que todo está a pocos pasos: restaurantes, terrazas, hoteles, tiendas, centros comerciales y una de las zonas de ocio nocturno más conocidas de Tenerife. Durante el día el ambiente es familiar y relajado, mientras que por la tarde y la noche la zona adquiere una energía más animada.\n\nDesde la playa se disfrutan excelentes vistas de La Gomera y de los atardeceres sobre el Atlántico, especialmente durante los meses de invierno.\n\n### Antes de ir\n- ☀️ Una de las playas más soleadas de Tenerife durante todo el año\n- 👨‍👩‍👧‍👦 Aguas generalmente tranquilas gracias a los diques de protección\n- 🚶 Situada junto al paseo marítimo que conecta Costa Adeje, Las Américas y Los Cristianos\n- 🍽️ Gran oferta de restaurantes, bares y comercios en los alrededores\n- 🏄 Posibilidad de realizar actividades acuáticas en las zonas cercanas\n- ♿ Playa accesible con numerosos servicios turísticos\n\n### Recomendación\nSi buscas combinar playa, ambiente, restaurantes y vida turística, Troya es una de las mejores opciones de Tenerife. Resulta especialmente agradable al atardecer, cuando el paseo marítimo se llena de visitantes disfrutando de las vistas sobre el océano.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.0718,
+    "lng": -16.7328
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/playa_de_troya_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "playa",
+    "arena-dorada",
+    "playa-de-las-americas",
+    "sur",
+    "familias",
+    "ocio",
+    "urbana"
+  ],
+  "visitDuration": "2-4h",
+  "difficulty": "easy",
+  "emoji": "🏖️",
+  "top": true,
+  "municipio": "arona",
+  "mapsUrl": "https://maps.app.goo.gl/jx8j5jv7vGQ4V7Xj8"
+},{
+  "slug": "playa-de-las-vistas",
+  "name": "Playa de Las Vistas",
+  "shortDescription": "La gran playa de arena dorada entre Los Cristianos y Playa de Las Américas",
+  "description": "Con casi un kilómetro de longitud, **Playa de Las Vistas** es una de las playas más famosas y visitadas de Tenerife. Situada entre Los Cristianos y Playa de Las Américas, destaca por su enorme extensión de arena dorada, sus aguas tranquilas y su excelente accesibilidad, convirtiéndose en una de las mejores playas urbanas de Canarias.\n\n### La visita\nLa playa fue ampliada artificialmente en los años 70 con arena dorada y protegida mediante diques que reducen el oleaje. Gracias a ello, ofrece unas condiciones de baño excepcionales durante prácticamente todo el año.\n\nUno de sus elementos más reconocibles es la fuente situada en el mar, visible desde gran parte de la playa. El amplio paseo marítimo que la bordea conecta directamente con Los Cristianos, Playa de Las Américas y Costa Adeje, permitiendo recorrer varios kilómetros junto al océano sin apenas interrupciones.\n\nLas Vistas dispone de todos los servicios imaginables: alquiler de hamacas, duchas, accesos adaptados, actividades acuáticas, restaurantes, cafeterías y zonas comerciales. Su combinación de comodidad, tamaño y ubicación la convierten en una de las playas más completas de Tenerife.\n\n### Antes de ir\n- 🏖️ Una de las playas más grandes y populares de Tenerife\n- 👨‍👩‍👧‍👦 Ideal para familias gracias a sus aguas tranquilas\n- ♿ Playa totalmente accesible con servicios adaptados\n- 🚶 Conectada por paseo marítimo con Los Cristianos, Las Américas y Costa Adeje\n- ☀️ Excelente clima durante todo el año\n- 🍽️ Amplia oferta de restaurantes, cafeterías y comercios en los alrededores\n\n### Recomendación\nSi visitas el sur de Tenerife y solo puedes elegir una playa urbana, Las Vistas es una apuesta segura. Combina baño, paseo, gastronomía y todos los servicios necesarios para disfrutar de una jornada completa junto al mar.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.0559,
+    "lng": -16.7305
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/playa_de_las_vistas_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "playa",
+    "arena-dorada",
+    "los-cristianos",
+    "playa-de-las-americas",
+    "familiar",
+    "sur",
+    "aguas-tranquilas"
+  ],
+  "visitDuration": "3-5h",
+  "difficulty": "easy",
+  "emoji": "🏖️",
+  "top": true,
+  "municipio": "arona",
+  "mapsUrl": "https://maps.app.goo.gl/UjM5V7a9G8WfYvNQ8"
+},{
+  "slug": "playa-de-fanabe",
+  "name": "Playa de Fañabé",
+  "shortDescription": "Una de las playas más populares de Costa Adeje, con arena dorada y todos los servicios",
+  "description": "Situada en el corazón de Costa Adeje, **Playa de Fañabé** es una de las playas más famosas y concurridas del sur de Tenerife. Su amplia extensión de arena dorada, sus aguas tranquilas y la enorme cantidad de servicios disponibles la han convertido en una de las favoritas tanto para familias como para visitantes que buscan comodidad y ocio junto al mar.\n\n### La visita\nLa playa forma parte del gran frente marítimo turístico que conecta Costa Adeje con Playa de Las Américas y Los Cristianos. Gracias a los diques de protección, las aguas suelen mantenerse calmadas durante gran parte del año, ofreciendo condiciones ideales para el baño y actividades acuáticas ligeras.\n\nEl paseo marítimo está repleto de restaurantes, cafeterías, tiendas y hoteles, creando un ambiente animado durante todo el día. A diferencia de otras playas más urbanas, Fañabé conserva una sensación de amplitud que permite encontrar espacio incluso en las épocas de mayor afluencia.\n\nLas vistas hacia La Gomera y los espectaculares atardeceres sobre el Atlántico son algunos de sus mayores atractivos. Además, la playa cuenta con numerosos servicios de calidad, incluyendo accesos adaptados, alquiler de hamacas y zonas para deportes acuáticos.\n\n### Antes de ir\n- 👨‍👩‍👧‍👦 Una de las mejores playas familiares del sur de Tenerife\n- 🌊 Aguas tranquilas gracias a los diques de protección\n- ☀️ Excelente clima durante todo el año\n- 🚶 Conectada por paseo marítimo con El Duque, Torviscas y La Pinta\n- 🍽️ Amplia oferta de restaurantes, cafeterías y comercios\n- ♿ Playa accesible con numerosos servicios e instalaciones adaptadas\n\n### Recomendación\nSi buscas una playa cómoda, amplia y con todos los servicios imaginables, Playa de Fañabé es una apuesta segura. Combínala con un paseo hasta Playa del Duque o Puerto Colón para disfrutar de una de las zonas turísticas más completas de Tenerife.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.0890,
+    "lng": -16.7397
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/playa_fanabe_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "playa",
+    "arena-dorada",
+    "costa-adeje",
+    "familiar",
+    "sur",
+    "aguas-tranquilas",
+    "turistica"
+  ],
+  "visitDuration": "3-5h",
+  "difficulty": "easy",
+  "emoji": "🏖️",
+  "top": true,
+  "municipio": "adeje",
+  "mapsUrl": "https://maps.app.goo.gl/LsY5n8Lz2iM7Jk4Y9"
+},{
+  "slug": "playa-de-la-tejita",
+  "name": "Playa de La Tejita",
+  "shortDescription": "La playa natural más extensa de Tenerife junto a la icónica Montaña Roja",
+  "description": "Con más de un kilómetro de longitud, **Playa de La Tejita** es una de las playas naturales más espectaculares y mejor conservadas de Tenerife. Situada junto al Monumento Natural de Montaña Roja, ofrece un paisaje único donde las dunas, la arena dorada y los tonos rojizos del cono volcánico crean una de las imágenes más emblemáticas de la isla.\n\n### La visita\nA diferencia de muchas playas turísticas del sur, La Tejita conserva un carácter salvaje y abierto al Atlántico. Su amplia extensión permite encontrar espacio incluso durante los periodos de mayor afluencia, mientras que la ausencia de grandes urbanizaciones junto a la playa contribuye a mantener una sensación de naturaleza difícil de encontrar en otras zonas costeras.\n\nLa playa está dividida en varias áreas, algunas más protegidas por la cercanía de Montaña Roja y otras más expuestas al viento y al oleaje. Estas condiciones la convierten en un lugar muy apreciado por aficionados al windsurf, kitesurf y otros deportes acuáticos.\n\nEl sendero que rodea Montaña Roja ofrece algunos de los mejores miradores del sur de Tenerife, con vistas panorámicas sobre La Tejita, El Médano y el océano Atlántico.\n\n### Antes de ir\n- 🏖️ Una de las playas naturales más grandes de Tenerife\n- 🌋 Situada junto al Monumento Natural de Montaña Roja\n- 💨 Frecuentemente ventosa, especialmente durante el verano\n- 🚶 Ideal para combinar con la subida a Montaña Roja\n- 📸 Uno de los paisajes costeros más fotogénicos de la isla\n- ☀️ Excelente para disfrutar del sol y la naturaleza durante todo el año\n\n### Recomendación\nDedica al menos medio día a explorar la zona. Combina un paseo por la playa con la subida a Montaña Roja para disfrutar de algunas de las mejores vistas del sur de Tenerife. Si buscas naturaleza, amplitud y un entorno menos urbanizado, La Tejita es una visita imprescindible.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.0449,
+    "lng": -16.5368
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/playa_de_la_tejita_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "playa",
+    "arena-dorada",
+    "montana-roja",
+    "el-medano",
+    "naturaleza",
+    "sur",
+    "windsurf"
+  ],
+  "visitDuration": "3-5h",
+  "difficulty": "easy",
+  "emoji": "🏖️",
+  "top": true,
+  "municipio": "granadilla-de-abona",
+  "mapsUrl": "https://maps.app.goo.gl/6hP2R5N4Yf7wJtT38"
+},{
+  "slug": "playa-abama",
+  "name": "Playa Abama",
+  "shortDescription": "Exclusiva playa de arena dorada al pie de los acantilados de Guía de Isora",
+  "description": "Escondida bajo los impresionantes acantilados de Guía de Isora, **Playa Abama** es una de las playas más elegantes y fotogénicas de Tenerife. Su arena dorada, sus aguas cristalinas y el espectacular entorno natural la convierten en una de las joyas costeras del oeste de la isla.\n\n### La visita\nLa playa se encuentra protegida por varios espigones que mantienen el mar tranquilo durante gran parte del año, creando condiciones ideales para el baño y el snorkel. A diferencia de otras playas del sur, Abama conserva una atmósfera más tranquila y exclusiva gracias a su ubicación apartada y al entorno de lujo que la rodea.\n\nEl acceso se realiza mediante un sendero pavimentado que desciende desde la zona superior de los acantilados. Durante el recorrido se disfrutan espectaculares vistas del océano Atlántico y de la isla de La Gomera, especialmente al atardecer.\n\nLa calidad de sus aguas y la riqueza marina de la zona la convierten en uno de los mejores lugares del oeste de Tenerife para practicar snorkel cerca de la costa. Los tonos turquesa del mar contrastan con los acantilados volcánicos y la arena dorada, creando uno de los paisajes más impresionantes de la isla.\n\n### Antes de ir\n- 🌊 Aguas tranquilas gracias a los espigones de protección\n- 🤿 Excelente para snorkel y observación de vida marina\n- 🚶 Acceso mediante sendero pavimentado con pendiente moderada\n- 📸 Una de las playas más fotogénicas de Tenerife\n- 🌅 Magníficas vistas de La Gomera al atardecer\n- ☀️ Ambiente más tranquilo que las playas de Costa Adeje\n\n### Recomendación\nVisítala a primera hora de la mañana o al final de la tarde para disfrutar de la mejor luz y evitar las horas de mayor afluencia. Combina la playa con una visita a los miradores de Guía de Isora o a los cercanos Acantilados de Los Gigantes para descubrir una de las zonas más espectaculares del oeste de Tenerife.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.1787,
+    "lng": -16.8052
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/playa_abama_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "playa",
+    "arena-dorada",
+    "guia-de-isora",
+    "snorkel",
+    "oeste",
+    "acantilados",
+    "aguas-cristalinas"
+  ],
+  "visitDuration": "2-4h",
+  "difficulty": "easy",
+  "emoji": "🏖️",
+  "top": true,
+  "municipio": "guia-de-isora",
+  "mapsUrl": "https://maps.app.goo.gl/y9hL6Y4K4m3hJ9M79"
+},{
+  "slug": "playa-de-los-guios",
+  "name": "Playa de Los Guíos",
+  "shortDescription": "La playa a los pies de los impresionantes Acantilados de Los Gigantes",
+  "description": "Pocas playas en Canarias pueden presumir de un escenario tan espectacular como **Playa de Los Guíos**. Situada junto al puerto deportivo de Los Gigantes, esta pequeña playa de arena volcánica negra se encuentra literalmente al pie de los colosales acantilados que dan nombre a la localidad, unas paredes de roca que se elevan hasta más de 600 metros sobre el océano Atlántico.\n\n### La visita\nLa principal protagonista aquí no es la playa, sino el paisaje. Los Acantilados de Los Gigantes forman uno de los monumentos naturales más impresionantes de Tenerife y ofrecen una sensación de escala difícil de encontrar en cualquier otro lugar de la isla.\n\nLa playa dispone de arena negra volcánica y aguas generalmente tranquilas gracias a la protección natural de la bahía. Desde la orilla se obtienen algunas de las mejores fotografías de los acantilados, especialmente durante las primeras horas de la mañana y al atardecer.\n\nA pocos metros se encuentra el Puerto Deportivo de Los Gigantes, punto de salida de muchas excursiones de avistamiento de cetáceos, rutas en kayak y paseos en barco. Esto convierte la playa en una parada ideal dentro de una jornada de exploración de la costa oeste de Tenerife.\n\n### Antes de ir\n- 🏔️ Una de las vistas más espectaculares de Tenerife\n- 📸 Lugar imprescindible para fotografiar los Acantilados de Los Gigantes\n- 🌊 Aguas normalmente tranquilas, aunque conviene consultar el estado del mar\n- ⛵ Junto al puerto deportivo y las excursiones marítimas\n- 🌅 Excelente para contemplar el atardecer sobre el Atlántico\n- 🍽️ Restaurantes, cafeterías y servicios a pocos pasos\n\n### Recomendación\nCombina el baño con una excursión en barco para contemplar los Acantilados de Los Gigantes desde el mar. La experiencia de ver estas enormes paredes volcánicas tanto desde la playa como desde el océano es uno de los recuerdos más impresionantes que puede llevarse un visitante de Tenerife.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.2478,
+    "lng": -16.8427
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/playa_de_los_guios_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "playa",
+    "arena-negra",
+    "los-gigantes",
+    "acantilados",
+    "oeste",
+    "fotografia",
+    "puerto-deportivo"
+  ],
+  "visitDuration": "1-3h",
+  "difficulty": "easy",
+  "emoji": "🏖️",
+  "top": true,
+  "municipio": "santiago-del-teide",
+  "mapsUrl": "https://maps.app.goo.gl/1z8nqJk7n6v8oR2L9"
+},{
+  "slug": "piscinas-naturales-de-bajamar",
+  "name": "Piscinas Naturales de Bajamar",
+  "shortDescription": "Espectaculares piscinas oceánicas junto al Atlántico en la costa norte de Tenerife",
+  "description": "Las **Piscinas Naturales de Bajamar** son uno de los complejos de baño más emblemáticos del norte de Tenerife. Situadas junto al océano Atlántico, en el municipio de San Cristóbal de La Laguna, combinan la fuerza del mar con la seguridad de unas piscinas acondicionadas que permiten disfrutar del agua durante gran parte del año.\n\n### La visita\nEl complejo está formado por dos grandes piscinas de agua marina y varias zonas de baño adaptadas a diferentes edades. Durante los días de fuerte oleaje, el espectáculo de las olas rompiendo contra los muros exteriores convierte la visita en una experiencia inolvidable.\n\nLas piscinas ofrecen magníficas vistas al Atlántico y a la escarpada costa del macizo de Anaga. Gracias a su amplitud y a la calidad de las instalaciones, son frecuentadas tanto por residentes como por visitantes que buscan una alternativa segura a las playas del norte.\n\nEl paseo marítimo de Bajamar permite recorrer cómodamente la costa y disfrutar de restaurantes, cafeterías y miradores con vistas al océano. En días despejados es posible contemplar el Teide elevándose sobre el paisaje insular.\n\n### Antes de ir\n- 🌊 Piscinas de agua marina acondicionadas para el baño\n- 👨‍👩‍👧‍👦 Perfectas para familias y visitantes de todas las edades\n- 📸 Espectacular durante los temporales y marejadas del norte\n- 🚶 Paseo marítimo con vistas al océano Atlántico\n- 🍽️ Restaurantes y cafeterías en los alrededores\n- ☀️ Muy agradables durante los meses de verano y otoño\n\n### Recomendación\nCombina la visita con un recorrido por Bajamar, Punta del Hidalgo o los senderos del Parque Rural de Anaga. Las piscinas naturales son uno de los mejores lugares del norte de Tenerife para disfrutar del mar con comodidad y seguridad mientras contemplas algunos de los paisajes costeros más impresionantes de la isla.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.3725,
+    "lng": -16.3447
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/piscinas_naturales_bajamar_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "piscinas-naturales",
+    "bajamar",
+    "agua-marina",
+    "la-laguna",
+    "norte",
+    "familias",
+    "costa"
+  ],
+  "visitDuration": "1-3h",
+  "difficulty": "easy",
+  "emoji": "🌊",
+  "top": true,
+  "municipio": "san-cristobal-de-la-laguna",
+  "mapsUrl": "https://maps.app.goo.gl/x6Wf6Q9a2kKjv9rL8"
+},
+{
+  "slug": "piscina-natural-punta-del-hidalgo",
+  "name": "Piscina Natural Punta del Hidalgo",
+  "shortDescription": "Piscinas oceánicas con vistas espectaculares al macizo de Anaga y al Atlántico",
+  "description": "Situadas en el extremo nororiental de Tenerife, las **Piscinas Naturales de Punta del Hidalgo** ofrecen una de las experiencias costeras más auténticas de la isla. Construidas junto al océano Atlántico y rodeadas por el espectacular paisaje del macizo de Anaga, combinan la fuerza del mar con zonas de baño seguras y accesibles.\n\n### La visita\nEl complejo está formado por varias piscinas de agua marina excavadas y acondicionadas junto a la costa, permitiendo disfrutar del océano incluso cuando el mar presenta fuerte oleaje. La ubicación es privilegiada: frente al Atlántico abierto y a los impresionantes acantilados que marcan la entrada al Parque Rural de Anaga.\n\nDurante los días de mar agitada, las olas rompen contra las formaciones volcánicas y los muros exteriores creando un espectáculo natural impresionante. En jornadas tranquilas, las piscinas se convierten en un lugar perfecto para relajarse, nadar y disfrutar del paisaje.\n\nEl paseo marítimo conecta las piscinas con el emblemático Faro de Punta del Hidalgo y con varios restaurantes especializados en pescado fresco y cocina canaria tradicional.\n\n### Antes de ir\n- 🌊 Piscinas de agua marina acondicionadas junto al océano\n- 🏔️ Espectaculares vistas al macizo de Anaga\n- 📸 Uno de los rincones más fotogénicos del norte de Tenerife\n- 🚶 Fácil acceso desde el paseo marítimo de Punta del Hidalgo\n- 🌅 Magníficos atardeceres sobre el Atlántico\n- 🍽️ Restaurantes y terrazas a pocos minutos caminando\n\n### Recomendación\nCombina la visita con una caminata por los senderos de Anaga, un paseo hasta el Faro de Punta del Hidalgo o una comida frente al mar. Es uno de los mejores lugares de Tenerife para disfrutar del océano de forma segura mientras contemplas algunos de los paisajes más espectaculares de la isla.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.5756,
+    "lng": -16.3247
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/piscinas_naturales_punta_del_hidalgo_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "piscinas-naturales",
+    "punta-del-hidalgo",
+    "anaga",
+    "agua-marina",
+    "norte",
+    "la-laguna",
+    "costa-volcanica"
+  ],
+  "visitDuration": "1-3h",
+  "difficulty": "easy",
+  "emoji": "🌊",
+  "top": true,
+  "municipio": "san-cristobal-de-la-laguna",
+  "mapsUrl": "https://maps.app.goo.gl/Q2oL4n3nQ7xN8w4J6"
+},
+{
+  "slug": "piscina-natural-mesa-del-mar",
+  "name": "Piscina Natural Mesa del Mar",
+  "shortDescription": "Piscina oceánica junto a los acantilados de Tacoronte con vistas espectaculares al Atlántico",
+  "description": "Situada en la pequeña localidad costera de Mesa del Mar, en el municipio de Tacoronte, la **Piscina Natural Mesa del Mar** es uno de los rincones más tranquilos y auténticos del norte de Tenerife. Rodeada por impresionantes acantilados volcánicos y abierta al océano Atlántico, ofrece una experiencia diferente a las grandes zonas turísticas de la isla.\n\n### La visita\nLa piscina está acondicionada junto a la costa y se alimenta directamente del agua del mar. Gracias a su diseño protegido, permite disfrutar del baño con mayor seguridad que en muchas zonas abiertas del litoral norte.\n\nEl entorno destaca por la espectacular pared de acantilados que domina el paisaje y por las vistas panorámicas sobre el Atlántico. Durante los días de fuerte oleaje, el mar ofrece un espectáculo impresionante con las olas rompiendo contra las formaciones volcánicas cercanas.\n\nMuy cerca se encuentra la Playa de Mesa del Mar, una pequeña playa de arena negra que complementa perfectamente la visita. El ambiente suele ser tranquilo y frecuentado principalmente por residentes locales.\n\n### Antes de ir\n- 🌊 Piscina de agua marina protegida del oleaje directo\n- 🏔️ Espectaculares vistas de los acantilados de Tacoronte\n- 📸 Excelente lugar para fotografía costera\n- 🏖️ Junto a la Playa de Mesa del Mar\n- 🚗 Acceso mediante carretera desde Tacoronte\n- ☀️ Ambiente tranquilo y poco masificado durante gran parte del año\n\n### Recomendación\nCombina la visita con un recorrido por la costa de Tacoronte y los miradores de la zona. Es un lugar ideal para quienes buscan una experiencia más local y relajada, lejos de los principales núcleos turísticos, mientras disfrutan de uno de los paisajes costeros más llamativos del norte de Tenerife.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.4808,
+    "lng": -16.4106
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/piscina_natural_mesa_del_mar_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "piscina-natural",
+    "mesa-del-mar",
+    "tacoronte",
+    "agua-marina",
+    "norte",
+    "acantilados",
+    "costa-volcanica"
+  ],
+  "visitDuration": "1-2h",
+  "difficulty": "easy",
+  "emoji": "🌊",
+  "top": false,
+  "municipio": "tacoronte",
+  "mapsUrl": "https://maps.app.goo.gl/Ux7m5k8Y6dQ3wX7aA"
+},{
+  "slug": "charco-de-la-laja",
+  "name": "Charco de La Laja",
+  "shortDescription": "Espectacular piscina natural volcánica entre coladas de lava en la costa norte de Tenerife",
+  "description": "El **Charco de La Laja** es una de las piscinas naturales más fotogénicas y sorprendentes de Tenerife. Situado en el municipio de San Juan de la Rambla, este rincón volcánico se formó gracias a antiguas coladas de lava que crearon una piscina natural protegida del oleaje del Atlántico. El contraste entre la roca negra, las aguas cristalinas y el océano abierto convierte este lugar en uno de los paisajes costeros más espectaculares del norte de la isla.\n\n### La visita\nLa piscina natural se encuentra encajada entre formaciones volcánicas que actúan como barrera natural frente al mar. Cuando las condiciones son favorables, sus aguas transparentes adquieren tonos turquesa que contrastan espectacularmente con el negro intenso de la lava.\n\nUno de sus mayores atractivos es la sensación de estar nadando en una piscina natural esculpida por la propia naturaleza. Durante los días de mar tranquila, es un lugar excelente para bañarse y relajarse. Sin embargo, cuando hay fuerte oleaje o mar de fondo, las condiciones pueden volverse peligrosas y conviene extremar la precaución.\n\nEl acceso se realiza mediante escaleras desde el paseo marítimo de San Juan de la Rambla, permitiendo disfrutar también de magníficas vistas sobre la costa norte de Tenerife.\n\n### Antes de ir\n- 🌊 Consulta siempre el estado del mar antes de bañarte\n- 📸 Una de las piscinas naturales más fotogénicas de Tenerife\n- 🌋 Formada por antiguas coladas de lava volcánica\n- 🚶 Acceso mediante escaleras desde el paseo costero\n- ☀️ Mejor visitarla con marea y condiciones favorables\n- ⚠️ Evita el baño durante episodios de fuerte oleaje o mar de fondo\n\n### Recomendación\nVisítalo por la mañana para disfrutar de la mejor luz sobre las aguas cristalinas. Combina la visita con un recorrido por San Juan de la Rambla y otros rincones costeros del norte de Tenerife. Es uno de esos lugares que muestran a la perfección el origen volcánico de las Islas Canarias.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.3953,
+    "lng": -16.6518
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/charco_de_la_laja_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "piscina-natural",
+    "charco",
+    "san-juan-de-la-rambla",
+    "costa-volcanica",
+    "norte",
+    "fotografia",
+    "agua-marina"
+  ],
+  "visitDuration": "30min-1h",
+  "difficulty": "easy",
+  "emoji": "🌊",
+  "top": true,
+  "municipio": "san-juan-de-la-rambla",
+  "mapsUrl": "https://maps.app.goo.gl/6qT9JqQjN3Kf6j7Q7"
+},{
+  "slug": "el-caleton",
+  "name": "El Caletón",
+  "shortDescription": "Las piscinas naturales más famosas de Tenerife, creadas por la erupción volcánica de 1706",
+  "description": "Pocos lugares representan mejor la fuerza de la naturaleza en Tenerife que **El Caletón**. Situado junto al casco histórico de Garachico, este espectacular conjunto de piscinas naturales nació tras la erupción volcánica de 1706, cuando las coladas de lava transformaron por completo el antiguo puerto de la localidad. Hoy es uno de los lugares más emblemáticos y fotografiados de la isla.\n\n### La visita\nLas piscinas se distribuyen entre las formaciones volcánicas que alcanzaron el mar hace más de tres siglos. El resultado es un conjunto de charcos y zonas de baño de diferentes tamaños donde el océano Atlántico renueva constantemente el agua.\n\nLas pasarelas y accesos acondicionados permiten recorrer fácilmente el complejo y disfrutar de unas vistas espectaculares sobre la costa norte de Tenerife. Durante los días de mar tranquila, las piscinas ofrecen excelentes condiciones para el baño. Cuando el Atlántico muestra toda su fuerza, las olas rompiendo contra las rocas crean uno de los espectáculos naturales más impresionantes de Canarias.\n\nA pocos metros se encuentran algunos de los monumentos más importantes de Garachico, como el Castillo de San Miguel, la Plaza de la Libertad y el antiguo puerto histórico, convirtiendo la visita en una combinación perfecta de naturaleza e historia.\n\n### Antes de ir\n- 🌊 Consulta el estado del mar antes de bañarte\n- 🌋 Formadas por las coladas de lava de la erupción de 1706\n- 📸 Uno de los lugares más fotografiados de Tenerife\n- 🚶 Acceso sencillo desde el centro histórico de Garachico\n- 🏛️ Perfecto para combinar con una visita cultural al municipio\n- ⚠️ Durante temporales algunas zonas pueden cerrarse por seguridad\n\n### Recomendación\nDedica varias horas a explorar Garachico y termina la visita en El Caletón. Pocas experiencias reflejan mejor la historia volcánica de Canarias que bañarse en unas piscinas naturales creadas por una erupción que cambió para siempre el destino de una de las ciudades más importantes de Tenerife.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.3739,
+    "lng": -16.7648
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/piscinas_naturales_garachico_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "piscinas-naturales",
+    "garachico",
+    "volcan",
+    "costa-volcanica",
+    "norte",
+    "patrimonio",
+    "agua-marina"
+  ],
+  "visitDuration": "1-3h",
+  "difficulty": "easy",
+  "emoji": "🌊",
+  "top": true,
+  "municipio": "garachico",
+  "mapsUrl": "https://maps.app.goo.gl/4J3yQ9x2t6qHfG9S8"
+},{
+  "slug": "charco-los-chochos",
+  "name": "Charco Los Chochos",
+  "shortDescription": "Piscina natural escondida entre coladas volcánicas en la costa de Los Silos",
+  "description": "Situado en la costa de Los Silos, **Charco Los Chochos** es uno de los rincones naturales más atractivos del noroeste de Tenerife. Esta piscina natural, formada por antiguas coladas volcánicas, ofrece un entorno espectacular donde el océano Atlántico y la geología volcánica de la isla crean un paisaje único.\n\n### La visita\nEl charco está protegido parcialmente por formaciones de lava que amortiguan el impacto directo de las olas, creando una amplia zona de baño de aguas marinas. Durante los días de mar tranquila, sus aguas adquieren tonalidades azul turquesa que contrastan con el negro intenso de la roca volcánica.\n\nLa zona cuenta con accesos acondicionados y plataformas que facilitan la entrada al agua. Gracias a su amplitud, suele ser una opción muy popular entre residentes del norte de Tenerife durante los meses más cálidos.\n\nDesde el entorno se disfrutan magníficas vistas hacia la costa de Los Silos, el macizo de Teno y los acantilados que caracterizan esta parte de la isla. El paisaje es especialmente espectacular durante el atardecer.\n\n### Antes de ir\n- 🌊 Consulta siempre el estado del mar antes de bañarte\n- 🌋 Piscina natural formada por antiguas coladas volcánicas\n- 📸 Excelente lugar para fotografía de costa volcánica\n- 🚶 Acceso relativamente sencillo desde la zona urbana\n- ☀️ Muy popular entre residentes durante el verano\n- ⚠️ Evita el baño cuando exista fuerte oleaje o mar de fondo\n\n### Recomendación\nCombina la visita con un recorrido por Los Silos, Buenavista del Norte o el cercano Parque Rural de Teno. Charco Los Chochos es una excelente alternativa para quienes buscan disfrutar de una piscina natural auténtica lejos de las zonas más masificadas de Tenerife.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.3685,
+    "lng": -16.8168
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/charco_los_chochos_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "piscina-natural",
+    "charco",
+    "los-silos",
+    "costa-volcanica",
+    "noroeste",
+    "agua-marina",
+    "naturaleza"
+  ],
+  "visitDuration": "1-2h",
+  "difficulty": "easy",
+  "emoji": "🌊",
+  "top": true,
+  "municipio": "los-silos",
+  "mapsUrl": "https://maps.app.goo.gl/6GxVQ8jM9jJmK2Lr6"
+},{
+  "slug": "parque-maritimo-cesar-manrique",
+  "name": "Parque Marítimo César Manrique",
+  "shortDescription": "Complejo de piscinas de agua salada diseñado por César Manrique frente al Atlántico",
+  "description": "El **Parque Marítimo César Manrique** es uno de los espacios de ocio más emblemáticos de Santa Cruz de Tenerife. Diseñado por el célebre artista y arquitecto canario César Manrique e inaugurado en 1995, combina arquitectura, naturaleza y mar en un espectacular complejo de piscinas de agua salada junto al océano Atlántico.\n\n### La visita\nEl recinto ocupa más de 22.000 metros cuadrados y cuenta con varias piscinas de agua marina, cascadas, soláriums, jardines de palmeras y zonas de descanso integradas en un entorno inspirado en la estética volcánica de Canarias.\n\nLa filosofía de César Manrique está presente en cada rincón del complejo, donde la piedra volcánica, la vegetación autóctona y el agua crean una armonía perfecta entre arte y naturaleza. Gracias a su ubicación frente al mar, ofrece magníficas vistas al Atlántico y al Auditorio de Tenerife.\n\nAdemás de las piscinas, el parque dispone de restaurantes, cafeterías, zonas infantiles y espacios para eventos, convirtiéndose en uno de los lugares más populares para disfrutar del buen clima de Santa Cruz durante todo el año.\n\n### Antes de ir\n- 🌊 Varias piscinas de agua marina con diferentes profundidades\n- 🎨 Diseñado por el artista canario César Manrique\n- 🌴 Amplias zonas ajardinadas y soláriums\n- 👨‍👩‍👧‍👦 Ideal para familias y visitantes de todas las edades\n- 🍽️ Restaurantes, cafeterías y servicios dentro del recinto\n- 📸 Excelentes vistas al Auditorio de Tenerife y al océano Atlántico\n\n### Recomendación\nCombina la visita con un paseo por el Auditorio de Tenerife, el Palmetum o el centro histórico de Santa Cruz. Es una de las mejores opciones para disfrutar del mar y del sol en la capital de la isla, especialmente si buscas comodidad y todos los servicios en un mismo lugar.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.4527,
+    "lng": -16.2465
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/parque_maritimo_cesar_manrique_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "piscinas",
+    "cesar-manrique",
+    "santa-cruz",
+    "agua-marina",
+    "familias",
+    "arquitectura",
+    "ocio"
+  ],
+  "visitDuration": "2-4h",
+  "difficulty": "easy",
+  "emoji": "🌊",
+  "top": true,
+  "municipio": "santa-cruz-de-tenerife",
+  "mapsUrl": "https://maps.app.goo.gl/xzG3mY5P9vL8jD8v7"
+},{
+  "slug": "complejo-turistico-costa-martianez",
+  "name": "Lago Martiánez",
+  "shortDescription": "La obra maestra de César Manrique en Puerto de la Cruz, con lagos de agua marina y arte volcánico",
+  "description": "El **Complejo Turístico Costa Martiánez**, conocido popularmente como **Lago Martiánez**, es uno de los espacios más emblemáticos de Tenerife y una de las obras más importantes de César Manrique. Inaugurado en 1977 frente al océano Atlántico, este espectacular complejo combina piscinas de agua marina, jardines, esculturas y arquitectura integrada en el paisaje volcánico de Canarias.\n\n### La visita\nEl complejo ocupa más de 100.000 metros cuadrados y está formado por un gran lago artificial central rodeado por varias piscinas, islotes, cascadas y zonas ajardinadas. La piedra volcánica negra, la vegetación subtropical y las esculturas diseñadas por César Manrique crean un entorno único donde arte y naturaleza conviven en perfecta armonía.\n\nUbicado en pleno Puerto de la Cruz, ofrece impresionantes vistas del océano Atlántico y de la costa norte de Tenerife. Además de las zonas de baño, el recinto cuenta con restaurantes, terrazas y amplios espacios para relajarse bajo el sol.\n\nLa obra está considerada uno de los mejores ejemplos de arquitectura paisajística de Canarias y uno de los proyectos más reconocidos del legado artístico de César Manrique fuera de Lanzarote.\n\n### Antes de ir\n- 🎨 Diseñado por César Manrique, una de las figuras más influyentes del arte canario\n- 🌊 Varias piscinas y un gran lago de agua marina\n- 🌴 Amplias zonas ajardinadas y espacios para tomar el sol\n- 📸 Uno de los lugares más fotogénicos de Puerto de la Cruz\n- 🍽️ Restaurantes y servicios dentro del complejo\n- 🚶 Situado a pocos minutos del centro histórico de la ciudad\n\n### Recomendación\nDedica al menos medio día a disfrutar del complejo y combínalo con una visita al Paseo de San Telmo, la Plaza del Charco o Playa Jardín. Lago Martiánez es mucho más que una zona de baño: es una de las obras de arte al aire libre más importantes de Canarias y una visita imprescindible en Puerto de la Cruz.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.4142,
+    "lng": -16.5487
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/lago_martianez_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "cesar-manrique",
+    "puerto-de-la-cruz",
+    "agua-marina",
+    "arquitectura",
+    "arte",
+    "familias",
+    "atraccion"
+  ],
+  "visitDuration": "3-5h",
+  "difficulty": "easy",
+  "emoji": "🏊",
+  "top": true,
+  "municipio": "puerto-de-la-cruz",
+  "mapsUrl": "https://maps.app.goo.gl/2S4W8vP6K9gR7mJZ7"
+},
+    {
+  "slug": "playa-de-los-cristianos",
+  "name": "Playa de Los Cristianos",
+  "shortDescription": "La playa histórica del sur de Tenerife junto al puerto y el corazón de Los Cristianos",
+  "description": "Situada en el centro del núcleo turístico de Los Cristianos, **Playa de Los Cristianos** es una de las playas más emblemáticas del sur de Tenerife. Durante siglos fue una pequeña bahía pesquera y hoy sigue siendo el corazón histórico de una de las localidades turísticas más importantes de Canarias.\n\n### La visita\nLa playa cuenta con una amplia extensión de arena dorada y aguas tranquilas protegidas por el puerto, lo que la convierte en una opción excelente para familias y bañistas de todas las edades. Su orientación privilegiada garantiza muchas horas de sol durante todo el año y unas condiciones ideales para disfrutar del mar.\n\nA pocos metros se encuentra el Puerto de Los Cristianos, principal conexión marítima entre Tenerife, La Gomera, La Palma y El Hierro. El paseo marítimo está lleno de restaurantes, terrazas y comercios, creando un ambiente animado durante todo el día.\n\nAdemás de su atractivo como playa urbana, Los Cristianos conserva parte de su identidad marinera. Todavía es posible observar embarcaciones pesqueras tradicionales compartiendo espacio con ferris, barcos turísticos y actividades náuticas.\n\n### Antes de ir\n- 👨‍👩‍👧‍👦 Playa ideal para familias gracias a sus aguas tranquilas\n- ☀️ Excelente clima y condiciones de baño durante todo el año\n- ⛴️ Junto al Puerto de Los Cristianos, principal puerto interinsular de Canarias\n- 🚶 Conectada mediante paseo marítimo con Playa de Las Vistas y Costa Adeje\n- 🍽️ Amplia oferta de restaurantes, cafeterías y tiendas en los alrededores\n- ♿ Playa accesible con servicios y equipamientos adaptados\n\n### Recomendación\nCombina la playa con un paseo por el puerto y el casco histórico de Los Cristianos. También puedes recorrer el paseo marítimo hasta Playa de Las Vistas o embarcarte en una excursión para avistar cetáceos. Es uno de los lugares que mejor representa la evolución turística del sur de Tenerife.",
+  "island": "tenerife",
+  "category": "beach",
+  "coordinates": {
+    "lat": 28.0495,
+    "lng": -16.7173
+  },
+  "images": {
+    "hero": "/images/tenerife/playas/playa_de_los_cristianos_tenerife.avif",
+    "gallery": []
+  },
+  "hasPremiumAudio": false,
+  "affiliateLinks": [],
+  "tags": [
+    "playa",
+    "arena-dorada",
+    "los-cristianos",
+    "sur",
+    "familiar",
+    "puerto",
+    "urbana"
+  ],
+  "visitDuration": "2-4h",
+  "difficulty": "easy",
+  "emoji": "🏖️",
+  "top": true,
+  "municipio": "arona",
+  "mapsUrl": "https://maps.app.goo.gl/W8w4Hn7VwN3bPjHc6"
+},
     {
       "slug": "playa-del-duque",
       "name": "Playa del Duque",
@@ -180,11 +935,8 @@
         "lng": -16.7402
       },
       "images": {
-        "hero": "/images/tenerife/playas/duque/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/duque/1.avif",
-          "/images/tenerife/playas/duque/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_del_duque_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -215,11 +967,8 @@
         "lng": -16.8323
       },
       "images": {
-        "hero": "/images/tenerife/playas/la-arena/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/la-arena/1.avif",
-          "/images/tenerife/playas/la-arena/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_de_la_arena_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -249,11 +998,8 @@
         "lng": -16.1772
       },
       "images": {
-        "hero": "/images/tenerife/playas/benijo/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/benijo/1.avif",
-          "/images/tenerife/playas/benijo/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_de_benijos_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -284,11 +1030,8 @@
         "lng": -16.5376
       },
       "images": {
-        "hero": "/images/tenerife/playas/el-medano/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/el-medano/1.avif",
-          "/images/tenerife/playas/el-medano/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_el_medano_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -324,13 +1067,7 @@
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": [
-        "transporte",
-        "coche",
-        "alquiler",
-        "aeropuerto",
-        "movilidad"
-      ],
+      "tags": ["transporte", "coche", "alquiler", "aeropuerto", "movilidad"],
       "emoji": "🚗",
       "municipio": "granadilla",
       "discoverCarsLocation": "spain-canary-islands/tenerife",
@@ -353,14 +1090,7 @@
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": [
-        "transporte",
-        "bus",
-        "guagua",
-        "titsa",
-        "público",
-        "económico"
-      ],
+      "tags": ["transporte", "bus", "guagua", "titsa", "público", "económico"],
       "emoji": "🚌",
       "municipio": "santa-cruz",
       "websiteUrl": "https://www.titsa.com"
@@ -378,9 +1108,7 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/la-laguna/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/la-laguna/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/la-laguna/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -412,9 +1140,7 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/puerto-de-la-cruz/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/puerto-de-la-cruz/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -446,20 +1172,11 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/loro-parque/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/loro-parque/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/loro-parque/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": [
-        "zoo",
-        "orcas",
-        "pingüinos",
-        "familia",
-        "norte",
-        "premios"
-      ],
+      "tags": ["zoo", "orcas", "pingüinos", "familia", "norte", "premios"],
       "visitDuration": "Día completo",
       "difficulty": "easy",
       "emoji": "🦜",
@@ -481,9 +1198,7 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/piramides-guimar/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/piramides-guimar/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -515,9 +1230,7 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/garcia-sanabria/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/garcia-sanabria/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/garcia-sanabria/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -653,9 +1366,7 @@
       },
       "images": {
         "hero": "/images/tenerife/naturaleza/pico-ingles/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/pico-ingles/1.avif"
-        ]
+        "gallery": ["/images/tenerife/naturaleza/pico-ingles/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -722,20 +1433,11 @@
       },
       "images": {
         "hero": "/images/tenerife/senderismo/barranco-infierno/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/barranco-infierno/1.avif"
-        ]
+        "gallery": ["/images/tenerife/senderismo/barranco-infierno/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": [
-        "senderismo",
-        "barranco",
-        "cascada",
-        "adeje",
-        "sur",
-        "popular"
-      ],
+      "tags": ["senderismo", "barranco", "cascada", "adeje", "sur", "popular"],
       "visitDuration": "4-5h",
       "difficulty": "moderate",
       "emoji": "🥾",
@@ -763,9 +1465,7 @@
       },
       "images": {
         "hero": "/images/tenerife/senderismo/barranco-masca/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/barranco-masca/1.avif"
-        ]
+        "gallery": ["/images/tenerife/senderismo/barranco-masca/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -806,9 +1506,7 @@
       },
       "images": {
         "hero": "/images/tenerife/senderismo/paisaje-lunar/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/paisaje-lunar/1.avif"
-        ]
+        "gallery": ["/images/tenerife/senderismo/paisaje-lunar/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -848,9 +1546,7 @@
       },
       "images": {
         "hero": "/images/tenerife/senderismo/montana-blanca/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/montana-blanca/1.avif"
-        ]
+        "gallery": ["/images/tenerife/senderismo/montana-blanca/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -892,9 +1588,7 @@
       },
       "images": {
         "hero": "/images/tenerife/actividades/siam-park/hero.avif",
-        "gallery": [
-          "/images/tenerife/actividades/siam-park/1.avif"
-        ]
+        "gallery": ["/images/tenerife/actividades/siam-park/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -927,9 +1621,7 @@
       },
       "images": {
         "hero": "/images/tenerife/actividades/cetaceos/hero.avif",
-        "gallery": [
-          "/images/tenerife/actividades/cetaceos/1.avif"
-        ]
+        "gallery": ["/images/tenerife/actividades/cetaceos/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -961,9 +1653,7 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/gastronomia/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/gastronomia/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/gastronomia/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -988,59 +1678,42 @@
       "label": "Historia",
       "emoji": "🏰",
       "color": "#6366f1",
-      "pois": [
-        "santa-cruz",
-        "teide"
-      ]
+      "pois": ["santa-cruz", "teide"]
     },
     {
       "id": "cultura-canaria",
       "label": "Cultura Canaria",
       "emoji": "🎭",
       "color": "#ec4899",
-      "pois": [
-        "santa-cruz",
-        "teide"
-      ]
+      "pois": ["santa-cruz", "teide"]
     },
     {
       "id": "gastronomia",
       "label": "Gastronomía",
       "emoji": "🍽️",
       "color": "#f97316",
-      "pois": [
-        "santa-cruz"
-      ]
+      "pois": ["santa-cruz"]
     },
     {
       "id": "naturaleza",
       "label": "Naturaleza",
       "emoji": "🌿",
       "color": "#22c55e",
-      "pois": [
-        "teide",
-        "los-gigantes"
-      ]
+      "pois": ["teide", "los-gigantes"]
     },
     {
       "id": "tradiciones",
       "label": "Tradiciones",
       "emoji": "💃",
       "color": "#a855f7",
-      "pois": [
-        "santa-cruz",
-        "teide"
-      ]
+      "pois": ["santa-cruz", "teide"]
     },
     {
       "id": "curiosidades",
       "label": "Curiosidades",
       "emoji": "🔍",
       "color": "#06b6d4",
-      "pois": [
-        "teide",
-        "los-gigantes"
-      ]
+      "pois": ["teide", "los-gigantes"]
     },
     {
       "id": "playas",
@@ -1086,20 +1759,14 @@
       "label": "Actividades",
       "emoji": "🌊",
       "color": "#0284c7",
-      "pois": [
-        "siam-park",
-        "avistamiento-cetaceos-los-gigantes"
-      ]
+      "pois": ["siam-park", "avistamiento-cetaceos-los-gigantes"]
     },
     {
       "id": "transporte",
       "label": "Cómo Moverse",
       "emoji": "🚗",
       "color": "#94a3b8",
-      "pois": [
-        "alquiler-coche-tenerife",
-        "titsa-tenerife"
-      ]
+      "pois": ["alquiler-coche-tenerife", "titsa-tenerife"]
     }
   ],
   "municipios": [

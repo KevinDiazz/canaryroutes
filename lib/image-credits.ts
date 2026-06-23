@@ -2,24 +2,33 @@ import fs from 'fs';
 import path from 'path';
 import type { ImageCredit, ImageCreditsRegistry, ImageLicense, POIImages } from './types';
 
-const creditsPath = path.join(process.cwd(), 'content', 'image-credits.json');
+/** Archivos de créditos: el principal + uno por isla. Se fusionan en orden. */
+const CREDITS_FILES = [
+  path.join(process.cwd(), 'content', 'image-credits.json'),
+  path.join(process.cwd(), 'content', 'image-credits-tenerife.json'),
+];
 
 let cache: ImageCreditsRegistry | null = null;
 
 /**
- * Carga (y cachea) el registro centralizado `content/image-credits.json`,
- * que mapea cada ruta de imagen local a sus metadatos de licencia.
+ * Carga (y cachea) el registro de créditos fusionando todos los archivos
+ * de `CREDITS_FILES`. Permite mantener los créditos de cada isla separados
+ * sin romper el sistema existente.
  *
  * Es el mismo dato para los 3 idiomas: una imagen usada en `es`, `en` y
- * `de` solo necesita una entrada aquí.
+ * `de` solo necesita una entrada en cualquiera de los archivos.
  */
 export function getImageCreditsRegistry(): ImageCreditsRegistry {
   if (cache) return cache;
-  try {
-    const raw = fs.readFileSync(creditsPath, 'utf-8');
-    cache = JSON.parse(raw) as ImageCreditsRegistry;
-  } catch {
-    cache = {};
+  cache = {};
+  for (const filePath of CREDITS_FILES) {
+    try {
+      const raw = fs.readFileSync(filePath, 'utf-8');
+      const parsed = JSON.parse(raw) as ImageCreditsRegistry;
+      Object.assign(cache, parsed);
+    } catch {
+      // Archivo no encontrado, vacío o JSON inválido — se ignora
+    }
   }
   return cache;
 }

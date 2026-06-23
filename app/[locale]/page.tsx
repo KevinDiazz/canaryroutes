@@ -196,15 +196,18 @@ export default async function HomePage({
           <div style={{
             position: 'absolute', inset: 0, zIndex: 1,
             display: 'flex', flexDirection: 'column', alignItems: 'center',
-            paddingTop: 'clamp(120px, 16vh, 180px)',
+            // paddingTop mínimo 110px para no solapar el nav (top:15px + logo:75px + aire:20px)
+            paddingTop: 'clamp(110px, min(16vh, 12vw), 200px)',
             textAlign: 'center',
             paddingLeft: '24px',
             paddingRight: '24px',
+            gap: 'clamp(4px, 1.2vh, 16px)',
           }}>
             {/* Título */}
             <h1 style={{
               fontFamily: "'Caveat', cursive",
-              fontSize: 'clamp(42px, 11vw, 88px)',
+              // min(10vw, 14vh): evita que el título se salga en ventanas pequeñas o estrechas
+              fontSize: 'clamp(32px, min(10vw, 14vh), 88px)',
               fontWeight: '700',
               color: 'white',
               margin: '0',
@@ -219,26 +222,31 @@ export default async function HomePage({
             {/* Subtítulo */}
             <p className="hero-sub" style={{
               fontFamily: "'Outfit', sans-serif",
-              fontSize: 'clamp(14px, 1.4vw, 18px)',
+              fontSize: 'clamp(13px, min(1.6vw, 2.2vh), 18px)',
               fontWeight: '400',
               color: 'rgba(255,255,255,0.82)',
               letterSpacing: '0.02em',
               textShadow: '0 1px 6px rgba(0,0,0,0.4)',
+              margin: 0,
             }}>
               {hero.sub}
             </p>
 
             {/* Stats */}
             <div style={{
-              display: 'flex', alignItems: 'center', gap: '14px',
+              display: 'flex', alignItems: 'center',
+              gap: 'clamp(8px, 1.5vw, 14px)',
               background: 'rgba(255,255,255,0.12)',
               backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)',
-              borderRadius: '32px', padding: '10px 28px',
+              borderRadius: '32px',
+              padding: 'clamp(6px, 1.2vh, 10px) clamp(14px, 2.5vw, 28px)',
               border: '1px solid rgba(255,255,255,0.18)',
+              flexWrap: 'wrap',
+              justifyContent: 'center',
             }}>
               {hero.stats.map((stat, i) => (
-                <span key={stat} style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
-                  <span style={{ fontFamily: "'Outfit', sans-serif", fontSize: 'clamp(13px, 1.1vw, 15px)', fontWeight: '600', color: 'rgba(255,255,255,0.92)', whiteSpace: 'nowrap' }}>
+                <span key={stat} style={{ display: 'flex', alignItems: 'center', gap: 'clamp(8px, 1.5vw, 14px)' }}>
+                  <span style={{ fontFamily: "'Outfit', sans-serif", fontSize: 'clamp(12px, min(1.2vw, 1.8vh), 15px)', fontWeight: '600', color: 'rgba(255,255,255,0.92)', whiteSpace: 'nowrap' }}>
                     {stat}
                   </span>
                   {i < hero.stats.length - 1 && (

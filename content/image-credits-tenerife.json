@@ -1,0 +1,432 @@
+{
+  "/images/tenerife/playas/playa_de_las_teresitas_tenerife.avif": {
+    "alt": "Vista panorámica de la Playa de Las Teresitas desde el mirador en Tenerife",
+    "width": 6950,
+    "height": 4633,
+    "title": "playa_de_las_teresitas_tenerife.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Mike Peel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Tenerife_2022_079.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/playas/playa_de_los_cristianos_tenerife.avif": {
+    "alt": "Vista de la Playa de Los Cristianos en Tenerife",
+    "width": 1600,
+    "height": 1200,
+    "title": "playa_de_los_cristianos_tenerife.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "rene boulay",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canaries_Tenerife_Los_Cristianos_Playa_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/playas/playa_del_duque_tenerife.avif": {
+    "alt": "Vista panorámica de la Playa del Duque en Costa Adeje, Tenerife",
+    "width": 5664,
+    "height": 1898,
+    "title": "playa_del_duque_tenerife.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Marc Ryckaert",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenerife_Playa_El_Duque_R03.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/playas/playa_de_la_arena_tenerife.avif": {
+    "alt": "Vista de la Playa de la Arena en Puerto de Santiago, Tenerife",
+    "width": 5931,
+    "height": 3954,
+    "title": "playa_de_la_arena_tenerife.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Falk2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:J00_777_Playa_de_la_Arena.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/playas/playa_de_benijos_tenerife.avif": {
+    "alt": "Vista de la Playa de Benijos en Anaga, Tenerife",
+    "width": 1920,
+    "height": 1080,
+    "title": "playa_de_benijos_tenerife.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Elimedina",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BenijosI.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/playas/playa_el_medano_tenerife.avif": {
+    "alt": "Vista de la Playa de El Médano en Tenerife en un día soleado y ventoso",
+    "width": 3264,
+    "height": 2448,
+    "title": "playa_el_medano_tenerife.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "X3m",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A9dano_d%C3%ADa_de_viento_con_sol.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+    "/images/tenerife/playas/playa_de_radazul_tenerife.avif": {
+      "alt": "Vista de la Playa de La Nea en Candelaria, Tenerife",
+      "width": 2080,
+      "height": 1544,
+      "title": "playa_de_la_nea_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-3.0",
+        "author": "Pablo Jones (Peejayem)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_La_Nea.JPG",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_el_bollullo_tenerife.avif": {
+      "alt": "Vista aérea de la Playa El Bollullo en Tenerife",
+      "width": 4903,
+      "height": 3262,
+      "title": "playa_el_bollullo_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-4.0",
+        "author": "TenSob",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_El_Bollullo_1.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_del_muelle_tenerife.avif": {
+      "alt": "Vista de Playa Jardín y la costa de Puerto de la Cruz en Tenerife",
+      "width": 4117,
+      "height": 2745,
+      "title": "playa_jardin_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Lmbuga (Luis Miguel Bugallo Sánchez)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Costa_de_Puerto_de_la_Cruz._Tenerife._Espa%C3%B1a_eue16.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_del_castillo_tenerife.avif": {
+      "alt": "Vista de Playa Jardín y Puerto de la Cruz en la costa norte de Tenerife",
+      "width": 5184,
+      "height": 3456,
+      "title": "playa_jardin_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Mike Peel",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_la_Cruz_2019_005.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_san_telmo_tenerife.avif": {
+      "alt": "Vista de la Playa de San Telmo en Puerto de la Cruz, Tenerife",
+      "width": 5601,
+      "height": 3734,
+      "title": "playa_san_telmo_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Falk2",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:J00_734_Playa_de_San_Telmo.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_de_los_abriguitos_tenerife.avif": {
+      "alt": "Vista de la playa y el núcleo costero de Abades en Arico, Tenerife",
+      "width": 6960,
+      "height": 4640,
+      "title": "playa_de_abades_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Mike Peel",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abades,_Arico_2022_57.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_la_pinta_tenerife.avif": {
+      "alt": "Vista de Playa La Pinta y Puerto Colón en Costa Adeje, Tenerife",
+      "width": 5164,
+      "height": 3249,
+      "title": "playa_la_pinta_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-3.0",
+        "author": "Tuxyso",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Club_Nautico_Puerto_Colon_von_Playa_La_Pinta_2015.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_del_camison_tenerife.avif": {
+      "alt": "Vista de Playa de las Américas en el sur de Tenerife",
+      "width": 6960,
+      "height": 4640,
+      "title": "playa_de_las_americas_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Mike Peel",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Playa_de_las_Am%C3%A9ricas_2020_017.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_de_torviscas_tenerife.avif": {
+      "alt": "Vista aérea de Playa de Torviscas en Costa Adeje, Tenerife",
+      "width": 4128,
+      "height": 2747,
+      "title": "playa_torviscas_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-2.0",
+        "author": "dronepicr",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luftbild_vom_Strand_Playa_de_Torviscas_in_Costa_Adeje_auf_Teneriffa,_Spanien_(48225470041).jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_de_troya_tenerife.avif": {
+      "alt": "Vista de Playa de Troya en Costa Adeje, Tenerife",
+      "width": 4032,
+      "height": 2268,
+      "title": "playa_troya_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Tenerife Activities",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_%22playa_de_Troya%22_in_Costa_Adeje_.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_de_las_vistas_tenerife.avif": {
+      "alt": "Vista de Playa de Las Vistas en el sur de Tenerife",
+      "width": 6048,
+      "height": 4024,
+      "title": "playa_las_vistas_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Tuxyso",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa-Las-Vistas-Tenerife-02.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_fanabe_tenerife.avif": {
+      "alt": "Vista de Playa de Fañabé en Costa Adeje, Tenerife",
+      "width": 2560,
+      "height": 1920,
+      "title": "playa_fanabe_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-3.0",
+        "author": "jgenicio.movil",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_Fa%C3%B1ab%C3%A9_desde_el_paseo_-_panoramio.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_de_la_tejita_tenerife.avif": {
+      "alt": "Olas rompiendo sobre la arena volcánica de Playa de La Tejita en Tenerife",
+      "width": 2816,
+      "height": 2112,
+      "title": "playa_la_tejita_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Juan Félix García Reyes",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ola_virulenta_rompiendo_sobre_la_fina_arena_volc%C3%A1nica_de_la_playa_de_La_Tejita.JPG",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_abama_tenerife.avif": {
+      "alt": "Vista aérea de Playa Abama y los cultivos de plataneras cercanos en Tenerife",
+      "width": 4160,
+      "height": 2768,
+      "title": "playa_abama_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-2.0",
+        "author": "dronepicr",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Playa_Abama_and_nearby_banana_tree_plantations_on_Tenerife,_Spain_(48225349162).jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_de_los_guios_tenerife.avif": {
+      "alt": "Vista de Playa de Los Guíos junto a los acantilados de Los Gigantes en Tenerife",
+      "width": 6960,
+      "height": 4640,
+      "title": "playa_de_los_guios_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Mike Peel",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Los_Gigantes_2022_012.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/piscinas_naturales_bajamar_tenerife.avif": {
+      "alt": "Vista panorámica de las Piscinas Naturales de Bajamar en Tenerife",
+      "width": 3200,
+      "height": 1440,
+      "title": "piscinas_naturales_bajamar_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Mentxuwiki",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piscinas_Naturales_de_Bajamar_(80103).jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/piscinas_naturales_punta_del_hidalgo_tenerife.avif": {
+      "alt": "Piscina natural de Punta del Hidalgo en la costa norte de Tenerife",
+      "width": 3072,
+      "height": 2304,
+      "title": "piscinas_naturales_punta_del_hidalgo_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "L. Vadillo - MaLéPhotoSpain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20100810_PUNTA_DEL_HIDALGO_32.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },
+    "/images/tenerife/playas/playa_mesa_del_mar_tenerife.avif": {
+      "alt": "Oleaje rompiendo en la costa de Mesa del Mar, Tenerife",
+      "width": 6960,
+      "height": 4640,
+      "title": "playa_mesa_del_mar_tenerife.avif",
+      "sourceName": "Wikimedia Commons",
+      "modifications": "Convertida a AVIF y optimizada para web",
+      "license": {
+        "type": "CC-BY-SA-4.0",
+        "author": "Mike Peel",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Tenerife_2023_332_-_Wave_breaking_at_Mesa_del_Mar.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      }
+    },"/images/tenerife/playas/charco_de_la_laja_tenerife.avif": {
+  "alt": "Vista del Charco de La Laja en San Juan de la Rambla, Tenerife",
+  "width": 2048,
+  "height": 1365,
+  "title": "charco_de_la_laja_tenerife.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC0-1.0",
+    "author": "Loi Ribera",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Juan_De_La_Rambla_(195680373).jpeg",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": true
+  }
+},"/images/tenerife/playas/piscinas_naturales_garachico_tenerife.avif": {
+  "alt": "Vista de las piscinas naturales de Garachico en Tenerife",
+  "width": 1600,
+  "height": 1200,
+  "title": "piscinas_naturales_garachico_tenerife.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-3.0",
+    "author": "rene boulay",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canaries_Tenerife_Garachico_Piscina_Naturale_-_panoramio_(1).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "modified": true
+  }
+},"/images/tenerife/playas/charco_los_chochos_tenerife.avif": {
+  "alt": "Charco Los Chochos, piscina natural en Los Silos, Tenerife",
+  "width": 3648,
+  "height": 2736,
+  "title": "charco_los_chochos_tenerife.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "Martely | Noemi M.M.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charco_Los_Chochos._Los_Silos.JPG",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
+},"/images/tenerife/playas/parque_maritimo_cesar_manrique_tenerife.avif": {
+  "alt": "Vista panorámica del Parque Marítimo César Manrique en Santa Cruz de Tenerife",
+  "width": 3200,
+  "height": 1440,
+  "title": "parque_maritimo_cesar_manrique_tenerife.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "Mentxuwiki",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_mar%C3%ADtimo_C%C3%A9sar_Manrique_01.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
+},"/images/tenerife/playas/lago_martianez_tenerife.avif": {
+  "alt": "Vista del complejo de piscinas Lago Martiánez en Puerto de la Cruz, Tenerife",
+  "width": 3964,
+  "height": 2973,
+  "title": "lago_martianez_tenerife.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC0-1.0",
+    "author": "Clemenspool",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lago_Marti%C3%A1nez_2024.jpg",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": true
+  }
+}
+  }
