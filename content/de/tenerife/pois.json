@@ -110,11 +110,8 @@
         "lng": -16.1924
       },
       "images": {
-        "hero": "/images/tenerife/playas/teresitas/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/teresitas/1.avif",
-          "/images/tenerife/playas/teresitas/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_de_las_teresitas_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -131,7 +128,7 @@
       "emoji": "🏖️",
       "top": true,
       "municipio": "santa-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/Kp2kKJeqW3F9xbVQ8"
+      "mapsUrl": "https://maps.app.goo.gl/RAByr949uzhWXQuP7"
     },
     {
       "slug": "playa-de-los-cristianos",
@@ -145,11 +142,8 @@
         "lng": -16.713
       },
       "images": {
-        "hero": "/images/tenerife/playas/los-cristianos/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/los-cristianos/1.avif",
-          "/images/tenerife/playas/los-cristianos/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_de_los_cristianos_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -166,7 +160,7 @@
       "emoji": "🏖️",
       "top": true,
       "municipio": "arona",
-      "mapsUrl": "https://maps.app.goo.gl/fVqkPv8Vq1qFZjqT8"
+      "mapsUrl": "https://maps.app.goo.gl/pKofoZEdZGgwhje97"
     },
     {
       "slug": "playa-del-duque",
@@ -180,11 +174,8 @@
         "lng": -16.7402
       },
       "images": {
-        "hero": "/images/tenerife/playas/duque/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/duque/1.avif",
-          "/images/tenerife/playas/duque/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_del_duque_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -201,7 +192,7 @@
       "emoji": "🏖️",
       "top": true,
       "municipio": "adeje",
-      "mapsUrl": "https://maps.app.goo.gl/pJnMGmFqQ9TZVjYr6"
+      "mapsUrl": "https://maps.app.goo.gl/oy54dT4JySCb7uLfA"
     },
     {
       "slug": "playa-de-la-arena",
@@ -215,11 +206,8 @@
         "lng": -16.8323
       },
       "images": {
-        "hero": "/images/tenerife/playas/la-arena/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/la-arena/1.avif",
-          "/images/tenerife/playas/la-arena/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_de_la_arena_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -235,7 +223,7 @@
       "difficulty": "easy",
       "emoji": "🏖️",
       "municipio": "santiago-del-teide",
-      "mapsUrl": "https://maps.app.goo.gl/zNyKSwTM5AUVZ3JG7"
+      "mapsUrl": "https://maps.app.goo.gl/7GoWtA9LWXumDxS4A"
     },
     {
       "slug": "playa-de-benijo",
@@ -249,11 +237,8 @@
         "lng": -16.1772
       },
       "images": {
-        "hero": "/images/tenerife/playas/benijo/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/benijo/1.avif",
-          "/images/tenerife/playas/benijo/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_de_benijos_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -270,7 +255,7 @@
       "difficulty": "easy",
       "emoji": "🏖️",
       "municipio": "la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/nT6kJx8a3b2Vp9bQ6"
+      "mapsUrl": "https://maps.app.goo.gl/qwqCY4ZCdiaAHjdq9"
     },
     {
       "slug": "el-medano",
@@ -284,11 +269,8 @@
         "lng": -16.5376
       },
       "images": {
-        "hero": "/images/tenerife/playas/el-medano/hero.avif",
-        "gallery": [
-          "/images/tenerife/playas/el-medano/1.avif",
-          "/images/tenerife/playas/el-medano/2.avif"
-        ]
+        "hero": "/images/tenerife/playas/playa_el_medano_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -305,7 +287,7 @@
       "difficulty": "easy",
       "emoji": "🏄",
       "municipio": "granadilla",
-      "mapsUrl": "https://maps.app.goo.gl/dKx7PpN2Yn5H6hQZ9"
+      "mapsUrl": "https://maps.app.goo.gl/jKFNnydvokUJKQxv7"
     },
     {
       "slug": "alquiler-coche-tenerife",
@@ -979,6 +961,798 @@
       "emoji": "🍽️",
       "municipio": "santa-cruz",
       "sectionOnly": true
+    },
+    {
+      "slug": "playa-de-radazul",
+      "name": "Playa de Radazul",
+      "shortDescription": "Dunkler Sand, kristallklares Wasser und eine entspannte Atmosphäre am Jachthafen",
+      "description": "Versteckt an der Südostküste Teneriffas ist **Playa de Radazul** einer der angenehmsten und ruhigsten Stadtstrände der Insel. Durch Wellenbrecher geschützt, bietet er das ganze Jahr über kristallklares Wasser und ausgezeichnete Badevoraussetzungen. Die Lage neben einem Jachthafen verleiht ihm einen besonderen Charakter, der sich von anderen Teneriffa-Stränden unterscheidet.\n\n### Der Besuch\nDer Strand kombiniert dunklen Vulkansand und kleine Kieselsteine auf einer Länge von etwa 200 Metern. Dank des künstlichen Schutzes der Bucht bleibt das Meer meist ruhig und ist daher bei Familien, Schwimmern und Schnorchlern sehr beliebt. Die Strandpromenade führt zu Restaurants, Cafés und Terrassen mit Meerblick.\n\nNennenswert ist der **Hafen von Radazul**, einer der wichtigsten Freizeithäfen Teneriffas, von dem Wassersportaktivitäten und Tauchausflüge starten. Die Wasserklarheit macht das Gebiet zu einem der besten Plätze in der Region Santa Cruz zum Beobachten von Meereslebewesen.\n\n### Vor dem Besuch\n- 🏖️ Durch Wellenbrecher geschützter Strand — ruhiges Wasser fast das ganze Jahr\n- 🤿 Ausgezeichnet zum Schnorcheln und Tauchen\n- 🚗 Parkplatz außerhalb der Sommerhauptsaison relativ leicht zu finden\n- ☀️ Süd-ausgerichtet — auch im Winter viele Sonnenstunden\n- 🍽️ Restaurants und Cafés entlang der Promenade und am Hafen\n- 🚌 ÖPNV-Anbindung aus Santa Cruz und La Laguna\n\n### Empfehlung\nWer einen komfortablen Strand nahe Santa Cruz abseits der Menschenmassen von Las Teresitas sucht, findet in Radazul eine der besten Alternativen. Ein entspannter Badetag lässt sich gut mit einem Spaziergang durch den Hafen und einem Mittagessen mit Meerblick verbinden.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4017,
+        "lng": -16.3218
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_de_radazul_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "vulkansand",
+        "süden",
+        "familie",
+        "schnorcheln",
+        "ruhiges-wasser",
+        "hafen"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "el-rosario",
+      "mapsUrl": "https://maps.app.goo.gl/vd3ewUvtSzWqvDxh7"
+    },
+    {
+      "slug": "playa-el-bollullo",
+      "name": "Playa El Bollullo",
+      "shortDescription": "Spektakulärer wilder Schwarzsandstrand unterhalb der Klippen des Valle de La Orotava",
+      "description": "Von vielen als einer der schönsten Strände Teneriffas bezeichnet, ist **Playa El Bollullo** ein wilder Streifen aus schwarzem Vulkansand am Fuß der dramatischen Klippen des Valle de La Orotava. Weit entfernt von den großen Touristenzentren bewahrt er einen natürlichen Charakter, der an die Küste der Insel vor dem Tourismus erinnert.\n\n### Der Besuch\nDer Strand erstreckt sich über etwa 400 Meter, umgeben von steilen Vulkanwänden, die mit Vegetation bewachsen sind. Der Kontrast zwischen schwarzem Sand, tiefblauem Atlantik und den grünen Bananenplantagen darüber schafft eine der fotogensten Küstenlandschaften Teneriffas.\n\nDer Zugang erfordert einen kurzen Abstieg vom Parkplatz oder über Wege durch die Bananenpflanzungen. Das Meer kann Dünung und Strömungen aufweisen, besonders im Winter und an rauen Tagen.\n\n### Vor dem Besuch\n- 🌊 Seebedingungen prüfen — an manchen Tagen können Strömungen stark sein\n- 🚶 Zugang über einen Treppenweg vom Parkplatz\n- 📸 Einer der fotogensten Plätze im Norden Teneriffas\n- ☀️ Morgens oder bei Sonnenuntergang am schönsten\n- 🍌 Der Weg führt durch traditionelle Bananenplantagen\n- 🍽️ Saisonale Strandbar und nahes Restaurant\n\n### Empfehlung\nDen Besuch mit einer Tour durch das Valle de La Orotava kombinieren. El Bollullo bietet eines der authentischsten und wildesten Küstenerlebnisse auf Teneriffa.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4012,
+        "lng": -16.5456
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_el_bollullo_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "schwarzer-sand",
+        "norden",
+        "wild",
+        "fotografie",
+        "klippen",
+        "natur"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/kzTeJyUahyyWJJ718"
+    },
+    {
+      "slug": "playa-del-muelle",
+      "name": "Playa del Muelle",
+      "shortDescription": "Kleine historische Bucht am alten Fischerhafen von Puerto de la Cruz",
+      "description": "Im Herzen von Puerto de la Cruz liegt **Playa del Muelle**, eine kleine Stadtbucht voller Geschichte. Jahrhundertelang war sie eines der wichtigsten maritimen Zentren der Nordküste Teneriffas und bewahrt noch immer den Charme des alten Fischerhafens, der der Stadt ihren Ursprung gab.\n\n### Der Besuch\nDieser kleine Strand aus Vulkansand und Kieseln ist durch den historischen Kai geschützt, der ein relativ ruhiges Badebecken schafft, wenn die Seebedingungen es erlauben. Seine Lage ist unschlagbar: umgeben von traditionellen Restaurants, Terrassen und einigen der ikonischsten Ecken von Puerto de la Cruz.\n\nVon hier bieten sich herrliche Ausblicke auf die Nordküste Teneriffas. Nur Schritte entfernt befinden sich die Plaza del Charco, die Strandpromenade und das historische Fischerviertel La Ranilla.\n\n### Vor dem Besuch\n- 🏛️ Einer der historisch bedeutsamsten Strände Teneriffas\n- 🌊 Badebedingungen hängen von Dünung und Gezeiten ab\n- 📸 Hervorragend für Fotos der Altstadt und des Hafens\n- 🍽️ Umgeben von Fisch- und Meeresfrüchterestaurants\n- 🚶 Ideal kombiniert mit einem Spaziergang durch Puerto de la Cruz\n- ☀️ Lokale Atmosphäre das ganze Jahr über\n\n### Empfehlung\nMehr als ein Strandtag ist Playa del Muelle ein unverzichtbarer Halt, um die maritime Geschichte von Puerto de la Cruz zu entdecken. Kombinieren Sie den Besuch mit der Plaza del Charco, dem Viertel La Ranilla und dem nahegelegenen Lago Martiánez.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4169,
+        "lng": -16.5519
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_del_muelle_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "schwarzer-sand",
+        "puerto-de-la-cruz",
+        "historisch",
+        "urban",
+        "altstadt",
+        "norden"
+      ],
+      "visitDuration": "30min-1h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/D2b67FLxHCMCZsew9"
+    },
+    {
+      "slug": "playa-del-castillo",
+      "name": "Playa del Castillo",
+      "shortDescription": "Breiter Schwarzsandstrand neben dem historischen Castillo de San Felipe",
+      "description": "Am westlichen Ende von Puerto de la Cruz liegt **Playa del Castillo**, ein langer Schwarzsandstrand, der historisches Erbe, Atlantiklandschaft und eine ruhigere Atmosphäre als die belebteren Badebereiche der Stadt verbindet. Seinen Namen verdankt er dem nahegelegenen **Castillo de San Felipe**, einer Festung aus dem 17. Jahrhundert, die gebaut wurde, um die Nordküste Teneriffas vor Piratenüberfällen zu schützen.\n\n### Der Besuch\nDer Strand ist Teil desselben Küstenstreifens wie Playa Jardín und teilt seine beeindruckenden Aussichten auf den Ozean und den Teide. Die breite Fläche aus schwarzem Sand vermittelt ein Raumgefühl, das für einen Stadtstrand ungewöhnlich ist.\n\nDie Strandpromenade verbindet sich leicht mit dem Zentrum von Puerto de la Cruz und bietet angenehme Spaziergänge am Meer. Das Vorhandensein des Schlosses fügt kulturelles Interesse hinzu und macht den Besuch zu einer perfekten Kombination aus Geschichte, Landschaft und Küste.\n\n### Vor dem Besuch\n- 🏰 Castillo de San Felipe besichtigen, eines der wichtigsten historischen Denkmäler in Puerto de la Cruz\n- 🌊 Seebedingungen vor dem Schwimmen prüfen, besonders im Winter\n- 📸 Herrlicher Blick auf den Teide an klaren Tagen\n- 🚶 Mit Playa Jardín und der Strandpromenade verbunden\n- 🌅 Ausgezeichneter Platz zum Sonnenuntergang beobachten\n- 🍽️ Restaurants und Cafés in kurzer Gehentfernung\n\n### Empfehlung\nDen Besuch mit einem Spaziergang zu Playa Jardín und dem Castillo de San Felipe kombinieren. Dies ist eine der besten Gegenden, um die historische Beziehung zwischen Puerto de la Cruz und dem Meer zu verstehen.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4216,
+        "lng": -16.5603
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_del_castillo_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "schwarzer-sand",
+        "puerto-de-la-cruz",
+        "burg",
+        "geschichte",
+        "urban",
+        "norden"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/PqeZLwRPNoCj7xRB8"
+    },
+    {
+      "slug": "playa-maria-jimenez",
+      "name": "Playa María Jiménez",
+      "shortDescription": "Kleiner Schwarzsandstrand mit lokalem Flair an der Küste von Puerto de la Cruz",
+      "description": "Abseits der belebtesten Teile der Gemeinde ist **Playa María Jiménez** ein kleiner Strand aus schwarzem Vulkansand, der hauptsächlich von Einheimischen frequentiert wird. Sein ruhiger, untouristischer Charakter macht ihn zu einer interessanten Wahl für jene, die eine authentischere Seite der Nordküste Teneriffas entdecken möchten.\n\n### Der Besuch\nDer Strand liegt neben dem Viertel Punta Brava in einem Bereich, wo der Atlantik mit voller Kraft zeigt. Umgeben von Vulkanformationen und mit offenen Ausblicken über die Nordküste bietet er ein anderes Erlebnis als die größeren Stadtstrände der Insel.\n\nAufgrund seiner Exposition gegenüber dem offenen Meer können die Badebedingungen je nach Wellengang erheblich variieren. An ruhigen Tagen kann man den Strand und das Küstensetting genießen.\n\n### Vor dem Besuch\n- 🌊 Vor dem Schwimmen immer die Seebedingungen prüfen\n- 🏖️ Hauptsächlich von Einheimischen genutzter Strand\n- 📸 Guter Blick auf die Nordküste und den Atlantik\n- 🚶 Leicht erreichbar vom Stadtgebiet Puerto de la Cruz\n- ☀️ Ruhige Atmosphäre das ganze Jahr über\n- 🌋 Charakteristische Vulkanküstenlandschaft\n\n### Empfehlung\nWenn Sie Playa Jardín und die bekannteren Strände von Puerto de la Cruz bereits besucht haben, bietet Playa María Jiménez einen authentischeren und weniger touristischen Blick auf die Nordküste. Gut kombinierbar mit einem Besuch des Viertels Punta Brava und dem nahegelegenen Loro Parque.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4238,
+        "lng": -16.5638
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_puerto_de_la_cruz_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "schwarzer-sand",
+        "puerto-de-la-cruz",
+        "lokal",
+        "ruhig",
+        "vulkanküste",
+        "norden"
+      ],
+      "visitDuration": "30min-1h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/u9E725sdDainvHjX8"
+    },
+    {
+      "slug": "playa-san-telmo",
+      "name": "Playa San Telmo",
+      "shortDescription": "Historischer zentraler Schwarzsandstrand an der Strandpromenade von Puerto de la Cruz",
+      "description": "Im Herzen von Puerto de la Cruz ist **Playa San Telmo** einer der ikonischsten Badeorte im Norden Teneriffas. Umgeben von der lebhaften Strandpromenade und den historischen Gebäuden des Stadtzentrums verbindet er den traditionellen Charme der Stadt mit herrlichen Ausblicken auf den Atlantischen Ozean und das Valle de La Orotava.\n\n### Der Besuch\nDer Strand ist teilweise durch Vulkanformationen und Küstenmauern geschützt, die ein etwas geschützteres Badebecken als andere Teile der Nordküste schaffen. Sein schwarzer Vulkansand und seine privilegierte Lage machen ihn zu einem der zugänglichsten Stadtstrände auf Teneriffa.\n\nNur Meter entfernt befinden sich einige der bekanntesten Sehenswürdigkeiten von Puerto de la Cruz — der Paseo de San Telmo, die Plaza del Charco und der Lago Martiánez. Diese Lage macht ihn zu einem regelmäßigen Anlaufpunkt für Bewohner und Besucher gleichermaßen.\n\n### Vor dem Besuch\n- 🏖️ Einer der zentral gelegensten Stadtstrände auf Teneriffa\n- 🚶 Perfekt kombiniert mit einem Besuch des historischen Stadtzentrums\n- 🌊 Seebedingungen prüfen, besonders bei starkem Wellengang\n- 📸 Ausgezeichnete Aussichten auf die Nordküste und den Atlantik\n- 🍽️ Umgeben von Cafés, Restaurants und Terrassen\n- 🌅 Beim Sonnenuntergang sehr empfehlenswert\n\n### Empfehlung\nDen Strand mit einem Spaziergang entlang des Paseo de San Telmo, einem Besuch des Lago Martiánez und einem Abendessen am Meer kombinieren. Einer der besten Bereiche, um die historische und maritime Atmosphäre von Puerto de la Cruz zu genießen.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4149,
+        "lng": -16.5508
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_san_telmo_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "schwarzer-sand",
+        "puerto-de-la-cruz",
+        "urban",
+        "zentrum",
+        "san-telmo",
+        "norden"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/WSQ8fi3TnPRueDaw6"
+    },
+    {
+      "slug": "playa-de-los-abriguitos",
+      "name": "Playa de Los Abriguitos",
+      "shortDescription": "Kleine Schwarzsandbucht mit lokaler Atmosphäre an den Klippen Südteneriffas",
+      "description": "Versteckt an der Küste von Arico ist **Playa de Los Abriguitos** eine kleine Bucht aus schwarzem Vulkansand, die den ruhigen, bescheidenen Charakter des traditionellen Südteneriffas bewahrt. Weit entfernt von den großen Touristengebieten bietet sie ein authentisches Erlebnis, bei dem die Vulkanlandschaft und der Atlantik die eigentlichen Protagonisten sind.\n\n### Der Besuch\nDer Strand ist teilweise durch Felsformationen geschützt, die die Dünung unter bestimmten Bedingungen reduzieren. Seine geringe Größe und ruhige Atmosphäre ziehen hauptsächlich Einheimische und Reisende an, die die weniger bekannten Ecken der Insel suchen.\n\nDie Umgebung ist durch dunkles Vulkangestein und offene Atlantikblicke geprägt. Das Fehlen großer touristischer Infrastruktur vermittelt ein Gefühl von Ruhe.\n\n### Vor dem Besuch\n- 🌊 Seebedingungen vor dem Schwimmen prüfen\n- 🏖️ Kleiner Strand mit ruhiger, überfüllungsfreier Atmosphäre\n- ☀️ Hervorragendes Klima das ganze Jahr über\n- 📸 Guter Platz für Fotos der Vulkanküste Südteneriffas\n- 🚗 Empfohlen mit dem Auto anzureisen\n- 🥤 Begrenzte Einrichtungen am Strand selbst\n\n### Empfehlung\nDen Besuch mit anderen Küstenecken der Gemeinde Arico kombinieren, wie Porís de Abona oder den natürlichen Pools in der Umgebung. Ein idealer Halt für jene, die ein weniger bekanntes, authentischeres Teneriffa entdecken möchten.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1458,
+        "lng": -16.4321
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_de_los_abriguitos_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "schwarzer-sand",
+        "süden",
+        "arico",
+        "ruhig",
+        "lokal",
+        "vulkanküste"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "arico",
+      "mapsUrl": "https://maps.app.goo.gl/6sTztba6oGcHHjj1A"
+    },
+    {
+      "slug": "playa-de-la-pinta",
+      "name": "Playa de La Pinta",
+      "shortDescription": "Familienfreundlicher Goldstrand neben dem Hafen Puerto Colón",
+      "description": "Zwischen Costa Adeje und Puerto Colón gelegen ist **Playa de La Pinta** einer der beliebtesten Familienstränden im Süden Teneriffas. Sein Goldstrand, ruhiges Wasser und die Lage neben dem wichtigsten Tourismushafen der Insel machen ihn ideal für alle, die Komfort, Dienstleistungen und Wasseraktivitäten an einem Ort suchen.\n\n### Der Besuch\nDer Strand wird durch Wellenbrecher geschützt, die die Dünung reduzieren und ein breites, sicheres Badebecken für Familien mit Kindern schaffen. Das Wasser bleibt das ganze Jahr über meist ruhig.\n\nAuf einer Seite befindet sich **Puerto Colón**, der Ausgangspunkt für Walbeobachtungstouren, Bootsausflüge, Sportfischen und Wassersport. Die Strandpromenade verbindet sich leicht mit den nahe gelegenen Stränden Torviscas und Fañabé.\n\n### Vor dem Besuch\n- 👨‍👩‍👧‍👦 Einer der besten Familienstränden im Süden Teneriffas\n- 🌊 Meist ruhiges Wasser dank der schützenden Wellenbrecher\n- ⛵ Neben Puerto Colón, dem wichtigsten Tourismushafen Costa Adejes\n- ☀️ Hervorragendes Klima das ganze Jahr über\n- 🍽️ Große Auswahl an Restaurants, Cafés und Geschäften\n- 🚿 Liegestühle, Sonnenschirme, Duschen und barrierefreier Zugang\n\n### Empfehlung\nEinen Strandaufenthalt mit einem Delfin- und Walbeobachtungsausflug von Puerto Colón kombinieren. La Pinta ist eine der besten Möglichkeiten für einen komfortablen Familientag ohne das breite Freizeitangebot Costa Adejes zu verlassen.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0789,
+        "lng": -16.7368
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_la_pinta_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "goldsand",
+        "costa-adeje",
+        "familie",
+        "puerto-colon",
+        "süden",
+        "ruhiges-wasser"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "adeje",
+      "mapsUrl": "https://maps.app.goo.gl/MJSeKPZgnaZa3XjT7"
+    },
+    {
+      "slug": "playa-del-camison",
+      "name": "Playa del Camisón",
+      "shortDescription": "Kleiner Goldstrand mit ruhigem Wasser zwischen Los Cristianos und Las Américas",
+      "description": "Zwischen Playa de Las Américas und Los Cristianos gelegen ist **Playa del Camisón** einer der gepflegtesten und angenehmsten Strände im Süden Teneriffas. Seine bescheidene Größe, Wasserqualität und die angelegten Umgebungen machen ihn zu einem Favoriten für jene, die Ruhe suchen, ohne die Haupttouristenzonen zu verlassen.\n\n### Der Besuch\nDer Strand wird durch Steinmolen geschützt, die eine geschützte Bucht mit ruhigem Wasser für den größten Teil des Jahres schaffen. Der Goldsand bietet eine komfortable Erfahrung zum Sonnenbaden und Schwimmen.\n\nEines seiner charakteristischsten Merkmale sind die Palmen und Gärten, die den Strand säumen und ihm eine elegantere und entspanntere Atmosphäre verleihen. Er ist auch Teil der langen Strandpromenade, die Costa Adeje, Playa de Las Américas und Los Cristianos verbindet.\n\n### Vor dem Besuch\n- 🌊 Ruhiges Wasser dank der schützenden Molen\n- 🌴 Angelegte, gepflegte Umgebung\n- 👨‍👩‍👧‍👦 Ideal für Familien und Schwimmer, die ruhige Bedingungen suchen\n- 🚶 An der Promenade zwischen Los Cristianos und Las Américas\n- ☀️ Hervorragende Ausrichtung und Klima das ganze Jahr über\n- 🍽️ Große Auswahl an Restaurants, Cafés und Hotels in der Nähe\n\n### Empfehlung\nDen Besuch mit einem Spaziergang entlang der Goldenen Meile von Playa de Las Américas oder einem Küstenspaziergang nach Los Cristianos kombinieren. Playa del Camisón bietet eines der angenehmsten und entspanntesten Stranderlebnisse im Süden Teneriffas.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0586,
+        "lng": -16.7298
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_del_camison_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "goldsand",
+        "arona",
+        "familie",
+        "ruhiges-wasser",
+        "las-americas",
+        "los-cristianos"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "arona",
+      "mapsUrl": "https://maps.app.goo.gl/JfY5jZn1GWL8CpSo7"
+    },
+    {
+      "slug": "playa-de-torviscas",
+      "name": "Playa de Torviscas",
+      "shortDescription": "Goldstrand mit lebhafter Atmosphäre im Herzen der Costa Adeje",
+      "description": "Zwischen Puerto Colón und Playa Fañabé gelegen ist **Playa de Torviscas** einer der beliebtesten Strände der Costa Adeje. Sein breiter Goldstrand, ruhiges Wasser und das umfangreiche Freizeit- und Gastronomieangebot machen ihn zu einem der belebtesten Plätze im Süden Teneriffas.\n\n### Der Besuch\nDer Strand ist Teil der langen Strandpromenade, die Costa Adeje mit Playa de Las Américas und Los Cristianos verbindet. Dank schützender Wellenbrecher ist die Dünung meist das ganze Jahr über sanft.\n\nDie Atmosphäre ist lebhaft und kosmopolitisch, besonders in den verkehrsreichsten Touristenmonaten. Entlang der Promenade finden sich Terrassen, Restaurants, Geschäfte, Eiscafés und zahlreiche Besucherdienste.\n\nVom Strand aus gibt es herrliche Aussichten auf die Insel La Gomera. Die Nähe zu Puerto Colón ermöglicht auch einfachen Zugang zu Bootsausflügen.\n\n### Vor dem Besuch\n- 👨‍👩‍👧‍👦 Idealer Familienstrand dank ruhigem Wasser\n- ☀️ Hervorragendes Klima das ganze Jahr über\n- 🚶 Durch Promenade mit Fañabé, La Pinta und Las Américas verbunden\n- ⛵ Sehr nah an Puerto Colón und seinen Meeresausflügen\n- 🍽️ Große Auswahl an Restaurants, Cafés und Geschäften\n- ♿ Barrierefreier Strand mit umfangreichen Touristendiensten\n\n### Empfehlung\nDen Strand mit einem Spaziergang zu Playa Fañabé oder Puerto Colón kombinieren. Wer einen komfortablen Tag mit allen Diensten in der Nähe und lebhafter Atmosphäre möchte, ist in Torviscas genau richtig.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0818,
+        "lng": -16.7352
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_de_torviscas_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "goldsand",
+        "costa-adeje",
+        "familie",
+        "süden",
+        "puerto-colon",
+        "ruhiges-wasser"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "adeje",
+      "mapsUrl": "https://maps.app.goo.gl/NmZCX2NHRHefHAhx8"
+    },
+    {
+      "slug": "playa-de-troya",
+      "name": "Playa de Troya",
+      "shortDescription": "Der ikonischste Strand von Playa de Las Américas mit Goldsand und lebhafter Atmosphäre",
+      "description": "Im Herzen von Playa de Las Américas ist **Playa de Troya** einer der bekanntesten und meistbesuchten Strände im Süden Teneriffas. Seine erstklassige Lage, der Goldsand und das enorme Freizeitangebot in seiner Umgebung haben ihn zu einem der wichtigsten Treffpunkte für Besucher aus aller Welt gemacht.\n\n### Der Besuch\nDer Strand ist in zwei Bereiche unterteilt — Troya I und Troya II — die durch eine kleine Promenade getrennt sind. Beide Bereiche haben Goldsand und sind durch Wellenbrecher geschützt, die die Dünung reduzieren.\n\nSeine Lage im touristischen Zentrum bedeutet, dass alles fußläufig erreichbar ist: Restaurants, Terrassen, Hotels, Geschäfte, Einkaufszentren und eines der bekanntesten Nachtlebensgebiete Teneriffas.\n\n### Vor dem Besuch\n- ☀️ Einer der sonnigsten Strände Teneriffas das ganze Jahr über\n- 👨‍👩‍👧‍👦 Meist ruhiges Wasser dank der schützenden Wellenbrecher\n- 🚶 An der Promenade zwischen Costa Adeje, Las Américas und Los Cristianos\n- 🍽️ Große Auswahl an Restaurants, Bars und Geschäften in der Nähe\n- 🏄 Wassersport in benachbarten Bereichen verfügbar\n- ♿ Barrierefreier Strand mit umfangreichen Touristendiensten\n\n### Empfehlung\nWer Strand, Atmosphäre, Restaurants und das volle Tourismusprogramm möchte, ist in Troya bestens aufgehoben. Besonders schön beim Sonnenuntergang, wenn die Promenade sich mit Besuchern füllt.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0718,
+        "lng": -16.7328
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_de_troya_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "goldsand",
+        "las-americas",
+        "süden",
+        "familie",
+        "freizeit",
+        "urban"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "arona",
+      "mapsUrl": "https://maps.app.goo.gl/qmU8fyWKcMv1rmzX9"
+    },
+    {
+      "slug": "playa-de-las-vistas",
+      "name": "Playa de Las Vistas",
+      "shortDescription": "Der große Goldstrand zwischen Los Cristianos und Playa de Las Américas",
+      "description": "Mit fast einem Kilometer Länge ist **Playa de Las Vistas** einer der bekanntesten und meistbesuchten Strände auf Teneriffa. Zwischen Los Cristianos und Playa de Las Américas gelegen, zeichnet er sich durch seinen enormen Goldstrand, ruhiges Wasser und hervorragende Zugänglichkeit aus.\n\n### Der Besuch\nDer Strand wurde in den 1970er Jahren künstlich mit Goldsand vergrößert und durch Wellenbrecher geschützt. Er bietet dadurch das ganze Jahr über außergewöhnliche Badevoraussetzungen.\n\nEines seiner markantesten Merkmale ist der Springbrunnen im Meer, von fast allen Teilen des Strandes aus sichtbar. Die breite Promenade verbindet sich direkt mit Los Cristianos, Playa de Las Américas und Costa Adeje.\n\nLas Vistas bietet alle Dienste, die man sich wünschen kann: Liegestuhvermietung, Duschen, barrierefreier Zugang, Wasseraktivitäten, Restaurants, Cafés und Einkaufsbereiche.\n\n### Vor dem Besuch\n- 🏖️ Einer der größten und beliebtesten Strände auf Teneriffa\n- 👨‍👩‍👧‍👦 Ideal für Familien dank ruhigem Wasser\n- ♿ Vollständig barrierefrei mit angepassten Einrichtungen\n- 🚶 Durch Promenade mit Los Cristianos, Las Américas und Costa Adeje verbunden\n- ☀️ Hervorragendes Klima das ganze Jahr über\n- 🍽️ Große Auswahl an Restaurants, Cafés und Geschäften\n\n### Empfehlung\nWer den Süden Teneriffas besucht und nur einen Stadtstrand wählen kann, ist mit Las Vistas bestens beraten. Es kombiniert Baden, Promenade, Gastronomie und alle nötigen Dienste für einen vollständigen Tag am Meer.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0559,
+        "lng": -16.7305
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_de_las_vistas_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "goldsand",
+        "los-cristianos",
+        "las-americas",
+        "familie",
+        "süden",
+        "ruhiges-wasser"
+      ],
+      "visitDuration": "3-5h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "arona",
+      "mapsUrl": "https://maps.app.goo.gl/77GaHSJUey4L5BWa9"
+    },
+    {
+      "slug": "playa-de-fanabe",
+      "name": "Playa de Fañabé",
+      "shortDescription": "Einer der beliebtesten Strände der Costa Adeje mit Goldsand und umfassendem Service",
+      "description": "Im Herzen der Costa Adeje ist **Playa de Fañabé** einer der bekanntesten und meistbesuchten Strände im Süden Teneriffas. Sein breiter Goldstrand, ruhiges Wasser und umfangreiche Dienstleistungen haben ihn zu einem Favoriten für Familien und Besucher gleichermaßen gemacht.\n\n### Der Besuch\nDer Strand ist Teil der großen touristischen Strandfront, die Costa Adeje mit Playa de Las Américas und Los Cristianos verbindet. Dank schützender Wellenbrecher bleibt das Wasser das ganze Jahr über meist ruhig.\n\nDie Promenade ist gesäumt von Restaurants, Cafés, Geschäften und Hotels. Im Gegensatz zu stärker urbanisierten Stränden bewahrt Fañabé ein Gefühl von Offenheit.\n\nAussichten auf La Gomera und spektakuläre Atlantiksonnenuntergänge gehören zu seinen größten Attraktionen.\n\n### Vor dem Besuch\n- 👨‍👩‍👧‍👦 Einer der besten Familienstränden im Süden Teneriffas\n- 🌊 Ruhiges Wasser dank der schützenden Wellenbrecher\n- ☀️ Hervorragendes Klima das ganze Jahr über\n- 🚶 Durch Promenade mit El Duque, Torviscas und La Pinta verbunden\n- 🍽️ Große Auswahl an Restaurants, Cafés und Geschäften\n- ♿ Barrierefreier Strand mit umfangreichen Einrichtungen\n\n### Empfehlung\nWer einen komfortablen, breiten Strand mit allen erdenklichen Diensten möchte, ist in Playa de Fañabé gut aufgehoben. Mit einem Spaziergang zur Playa del Duque oder nach Puerto Colón kombinieren.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.089,
+        "lng": -16.7397
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_fanabe_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "goldsand",
+        "costa-adeje",
+        "familie",
+        "süden",
+        "ruhiges-wasser",
+        "tourist"
+      ],
+      "visitDuration": "3-5h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "adeje",
+      "mapsUrl": "https://maps.app.goo.gl/AHokcXyy3sn9so8i8"
+    },
+    {
+      "slug": "playa-de-la-tejita",
+      "name": "Playa de La Tejita",
+      "shortDescription": "Der längste Naturstrand Teneriffas neben dem ikonischen Montaña Roja",
+      "description": "Über einen Kilometer lang ist **Playa de La Tejita** einer der spektakulärsten und besterhaltenen Naturstrände auf Teneriffa. Neben dem Naturmonument Montaña Roja gelegen, bietet er eine einzigartige Landschaft, in der Dünen, Goldsand und die rötlichen Töne des Vulkankegels eines der emblematischsten Bilder auf der Insel schaffen.\n\n### Der Besuch\nIm Gegensatz zu vielen Touristenstränden im Süden bewahrt La Tejita einen wilden, dem Atlantik offenen Charakter. Sein riesiges Ausmaß erlaubt es, auch in belebteren Zeiten Platz zu finden.\n\nDer Strand ist in mehrere Bereiche unterteilt, einige stärker durch die Nähe des Montaña Roja geschützt, andere windexponierter. Diese Bedingungen machen ihn besonders bei Windsurfern, Kitesurfern und anderen Wassersportlern sehr beliebt.\n\n### Vor dem Besuch\n- 🏖️ Einer der größten Naturstrände auf Teneriffa\n- 🌋 Neben dem Naturmonument Montaña Roja\n- 💨 Oft windig, besonders im Sommer\n- 🚶 Ideal kombiniert mit der Besteigung des Montaña Roja\n- 📸 Einer der fotogensten Küstenlandschaften der Insel\n- ☀️ Ideal um Sonne und Natur das ganze Jahr zu genießen\n\n### Empfehlung\nMindestens einen halben Tag für die Erkundung des Gebiets einplanen. Den Strandspaziergang mit der Besteigung des Montaña Roja kombinieren für einige der besten Aussichten im Süden Teneriffas.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.0449,
+        "lng": -16.5368
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_de_la_tejita_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "goldsand",
+        "montana-roja",
+        "el-medano",
+        "natur",
+        "süden",
+        "windsurfen"
+      ],
+      "visitDuration": "3-5h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "granadilla-de-abona",
+      "mapsUrl": "https://maps.app.goo.gl/3RgUxr3zZjF4wAXn8"
+    },
+    {
+      "slug": "playa-abama",
+      "name": "Playa Abama",
+      "shortDescription": "Exklusiver Goldstrand am Fuß der Klippen von Guía de Isora",
+      "description": "Versteckt unter den dramatischen Klippen von Guía de Isora ist **Playa Abama** einer der elegantesten und fotogensten Strände auf Teneriffa. Sein Goldsand, kristallklares Wasser und das spektakuläre Naturumfeld machen ihn zu einem der Küstenjuwelen der Westküste.\n\n### Der Besuch\nDer Strand wird durch mehrere Molen geschützt, die das Meer für den größten Teil des Jahres ruhig halten und ideale Bedingungen zum Schwimmen und Schnorcheln schaffen. Im Gegensatz zu anderen Stränden im Süden bewahrt Abama dank seiner abgeschiedenen Lage eine ruhigere, exklusivere Atmosphäre.\n\nDer Zugang erfolgt über einen asphaltierten Weg, der von der Klippe oben hinabführt. Auf dem Weg bieten sich spektakuläre Aussichten auf den Atlantik und die Insel La Gomera, besonders beim Sonnenuntergang.\n\n### Vor dem Besuch\n- 🌊 Ruhiges Wasser dank der schützenden Molen\n- 🤿 Ausgezeichnet zum Schnorcheln und Beobachten von Meereslebewesen\n- 🚶 Zugang über einen asphaltierten Weg mit mäßigem Gefälle\n- 📸 Einer der fotogensten Strände Teneriffas\n- 🌅 Herrliche Aussichten auf La Gomera beim Sonnenuntergang\n- ☀️ Ruhigere Atmosphäre als Costa Adeje Strände\n\n### Empfehlung\nFrüh morgens oder am späten Nachmittag besuchen für das beste Licht und um Stoßzeiten zu vermeiden. Den Strand mit den Aussichtspunkten von Guía de Isora oder den nahe gelegenen Klippen Los Gigantes kombinieren.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.1787,
+        "lng": -16.8052
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_abama_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "goldsand",
+        "guia-de-isora",
+        "schnorcheln",
+        "westen",
+        "klippen",
+        "kristallklares-wasser"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "guia-de-isora",
+      "mapsUrl": "https://maps.app.goo.gl/Tus2fYYxjiJ3RzZ77"
+    },
+    {
+      "slug": "playa-de-los-guios",
+      "name": "Playa de Los Guíos",
+      "shortDescription": "Der Strand am Fuß der dramatischen Klippen von Los Gigantes",
+      "description": "Wenige Strände auf den Kanarischen Inseln können mit einer so spektakulären Kulisse aufwarten wie **Playa de Los Guíos**. Neben dem Hafen von Los Gigantes gelegen, sitzt dieser kleine Strand aus schwarzem Vulkansand buchstäblich am Fuß der kolossalen Klippen, die dem Dorf seinen Namen geben — Felswände, die mehr als 600 Meter über dem Atlantischen Ozean aufragen.\n\n### Der Besuch\nDer eigentliche Protagonist ist hier nicht der Strand, sondern die Landschaft. Die Klippen von Los Gigantes bilden eines der beeindruckendsten Naturdenkmäler auf Teneriffa.\n\nDer Strand hat schwarzen Vulkansand und dank des natürlichen Schutzes der Bucht meist ruhiges Wasser. Vom Ufer aus hat man einige der besten Fotografiemöglichkeiten der Klippen.\n\nNur Schritte entfernt ist der Hafen von Los Gigantes, Ausgangspunkt für Walbeobachtungstouren, Kajakrouten und Bootsausflüge.\n\n### Vor dem Besuch\n- 🏔️ Einer der spektakulärsten Ausblicke auf Teneriffa\n- 📸 Unverzichtbarer Platz für Fotos der Klippen Los Gigantes\n- 🌊 Meist ruhiges Wasser, aber immer Seebedingungen prüfen\n- ⛵ Neben dem Hafen und Meeresausflügen\n- 🌅 Ausgezeichnet für den Sonnenuntergang über dem Atlantik\n- 🍽️ Restaurants, Cafés und Dienste in kurzer Gehentfernung\n\n### Empfehlung\nDen Badeausflug mit einem Bootsausflug kombinieren, um die Klippen von Los Gigantes vom Meer aus zu sehen. Diese Erfahrung ist eine der beeindruckendsten Erinnerungen, die ein Besucher von Teneriffa mitnehmen kann.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.2478,
+        "lng": -16.8427
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_de_los_guios_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "strand",
+        "schwarzer-sand",
+        "los-gigantes",
+        "klippen",
+        "westen",
+        "fotografie",
+        "hafen"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🏖️",
+      "top": false,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/fkobzPdpMpPaxiwi7"
+    },
+    {
+      "slug": "piscinas-naturales-de-bajamar",
+      "name": "Naturbecken von Bajamar",
+      "shortDescription": "Spektakuläre Meeresbecken neben dem Atlantik an der Nordküste Teneriffas",
+      "description": "Die **Naturbecken von Bajamar** sind eines der ikonischsten Badekomplexe im Norden Teneriffas. An der Gemeinde San Cristóbal de La Laguna gelegen, kombinieren sie die Kraft des Meeres mit hergerichteten Becken, die es ermöglichen, das ganze Jahr über das Wasser zu genießen.\n\n### Der Besuch\nDer Komplex besteht aus zwei großen Salzwasserbecken und mehreren Badebereichen, die für verschiedene Altersgruppen angepasst sind. An Tagen mit starkem Wellengang ist das Schauspiel der gegen die Außenwände brechenden Wellen unvergesslich.\n\nDie Becken bieten herrliche Aussichten auf den Atlantik und das raue Küstengebiet des Anaga-Massivs. Die Strandpromenade von Bajamar erlaubt es, die Küste komfortabel zu erkunden, mit Restaurants, Cafés und Aussichtspunkten.\n\n### Vor dem Besuch\n- 🌊 Hergerichtete Salzwasserbecken zum Schwimmen\n- 👨‍👩‍👧‍👦 Perfekt für Familien und Besucher jeden Alters\n- 📸 Spektakulär bei atlantischen Stürmen und starkem Wellengang\n- 🚶 Strandpromenade mit Aussichten auf den Atlantik\n- 🍽️ Restaurants und Cafés in der Nähe\n- ☀️ Sehr angenehm in den Sommer- und Herbstmonaten\n\n### Empfehlung\nDen Besuch mit einer Tour durch Bajamar, Punta del Hidalgo oder den Trails des Anaga Rural Park kombinieren. Die Naturbecken sind einer der besten Plätze an der Nordküste Teneriffas, um das Meer sicher und komfortabel zu genießen.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.3725,
+        "lng": -16.3447
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/piscinas_naturales_bajamar_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "naturbecken",
+        "bajamar",
+        "salzwasser",
+        "la-laguna",
+        "norden",
+        "familie",
+        "küste"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": false,
+      "municipio": "san-cristobal-de-la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/cuUVRHEVLMcHbqt97"
+    },
+    {
+      "slug": "piscina-natural-punta-del-hidalgo",
+      "name": "Naturbecken von Punta del Hidalgo",
+      "shortDescription": "Meeresbecken mit spektakulärem Blick auf das Anaga-Massiv und den Atlantik",
+      "description": "An der nordöstlichen Spitze Teneriffas bieten die **Naturbecken von Punta del Hidalgo** eines der authentischsten Küstenerlebnisse der Insel. Neben dem Atlantik gebaut und von der spektakulären Landschaft des Anaga-Massivs umgeben, kombinieren sie die Kraft des Meeres mit sicheren und zugänglichen Badebereichen.\n\n### Der Besuch\nDer Komplex besteht aus mehreren Salzwasserbecken, die entlang der Küste angelegt sind und es ermöglichen, auch bei rauem Meer zu schwimmen. Die Lage ist privilegiert: mit Blick auf den offenen Atlantik und die beeindruckenden Klippen des Anaga Rural Park.\n\nAn Tagen mit starkem Wellengang schaffen gegen die Vulkanformationen brechende Wellen ein außergewöhnliches Naturschauspiel. An ruhigen Tagen werden die Becken zu einem perfekten Ort zum Entspannen.\n\n### Vor dem Besuch\n- 🌊 Hergerichtete Salzwasserbecken neben dem Ozean\n- 🏔️ Spektakuläre Aussichten auf das Anaga-Massiv\n- 📸 Einer der fotogensten Winkel im Norden Teneriffas\n- 🚶 Leichter Zugang von der Strandpromenade Punta del Hidalgo\n- 🌅 Herrliche Atlantiksonnenuntergänge\n- 🍽️ Restaurants und Terrassen einige Gehminuten entfernt\n\n### Empfehlung\nDen Besuch mit einer Wanderung durch die Anaga-Trails, einem Spaziergang zum Leuchtturm Punta del Hidalgo oder einem Mittagessen am Meer kombinieren.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.5756,
+        "lng": -16.3247
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/piscinas_naturales_punta_del_hidalgo_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "naturbecken",
+        "punta-del-hidalgo",
+        "anaga",
+        "salzwasser",
+        "norden",
+        "la-laguna",
+        "vulkanküste"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": false,
+      "municipio": "san-cristobal-de-la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/qdhafHEoXzb6gouS7"
+    },
+    {
+      "slug": "piscina-natural-mesa-del-mar",
+      "name": "Naturbecken von Mesa del Mar",
+      "shortDescription": "Meeresbecken neben den Klippen von Tacoronte mit spektakulärem Atlantikblick",
+      "description": "Im kleinen Küstendorf Mesa del Mar in der Gemeinde Tacoronte ist das **Naturbecken von Mesa del Mar** einer der ruhigsten und authentischsten Winkel im Norden Teneriffas. Von beeindruckenden Vulkanklippen umgeben und zum Atlantischen Ozean hin offen, bietet es ein ganz anderes Erlebnis als die großen Touristenzentren der Insel.\n\n### Der Besuch\nDas Becken ist entlang der Küste angelegt und wird direkt vom Meer gespeist. Sein geschütztes Design ermöglicht sichereres Schwimmen als an vielen offenen Strecken der Nordküste.\n\nDie Umgebung wird von spektakulären Klippenwänden und Atlantikpanoramen beherrscht. An Tagen mit starkem Wellengang ist das Meer mit gegen die nahen Vulkanformationen brechenden Wellen ein beeindruckendes Schauspiel.\n\nGanz in der Nähe liegt die Playa de Mesa del Mar, ein kleiner Schwarzsandstrand, der den Besuch perfekt ergänzt.\n\n### Vor dem Besuch\n- 🌊 Salzwasserbecken, geschützt vor direktem Wellengang\n- 🏔️ Spektakuläre Aussichten auf die Klippen von Tacoronte\n- 📸 Ausgezeichneter Platz für Küstenfotografie\n- 🏖️ Neben der Playa de Mesa del Mar\n- 🚗 Straßenzugang von Tacoronte\n- ☀️ Ruhige, überfüllungsfreie Atmosphäre das ganze Jahr über\n\n### Empfehlung\nDen Besuch mit einer Tour entlang der Küste von Tacoronte und den Aussichtspunkten der Gegend kombinieren.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4808,
+        "lng": -16.4106
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/playa_mesa_del_mar_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "naturbecken",
+        "mesa-del-mar",
+        "tacoronte",
+        "salzwasser",
+        "norden",
+        "klippen",
+        "vulkanküste"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": false,
+      "municipio": "tacoronte",
+      "mapsUrl": "https://maps.app.goo.gl/JSPeY5MamZSDc7sQ6"
+    },
+    {
+      "slug": "charco-de-la-laja",
+      "name": "Charco de La Laja",
+      "shortDescription": "Spektakuläres Vulkan-Naturbecken zwischen Lavaströmen an der Nordküste Teneriffas",
+      "description": "**Charco de La Laja** ist eines der fotogensten und überraschendsten Naturbecken auf Teneriffa. In der Gemeinde San Juan de la Rambla gelegen, wurde dieser vulkanische Winkel durch alte Lavaströme geformt, die ein natürliches Becken schaffen, das vor dem Atlantikwellengang geschützt ist. Der Kontrast zwischen schwarzem Fels, kristallklarem Wasser und dem offenen Ozean macht dies zu einer der spektakulärsten Küstenlandschaften an der Nordküste.\n\n### Der Besuch\nDas Naturbecken liegt zwischen Vulkanformationen, die als natürliche Barriere gegen das Meer wirken. Bei günstigen Bedingungen nehmen seine transparenten Wasser türkisfarbene Töne an, die dramatisch mit dem intensiven Schwarz der Lava kontrastieren.\n\nEines seiner größten Attraktionen ist das Gefühl, in einem von der Natur selbst geformten Becken zu schwimmen. An ruhigen Tagen ist es ein ausgezeichneter Platz zum Schwimmen und Entspannen. Bei starkem Wellengang oder rauem Meer können die Bedingungen jedoch gefährlich werden.\n\n### Vor dem Besuch\n- 🌊 Immer Seebedingungen vor dem Schwimmen prüfen\n- 📸 Eines der fotogensten Naturbecken auf Teneriffa\n- 🌋 Durch alte Vulkanlavaströme entstanden\n- 🚶 Zugang über Stufen vom Küstenwanderweg\n- ☀️ Am besten bei günstigen Tide- und Wetterbedingungen besuchen\n- ⚠️ Bei starkem Wellengang oder rauem Meer nicht schwimmen\n\n### Empfehlung\nAm Morgen für das beste Licht auf dem kristallklaren Wasser besuchen. Mit einer Tour durch San Juan de la Rambla und anderen Küstenecken im Norden Teneriffas kombinieren.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.3953,
+        "lng": -16.6518
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/charco_de_la_laja_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "naturbecken",
+        "charco",
+        "san-juan-de-la-rambla",
+        "vulkanküste",
+        "norden",
+        "fotografie",
+        "salzwasser"
+      ],
+      "visitDuration": "30min-1h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": false,
+      "municipio": "san-juan-de-la-rambla",
+      "mapsUrl": "https://maps.app.goo.gl/ZTa5oZkBkxASahXy6"
+    },
+    {
+      "slug": "el-caleton",
+      "name": "El Caletón",
+      "shortDescription": "Die berühmtesten Naturbecken Teneriffas, entstanden durch den Vulkanausbruch von 1706",
+      "description": "Wenige Orte auf Teneriffa veranschaulichen die Kraft der Natur besser als **El Caletón**. Neben dem historischen Stadtzentrum von Garachico gelegen, wurde dieses spektakuläre Naturbeckensystem durch den Vulkanausbruch von 1706 geboren, als Lavaströme den ursprünglichen Hafen der Stadt vollständig veränderten. Heute ist es einer der ikonischsten und fotografiertesten Orte auf der Insel.\n\n### Der Besuch\nDie Becken verteilen sich zwischen Vulkanformationen, die vor mehr als drei Jahrhunderten das Meer erreichten und dabei eine Reihe von Felsbecken und Badebereichen unterschiedlicher Größe schufen.\n\nAusgebaute Gehwege ermöglichen eine einfache Erkundung des Komplexes. An ruhigen Tagen bieten die Becken hervorragende Badebedingungen. Wenn der Atlantik seine volle Kraft zeigt, schaffen gegen die Felsen brechende Wellen eines der beeindruckendsten Naturschauspiele der Kanarischen Inseln.\n\nNur Meter entfernt sind einige der wichtigsten Sehenswürdigkeiten Garachicos — das Castillo de San Miguel, die Plaza de la Libertad und der historische alte Hafen.\n\n### Vor dem Besuch\n- 🌊 Seebedingungen vor dem Schwimmen prüfen\n- 🌋 Durch die Lavaströme von 1706 entstanden\n- 📸 Einer der meistfotografierten Orte auf Teneriffa\n- 🚶 Leichter Zugang vom historischen Zentrum Garachicos\n- 🏛️ Perfekt kombiniert mit einem Kulturbesuch des Ortes\n- ⚠️ Einige Bereiche können bei Stürmen aus Sicherheitsgründen geschlossen sein\n\n### Empfehlung\nMehrere Stunden für die Erkundung Garachicos einplanen und den Besuch bei El Caletón abschließen. Wenige Erlebnisse spiegeln die vulkanische Geschichte der Kanarischen Inseln besser wider als das Baden in Naturbecken, die durch einen Ausbruch entstanden, der das Schicksal einer der wichtigsten historischen Städte Teneriffas dauerhaft verändert hat.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.3739,
+        "lng": -16.7648
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/piscinas_naturales_garachico_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "naturbecken",
+        "garachico",
+        "vulkan",
+        "vulkanküste",
+        "norden",
+        "kulturerbe",
+        "salzwasser"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": false,
+      "municipio": "garachico",
+      "mapsUrl": "https://maps.app.goo.gl/9gUg3LE3XfLErKkW7"
+    },
+    {
+      "slug": "charco-los-chochos",
+      "name": "Charco Los Chochos",
+      "shortDescription": "Verborgenes Naturbecken zwischen Vulkanströmen an der Küste von Los Silos",
+      "description": "An der Küste von Los Silos liegt **Charco Los Chochos**, einer der attraktivsten Naturplätze im Nordwesten Teneriffas. Dieses Naturbecken, das durch alte Vulkanströme entstanden ist, bietet eine spektakuläre Kulisse, in der der Atlantische Ozean und die Vulkangeologie der Insel sich zu einer einzigartigen Landschaft verbinden.\n\n### Der Besuch\nDas Becken ist teilweise durch Lavaformationen geschützt, die den direkten Aufprall der Wellen dämpfen und einen breiten Salzwasserbadebereich schaffen. An ruhigen Tagen nehmen die Wasser blau-türkisfarbene Töne an.\n\nDer Bereich hat ausgebauten Zugang und Plattformen, die den Einstieg ins Wasser erleichtern. Seine Größe macht ihn zu einer sehr beliebten Option bei Bewohnern Nordteneriffas in den wärmeren Monaten.\n\nVon der Umgebung gibt es herrliche Aussichten auf die Küste von Los Silos, das Teno-Massiv und die Klippen.\n\n### Vor dem Besuch\n- 🌊 Immer Seebedingungen vor dem Schwimmen prüfen\n- 🌋 Naturbecken durch alte Vulkanlavaströme entstanden\n- 📸 Ausgezeichneter Platz für Vulkanküstenfotografie\n- 🚶 Relativ leichter Zugang vom Stadtgebiet\n- ☀️ Im Sommer sehr bei Einheimischen beliebt\n- ⚠️ Bei starkem Wellengang oder rauem Meer nicht schwimmen\n\n### Empfehlung\nDen Besuch mit einer Tour durch Los Silos, Buenavista del Norte oder dem nahegelegenen Teno Rural Park kombinieren.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.3685,
+        "lng": -16.8168
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/charco_los_chochos_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "naturbecken",
+        "charco",
+        "los-silos",
+        "vulkanküste",
+        "nordwesten",
+        "salzwasser",
+        "natur"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": false,
+      "municipio": "los-silos",
+      "mapsUrl": "https://maps.app.goo.gl/adEvFB2QZ7hQWNcaA"
+    },
+    {
+      "slug": "parque-maritimo-cesar-manrique",
+      "name": "Meerespark César Manrique",
+      "shortDescription": "Salzwasserbeckenkomplex von César Manrique entworfen, dem Atlantik zugewandt",
+      "description": "Der **Meerespark César Manrique** ist einer der ikonischsten Freizeitbereiche in Santa Cruz de Tenerife. Vom berühmten kanarischen Künstler und Architekten César Manrique entworfen und 1995 eröffnet, kombiniert er Architektur, Natur und das Meer in einem spektakulären Salzwasserbeckenkomplex mit Blick auf den Atlantischen Ozean.\n\n### Der Besuch\nDer Komplex erstreckt sich über mehr als 22.000 Quadratmeter und umfasst mehrere Salzwasserbecken, Wasserfälle, Sonnenterrassen, Palmengärten und Ruhebereiche, die in eine vom Vulkanästhetik der Kanarischen Inseln inspirierte Umgebung integriert sind.\n\nManriques Philosophie ist in jedem Winkel präsent, wo vulkanischer Stein, einheimische Vegetation und Wasser eine perfekte Harmonie zwischen Kunst und Natur schaffen. Dank seiner Position vor dem Meer bietet er herrliche Aussichten auf den Atlantik und das Auditorium von Teneriffa.\n\nNeben den Badebereichen verfügt der Park über Restaurants, Cafés, Kinderbereiche und Veranstaltungsräume.\n\n### Vor dem Besuch\n- 🌊 Mehrere Salzwasserbecken unterschiedlicher Tiefe\n- 🎨 Entworfen vom kanarischen Künstler César Manrique\n- 🌴 Weitläufige Grünanlagen und Sonnenterrassen\n- 👨‍👩‍👧‍👦 Ideal für Familien und Besucher jeden Alters\n- 🍽️ Restaurants, Cafés und Dienste im Komplex\n- 📸 Ausgezeichnete Aussichten auf das Auditorium von Teneriffa und den Atlantik\n\n### Empfehlung\nDen Besuch mit einem Spaziergang zum Auditorium von Teneriffa, dem Palmetum oder dem historischen Zentrum von Santa Cruz kombinieren.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4527,
+        "lng": -16.2465
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/parque_maritimo_cesar_manrique_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "salzwasserbecken",
+        "santa-cruz",
+        "cesar-manrique",
+        "architektur",
+        "familie",
+        "kunst",
+        "freizeit"
+      ],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🏊",
+      "top": false,
+      "municipio": "santa-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/SneRKYuntDDYTpvW7"
+    },
+    {
+      "slug": "complejo-turistico-costa-martianez",
+      "name": "Lago Martiánez",
+      "shortDescription": "César Manriques Meisterwerk in Puerto de la Cruz: Meereswasserseen und Vulkankunst",
+      "description": "Der **Touristikkomplex Costa Martiánez**, volkstümlich bekannt als **Lago Martiánez**, ist einer der emblematischsten Räume Teneriffas und eines der wichtigsten Werke von César Manrique. 1977 mit Blick auf den Atlantischen Ozean eröffnet, verbindet dieser spektakuläre Komplex Salzwasserbecken, Gärten, Skulpturen und Architektur, die in die Vulkanlandschaft der Kanarischen Inseln integriert sind.\n\n### Der Besuch\nDer Komplex erstreckt sich über mehr als 100.000 Quadratmeter und besteht aus einer großen zentralen künstlichen Lagune, umgeben von mehreren Becken, Inseln, Wasserfällen und Grünanlagen. Das schwarze Vulkangestein, die subtropische Vegetation und die von César Manrique entworfenen Skulpturen schaffen eine einzigartige Umgebung, in der Kunst und Natur in perfekter Harmonie koexistieren.\n\nIm Herzen von Puerto de la Cruz gelegen, bietet er beeindruckende Aussichten auf den Atlantischen Ozean und die Nordküste Teneriffas. Neben den Badebereichen verfügt der Komplex über Restaurants, Terrassen und weitläufige Bereiche zum Entspannen in der Sonne.\n\nDas Werk gilt als eines der schönsten Beispiele der Landschaftsarchitektur auf den Kanarischen Inseln und eines der bekanntesten Projekte des künstlerischen Erbes von César Manrique außerhalb Lanzarotes.\n\n### Vor dem Besuch\n- 🎨 Von César Manrique entworfen, einer der einflussreichsten Figuren der kanarischen Kunst\n- 🌊 Mehrere Becken und eine große Meereswasserlagune\n- 🌴 Weitläufige Grünanlagen und Sonnenbereiche\n- 📸 Einer der fotogensten Orte in Puerto de la Cruz\n- 🍽️ Restaurants und Dienste im Komplex\n- 🚶 Nur wenige Minuten vom historischen Zentrum der Stadt entfernt\n\n### Empfehlung\nMindestens einen halben Tag einplanen, um den Komplex zu genießen, und ihn mit einem Besuch des Paseo de San Telmo, der Plaza del Charco oder Playa Jardín kombinieren. Lago Martiánez ist weit mehr als ein Badebereich: Es ist eines der bedeutendsten Freiluftkunstwerke auf den Kanarischen Inseln und ein unverzichtbarer Besuch in Puerto de la Cruz.",
+      "island": "tenerife",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.4142,
+        "lng": -16.5487
+      },
+      "images": {
+        "hero": "/images/tenerife/playas/lago_martianez_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "cesar-manrique",
+        "puerto-de-la-cruz",
+        "salzwasser",
+        "architektur",
+        "kunst",
+        "familie",
+        "attraktion"
+      ],
+      "visitDuration": "3-5h",
+      "difficulty": "easy",
+      "emoji": "🏊",
+      "top": false,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/ghuneh9kiVfUhRMGA"
     }
   ],
   "sections": [
