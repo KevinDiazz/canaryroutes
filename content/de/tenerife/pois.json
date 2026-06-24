@@ -861,75 +861,6 @@
       "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9"
     },
     {
-      "slug": "siam-park",
-      "name": "Siam Park",
-      "shortDescription": "Der beste Wasserpark der Welt laut TripAdvisor: 3-Meter-Wellen und Thai-Atmosphäre",
-      "description": "Siam Park wird seit mehr als einem Jahrzehnt von TripAdvisor Travellers' Choice als **bester Wasserpark der Welt** anerkannt. Das ist keine Marketingbehauptung: seine Anlagen, seine Größe und seine Spektakularität rechtfertigen den Titel vollständig. Gelegen in Costa Adeje ist er das beliebteste Freizeiterlebnis im gesamten Süden Teneriffas.\n\n### Der Besuch\nDer Park verfügt über eine **3 Meter hohe Kunstwelle** — die berühmteste in Europa, ideal zum Surfen ohne Pool zu verlassen —, den Tower of Power mit einem 28-Meter-Senkrecht-Abgang durch ein Hai-Aquarium, Spaniens längste Wasserrutsche und einen Weißsandstrand umgeben von thailändischer Architektur, der wirklich schwer zu verlassen ist. Die visuelle Palette des Parks mit goldenen Pagoden und tropischer Bepflanzung ist außergewöhnlich.\n\n### Vor der Abreise\n- 🎟️ Tickets online kaufen — bis zu 25% günstiger und keine Kassenschlangen\n- 🕘 Zur Öffnung ankommen (10 Uhr) — die Surfwelle füllt sich schnell\n- 🌊 Beste Adrenalinrutschen: Tower of Power und Dragon; für Familien: Mai Thai River\n- 🅿️ Kostenloser Parkplatz inklusive — gute Anbindung von der TF-1, Ausfahrt 28\n- ☀️ Der Park ist für einen ganzen Tag ausgelegt — genug Sonnencreme mitbringen\n\n### Empfehlung\nWochentags kommen vermeidet Wochenendwarteschlangen an der Surfwelle. Trockene Wechselkleidung mitbringen und den Besuch als vollen, entspannten Tag planen.",
-      "island": "tenerife",
-      "category": "other",
-      "coordinates": {
-        "lat": 28.0778,
-        "lng": -16.7178
-      },
-      "images": {
-        "hero": "/images/tenerife/actividades/siam-park/hero.avif",
-        "gallery": [
-          "/images/tenerife/actividades/siam-park/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "wasserpark",
-        "familie",
-        "wellen",
-        "süden",
-        "costa-adeje",
-        "freizeit"
-      ],
-      "visitDuration": "Ganzer Tag",
-      "difficulty": "easy",
-      "emoji": "🌊",
-      "top": true,
-      "municipio": "adeje",
-      "mapsUrl": "https://maps.app.goo.gl/aBZ1J2pX3KmMNFyH9",
-      "websiteUrl": "https://www.siampark.net"
-    },
-    {
-      "slug": "avistamiento-cetaceos-los-gigantes",
-      "name": "Walbeobachtung in Los Gigantes",
-      "shortDescription": "Ansässige Kurzflossen-Grindwale und Delfine im besten Walbeobachtungsspot der Kanaren",
-      "description": "Der Kanal zwischen Teneriffa und La Gomera ist einer der **artenreichsten Cetaceen-Lebensräume im Atlantik**. Die tiefen Gewässer vor Los Gigantes beherbergen eine der wenigen **ansässigen** Kurzflossen-Grindwal-Kolonien Europas — was bedeutet, dass man sie praktisch an jedem Tag des Jahres sehen kann, nicht nur in der Saison.\n\n### Der Besuch\nVom Hafen Los Gigantes aus operieren mehrere Unternehmen mit Katamaranbooten und Schlauchbooten, die sich Grindwalgruppen sicher und entsprechend dem Walbeobachtungsverhalten nähern. Gestreifte und Große Tümmler sind ebenfalls häufig. Touren dauern 2–3 Stunden und beinhalten einen Schwimm- und Schnorchelstopp im kristallklaren Wasser neben den Klippen. Einen Grindwal in Meternähe vom Boot aus zu sehen, mit den Los Gigantes-Klippen dahinter, ist ein unvergleichliches Erlebnis.\n\n### Vor der Abreise\n- 🕘 Morgentouren (9–11 Uhr) bieten die besten Seebedingungen\n- 🎟️ Online im Voraus buchen — verantwortungsvolle Anbieter haben begrenzte Kapazitäten\n- 🐋 Grindwal-Sichtungen liegen in jedem Monat des Jahres bei über 95%\n- 🌊 Bei Neigung zur Seekrankheit einen großen Katamaran statt Schlauchboot wählen\n- 🤿 Schnorcheltouren beinhalten Ausrüstung — nur Badeanzug und Handtuch mitbringen\n\n### Empfehlung\nAnbieter wählen, die vom Programm Whale Watching Tenerife zertifiziert sind — sie halten sich an Verhaltenskodizes und jagen oder umzingeln die Tiere nicht.",
-      "island": "tenerife",
-      "category": "other",
-      "coordinates": {
-        "lat": 28.2441,
-        "lng": -16.8399
-      },
-      "images": {
-        "hero": "/images/tenerife/actividades/cetaceos/hero.avif",
-        "gallery": [
-          "/images/tenerife/actividades/cetaceos/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "wale",
-        "delfine",
-        "cetaceen",
-        "boot",
-        "los-gigantes",
-        "marin"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "easy",
-      "emoji": "🐋",
-      "top": true,
-      "municipio": "santiago-del-teide",
-      "mapsUrl": "https://maps.app.goo.gl/K3xB6TqL7vN9pZjA8"
-    },
-    {
       "slug": "gastronomia-tenerife",
       "name": "Kanarische Küche auf Teneriffa",
       "shortDescription": "Papas arrugadas, Mojo, Gofio und die besten atlantischen Weine: der Gastronomieführer der Insel",
@@ -1753,6 +1684,651 @@
       "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/ghuneh9kiVfUhRMGA"
+    },
+    {
+      "slug": "avistamiento-cetaceos-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0499,
+        "lng": -16.7197
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/avistamiento-cetaceos-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1.5h",
+      "difficulty": "easy",
+      "emoji": "🐋",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "392740",
+      "gygUrl": "https://gyg.me/1VxRRnjX",
+      "mapsUrl": "https://maps.google.com/?q=@28.049941402745148,-16.719681655594805",
+      "name": "Wale & Delfine auf Öko-Yacht",
+      "shortDescription": "Die einzige Yacht Teneriffas, die eigens für ethische Wal- und Delfinbeobachtung gebaut wurde, mit Badestopp an der Cueva del Amor",
+      "description": "Eines der meistbewerteten Erlebnisse ganz Teneriffas: Wal- und Delfinbeobachtung an Bord der **Travelin' Lady**, dem einzigen Boot auf der Insel, das eigens für diese Aktivität entworfen wurde — keine umgerüstete Yacht, sondern eine luxuriöse Öko-Yacht, die von Grund auf für ethische Walbeobachtung vor **Los Cristianos** konzipiert wurde.\n\n### Das Erlebnis\nDie Tour entlang der Südküste Teneriffas führt auf der Suche nach den Meeressäugern, die das ganze **Jahr über** in diesen Gewässern leben: Grindwale, Gemeine Delfine, Streifendelfine und sogar Meeresschildkröten. Der Ansatz ist vollkommen ethisch — kein Verfolgen der Tiere, kein Stören ihres Verhaltens —, was zu natürlicheren und authentischeren Sichtungen führt.\n\nDer Kapitän und ein Fachführer an Bord vermitteln faszinierende Informationen über das Meeresleben und das Kanarische Ökosystem, während ihr an den Vulkanlandschaften des Südens vorbeisegelt. Die Besatzung sammelt während der Fahrt auch Kunststoffabfälle aus dem Meer.\n\nDie Route umfasst einen Stopp an der **Cueva del Amor**, einem Gebiet mit kristallklarem Wasser, wo ihr bei günstigen Bedingungen mitten im Atlantik schwimmen könnt. Schnorchelausrüstung ist an Bord leihbar.\n\n### Warum dieses Boot\n- 🌊 Die einzige Yacht Teneriffas, die eigens für Walbeobachtung gebaut wurde\n- ♻️ Umweltzertifizierung und ultraniedrige Emissionen\n- 🎯 Tiefer Schwerpunkt — weit weniger Seekrankheit als auf herkömmlichen Booten\n- 🐋 **4,7/5** mit über 17.000 verifizierten Bewertungen auf GetYourGuide\n- 🏊 Schwimmstopp an der Cueva del Amor inklusive\n\n### Vor der Abfahrt\n- 📍 Treffpunkt: **Fisherman's Wharf, Zone A** (Hafen Los Cristianos). Der blauen Linie auf dem Boden folgen\n- ⏰ **30 Minuten vor** Abfahrt erscheinen — Boarding schließt 10 Minuten vorher\n- 🧴 Badeanzug, Handtuch und Sonnenschutz mitbringen\n- ❌ Nicht geeignet für Rollstuhlfahrer\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nGrindwale leben das ganze Jahr in den Gewässern zwischen Teneriffa und La Gomera — einer der wenigen Orte der Welt, wo dies der Fall ist. Was die Travelin' Lady auszeichnet, ist Qualität: Experten-Guides, leises Boot, echte Ethik. **Im Sommer frühzeitig buchen** — die Plätze sind schnell vergeben.",
+      "tags": [
+        "wale",
+        "delfine",
+        "cetaceen",
+        "yacht",
+        "los-cristianos",
+        "öko",
+        "schnorcheln",
+        "süden"
+      ]
+    },
+    {
+      "slug": "kayak-safari-vida-marina-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0494,
+        "lng": -16.7137
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/kayak-safari-vida-marina-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "3h",
+      "difficulty": "easy",
+      "emoji": "🦭",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "109501",
+      "gygUrl": "https://gyg.me/RasRCGEe",
+      "mapsUrl": "https://maps.google.com/?q=@28.04935519999999,-16.7137002",
+      "name": "Kajak-Safari mit Meereslebewesen",
+      "shortDescription": "Oeko-Kajak-Safari in kleiner Gruppe, um Delfine und Meeresschildkroeten aus der Naehe zu beobachten, mit Schnorchelstopp in einer versteckten Bucht",
+      "description": "Eines der originellsten Erlebnisse im Süden Teneriffas: eine **Öko-Kajak-Safari** entlang der Vulkanküste von Los Cristianos auf der Suche nach Delfinen und Meeresschildkröten — kein Motorlärm, keine Störung, kein Verfolgen der Tiere. Xplore Tenerife verfeinert diese Route seit Jahren und erreicht eine **Sichtungswahrscheinlichkeit von bis zu 90%**.\n\n### Das Erlebnis\nIhr startet in kleinen Gruppen vom Strand Los Cristianos aus und folgt einer Vulkanküste, die nur vom Meer aus zugänglich ist. Große Tümmler, Gemeine Delfine und Unechte Karettschildkröten durchstreifen diese Gewässer regelmäßig. Da ihr im Kajak seid — leise und umweltschonend — verhalten sich die Tiere völlig natürlich und Begegnungen fühlen sich echt an.\n\nDie Tour beinhaltet einen **Stopp an einer geheimen Bucht**, die nur vom Meer aus erreichbar ist, zum Schwimmen und Schnorcheln. Unter Wasser könnt ihr Trompetenfische, Papageifische, Brassen, Lippfische, Preußenfische und auf dem Sandgrund ruhende Rochen entdecken. Nach der Tour schickt euch der Guide die **Fotos und Videos des Tages** noch am selben Tag per WhatsApp — ohne Aufpreis.\n\n### Inbegriffen\n- 🛶 Stabile Kajaks mit Rückenlehne — keine Vorerfahrung erforderlich\n- 🤿 Komplette Schnorchelausrüstung\n- 🧥 Neoprenanzug inklusive\n- 💧 Wasser während der Tour\n- 🔒 Schließfächer für euer Gepäck\n- 📸 Fotos und Videos noch am selben Tag per WhatsApp\n- 🛡️ Unfallversicherung\n\n### Vor der Abfahrt\n- 📍 Treffpunkt: **Xplore Tenerife, Gebäude Cristianmar** (Erdgeschoss, links mit Blick aufs Meer) — „Xplore Tenerife\" in Google Maps suchen\n- 🏊 Schwimmen können ist Pflicht\n- ⚖️ Gewichtslimit: 100 kg pro Person\n- 👶 Mindestalter: 14 Jahre (unter 18 nur mit Erwachsenen)\n- 🤰 Nicht geeignet für Schwangere oder Personen mit Rückenproblemen\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nBewertet mit **4,7/5** bei über 10.000 verifizierten Bewertungen auf GetYourGuide. Die Guides Jackson, Ascary, Max, Lucía und Milán werden in fast jeder Bewertung namentlich für ihre Professionalität und ansteckende Begeisterung erwähnt. **Eines der besten Preis-Leistungs-Angebote im Süden Teneriffas**: Natur, Sport, Schnorcheln und unvergessliche Erinnerungen in einem einzigen 3-Stunden-Ausflug.",
+      "tags": [
+        "kajak",
+        "delfine",
+        "schildkroeten",
+        "schnorcheln",
+        "los-cristianos",
+        "oeko",
+        "meeresleben",
+        "sueden"
+      ]
+    },
+    {
+      "slug": "siam-park-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0778,
+        "lng": -16.7178
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/siam-park-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "Día completo",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "407436",
+      "gygUrl": "https://gyg.me/MHx9cXJm",
+      "mapsUrl": "https://maps.google.com/?q=@28.0778,-16.7178",
+      "name": "Siam Park",
+      "shortDescription": "TripAdvisors weltbester Wasserpark: 3-Meter-Welle, Tower of Power und thailändische Atmosphäre in Costa Adeje",
+      "description": "Der meistprämierte Wasserpark der Welt wird seit über einem Jahrzehnt von TripAdvisor Travellers' Choice als **Nummer eins weltweit** ausgezeichnet. Im Costa Adeje gelegen, ist er das beliebteste Freizeiterlebnis im gesamten Süden Teneriffas — und weit mehr als ein gewöhnlicher Wasserpark.\n\n### Der Besuch\nDer Star des Parks ist die **3 Meter hohe Kunstwelle** — die größte Europas — perfekt zum Surfen und Treiben lassen. Der **Tower of Power** schickt euch auf einen fast senkrechten 28-Meter-Fall durch ein Haifischaquarium. Der **Dragon** und der **Mai Thai River** runden das Angebot für Adrenalinjunkies und Familien ab. Die Architektur des Parks — goldene Pagoden, tropische Gärten und Kanäle, die das gesamte Gelände durchziehen — schafft eine Atmosphäre, die sich von jedem anderen Wasserpark unterscheidet, den ihr je besucht habt.\n\n### Das darf nicht fehlen\n- 🌊 **3m-Kunstwelle** — größte Europas, perfekt zum Surfen und Treiben lassen\n- 🐊 **Tower of Power** — 28m-Sturz durch ein lebendiges Haifischaquarium\n- 🐉 **Dragon** — Hochgeschwindigkeitsrutsche für Adrenalinfans\n- 🌿 **Mai Thai River** — tropischer Faulenzerstrom für Familien und Entspannung\n- 🏖️ **Weißer Sandstrand** — mit Liegestühlen und fast karibischer Atmosphäre\n\n### Vor dem Besuch\n- 🎟️ Tickets online kaufen — bis zu 20% günstiger als an der Kasse und keine Warteschlangen\n- ⏰ Bei Öffnung ankommen (10 Uhr) — die Surfwelle ist innerhalb der ersten 30 Minuten voll\n- 🅿️ Kostenloser Parkplatz inklusive — direkter Zugang von der TF-1, Ausfahrt 28\n- 🧴 Wasserfesten Sonnenschutz und trockene Wechselkleidung mitbringen\n- 👧 Ideal für Familien: Rutschen für jedes Alter und jeden Adrenalinlevel\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nAn Wochentagen gibt es kürzere Wartezeiten an der Surfwelle. In der Hochsaison (Juli–August) lohnt es sich, um 10 Uhr zu kommen und direkt zum Tower of Power zu gehen. Plant es als **ganzen Tag** ein — das ist kein Park, den man in zwei Stunden sehen kann.",
+      "tags": [
+        "wasserpark",
+        "welle",
+        "familie",
+        "adrenalin",
+        "costa-adeje",
+        "süden",
+        "freizeit",
+        "rutschen"
+      ]
+    },
+    {
+      "slug": "cetaceos-vision-submarina-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0452,
+        "lng": -16.7155
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/cetaceos-vision-submarina-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1.5-2h",
+      "difficulty": "easy",
+      "emoji": "🐬",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "406165",
+      "gygUrl": "https://gyg.me/sTauapcI",
+      "mapsUrl": "https://maps.google.com/?q=@28.0452,-16.7155",
+      "name": "Wale: Unterwassersicht",
+      "shortDescription": "Teneriffas meistbewertete No-Chase-Tour: 14.000+ Bewertungen, Katamaran mit Glasboden und zertifizierten Guides ab Los Cristianos",
+      "description": "Teneriffas angesehenste Walbeobachtungs-Tour, mit über **14.000 verifizierten Bewertungen** und einer No-Chase-Politik, die sie grundlegend von den anderen unterscheidet. Ab dem Hafen von Los Cristianos durchquert das Katamaran Vision die südlichen Gewässer, um Grindwale, Delfine und gelegentlich Meeresschildkröten zu treffen — immer zu ihren eigenen Bedingungen.\n\n### Das Erlebnis\nWas diese Tour einzigartig macht, ist die Kombination aus **Unterwassersicht** und **echter Respektphilosophie**. Der Katamaran hat einen Glasboden, der es ermöglicht, Wale und Delfine unter der Wasseroberfläche zu beobachten — wie sie schwimmen, kommunizieren und einfach sie selbst sind. Von der Regierung zertifizierte Guides erklären das Verhalten jeder Art auf Englisch, Spanisch, Französisch und Deutsch. Die Dauer beträgt 1,5 bis 2 Stunden: genau das Richtige für ein authentisches Erlebnis ohne die Gruppe zu erschöpfen.\n\n### Warum diese Tour und keine andere\n- 🚫 **Garantiertes No-Chase** — sie verfolgen, abschneiden oder umzingeln die Tiere nie\n- 🔭 **Exklusiver Glasboden** — einzigartiger Unterwasserblick auf Teneriffa\n- 🐬 **Ansässige Grindwale und Delfine** — eine der höchsten Sichtungsraten in Europa\n- 🌊 **Geräumiger, stabiler Katamaran** — ideal für seekranke Menschen\n- 🌍 **Echte Naturschutzarbeit** — Partner der Captain Paul Watson Foundation und Neptune's Pirates UK\n- ⭐ **4,6/5 mit 14.000+ Bewertungen** — eine der bestbewerteten Aktivitäten der Insel\n\n### Vor dem Besuch\n- 🎟️ Online kaufen — günstigerer Preis als an der Kasse, keine Warteschlangen im Hafen\n- ⏰ 20 Min. vor Abfahrt ankommen — das Boot wartet nicht\n- 🧴 Sonnencreme und Sonnenbrille sind unverzichtbar\n- 👶 Familien- und kinderfreundlich — Guides passen ihre Erklärungen an\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nTropische Grindwale sind das ganze Jahr über im Süden Teneriffas präsent, was diese Tour in jedem Monat empfehlenswert macht. Wenn ihr mit Kindern geht, bittet den Guide, den Unterschied zwischen den verschiedenen Delfinarten zu erklären — das verwandelt das Erlebnis von \"Tiere beobachten\" in etwas wirklich Lehrreiches.",
+      "tags": [
+        "wale",
+        "delfine",
+        "cetaceos",
+        "no-chase",
+        "oekologisch",
+        "los-cristianos",
+        "arona",
+        "sueden",
+        "naturschutz"
+      ]
+    },
+    {
+      "slug": "loro-parque-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.4095,
+        "lng": -16.554
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/loro-parque-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "Día completo",
+      "difficulty": "easy",
+      "emoji": "🦜",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "puerto-de-la-cruz",
+      "gygTourId": "407432",
+      "gygUrl": "https://gyg.me/YTiEAc6Q",
+      "mapsUrl": "https://maps.google.com/?q=@28.4095,-16.5540",
+      "name": "Loro Parque",
+      "shortDescription": "Europas angesehenster Zoo: Orcas, Delfine, die weltgrößte Papageiensammlung und thailändische Architektur in Puerto de la Cruz",
+      "description": "Einer der weltweit angesehensten Zoos, mit **4,8/5 basierend auf über 13.000 verifizierten Bewertungen** und dem ersten Park der Welt, der die Umweltzertifizierung Animal Embassy erhalten hat. Loro Parque in Puerto de la Cruz ist viel mehr als ein Zoo: Es ist ein ganzer Tag inmitten thailändischer Architektur, exotischer Tropenvegetation und Tierbegegnungen, die man so schnell nicht vergisst.\n\n### Der Besuch\nVier erstklassige Shows strukturieren den Tag: **Orca Ocean** — die eindrucksvollste Orca-Show Europas —, die Delphin-Show, die Seelöwen-Show und die Papageien-Show, die für den Wert des Tropenwaldschutzes wirbt. Zu den Tiergehegen gehören Antarktis-Pinguine, Gorillas, Tiger, Kaimane und die weltgrößte Papageiensammlung. Für Familien mit Kleinkindern ist **Kinderlandia** ein interaktives afrikanisches Dorf mit Baumhäusern, Rutschen und Hängebrücken.\n\n### Warum es sich lohnt\n- 🦁 **Über 700 Arten** — eine der vielfältigsten Sammlungen Europas\n- 🐋 **Orca Ocean** — die eindrucksvollste Orca-Show des Kontinents\n- 🦜 **Rekord-Papageiensammlung** — vom Guinness-Buch zertifiziert\n- 🌴 **Thailändische Architektur** — Tropengärten, die einen Spaziergang zur Reise machen\n- 👧 **Kinderlandia** — interaktive Zone für Kinder mit Abenteuerspielplatz\n- 🎢 **Orca Roller Coaster** — Familienachterbahn für alle Altersgruppen\n- ⭐ **4,8/5 mit 13.000+ Bewertungen** — eine der bestbewerteten Attraktionen auf den Kanaren\n\n### Vor dem Besuch\n- 🎟️ Online kaufen — günstigerer Preis als an der Kasse, keine Warteschlangen\n- 📅 Showzeiten bei der Ankunft checken — die Bereiche füllen sich schnell\n- 🅿️ Parkplatz in einigen Ticketoptionen enthalten\n- 🍽️ Mittagessen im Brunelli's Steakhouse beim Buchen wählbar\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n- ⏰ Ganzjährig geöffnet — mindestens 5-6 Stunden einplanen\n\n### Empfehlung\nVor 10 Uhr ankommen und direkt zu Orca Ocean gehen, um einen guten Platz zu bekommen. Mit Kleinkindern ist Kinderlandia nachmittags besser, wenn die Hitze nachlässt. Ein Kombi-Ticket mit Siam Park ist verfügbar und sehr lohnenswert, wenn ihr beide Parks besuchen möchtet.",
+      "tags": [
+        "loro-parque",
+        "zoo",
+        "orcas",
+        "delfine",
+        "papageien",
+        "familie",
+        "puerto-de-la-cruz",
+        "norden",
+        "kinderlandia"
+      ]
+    },
+    {
+      "slug": "loro-parque-siam-park-combo-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.4095,
+        "lng": -16.554
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/loro-parque-siam-park-combo-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2 días",
+      "difficulty": "easy",
+      "emoji": "🎡",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "puerto-de-la-cruz",
+      "gygTourId": "407438",
+      "gygUrl": "https://gyg.me/qjXKn3Ex",
+      "mapsUrl": "https://maps.google.com/?q=@28.4095,-16.5540",
+      "name": "Kombi Loro Parque + Siam Park",
+      "shortDescription": "Teneriffas klügste Eintrittskarte: 2 Tickets, 2 Parks, 14 Tage Gültigkeit — Loro Parque und Siam Park in einer Zahlung",
+      "description": "Der klügste Weg, Teneriffas zwei größte Attraktionen mit einem einzigen Ticket zu kombinieren. Das Kombi-Ticket umfasst **1 Eintrittskarte für Loro Parque** (Norden) und **1 Eintrittskarte für Siam Park** (Süden), mit **14 Tagen Gültigkeit** ab Erstnutzung — so können Sie beide Parks an verschiedenen Tagen in aller Ruhe besuchen.\n\n### Was enthalten ist\nMit einem einzigen Kauf erhalten Sie Zugang zu zwei völlig unterschiedlichen Erlebnissen, die zusammen das Beste der Insel darstellen:\n\n**🦜 Loro Parque — Puerto de la Cruz**\nDer weltweit angesehenste Zoo laut tausenden von Reisenden. Ein ganzer Tag unter Orcas, Delfinen, Gorillas, Antarktis-Pinguinen und der weltgrößten Papageiensammlung. Die Orca Ocean-Show ist atemberaubend. Kinderlandia für die Kleinen. Thailändische Architektur umgeben von Tropenvegetation.\n\n**🌊 Siam Park — Costa Adeje**\nTripAdvisors weltbester Wasserpark. 3-Meter-Kunstwelle, Tower of Power (28m-Sturz durch ein Haifischaquarium), Tropenfluss und thailändisches Ambiente. Ein ganzer Tag voller Adrenalin und Entspannung.\n\n### Warum das Kombi-Ticket statt Einzelkarten\n- 💰 **Deutlich günstigerer Preis** als beim Einzelkauf\n- 📅 **14 Tage Gültigkeit** — völlige Flexibilität bei der Tagesplanung\n- 🎫 **Kein Schlangestehen** — direkter Eintritt in beiden Parks\n- 🚌 **Kostenloser Transfer** zu beiden Parks verfügbar\n- ⭐ **4,8/5 mit 7.600+ kombinierten Bewertungen** — das meistbewertete Paket der Insel\n\n### Vor dem Besuch\n- 🎟️ Online kaufen — günstigerer Preis, keine Warteschlangen\n- 👆 Im ersten Park wird Ihr Fingerabdruck zur Verifizierung gespeichert — bewahren Sie das Ticket für den zweiten Park auf\n- 🧴 Für Siam Park: wasserfesten Sonnenschutz und Badeschuhe mitbringen\n- 🦁 Für Loro Parque: um 10 Uhr ankommen und direkt zu Orca Ocean\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nDie meisten Reisenden besuchen zuerst Siam Park (Süden, näher an den Südhotels) und am nächsten Tag Loro Parque. Wenn Sie im Norden untergebracht sind, kehren Sie die Reihenfolge um. Das Armband, das Sie im ersten Park erhalten, wird für den zweiten Park benötigt — nicht verlieren.",
+      "tags": [
+        "loro-parque",
+        "siam-park",
+        "kombi",
+        "parks",
+        "familie",
+        "orcas",
+        "welle",
+        "teneriffa",
+        "freizeit"
+      ]
+    },
+    {
+      "slug": "moto-acuatica-quad-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0175,
+        "lng": -16.6873
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/moto-acuatica-quad-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1-4h",
+      "difficulty": "moderate",
+      "emoji": "🚤",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "317607",
+      "gygUrl": "https://gyg.me/JduQ4fA0",
+      "mapsUrl": "https://maps.google.com/?q=@28.0175,-16.6873",
+      "name": "Jetski & Quad auf Teneriffa",
+      "shortDescription": "Adrenalinstoß im Süden: Jetski entlang der Vulkanküste ab Puerto de San Miguel und optionaler Quad durch den Teide — Gruppen max. 8 Personen",
+      "description": "Purer Adrenalinstoß im Süden Teneriffas: Jetski entlang der spektakulärsten Vulkanküste der Insel, mit der Option, das Abenteuer mit einem Quad-Safari durch den Nationalpark Teide zu verlängern. Gruppen von maximal 8 Personen, zweisprachige Guides und Abfahrt vom Puerto de San Miguel.\n\n### Die Optionen\nSie können nur Jetski (1h oder 2h) oder das **Jetski + Quad-Kombi** für einen kompletten Abenteuertag wählen:\n\n**🚤 Jetski — Puerto de San Miguel**\nDie Route folgt der Südküste vorbei an der **Montaña Amarilla**, Costa del Silencio, Las Galletas und der **Montaña Roja** — einzigartige Vulkanformationen vom Meer aus gesehen. Die 2-Stunden-Option beinhaltet einen Stopp zum Schwimmen und Schnorcheln in kristallklarem Wasser. Keine Vorerfahrung oder Führerschein erforderlich: Der Guide bringt Ihnen alles an Land bei, bevor es losgeht.\n\n**🏍️ Quad — Nationalpark Teide (Abfahrt von Chío)**\nEin 3-stündiger Quad-Safari durch das Innere Teneriffas mit Blick auf den Teide, vorbei an der Zapatilla de la Reina, dem Chío-Kiefernwald und einem Stopp am Pico Viejo für Fotos der spektakulärsten geologischen Formationen der Insel. Sandwiches inbegriffen. Physischer Führerschein erforderlich (Fotos werden nicht akzeptiert).\n\n### Warum hier buchen\n- 🌊 **Einzigartige Vulkanküste** — Montaña Amarilla, Montaña Roja, Los Ajaches vom Wasser aus gesehen\n- 🐬 **Häufige Sichtungen** — Delfine, Schildkröten und Wale auf der Route\n- 📸 **Fotos und Videos an Bord** — der Guide macht sie während der Tour (optional, günstiger Preis)\n- 👥 **Kleine Gruppe (max. 8)** — persönliche Betreuung, keine Überfüllung\n- 🔄 **Flexible Stornierung** — bei schlechtem Wetter wird der Tag kostenlos verschoben\n- ⭐ **4,6/5 mit 2.900+ Bewertungen** — die persönliche Note des Teams wird durchgehend hervorgehoben\n\n### Vor dem Besuch\n- 💶 50 € in **bar** für die Jetski-Kaution mitbringen (wird am Ende zurückgegeben)\n- 🪪 Personalausweis oder Reisepass erforderlich; für Quad, physischer Führerschein\n- 👟 Für den Quad: geschlossene Schuhe unbedingt erforderlich\n- 🎂 Jetski-Fahrer: mindestens 16 Jahre. Beifahrer: mindestens 8 Jahre\n- 🕐 30 Minuten vor der gebuchten Zeit erscheinen\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nDas Kombi-Paket (1h Jetski + 3h Quad) ist der perfekte Ganztagesplan für alle, die Adrenalinstoß auf Land und Wasser suchen. Für Paare oder Freundesgruppen ist die 2h-Jetski-Option mit dem Schnorchelstopp die beliebteste Wahl. Das Handy nicht auf den Jetski mitnehmen — es ist nicht erlaubt und das Meerwasser wird es nicht verschonen.",
+      "tags": [
+        "jetski",
+        "quad",
+        "abenteuer",
+        "kueste",
+        "sueden",
+        "arona",
+        "san-miguel",
+        "adrenalin",
+        "wassersport"
+      ]
+    },
+    {
+      "slug": "quad-teide-atardecer-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0977,
+        "lng": -16.6463
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/quad-teide-atardecer-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2-3h",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "392679",
+      "gygUrl": "https://gyg.me/s53BS9J5",
+      "mapsUrl": "https://maps.google.com/?q=@28.0977,-16.6463",
+      "name": "Quad-Tour zum Teide",
+      "shortDescription": "Mit dem Quad in den Nationalpark Teide auf 2.100 m, über den Wolken — Tages- oder Sonnenuntergangs-Tour ab Arona",
+      "description": "Eines der spektakulärsten Erlebnisse auf Teneriffa: mit dem Quad in den Nationalpark Teide hinauffahren, über den Wolken, auf 2.100 Meter Höhe. Abfahrt ab Arona im Süden, mit zwei Optionen — Tagestour oder Sonnenuntergangs-Tour — und Aussichten, die Sie in keinem Busausflug finden werden.\n\n### Die Route\nEtwa 70 km ausschließlich auf geteerten Straßen bei einer Höchstgeschwindigkeit von 45 km/h. Das Programm führt von Arona durch die **Corona Forestal** — einen der dichtesten kanarischen Kiefernwälder der Insel — nach **Vilaflor**, dem höchsten Dorf Spaniens (1.400 m) und Heimat des legendären **Pino Gordo**, einer jahrhundertealten kanarischen Kiefer. Von dort führt die Route weiter zur **Boca Tauce** mit ihren vulkanischen Formationen des Pico Viejo, bis zum **Panoramablick auf 2.100 m** mit Blick auf den Atlantik in alle Richtungen.\n\n### Tagestour vs. Sonnenuntergangs-Tour\n- ☀️ **Tagestour** — vollständige Panoramaerfahrung, mehr Zeit für Stopps und Fotos\n- 🌅 **Sonnenuntergangs-Tour** — die letzten Sonnenstrahlen tauchen den Teide und das Meer in Orange und Rot; die Rückfahrt nach Arona erfolgt bei Nacht, mit den Lichtern Südteneriffas zu Füßen\n\n### Was Sie überraschen wird\n- 🌥️ **Über den Wolken** — das Wolkenmeer von 2.100 m ist unwirklich schön\n- 🌲 **Vilaflor und der Pino Gordo** — Spaniens höchstes Dorf mit einer zum Naturdenkmal erklärten jahrhundertealten Kiefer\n- 🏔️ **Boca Tauce** — schwarze Vulkanformationen des Pico Viejo aus nächster Nähe\n- 🔭 **360°-Atlantikblick** — an klaren Tagen sieht man Gran Canaria und La Gomera\n- 📸 **Fotos während der Tour** — der Guide macht sie an den besten Punkten (20 € optional)\n- 🏍️ **Einzel- oder Doppel-Quad** — Fahrerwechsel ohne Aufpreis\n\n### Vor dem Besuch\n- 🪪 **Physischer Führerschein Pflicht** — Fotos, vorläufige Führerscheine und Führerscheine unter 1 Jahr werden nicht akzeptiert\n- 🧥 **Jacke mitbringen** — auf 2.100 m sinkt die Temperatur stark, auch im Sommer\n- 👟 Geschlossene Schuhe unbedingt erforderlich (Jacken und Schuhe können dort gemietet werden)\n- 💶 30 € optionale \"Zero Worries\"-Fahrzeugschutzversicherung einplanen\n- 🎂 Mindest 18 Jahre zum Fahren. Beifahrer mindestens 6 Jahre und 120 cm\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nDie Sonnenuntergangs-Tour ist der Favorit für Paare. Mit Familie und Kindern ermöglicht die Tagestour mehr Stopps und besseres Licht für Fotos. Warme Kleidung mitbringen, auch wenn es in Arona sonnig ist: Der Temperaturunterschied zwischen der Südküste und 2.100 m beträgt mehr als 10°C.",
+      "tags": [
+        "quad",
+        "teide",
+        "abenteuer",
+        "sonnenuntergang",
+        "arona",
+        "sueden",
+        "vilaflor",
+        "vulkan",
+        "kiefernwald"
+      ]
+    },
+    {
+      "slug": "clases-surf-playa-americas-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.057,
+        "lng": -16.7165
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/clases-surf-playa-americas-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2h",
+      "difficulty": "easy",
+      "emoji": "🏄",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "407915",
+      "gygUrl": "https://gyg.me/1Ae05WZy",
+      "mapsUrl": "https://maps.google.com/?q=@28.0570,-16.7165",
+      "name": "Surfkurs an der Playa de las Américas",
+      "shortDescription": "Teneriffas bestbewertete Surfschule: 4,9★, Gruppen zu 6, Fotos inklusive und zertifizierte Instruktoren an der Playa de las Américas",
+      "description": "Die bestbewerteten Surfstunden auf Teneriffa: **4,9/5 mit über 1.400 verifizierten Bewertungen**. Die Shaka Surf Schule, nur 30 Meter vom Wasser an der Playa de las Américas, bietet 2-stündige Kurse für alle Niveaus in Gruppen von maximal 6 Personen. Komplette Ausrüstung inklusive und Tagesfotos zum Mitnehmen.\n\n### Der Kurs\nDie Stunde beginnt an Land: 20 Minuten Theorie, in der der Instructor erklärt, wie man vom Brett aufsteht, richtig paddelt und sich positioniert, um die Welle zu erwischen. Dann Aufwärmen und ab ins Wasser. Der Monitor ist die ganze Zeit dabei und passt Technik an und führt durch jeden Versuch. Die Playa de las Américas bietet dank des beständigen Atlantikswells fast das ganze Jahr über stabile Lernbedingungen.\n\n### Warum diese Schule\n- ⭐ **4,9/5 mit 1.400+ Bewertungen** — Teneriffas meistbewertete Surfschule\n- 📸 **Fotos im Preis inbegriffen** — Erinnerung an jede Welle\n- 👥 **Maximal 6 Schüler pro Kurs** — echte individuelle Betreuung\n- 🏄 **Alle Niveaus** — vom absoluten Anfänger bis zum Fortgeschrittenen\n- 🤿 **Alles inklusive** — Brett, Neoprenanzug, Wasserschuhe, Lycra und Dusche\n- 🌍 **Mehrsprachige Instruktoren** — Spanisch, Englisch, Deutsch, Französisch, Italienisch und mehr\n\n### Vor dem Besuch\n- 🩱 Nur Badeanzug und Handtuch mitbringen — alles andere wird gestellt\n- ⏰ 15 Min. früher an der Shaka Surf Tenerife Schule erscheinen\n- 📱 Per WhatsApp für den genauen Treffpunkt kontaktieren\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n- 🚫 Nicht geeignet für Schwangere oder Nichtschwimmer\n\n### Empfehlung\nIdeal für Paare, Familien und Gruppen. 90% der spanischsprachigen Reisenden geben Bestnoten. Mit Kindern passt der Monitor das Tempo an — mehrere Bewertungen erwähnen das ausdrücklich. Keine Vorkenntnisse erforderlich: In 2 Stunden schafft es die Mehrheit, auf dem Brett zu stehen.",
+      "tags": [
+        "surfen",
+        "kurs",
+        "playa-americas",
+        "arona",
+        "sueden",
+        "familie",
+        "anfaenger",
+        "ozean",
+        "sport"
+      ]
+    },
+    {
+      "slug": "atardecer-estrellas-teide-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1226,
+        "lng": -16.7264
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/atardecer-estrellas-teide-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "3-5h",
+      "difficulty": "easy",
+      "emoji": "🔭",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "417569",
+      "gygUrl": "https://gyg.me/8cpuA9H2",
+      "mapsUrl": "https://maps.google.com/?q=@28.1226,-16.7264",
+      "name": "Sonnenuntergang & Sternbeobachtung am Teide",
+      "shortDescription": "Teneriffas meistbewertete Astronomietour: 4,7★, Sonnenuntergang über den Wolken, Cava und 12\"-Dobson-Teleskop mit Starlight-zertifizierten Guides",
+      "description": "Einer der außergewöhnlichsten Abende auf Teneriffa: zuerst der Sonnenuntergang über den Wolken mit Blick auf La Gomera, La Palma und El Hierro, dann der sternreichste Himmel Europas über dem Nationalpark Teide. **4,7/5 mit über 3.200 Bewertungen** und Starlight-zertifizierten Guides.\n\n### Das Erlebnis\nDer Ausflug dauert 3 bis 5 Stunden und verbindet zwei einzigartige Momente:\n\n**🌅 Der Sonnenuntergang (1.400 m)**\nVon einem vulkanischen Aussichtspunkt — neben dem Lavastrom, den Christoph Kolumbus 1492 in seinem Navigationstagebuch festhielt — beobachtet man, wie die Sonne über den Westinseln untergeht. Die Guides verteilen ein Glas Cava zur Feier. Das Farbenspektakel wechselt mit jedem Sonnenuntergang.\n\n**🌌 Die Sternbeobachtung**\nNach dem Sonnenuntergang wechselt die Gruppe zu einem weiteren Aussichtspunkt. Starlight-zertifizierte Guides erklären Sternbilder, Planeten und griechische Mythologie mit einem Laserpointer und dem 12-Zoll-Dobson-Teleskop — eines der leistungsstärksten bei Touristentouren. Je nach Jahreszeit kann man Saturn mit seinen Ringen, Jupiters Monde, Galaxien, Nebel oder die Plejaden sehen. Die Tour endet mit einem **professionellen Astrofoto-Foto jedes Teilnehmers** unter dem Sternenzelt — im Preis inbegriffen.\n\n### Warum diese Tour\n- ⭐ **4,7/5 mit 3.200+ Bewertungen** — die meistbewertete Sternbeobachtungstour der Insel\n- 🔭 **12\"-Dobson-Teleskop** — mehr Teleskopzeit als bei jedem Mitbewerber\n- 🌌 **Starlight-zertifizierte Guides** — offizielle Astrotourismus-Ausbildung\n- 📸 **Astrofoto-Foto inklusive** — einzigartiges Andenken, unmöglich mit dem Handy\n- 🥂 **Glas Cava inklusive** am Sonnenuntergangs-Aussichtspunkt\n- 🚐 **Hotelabholung verfügbar** (VIP-Option, Südküste)\n\n### Vor dem Besuch\n- 🧥 **Warm anziehen** — auf 1.400 m sinkt die Temperatur erheblich, auch im Sommer\n- 📱 Genauer Treffpunkt und Zeit kommen am selben Tag per WhatsApp — Nummer aktiv halten\n- 🚗 Self-Drive-Option erfordert Mietwagen (kein Taxi oder öffentliche Verkehrsmittel)\n- 🌍 Tour auf **Englisch**\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nNeumond oder zunehmende Sichel wählen, um mehr Sterne zu sehen — bei Vollmond konkurriert sein Licht mit schwächeren Sternen. Die VIP-Abholoption ist am bequemsten für Gäste im Süden. Jacke mitbringen, auch wenn es an der Küste warm ist: Der Temperaturabfall zwischen Adeje und dem Aussichtspunkt beträgt mehr als 10°C.",
+      "tags": [
+        "sterne",
+        "teide",
+        "sonnenuntergang",
+        "astronomie",
+        "teleskop",
+        "adeje",
+        "sueden",
+        "nacht",
+        "starlight"
+      ]
+    },
+    {
+      "slug": "excursion-teide-masca-icod-garachico",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.2272,
+        "lng": -16.6
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/excursion-teide-masca-icod-garachico.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "9h",
+      "difficulty": "easy",
+      "emoji": "🚌",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "gygTourId": "217542",
+      "gygUrl": "https://gyg.me/W7D7KZm9",
+      "mapsUrl": "https://maps.google.com/?q=@28.2272,-16.6000",
+      "name": "Tagesausflug: Teide, Masca, Icod & Garachico",
+      "shortDescription": "Die große Nordtour Teneriffas: Teide, Masca, Drachenbaum und Garachicos Lavapools an einem Tag, mit Hotelabholung",
+      "description": "Der umfassendste Ausflug, um Nordteneriffa an einem einzigen Tag zu entdecken: **4,6/5 mit über 2.500 Bewertungen**, Hotelabholung inklusive und mehrsprachiger Guide während der 9-stündigen Route. Vier einzigartige Ziele, ein Bus.\n\n### Die Route\n**🌋 Nationalpark Teide — Los Roques de García**\nErste Station: die berühmten Vulkanfelsen Los Roques de García im Herzen des Nationalparks. Der Guide erklärt die Geologie und Naturgeschichte des Teide mit direktem Blick auf Spaniens höchsten Vulkan.\n\n**🌳 Icod de los Vinos — Der Jahrtausend-Drachenbaum**\nDer berühmteste Baum der Kanarischen Inseln: ein über tausend Jahre alter Drachenbaum, der zum Naturdenkmal erklärt wurde. Die historische Altstadt von Icod mit traditioneller kanarischer Architektur rundet den Besuch ab.\n\n**🌊 Garachico — Lavapools**\nEines der schönsten Dörfer Teneriffas, das 1706 durch einen Vulkanausbruch teilweise zerstört wurde. Die Lavaströme schufen natürliche Pools im Fels, die heute eine der ungewöhnlichsten Badestellen der Insel sind.\n\n**🏔️ Masca — Das Dorf der unmöglichen Kurven**\nZufahrt über eine legendäre Bergstraße, die die Fahrer mit chirurgischer Präzision meistern. Die Schlucht und das Tal von Masca sind für viele Reisende das Eindrucksvollste der gesamten Route.\n\n### Warum diesen Tour buchen\n- 🚌 **Hotelabholung** — kein Stress mit der Anreise\n- 🎤 **Offizieller mehrsprachiger Guide** — Spanisch, Englisch und Deutsch\n- 📍 **4 Ziele an 1 Tag** — ohne Ortskenntnis im Auto unmöglich zu schaffen\n- ⭐ **4,6/5 mit 2.500+ Bewertungen** — Teamqualität und Route werden durchgehend gelobt\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Vor dem Besuch\n- 👟 Bequeme geschlossene Schuhe — keine Sandalen oder Flip-Flops\n- 🧥 Jacke mitbringen — Teide und Masca sind viel kälter als die Küste\n- 📸 Kamera — die Landschaften von Masca und Teide rechtfertigen den Speicherplatz\n- ⏱️ Zeit an jeder Station ist begrenzt — priorisieren Sie bei der Ankunft\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nFür viele Reisende ist **Masca letztendlich die Lieblingsstation**, sogar mehr als der Teide selbst. Die Zufahrtsstraße ist bereits Teil des Erlebnisses. Bei Mobilitätseinschränkungen vor der Buchung nachfragen.",
+      "tags": [
+        "ausflug",
+        "teide",
+        "masca",
+        "icod",
+        "garachico",
+        "norden",
+        "vilaflor",
+        "tour",
+        "bus"
+      ]
+    },
+    {
+      "slug": "tour-teide-teleferico-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.2693,
+        "lng": -16.6424
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/tour-teide-teleferico-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "7h",
+      "difficulty": "moderate",
+      "emoji": "🚠",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "gygTourId": "351351",
+      "gygUrl": "https://gyg.me/d9b4VnjR",
+      "mapsUrl": "https://maps.google.com/?q=@28.2693,-16.6424",
+      "name": "Teide Seilbahn-Tour mit Transfer",
+      "shortDescription": "Mit der Seilbahn auf Spaniens höchsten Gipfel auf 3.555m mit Hotelabholung — der bequemste Weg auf den Teide",
+      "description": "Mit der Teide-Seilbahn auf **3.555 Meter Höhe** — Spaniens höchster Gipfel — mit Hotelabholung aus dem Norden und Süden der Insel. **4,3/5 mit über 5.500 Bewertungen** und offizieller Guide während des gesamten Ausflugs. 7 Stunden Ausflug zum höchsten Punkt des Atlantiks.\n\n### Das Erlebnis\nNach der Hotelabholung fährt der Bus mit Aussichtspunktstopps durch den Nationalpark zur Seilbahn-Talstation. Die Kabinentour dauert 8 Minuten und steigt von 2.356 m auf 3.555 m — ein Temperaturunterschied von mehr als 10°C in weniger als einem vertikalen Kilometer. An der Bergstation gibt es Freizeit für drei markierte Wanderwege, den Pico Viejo-Aussichtspunkt, den La Fortaleza-Aussichtspunkt und den Telesforo Bravo-Pfad. Kostenloser Eintritt zur Ausstellung \"Wissenschaft und Legende\" über Teides Geologie und Guanchen-Mythologie.\n\n### Was inklusive ist\n- 🚠 **Seilbahn-Hin-und-Rückfahrticket** — im Preis inbegriffen\n- 🚌 **Hotelabholung und -rückgabe** — aus dem Norden und Süden der Insel\n- 🎤 **Offizieller Guide** — Spanisch, Englisch, Deutsch, Französisch, Italienisch, Niederländisch\n- 🎧 **Teide Legend Digital-Audioguide** für Gipfelwanderwege\n- 🏛️ **Kostenloser Ausstellungseintritt** \"Wissenschaft und Legende\"\n\n### Wichtig vor der Buchung\n- 💨 **Starker Wind kann die Seilbahn schließen** — Tour findet trotzdem statt, nur der Seilbahnpreis wird erstattet. Wettervorhersage vorher checken\n- 👟 **Bergschuhe Pflicht** — keine Sandalen, Flip-Flops, Absätze oder Badeschuhe\n- 🏥 Nicht geeignet für Schwangere, Herz- oder Atembeschwerden, unter 3 Jahre\n- 🧥 **Warme Kleidung unbedingt** — auf 3.555m ist es auch im August kalt\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nDie Aussicht von 3.555 m an einem klaren Tag ist außergewöhnlich: alle Inseln des Archipels sind sichtbar. Für optimale Seilbahn-Verfügbarkeit windstille Tage wählen und unter der Woche buchen. Für den Krater-Gipfel (3.718 m) ist ein zusätzlicher Sondergenehmigung nötig — diese Tour geht nicht so weit.",
+      "tags": [
+        "teide",
+        "seilbahn",
+        "gipfel",
+        "vulkan",
+        "vilaflor",
+        "ausflug",
+        "bus",
+        "hoehe",
+        "3555m"
+      ]
+    },
+    {
+      "slug": "platanera-ecologica-la-orotava-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.3888,
+        "lng": -16.5224
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/platanera-ecologica-la-orotava-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "50min",
+      "difficulty": "easy",
+      "emoji": "🍌",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "puerto-de-la-cruz",
+      "gygTourId": "450055",
+      "gygUrl": "https://gyg.me/S56wc4Sq",
+      "mapsUrl": "https://maps.google.com/?q=@28.3888,-16.5224",
+      "name": "Ökologische Bananenplantage in La Orotava",
+      "shortDescription": "Tour durch Bio-Bananenplantagen in La Orotava mit Verkostung kanarischer Bananen und Bananenlikör-Shot — 4,7★, barrierefrei und familienfreundlich",
+      "description": "Ein authentisches Erlebnis im Norden Teneriffas: durch die Reihen einer Bio-Bananenplantage in La Orotava wandern und verstehen, warum die **kanarische Banane sich von allen anderen der Welt unterscheidet**. 50 Minuten, Experten-Guide, Verkostung inklusive und ein Bananenlikör-Shot am Ende. **4,7/5 mit fast 1.000 Bewertungen**.\n\n### Der Besuch\nBananaECOplantation produziert über **150.000 kg Bananen pro Jahr** mit einem System, das zu 95% selbstversorgend ist — ohne Pestizide, ohne Kunstdünger. Der Guide erklärt, wie Aromapflanzen, Getreide und die natürliche Artenvielfalt des Landes eine saubere Produktion an den Hängen des Teides ermöglichen.\n\nDer Besuch führt durch die Bananen-Gänge, während der Guide den vollständigen Pflanzenzyklus erklärt: vom ersten Trieb bis zum reifenden Büschel, einschließlich des Auswahl- und Vertriebssystems, das den Export nach ganz Europa ermöglicht. Am Ende: **Verkostung frischer Bananen aus der Plantage** und ein Shot des handwerklich hergestellten Likörs.\n\n### Warum es sich lohnt\n- 🌿 **Echter Bio-Anbau** — 95% selbstversorgend, keine Pestizide oder Kunstdünger\n- 🍌 **Echte kanarische Banane** — völlig anderer Geschmack als importierte Sorten\n- 🥃 **Handwerklicher Bananenlikör** — auf der Plantage hergestellt\n- 🎤 **Leidenschaftliche Guides** — mehrere Bewertungen nennen Miguel und Iván namentlich\n- ♿ **Rollstuhlzugänglich** — größtenteils barrierefrei\n- 👨‍👩‍👧 **Familienfreundlich** — auch Kinder genießen den Besuch\n- ⭐ **4,7/5, Guide mit 4,9/5** — nahezu perfekte Guide-Bewertung\n\n### Vor dem Besuch\n- 📍 Treffpunkt: Carretera de El Rincón, La Orotava (direkt zur Plantage)\n- 🔞 Likör-Verkostung erfordert Volljährigkeit — Minderjährige können Saft nehmen\n- ♿ Nur einige Bereiche zugänglich — Begleitung für Rollstuhlfahrer empfohlen\n- 🕐 Dauer: ca. 50 Minuten\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nPerfekt als Ergänzung beim Besuch Nordteneriffas: kombinieren mit dem Botanischen Garten in Puerto de la Cruz oder dem historischen Zentrum von La Orotava, wenige Minuten entfernt. Für alle, die sich für nachhaltigen Anbau oder kanarische Produkte interessieren, ein Muss.",
+      "tags": [
+        "plantage",
+        "bio",
+        "la-orotava",
+        "norden",
+        "verkostung",
+        "familie",
+        "barrierefrei",
+        "kanarische-banane",
+        "likör"
+      ]
+    },
+    {
+      "slug": "submarino-tenerife-sur",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0119,
+        "lng": -16.6514
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/submarino-tenerife-sur.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🤿",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "3669",
+      "gygUrl": "https://gyg.me/jBrepwQ2",
+      "mapsUrl": "https://maps.google.com/?q=@28.0119,-16.6514",
+      "name": "U-Boot im Süden Teneriffas",
+      "shortDescription": "30 Meter unter dem Atlantik in einem echten U-Boot: Rochen, Barrakudas und Papageifische durch 22 Panoramafenster in Amarilla Marina",
+      "description": "Eines der originellsten Erlebnisse im Süden Teneriffas und die einzige Möglichkeit, ohne Tauchkenntnisse den Atlantikboden zu erreichen. Das U-Boot **Sub Fun Cinco** taucht auf **30 Meter Tiefe** in den Gewässern von Amarilla Marina, mit 44 Sitzen und 22 Panoramafenstern, damit niemand ein Bild verpasst. **4,8/5 mit über 2.300 Bewertungen**.\n\n### Die Tauchfahrt\nDer Ausflug beginnt im Hafen von Amarilla, an der Südspitze der Insel. An Bord des gelben U-Boots dauert der Abstieg einige Minuten, bis es sich auf dem Meeresgrund in 30 Metern Tiefe niederlässt. Von dort tauchen die Profitaucher des Unternehmens und locken Fische direkt zu den Fenstern — der unvergesslichste Moment des Besuchs.\n\nZu den regelmäßigen Tierarten gehören **Rochen, Barrakudas, Papageifische, Tintenfische und Flötenfische**. Der Audioguide in 15 Sprachen (Kopfhörer inklusive) erklärt das Meeresökosystem des kanarischen Atlantiks. Am Ende erhält jeder Teilnehmer ein **offizielles Taucherfahrtszertifikat** als Andenken.\n\n### Warum es besonders ist\n- 🚢 **Echtes U-Boot** — kein Halbunterseeboot, taucht 30m unter den Meeresspiegel\n- 🐟 **Taucher locken Meerestiere** — Rochen, Barrakudas und Fischschwärme direkt am Fenster\n- 🎧 **Audioguide in 15 Sprachen** — Spanisch, Englisch, Deutsch, Französisch, Italienisch und mehr\n- 🪪 **Taucherfahrtszertifikat inklusive** — ein einzigartiges Andenken\n- 🚌 **Kostenloser Bustransfer** von den wichtigsten Hotels im Süden\n- 👶 **Ab 2 Jahren** — für die ganze Familie geeignet\n- ⭐ **4,8/5 mit 2.300+ Bewertungen**\n\n### Vor dem Besuch\n- 📍 Treffpunkt: Amarilla Marina (Süd-Teneriffa) — 30 Min. vor Tauchfahrt\n- 🚌 Kostenloser Transfer von Playa de las Américas, Los Cristianos, Costa Adeje, Playa Paraíso, Callao Salvaje, Puerto de Santiago und Los Gigantes\n- 🚗 Mit eigenem Auto: kostenlose Parkplätze am Ende des Hafens\n- 📱 Abholdetails per E-Mail/SMS vom Anbieter bestätigen\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nPerfekt für Familien mit Kindern — mehrere Bewertungen nennen es ein \"Erlebnis fürs Leben\" für die Kleinen. Die Tauchfahrt selbst dauert 50 Minuten, aber mit Bustransfer und Einschiffungszeit dauert das Gesamterlebnis 1,5 bis 3 Stunden. 30 Minuten vor der Tauchfahrt im Hafen zur Registrierung erscheinen.",
+      "tags": [
+        "u-boot",
+        "tauchen",
+        "meeresgrund",
+        "rochen",
+        "amarilla-marina",
+        "arona",
+        "sueden",
+        "familie",
+        "atlantik"
+      ]
+    },
+    {
+      "slug": "excursion-la-gomera-desde-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0488,
+        "lng": -16.7187
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/excursion-la-gomera-desde-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "9h",
+      "difficulty": "easy",
+      "emoji": "⛵",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "58006",
+      "gygUrl": "https://gyg.me/UES4XPpq",
+      "mapsUrl": "https://maps.google.com/?q=@28.0488,-16.7187",
+      "name": "Tagesausflug nach La Gomera ab Teneriffa",
+      "shortDescription": "Ganzer Tag auf La Gomera: Fähre aus Süd-Teneriffa, Nationalpark Garajonay (UNESCO), Silbo-Gomero-Vorführung live und kanarisches Mittagessen inklusive — 4,1★ mit 2.100+ Bewertungen",
+      "description": "Ein Ganztagesausflug zu einer der ursprünglichsten Inseln des Archipels. Die Schnellfähre aus Los Cristianos bringt dich nach **La Gomera**, wo eine völlig andere Landschaft wartet: senkrechte Schluchten, jahrtausendealter Lorbeerwald und Dörfer, die in der Zeit stillzustehen scheinen. **4,1/5 mit über 2.100 Bewertungen**.\n\n### Die Route\nDer Tag beginnt mit der Schnellfähre aus Südteneriffa nach **San Sebastián de La Gomera**, der kleinen Hauptstadt der Insel, wo Christoph Kolumbus in der Iglesia de la Asunción betete, bevor er in die Neue Welt aufbrach.\n\nVon dort fährt der Bus durch das **üppige Hermigua-Tal** und weiter ins Herz der Insel: den **Nationalpark Garajonay**, UNESCO-Weltkulturerbe. Hier umhüllt der Lorbeerwald von El Cedro den Weg mit so dichter Vegetation, dass das Sonnenlicht gefiltert wird und eine fast mystische Atmosphäre entsteht.\n\nHöhepunkt des Tages ist ein **traditionelles kanarisches Mittagessen** mit einer Live-Vorführung des **Silbo Gomero**, der einzigen gepfiffenen Sprache der Welt, die Gomeras Hirten seit Jahrhunderten nutzen, um über Schluchten hinweg zu kommunizieren. Auf dem Rückweg fährt der Bus an der spektakulären Vulkanformation **Roque de Agando** vorbei.\n\n### Warum es sich lohnt\n- 🌿 **Nationalpark Garajonay** — UNESCO-Welterbe, millionenalter Lorbeerwald\n- 🗣️ **Live Silbo Gomero** — die einzige gepfiffene Sprache der Welt, UNESCO-Immaterielles Erbe\n- ⛪ **San Sebastián und die Kolumbus-Route** — dieselbe Kirche, in der Kolumbus betete\n- 🍽️ **Kanarisches Mittagessen inklusive** — lokale Küche im traditionellen Restaurant\n- 🧭 **Mehrsprachiger Guide** — Spanisch, Englisch, Französisch und Deutsch\n- 🚌 **Abholung in Südteneriffa** — Transfer inklusive\n- ⭐ **4,1/5 mit 2.100+ Bewertungen** — Transport mit 4,4/5 bewertet\n\n### Vor dem Ausflug\n- 📍 Abholung in Hotels Südteneriffas — Punkt bei der Buchung bestätigen\n- 🪪 Personalausweis oder Reisepass für die Fähre Pflicht\n- 🧥 Warme Kleidung mitbringen — Garajonay kann bewölkt und kühl sein\n- 🕐 Gesamtdauer: ca. 9 Stunden\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nWenn du nur einen Ausflug von Teneriffa aus machen kannst, dann diesen. La Gomera ist völlig anders als Massentourismus: Hier geht die Zeit in einem anderen Rhythmus. Besonders empfohlen für Reisende, die sich für Natur, Geschichte und authentische kanarische Kultur interessieren.",
+      "tags": [
+        "la-gomera",
+        "fähre",
+        "tagesausflug",
+        "garajonay",
+        "unesco",
+        "silbo",
+        "mittagessen",
+        "arona",
+        "süden",
+        "insel"
+      ]
+    },
+    {
+      "slug": "parasailing-costa-adeje-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0868,
+        "lng": -16.7407
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/parasailing-costa-adeje-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "30min",
+      "difficulty": "easy",
+      "emoji": "🪂",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "550159",
+      "gygUrl": "https://gyg.me/pEEQAqeY",
+      "mapsUrl": "https://maps.google.com/?q=@28.0868,-16.7407",
+      "name": "Parasailing in Costa Adeje",
+      "shortDescription": "Bis zu 100 Meter über dem Atlantik fliegen ab Puerto Colón mit Panoramablick über Costa Adeje — AJ Fly Watersports, 4,8★ mit 600 Bewertungen",
+      "description": "Eine der spektakulärsten Möglichkeiten, Teneriffa zu erleben: bis zu **100 Meter über dem Meer** schweben, während das Boot einen Bogen vor den besten Stränden der Südküste zieht. Keine Vorerfahrung nötig, keine Komplikationen — die Crew von AJ Fly Watersports hat alles im Griff. **4,8/5 mit 600 Bewertungen**.\n\n### Das Erlebnis\nAbfahrt vom **Puerto Colón** (Pontón 3), im Herzen von Costa Adeje. An Bord des Spezialschiffs erklärt das Team die Sicherheitsregeln und stattet mit Schwimmweste aus. Der Start ist sanft und überraschend ruhig — die meisten Gäste sind sich einig, dass der erste Moment des Abhebens über dem Wasser der aufregendste Teil des ganzen Erlebnisses ist.\n\nIn der Luft, aus einer Höhe von bis zu 100 Metern, sind die Aussichten atemberaubend: **Playa de Las Américas, Playa Las Vistas und Playa de Troya** breiten sich unten aus, während der blaue Atlantik-Horizont mit dem vulkanischen Profil Südteneriffas verschmilzt. Der Flug dauert ca. 10 Minuten, mit trockenem Landen zurück auf dem Boot.\n\nDie Crew fotografiert und filmt während der gesamten Aktivität — Kauf der Aufnahmen danach möglich.\n\n### Warum es besonders ist\n- 🌊 **Bis zu 100m Höhe** über dem Atlantischen Ozean\n- 📍 **Puerto Colón, Costa Adeje** — Start vom aktivsten Hafen im Süden\n- 📸 **Fotos und Video** während der Aktivität verfügbar (Kaufoption)\n- ⚙️ **Spezialschiff** mit Start- und Landesystem an Bord\n- 👨‍👩‍👧 **Max. 10 Teilnehmer** — Kleingruppe mit persönlicher Betreuung\n- ☀️ **Blick auf die schönsten Südstrände**: Las Américas, Las Vistas, Troya\n- ⭐ **4,8/5 mit 600 Bewertungen** — Guide mit 4,9/5 bewertet\n\n### Vor dem Erlebnis\n- 📍 Treffpunkt: Puerto Colón, Pontón 3, Costa Adeje — 25 Min. früher erscheinen\n- 🚫 Nicht geeignet für: Kinder unter 3, Schwangere, Rollstuhlfahrer\n- 🌊 Grundlegende Schwimmkenntnisse empfohlen\n- 👕 Sonnenbrille, biologisch abbaubaren Sonnenschutz und bequeme Kleidung mitbringen\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nIdeal für alle, die eine Portion Adrenalinstoß ohne langen Zeitaufwand suchen. Nur 10 Minuten Flug, aber die Bewertungen loben eine lustige und herzliche Crew, die auch die Bootsfahrt zum Erlebnis macht. Kombinierbar mit einem Bad am Playa de Troya oder dem Paragliding für einen vollen Tag in Teneriffas Luft.",
+      "tags": [
+        "parasailing",
+        "costa-adeje",
+        "puerto-colon",
+        "adeje",
+        "süden",
+        "fliegen",
+        "adrenalin",
+        "wasser",
+        "strände"
+      ]
+    },
+    {
+      "slug": "parapente-campeon-nacional-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1127,
+        "lng": -16.721
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/parapente-campeon-nacional-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2h",
+      "difficulty": "easy",
+      "emoji": "🏆",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "403056",
+      "gygUrl": "https://gyg.me/hcDQ44gM",
+      "mapsUrl": "https://maps.google.com/?q=@28.1127,-16.7210",
+      "name": "Paragliding mit Weltmeister auf Teneriffa",
+      "shortDescription": "Tandem-Paragliding über die Schluchten und Küste von Adeje mit nationalen und weltmeisterlichen Piloten — Sky of Tenerife, 4,9★ mit 1.150 Bewertungen",
+      "description": "Das am besten bewertete Paragliding-Erlebnis auf Teneriffa — und das aus gutem Grund: Das **Sky of Tenerife**-Team sind keine gewöhnlichen Instruktoren — sie sind Nationalmeister und Weltmeister, angeführt von **Daniel Crespo, Weltmeister**. Ein 15 bis 35-minütiger Flug über die Schluchten und die Küste von Adeje, den Reisende aus aller Welt als das beste Erlebnis ihres Lebens beschreiben. **4,9/5 mit 1.150 Bewertungen — 100% der deutschsprachigen Gäste gaben eine perfekte Bewertung**.\n\n### Der Flug\nHotelabholung ist im Preis inbegriffen. Das Team holt in einem Minibus ab und fährt zum Startgelände in den Höhen über Adeje. Vor dem Flug ein vollständiges Briefing über Start- und Landeprotokolle — nichts zu lernen, nur zuhören und genießen.\n\nJeder Pilot wird dem Gast nach Gewicht und Sprache zugeteilt — das Team spricht Spanisch, Englisch, Deutsch, Französisch, Italienisch und Tschechisch. Der Start ist sanft, und in wenigen Sekunden schweben die **Schluchten von Adeje** unter einem, mit einzigartigen Blicken auf die Küste, den Atlantik und den Teide-Gipfel im Hintergrund.\n\nEinige Routen führen über spektakuläre Schluchten, andere über den Conde-Kamm. Der Flug **endet immer an der Küste von Adeje**, wo man beim Nähern an die Strandlandezone die Möglichkeit hat, Akrobatik zu erleben oder selbst das Paraglider-Steuer zu übernehmen.\n\n**5 GoPro-Fotos inklusive** bei jedem Flug — plus optionale Foto- und 360°-Videopakete.\n\n### Warum es das Beste ist\n- 🏆 **Champion-Piloten** — geführt von Daniel Crespo, Weltmeister\n- 🌄 **Einzigartige Aussichten** — Adeje-Schluchten + Küste + Teide vom Himmel\n- 🎧 **Mehrsprachig** — Spanisch, Englisch, Deutsch, Französisch, Italienisch und Tschechisch\n- 📸 **5 GoPro-Fotos inklusive** — plus optionale 360°-Videopakete\n- 🚌 **Hotelabholung und -rückfahrt** — 23 Hotels in Costa Adeje und Umgebung\n- 👧 **Ab 6 bis 70 Jahre**, max. 110 kg\n- 🔒 **Max. 4 Teilnehmer** — absolut persönliche Betreuung\n- ⭐ **4,9/5 mit 1.150 Bewertungen** — Guides mit 5,0/5 bewertet\n\n### Vor dem Flug\n- 📍 Hotelabholung inklusive: 23 Hotels in Costa Adeje, Adeje, Las Américas und Los Cristianos\n- 👕 Sportkleidung und geschlossene Schuhe Pflicht\n- ⛔ Nicht geeignet für: unter 6, Schwangere, über 70, über 110 kg\n- 🕐 Flug: 15–35 Minuten. Gesamtdauer mit Transfers: ~2 Stunden\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nWenn Parasailing die entspannte Option ist, dann ist dieses Paragliding das vollständige Erlebnis. Mit einem Weltmeister-Piloten über die Schluchten von Adeje zu fliegen ist etwas völlig anderes als jede andere Aktivität auf Teneriffa. Besonders empfohlen für alle, die das beste Luftbild ihres Urlaubs machen möchten.",
+      "tags": [
+        "paragliding",
+        "weltmeister",
+        "sky-of-tenerife",
+        "adeje",
+        "schluchten",
+        "küste",
+        "fliegen",
+        "tandem",
+        "süden",
+        "premium"
+      ]
     }
   ],
   "sections": [

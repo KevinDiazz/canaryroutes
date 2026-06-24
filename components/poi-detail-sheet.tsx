@@ -153,12 +153,14 @@ function StoryBubbles({ pois, activePoi, onSelect, compact }: StoryBubblesProps)
                 background: ringColor + '33',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 fontSize: compact ? '16px' : '24px',
+                position: 'relative',
               }}>
+                {poi.emoji ?? '📍'}
                 <img
                   src={getBubbleThumb(poi.images.hero)}
                   alt={poi.name}
                   decoding="async"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                  style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                   onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                 />
               </div>
@@ -583,9 +585,10 @@ export function PoiDetailSheet({
                     transform: isActive ? 'scale(1.05)' : 'scale(1)',
                     transition: 'none',
                   }}>
-                    <div style={{ width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '2px solid white' }}>
+                    <div style={{ width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '2px solid white', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', background: ringColor + '33' }}>
+                      {poi.emoji ?? '📍'}
                       <img src={getBubbleThumb(poi.images.hero)} alt={poi.name}
-                        style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                        style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                         onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                       />
                     </div>
@@ -644,9 +647,10 @@ export function PoiDetailSheet({
                       transform: isActive ? 'scale(1.05)' : 'scale(1)',
                       transition: 'none',
                     }}>
-                      <div style={{ width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '2px solid white' }}>
+                      <div style={{ width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '2px solid white', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '22px', background: ringColor + '33' }}>
+                        {poi.emoji ?? '📍'}
                         <img src={getBubbleThumb(poi.images.hero)} alt={poi.name}
-                          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                           onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                         />
                       </div>

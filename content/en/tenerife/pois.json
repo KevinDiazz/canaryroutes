@@ -861,75 +861,6 @@
       "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9"
     },
     {
-      "slug": "siam-park",
-      "name": "Siam Park",
-      "shortDescription": "The world's best water park according to TripAdvisor: 3-metre waves and Thai atmosphere",
-      "description": "Siam Park has spent more than a decade being recognised as the **world's best water park** by TripAdvisor Travellers' Choice. This is not a marketing claim: its facilities, size and spectacle fully justify the title. Located in Costa Adeje, it is the most popular leisure experience in the entire south of Tenerife.\n\n### The visit\nThe park features a **3-metre artificial wave** — the most famous in Europe, perfect for surfing without leaving the pool — the Tower of Power with a 28-metre vertical drop through a shark aquarium, Spain's longest water slide, and a white sand beach surrounded by Thai architecture that is genuinely hard to leave. The park's visual palette, with golden pagodas and tropical landscaping, is extraordinary.\n\n### Before you go\n- 🎟️ Buy tickets online — up to 25% cheaper and no ticket desk queues\n- 🕘 Arrive at opening (10am) — the surf wave fills up fast\n- 🌊 Best adrenaline rides: Tower of Power and the Dragon; for families: Mai Thai River\n- 🅿️ Free parking included — easy access from the TF-1 junction 28\n- ☀️ The park is designed for a full day — bring plenty of sunscreen\n\n### Recommendation\nGoing midweek avoids weekend queues at the surf wave. Bring a dry change of clothes and plan it as a full, unhurried day.",
-      "island": "tenerife",
-      "category": "other",
-      "coordinates": {
-        "lat": 28.0778,
-        "lng": -16.7178
-      },
-      "images": {
-        "hero": "/images/tenerife/actividades/siam-park/hero.avif",
-        "gallery": [
-          "/images/tenerife/actividades/siam-park/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "water-park",
-        "family",
-        "waves",
-        "south",
-        "costa-adeje",
-        "leisure"
-      ],
-      "visitDuration": "Full day",
-      "difficulty": "easy",
-      "emoji": "🌊",
-      "top": true,
-      "municipio": "adeje",
-      "mapsUrl": "https://maps.app.goo.gl/aBZ1J2pX3KmMNFyH9",
-      "websiteUrl": "https://www.siampark.net"
-    },
-    {
-      "slug": "avistamiento-cetaceos-los-gigantes",
-      "name": "Whale Watching at Los Gigantes",
-      "shortDescription": "Resident pilot whales and dolphins in Tenerife's best cetacean watching spot",
-      "description": "The channel between Tenerife and La Gomera is one of the **richest cetacean habitats in the Atlantic**. The deep waters off Los Gigantes are home to one of the few **resident** pilot whale (short-finned) colonies in Europe — meaning you can see them on virtually any day of the year, not just in season.\n\n### The visit\nSeveral companies operate catamaran and rigid inflatable boats from Los Gigantes harbour, approaching pilot whale groups safely and in accordance with whale watching codes of conduct. Striped and bottlenose dolphins are also frequent. Tours last 2–3 hours and include a swimming and snorkelling stop in the crystal-clear waters beside the cliffs. Watching a pilot whale surface metres from the boat with the Los Gigantes cliffs behind is an experience with no comparison.\n\n### Before you go\n- 🕘 Morning tours (9–11am) offer the best sea conditions\n- 🎟️ Book online in advance — responsible operators have limited capacity\n- 🐋 Pilot whale sightings run at 95%+ on any month of the year\n- 🌊 If prone to seasickness, choose a large catamaran rather than a rigid inflatable\n- 🤿 Snorkel tours include equipment — just bring swimwear and a towel\n\n### Recommendation\nChoose operators certified by the Whale Watching Tenerife programme — they observe codes of conduct and do not chase or encircle the animals.",
-      "island": "tenerife",
-      "category": "other",
-      "coordinates": {
-        "lat": 28.2441,
-        "lng": -16.8399
-      },
-      "images": {
-        "hero": "/images/tenerife/actividades/cetaceos/hero.avif",
-        "gallery": [
-          "/images/tenerife/actividades/cetaceos/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "whales",
-        "dolphins",
-        "cetaceans",
-        "boat",
-        "los-gigantes",
-        "marine"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "easy",
-      "emoji": "🐋",
-      "top": true,
-      "municipio": "santiago-del-teide",
-      "mapsUrl": "https://maps.app.goo.gl/K3xB6TqL7vN9pZjA8"
-    },
-    {
       "slug": "gastronomia-tenerife",
       "name": "Canarian Cuisine in Tenerife",
       "shortDescription": "Papas arrugadas, mojo, gofio and the Atlantic's finest wines: the island's food guide",
@@ -1753,6 +1684,651 @@
       "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/ghuneh9kiVfUhRMGA"
+    },
+    {
+      "slug": "avistamiento-cetaceos-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0499,
+        "lng": -16.7197
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/avistamiento-cetaceos-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1.5h",
+      "difficulty": "easy",
+      "emoji": "🐋",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "392740",
+      "gygUrl": "https://gyg.me/1VxRRnjX",
+      "mapsUrl": "https://maps.google.com/?q=@28.049941402745148,-16.719681655594805",
+      "name": "Whale & Dolphin Watching on Eco Yacht",
+      "shortDescription": "The only yacht in Tenerife purpose-built for ethical whale and dolphin watching, with a swimming stop at the Cueva del Amor",
+      "description": "One of Tenerife's most highly rated experiences: watching **whales and dolphins aboard the Travelin' Lady**, the only boat on the island purpose-built for this activity — not an adapted vessel, but a luxury eco-yacht designed from the keel up for ethical cetacean watching off **Los Cristianos**.\n\n### The experience\nThe tour follows the south Tenerife coast in search of the cetaceans that inhabit these waters **year-round**: pilot whales, common dolphins, striped dolphins and even sea turtles. The approach is fully ethical — no chasing animals, no disrupting their behaviour — which leads to more natural, authentic sightings.\n\nThe captain and on-board specialist guide share fascinating information about marine life and the Canarian ecosystem as you sail past the volcanic landscapes of southern Tenerife. The crew also collects plastic waste from the sea during the trip.\n\nThe route includes a stop at the **Cueva del Amor**, an area of crystal-clear water where, weather permitting, you can take a swim in the open Atlantic. Snorkelling equipment is available to hire on board.\n\n### Why this boat\n- 🌊 The only yacht in Tenerife purpose-designed for cetacean watching\n- ♻️ Environmental certification and ultra-low-emission engines\n- 🎯 Low centre of gravity — far less seasickness than on conventional boats\n- 🐋 **4.7/5** with over 17,000 verified reviews on GetYourGuide\n- 🏊 Swimming stop at the Cueva del Amor included\n\n### Before you go\n- 📍 Meeting point: **Fisherman's Wharf, Zone A** (Los Cristianos Harbour). Follow the blue line painted on the ground\n- ⏰ Arrive **30 minutes before** departure — boarding closes 10 minutes prior\n- 🧴 Bring swimwear, a towel and sunscreen\n- ❌ Not suitable for wheelchair users\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nPilot whales are permanent residents in the waters between Tenerife and La Gomera — one of very few places in the world where this is the case. What sets the Travelin' Lady apart is quality: expert guides, silent boat, genuine ethics. **Book well ahead in summer** — spaces fill up fast.",
+      "tags": [
+        "whales",
+        "dolphins",
+        "cetaceans",
+        "yacht",
+        "los-cristianos",
+        "eco",
+        "snorkelling",
+        "south"
+      ]
+    },
+    {
+      "slug": "kayak-safari-vida-marina-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0494,
+        "lng": -16.7137
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/kayak-safari-vida-marina-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "3h",
+      "difficulty": "easy",
+      "emoji": "🦭",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "109501",
+      "gygUrl": "https://gyg.me/RasRCGEe",
+      "mapsUrl": "https://maps.google.com/?q=@28.04935519999999,-16.7137002",
+      "name": "Kayak Safari with Marine Wildlife",
+      "shortDescription": "Small-group eco kayak safari to spot dolphins and turtles up close, with a snorkel stop in a hidden cove only reachable by sea",
+      "description": "One of the most original activities in south Tenerife: an **eco kayak safari** along the volcanic coast of Los Cristianos in search of dolphins and sea turtles — no engine noise, no disturbance, no chasing animals. Xplore Tenerife has been perfecting this route for years, with up to a **90% wildlife encounter rate**.\n\n### The experience\nYou set off in small groups from Playa de Los Cristianos, hugging a volcanic cliff coastline only reachable by sea. Bottlenose dolphins, common dolphins, and loggerhead sea turtles travel these waters regularly. Because you're in a kayak — quiet and low-impact — animals behave naturally and encounters feel genuinely wild.\n\nThe route includes a **stop at a secret cove** only accessible from the sea for swimming and snorkelling. Underwater you may spot trumpetfish, parrotfish, bream, wrasse, damselfish and rays resting on the sandy bottom. After the tour, your guide sends you the **photos and videos from the day** via WhatsApp at no extra cost.\n\n### What's included\n- 🛶 Stable kayaks with back support — no previous experience needed\n- 🤿 Full snorkelling equipment\n- 🧥 Wetsuit included\n- 💧 Water during the route\n- 🔒 Lockers for your belongings\n- 📸 Photos and videos sent the same day via WhatsApp\n- 🛡️ Accident insurance\n\n### Before you go\n- 📍 Meeting point: **Xplore Tenerife, Cristianmar building** (ground floor, left side facing the sea) — search 'Xplore Tenerife' on Google Maps\n- 🏊 You must be able to swim to take part\n- ⚖️ Weight limit: 100 kg per person\n- 👶 Minimum age: 14 years (under-18s must be with an adult)\n- 🤰 Not suitable for pregnant women or people with back problems\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nRated **4.7/5** with over 10,000 verified reviews on GetYourGuide. Guides Jackson, Ascary, Max, Lucía, and Milán receive a personal mention in almost every single review for their professionalism and infectious enthusiasm. **One of the best value activities in south Tenerife**: nature, sport, snorkelling and memories all packed into 3 hours.",
+      "tags": [
+        "kayak",
+        "dolphins",
+        "turtles",
+        "snorkelling",
+        "los-cristianos",
+        "eco",
+        "marine-life",
+        "south"
+      ]
+    },
+    {
+      "slug": "siam-park-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0778,
+        "lng": -16.7178
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/siam-park-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "Día completo",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "407436",
+      "gygUrl": "https://gyg.me/MHx9cXJm",
+      "mapsUrl": "https://maps.google.com/?q=@28.0778,-16.7178",
+      "name": "Siam Park",
+      "shortDescription": "TripAdvisor's number one water park in the world: 3-metre wave, Tower of Power and Thai atmosphere in Costa Adeje",
+      "description": "The world's most awarded water park has been named **number one on the planet** by TripAdvisor Travellers' Choice for over a decade. Located in Costa Adeje, it is the most popular leisure experience in all of south Tenerife — and something far beyond a conventional water park.\n\n### The visit\nThe star attraction is the **3-metre artificial wave** — the largest in Europe — perfect for surfing and floating alike. The **Tower of Power** sends you on a near-vertical 28-metre drop through a shark aquarium. The **Dragon** and the **Mai Thai River** round out the offer for thrill-seekers and families. The park's architecture — golden pagodas, tropical gardens, and canals winding throughout the grounds — creates an atmosphere unlike any water park you've visited before.\n\n### Not to miss\n- 🌊 **3m artificial wave** — largest in Europe, perfect for surfing and floating\n- 🐊 **Tower of Power** — 28m drop through a live shark aquarium\n- 🐉 **Dragon** — high-speed slide for adrenaline lovers\n- 🌿 **Mai Thai River** — tropical lazy river for families and relaxation\n- 🏖️ **White sand beach** — with sunbeds and an almost Caribbean atmosphere\n\n### Before you go\n- 🎟️ Buy tickets online — up to 20% cheaper than at the gate and no queues\n- ⏰ Arrive at opening (10am) — the surf wave fills up within the first 30 minutes\n- 🅿️ Free parking included — direct access from the TF-1 motorway, exit 28\n- 🧴 Bring waterproof sunscreen and a dry change of clothes\n- 👧 Great for families: slides for every age and thrill level\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nWeekdays mean shorter queues at the surf wave. In peak season (July–August), arriving at 10am and heading straight to Tower of Power makes all the difference. Plan it as a **full day** — this is not a park you can see in two hours.",
+      "tags": [
+        "water-park",
+        "wave",
+        "family",
+        "adrenaline",
+        "costa-adeje",
+        "south",
+        "leisure",
+        "slides"
+      ]
+    },
+    {
+      "slug": "cetaceos-vision-submarina-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0452,
+        "lng": -16.7155
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/cetaceos-vision-submarina-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1.5-2h",
+      "difficulty": "easy",
+      "emoji": "🐬",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "406165",
+      "gygUrl": "https://gyg.me/sTauapcI",
+      "mapsUrl": "https://maps.google.com/?q=@28.0452,-16.7155",
+      "name": "Cetaceans: Submarine Vision",
+      "shortDescription": "Tenerife's most reviewed No-Chase tour: 14,000+ reviews, glass-floor catamaran and certified guides from Los Cristianos",
+      "description": "Tenerife's most respected cetacean watching tour, with over **14,000 verified reviews** and a No-Chase policy that sets it apart from the rest. Departing from Los Cristianos harbour, the Vision catamaran crosses the southern waters to encounter pilot whales, dolphins, and occasionally sea turtles — always on their own terms.\n\n### The experience\nWhat makes this tour unique is the combination of **underwater vision** and **genuine respect philosophy**. The catamaran features a glass floor allowing you to watch cetaceans beneath the surface — swimming, communicating, simply being themselves. Government-certified guides explain the behaviour of each species in English, Spanish, French and German. Duration is 1.5 to 2 hours: exactly enough for an authentic experience without exhausting the group.\n\n### Why this tour and not another\n- 🚫 **Guaranteed No-Chase** — they never chase, intercept or surround the animals\n- 🔭 **Exclusive glass floor** — unique underwater viewing in Tenerife\n- 🐬 **Resident pilot whales and dolphins** — one of Europe's highest sighting rates\n- 🌊 **Spacious, stable catamaran** — ideal for those prone to seasickness\n- 🌍 **Real conservation** — partners with Captain Paul Watson Foundation and Neptune's Pirates UK\n- ⭐ **4.6/5 with 14,000+ reviews** — one of the island's most highly rated activities\n\n### Before you go\n- 🎟️ Buy online — reduced price vs gate, no queues at the port\n- ⏰ Arrive 20 min before departure — the boat won't wait\n- 🧴 Sunscreen and sunglasses are essential\n- 👶 Family and child-friendly — guides adapt their explanations\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nTropical pilot whales are present year-round in south Tenerife, making this tour viable any month. If you're going with children, ask the guide to explain the difference between the different dolphin species — it turns the experience from \"watching animals\" into something genuinely educational.",
+      "tags": [
+        "cetaceans",
+        "whales",
+        "dolphins",
+        "no-chase",
+        "ecological",
+        "los-cristianos",
+        "arona",
+        "south",
+        "conservation"
+      ]
+    },
+    {
+      "slug": "loro-parque-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.4095,
+        "lng": -16.554
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/loro-parque-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "Día completo",
+      "difficulty": "easy",
+      "emoji": "🦜",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "puerto-de-la-cruz",
+      "gygTourId": "407432",
+      "gygUrl": "https://gyg.me/YTiEAc6Q",
+      "mapsUrl": "https://maps.google.com/?q=@28.4095,-16.5540",
+      "name": "Loro Parque",
+      "shortDescription": "Europe's most respected zoo: orcas, dolphins, the world's largest parrot collection and Thai architecture in Puerto de la Cruz",
+      "description": "One of the world's most respected zoos, with **4.8/5 based on over 13,000 verified reviews** and the first park on the planet to receive the Animal Embassy environmental certification. Loro Parque, in Puerto de la Cruz, is much more than a zoo: it's a full day among Thai architecture, exotic tropical vegetation, and animal encounters you'll struggle to forget.\n\n### The visit\nFour world-class shows structure the day: **Orca Ocean** — the most impressive orca show in Europe —, the dolphin show, sea lion show, and the parrot show, designed to convey the value of tropical forest conservation. Animal enclosures include Antarctic penguins, gorillas, tigers, caimans, and the world's largest collection of parrots. For families with young children, **Kinderlandia** is an interactive African village with treehouses, slides, and rope bridges.\n\n### Why it's worth it\n- 🦁 **700+ species** — one of the most diverse collections in Europe\n- 🐋 **Orca Ocean** — the continent's most impressive orca show\n- 🦜 **Record parrot collection** — certified by the Guinness Book\n- 🌴 **Thai architecture** — tropical gardens that turn a walk into a journey\n- 👧 **Kinderlandia** — interactive zone for children with adventure attractions\n- 🎢 **Orca Roller Coaster** — family rollercoaster for all ages\n- ⭐ **4.8/5 with 13,000+ reviews** — one of the highest-rated attractions in the Canaries\n\n### Before you go\n- 🎟️ Buy online — lower price than at the gate, no queues\n- 📅 Check show times on arrival — venues fill up fast\n- 🅿️ Parking included in some ticket options\n- 🍽️ Lunch at Brunelli's Steakhouse available when booking\n- 🔄 Free cancellation up to 24 hours in advance\n- ⏰ Open year-round — plan at least 5-6 hours to see it at a comfortable pace\n\n### Recommendation\nArrive before 10am and head straight to Orca Ocean to get a good seat. If you have young children, Kinderlandia is better in the afternoon when the heat drops. A combined ticket with Siam Park is available and excellent value if you're planning to visit both.",
+      "tags": [
+        "loro-parque",
+        "zoo",
+        "orcas",
+        "dolphins",
+        "parrots",
+        "family",
+        "puerto-de-la-cruz",
+        "north",
+        "kinderlandia"
+      ]
+    },
+    {
+      "slug": "loro-parque-siam-park-combo-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.4095,
+        "lng": -16.554
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/loro-parque-siam-park-combo-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2 días",
+      "difficulty": "easy",
+      "emoji": "🎡",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "puerto-de-la-cruz",
+      "gygTourId": "407438",
+      "gygUrl": "https://gyg.me/qjXKn3Ex",
+      "mapsUrl": "https://maps.google.com/?q=@28.4095,-16.5540",
+      "name": "Combo Loro Parque + Siam Park",
+      "shortDescription": "Tenerife's smartest ticket: 2 entries, 2 parks, 14 days validity — Loro Parque and Siam Park in one payment",
+      "description": "The smartest way to combine Tenerife's two biggest attractions in a single ticket. The combo includes **1 entry to Loro Parque** (north) and **1 entry to Siam Park** (south), with **14 days validity** from first use — so you can visit them on separate days at your own pace.\n\n### What's included\nOne purchase gives you access to two completely different experiences that together represent the best leisure on the island:\n\n**🦜 Loro Parque — Puerto de la Cruz**\nThe world's most respected zoo according to thousands of travellers. A full day among orcas, dolphins, gorillas, Antarctic penguins and the planet's largest parrot collection. The Orca Ocean show is breathtaking. Kinderlandia for the little ones. Thai architecture surrounded by tropical vegetation.\n\n**🌊 Siam Park — Costa Adeje**\nTripAdvisor's number one water park in the world. 3-metre artificial wave, Tower of Power (28m drop through a shark aquarium), tropical river and Thai atmosphere. A full day of adrenaline and relaxation.\n\n### Why the combo instead of separate tickets\n- 💰 **Significantly lower price** than buying each ticket individually\n- 📅 **14 days validity** — complete flexibility to plan your days\n- 🎫 **Skip the queue** — direct entry at both parks\n- 🚌 **Free transport** available to both parks\n- ⭐ **4.8/5 with 7,600+ combined reviews** — the island's most highly rated package\n\n### Before you go\n- 🎟️ Buy online — lower price, no queues\n- 👆 At the first park you'll leave your fingerprint for verification — keep your ticket safe for the second park\n- 🧴 For Siam Park: bring waterproof sunscreen and water shoes\n- 🦁 For Loro Parque: arrive at 10am and head straight to Orca Ocean\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nMost travellers go to Siam Park first (south, closer to southern hotels) and Loro Parque the next day. If you're based in the north, reverse the order. The wristband you get at the first park is needed for the second — don't lose it.",
+      "tags": [
+        "loro-parque",
+        "siam-park",
+        "combo",
+        "parks",
+        "family",
+        "orcas",
+        "wave",
+        "tenerife",
+        "leisure"
+      ]
+    },
+    {
+      "slug": "moto-acuatica-quad-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0175,
+        "lng": -16.6873
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/moto-acuatica-quad-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1-4h",
+      "difficulty": "moderate",
+      "emoji": "🚤",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "317607",
+      "gygUrl": "https://gyg.me/JduQ4fA0",
+      "mapsUrl": "https://maps.google.com/?q=@28.0175,-16.6873",
+      "name": "Jet Ski & Quad in Tenerife",
+      "shortDescription": "Adrenaline in the south: jet ski along the volcanic coast from Puerto de San Miguel and optional quad through Teide — groups of 8 maximum",
+      "description": "Pure adrenaline in south Tenerife: jet ski along the island's most spectacular volcanic coastline, with the option to extend the adventure with a quad safari through Teide National Park. Groups of maximum 8 people, bilingual guides and departure from Puerto de San Miguel.\n\n### The options\nYou can choose jet ski only (1h or 2h) or the **jet ski + quad combo** for a full day of adventure:\n\n**🚤 Jet ski — Puerto de San Miguel**\nThe route follows the south coast past **Montaña Amarilla**, Costa del Silencio, Las Galletas and **Montaña Roja** — unique volcanic formations seen from the sea. The 2-hour option includes a stop for swimming and snorkelling in crystal-clear waters. No previous experience or driving licence required: the guide teaches you everything on land before setting off.\n\n**🏍️ Quad — Teide National Park (departure from Chío)**\nA 3-hour quad safari through Tenerife's interior with views of Teide, passing through Zapatilla de la Reina, the Chío pine forest and a stop at Pico Viejo for photos of the island's most spectacular geological formations. Sandwiches included. Physical driving licence required (photos not accepted).\n\n### Why book here\n- 🌊 **Unique volcanic coastline** — Montaña Amarilla, Montaña Roja, Los Ajaches seen from the water\n- 🐬 **Frequent sightings** — dolphins, turtles and whales along the route\n- 📸 **Photos and videos on board** — the guide takes them during the tour (optional, reasonable price)\n- 👥 **Small group (max 8)** — personalised attention, no overcrowding\n- 🔄 **Flexible cancellation** — if weather is bad they'll change your day at no cost\n- ⭐ **4.6/5 with 2,900+ reviews** — team's personal touch consistently highlighted\n\n### Before you go\n- 💶 Bring 50 € in **cash** for the jet ski deposit (returned at the end)\n- 🪪 ID or passport required; for quad, physical driving licence\n- 👟 For the quad: closed-toe shoes essential\n- 🎂 Jet ski driver: minimum 16 years. Passenger: minimum 8 years\n- 🕐 Arrive 30 minutes before your booking time\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nThe combo (1h jet ski + 3h quad) is the perfect full-day plan for those seeking adrenaline on land and sea. For couples or friend groups, the 2h jet ski with the snorkel stop is the most popular option. Don't bring your phone on the jet ski — it's not allowed and the seawater won't spare it.",
+      "tags": [
+        "jet-ski",
+        "quad",
+        "adventure",
+        "coast",
+        "south",
+        "arona",
+        "san-miguel",
+        "adrenaline",
+        "watersport"
+      ]
+    },
+    {
+      "slug": "quad-teide-atardecer-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0977,
+        "lng": -16.6463
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/quad-teide-atardecer-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2-3h",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "392679",
+      "gygUrl": "https://gyg.me/s53BS9J5",
+      "mapsUrl": "https://maps.google.com/?q=@28.0977,-16.6463",
+      "name": "Quad Tour to Teide",
+      "shortDescription": "Ride up to Teide National Park by quad to 2,100 m, above the clouds — day or sunset tour from Arona",
+      "description": "One of Tenerife's most spectacular experiences: riding up to Teide National Park on a quad, above the clouds, to 2,100 metres altitude. Departing from Arona in the south, with two options — day tour or sunset tour — and views you won't find on any bus excursion.\n\n### The route\nApproximately 70 km entirely on paved road at a maximum speed of 45 km/h. The itinerary climbs from Arona through the **Corona Forestal** — one of the island's densest Canarian pine forests — to **Vilaflor**, the highest village in Spain (1,400 m) and home of the legendary **Pino Gordo**, a centuries-old Canarian pine. From there, the route continues to **Boca Tauce**, with its volcanic formations from Pico Viejo, before reaching the **panoramic viewpoint at 2,100 m** with views of the Atlantic Ocean in every direction.\n\n### Day tour vs. sunset tour\n- ☀️ **Day tour** — full panoramic experience, more time for stops and photos at each point\n- 🌅 **Sunset tour** — the last rays of sun turn Teide and the sea orange and red; the return to Arona is made at night, with the lights of south Tenerife below\n\n### What will surprise you\n- 🌥️ **Above the clouds** — the sea of clouds from 2,100 m is unreal\n- 🌲 **Vilaflor and the Pino Gordo** — Spain's highest village, with a centuries-old pine declared a natural monument\n- 🏔️ **Boca Tauce** — black volcanic formations of Pico Viejo up close\n- 🔭 **360° Atlantic views** — on clear days you can see Gran Canaria and La Gomera\n- 📸 **Photos during the tour** — the guide takes them at the best spots (€20 optional)\n- 🏍️ **Single or double quad** — driver changeover included at no extra cost\n\n### Before you go\n- 🪪 **Physical driving licence mandatory** — photos, provisional licences and licences under 1 year old not accepted\n- 🧥 **Bring a jacket** — at 2,100 m temperatures drop significantly, even in summer\n- 👟 Closed-toe shoes essential (jackets and shoes can be rented there)\n- 💶 Budget €30 optional for the \"Zero Worries\" quad damage cover\n- 🎂 Minimum 18 years to drive. Passenger minimum 6 years and 120 cm\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nThe sunset tour is the favourite for couples. If you're going with family and children, the day tour allows more stops and better light for photos. Bring warm clothing even if it's sunny in Arona: the temperature difference between the south coast and 2,100 m is more than 10°C.",
+      "tags": [
+        "quad",
+        "teide",
+        "adventure",
+        "sunset",
+        "arona",
+        "south",
+        "vilaflor",
+        "volcano",
+        "pine-forest"
+      ]
+    },
+    {
+      "slug": "clases-surf-playa-americas-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.057,
+        "lng": -16.7165
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/clases-surf-playa-americas-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2h",
+      "difficulty": "easy",
+      "emoji": "🏄",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "407915",
+      "gygUrl": "https://gyg.me/1Ae05WZy",
+      "mapsUrl": "https://maps.google.com/?q=@28.0570,-16.7165",
+      "name": "Surf Lessons at Playa de las Américas",
+      "shortDescription": "Tenerife's highest-rated surf school: 4.9★, groups of 6, photos included and certified instructors at Playa de las Américas",
+      "description": "Tenerife's best-rated surf lessons: **4.9/5 with over 1,400 verified reviews**. Shaka Surf school, just 30 metres from the water at Playa de las Américas, offers 2-hour classes for all levels in groups of maximum 6 people. All equipment included and day photos to take home.\n\n### The class\nThe session starts on land: 20 minutes of theory where the instructor teaches you how to pop up on the board, paddle correctly and position yourself to catch the wave. Then warm-up and into the water. The monitor is with you throughout, adjusting technique and guiding you on each attempt. Playa de las Américas has stable learning conditions practically year-round thanks to the consistent Atlantic swell.\n\n### Why this school\n- ⭐ **4.9/5 with 1,400+ reviews** — Tenerife's most highly rated surf school\n- 📸 **Photos included in the price** — a souvenir of every wave\n- 👥 **Maximum 6 students per class** — real individual attention\n- 🏄 **All levels** — from complete beginner to advanced\n- 🤿 **Everything included** — board, wetsuit, water shoes, lycra and shower\n- 🌍 **Multilingual instructors** — Spanish, English, German, French, Italian and more\n\n### Before you go\n- 🩱 Just bring swimwear and a towel — they provide everything else\n- ⏰ Arrive 15 min early at Shaka Surf Tenerife school\n- 📱 Contact by WhatsApp to confirm the exact meeting point\n- 🔄 Free cancellation up to 24 hours in advance\n- 🚫 Not suitable for pregnant women or non-swimmers\n\n### Recommendation\nPerfect for couples, families and groups. 90% of Spanish-speaking travellers give it a perfect score. If you're going with children, the instructor adapts the pace — several reviews mention this specifically. No previous experience needed: in 2 hours, most people manage to stand on the board.",
+      "tags": [
+        "surf",
+        "lessons",
+        "playa-americas",
+        "arona",
+        "south",
+        "family",
+        "beginners",
+        "ocean",
+        "sport"
+      ]
+    },
+    {
+      "slug": "atardecer-estrellas-teide-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1226,
+        "lng": -16.7264
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/atardecer-estrellas-teide-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "3-5h",
+      "difficulty": "easy",
+      "emoji": "🔭",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "417569",
+      "gygUrl": "https://gyg.me/8cpuA9H2",
+      "mapsUrl": "https://maps.google.com/?q=@28.1226,-16.7264",
+      "name": "Sunset & Stargazing at Teide",
+      "shortDescription": "Tenerife's most reviewed astronomy tour: 4.7★, sunset above the clouds, cava and 12\" Dobson telescope with Starlight-certified guides",
+      "description": "One of the most extraordinary evenings you can experience in Tenerife: first the sunset above the clouds with views of La Gomera, La Palma and El Hierro, then the most star-filled sky in Europe over Teide National Park. **4.7/5 with over 3,200 reviews** and Starlight-certified guides.\n\n### The experience\nThe excursion lasts 3 to 5 hours and combines two unique moments:\n\n**🌅 The sunset (1,400 m)**\nFrom a volcanic viewpoint — beside the lava flow that Christopher Columbus noted in his navigation journal in 1492 — you watch the sun set over the western islands. Guides hand out a glass of cava to celebrate. The colour spectacle changes with every sunset.\n\n**🌌 Stargazing**\nAfter sunset the group moves to another viewpoint. Starlight-certified guides explain constellations, planets and Greek mythology with a laser pointer and the 12-inch Dobson telescope — one of the most powerful available on tourist tours. Depending on the time of year you can see Saturn with its rings, Jupiter's moons, galaxies, nebulae or the Pleiades. The tour ends with a **professional astrophotography photo of each participant** under the blanket of stars — included in the price.\n\n### Why this tour\n- ⭐ **4.7/5 with 3,200+ reviews** — the island's most reviewed stargazing tour\n- 🔭 **12\" Dobson telescope** — more telescope time than any competitor\n- 🌌 **Starlight-certified guides** — official astrotourism training\n- 📸 **Astrophotography photo included** — a unique memento impossible to take with your phone\n- 🥂 **Glass of cava included** at the sunset viewpoint\n- 🚐 **Hotel pickup available** (VIP option, south coast)\n\n### Before you go\n- 🧥 **Wrap up warm** — at 1,400 m temperatures drop significantly even in summer\n- 📱 Exact meeting point and time arrive by WhatsApp on the day — keep your number active\n- 🚗 Self-drive option requires a hire car (no taxi or public transport)\n- 🌍 Tour is **in English**\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nChoose a new moon or crescent night to see more stars — with a full moon its brightness competes with fainter stars. The VIP pickup option is most convenient if you're based in the south. Bring a jacket even if it's warm on the coast: the temperature drop between Adeje and the viewpoint is more than 10°C.",
+      "tags": [
+        "stars",
+        "teide",
+        "sunset",
+        "astronomy",
+        "telescope",
+        "adeje",
+        "south",
+        "night",
+        "starlight"
+      ]
+    },
+    {
+      "slug": "excursion-teide-masca-icod-garachico",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.2272,
+        "lng": -16.6
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/excursion-teide-masca-icod-garachico.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "9h",
+      "difficulty": "easy",
+      "emoji": "🚌",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "gygTourId": "217542",
+      "gygUrl": "https://gyg.me/W7D7KZm9",
+      "mapsUrl": "https://maps.google.com/?q=@28.2272,-16.6000",
+      "name": "Day Trip: Teide, Masca, Icod & Garachico",
+      "shortDescription": "The great north Tenerife tour: Teide, Masca, Dragon Tree and Garachico's lava pools in one day, with hotel pickup",
+      "description": "The most complete excursion to discover north Tenerife in a single day: **4.6/5 with over 2,500 reviews**, hotel pickup included and multilingual guide throughout the 9-hour route. Four unique destinations, one bus.\n\n### The route\n**🌋 Teide National Park — Los Roques de García**\nFirst stop: the famous volcanic rock formations of Los Roques de García, in the heart of the National Park. The guide contextualises the geology and natural history of Teide with direct views of Spain's highest volcano.\n\n**🌳 Icod de los Vinos — The Millennium Dragon Tree**\nThe most famous tree in the Canary Islands: a dragon tree over a thousand years old, declared a natural monument. The historic centre of Icod, with traditional Canarian architecture, completes the visit.\n\n**🌊 Garachico — Lava pools**\nOne of Tenerife's most beautiful towns, partially destroyed by a volcanic eruption in 1706. The lava flows created natural pools in the rock that today are one of the island's most unusual bathing spots.\n\n**🏔️ Masca — The village of impossible bends**\nAccess via a legendary mountain road that drivers navigate with surgical precision. The gorge and valley of Masca are, for many travellers, the most impressive sight on the entire route.\n\n### Why book this tour\n- 🚌 **Hotel pickup** — no need to worry about how to get there\n- 🎤 **Official multilingual guide** — Spanish, English and German\n- 📍 **4 destinations in 1 day** — impossible to cover by car without knowing the roads\n- ⭐ **4.6/5 with 2,500+ reviews** — team quality and route consistently praised\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Before you go\n- 👟 Comfortable closed-toe shoes — no sandals or flip-flops\n- 🧥 Bring a jacket — Teide and Masca are much colder than the coast\n- 📸 Camera — the landscapes of Masca and Teide justify the storage space\n- ⏱️ Time at each stop is limited — prioritise what interests you most on arrival\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nFor many travellers, **Masca ends up being the favourite stop**, even above Teide itself. The access road is already part of the experience. If you have mobility limitations, check before booking: the tour is not recommended for people with mobility issues.",
+      "tags": [
+        "excursion",
+        "teide",
+        "masca",
+        "icod",
+        "garachico",
+        "north",
+        "vilaflor",
+        "tour",
+        "bus"
+      ]
+    },
+    {
+      "slug": "tour-teide-teleferico-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.2693,
+        "lng": -16.6424
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/tour-teide-teleferico-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "7h",
+      "difficulty": "moderate",
+      "emoji": "🚠",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "gygTourId": "351351",
+      "gygUrl": "https://gyg.me/d9b4VnjR",
+      "mapsUrl": "https://maps.google.com/?q=@28.2693,-16.6424",
+      "name": "Teide Cable Car Tour with Transfer",
+      "shortDescription": "Ride the cable car to Spain's highest peak at 3,555m with hotel pickup — the most comfortable way to reach the top of Teide",
+      "description": "Ride the Teide cable car to **3,555 metres altitude** — the highest peak in Spain — with hotel pickup from both north and south of the island. **4.3/5 with over 5,500 reviews** and an official guide throughout. A 7-hour excursion to experience the highest point in the Atlantic.\n\n### The experience\nAfter hotel pickup, the bus crosses the National Park with viewpoint stops before reaching the cable car base station. The cabin ride takes 8 minutes and climbs from 2,356 m to 3,555 m — a temperature difference of more than 10°C in less than a vertical kilometre. At the upper station there is free time to explore three marked hiking trails, the Pico Viejo viewpoint, the La Fortaleza viewpoint and the Telesforo Bravo trail. Free entry to the \"Science and Legend\" exhibition on Teide's geology and Guanche mythology.\n\n### What's included\n- 🚠 **Return cable car ticket** — included in the price\n- 🚌 **Hotel pickup and drop-off** — from north and south of the island\n- 🎤 **Official guide** — Spanish, English, German, French, Italian, Dutch\n- 🎧 **Teide Legend digital audio guide** for summit trails\n- 🏛️ **Free exhibition entry** \"Science and Legend\"\n\n### Important before booking\n- 💨 **Strong winds can close the cable car** — the tour runs anyway and only the cable car price is refunded (not the full tour). Check the forecast beforehand\n- 👟 **Mountain footwear mandatory** — no sandals, flip-flops, heels or beach shoes allowed\n- 🏥 Not suitable for pregnant women, people with heart or respiratory conditions, or under 3 years old\n- 🧥 **Warm clothing essential** — at 3,555m it's cold even in August\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nThe view from 3,555 m on a clear day is extraordinary: you can see all the islands in the archipelago. To maximise cable car uptime, choose days with light winds and book midweek in peak season to avoid queues. If you want to reach the crater summit (3,718 m) you need an additional special permit — this tour does not go that far.",
+      "tags": [
+        "teide",
+        "cable-car",
+        "summit",
+        "volcano",
+        "vilaflor",
+        "excursion",
+        "bus",
+        "altitude",
+        "3555m"
+      ]
+    },
+    {
+      "slug": "platanera-ecologica-la-orotava-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.3888,
+        "lng": -16.5224
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/platanera-ecologica-la-orotava-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "50min",
+      "difficulty": "easy",
+      "emoji": "🍌",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "puerto-de-la-cruz",
+      "gygTourId": "450055",
+      "gygUrl": "https://gyg.me/S56wc4Sq",
+      "mapsUrl": "https://maps.google.com/?q=@28.3888,-16.5224",
+      "name": "Organic Banana Plantation in La Orotava",
+      "shortDescription": "Tour through organic banana groves in La Orotava with Canarian banana tasting and banana liqueur shot — 4.7★, accessible and family-friendly",
+      "description": "An authentic experience in north Tenerife: walking through the rows of an organic banana plantation in La Orotava and understanding why the **Canarian banana is unlike any other in the world**. 50 minutes, expert guide, tasting included and a banana liqueur shot at the end. **4.7/5 with nearly 1,000 reviews**.\n\n### The visit\nBananaECOplantation produces over **150,000 kg of bananas per year** with a system that is 95% self-sufficient — no pesticides, no artificial fertilisers. The guide explains how aromatic plants, cereals and the natural biodiversity of the land make clean production possible on the slopes of Teide.\n\nThe visit walks through the banana grove while the guide explains the complete plant cycle: from the first shoot to a ripening bunch, including the selection and distribution system that allows export across Europe. At the end, **tasting of fresh bananas grown on the farm** and a shot of the artisan liqueur they produce from their own fruit.\n\n### Why it's worth it\n- 🌿 **Real organic farming** — 95% self-sufficient, no pesticides or fertilisers\n- 🍌 **Real Canarian banana** — flavour completely different from imported varieties\n- 🥃 **Artisan banana liqueur** — made on the farm\n- 🎤 **Passionate guides** — several reviews mention Miguel and Iván by name\n- ♿ **Wheelchair accessible** — most of the route is accessible\n- 👨‍👩‍👧 **Family-friendly** — children enjoy the visit too\n- ⭐ **4.7/5 with guide rated 4.9/5** — near-perfect guide score\n\n### Before you go\n- 📍 Meeting point: Carretera de El Rincón, La Orotava (go directly to the plantation)\n- 🔞 Liqueur tasting requires legal drinking age — minors can substitute juice\n- ♿ Only some areas accessible — companion recommended for wheelchair users\n- 🕐 Duration: approximately 50 minutes\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nPerfect as a complementary activity when visiting north Tenerife: combine it with the Botanical Garden in Puerto de la Cruz or La Orotava's historic centre, a few minutes away. For anyone interested in sustainable farming or Canarian local produce, this is a must.",
+      "tags": [
+        "plantation",
+        "organic",
+        "la-orotava",
+        "north",
+        "tasting",
+        "family",
+        "accessible",
+        "canarian-banana",
+        "liqueur"
+      ]
+    },
+    {
+      "slug": "submarino-tenerife-sur",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0119,
+        "lng": -16.6514
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/submarino-tenerife-sur.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🤿",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "3669",
+      "gygUrl": "https://gyg.me/jBrepwQ2",
+      "mapsUrl": "https://maps.google.com/?q=@28.0119,-16.6514",
+      "name": "Submarine in South Tenerife",
+      "shortDescription": "Descend 30 metres beneath the Atlantic in a real submarine: rays, barracudas and parrotfish through 22 panoramic windows at Amarilla Marina",
+      "description": "One of south Tenerife's most original experiences and the only chance to reach the Atlantic seabed without knowing how to dive. The **Sub Fun Cinco** submarine descends to **30 metres depth** in the waters of Amarilla Marina, with 44 seats and 22 panoramic windows so nobody misses a single image. **4.8/5 with over 2,300 reviews**.\n\n### The dive\nThe excursion starts at Amarilla harbour, at the southern tip of the island. Once aboard the yellow submarine, the descent takes a few minutes before settling on the seabed at 30 metres depth. From there, the company's professional divers submerge and attract fish directly to the windows — the most memorable moment of the visit.\n\nRegular wildlife includes **rays, barracudas, parrotfish, octopuses and cornetfish**. The audio guide in 15 languages (headphones included) explains the Canarian Atlantic marine ecosystem and the importance of protecting it. At the end of the dive, each participant receives an **official diving certificate** as a souvenir.\n\n### Why it's special\n- 🚢 **Real submarine** — not a semi-submersible, it descends 30m below sea level\n- 🐟 **Divers attract wildlife** — rays, barracudas and shoals of fish right at the window\n- 🎧 **Audio guide in 15 languages** — Spanish, English, German, French, Italian and more\n- 🪪 **Diving certificate included** — a unique memento\n- 🚌 **Free bus transfer** from main hotels in the south\n- 👶 **From 2 years old** — suitable for the whole family\n- ⭐ **4.8/5 with 2,300+ reviews**\n\n### Before you go\n- 📍 Meeting point: Amarilla Marina (south Tenerife) — 30 min before dive\n- 🚌 Free transfer from Playa de las Américas, Los Cristianos, Costa Adeje, Playa Paraíso, Callao Salvaje, Puerto de Santiago and Los Gigantes\n- 🚗 Driving: free parking at the end of the harbour\n- 📱 Confirm pickup details from the email/text the provider sends\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nPerfect for families with children — several reviews describe it as a \"once in a lifetime\" experience for the little ones. The dive itself is 50 minutes, but including the bus transfer and boarding time the full plan takes between 1.5 and 3 hours. Arrive 30 minutes before your dive time at the harbour for check-in.",
+      "tags": [
+        "submarine",
+        "diving",
+        "seabed",
+        "rays",
+        "amarilla-marina",
+        "arona",
+        "south",
+        "family",
+        "atlantic"
+      ]
+    },
+    {
+      "slug": "excursion-la-gomera-desde-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0488,
+        "lng": -16.7187
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/excursion-la-gomera-desde-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "9h",
+      "difficulty": "easy",
+      "emoji": "⛵",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "58006",
+      "gygUrl": "https://gyg.me/UES4XPpq",
+      "mapsUrl": "https://maps.google.com/?q=@28.0488,-16.7187",
+      "name": "Day Trip to La Gomera from Tenerife",
+      "shortDescription": "Full day on La Gomera: ferry from south Tenerife, Garajonay National Park (UNESCO), live silbo gomero demonstration and Canarian lunch included — 4.1★ with 2,100+ reviews",
+      "description": "A full-day excursion to one of the most unspoilt islands in the archipelago. The fast ferry from Los Cristianos takes you to **La Gomera**, where a radically different landscape awaits: vertical ravines, ancient laurel forest, and villages that feel frozen in time. **4.1/5 with over 2,100 reviews**.\n\n### The route\nThe day starts with the fast ferry from south Tenerife to **San Sebastián de La Gomera**, the island's small capital where Christopher Columbus prayed at the Church of La Asunción before sailing for the New World.\n\nFrom there the bus climbs to the **lush Hermigua valley** and continues to the heart of the island: **Garajonay National Park**, a UNESCO World Heritage Site. Here the El Cedro laurel forest wraps the path in vegetation so dense it filters the sunlight and creates an almost mystical atmosphere.\n\nThe centrepiece of the day is a **traditional Canarian lunch** paired with a live performance of **el silbo gomero**, the world's only whistled language, used by La Gomera's shepherds for centuries to communicate across ravines. On the return the bus passes the spectacular volcanic formation of the **Roque de Agando** before heading back to the ferry.\n\n### Why it's worth it\n- 🌿 **Garajonay National Park** — UNESCO World Heritage, millions-year-old laurel forest\n- 🗣️ **Live silbo gomero** — the world's only whistled language, UNESCO Intangible Heritage\n- ⛪ **San Sebastián and the Columbus trail** — the same church where Columbus prayed\n- 🍽️ **Canarian lunch included** — local food in a traditional restaurant\n- 🧭 **Multilingual guide** — Spanish, English, French and German\n- 🚌 **South Tenerife hotel pickup** — transfer included\n- ⭐ **4.1/5 with 2,100+ reviews** — transport rated 4.4/5\n\n### Before you go\n- 📍 Pickup from south Tenerife hotels — confirm your point at booking\n- 🪪 ID or passport required to board the ferry\n- 🧥 Bring a warm layer — Garajonay can be cloudy and cool even in summer\n- 🕐 Total duration: approximately 9 hours\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nIf you can only do one excursion from Tenerife, make it La Gomera. The island is completely different from mass tourism: here life moves at another rhythm. Especially recommended for travellers curious about nature, history, and authentic Canarian culture.",
+      "tags": [
+        "la-gomera",
+        "ferry",
+        "day-trip",
+        "garajonay",
+        "unesco",
+        "silbo",
+        "lunch",
+        "arona",
+        "south",
+        "island"
+      ]
+    },
+    {
+      "slug": "parasailing-costa-adeje-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0868,
+        "lng": -16.7407
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/parasailing-costa-adeje-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "30min",
+      "difficulty": "easy",
+      "emoji": "🪂",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "550159",
+      "gygUrl": "https://gyg.me/pEEQAqeY",
+      "mapsUrl": "https://maps.google.com/?q=@28.0868,-16.7407",
+      "name": "Parasailing in Costa Adeje",
+      "shortDescription": "Fly up to 100 metres above the Atlantic from Puerto Colón with panoramic views over Costa Adeje — AJ Fly Watersports, 4.8★ with 600 reviews",
+      "description": "One of the most spectacular ways to see Tenerife: rising to **100 metres above the sea** suspended from a parasail while the boat arcs past the best beaches on the south coast. No prior experience, no complications — the AJ Fly Watersports crew have everything under control. **4.8/5 with 600 reviews**.\n\n### The experience\nDeparture is from **Puerto Colón** (Pontoon 3), in the heart of Costa Adeje. Once aboard the specialised vessel, the team runs through safety protocols and fits you with a life jacket. Takeoff is gradual and surprisingly smooth — most travellers agree that the first moment of lifting off the water is the most exhilarating part of the whole experience.\n\nIn the air, from heights of up to 100 metres, the views are breathtaking: **Playa de Las Américas, Playa Las Vistas and Playa de Troya** spread out below while the blue Atlantic horizon meets the volcanic profile of south Tenerife. The flight lasts around 10 minutes, with a dry landing back on the boat — no need to swim for the flight itself.\n\nThe crew photographs and films the whole activity, with the option to purchase shots afterwards.\n\n### Why it's special\n- 🌊 **Up to 100m altitude** over the Atlantic Ocean\n- 📍 **Puerto Colón, Costa Adeje** — departs from the south's busiest marina\n- 📸 **Photos and video** available during the activity (purchase option)\n- ⚙️ **Specialised vessel** with on-board launch and landing system\n- 👨‍👩‍👧 **Maximum 10 participants** — small group with personal attention\n- ☀️ **Views of the best southern beaches**: Las Américas, Las Vistas, Troya\n- ⭐ **4.8/5 with 600 reviews** — guide rated 4.9/5\n\n### Before you go\n- 📍 Meeting point: Puerto Colón, Pontoon 3, Costa Adeje — arrive 25 min early\n- 🚫 Not suitable for: children under 3, pregnant women, wheelchair users\n- 🌊 Basic swimming ability recommended (though the flight itself is dry)\n- 👕 Bring sunglasses, biodegradable sunscreen and comfortable clothing\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nPerfect for anyone who wants a dose of adrenaline without committing to a long activity. Just 10 minutes of actual flight, but reviews highlight a fun and warm crew who make the boat ride part of the experience too. Pair it with a swim at Playa de Troya or with the paragliding for a full day in the Tenerife sky.",
+      "tags": [
+        "parasailing",
+        "costa-adeje",
+        "puerto-colon",
+        "adeje",
+        "south",
+        "fly",
+        "adrenaline",
+        "water",
+        "beaches"
+      ]
+    },
+    {
+      "slug": "parapente-campeon-nacional-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1127,
+        "lng": -16.721
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/parapente-campeon-nacional-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2h",
+      "difficulty": "easy",
+      "emoji": "🏆",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "403056",
+      "gygUrl": "https://gyg.me/hcDQ44gM",
+      "mapsUrl": "https://maps.google.com/?q=@28.1127,-16.7210",
+      "name": "Paragliding with World Champion in Tenerife",
+      "shortDescription": "Tandem paragliding over the ravines and coast of Adeje with national and world champion pilots — Sky of Tenerife, 4.9★ with 1,150 reviews",
+      "description": "The highest-rated paragliding experience in Tenerife, and for good reason: the **Sky of Tenerife** team are not just instructors — they are national and world champions, led by **Daniel Crespo, World Champion**. A 15 to 35-minute flight above the ravines and coast of Adeje that travellers from around the world describe as the best experience of their lives. **4.9/5 with 1,150 reviews — 100% of Spanish-speaking travellers gave a perfect score**.\n\n### The flight\nHotel pickup is included in the price. The team collects you by minivan and drives to the launch area in the hills above Adeje. Before the flight, a full briefing on takeoff and landing protocols — nothing to memorise, just listen and enjoy.\n\nEach pilot is matched to their passenger by weight and language — the team speaks Spanish, English, German, French, Italian and Czech. Takeoff is smooth and within seconds you're soaring over **the ravines of Adeje**, with unique views of the coast, the Atlantic Ocean and the outline of Teide in the background.\n\nSome routes fly over spectacular ravines, others pass over the Conde ridge. The flight **always ends on the coast of Adeje**, where as you approach the beach landing zone you have the option to try acrobatics or take the controls yourself.\n\n**5 GoPro photos included** with every flight — plus optional photo and 360° video packs available.\n\n### Why it's the best\n- 🏆 **Champion pilots** — led by Daniel Crespo, World Champion\n- 🌄 **Unique views** — Adeje ravines + coast + Teide from the sky\n- 🎧 **Multilingual** — Spanish, English, German, French, Italian and Czech\n- 📸 **5 GoPro photos included** — plus optional 360° video packs\n- 🚌 **Hotel pickup and dropoff** — 23 hotels across Costa Adeje and surroundings\n- 👧 **Ages 6–70**, max 110 kg\n- 🔒 **Maximum 4 participants** — completely personal attention\n- ⭐ **4.9/5 with 1,150 reviews** — guides rated 5.0/5\n\n### Before you go\n- 📍 Hotel pickup included: 23 hotels in Costa Adeje, Adeje, Las Américas and Los Cristianos\n- 👕 Sports clothing and closed-toe shoes required\n- ⛔ Not suitable for: under 6, pregnant women, over 70, over 110 kg\n- 🕐 Flight: 15–35 minutes. Total time including transfers: ~2 hours\n- 🔄 Free cancellation up to 24 hours in advance\n\n### Recommendation\nIf parasailing is the relaxed option, this paragliding is the complete experience. Flying over the ravines of Adeje with a world champion pilot is unlike anything else in Tenerife. Especially recommended for anyone chasing the best aerial photo of their trip.",
+      "tags": [
+        "paragliding",
+        "champion",
+        "sky-of-tenerife",
+        "adeje",
+        "ravines",
+        "coast",
+        "fly",
+        "tandem",
+        "south",
+        "premium"
+      ]
     }
   ],
   "sections": [

@@ -13,7 +13,9 @@
       },
       "images": {
         "hero": "/images/tenerife/teide/hero.avif",
-        "gallery": ["/images/tenerife/teide/1.avif"]
+        "gallery": [
+          "/images/tenerife/teide/1.avif"
+        ]
       },
       "audioPreview": "/audio/previews/es/teide-preview.mp3",
       "hasPremiumAudio": true,
@@ -44,12 +46,20 @@
       },
       "images": {
         "hero": "/images/tenerife/santa-cruz/hero.avif",
-        "gallery": ["/images/tenerife/santa-cruz/1.avif"]
+        "gallery": [
+          "/images/tenerife/santa-cruz/1.avif"
+        ]
       },
       "audioPreview": "/audio/previews/es/santa-cruz-preview.mp3",
       "hasPremiumAudio": true,
       "premiumRouteId": "volcano-route",
-      "tags": ["ciudad", "carnaval", "cultura", "puerto", "auditorio"],
+      "tags": [
+        "ciudad",
+        "carnaval",
+        "cultura",
+        "puerto",
+        "auditorio"
+      ],
       "visitDuration": "medio día",
       "emoji": "🏙️",
       "municipio": "santa-cruz",
@@ -68,12 +78,20 @@
       },
       "images": {
         "hero": "/images/tenerife/los-gigantes/hero.avif",
-        "gallery": ["/images/tenerife/los-gigantes/1.avif"]
+        "gallery": [
+          "/images/tenerife/los-gigantes/1.avif"
+        ]
       },
       "audioPreview": "/audio/previews/es/los-gigantes-preview.mp3",
       "hasPremiumAudio": true,
       "premiumRouteId": "volcano-route",
-      "tags": ["acantilados", "ballenas", "delfines", "barco", "oeste"],
+      "tags": [
+        "acantilados",
+        "ballenas",
+        "delfines",
+        "barco",
+        "oeste"
+      ],
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏔️",
@@ -1081,7 +1099,13 @@
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": ["transporte", "coche", "alquiler", "aeropuerto", "movilidad"],
+      "tags": [
+        "transporte",
+        "coche",
+        "alquiler",
+        "aeropuerto",
+        "movilidad"
+      ],
       "emoji": "🚗",
       "municipio": "granadilla",
       "discoverCarsLocation": "spain-canary-islands/tenerife",
@@ -1104,7 +1128,14 @@
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": ["transporte", "bus", "guagua", "titsa", "público", "económico"],
+      "tags": [
+        "transporte",
+        "bus",
+        "guagua",
+        "titsa",
+        "público",
+        "económico"
+      ],
       "emoji": "🚌",
       "municipio": "santa-cruz",
       "websiteUrl": "https://www.titsa.com"
@@ -1122,7 +1153,9 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/la-laguna/hero.avif",
-        "gallery": ["/images/tenerife/cultura/la-laguna/1.avif"]
+        "gallery": [
+          "/images/tenerife/cultura/la-laguna/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1154,7 +1187,9 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
-        "gallery": ["/images/tenerife/cultura/puerto-de-la-cruz/1.avif"]
+        "gallery": [
+          "/images/tenerife/cultura/puerto-de-la-cruz/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1186,11 +1221,20 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/loro-parque/hero.avif",
-        "gallery": ["/images/tenerife/cultura/loro-parque/1.avif"]
+        "gallery": [
+          "/images/tenerife/cultura/loro-parque/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": ["zoo", "orcas", "pingüinos", "familia", "norte", "premios"],
+      "tags": [
+        "zoo",
+        "orcas",
+        "pingüinos",
+        "familia",
+        "norte",
+        "premios"
+      ],
       "visitDuration": "Día completo",
       "difficulty": "easy",
       "emoji": "🦜",
@@ -1212,7 +1256,9 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
-        "gallery": ["/images/tenerife/cultura/piramides-guimar/1.avif"]
+        "gallery": [
+          "/images/tenerife/cultura/piramides-guimar/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1244,7 +1290,9 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/garcia-sanabria/hero.avif",
-        "gallery": ["/images/tenerife/cultura/garcia-sanabria/1.avif"]
+        "gallery": [
+          "/images/tenerife/cultura/garcia-sanabria/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1380,7 +1428,9 @@
       },
       "images": {
         "hero": "/images/tenerife/naturaleza/pico-ingles/hero.avif",
-        "gallery": ["/images/tenerife/naturaleza/pico-ingles/1.avif"]
+        "gallery": [
+          "/images/tenerife/naturaleza/pico-ingles/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1447,11 +1497,20 @@
       },
       "images": {
         "hero": "/images/tenerife/senderismo/barranco-infierno/hero.avif",
-        "gallery": ["/images/tenerife/senderismo/barranco-infierno/1.avif"]
+        "gallery": [
+          "/images/tenerife/senderismo/barranco-infierno/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": ["senderismo", "barranco", "cascada", "adeje", "sur", "popular"],
+      "tags": [
+        "senderismo",
+        "barranco",
+        "cascada",
+        "adeje",
+        "sur",
+        "popular"
+      ],
       "visitDuration": "4-5h",
       "difficulty": "moderate",
       "emoji": "🥾",
@@ -1479,7 +1538,9 @@
       },
       "images": {
         "hero": "/images/tenerife/senderismo/barranco-masca/hero.avif",
-        "gallery": ["/images/tenerife/senderismo/barranco-masca/1.avif"]
+        "gallery": [
+          "/images/tenerife/senderismo/barranco-masca/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1520,7 +1581,9 @@
       },
       "images": {
         "hero": "/images/tenerife/senderismo/paisaje-lunar/hero.avif",
-        "gallery": ["/images/tenerife/senderismo/paisaje-lunar/1.avif"]
+        "gallery": [
+          "/images/tenerife/senderismo/paisaje-lunar/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1560,7 +1623,9 @@
       },
       "images": {
         "hero": "/images/tenerife/senderismo/montana-blanca/hero.avif",
-        "gallery": ["/images/tenerife/senderismo/montana-blanca/1.avif"]
+        "gallery": [
+          "/images/tenerife/senderismo/montana-blanca/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1590,71 +1655,6 @@
       "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9"
     },
     {
-      "slug": "siam-park",
-      "name": "Siam Park",
-      "shortDescription": "El mejor parque acuático del mundo según TripAdvisor: olas de 3 metros y ambiente tailandés",
-      "description": "Siam Park lleva más de una década siendo reconocido como el **mejor parque acuático del mundo** por TripAdvisor Travellers' Choice. No es una afirmación de marketing: sus instalaciones, tamaño y espectacularidad justifican el título. Situado en Costa Adeje, es la experiencia de ocio más popular de todo el sur de Tenerife.\n\n### La visita\nEl parque tiene una **ola artificial de 3 metros** que es la más famosa de Europa —perfecta para surfear sin salir de la piscina—, el Tower of Power con una caída vertical de 28 metros a través de un acuario con tiburones, el tobogán más largo de España y una playa de arena blanca rodeada de arquitectura tailandesa de la que es difícil querer salir. La paleta visual del parque, con pagodas doradas y jardinería tropical, es extraordinaria.\n\n### Antes de ir\n- 🎟️ Compra la entrada online — hasta un 25% más barato y evitas las colas de taquilla\n- 🕘 Llega a la apertura (10h) — la ola de surf se llena en seguida\n- 🌊 Los mejores toboganes para adrenalina son el Tower of Power y el Dragon; para familia, el Mai Thai River\n- 🅿️ Parking gratuito incluido — acceso fácil desde la TF-1 salida 28\n- ☀️ El parque está pensado para un día completo — lleva protector solar de sobra\n\n### Recomendación\nIr entre semana evita las colas del fin de semana en la ola de surf. Lleva ropa seca de recambio y planifica la visita como un día completo sin prisa.",
-      "island": "tenerife",
-      "category": "other",
-      "coordinates": {
-        "lat": 28.0778,
-        "lng": -16.7178
-      },
-      "images": {
-        "hero": "/images/tenerife/actividades/siam-park/hero.avif",
-        "gallery": ["/images/tenerife/actividades/siam-park/1.avif"]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "parque-acuático",
-        "familia",
-        "olas",
-        "sur",
-        "costa-adeje",
-        "ocio"
-      ],
-      "visitDuration": "Día completo",
-      "difficulty": "easy",
-      "emoji": "🌊",
-      "top": false,
-      "municipio": "adeje",
-      "mapsUrl": "https://maps.app.goo.gl/aBZ1J2pX3KmMNFyH9",
-      "websiteUrl": "https://www.siampark.net"
-    },
-    {
-      "slug": "avistamiento-cetaceos-los-gigantes",
-      "name": "Avistamiento de Cetáceos en Los Gigantes",
-      "shortDescription": "Ballenas piloto y delfines permanentes en el mejor punto de avistamiento de Canarias",
-      "description": "El canal entre Tenerife y La Gomera es uno de los **hábitats de cetáceos más ricos del Atlántico**. Las aguas profundas frente a Los Gigantes albergan una de las pocas colonias **residentes** de calderones o ballenas piloto de Europa, lo que significa que puedes verlos prácticamente cualquier día del año, no solo en temporada.\n\n### La visita\nDesde el puerto de Los Gigantes salen varias compañías con barcos catamarán y zodiac que se acercan a los grupos de calderones con total seguridad y respeto al código de conducta de avistamiento. Los delfines listados y mulares también son frecuentes. Las excursiones duran entre 2 y 3 horas e incluyen parada para nadar y snorkel en una zona de aguas cristalinas junto a los acantilados. Ver un calderón a metros del barco, con Los Gigantes al fondo, es una experiencia que no tiene comparación.\n\n### Antes de ir\n- 🕘 Los tours matutinos (9-11h) ofrecen las mejores condiciones del mar\n- 🎟️ Reserva online con antelación — las compañías responsables tienen cupos limitados\n- 🐋 La presencia de calderones es del 95%+ en cualquier mes del año\n- 🌊 Si te mareas con facilidad, elige un catamarán grande en lugar de zodiac\n- 🤿 Los tours con snorkel incluyen equipo — lleva solo el bañador y una toalla\n\n### Recomendación\nElige compañías con código de conducta de avistamiento (no persiguen ni rodean a los animales). Las mejores están certificadas por el programa Whale Watching Tenerife.",
-      "island": "tenerife",
-      "category": "other",
-      "coordinates": {
-        "lat": 28.2441,
-        "lng": -16.8399
-      },
-      "images": {
-        "hero": "/images/tenerife/actividades/cetaceos/hero.avif",
-        "gallery": ["/images/tenerife/actividades/cetaceos/1.avif"]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "ballenas",
-        "delfines",
-        "cetáceos",
-        "barco",
-        "los-gigantes",
-        "marino"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "easy",
-      "emoji": "🐋",
-      "top": false,
-      "municipio": "santiago-del-teide",
-      "mapsUrl": "https://maps.app.goo.gl/K3xB6TqL7vN9pZjA8"
-    },
-    {
       "slug": "gastronomia-tenerife",
       "name": "Gastronomía Canaria en Tenerife",
       "shortDescription": "Papas arrugadas, mojo, gofio y los mejores vinos del Atlántico: guía gastronómica de la isla",
@@ -1667,7 +1667,9 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/gastronomia/hero.avif",
-        "gallery": ["/images/tenerife/cultura/gastronomia/1.avif"]
+        "gallery": [
+          "/images/tenerife/cultura/gastronomia/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1684,6 +1686,651 @@
       "emoji": "🍽️",
       "municipio": "santa-cruz",
       "sectionOnly": true
+    },
+    {
+      "slug": "avistamiento-cetaceos-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0499,
+        "lng": -16.7197
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/avistamiento-cetaceos-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1.5h",
+      "difficulty": "easy",
+      "emoji": "🐋",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "392740",
+      "gygUrl": "https://gyg.me/1VxRRnjX",
+      "mapsUrl": "https://maps.google.com/?q=@28.049941402745148,-16.719681655594805",
+      "name": "Ballenas y Delfines en Yate Ecológico",
+      "shortDescription": "El único yate de Tenerife diseñado específicamente para ver ballenas y delfines de forma ética, con baño incluido en la Cueva del Amor",
+      "description": "Una de las experiencias más valoradas de todo Tenerife: avistamiento de **ballenas y delfines a bordo del Travelin' Lady**, el único barco de la isla diseñado específicamente para esta actividad — no una embarcación adaptada, sino un yate ecológico de lujo concebido desde el principio para el avistamiento ético de cetáceos desde **Los Cristianos**.\n\n### La experiencia\nLa excursión navega por la costa sur de Tenerife en busca de los cetáceos que habitan estas aguas durante **todo el año**: ballenas piloto, delfines comunes, delfines listados e incluso tortugas marinas. El enfoque es completamente ético — sin perseguir a los animales, sin alterar su comportamiento —, lo que se traduce en observaciones más naturales y auténticas.\n\nEl capitán y el guía especializado a bordo comparten información fascinante sobre la fauna marina y el ecosistema canario mientras navegáis frente a los paisajes volcánicos del sur de Tenerife. La tripulación también recoge residuos plásticos del mar durante el trayecto.\n\nLa ruta incluye una parada en la **Cueva del Amor**, una zona de aguas cristalinas donde, si el tiempo lo permite, podréis daros un baño en pleno Atlántico. El equipo de snorkel está disponible para alquiler a bordo.\n\n### Por qué este barco\n- 🌊 El único yate de Tenerife diseñado específicamente para avistamiento de cetáceos\n- ♻️ Certificación medioambiental y motores de emisiones ultrabajas\n- 🎯 Centro de gravedad bajo — mucho menos mareo que en barcos convencionales\n- 🐋 **4,7/5** con más de 17.000 reseñas verificadas en GetYourGuide\n- 🏊 Parada para nadar en la Cueva del Amor incluida\n\n### Antes de ir\n- 📍 Punto de encuentro: **Fisherman's Wharf, Zona A** (Puerto de Los Cristianos). Sigue la línea azul pintada en el suelo\n- ⏰ Preséntate **30 minutos antes** de la salida — la puerta cierra 10 minutos antes\n- 🧴 Lleva bañador, toalla y protector solar\n- ❌ No apto para personas en silla de ruedas\n- 🔄 Cancelación gratuita con 24 h de antelación\n\n### Recomendación\nLas ballenas piloto son residentes permanentes de las aguas entre Tenerife y La Gomera — uno de los pocos lugares del mundo donde esto ocurre. La diferencia con el Travelin' Lady es la calidad: guías expertos, barco silencioso y ética real. **Reserva con antelación en verano**, las plazas se agotan.",
+      "tags": [
+        "ballenas",
+        "delfines",
+        "cetaceos",
+        "yate",
+        "los-cristianos",
+        "eco",
+        "snorkel",
+        "sur"
+      ]
+    },
+    {
+      "slug": "kayak-safari-vida-marina-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0494,
+        "lng": -16.7137
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/kayak-safari-vida-marina-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "3h",
+      "difficulty": "easy",
+      "emoji": "🦭",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "109501",
+      "gygUrl": "https://gyg.me/RasRCGEe",
+      "mapsUrl": "https://maps.google.com/?q=@28.04935519999999,-16.7137002",
+      "name": "Kayak Safari con Vida Marina",
+      "shortDescription": "Safari en kayak en grupo reducido para observar delfines y tortugas de cerca, con snorkel en una cala oculta accesible solo por mar",
+      "description": "Una de las experiencias más originales del sur de Tenerife: un **safari en kayak ecológico** a lo largo de la costa volcánica de Los Cristianos en busca de delfines y tortugas marinas — sin motor, sin ruido, sin perturbar a los animales. Xplore Tenerife lleva años perfeccionando esta ruta y tiene uno de los índices de avistamiento más altos de la isla, con hasta un **90% de probabilidad de encuentro** con vida marina.\n\n### La experiencia\nSalís en grupos reducidos desde la playa de Los Cristianos, bordeando una costa de acantilados volcánicos que solo es accesible por mar. En estas aguas nadan libremente delfines mulares, delfines comunes y tortugas bobas que frecuentan la zona con regularidad. Al ser en kayak —silencioso y de bajo impacto—, los animales no huyen y los acercamientos son completamente naturales.\n\nLa ruta incluye una **parada en una cala secreta** solo accesible desde el mar para nadar y hacer snorkel. Bajo el agua podréis ver trompeteros, peces loro, brecas, lábridos, gallinetas y rayas descansando en el fondo de arena. Al final de la actividad, el guía os envía las **fotos y vídeos del día** por WhatsApp el mismo día, sin coste adicional.\n\n### Qué incluye\n- 🛶 Kayaks estables con respaldo lumbar — sin experiencia previa necesaria\n- 🤿 Equipo completo de snorkel\n- 🧥 Traje de neopreno incluido\n- 💧 Agua durante la ruta\n- 🔒 Taquillas para dejar el equipaje\n- 📸 Fotos y vídeos del día enviados el mismo día por WhatsApp\n- 🛡️ Seguro de accidentes\n\n### Antes de ir\n- 📍 Punto de encuentro: **Xplore Tenerife, edificio Cristianmar** (planta baja, izquierda mirando al mar) — busca «Xplore Tenerife» en Google Maps\n- 🏊 Obligatorio saber nadar para participar\n- ⚖️ Límite de peso: 100 kg por persona\n- 👶 Edad mínima: 14 años (menores de 18 con adulto acompañante)\n- 🤰 No apto para embarazadas ni personas con problemas de espalda\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nValorado **4,7/5** con más de 10.000 reseñas verificadas en GetYourGuide. Los guías —Jackson, Ascary, Max, Lucía, Milán— reciben mención especial en prácticamente cada reseña por su profesionalidad y entusiasmo contagioso. **Uno de los mejores valores del sur de Tenerife**: naturaleza, deporte, snorkel y recuerdos en un solo plan de 3 horas.",
+      "tags": [
+        "kayak",
+        "delfines",
+        "tortugas",
+        "snorkel",
+        "los-cristianos",
+        "eco",
+        "vida-marina",
+        "sur"
+      ]
+    },
+    {
+      "slug": "siam-park-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0778,
+        "lng": -16.7178
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/siam-park-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "Día completo",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "407436",
+      "gygUrl": "https://gyg.me/MHx9cXJm",
+      "mapsUrl": "https://maps.google.com/?q=@28.0778,-16.7178",
+      "name": "Siam Park",
+      "shortDescription": "El parque acuático número 1 del mundo según TripAdvisor: ola de 3 metros, Tower of Power y ambiente tailandés en Costa Adeje",
+      "description": "El parque acuático más premiado del mundo lleva más de una década siendo reconocido como **número 1 del planeta** por TripAdvisor Travellers' Choice. Situado en Costa Adeje, es la experiencia de ocio más popular de todo el sur de Tenerife y una visita que va mucho más allá del parque acuático convencional.\n\n### La visita\nLa estrella del parque es la **ola artificial de 3 metros**, la más grande de Europa — perfecta tanto para surfear como para flotar en su laguna. El **Tower of Power** ofrece una caída casi vertical de 28 metros a través de un acuario con tiburones. El **Dragon** y el **Mai Thai River** completan la oferta para los que buscan adrenalina. La arquitectura del parque, con pagodas doradas, jardines tropicales y canales que recorren el recinto, crea una atmósfera completamente diferente a cualquier parque de agua que hayas visitado.\n\n### Lo que no te puedes perder\n- 🌊 **Ola artificial de 3 m** — la más grande de Europa, perfecta para surfear y flotar\n- 🐊 **Tower of Power** — caída de 28 m a través de un acuario con tiburones\n- 🐉 **Dragon** — tobogán de alta velocidad para los amantes de la adrenalina\n- 🌿 **Mai Thai River** — río lento tropical para familias y momentos de relax\n- 🏖️ **Playa de arena blanca** — con hamacas y un ambiente casi caribeño\n\n### Antes de ir\n- 🎟️ Compra la entrada online — hasta un 20% más barato que en taquilla y sin colas\n- ⏰ Llega a la apertura (10h) — la ola de surf se llena en los primeros 30 minutos\n- 🅿️ Parking gratuito incluido — acceso directo desde la TF-1, salida 28\n- 🧴 Lleva protector solar waterproof y ropa de recambio seca\n- 👧 Ideal para familias: hay toboganes para todas las edades e intensidades\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nEntre semana hay menos espera en la ola de surf. Si vas en temporada alta (julio-agosto), llegar a las 10h y hacer el Tower of Power de primeras marca la diferencia. Planifícalo como **día completo** — no es un parque que se vea en dos horas.",
+      "tags": [
+        "parque-acuático",
+        "ola",
+        "familia",
+        "adrenalina",
+        "costa-adeje",
+        "sur",
+        "ocio",
+        "toboganes"
+      ]
+    },
+    {
+      "slug": "cetaceos-vision-submarina-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0452,
+        "lng": -16.7155
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/cetaceos-vision-submarina-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1.5-2h",
+      "difficulty": "easy",
+      "emoji": "🐬",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "406165",
+      "gygUrl": "https://gyg.me/sTauapcI",
+      "mapsUrl": "https://maps.google.com/?q=@28.0452,-16.7155",
+      "name": "Cetáceos: Visión Submarina",
+      "shortDescription": "El tour No-Chase más valorado de Tenerife: 14.000+ reseñas, catamarán con suelo de cristal y guías certificados desde Los Cristianos",
+      "description": "El tour de avistamiento de cetáceos más respetado de Tenerife, con más de **14.000 reseñas verificadas** y una política No-Chase que lo diferencia radicalmente del resto. Desde el Puerto de Los Cristianos, el catamarán Vision cruza las aguas del sur de la isla para encontrarse con calderones, delfines y, ocasionalmente, tortugas marinas — siempre en sus propios términos.\n\n### La experiencia\nLo que hace único a este tour es la combinación de **visión submarina** y **filosofía de respeto real**. El catamarán tiene un suelo de cristal que permite ver a los cetáceos bajo la superficie — nadando, comunicándose, simplemente siendo ellos mismos. Los guías certificados por el gobierno explican el comportamiento de cada especie en inglés, español, francés y alemán. La duración es de 1.5 a 2 horas: el tiempo justo para una experiencia auténtica sin agotar al grupo.\n\n### Por qué este tour y no otro\n- 🚫 **No-Chase garantizado** — nunca persiguen, interceptan ni rodean a los animales\n- 🔭 **Suelo de cristal exclusivo** — visión subacuática única en Tenerife\n- 🐬 **Calderones y delfines residentes** — una de las tasas de avistamiento más altas de Europa\n- 🌊 **Catamarán espacioso y estable** — ideal para personas sensibles al mareo\n- 🌍 **Conservación real** — colaboran con Captain Paul Watson Foundation y Neptune's Pirates UK\n- ⭐ **4.6/5 con 14.000+ reseñas** — una de las actividades más valoradas de la isla\n\n### Antes de ir\n- 🎟️ Compra online — precio reducido vs taquilla, sin colas en puerto\n- ⏰ Llega 20 min antes de la salida — el barco no espera\n- 🧴 Protector solar y gafas de sol imprescindibles\n- 👶 Apto para familias y niños — los guías adaptan las explicaciones\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nLos calderones tropicales están presentes todo el año en el sur de Tenerife, lo que convierte este tour en una opción viable en cualquier mes. Si vais con niños, pedid al guía que os explique la diferencia entre los distintos tipos de delfines: hacen que la experiencia sea completamente diferente a simplemente \"ver animales\".",
+      "tags": [
+        "cetaceos",
+        "ballenas",
+        "delfines",
+        "no-chase",
+        "ecologico",
+        "los-cristianos",
+        "arona",
+        "sur",
+        "conservacion"
+      ]
+    },
+    {
+      "slug": "loro-parque-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.4095,
+        "lng": -16.554
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/loro-parque-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "Día completo",
+      "difficulty": "easy",
+      "emoji": "🦜",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "puerto-de-la-cruz",
+      "gygTourId": "407432",
+      "gygUrl": "https://gyg.me/YTiEAc6Q",
+      "mapsUrl": "https://maps.google.com/?q=@28.4095,-16.5540",
+      "name": "Loro Parque",
+      "shortDescription": "El parque zoológico más respetado de Europa: orcas, delfines, la mayor colección de loros del mundo y arquitectura tailandesa en Puerto de la Cruz",
+      "description": "Uno de los parques zoológicos más respetados del mundo, con **4.8/5 basado en más de 13.000 reseñas verificadas** y el primer parque del planeta en recibir la certificación ambiental Animal Embassy. Loro Parque, en Puerto de la Cruz, es mucho más que un zoo: es una jornada completa entre arquitectura tailandesa, vegetación tropical exótica y encuentros con animales que difícilmente olvidarás.\n\n### La visita\nCuatro espectáculos de primer nivel estructuran el día: el **Orca Ocean** — el show de orcas más impresionante de Europa —, el show de delfines, el de leones marinos y el espectáculo de loros, diseñado para transmitir el valor de la conservación de los bosques tropicales. Los recintos de animales incluyen pingüinos del Antártico, gorilas, tigres, caimanes y la mayor colección de loros del mundo. Para las familias con niños, **Kinderlandia** es una aldea africana interactiva con cabañas en los árboles, toboganes y puentes colgantes.\n\n### Por qué vale la pena\n- 🦁 **Más de 700 especies** — una de las colecciones más diversas de Europa\n- 🐋 **Orca Ocean** — el espectáculo de orcas más impresionante del continente\n- 🦜 **Colección récord de loros** — el Libro Guinness lo certifica\n- 🌴 **Arquitectura tailandesa** — jardines tropicales que convierten el paseo en un viaje\n- 👧 **Kinderlandia** — zona interactiva para niños con atracciones de aventura\n- 🎢 **Orca Roller Coaster** — montaña rusa para toda la familia\n- ⭐ **4.8/5 con 13.000+ reseñas** — uno de los mejor valorados de Canarias\n\n### Antes de ir\n- 🎟️ Compra online — precio más bajo que en taquilla, sin esperas\n- 📅 Consulta horarios de espectáculos al llegar — los recintos se llenan rápido\n- 🅿️ Aparcamiento incluido en algunas opciones\n- 🍽️ Opción de almuerzo en Brunelli's Steakhouse disponible al reservar\n- 🔄 Cancelación gratuita hasta 24 h antes\n- ⏰ Abre todo el año — planifica al menos 5-6 horas para verlo con calma\n\n### Recomendación\nLlega antes de las 10h y dirígete primero al Orca Ocean para asegurarte buen sitio. Si vas con niños pequeños, Kinderlandia mejor por la tarde cuando el calor baja. El ticket combinado con Siam Park existe como opción y es muy rentable si planeas visitar ambos.",
+      "tags": [
+        "loro-parque",
+        "zoo",
+        "orcas",
+        "delfines",
+        "loros",
+        "familia",
+        "puerto-de-la-cruz",
+        "norte",
+        "kinderlandia"
+      ]
+    },
+    {
+      "slug": "loro-parque-siam-park-combo-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.4095,
+        "lng": -16.554
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/loro-parque-siam-park-combo-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2 días",
+      "difficulty": "easy",
+      "emoji": "🎡",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "puerto-de-la-cruz",
+      "gygTourId": "407438",
+      "gygUrl": "https://gyg.me/qjXKn3Ex",
+      "mapsUrl": "https://maps.google.com/?q=@28.4095,-16.5540",
+      "name": "Combo Loro Parque + Siam Park",
+      "shortDescription": "El ticket más inteligente de Tenerife: 2 entradas, 2 parques, 14 días de validez — Loro Parque y Siam Park en un solo pago",
+      "description": "La forma más inteligente de combinar las dos grandes atracciones de Tenerife en un solo ticket. El combo incluye **1 entrada para Loro Parque** (norte) y **1 entrada para Siam Park** (sur), con **14 días de validez** desde el primer uso — así que puedes visitarlos en días distintos y con toda la calma.\n\n### Qué incluye\nCon una sola compra accedes a dos experiencias completamente diferentes que, juntas, representan lo mejor del ocio en la isla:\n\n**🦜 Loro Parque — Puerto de la Cruz**\nEl zoo más respetado del mundo según miles de viajeros. Un día entre orcas, delfines, gorilas, pingüinos antárticos y la mayor colección de loros del planeta. El espectáculo Orca Ocean es impresionante. Kinderlandia para los más pequeños. Arquitectura tailandesa rodeada de vegetación tropical.\n\n**🌊 Siam Park — Costa Adeje**\nEl parque acuático número 1 del mundo según TripAdvisor. Ola artificial de 3 metros, Tower of Power (caída de 28m a través de un acuario con tiburones), río tropical y ambiente tailandés. Un día completo de adrenalina y relax.\n\n### Por qué el combo y no las entradas por separado\n- 💰 **Precio significativamente más bajo** que comprar cada entrada individual\n- 📅 **14 días de validez** — flexibilidad total para organizar los días\n- 🎫 **Sin colas en taquilla** — entrada directa en ambos parques\n- 🚌 **Transporte gratuito** disponible hacia ambos parques\n- ⭐ **4.8/5 con 7.600+ reseñas combinadas** — el paquete más valorado de la isla\n\n### Antes de ir\n- 🎟️ Compra online — precio más bajo, acceso sin colas\n- 👆 En el primer parque dejarás tu huella dactilar para verificación — guarda bien el ticket para el segundo\n- 🧴 Para Siam Park: lleva protector solar waterproof y escarpines\n- 🦁 Para Loro Parque: llega a las 10h y ve directo al Orca Ocean\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nLa mayoría de viajeros van primero a Siam Park (sur, cerca de los hoteles del sur) y al día siguiente a Loro Parque. Si estás en el norte, invierte el orden. La pulsera que te dan en el primer parque la necesitas para el segundo — no la pierdas.",
+      "tags": [
+        "loro-parque",
+        "siam-park",
+        "combo",
+        "parques",
+        "familia",
+        "orcas",
+        "ola",
+        "tenerife",
+        "ocio"
+      ]
+    },
+    {
+      "slug": "moto-acuatica-quad-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0175,
+        "lng": -16.6873
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/moto-acuatica-quad-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1-4h",
+      "difficulty": "moderate",
+      "emoji": "🚤",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "317607",
+      "gygUrl": "https://gyg.me/JduQ4fA0",
+      "mapsUrl": "https://maps.google.com/?q=@28.0175,-16.6873",
+      "name": "Moto Acuática y Quad en Tenerife",
+      "shortDescription": "Adrenalina en el sur: jet ski por la costa volcánica desde Puerto de San Miguel y quad opcional por el Teide — grupos de 8 personas máximo",
+      "description": "Adrenalina pura en el sur de Tenerife: moto acuática por la costa volcánica más espectacular de la isla, con opción de ampliar la aventura con un safari en quad por el Parque Nacional del Teide. Grupos de máximo 8 personas, guías bilingües y salida desde el Puerto de San Miguel.\n\n### Las opciones\nPuedes elegir solo moto acuática (1h o 2h) o el **combo moto acuática + quad** para un día de aventura completo:\n\n**🚤 Moto acuática — Puerto de San Miguel**\nLa ruta sigue la costa sur pasando por la **Montaña Amarilla**, Costa del Silencio, Las Galletas y la **Montaña Roja** — formaciones volcánicas únicas vistas desde el mar. En la opción de 2 horas se incluye una parada para nadar y hacer snórquel en aguas cristalinas. No hace falta experiencia previa ni carné de conducir: el guía te enseña todo en tierra antes de zarpar.\n\n**🏍️ Quad — Parque Nacional del Teide (salida desde Chío)**\nSafari en quad de 3 horas por el interior de Tenerife con vistas al Teide, paso por la Zapatilla de la Reina, el pinar de Chío y parada en el Pico Viejo para fotografías de las formaciones geológicas más espectaculares de la isla. Se incluyen sándwiches. Requiere carné de conducir físico (no se acepta foto).\n\n### Por qué reservar aquí\n- 🌊 **Costa volcánica única** — Montaña Amarilla, Montaña Roja, Los Ajaches vistos desde el agua\n- 🐬 **Avistamientos frecuentes** — delfines, tortugas y ballenas en ruta\n- 📸 **Fotos y vídeos a bordo** — el guía te los hace durante el tour (opcional, precio razonable)\n- 👥 **Grupo reducido (máx. 8)** — trato personalizado, nada de masificación\n- 🔄 **Cancelación flexible** — si hay mal tiempo te cambian el día sin coste\n- ⭐ **4.6/5 con 2.900+ reseñas** — destaca el trato cercano del equipo\n\n### Antes de ir\n- 💶 Lleva 50 € en **efectivo** para la fianza por moto (se devuelve al terminar)\n- 🪪 DNI o pasaporte obligatorio; para el quad, carné de conducir físico\n- 👟 Para el quad: calzado cerrado imprescindible\n- 🎂 Conductor de moto: mínimo 16 años. Pasajero: mínimo 8 años\n- 🕐 Preséntate 30 minutos antes de la hora reservada\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nEl combo (moto acuática 1h + quad 3h) es el plan de día perfecto para los que buscan adrenalina en tierra y mar. Para parejas o grupos de amigos, la opción de 2h en moto con la parada de snórquel es la más popular. Evita llevar el móvil en la moto — no está permitido y el agua del mar lo agradece.",
+      "tags": [
+        "moto-acuatica",
+        "jet-ski",
+        "quad",
+        "aventura",
+        "costa",
+        "sur",
+        "arona",
+        "san-miguel",
+        "adrenalina"
+      ]
+    },
+    {
+      "slug": "quad-teide-atardecer-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0977,
+        "lng": -16.6463
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/quad-teide-atardecer-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2-3h",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "392679",
+      "gygUrl": "https://gyg.me/s53BS9J5",
+      "mapsUrl": "https://maps.google.com/?q=@28.0977,-16.6463",
+      "name": "Quad por el Teide",
+      "shortDescription": "Sube al Parque Nacional del Teide en quad hasta 2.100 m, por encima de las nubes — tour de día o al atardecer desde Arona",
+      "description": "Una de las experiencias más espectaculares de Tenerife: subir al Parque Nacional del Teide en quad, por encima de las nubes, hasta los 2.100 metros de altitud. Salida desde Arona en el sur, con dos modalidades — tour de día o al atardecer — y vistas que no encontrarás en ninguna excursión en autobús.\n\n### La ruta\nAproximadamente 70 km íntegramente por carretera pavimentada a velocidad máxima de 45 km/h. El itinerario sube desde Arona atravesando la **Corona Forestal** — uno de los pinares canarios más densos de la isla — hasta **Vilaflor**, el pueblo más alto de España (1.400 m) y hogar del legendario **Pino Gordo**, un ejemplar centenario de pino canario. Desde allí, la ruta continúa hacia **Boca Tauce**, con sus formaciones volcánicas del Pico Viejo, hasta alcanzar el **mirador panorámico a 2.100 m** con vistas al océano Atlántico en todas las direcciones.\n\n### Tour de día vs. tour al atardecer\n- ☀️ **Tour de día** — experiencia panorámica completa, más tiempo para paradas y fotos en cada punto del itinerario\n- 🌅 **Tour al atardecer** — los últimos rayos de sol tiñen el Teide y el mar de naranjas y rojos; el regreso a Arona se hace de noche, con las luces del sur de la isla a los pies\n\n### Lo que te va a sorprender\n- 🌥️ **Por encima de las nubes** — el mar de nubes desde los 2.100 m es irreal\n- 🌲 **Vilaflor y el Pino Gordo** — el pueblo más alto de España, con un pino centenario declarado monumento natural\n- 🏔️ **Boca Tauce** — formaciones volcánicas negras del Pico Viejo vistas de cerca\n- 🔭 **Vistas 360° del Atlántico** — en los días despejados se ve Gran Canaria y La Gomera\n- 📸 **Fotos durante el tour** — el guía las hace en los mejores puntos (20 € opcional)\n- 🏍️ **Quad individual o doble** — posibilidad de cambio de conductor sin coste\n\n### Antes de ir\n- 🪪 **Carné de conducir físico obligatorio** — no se aceptan fotos, ni permisos provisionales ni de menos de 1 año\n- 🧥 **Lleva chaqueta** — a 2.100 m la temperatura baja mucho, incluso en verano\n- 👟 Calzado cerrado imprescindible (se pueden alquilar chaquetas y zapatos allí)\n- 💶 Presupuesta 30 € opcionales para el seguro \"Zero Worries\" de daños al quad\n- 🎂 Mínimo 18 años para conducir. Acompañante mínimo 6 años y 120 cm\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nEl tour al atardecer es el favorito de las parejas. Si vas con familia y niños, el tour de día permite más paradas y luz para las fotos. Lleva ropa de abrigo aunque salga sol en Arona: el cambio de temperatura entre el sur y los 2.100 m es de más de 10ºC.",
+      "tags": [
+        "quad",
+        "teide",
+        "aventura",
+        "atardecer",
+        "arona",
+        "sur",
+        "vilaflor",
+        "volcan",
+        "pinar"
+      ]
+    },
+    {
+      "slug": "clases-surf-playa-americas-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.057,
+        "lng": -16.7165
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/clases-surf-playa-americas-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2h",
+      "difficulty": "easy",
+      "emoji": "🏄",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "407915",
+      "gygUrl": "https://gyg.me/1Ae05WZy",
+      "mapsUrl": "https://maps.google.com/?q=@28.0570,-16.7165",
+      "name": "Clases de Surf en Playa de las Américas",
+      "shortDescription": "La escuela de surf mejor valorada de Tenerife: 4.9★, grupos de 6, fotos incluidas y monitores certificados en Playa de las Américas",
+      "description": "La mejor valoración de Tenerife en clases de surf: **4.9/5 con más de 1.400 reseñas verificadas**. La escuela Shaka Surf, a solo 30 metros del agua en Playa de las Américas, ofrece clases de 2 horas para todos los niveles en grupos de máximo 6 personas. Todo el equipo incluido y fotos del día para llevarte a casa.\n\n### La clase\nLa sesión comienza en tierra: 20 minutos de teoría donde el instructor te enseña cómo despegar de la tabla, remar correctamente y posicionarte para coger la ola. Después, calentamiento y al agua. El monitor está contigo en todo momento, ajustando la técnica y guiándote en cada intento. Playa de las Américas tiene condiciones estables para el aprendizaje prácticamente todo el año gracias al oleaje constante del Atlántico.\n\n### Por qué esta escuela\n- ⭐ **4.9/5 con 1.400+ reseñas** — la más valorada de Tenerife en surf\n- 📸 **Fotos incluidas en el precio** — recuerdo de cada ola\n- 👥 **Máximo 6 alumnos por clase** — atención real e individual\n- 🏄 **Todos los niveles** — desde cero hasta nivel avanzado\n- 🤿 **Todo incluido** — tabla, neopreno, calzado de agua, lycra y ducha\n- 🌍 **Guías multilingüe** — español, inglés, alemán, francés, italiano y más\n\n### Antes de ir\n- 🩱 Solo necesitas traer bañador y toalla — todo lo demás lo ponen ellos\n- ⏰ Preséntate 15 min antes en la escuela Shaka Surf Tenerife\n- 📱 Contacta por WhatsApp para confirmar el punto exacto de encuentro\n- 🔄 Cancelación gratuita hasta 24 h antes\n- 🚫 No apto para embarazadas ni para quienes no saben nadar\n\n### Recomendación\nIdeal para parejas, familias y grupos. El 90 % de los hispanohablantes da puntuación perfecta. Si vas con niños, el monitor adapta el ritmo — varios viajeros lo mencionan expresamente en sus reseñas. No hace falta experiencia previa: en 2 horas, la mayoría se levanta en la tabla.",
+      "tags": [
+        "surf",
+        "clases",
+        "playa-americas",
+        "arona",
+        "sur",
+        "familia",
+        "principiantes",
+        "océano",
+        "deporte"
+      ]
+    },
+    {
+      "slug": "atardecer-estrellas-teide-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1226,
+        "lng": -16.7264
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/atardecer-estrellas-teide-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "3-5h",
+      "difficulty": "easy",
+      "emoji": "🔭",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "417569",
+      "gygUrl": "https://gyg.me/8cpuA9H2",
+      "mapsUrl": "https://maps.google.com/?q=@28.1226,-16.7264",
+      "name": "Atardecer y Estrellas en el Teide",
+      "shortDescription": "El tour de astronomía más valorado de Tenerife: 4.7★, atardecer sobre las nubes, copa de cava y telescopio Dobson 12\" con guías certificados Starlight",
+      "description": "Una de las noches más extraordinarias que puedes vivir en Tenerife: primero el atardecer por encima de las nubes con vistas a La Gomera, La Palma y El Hierro, y después el cielo más estrellado de Europa sobre el Parque Nacional del Teide. **4.7/5 con más de 3.200 reseñas** y guías con certificación Starlight.\n\n### La experiencia\nLa excursión dura entre 3 y 5 horas y combina dos momentos únicos:\n\n**🌅 El atardecer (1.400 m)**\nDesde un mirador volcánico — junto al flujo de lava que anotó Cristóbal Colón en su diario de navegación en 1492 — se observa cómo el sol se pone sobre las islas occidentales. Los guías reparten una copa de cava para celebrarlo. El espectáculo de colores cambia en cada puesta de sol.\n\n**🌌 La observación de estrellas**\nDespués del atardecer el grupo se traslada a otro mirador. Los guías certificados Starlight explican constelaciones, planetas y mitología griega con un puntero láser y el telescopio Dobson de 12 pulgadas — uno de los más potentes disponibles en tours turísticos. Dependiendo de la época del año se pueden ver Saturno con sus anillos, las lunas de Júpiter, galaxias, nebulosas o las Pléyades. El tour finaliza con una **fotografía de astrofotografía profesional de cada participante** bajo el manto de estrellas — incluida en el precio.\n\n### Por qué este tour\n- ⭐ **4.7/5 con 3.200+ reseñas** — el tour de estrellas más valorado de la isla\n- 🔭 **Telescopio Dobson 12\"** — más tiempo con el telescopio que en cualquier competidor\n- 🌌 **Guías certificados Starlight** — formación oficial en astroturismo\n- 📸 **Foto de astrofotografía incluida** — recuerdo único imposible de hacer con el móvil\n- 🥂 **Copa de cava incluida** en el atardecer\n- 🚐 **Recogida en el hotel disponible** (opción VIP, costa sur)\n\n### Antes de ir\n- 🧥 **Abrígate bien** — a 1.400 m la temperatura baja considerablemente incluso en verano\n- 📱 El punto y hora exactos te llegan por WhatsApp el mismo día — ten el número activo\n- 🚗 Opción sin recogida requiere coche propio de alquiler (no taxi ni transporte público)\n- 🌍 El tour es **en inglés** — guías multilingüe disponibles bajo petición\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nEscoge noche de luna nueva o cuarto creciente para ver más estrellas — con luna llena el brillo compite con las estrellas más tenues. La opción VIP con recogida es la más cómoda si estás en el sur. Lleva abrigo aunque en la costa haga calor: el cambio de temperatura entre Adeje y el mirador es de más de 10ºC.",
+      "tags": [
+        "estrellas",
+        "teide",
+        "atardecer",
+        "astronomia",
+        "telescopio",
+        "adeje",
+        "sur",
+        "noche",
+        "starlight"
+      ]
+    },
+    {
+      "slug": "excursion-teide-masca-icod-garachico",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.2272,
+        "lng": -16.6
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/excursion-teide-masca-icod-garachico.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "9h",
+      "difficulty": "easy",
+      "emoji": "🚌",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "gygTourId": "217542",
+      "gygUrl": "https://gyg.me/W7D7KZm9",
+      "mapsUrl": "https://maps.google.com/?q=@28.2272,-16.6000",
+      "name": "Excursión Teide, Masca, Icod y Garachico",
+      "shortDescription": "El gran tour del norte de Tenerife: Teide, Masca, Drago Milenario y las piscinas de lava de Garachico en un día, con recogida en hotel",
+      "description": "La excursión más completa para descubrir el norte de Tenerife en un solo día: **4.6/5 con más de 2.500 reseñas**, recogida en hotel incluida y guía multilingüe durante las 9 horas de ruta. Cuatro destinos únicos, un solo autobús.\n\n### La ruta\n**🌋 Parque Nacional del Teide — Los Roques de García**\nPrimera parada: las famosas formaciones volcánicas de Los Roques de García, en el corazón del Parque Nacional. El guía contextualiza la geología y la historia natural del Teide con vistas directas al volcán más alto de España.\n\n**🌳 Icod de los Vinos — El Drago Milenario**\nEl árbol más famoso de Canarias: una dracaena de más de mil años de antigüedad, declarada monumento natural. El casco histórico de Icod, con arquitectura canaria tradicional, completa la visita.\n\n**🌊 Garachico — Piscinas de lava**\nUno de los pueblos más bonitos de Tenerife, parcialmente destruido por una erupción volcánica en 1706. Las coladas crearon piscinas naturales en la roca que hoy son uno de los bañaderos más peculiares de la isla.\n\n**🏔️ Masca — El pueblo de las curvas imposibles**\nAcceso por una carretera de montaña legendaria que los conductores dominan con precisión quirúrgica. El barranco y el valle de Masca son, para muchos viajeros, lo más impresionante de toda la ruta.\n\n### Por qué reservar este tour\n- 🚌 **Recogida en tu hotel** — sin preocuparte de cómo llegar\n- 🎤 **Guía oficial multilingüe** — español, inglés y alemán\n- 📍 **4 destinos en 1 día** — imposible de cubrir en coche sin conocer las carreteras\n- ⭐ **4.6/5 con 2.500+ reseñas** — destaca la calidad del equipo y la ruta\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Antes de ir\n- 👟 Calzado cerrado cómodo — sin sandalias ni chanclas\n- 🧥 Lleva chaqueta — el Teide y Masca tienen temperatura muy diferente al litoral\n- 📸 Cámara de fotos — los paisajes de Masca y el Teide justifican el espacio de almacenamiento\n- ⏱️ El tiempo en cada parada es justo — prioriza lo que más te interesa al llegar\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nPara muchos viajeros, **Masca acaba siendo la parada favorita**, por encima del propio Teide. La carretera de acceso ya es parte de la experiencia. Si tienes limitaciones de movilidad, consulta antes de reservar: el tour no está recomendado para personas con problemas de movilidad.",
+      "tags": [
+        "excursion",
+        "teide",
+        "masca",
+        "icod",
+        "garachico",
+        "norte",
+        "vilaflor",
+        "tour",
+        "bus"
+      ]
+    },
+    {
+      "slug": "tour-teide-teleferico-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.2693,
+        "lng": -16.6424
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/tour-teide-teleferico-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "7h",
+      "difficulty": "moderate",
+      "emoji": "🚠",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "gygTourId": "351351",
+      "gygUrl": "https://gyg.me/d9b4VnjR",
+      "mapsUrl": "https://maps.google.com/?q=@28.2693,-16.6424",
+      "name": "Teide en Teleférico con Traslado",
+      "shortDescription": "Sube al pico más alto de España en teleférico hasta 3.555m con recogida en hotel — la forma más cómoda de llegar a lo más alto del Teide",
+      "description": "Subir al Teide en teleférico hasta los **3.555 metros de altitud** — la cima más alta de España — con recogida en hotel desde el norte y el sur de la isla. **4.3/5 con más de 5.500 reseñas** y guía oficial durante el trayecto. 7 horas de excursión para vivir el punto más alto del Atlántico.\n\n### La experiencia\nTras la recogida en el hotel, el autobús recorre el Parque Nacional con paradas en miradores antes de llegar a la estación base del teleférico. El trayecto en cabina dura 8 minutos y sube desde los 2.356 m hasta los 3.555 m — una diferencia de temperatura de más de 10ºC en menos de un kilómetro vertical. En la estación superior hay tiempo libre para explorar tres rutas de senderismo señalizadas, el mirador del Pico Viejo, el mirador de La Fortaleza y el sendero Telesforo Bravo. Acceso gratuito a la exposición «Ciencia y Leyenda» sobre la geología y la mitología guanche del Teide.\n\n### Lo que incluye\n- 🚠 **Billete de teleférico ida y vuelta** — incluido en el precio\n- 🚌 **Recogida y regreso al hotel** — desde el norte y el sur de la isla\n- 🎤 **Guía oficial** — español, inglés, alemán, francés, italiano, neerlandés\n- 🎧 **Audioguía digital Teide Legend** para los senderos de la cima\n- 🏛️ **Entrada a exposición gratuita** «Ciencia y Leyenda»\n\n### Importantes antes de reservar\n- 💨 **Si hay vientos fuertes el teleférico puede cerrar** — el tour se realiza igualmente y solo reembolsan el precio del teleférico (no el tour completo). Comprueba el pronóstico antes\n- 👟 **Calzado de montaña obligatorio** — prohibido acceder con sandalias, chanclas, tacones o calzado de playa\n- 🏥 No apto para embarazadas, personas con problemas cardíacos o respiratorios, ni menores de 3 años\n- 🧥 **Ropa de abrigo imprescindible** — a 3.555m hace frío incluso en agosto\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nLa vista desde 3.555 m en un día despejado es extraordinaria: se ven todas las islas del archipiélago. Para asegurarte de que el teleférico esté operativo, elige días con viento suave y reserva entre semana en temporada alta para evitar colas. Si quieres llegar a la cima del cráter (3.718 m) necesitas un permiso especial adicional — este tour no llega hasta ahí.",
+      "tags": [
+        "teide",
+        "teleferico",
+        "cima",
+        "volcan",
+        "vilaflor",
+        "excursion",
+        "bus",
+        "altura",
+        "3555m"
+      ]
+    },
+    {
+      "slug": "platanera-ecologica-la-orotava-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.3888,
+        "lng": -16.5224
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/platanera-ecologica-la-orotava-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "50min",
+      "difficulty": "easy",
+      "emoji": "🍌",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "puerto-de-la-cruz",
+      "gygTourId": "450055",
+      "gygUrl": "https://gyg.me/S56wc4Sq",
+      "mapsUrl": "https://maps.google.com/?q=@28.3888,-16.5224",
+      "name": "Platanera Ecológica en La Orotava",
+      "shortDescription": "Tour entre plataneras ecológicas en La Orotava con degustación de plátano de Canarias y chupito de licor — 4.7★, accesible y apto para toda la familia",
+      "description": "Una experiencia auténtica en el norte de Tenerife: recorrer los pasillos de una plantación ecológica de plátanos en La Orotava y entender por qué el **plátano de Canarias es diferente a cualquier otro del mundo**. 50 minutos, guía experto, degustación incluida y chupito de licor de plátano al final. **4.7/5 con casi 1.000 reseñas**.\n\n### La visita\nBananaECOplantation produce más de **150.000 kg de plátanos al año** con un sistema que es un 95% autosuficiente — sin pesticidas, sin fertilizantes artificiales. El guía explica cómo las plantas aromáticas, los cereales y la biodiversidad del propio terreno hacen posible una producción limpia en plena ladera del Teide.\n\nLa visita recorre los pasillos entre las plataneras mientras el guía desgrana el ciclo completo de la planta: desde que brota el hijo hasta que el racimo madura, incluyendo el sistema de selección y distribución que permite exportar a toda Europa. Al final, **degustación de plátanos frescos cultivados en la finca** y un chupito del licor artesano que elaboran con los propios frutos.\n\n### Por qué merece la pena\n- 🌿 **Cultivo ecológico real** — 95% autosuficiente, sin pesticidas ni fertilizantes\n- 🍌 **Plátano de Canarias de verdad** — sabor completamente diferente al de importación\n- 🥃 **Licor de plátano artesano** — elaborado en la propia finca\n- 🎤 **Guías apasionados** — varias reseñas mencionan a Miguel e Iván por nombre\n- ♿ **Accesible en silla de ruedas** — gran parte del recorrido es accesible\n- 👨‍👩‍👧 **Apto para toda la familia** — los niños también disfrutan la visita\n- ⭐ **4.7/5 con guía 4.9/5** — la valoración del guía es casi perfecta\n\n### Antes de ir\n- 📍 Punto de encuentro: Carretera de El Rincón, La Orotava (llegar a la plantación directamente)\n- 🔞 La degustación de licor requiere mayoría de edad — menores pueden sustituir por zumo\n- ♿ Solo algunas zonas accesibles — acompañante recomendado para silla de ruedas\n- 🕐 Duración aproximada: 50 minutos\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nPerfecta como actividad complementaria si visitas el norte de Tenerife: combínala con el Jardín Botánico de Puerto de la Cruz o con el casco histórico de La Orotava, a pocos minutos. Para los interesados en agricultura sostenible o en productos locales canarios, es una visita imprescindible.",
+      "tags": [
+        "platanera",
+        "ecologico",
+        "la-orotava",
+        "norte",
+        "degustacion",
+        "familia",
+        "accesible",
+        "platano-canarias",
+        "licor"
+      ]
+    },
+    {
+      "slug": "submarino-tenerife-sur",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0119,
+        "lng": -16.6514
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/submarino-tenerife-sur.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🤿",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "3669",
+      "gygUrl": "https://gyg.me/jBrepwQ2",
+      "mapsUrl": "https://maps.google.com/?q=@28.0119,-16.6514",
+      "name": "Submarino en el Sur de Tenerife",
+      "shortDescription": "Desciende 30 metros bajo el Atlántico en un submarino real: rayas, barracudas y peces loro desde 22 ventanas panorámicas en Amarilla Marina",
+      "description": "Una de las experiencias más originales del sur de Tenerife y la única oportunidad de llegar al fondo del Atlántico sin saber bucear. El submarino **Sub Fun Cinco** desciende hasta **30 metros de profundidad** en las aguas de Amarilla Marina, con 44 asientos y 22 ventanas panorámicas para que nadie pierda ni una imagen. **4.8/5 con más de 2.300 reseñas**.\n\n### La inmersión\nLa excursión comienza en el puerto de Amarilla, en el extremo sur de la isla. Una vez a bordo del submarino amarillo, el descenso dura unos minutos hasta posarse sobre el lecho marino a 30 metros de profundidad. Desde allí, buzos profesionales de la empresa se sumergen y atraen a los peces directamente hacia las ventanas — el momento más memorable de la visita.\n\nLa fauna habitual incluye **rayas, barracudas, peces loro, pulpos y peces flauta**. La audioguía en 15 idiomas (auriculares incluidos) explica el ecosistema marino del Atlántico canario y la importancia de su conservación. Al finalizar la inmersión, cada participante recibe un **certificado oficial de buceo** como recuerdo.\n\n### Por qué es especial\n- 🚢 **Submarino real** — no un semisumergible, desciende a 30m bajo el nivel del mar\n- 🐟 **Buzos que atraen la fauna** — rayas, barracudas y bancos de peces junto a la ventana\n- 🎧 **Audioguía en 15 idiomas** — español, inglés, alemán, francés, italiano y más\n- 🪪 **Certificado de inmersión incluido** — un recuerdo único\n- 🚌 **Traslado gratuito en bus** desde los principales hoteles del sur\n- 👶 **Desde 2 años** — apto para toda la familia\n- ⭐ **4.8/5 con 2.300+ reseñas**\n\n### Antes de ir\n- 📍 Punto de encuentro: Amarilla Marina (sur de Tenerife) — 30 min antes de la inmersión\n- 🚌 Traslado gratuito disponible desde Playa de las Américas, Los Cristianos, Costa Adeje, Playa Paraíso, Callao Salvaje, Puerto de Santiago y Los Gigantes\n- 🚗 Si vas en coche: aparcamiento gratuito al final del puerto\n- 📱 Confirma los detalles de recogida por correo/teléfono que envía el proveedor\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nPerfecta para familias con niños — varias reseñas mencionan que es \"una experiencia de vida\" para los más pequeños. La duración de la inmersión son 50 minutos de submarino, pero contando el traslado en bus y los tiempos de embarque el plan completo ocupa entre 1.5 y 3 horas. Llega 30 minutos antes al puerto para el registro.",
+      "tags": [
+        "submarino",
+        "buceo",
+        "fondo-marino",
+        "rayas",
+        "amarilla-marina",
+        "arona",
+        "sur",
+        "familia",
+        "atlantico"
+      ]
+    },
+    {
+      "slug": "excursion-la-gomera-desde-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0488,
+        "lng": -16.7187
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/excursion-la-gomera-desde-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "9h",
+      "difficulty": "easy",
+      "emoji": "⛵",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "arona",
+      "gygTourId": "58006",
+      "gygUrl": "https://gyg.me/UES4XPpq",
+      "mapsUrl": "https://maps.google.com/?q=@28.0488,-16.7187",
+      "name": "Excursión a La Gomera desde Tenerife",
+      "shortDescription": "Día completo en La Gomera: ferri desde el sur de Tenerife, Parque Nacional de Garajonay (UNESCO), demostración de silbo gomero y almuerzo canario incluido — 4.1★ con 2.100+ reseñas",
+      "description": "Una excursión de día completo a una de las islas más salvajes del Archipiélago. El ferri rápido desde Los Cristianos te lleva en poco tiempo a **La Gomera**, donde te espera un paisaje radicalmente diferente al de Tenerife: barrancos verticales, laurisilva milenaria y pueblos que parecen detenidos en el tiempo. **4.1/5 con más de 2.100 reseñas**.\n\n### El recorrido\nLa jornada arranca con el trayecto en ferri rápido desde el sur de Tenerife hasta **San Sebastián de La Gomera**, la pequeña capital de la isla donde Cristóbal Colón rezó en la Iglesia de la Asunción antes de zarpar hacia el Nuevo Mundo.\n\nDesde allí, el autobús sube por la ladera hasta el **exuberante valle de Hermigua** y continúa hacia el corazón de la isla: el **Parque Nacional de Garajonay**, Patrimonio de la Humanidad de la UNESCO. Aquí, el bosque de laurel de El Cedro envuelve el camino con una vegetación tan densa que filtra la luz del sol y crea un ambiente casi místico.\n\nEl punto central del día es el **almuerzo tradicional canario** con demostración en directo de **el silbo gomero**, la lengua silbada única en el mundo que los pastores de La Gomera han utilizado durante siglos para comunicarse entre barrancos. Al regreso, el autobús pasa junto a la espectacular formación volcánica de la **Roque de Agando** antes de volver al ferri.\n\n### Por qué vale la pena\n- 🌿 **Parque Nacional de Garajonay** — Patrimonio UNESCO, bosque de laurel de millones de años\n- 🗣️ **Silbo gomero en vivo** — la única lengua silbada del mundo, Patrimonio Inmaterial UNESCO\n- ⛪ **San Sebastián y la ruta colombina** — la misma iglesia donde rezó Colón\n- 🍽️ **Almuerzo canario incluido** — comida local en restaurante tradicional\n- 🧭 **Guía multilingüe** — español, inglés, francés y alemán\n- 🚌 **Recogida en el sur de Tenerife** — con traslado incluido\n- ⭐ **4.1/5 con 2.100+ reseñas** — guía valorada 4.1/5 y transporte 4.4/5\n\n### Antes de ir\n- 📍 Recogida en hoteles del sur de Tenerife — confirma tu punto con la reserva\n- 🪪 DNI o pasaporte obligatorio para embarcar en el ferri\n- 🧥 Lleva ropa de abrigo — Garajonay puede estar nublado y fresco incluso en verano\n- 🕐 Duración total: aproximadamente 9 horas\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nSi solo puedes hacer una excursión desde Tenerife, que sea La Gomera. La isla es totalmente diferente al turismo masificado: aquí el tiempo va a otro ritmo. Especialmente recomendada para viajeros con curiosidad por la naturaleza, la historia y la cultura canaria auténtica.",
+      "tags": [
+        "la-gomera",
+        "ferry",
+        "excursion",
+        "garajonay",
+        "unesco",
+        "silbo",
+        "almuerzo",
+        "arona",
+        "sur",
+        "isla"
+      ]
+    },
+    {
+      "slug": "parasailing-costa-adeje-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.0868,
+        "lng": -16.7407
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/parasailing-costa-adeje-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "30min",
+      "difficulty": "easy",
+      "emoji": "🪂",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "550159",
+      "gygUrl": "https://gyg.me/pEEQAqeY",
+      "mapsUrl": "https://maps.google.com/?q=@28.0868,-16.7407",
+      "name": "Parasailing en Costa Adeje",
+      "shortDescription": "Vuela hasta 100 metros sobre el Atlántico desde Puerto Colón con vistas panorámicas de Costa Adeje — AJ Fly Watersports, 4.8★ con 600 reseñas",
+      "description": "Una de las formas más espectaculares de ver Tenerife: elevarse hasta **100 metros sobre el mar** suspendido de un parasail mientras el barco traza un arco frente a las mejores playas del sur de la isla. Sin experiencia previa, sin complicaciones, sin miedo — la tripulación de AJ Fly Watersports tiene todo bajo control. **4.8/5 con 600 reseñas**.\n\n### La experiencia\nLa salida es desde el **Puerto Colón** (Pontón 3), en el corazón de Costa Adeje. Una vez a bordo de la embarcación especializada, el equipo explica los protocolos de seguridad y te equipa con el chaleco salvavidas. El despegue es gradual y sorprendentemente suave — la mayoría de los viajeros coincide en que el primer momento de elevación sobre el agua es lo más adrenalínico de toda la experiencia.\n\nEn el aire, desde una altura de hasta 100 metros, las vistas son impresionantes: **Playa de Las Américas, Playa Las Vistas y Playa de Troya** se extienden abajo mientras el horizonte azul del Atlántico se funde con el perfil volcánico del sur de Tenerife. El vuelo dura unos 10 minutos, con aterrizaje a bordo del propio barco — limpio, seco y sin necesidad de saber nadar para el vuelo.\n\nEl equipo hace fotos y vídeo durante toda la actividad, con opción de comprarlos al acabar.\n\n### Por qué es especial\n- 🌊 **Hasta 100m de altura** sobre el mar Atlántico\n- 📍 **Puerto Colón, Costa Adeje** — salida desde el puerto más activo del sur\n- 📸 **Fotos y vídeo** disponibles durante la actividad (opción de compra)\n- ⚙️ **Embarcación especializada** con sistema de despegue y aterrizaje a bordo\n- 👨‍👩‍👧 **Máximo 10 participantes** — grupo reducido y atención personal\n- ☀️ **Vistas de las mejores playas del sur**: Las Américas, Las Vistas, Troya\n- ⭐ **4.8/5 con 600 reseñas** — guía valorada 4.9/5\n\n### Antes de ir\n- 📍 Punto de encuentro: Puerto Colón, Pontón 3, Costa Adeje — llegar 25 min antes\n- 🚫 No apto para: menores de 3 años, embarazadas, personas en silla de ruedas\n- 🌊 Es recomendable saber nadar (aunque el vuelo es seco, por seguridad general)\n- 👕 Lleva gafas de sol, protector solar biodegradable y ropa cómoda\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nPerfecta para todos los que quieran una dosis de adrenalina sin comprometerse con una actividad larga. Son solo 10 minutos de vuelo real, pero las reseñas hablan de un equipo divertido y cercano que convierte el traslado en barco también en parte del plan. Combínala con un baño en Playa de Troya o con el parapente si quieres vivir el sur de Tenerife desde el aire.",
+      "tags": [
+        "parasailing",
+        "costa-adeje",
+        "puerto-colon",
+        "adeje",
+        "sur",
+        "volar",
+        "adrenalina",
+        "agua",
+        "playas"
+      ]
+    },
+    {
+      "slug": "parapente-campeon-nacional-tenerife",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.1127,
+        "lng": -16.721
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/parapente-campeon-nacional-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2h",
+      "difficulty": "easy",
+      "emoji": "🏆",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "adeje",
+      "gygTourId": "403056",
+      "gygUrl": "https://gyg.me/hcDQ44gM",
+      "mapsUrl": "https://maps.google.com/?q=@28.1127,-16.7210",
+      "name": "Parapente con Campeón del Mundo en Tenerife",
+      "shortDescription": "Vuela en parapente tándem sobre los barrancos y la costa de Adeje con pilotos campeones nacionales y mundiales — Sky of Tenerife, 4.9★ con 1.150 reseñas",
+      "description": "El parapente más valorado de Tenerife, y con razón: el equipo de **Sky of Tenerife** no son simples instructores — son campeones nacionales y mundiales de vuelo libre, liderados por **Daniel Crespo, Campeón del Mundo**. Un vuelo de 15 a 35 minutos sobre los barrancos y la costa de Adeje que viajeros de todo el mundo describen como la mejor experiencia de su vida. **4.9/5 con 1.150 reseñas — el 100% de los hispanohablantes dieron puntuación perfecta**.\n\n### El vuelo\nLa recogida en hotel incluida en el precio. El equipo lleva en furgoneta hasta la zona de despegue en las alturas de Adeje. Antes del vuelo, un briefing completo sobre los protocolos de despegue y aterrizaje: nada que memorizar, solo escuchar y disfrutar.\n\nCada piloto es asignado al pasajero en función del peso y el idioma — el equipo habla español, inglés, alemán, francés, italiano y checo. El despegue es suave y en cuestión de segundos estás sobrevolando **los barrancos de Adeje**, con vistas únicas de la costa, el mar Atlántico y el perfil del Teide al fondo.\n\nAlgunas rutas sobrevuelan barrancos espectaculares, otras pasan sobre la cresta del Conde. El vuelo **termina siempre sobre la costa de Adeje**, donde al acercarse a la zona de aterrizaje en la playa tienes la opción de hacer acrobacias o intentar pilotear el parapente tú mismo.\n\n**5 fotos GoPro incluidas** con cada vuelo — y paquetes adicionales de fotos y vídeo disponibles.\n\n### Por qué es el mejor\n- 🏆 **Pilotos campeones** — liderados por Daniel Crespo, Campeón del Mundo\n- 🌄 **Vistas únicas** — barrancos de Adeje + costa + Teide desde el aire\n- 🎧 **Multilingüe** — español, inglés, alemán, francés, italiano y checo\n- 📸 **5 fotos GoPro incluidas** — más paquetes de fotos y vídeo 360° opcionales\n- 🚌 **Recogida y regreso en hotel** — 23 hoteles de Costa Adeje y alrededores\n- 👧 **Desde 6 años** hasta 70 años, máximo 110 kg\n- 🔒 **Máximo 4 participantes** — atención absolutamente personalizada\n- ⭐ **4.9/5 con 1.150 reseñas** — guías valorados 5.0/5\n\n### Antes de ir\n- 📍 Recogida en hotel incluida: 23 hoteles de Costa Adeje, Adeje, Las Américas y Los Cristianos\n- 👕 Ropa deportiva y calzado cerrado obligatorio\n- ⛔ No apto para: menores de 6 años, embarazadas, mayores de 70 años, más de 110 kg\n- 🕐 Vuelo: 15-35 minutos. Duración total con traslados: ~2 horas\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nSi el parasailing es la opción relajada, este parapente es la experiencia completa. Volar sobre los barrancos de Adeje con un campeón del mundo como piloto es algo completamente diferente a cualquier otra actividad en Tenerife. Especialmente recomendado para los que buscan la mejor foto del viaje desde el cielo.",
+      "tags": [
+        "parapente",
+        "campeon",
+        "sky-of-tenerife",
+        "adeje",
+        "barrancos",
+        "costa",
+        "volar",
+        "tándem",
+        "sur",
+        "premium"
+      ]
     }
   ],
   "sections": [
@@ -1692,42 +2339,59 @@
       "label": "Historia",
       "emoji": "🏰",
       "color": "#6366f1",
-      "pois": ["santa-cruz", "teide"]
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
     },
     {
       "id": "cultura-canaria",
       "label": "Cultura Canaria",
       "emoji": "🎭",
       "color": "#ec4899",
-      "pois": ["santa-cruz", "teide"]
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
     },
     {
       "id": "gastronomia",
       "label": "Gastronomía",
       "emoji": "🍽️",
       "color": "#f97316",
-      "pois": ["santa-cruz"]
+      "pois": [
+        "santa-cruz"
+      ]
     },
     {
       "id": "naturaleza",
       "label": "Naturaleza",
       "emoji": "🌿",
       "color": "#22c55e",
-      "pois": ["teide", "los-gigantes"]
+      "pois": [
+        "teide",
+        "los-gigantes"
+      ]
     },
     {
       "id": "tradiciones",
       "label": "Tradiciones",
       "emoji": "💃",
       "color": "#a855f7",
-      "pois": ["santa-cruz", "teide"]
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
     },
     {
       "id": "curiosidades",
       "label": "Curiosidades",
       "emoji": "🔍",
       "color": "#06b6d4",
-      "pois": ["teide", "los-gigantes"]
+      "pois": [
+        "teide",
+        "los-gigantes"
+      ]
     },
     {
       "id": "playas",
@@ -1773,14 +2437,20 @@
       "label": "Actividades",
       "emoji": "🌊",
       "color": "#0284c7",
-      "pois": ["siam-park", "avistamiento-cetaceos-los-gigantes"]
+      "pois": [
+        "siam-park",
+        "avistamiento-cetaceos-los-gigantes"
+      ]
     },
     {
       "id": "transporte",
       "label": "Cómo Moverse",
       "emoji": "🚗",
       "color": "#94a3b8",
-      "pois": ["alquiler-coche-tenerife", "titsa-tenerife"]
+      "pois": [
+        "alquiler-coche-tenerife",
+        "titsa-tenerife"
+      ]
     }
   ],
   "municipios": [
@@ -1883,15 +2553,15 @@
     {
       "slug": "puerto-de-la-cruz",
       "name": "Puerto de la Cruz",
-      "emoji": "🌴",
+      "emoji": "🌺",
       "coordinates": {
-        "lat": 28.4147,
-        "lng": -16.549
+        "lat": 28.4148,
+        "lng": -16.5503
       },
-      "shortDescription": "La capital turística del norte: piscinas Martiánez, Loro Parque y el primer resort histórico de Tenerife",
-      "description": "Puerto de la Cruz es el destino turístico histórico de Tenerife y el más importante del norte de la isla. Las piscinas Lago Martiánez, diseñadas por César Manrique, el Jardín Botánico —uno de los más antiguos de España— y el Loro Parque hacen de este municipio la referencia cultural y de ocio del norte. Su casco histórico conserva el encanto de la ciudad que durante décadas recibió a la aristocracia europea.",
+      "shortDescription": "El jardín del norte: Loro Parque, el Lago Martiánez y la ciudad más pintoresca de Tenerife",
+      "description": "Puerto de la Cruz es la capital turística del norte de Tenerife y uno de los destinos más encantadores del archipiélago. El Lago Martiánez, diseñado por César Manrique, es una obra maestra del diseño canario. Loro Parque, uno de los mejores zoos del mundo, y el casco histórico con sus casas coloniales hacen de este municipio una visita imprescindible en el norte.",
       "images": {
-        "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
+        "hero": "/images/tenerife/playas/puerto-de-la-cruz/hero.avif",
         "gallery": []
       }
     },
@@ -1900,13 +2570,13 @@
       "name": "Güímar",
       "emoji": "🔺",
       "coordinates": {
-        "lat": 28.3108,
-        "lng": -16.3939
+        "lat": 28.3099,
+        "lng": -16.4108
       },
-      "shortDescription": "Las misteriosas pirámides escalonadas en el sureste tranquilo de Tenerife",
-      "description": "Güímar es un municipio del sureste de Tenerife famoso por sus pirámides escalonadas de piedra volcánica negra, estudiadas por Thor Heyerdahl en los años 90. El entorno es uno de los más tranquilos y auténticos de la isla, lejos del turismo masivo del sur.",
+      "shortDescription": "Las pirámides de Güímar y el valle más soleado del este de Tenerife",
+      "description": "Güímar es conocido mundialmente por sus enigmáticas Pirámides de Güímar, estructuras escalonadas estudiadas por Thor Heyerdahl que aún generan debate. El municipio ocupa un valle fértil en el este de Tenerife con clima privilegiado. El Parque Etnográfico de las Pirámides ofrece una experiencia cultural única.",
       "images": {
-        "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
+        "hero": "/images/tenerife/guimar/hero.avif",
         "gallery": []
       }
     },
@@ -1915,13 +2585,13 @@
       "name": "Vilaflor",
       "emoji": "🌲",
       "coordinates": {
-        "lat": 28.1568,
-        "lng": -16.6334
+        "lat": 28.1567,
+        "lng": -16.6376
       },
-      "shortDescription": "El pueblo más alto de España: pinar canario, Paisaje Lunar y acceso al Parque Nacional",
-      "description": "Vilaflor, a 1.400 metros de altitud, es el pueblo más alto de España y la puerta sur al Parque Nacional del Teide. Su entorno de pinares centenarios de Pino Canario alberga el Paisaje Lunar, una de las formaciones geológicas más singulares de las Canarias.",
+      "shortDescription": "El pueblo más alto de España y la puerta sur al Teide entre pinares centenarios",
+      "description": "Vilaflor es el municipio más elevado de España, a más de 1.400 metros de altitud entre pinares canarios. Su posición privilegiada lo convierte en el punto de partida ideal para rutas senderistas hacia el Teide desde el sur. El aire limpio de montaña y la tranquilidad del pueblo hacen de Vilaflor un refugio auténtico lejos del turismo masivo.",
       "images": {
-        "hero": "/images/tenerife/naturaleza/paisaje-lunar/hero.avif",
+        "hero": "/images/tenerife/vilaflor/hero.avif",
         "gallery": []
       }
     }
