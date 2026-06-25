@@ -13,9 +13,7 @@
       },
       "images": {
         "hero": "/images/tenerife/teide/hero.avif",
-        "gallery": [
-          "/images/tenerife/teide/1.avif"
-        ]
+        "gallery": ["/images/tenerife/teide/1.avif"]
       },
       "audioPreview": "/audio/previews/es/teide-preview.mp3",
       "hasPremiumAudio": true,
@@ -46,20 +44,12 @@
       },
       "images": {
         "hero": "/images/tenerife/santa-cruz/hero.avif",
-        "gallery": [
-          "/images/tenerife/santa-cruz/1.avif"
-        ]
+        "gallery": ["/images/tenerife/santa-cruz/1.avif"]
       },
       "audioPreview": "/audio/previews/es/santa-cruz-preview.mp3",
       "hasPremiumAudio": true,
       "premiumRouteId": "volcano-route",
-      "tags": [
-        "ciudad",
-        "carnaval",
-        "cultura",
-        "puerto",
-        "auditorio"
-      ],
+      "tags": ["ciudad", "carnaval", "cultura", "puerto", "auditorio"],
       "visitDuration": "medio día",
       "emoji": "🏙️",
       "municipio": "santa-cruz",
@@ -78,20 +68,12 @@
       },
       "images": {
         "hero": "/images/tenerife/los-gigantes/hero.avif",
-        "gallery": [
-          "/images/tenerife/los-gigantes/1.avif"
-        ]
+        "gallery": ["/images/tenerife/los-gigantes/1.avif"]
       },
       "audioPreview": "/audio/previews/es/los-gigantes-preview.mp3",
       "hasPremiumAudio": true,
       "premiumRouteId": "volcano-route",
-      "tags": [
-        "acantilados",
-        "ballenas",
-        "delfines",
-        "barco",
-        "oeste"
-      ],
+      "tags": ["acantilados", "ballenas", "delfines", "barco", "oeste"],
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏔️",
@@ -1099,13 +1081,7 @@
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": [
-        "transporte",
-        "coche",
-        "alquiler",
-        "aeropuerto",
-        "movilidad"
-      ],
+      "tags": ["transporte", "coche", "alquiler", "aeropuerto", "movilidad"],
       "emoji": "🚗",
       "municipio": "granadilla",
       "discoverCarsLocation": "spain-canary-islands/tenerife",
@@ -1128,14 +1104,7 @@
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": [
-        "transporte",
-        "bus",
-        "guagua",
-        "titsa",
-        "público",
-        "económico"
-      ],
+      "tags": ["transporte", "bus", "guagua", "titsa", "público", "económico"],
       "emoji": "🚌",
       "municipio": "santa-cruz",
       "websiteUrl": "https://www.titsa.com"
@@ -1153,9 +1122,7 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/la-laguna/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/la-laguna/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/la-laguna/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1187,9 +1154,7 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/puerto-de-la-cruz/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/puerto-de-la-cruz/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1221,20 +1186,11 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/loro-parque/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/loro-parque/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/loro-parque/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": [
-        "zoo",
-        "orcas",
-        "pingüinos",
-        "familia",
-        "norte",
-        "premios"
-      ],
+      "tags": ["zoo", "orcas", "pingüinos", "familia", "norte", "premios"],
       "visitDuration": "Día completo",
       "difficulty": "easy",
       "emoji": "🦜",
@@ -1256,9 +1212,7 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/piramides-guimar/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/piramides-guimar/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1290,9 +1244,7 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/garcia-sanabria/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/garcia-sanabria/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/garcia-sanabria/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1428,9 +1380,7 @@
       },
       "images": {
         "hero": "/images/tenerife/naturaleza/pico-ingles/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/pico-ingles/1.avif"
-        ]
+        "gallery": ["/images/tenerife/naturaleza/pico-ingles/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1485,51 +1435,10 @@
       "mapsUrl": "https://maps.app.goo.gl/B8mVnUwAHG8sXYRS7"
     },
     {
-      "slug": "barranco-del-infierno",
-      "name": "Barranco del Infierno",
-      "shortDescription": "La ruta de senderismo más famosa de Tenerife: cascada de 80m y paredes de 200m",
-      "description": "El Barranco del Infierno es la excursión de senderismo más popular de Tenerife y una de las más espectaculares de Canarias. Parte del casco histórico de Adeje y asciende por un barranco de paredes verticales hasta una **cascada permanente de 80 metros** —la más alta de Tenerife—, todo en un entorno de vegetación subtropical frondosa y absolutamente ajeno al turismo de playa del sur.\n\n### La visita\nLa ruta es lineal, de 7,5 km de ida y vuelta con unos 350 metros de desnivel acumulado. El sendero sigue el cauce del barranco, con pasos estrechos, puentes de madera sobre el agua y zonas donde las paredes se cierran hasta unos pocos metros de anchura. El microclima húmedo del barranco mantiene una vegetación exuberante de helechos, tabaibas y tarajales. La cascada al final del recorrido es el gran premio.\n\n### Antes de ir\n- 🎟️ Acceso con reserva previa obligatoria y cupo diario limitado — reserva en la web del Cabildo\n- 🥾 Calzado de senderismo imprescindible — el terreno es irregular y hay partes mojadas\n- ⏱️ Duración: 3-4 horas ida y vuelta a ritmo tranquilo\n- 🚗 Aparcar en el pueblo de Adeje — el acceso al barranco es a pie desde el casco histórico\n- 💧 Llevar al menos 1,5 litros de agua por persona — en verano es muy caluroso\n\n### Recomendación\nEmpieza temprano (apertura a las 8h) para evitar el calor y las aglomeraciones. Reserva con varios días de antelación, especialmente en temporada alta.",
-      "island": "tenerife",
-      "category": "hiking",
-      "coordinates": {
-        "lat": 28.1213,
-        "lng": -16.7278
-      },
-      "images": {
-        "hero": "/images/tenerife/senderismo/barranco-infierno/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/barranco-infierno/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "senderismo",
-        "barranco",
-        "cascada",
-        "adeje",
-        "sur",
-        "popular"
-      ],
-      "visitDuration": "4-5h",
-      "difficulty": "moderate",
-      "emoji": "🥾",
-      "top": false,
-      "municipio": "adeje",
-      "track": {
-        "mapsUrl": "https://maps.app.goo.gl/SxQx5QGqQkRH5K9d8",
-        "distance": "7.5 km",
-        "duration": "3-4h",
-        "type": "ida-vuelta",
-        "elevationGain": 350
-      },
-      "mapsUrl": "https://maps.app.goo.gl/SxQx5QGqQkRH5K9d8"
-    },
-    {
       "slug": "sendero-masca",
       "name": "Barranco de Masca",
-      "shortDescription": "El descenso más épico de Tenerife: 5km por un cañón de 300m hasta el mar",
-      "description": "El Barranco de Masca es la ruta de senderismo más épica de Tenerife y una de las más espectaculares de toda España. El sendero desciende desde el pueblo de Masca a través de un **cañón de paredes de hasta 300 metros** hasta llegar a una cala virgen a la que solo se puede acceder a pie o en barco. Un recorrido de 5 km que concentra todo el poder geológico del macizo de Teno.\n\n### La visita\nEl descenso dura entre 2,5 y 3,5 horas por terreno irregular, con tramos de escalada baja, pasos por el lecho del barranco con agua y zonas de vegetación subtropical que contrastan con las paredes de roca volcánica desnuda. Al final, una pequeña **playa de cantos negros** te espera junto al Atlántico. El regreso es obligatoriamente en **barco hasta Los Gigantes** —el pueblo no tiene otro acceso por tierra— y forma parte de la experiencia.\n\n### Antes de ir\n- 🎟️ Reserva el barco de regreso ANTES de empezar (salidas desde la cala a las 13h, 15h y 16h aprox.) — sin reserva puedes quedarte atrapado\n- 🥾 Calzado de senderismo de agarre con suela de goma — hay partes mojadas y resbaladizas\n- ⏱️ Sale temprano desde Masca (8-9h) para llegar antes del calor del mediodía\n- 💧 Mínimo 2 litros de agua por persona — no hay fuentes en el recorrido\n- ⚠️ La ruta está cerrada en días de lluvia o riesgo de crecida\n\n### Recomendación\nReserva el barco con días de antelación, llega a Masca antes de las 9h y organiza la logística antes de empezar: la recompensa al final —una cala virgen y el barco cruzando frente a Los Gigantes— lo vale todo.",
+      "shortDescription": "El descenso más épico de Tenerife: 5 km por un cañón de 300 m hasta el mar — reserva obligatoria, regulado por el Cabildo de Tenerife",
+      "description": "El Barranco de Masca es la ruta de senderismo más épica de Tenerife: 5 km de descenso por un **cañón de paredes de hasta 300 metros** hasta una cala virgen accesible solo a pie o en barco. El regreso es en **barco o kayak hasta Los Gigantes** y forma parte de la experiencia.\n\n### El descenso\nTerreno irregular con tramos de escalada baja, pasos por el lecho del barranco y vegetación subtropical entre paredes de roca volcánica. Al final, una pequeña **playa de cantos negros** junto al Atlántico. Duración: 2,5–3,5 horas de bajada.\n\n### Reserva obligatoria\nAcceso regulado — reserva previa en [caminobarrancodemasca.com](https://www.caminobarrancodemasca.com) (solo **miércoles a sábado**, cupo limitado). Reserva también el barco/kayak de vuelta por separado desde la misma web.\n- 🎫 Adulto no residente: **40,66 €** · Niño: **20,33 €**\n- 🎫 Residente Canarias: **7,49 €** · Niño: **3,75 €** (residentes Tenerife: devolución posterior)\n\n### Transporte\nLanzadera desde el **parking del cementerio de Santiago del Teide** (7:00–14:00 h, cada 20 min, 18 plazas — prioridad con ticket del barranco). Para visitar solo el caserío: [Línea 355](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-355) o [Línea 365](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-365). Aparcamiento en el caserío limitado a 2h (8:00–14:00).\n\n### Qué llevar\n- 🥾 Botas de montaña cerradas (obligatorio) · ⛑️ Casco (prestado en el Camino)\n- 💧 Mínimo 1,5 L de agua por persona · 🍎 Comida para toda la jornada\n- 🧴 Protector solar + gafas de sol + gorro · 🩺 Bastones recomendados\n\n### Checklist antes de salir\n- ✅ Reserva del barranco confirmada (mié–sáb)\n- ✅ Reserva del barco/kayak de vuelta hecha\n- ✅ Llegar al Centro de Visitantes de Masca **30 min antes** de tu hora\n- ✅ Estar en la parada de guagua de Santiago del Teide **1 hora antes**\n- ✅ Llevar tickets del barranco Y del barco para el control de acceso\n\n### ⚠️ Alertas de seguridad\n- 📵 **Sin señal móvil** en el interior — avisa a alguien de tu plan antes de entrar\n- ☀️ **Golpe de calor** — el barranco supera los 40 °C en verano; empieza temprano\n- 🌊 **Crecidas repentinas** — lluvia en las cumbres puede inundar el barranco en minutos; no entres con nubes oscuras sobre el Teno\n- 🪨 **Terreno irregular** — roca resbaladiza y escalada baja; un tobillo torcido en el interior es emergencia seria\n- 🚑 **Rescate difícil** — decenas de evacuaciones al año; no subestimes la ruta\n- 🔋 **Batería al 100%** antes de salir · **Emergencias: 112** · Centro Visitantes Masca: +34 822 143 890",
       "island": "tenerife",
       "category": "hiking",
       "coordinates": {
@@ -1537,10 +1446,8 @@
         "lng": -16.8432
       },
       "images": {
-        "hero": "/images/tenerife/senderismo/barranco-masca/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/barranco-masca/1.avif"
-        ]
+        "hero": "/images/tenerife/senderos/barranco_de_masca_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1556,103 +1463,17 @@
       "visitDuration": "5-7h",
       "difficulty": "hard",
       "emoji": "🥾",
-      "top": false,
+      "top": true,
       "municipio": "santiago-del-teide",
       "track": {
-        "mapsUrl": "https://maps.app.goo.gl/R5Yp4K2nJ3nQbPUA7",
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1fHot3XmVsRHum4kLq2IppT8qBjTOlXU",
         "distance": "5 km",
         "duration": "2.5-3.5h",
         "type": "lineal",
         "elevationGain": -490,
-        "tips": "Ruta solo de bajada. Regreso obligatorio en barco desde la cala hasta Los Gigantes."
+        "tips": "Ruta solo de bajada. Reserva obligatoria en caminobarrancodemasca.com (mié-sáb). Regreso en barco o kayak desde la cala hasta Los Gigantes. Lanzadera desde parking cementerio de Santiago del Teide."
       },
-      "mapsUrl": "https://maps.app.goo.gl/R5Yp4K2nJ3nQbPUA7"
-    },
-    {
-      "slug": "sendero-paisaje-lunar",
-      "name": "Ruta Paisaje Lunar (PR-TF 72)",
-      "shortDescription": "El camino a las columnas de toba blanca volcánica entre pinares a 2.000 m de altitud",
-      "description": "El sendero PR-TF 72 es la ruta oficial de acceso al Paisaje Lunar, una de las formaciones geológicas más singulares de Tenerife. El camino discurre íntegramente entre el **bosque de Pino Canario** de Vilaflor —el más alto de Tenerife—, con el olor a resina y la vista filtrada entre las copas hasta que de repente el pinar se abre y aparecen las agujas de toba blanca.\n\n### La visita\nEl sendero de 6 km ida y vuelta tiene un desnivel suave de unos 200 metros y transcurre por una pista forestal bien señalizada. El bosque de Pino Canario a esta altitud es impresionante en sí mismo: árboles de 20-30 metros de altura, el suelo cubierto de pinocha y el silencio absoluto roto solo por el viento. A mitad de camino, las vistas al sur de la isla —con el Atlántico en el horizonte— son excepcionales.\n\n### Antes de ir\n- 🚗 Aparcamiento en la zona habilitada junto a la TF-21, km 64 aproximadamente (señalizado)\n- 🥾 Calzado cómodo — el sendero está bien mantenido y no requiere equipo técnico\n- 🌡️ En invierno puede haber nieve o hielo en la pista — consulta condiciones antes de salir\n- ⏱️ Duración total: 2,5-3,5h con parada fotográfica en el Paisaje Lunar\n- 📸 La mejor luz para fotografiar las formaciones es entre las 10h y las 13h\n\n### Recomendación\nCombina este sendero con una visita al Parque Nacional del Teide el mismo día: ambos están en la TF-21 y la combinación constituye el mejor plan de interior de Tenerife.",
-      "island": "tenerife",
-      "category": "hiking",
-      "coordinates": {
-        "lat": 28.1687,
-        "lng": -16.6319
-      },
-      "images": {
-        "hero": "/images/tenerife/senderismo/paisaje-lunar/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/paisaje-lunar/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "senderismo",
-        "pinar",
-        "vilaflor",
-        "altitud",
-        "volcánico",
-        "PR-TF 72"
-      ],
-      "visitDuration": "3-4h",
-      "difficulty": "easy",
-      "emoji": "🥾",
-      "municipio": "vilaflor",
-      "track": {
-        "mapsUrl": "https://maps.app.goo.gl/VpSxEbKnzJcGCpnS8",
-        "distance": "6 km",
-        "duration": "2.5-3.5h",
-        "type": "ida-vuelta",
-        "elevationGain": 200,
-        "maxAltitude": 2200,
-        "code": "PR-TF 72"
-      },
-      "mapsUrl": "https://maps.app.goo.gl/VpSxEbKnzJcGCpnS8"
-    },
-    {
-      "slug": "montana-blanca-teide",
-      "name": "Montaña Blanca — Acceso al Teide",
-      "shortDescription": "La ruta de senderismo al cráter del Teide: 8km a 3.718m por lava solidificada",
-      "description": "La ruta desde Montaña Blanca hasta el cráter del Teide es el ascenso a pie más importante de España y uno de los más espectaculares de Europa. Sin teleférico, sin colas: solo tú, el sendero de lava solidificada y el horizonte del Atlántico a tus pies. Una experiencia que muy pocos olvidan.\n\n### La visita\nEl sendero (TF-38) parte de la zona de aparcamiento de Montaña Blanca, a 2.350 metros de altitud, y asciende 8 km hasta el Refugio Altavista (3.260m) y de ahí al cráter (3.718m). El paisaje cambia radicalmente con la altitud: primero lava picón rojo, luego huevos del Teide (formaciones de lava en forma de huevo), luego roca volcánica pura y finalmente el borde del cráter con fumarolas de azufre. La cima requiere **permiso previo gratuito** del Parque Nacional.\n\n### Antes de ir\n- 🎫 El permiso para el cráter es gratuito pero limitado (200 personas/día) — reserva en reservasparquesnacionales.es con meses de antelación\n- 🌄 Sube la tarde anterior y duerme en el Refugio Altavista para hacer la cumbre al amanecer\n- 🌡️ La temperatura en la cumbre puede ser de -10°C incluso en verano — equipo de montaña imprescindible\n- 💧 Bebe agua constantemente — la altitud deshidrata más rápido de lo que parece\n- ⛑️ El mal de altura puede afectar a partir de 2.500m — descansa si sientes mareo o dolor de cabeza\n\n### Recomendación\nDuerme en el Refugio Altavista, sube a la cumbre para el amanecer con la isla cubierta de nubes bajo tus pies, y baja por el teleférico: es la mejor experiencia de montaña que puedes tener en Canarias.",
-      "island": "tenerife",
-      "category": "hiking",
-      "coordinates": {
-        "lat": 28.2723,
-        "lng": -16.6424
-      },
-      "images": {
-        "hero": "/images/tenerife/senderismo/montana-blanca/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/montana-blanca/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "senderismo",
-        "teide",
-        "cumbre",
-        "alta-montaña",
-        "TF-38",
-        "altavista"
-      ],
-      "visitDuration": "8-10h",
-      "difficulty": "hard",
-      "emoji": "🏔️",
-      "top": false,
-      "municipio": "la-orotava",
-      "track": {
-        "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9",
-        "distance": "16 km",
-        "duration": "8-10h",
-        "type": "ida-vuelta",
-        "elevationGain": 1370,
-        "maxAltitude": 3718,
-        "code": "TF-38",
-        "tips": "Permiso gratuito obligatorio para el cráter. Refugio Altavista disponible para pernocta."
-      },
-      "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9"
+      "mapsUrl": "https://maps.app.goo.gl/5UgBvXUA7rkAusds7"
     },
     {
       "slug": "gastronomia-tenerife",
@@ -1667,9 +1488,7 @@
       },
       "images": {
         "hero": "/images/tenerife/cultura/gastronomia/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/gastronomia/1.avif"
-        ]
+        "gallery": ["/images/tenerife/cultura/gastronomia/1.avif"]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -2331,6 +2150,457 @@
         "sur",
         "premium"
       ]
+    },
+    {
+      "slug": "alto-guajara-teide",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2183,
+        "lng": -16.5683
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/alto_guajara.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "4-5h",
+      "difficulty": "hard",
+      "emoji": "⛰️",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "mapsUrl": "https://maps.app.goo.gl/oSQvSqo5ns48Y9z17",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1iB8HM42PJFwQwciItIg4NEU6CNKsAKY",
+        "distance": "11,9 km",
+        "duration": "3-4h",
+        "type": "circular",
+        "elevationGain": 621,
+        "tips": "Sale del Parador de Las Cañadas: S-4 → S-5 → Degollada de Guajara → S-15 (cima) → S-31 (bajada). Ojo al tramo con riesgo de desprendimientos en el S-31. Sin fuentes de agua en toda la ruta."
+      },
+      "tags": [
+        "alta-montaña",
+        "teide",
+        "vilaflor",
+        "cumbre",
+        "circular",
+        "tajinaste",
+        "astronomia",
+        "dificil"
+      ],
+      "name": "Alto de Guajara",
+      "shortDescription": "La cuarta cumbre de Tenerife a 2.718 m: ruta circular desde el Parador por los senderos S-4, S-5 y S-15 con vistas del Teide y las Islas Canarias en días despejados",
+      "description": "Subir al **Alto de Guajara** es la alternativa más accesible para quienes quieren alcanzar una cumbre de verdad en el entorno del Teide sin necesitar permiso especial. A **2.718 metros** de altitud, es la cuarta montaña más alta de Tenerife, y la recompensa son unas vistas que lo abarcan todo: el Teide dominando el horizonte, la inmensidad de las Cañadas, las cumbres de Ucanca y —en días claros— las siluetas de otras islas Canarias flotando sobre el Atlántico.\n\n### La ruta\nLa salida es desde el **Parador de Las Cañadas del Teide** (a unos 2.100 m de altitud), lo que significa que empiezas ya en altura y la diferencia de desnivel real es de solo 621 m —bastante asequible para una ruta en alta montaña.\n\nEl recorrido combina tres senderos oficiales del Parque Nacional:\n\n1. **S-4 (Siete Cañadas)** — arranque fácil por la llanura de Las Cañadas. En época de floración es habitual encontrar aquí el **tajinaste rojo** (*Echium wildpretii*), la planta más emblemática del Parque, en plena explosión de color\n2. **S-5** — en menos de 1,5 km sube hasta la **Degollada de Guajara**, el collado que abre la vista hacia el sur de la isla. Clasificado de dificultad alta pero técnicamente sin problemas para alguien habituado a la montaña\n3. **S-15** — la cresta final hasta la cima. En la cumbre aguardan los restos de la **cabaña del astrónomo Jean Mascart**, que se instaló aquí en 1910 para observar el **cometa Halley** en su paso por el sistema solar. Las vistas desde arriba son absolutamente espectaculares\n4. **S-31** — el descenso, el tramo más técnico de la jornada. Requiere atención: hay un buen desnivel con suelo suelto y existe un punto señalizado con **riesgo de desprendimiento de rocas** durante unos centenares de metros junto a una pared vertical. Sin viento fuerte, el paso no supone riesgo real, pero hay que cruzarlo sin entretenerse\n\n### Qué llevar\n- 🥾 Botas de montaña con suela de agarre (el S-31 tiene tierra suelta)\n- 💧 Mínimo 1,5 L de agua por persona — **no hay fuentes en todo el recorrido**\n- 🍎 Comida suficiente — la altitud aumenta el gasto energético\n- 🧥 Cortavientos o forro polar — aunque abajo haga calor, en la cima el viento puede bajar la temperatura drásticamente\n- 🧴 Protector solar de factor alto — a 2.700 m la radiación UV es muy intensa\n- 🩺 Bastones de senderismo — especialmente útiles en el descenso por el S-31\n\n### ⚠️ Alertas de seguridad — leer antes de salir\nEl Parque Nacional del Teide es un entorno de alta montaña real. No subestimes la ruta por su corta distancia:\n\n- 🏔️ **Mal de altura** — aunque 2.718 m no es extremo, algunas personas experimentan dolor de cabeza, náuseas o mareos por encima de 2.000 m. Si sientes síntomas, baja sin dudar\n- 📵 **Señal de móvil intermitente o nula** en buena parte de la ruta — informa a alguien de tu plan antes de salir\n- 🌡️ **Cambios bruscos de temperatura** — en la cima el viento puede hacer que 25 °C en el fondo de Las Cañadas se conviertan en 10 °C o menos. Lleva siempre una capa extra\n- ☁️ **Niebla repentina** — las nubes pueden cerrar el paso de visibilidad en minutos. Si hay previsión de niebla, pospón la ruta\n- 🪨 **Riesgo de desprendimiento** en el S-31 — hay una advertencia oficial en el tramo junto a la pared de roca. Crúzalo con rapidez y sin detenerse\n- ☀️ **Radiación UV extrema** — a esta altitud y con cielo despejado la radiación es significativamente mayor que en la costa. Protector solar obligatorio incluso en días nublados\n- 🚑 **Evacuación difícil** — en caso de lesión en la cresta o la cima, el acceso para los servicios de emergencia es complicado. Sé conservador con el ritmo\n\n**Emergencias:** 112\n**Parque Nacional del Teide:** +34 922 922 371\n\n### Recomendación\nSale entre las 7:00 y las 8:00 para completar la subida antes del mediodía, cuando el calor en las Cañadas empieza a apretar y las nubes de la tarde pueden reducir visibilidad. El **Parador de Las Cañadas** tiene cafetería — un café caliente antes de salir y una cerveza fría al volver es el plan perfecto. Si coincide la época de floración del tajinaste (mayo-junio), el S-4 de ida es una experiencia visual difícil de olvidar."
+    },
+    {
+      "slug": "roques-garcia-teide",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2097,
+        "lng": -16.6364
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/roques_de_garcia_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🪨",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "mapsUrl": "https://maps.app.goo.gl/yPB1Ng8jwoKpww1D6",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1O7Zvl9zpImTO7lUeohl-3_KZSrjfxck",
+        "distance": "3,66 km",
+        "duration": "1-1,5h",
+        "type": "circular",
+        "elevationGain": 151,
+        "tips": "Sendero 3 del P.N. del Teide. Sale del parking frente al Parador (TF-21, km 46,5, Mirador de la Ruleta). Perfectamente señalizado — sin riesgo de perderse."
+      },
+      "tags": [
+        "roques",
+        "teide",
+        "circular",
+        "facil",
+        "vilaflor",
+        "volcanico",
+        "paisaje-lunar",
+        "cañadas"
+      ],
+      "name": "Roques de García",
+      "shortDescription": "El paseo más fotogénico del Parque Nacional del Teide: ruta circular de 3,7 km entre las formaciones volcánicas de los Roques con vistas al Llano de Ucanca y al Teide",
+      "description": "El sendero de los **Roques de García** es la ruta circular más accesible y espectacular del Parque Nacional del Teide. Solo 3,7 km bien señalizados entre formaciones volcánicas de fonolita que parecen sacadas de otro planeta, con el Teide dominando el horizonte y el Llano de Ucanca desplegándose a los pies. Sin desnivel serio, sin riesgo de perderse: la ruta perfecta para todos los públicos en alta montaña.\n\n### La ruta\nSale y termina en el **parking frente al Parador Nacional de Las Cañadas del Teide** (TF-21, km 46,5, Mirador de la Ruleta). El sendero está perfectamente trazado y balizado — es literalmente imposible perderse. El recorrido rodea las formaciones rocosas de los Roques de García, con vistas constantes al **Llano de Ucanca**, el gran llano blanco de las Cañadas, y al cono del Teide sobre el fondo.\n- 📍 **Roques de García** — agujas de fonolita de hasta 50 m de altura formadas hace millones de años\n- 🌋 **Roque Cinchado** — la formación más icónica, conocida como \"el dedo de Dios\"\n- 🏜️ **Llano de Ucanca** — la planicie de arena volcánica blanca que rodea los roques\n- 🌄 **Teide en cada curva** — el volcán aparece desde múltiples ángulos a lo largo del recorrido\n\n### Antes de ir\n- 🚗 Aparcamiento en el Mirador de la Ruleta, frente al Parador (TF-21, km 46,5) — gratuito\n- ⏱️ Duración aproximada: 1–1,5 horas a ritmo tranquilo\n- 🥾 Calzado cómodo de suela dura — el terreno es pedregoso pero sin dificultad técnica\n- 📸 Mejor luz para fotos: primera hora de la mañana (luz dorada sobre los roques) o última hora de la tarde\n- 🍽️ La cafetería del Parador está a metros del inicio del sendero\n\n### ⚠️ Alertas de seguridad\nA pesar de ser fácil, estás a más de 2.000 m de altitud en el interior de un parque volcánico:\n- 🏔️ **Altitud** — algunas personas sienten mareos o dolor de cabeza por encima de 2.000 m; descansa si lo notas\n- ☀️ **Radiación UV extrema** — sin vegetación que dé sombra, el sol pega directo a 2.100 m; protector solar obligatorio\n- 🌡️ **Cambios bruscos de temperatura** — el viento puede enfriar el ambiente en minutos; lleva una capa extra\n- 💧 **Sin fuentes de agua** en el recorrido — lleva al menos 1 litro\n- 📵 **Señal intermitente** — avisa a alguien antes de salir, aunque sea una ruta corta\n- **Emergencias: 112** · Parque Nacional del Teide: +34 922 922 371\n\n### Recomendación\nLa ruta más fácil del Parque no significa la menos impresionante — al contrario. Los Roques de García son uno de los paisajes más fotografiados de España. Llega temprano para tener el parking libre y la luz perfecta, y combínala con la visita al Parador y al Llano de Ucanca. Si tienes más tiempo, el sendero del Alto de Guajara sale desde el mismo punto."
+    },
+    {
+      "slug": "bosque-enigmas-anaga",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.5447,
+        "lng": -16.3242
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/bosque_encantado_anaga_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🌿",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/MUgH51za7TChCez36",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1--ceZLTCOhbhpGOpbk6FsxG8fJ50QjY",
+        "distance": "4,95 km",
+        "duration": "1,5-2h",
+        "type": "circular",
+        "elevationGain": 184,
+        "tips": "Sale del Centro de Visitantes de Cruz del Carmen (recomendado) o del Mirador de Zapata. Señalizado con postes del 1 al 7. Cruza la TF-143 en un tramo. Suelo resbaladizo tras la lluvia horizontal — calzado con agarre obligatorio."
+      },
+      "tags": [
+        "laurisilva",
+        "anaga",
+        "bosque",
+        "niebla",
+        "circular",
+        "facil",
+        "familia",
+        "naturaleza",
+        "la-laguna"
+      ],
+      "name": "Bosque de los Enigmas",
+      "shortDescription": "Un paseo entre árboles centenarios cubiertos de musgo en el corazón de la laurisilva de Anaga: niebla, helechos gigantes y silencio en uno de los bosques más antiguos del planeta — circular, fácil y sin reserva previa",
+      "description": "Hay senderos que impresionan por sus vistas. El **Bosque de los Enigmas** impresiona por su atmósfera. Una ruta circular de casi 5 km entre laurisilva milenaria en el corazón del Parque Rural de Anaga: árboles centenarios retorcidos cubiertos de musgo, helechos que llegan a la altura de la cabeza, niebla permanente gracias a los vientos alisios y un silencio solo roto por el canto de los vencejos. Un bosque que parece sacado de un cuento —y que tiene 20 millones de años para contarlo.\n\n### La ruta\nSale del **Centro de Visitantes de Cruz del Carmen** (la mejor opción: aparcamiento fácil, personal que resuelve dudas y mapas gratuitos). Se cruza la TF-12 justo enfrente del centro y a los pocos metros el asfalto desaparece: el bosque se cierra inmediatamente sobre el sendero.\n\nLa ruta está señalizada con **postes del 1 al 7** — imposible perderse. Desde el poste 5 se avanza en el sentido de las agujas del reloj. En el tramo de la **Hija Cambada** se ven laureles portugueses (*Prunus lusitanica*) caídos por el viento que han rebrotado en horizontal: árboles vivos tumbados que siguen creciendo desde el suelo. Más adelante, el **Mirador de Zapata** —habitualmente cubierto por el mar de nubes— con vistas hacia el norte de la isla cuando se abre la niebla.\n\nA lo largo del recorrido, el sendero cruza una vez la TF-143, carretera de poco tráfico, antes de volver a adentrarse en el bosque para regresar al punto de partida.\n\n### Lo que hace especial esta ruta\n- 🌿 **Laurisilva milenaria** — fósil viviente de hace 20-50 millones de años, hoy solo sobrevive en las Canarias, Madeira y Azores\n- 🌫️ **Niebla permanente** — los alisios traen lluvia horizontal que mantiene el bosque húmedo incluso en verano\n- 🌲 **Flora única**: tilos, viñátigos, paloblancos, brezos, fayas, acebiños, musgos, líquenes y helechos gigantes\n- 🦅 **Vencejos negros** (*Apus unicolor*) sobrevolando el bosque\n- 📱 **Sendero autoguiado** — la Reserva de la Biosfera de Anaga ofrece una guía oficial en 4 idiomas con enigmas y reflexiones sobre el bosque\n- 👨‍👩‍👧 **Apto para toda la familia** — incluso para niños pequeños y personas con rodillas sensibles\n- 🎟️ **Acceso libre y gratuito** — sin reserva previa\n\n### Antes de ir\n- 🚗 Aparcamiento en el Centro de Visitantes Cruz del Carmen (gratuito, TF-12 Anaga)\n- 🥾 Calzado con agarre — el suelo húmedo y las raíces hacen el terreno resbaladizo\n- 🧥 Lleva una capa extra siempre — incluso en julio la niebla y el viento pueden enfriar el ambiente\n- 💧 El sendero es corto pero lleva agua — la humedad ambiental puede desorientar\n- 📱 Descarga la guía autoguiada oficial en [reservabiosfera.tenerife.es](https://reservabiosfera.tenerife.es/descubre-anaga/senderos/el-bosque-de-los-enigmas/) antes de salir (disponible en ES/EN/DE/FR)\n\n### ⚠️ Alertas de seguridad\nLa ruta es fácil pero el entorno tiene características propias de la montaña canaria:\n- 🌫️ **Niebla densa** — puede reducir visibilidad en segundos; mantente en el sendero señalizado\n- 🌧️ **Suelo siempre húmedo** — raíces y barro resbaladizo en cualquier época del año\n- 📵 **Señal de móvil intermitente** — avisa a alguien antes de salir\n- 🌡️ **Temperatura más fría** de lo esperado — Anaga puede estar 10 °C más fresco que el sur de la isla\n- **Emergencias: 112** · Centro de Visitantes Cruz del Carmen: +34 922 633 576\n\n### Recomendación\nCombínala con el **Sendero de los Sentidos** (sale del mismo punto y es igual de asequible) para completar una mañana entera en la laurisilva de Anaga. Para comer después, el caserío de **Las Carboneras** a 20 minutos en coche tiene restaurantes de cocina canaria tradicional. Evita el horario de mediodía en verano — no por el calor, sino porque es cuando hay más niebla y el bosque está en su momento más mágico."
+    },
+    {
+      "slug": "punta-hidalgo-chinamada",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.5747,
+        "lng": -16.3308
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/chinamada_anaga_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "3-4h",
+      "difficulty": "moderate",
+      "emoji": "🏘️",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/Jv4LEbniXoz2k2kW8",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1vmh4CIBimp8XXHQnOZMHPdfwDnoEp7I",
+        "distance": "10,41 km",
+        "duration": "3-3,5h",
+        "type": "circular",
+        "elevationGain": 703,
+        "tips": "Sale de Punta del Hidalgo (6 m sobre el mar) y sube sin tregua hasta Chinamada (627 m). Todo sube a la ida y todo baja a la vuelta. El tramo alternativo de regreso tiene 200-300 m algo expuesto pero perfectamente pasable. Forma parte del trazado de la K42 Anaga."
+      },
+      "tags": [
+        "chinamada",
+        "anaga",
+        "cuevas",
+        "pueblo-troglodita",
+        "laurisilva",
+        "moderado",
+        "circular",
+        "costa",
+        "la-laguna",
+        "k42"
+      ],
+      "name": "Punta del Hidalgo → Chinamada",
+      "shortDescription": "Desde el mar hasta un pueblo de casas-cueva a 627 metros: la ruta de Punta del Hidalgo a Chinamada cruza el corazón de la laurisilva de Anaga por el trazado de la mítica K42 — exigente, circular y absolutamente única",
+      "description": "Hay rutas que llevan a paisajes. Esta lleva a un mundo aparte. Subir desde la costa de **Punta del Hidalgo** hasta **Chinamada** es encontrarse, después de 700 metros de desnivel, con uno de los últimos **pueblos trogloditas habitados de Europa**: casas excavadas en la roca volcánica donde familias siguen viviendo exactamente igual que hace siglos. Y la recompensa no es solo la llegada — es el viaje entero por la laurisilva de Anaga, el mismo camino que recorren los corredores de la mítica **K42 Anaga** cada año.\n\n### La ruta\nEl punto de partida es **Punta del Hidalgo**, pequeño pueblo costero del norte de Tenerife famoso por sus piscinas naturales y su faro volcánico. Desde aquí el sendero sube sin regalos: todo son metros ganados, metro a metro, por un bosque de laurisilva cada vez más denso y envolvente.\n\nLa subida discurre por un camino bien marcado y fácil de seguir. El bosque cambia a medida que se gana altitud: primero tabaibal y cardonal costero, después laureles, brezos y helechos gigantes que van cerrando el sendero conforme la niebla de los alisios aparece entre los árboles.\n\nAl llegar a **Chinamada** (627 m), el paisaje cambia completamente. Las casas están literalmente talladas en el macizo de toba volcánica: puertas, ventanas y chimeneas abiertas en la roca viva. El pueblo tiene una pequeña **ermita rupestre** y un **bar-restaurante** donde tomar un café o un bocadillo antes de la bajada — pausa obligatoria para asimilar el lugar.\n\nLa vuelta al punto de inicio es por el mismo sendero, aunque el autor de la ruta recomienda un **tramo alternativo de bajada** de 200-300 m algo expuesto pero bien pasable, que hace la experiencia más completa y variada.\n\n### Lo que hace especial esta ruta\n- 🏘️ **Chinamada** — pueblo de casas-cueva habitado, uno de los más singulares de toda Europa\n- 🌿 **Laurisilva de Anaga** — atraviesas uno de los bosques laurisilva más extensos y mejor conservados de Canarias\n- 🏃 **Trazado de la K42** — pisas el mismo camino que los mejores ultratraileros de la isla recorren a carrera\n- 🌊 **Contraste extremo** — partes a 6 m sobre el mar y llegas a 627 m: dos mundos en el mismo día\n- 🧭 **Bien señalizado** — sendero fácil de seguir; ideal para iniciarse en las rutas de montaña de Anaga\n- 🍺 **Bar en la cima** — Chinamada tiene restaurante. No muchas rutas de montaña ofrecen eso\n\n### Antes de ir\n- 🚗 Aparcamiento en Punta del Hidalgo junto a las piscinas naturales (gratuito)\n- 🥾 Calzado de trekking — 703 m de desnivel en 5 km de subida requieren suela con agarre\n- 💧 Lleva al menos 1,5 L de agua — no hay fuentes en la ruta\n- 🧥 Lleva ropa de abrigo — Chinamada puede estar en niebla y varios grados por debajo que la costa\n- ⏱️ Calcula 3-3,5 h en total; si añades el tramo alternativo de bajada o parada en Chinamada, suma 30-45 min más\n- ☀️ Mejor por la mañana — en verano la bajada a pleno sol puede ser dura\n\n### ⚠️ Alertas de seguridad\nEl sendero es **moderado** — asequible para senderistas con algo de experiencia, pero no es un paseo:\n- 📈 **703 m de desnivel** — toda la exigencia está en subir y bajar, no hay tramos llanos\n- 📵 **Señal de móvil muy limitada** en la zona alta de Anaga — descarga la ruta offline y avisa antes de salir\n- 🌫️ **Niebla repentina** en la cresta — puede bajar la visibilidad en minutos; mantente en el sendero\n- 🌧️ **Barro y raíces resbaladizas** tras la lluvia o con niebla horizontal — muy frecuente en Anaga\n- 🥵 **Calor en el tramo costero** en verano — sale temprano y lleva protección solar para la salida/llegada\n- 🌡️ **Diferencia de temperatura** — entre la costa y Chinamada puede haber hasta 8-10 °C de diferencia\n- **Emergencias: 112**\n\n### Recomendación\nCombina la subida a Chinamada con una visita a las **piscinas naturales de Punta del Hidalgo** al terminar la ruta — lo agradecerán tus piernas y tu ánimo. Si tienes coche, el pueblo de **Taganana** a 40 minutos está en el otro lado de la cresta de Anaga y vale la pena el desvío."
+    },
+    {
+      "slug": "vilaflor-paisaje-lunar",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.1595,
+        "lng": -16.6368
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/paisaje_lunar_vilaflor_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "5-7h",
+      "difficulty": "moderate",
+      "emoji": "🌕",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "mapsUrl": "https://maps.app.goo.gl/nTRg6xvPFUwxxwQY6",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1GNmGfMJ2-_p9XSpndckeBGZeqEhGt-M",
+        "distance": "13,36 km",
+        "duration": "5-6,5h",
+        "type": "circular",
+        "elevationGain": 656,
+        "tips": "Sale del callejón La Callita en Vilaflor (junto a la plaza). Señalizado como PR-TF 72. El ascenso es continuo hasta los dos miradores; el regreso es por tramo diferente. Sin tramos llanos — todo sube y todo baja. La ruta pasa por Casa Galinda, Casa Marrubial y Casa de los Llanitos."
+      },
+      "tags": [
+        "paisaje-lunar",
+        "vilaflor",
+        "corona-forestal",
+        "pinar-canario",
+        "geologico",
+        "moderado",
+        "circular",
+        "chimeneas-de-hadas",
+        "camino-real",
+        "sur",
+        "san-miguel-abona"
+      ],
+      "name": "Vilaflor → Paisaje Lunar",
+      "shortDescription": "Desde el pueblo más alto de España hasta un paisaje que parece de otro planeta: el PR-TF 72 sube 650 metros entre pinar centenario hasta Los Escurriales, las 'chimeneas de hadas' de piedra pómez blanca que convirtieron Tenerife en la luna",
+      "description": "Hay lugares en Tenerife que te hacen dudar del planeta en el que estás. El **Paisaje Lunar** —o como se llama realmente, **Los Escurriales**— es uno de ellos. Chimeneas de roca blanca que se elevan entre el verde del pinar canario, esculpidas durante siglos por el agua y el viento sobre depósitos de piedra pómez volcánica. El nombre \"lunar\" no es marketing: cuando los ves de frente, por un momento la comparación con la superficie de la Luna es inevitable. Y la mejor forma de llegar hasta ellos es la que llevan usando los tinerfeños desde hace siglos: el sendero PR-TF 72 desde **Vilaflor de Chasna**.\n\n### La ruta\nEl punto de partida es **Vilaflor**, uno de los pueblos más altos de España (1.400 m) y puerta sur del Parque Natural de la Corona Forestal. El sendero arranca en el **callejón La Callita**, junto a la plaza, y sube sin tregua a lo largo de 6,5 km de ascenso continuo —no hay tramos llanos, solo pinar y altura— antes de alcanzar los dos miradores del Paisaje Lunar a casi 1.960 m.\n\nEl regreso completa el círculo por un ramal diferente, pasando por la **Casa de los Llanitos** (antigua hacienda trashumante con un espectacular pino centenario) y volviendo a Vilaflor.\n\n### Hitos del camino\nEl sendero sigue en parte el **Camino Real de Chasna**, la vía histórica que ya usaban los guanches y que durante siglos conectó el norte y el sur de Tenerife para el traslado de ganado y mercancías. 500 años de historia bajo los pies. Por este mismo camino pasaron en el siglo XIX los naturalistas **Philip Barker Webb** y **Sabino Berthelot** para estudiar la geología del Teide.\n\nA lo largo del recorrido encontrarás:\n- **Terrazas de cultivo abandonadas** que el pinar canario está reconquistando lentamente\n- **Hornos de brea** — estructuras históricas donde se extraía pez (brea) de la *tea* del pino canario para impermeabilizar barcos. En Tenerife se conservan cerca de 200\n- **Casa Galinda** — donde se bifurca la ruta en su tramo circular\n- **Casa Marrubial** — hito en el ascenso por el PR-TF 72\n- **2 miradores del Paisaje Lunar** — el primero con vistas amplias, el segundo al pie de las formaciones\n\n### La geología del Paisaje Lunar\nEl nombre oficial del lugar es **Los Escurriales**, y hace referencia al proceso erosivo que lo formó. Hace cientos de miles de años, erupciones volcánicas depositaron grandes cantidades de **piedra pómez** (pumita) en esta zona. Con el tiempo, el agua corriendo por el barranco y el viento esculpieron esos depósitos de forma diferencial: los materiales más duros resistieron y los más blandos cedieron, creando las **chimeneas de hadas** de roca blanca que ves hoy.\n\nEl lugar fue *redescubierto* para el gran público en **1966** por el geólogo Telesforo Bravo. Desde entonces se ha convertido en uno de los enclaves geológicos más singulares de Canarias.\n\n⚠️ **Las formaciones son extremadamente frágiles.** Está prohibido acceder al interior de la zona — ni pisarlas ni escalarlas. Desde los miradores habilitados la vista es perfecta y el entorno queda protegido.\n\n### Flora y fauna del pinar\nEl camino discurre por uno de los pinares canarios más densos del sur de Tenerife. El **pino canario** (*Pinus canariensis*), con ejemplares de hasta 30 m, es una especie endémica resistente al fuego gracias a su corteza gruesa — puede rebrotar tras un incendio desde cero.\n\nFlora destacada: tajaste de bosque, chajora (endémica del sur de Tenerife), margaritas y amapolas de California. Fauna: **pinzón azul** (*Fringilla teydea*), picapinos, herrerillos, mosquiteros y cernícalos sobrevolando el pinar.\n\n### Antes de ir\n- 🚗 Aparcamiento en la plaza de Vilaflor (gratuito) · El sendero sale del callejón La Callita, junto a la iglesia\n- 🥾 Calzado de montaña — 650 m de desnivel en ascenso constante lo exigen\n- 💧 Lleva mínimo 2 L de agua — no hay fuentes en la ruta\n- 🎒 Comida para el día: la ruta dura entre 5 y 6,5 horas\n- 🧥 Ropa de abrigo — a 1.960 m puede hacer frío incluso en verano\n- 🌤️ Sale temprano: la subida bajo el sol del mediodía es dura en los meses de calor\n- 📍 Antes o después, recorre el casco histórico de Vilaflor: la iglesia de San Pedro Apóstol, el **Pino Gordo** (uno de los pinos canarios más anchos de la isla) y el Santuario del Hermano Pedro\n\n### ⚠️ Alertas de seguridad\nEl sendero tiene buena señalización pero el entorno de montaña exige respeto:\n- 📈 **Ascenso continuo de 650 m** — no hay tramos planos; quien no tenga hábito de senderismo lo notará\n- ⏱️ **Ruta larga** — 13 km en total con 5-6,5 h de marcha; no es recomendable para senderistas sin experiencia\n- 📵 **Señal de móvil limitada** en la zona alta — descarga la ruta offline y comunica tu plan antes de salir\n- 🥵 **Calor en los meses estivales** — la salida temprana es clave; el regreso al mediodía puede ser muy duro\n- ❄️ **Frío y viento** en cima — lleva ropa de abrigo incluso en verano\n- 🌨️ En invierno puede haber nieve o hielo en los tramos altos\n- 🚫 **Prohibido entrar en el Paisaje Lunar** — las formaciones son frágiles; respeta los miradores habilitados\n- **Emergencias: 112**\n\n### Recomendación\nEl madrugador tiene premio: el Paisaje Lunar al amanecer, con luz rasante y niebla entre los pinos, es de otro nivel. Para comer después, la plaza de Vilaflor tiene restaurantes con cocina canaria tradicional — papas arrugadas y carne fiesta después de 13 km son un plan redondo."
+    },
+    {
+      "slug": "afur-playa-tamadite",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.5636,
+        "lng": -16.3161
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/barranco_de_afur_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/66QJzA2uX5s9BpRg8",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1WorR-UceKux786CtDec2yZUSkVoILns",
+        "distance": "2,67 km",
+        "duration": "1-1,5h (solo bajada)",
+        "type": "lineal",
+        "elevationGain": 16,
+        "tips": "Sale de la plaza del Caserío de Afur (Ermita de San Pedro). Señalizado como PR-TF-8. Ruta de ida: 2,67 km de bajada hasta la playa. Para volver: el mismo camino en sentido inverso (+222 m de subida, ~1h más) o continúa hasta Taganana por el Lomo de Tamadite. Suelo fangoso y resbaladizo todo el año — calzado con agarre imprescindible."
+      },
+      "tags": [
+        "playa-negra",
+        "barranco",
+        "anaga",
+        "arroyo",
+        "cascada",
+        "virgen",
+        "la-laguna",
+        "pr-tf-8",
+        "costa-salvaje",
+        "facil"
+      ],
+      "name": "Afur → Playa de Tamadite",
+      "shortDescription": "Un barranco con arroyo permanente, cascadas, pozas y una playa de arena negra que solo se puede alcanzar a pie: el sendero más sorprendente de Anaga, corto pero cargado de paisaje y silencio absoluto",
+      "description": "No aparece en los carteles del aeropuerto ni en los folletos de los hoteles del sur. Para llegar a la **Playa de Tamadite** hay que ganársela: 2,67 km a pie por el **Barranco de Afur**, siguiendo un arroyo permanente entre cascadas y pozas, bajando 220 metros por las laderas más salvajes del Macizo de Anaga hasta una pequeña cala de arena negra volcánica rodeada de roques de 700 metros. Una de esas rutas que recuerdas toda la vida.\n\n### El punto de partida: Caserío de Afur\nEl sendero comienza en la **plaza del Caserío de Afur**, en la Ermita de San Pedro, bajo la imponente silueta del **Roque Páez** (586 m). Antes de empezar, la única venta del pueblo es parada obligatoria — el dueño conoce cada palmo del barranco y tiene las mejores historias del lugar.\n\nDesde la plaza, el sendero homologado **PR-TF-8** arranca entre huertas y casas dispersas por la zona conocida como **Los Huertos**, con vistas permanentes al anfiteatro de roques que rodea el valle: **Roque Negro** (741 m), **Roque del Fraile** (710 m) y **Roque de Taborno** (706 m) cierran el horizonte por los cuatro costados.\n\n### El Barranco de Afur: agua todo el año\nPocos barrancos de Tenerife llevan **arroyo permanente** — el de Afur es uno de ellos. El sendero desciende bordeando el cauce entre cañaverales, sauces canarios, vinagreras y tabaibas, con el sonido del agua como banda sonora constante.\n\nEl hito más espectacular de la ruta es el **dique rocoso** que cruza perpendicularmente el cauce del barranco: el agua cae en cascada de varios metros sobre una **poza rodeada de sauces canarios** — una imagen que parece pintada. Desde aquí, al remontar unos escalones de piedra, se abre la vista completa del **Valle de Afur** con el Roque Negro presidiendo el fondo.\n\nMás adelante aparece el **Charco de la Pasada**, otra poza alimentada por una segunda cascada que, según las leyendas locales, albergó anguilas de agua dulce (especie ya prácticamente extinta en las islas). Con condiciones favorables, es el sitio perfecto para un baño refrescante antes de llegar a la playa.\n\n### La Playa de Tamadite\nAl final del barranco, el cauce se abre entre las laderas y aparece la **Playa de Tamadite**: una pequeña ensenada de **arena negra volcánica y callaos** (grandes cantos rodados) entre la Punta de Tamadite y las laderas rocosas del Roque Marrubial (487 m), plagadas de cardones y tabaibas que caen verticalmente al mar.\n\nNo hay chiringuitos, no hay hamacas, no hay turistas con maletas. Solo roca, agua, viento y el Atlántico. Una de las playas más vírgenes y difíciles de alcanzar de Tenerife, y eso se nota en el silencio.\n\n🚫 **No es seguro bañarse en la playa** — el oleaje es fuerte e impredecible. El Charco de la Pasada, camino abajo, es la alternativa para mojarse en la ruta.\n\n### Lo que hace especial esta ruta\n- 🌊 **Playa virgen accesible solo a pie** — sin turismo de masas, sin instalaciones, sin ruido\n- 💧 **Arroyo permanente** — barranco con agua todo el año, pozas y cascadas incluidas\n- 🏔️ **Anfiteatro de roques** — rodeado de paredes verticales de 700 m desde el inicio\n- 🌿 **Flora de barranco canario** — sauces, cañaverales, tabaibas, cardones, verodes\n- 📏 **Muy corta** — 2,67 km de bajada; asequible incluso para personas con poca experiencia\n- 🗺️ **Conexión con Taganana** — se puede combinar como tramo de una ruta más larga hasta Taganana por el PR-TF-8\n\n### Antes de ir\n- 🚗 Aparcamiento en el Caserío de Afur (limitado, llegar temprano)\n- 🥾 **Calzado con agarre obligatorio** — el suelo es fangoso y resbaladizo todo el año por la humedad del barranco\n- 💧 Lleva agua — el agua del arroyo no es potable\n- 🔙 **Ruta lineal**: recuerda que hay que volver subiendo (+222 m, ~1 h extra) o continuar hasta Taganana\n- 📅 **Mejor época: octubre a mayo** — en verano la subida de vuelta bajo el sol puede ser dura\n- 🌧️ Tras lluvias intensas el sendero puede estar bloqueado por desprendimientos — consulta antes de ir\n\n### ⚠️ Alertas de seguridad\nLa ruta es fácil en perfil pero el entorno del barranco tiene sus riesgos:\n- 🪨 **Riesgo de desprendimientos** — laderas verticales con rocas inestables, especialmente tras lluvia\n- 🌧️ **Barro permanente** — el arroyo mantiene el sendero húmedo incluso en pleno verano\n- 🌊 **Prohibido bañarse en la playa** — oleaje fuerte e impredecible en una cala expuesta al Atlántico norte\n- 📵 **Sin señal de móvil** en la zona baja del barranco — avisa siempre antes de salir\n- ↩️ **Ruta de ida y vuelta** — la subida de regreso son +222 m que hay que sumar al cansancio del descenso\n- **Emergencias: 112**\n\n### Recomendación\nCombínala con una visita al pueblo de **Taganana** (25 min en coche desde Afur) para comer en uno de sus restaurantes de cocina canaria. Si tienes dos coches, deja uno en Taganana y el otro en Afur, y recorre el barranco en sentido lineal continuando por el Lomo de Tamadite — la experiencia completa de Anaga en una sola jornada."
+    },
+    {
+      "slug": "chamorga-circular",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.5698,
+        "lng": -16.1592
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/chamorga_anaga_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "3-5h",
+      "difficulty": "moderate",
+      "emoji": "🏚️",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/mwgytwoYGrMdLhPV9",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1_8hx1dcYmY1e1RcbCIJ7Pa1qF2fV_7Y",
+        "distance": "5,78 km",
+        "duration": "3,5-4,5h",
+        "type": "circular",
+        "elevationGain": 453,
+        "tips": "Sale de Chamorga junto a la Ermita de la Inmaculada Concepción (señal PR-TF 6). Asciende a Cruz del Draguillo (~1h), sigue a la derecha hacia Casas de Tafada (~1h 30min más), y regresa por el PR-TF 6.1 pasando el Paso de la Burra y el Roque Pilón. También se puede hacer en sentido contrario. El tiempo en Anaga cambia en minutos — lleva siempre chubasquero."
+      },
+      "tags": [
+        "chamorga",
+        "anaga",
+        "laurisilva",
+        "casas-tafada",
+        "abandonado",
+        "historia",
+        "orquilla",
+        "moderado",
+        "circular",
+        "la-laguna",
+        "pr-tf-6"
+      ],
+      "name": "Chamorga circular: Cruz del Draguillo y Casas de Tafada",
+      "shortDescription": "El sendero que narra la historia de un pueblo al fin del mundo: desde Chamorga sube por laurisilva hasta ruinas de caseríos abandonados, miradores al Faro de Anaga y caminos que los vecinos recorrían cargando ataúdes — TrailRank 80, 5 estrellas",
+      "description": "Chamorga está en el fin del mundo de Tenerife. Literalmente. Al extremo noreste del Macizo de Anaga, donde la carretera muere y solo quedan senderos de tierra, un caserío con décadas de silencio y la sensación de haber llegado a un lugar que el tiempo ha dejado atrás. Este sendero circular de 5,78 km no es solo una ruta de montaña — es un recorrido por la memoria viva de una comunidad que sobrevivió durante siglos en uno de los entornos más aislados de las islas.\n\n### Historia que se camina\n**Chamorga nació en 1760** cuando un grupo de personas se estableció ilegalmente en la zona para talar madera y cultivar parcelas en la ladera. A su máximo llegó a superar los **700 habitantes** (1940). Hoy quedan muy pocos. Pero los caminos cuentan lo que los libros no pueden:\n\nEl sendero que llevaba a **Taganana por el litoral** era el que recorrían los vecinos cuando alguien fallecía: caminaban horas por la costa para dar parte a las autoridades y, a la vuelta, **cargaban con el ataúd**. No había otra opción. El que baja al **Puerto de Roque Bermejo** fue durante siglos la arteria económica del pueblo — por ahí salían madera y vino, y entraban los bienes básicos que no podían producirse aquí. Y hay otro, menos conocido, por el que **las mujeres transportaban cestas de peras sobre sus cabezas** hasta San Andrés, kilómetros de montaña sin manos libres.\n\n### La ruta\nEl punto de partida es la **Ermita de la Inmaculada Concepción** de Chamorga, junto a los carteles del PR-TF 6. Antes de salir, la **fuente Chorro del Laurel Rosa** — un caño de piedra que abasteció el agua del pueblo durante décadas — es el primer hito histórico a pocos metros de inicio.\n\nEl sendero asciende con suavidad entre **fayas, brezos, castaños y helechos**. Sobre estos últimos hay un detalle que merece conocerse: en épocas de hambruna y escasez de cereales, la **raíz del helecho** se machacaba, secaba, molía y mojaba en leche para hacer gofio. Era tan fundamental para la subsistencia que incluso se untaba en los labios de los recién nacidos antes del primer pecho.\n\nTras unos 60 minutos de ascenso moderado se llega a la **Cruz del Draguillo**, una cresta desde la que el camino se bifurca en tres: izquierda al **Mirador de la Cabeza del Tejo**, recto baja al caserío de Los Draguillos, y a la derecha — nuestro camino — continúa hacia las Casas de Tafada. A los 15 minutos de tomar ese ramal la vegetación se abre de golpe: **vistas panorámicas al Roque de las Ánimas, Taganana y Almáciga**. Una de las mejores postales de Anaga.\n\nLa siguiente hora y media discurre entre **acebiños, brezos y tejos**, con el rastro del daño de las cabras salvajes en la vegetación. Al llegar a las **Casas de Tafada** —hoy en ruinas— el contexto histórico llena el lugar de significado: sirvieron como granero, almacén de cosechas, lugar de cría de ganado (vacas y cerdos) y alojamiento para los peones y medianeros que trabajaban las fincas de la zona. Desde aquí, un mirador hacia la costa devuelve vistas del **Faro de Anaga** y del antiguo embarcadero de Roque Bermejo, que fue durante siglos la única salida económica del pueblo.\n\nEl regreso baja por el **PR-TF 6.1** (sendero autoguiado de 1,3 km con postes numerados del 7 al 1). El tramo pasa por el **Paso de la Burra**: una calzada de escalones de piedra construida sobre un dique volcánico, el mismo paso que usaban personas y animales de carga para subir y bajar entre Chamorga y Tafada.\n\nPoco antes de llegar al pueblo aparece el **Roque Pilón**, mirador natural sobre Chamorga. En sus paredes crecía en abundancia la **orchilla**, un liquen que crece asociado a los alisios del que se extraía el **tinte púrpura** que colorea las mantas de los obispos. Hubo un oficio entero dedicado a su recolección — los *orchilleros* se encaramaban literalmente a las paredes volcánicas para raspar el liquen. Junto al roque se ven cuevas naturales que antes servían como corrales para proteger el ganado.\n\nAl terminar, en el único restaurante del pueblo — **Casa Álvaro** — vino blanco local y queso fresco son el final perfecto.\n\n### Lo que hace especial esta ruta\n- 🏚️ **Casas de Tafada** — hacienda abandonada con historia agraria, mirador al Faro de Anaga y Roque Bermejo\n- 🌿 **Laurisilva de Anaga** — fayal-brezal y bosque monteverde en su estado más puro\n- 🔭 **Vistas al Roque de las Ánimas y la costa norte** — desde el tramo entre Cruz del Draguillo y Tafada\n- 🟣 **Orchilla y el oficio de los orchilleros** — el liquen del tinte púrpura de los obispos, en las paredes del Roque Pilón\n- 🧗 **Paso de la Burra** — calzada histórica de piedra sobre dique volcánico\n- 🎯 **TrailRank 80 · 5 estrellas** — la ruta mejor valorada del extremo noreste de Tenerife\n\n### Antes de ir\n- 🚗 Aparcamiento al final de la carretera de Chamorga (gratuito, donde muere el asfalto)\n- 🧥 **Chubasquero siempre** — el tiempo de Anaga cambia en minutos; puede haber niebla y lluvia con el cielo despejado en Chamorga\n- 🥾 Calzado de montaña — sendero con barro frecuente y suelo irregular\n- 💧 Lleva agua suficiente — no hay fuentes en la ruta (el Chorro del Laurel Rosa no es fiable para beber)\n- 🍔 Lleva comida — las Casas de Tafada son el sitio ideal para parar a comer con vistas al faro\n- ☀️ El sendero se puede hacer en sentido contrario (subir primero a Tafada, bajar por la Cruz del Draguillo)\n- 🚌 En transporte público es posible pero no recomendable (línea 947 desde Santa Cruz con horarios limitados)\n\n### ⚠️ Alertas de seguridad\nEl macizo de Anaga tiene características climáticas propias que exigen preparación:\n- 🌧️ **No hacer la ruta en tormenta** — laderas escarpadas con riesgo de desprendimientos y senderos que se vuelven muy resbaladizos\n- 🌫️ **Niebla repentina** en Cruz del Draguillo y Casas de Tafada — puede cortar la visibilidad en segundos\n- 🌡️ **Temperatura cambiante** — puede hacer calor en Chamorga y frío con viento en la cresta. Prepárate para ambos\n- 📵 **Sin señal de móvil** en varios tramos — descarga la ruta offline y comunica tu plan antes de salir\n- 🐐 **Cabras salvajes** — están presentes en la zona, especialmente en el tramo alto\n- **Emergencias: 112**\n\n### Recomendación\nCombina esta circular con la ruta hasta la **Playa de Antequera** (sale del cementerio de Chamorga) o con el sendero a **Roque Bermejo y el Faro de Anaga** si quieres un día completo en el extremo más salvaje de Tenerife. La parada en **Casa Álvaro** al terminar es obligatoria — cocina canaria casera en el restaurante más aislado de la isla."
+    },
+    {
+      "slug": "chamorga-roque-bermejo",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.5698,
+        "lng": -16.1592
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/roque_bermejo_anaga_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "4-6h",
+      "difficulty": "moderate",
+      "emoji": "🔦",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/XvCSiRrQ4knCPiv67",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1-yQwGlFQ4qiJhB1MBufEGlmCUUWbrlc",
+        "distance": "9,76 km",
+        "duration": "4-5h",
+        "type": "circular",
+        "elevationGain": 743,
+        "tips": "Sale de Chamorga (Casa Álvaro). Sube por PR-TF 6.1 hasta Casas de Tafada → Faro de Anaga → descenso a Roque Bermejo. Regreso por PR-TF 6 barranco arriba hasta Chamorga. La subida de vuelta (Roque Bermejo → Chamorga) es la parte más exigente — sin sombra y con calor si es mediodía. Sale temprano."
+      },
+      "tags": [
+        "roque-bermejo",
+        "faro-anaga",
+        "anaga",
+        "playa",
+        "faro",
+        "aldeacosteera",
+        "roques-anaga",
+        "moderado",
+        "circular",
+        "la-laguna",
+        "pr-tf-6"
+      ],
+      "name": "Chamorga → Faro de Anaga → Roque Bermejo",
+      "shortDescription": "El faro más antiguo de Canarias, una aldea costera solo accesible a pie y un baño en el Atlántico salvaje: la gran circular de Chamorga baja 743 metros hasta Roque Bermejo y regresa por el barranco — la ruta más completa del extremo noreste de Tenerife",
+      "description": "Si hay una ruta que resume lo que es Anaga en su máxima expresión, es esta. Desde **Chamorga** — el pueblo al que la carretera llegó en 1975 y donde termina el asfalto — esta circular de 9,76 km lo tiene todo: laurisilva y monteverde, haciendas abandonadas en una cresta con vistas al Atlántico, el **faro más antiguo de Canarias**, dos islotes volcánicos declarados Reserva Natural, una aldea costera que solo se puede alcanzar a pie o en barca, y una playa de piedra negra donde terminar con un baño antes de subir de vuelta.\n\n### La ruta paso a paso\n\nEl sendero arranca junto al **Restaurante Casa Álvaro** en Chamorga, siguiendo las señales del **PR-TF 6.1** en dirección a las Casas de Tafada. Los primeros 45 minutos son de ascenso continuo por el sendero autoguiado — con 7 puntos de parada — entre acebiños, brezos y fayas. A medida que se gana altura, el caserío de Chamorga queda abajo y el anfiteatro de paredes volcánicas envuelve el paisaje. En este tramo se ven las **cuevas-corrales** donde antaño se guardaban cabras y ovejas para proteger los cultivos.\n\nAl llegar a las **Casas de Tafada** (45 min desde Chamorga) aparece el primer mirador espectacular: vistas sobre una cresta que en su día sirvió a los terratenientes para controlar sus haciendas. Desde aquí se cultivan todavía papas, viñas y frutales — castaños, manzanos, perales y ciruelos — en uno de los microclimas más productivos del macizo.\n\nDesde Tafada el sendero baja hacia la costa entre fayas y brezos hasta **La Asomada**: una ventana natural al Atlántico donde aparece una de las vistas más inesperadas de Tenerife — los **Roques de Anaga**. Dos islotes volcánicos, el **Roque de Tierra** (178 m) y el **Roque de Fuera** (66 m), separados por unos 800 metros, conforman una Reserva Natural de extraordinario interés geológico y ecológico. El escenario es tan salvaje que cuesta creer que estás a menos de dos horas de Santa Cruz.\n\n### El Faro de Anaga: el más antiguo de Canarias\nPoco después de La Asomada aparece el **Faro de Anaga**, primero a lo lejos y luego imponente. Construido en **1863**, fue la **primera instalación de este tipo en entrar en funcionamiento en todo el archipiélago canario** — más de 160 años iluminando la punta más noreste de Tenerife, el punto donde el Atlántico y el Mediterráneo de las Canarias se encuentran con las corrientes del norte.\n\nDesde la base del faro se ve con claridad el pequeño caserío de Roque Bermejo pegado a la costa, y el serpenteante camino de vuelta que sube por el barranco.\n\nEl tramo de bajada desde el faro, conocido como **Lomo del Rayo**, tiene zonas de arenisca suelta donde resbalarse es fácil — no hay peligro real pero hay que bajar con atención.\n\n### Roque Bermejo: el pueblo al que no llega la carretera\nEl descenso desde el faro lleva en unos 20-25 minutos hasta la **aldea de Roque Bermejo**: seis casas contadas, una pequeña ermita construida en **1934**, una venta local, un pequeño muelle de abrigo y un puñado de vecinos amables que llevan generaciones viviendo en uno de los lugares más aislados de Tenerife.\n\nNo hay carretera. Solo se llega a pie o por mar — exactamente igual que hace 200 años, cuando este embarcadero era la única salida económica del pueblo: por aquí salían maderas y vinos, y llegaban los bienes que no podían producirse en el macizo.\n\nLa playa de cantos rodados y arena oscura es perfecta para el baño: el agua es transparente y el oleaje, al estar en una pequeña ensenada protegida por el Roque Bermejo, es más manejable que en otras playas de la costa norte.\n\n### El regreso: barranco arriba sin sombra\nEl camino de vuelta toma el **PR-TF 6** que sube el Barranco de Roque Bermejo. Por el camino se pasan las **Casas Blancas**, una antigua hacienda donde el propietario de La Laguna veraneaba para supervisar sus fincas — otro testimonio del sistema feudal que organizó estas tierras durante siglos. Desde aquí el mirador sobre Roque Bermejo y el faro es excepcional.\n\nLa subida de vuelta es la parte más exigente: **sin sombra, con calor si es tarde** y con las piernas cargadas de los kilómetros de bajada. Por eso el consejo de salir temprano es fundamental.\n\nAl llegar a Chamorga, la cerveza fría en **Casa Álvaro** está más que ganada.\n\n### Lo que hace especial esta ruta\n- 🔦 **Faro de Anaga (1863)** — el más antiguo de Canarias, en activo desde hace más de 160 años\n- ⛵ **Roque Bermejo** — aldea costera sin carretera, solo accesible a pie o en barca\n- 🌊 **Baño en el Atlántico** — la playa de Roque Bermejo es perfecta para darse un chapuzón\n- 🪨 **Roques de Anaga** — dos islotes volcánicos Reserva Natural visibles desde La Asomada\n- 🏚️ **Casas de Tafada y Casas Blancas** — historia agraria y social de Anaga en ruinas habitadas por el silencio\n- 🌿 **Laurisilva y monteverde** — fayas, brezos, acebiños y helechos en el tramo de subida\n\n### Antes de ir\n- 🚗 Aparcamiento al final de la carretera en Chamorga (gratuito, donde muere el asfalto)\n- 🥾 Calzado de montaña — el Lomo del Rayo tiene arenisca suelta y el barranco de vuelta es irregular\n- 💧 Lleva mínimo 2 L de agua — no hay puntos de avituallamiento en la ruta\n- 🧴 Protección solar — la bajada al faro y la subida del barranco son totalmente expuestas al sol\n- 🌡️ **Sale temprano** — la subida de vuelta (Roque Bermejo → Chamorga) sin sombra y al mediodía es muy dura en verano\n- 🏊 Lleva bañador — el baño en Roque Bermejo es la mejor recompensa de la jornada\n- 🧥 Chubasquero — el tiempo en Anaga cambia en minutos\n\n### ⚠️ Alertas de seguridad\n- 📈 **743 m de desnivel** — la subida de vuelta por el barranco es la parte más exigente, especialmente en calor\n- 🌊 **Cuidado con el oleaje en la playa** — Roque Bermejo está expuesto al Atlántico norte; valora el estado del mar antes de entrar\n- 🌧️ **Lomo del Rayo resbaladizo** — la arenisca suelta se vuelve peligrosa tras la lluvia\n- 📵 **Sin señal de móvil** en la zona baja y en Roque Bermejo — descarga la ruta offline\n- 🌫️ **Niebla repentina** en Anaga — puede aparecer sin aviso y reducir la visibilidad\n- **Emergencias: 112**\n\n### Recomendación\nCombina el día con la ruta más corta **Chamorga → Cruz del Draguillo → Casas de Tafada** si visitas Chamorga en otro momento — son dos circular que parten del mismo punto y se complementan perfectamente para conocer el extremo más salvaje de Tenerife desde dos perspectivas distintas."
+    },
+    {
+      "slug": "sendero-chinyero",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2618,
+        "lng": -16.7952
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/volcan_chinyero_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🌋",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/kQgUkqyMj3VfP58Z6",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/u/2/edit?mid=1Z9lVXrXO_PnEASgkNiSZ2UU8yfnSiZ0",
+        "distance": "6,44 km",
+        "duration": "2-3h",
+        "type": "circular",
+        "elevationGain": 150,
+        "tips": "Acceso desde la TF-38 o desde San José de los Llanos (El Tanque). Sendero señalizado PR-TF-43 (blanco y amarillo). Prohibido subir a los conos volcánicos. Apto para familias con niños. Lleva agua — no hay fuentes en la ruta."
+      },
+      "tags": [
+        "chinyero",
+        "volcan",
+        "lava",
+        "pinar",
+        "teide",
+        "reserva-natural",
+        "facil",
+        "circular",
+        "santiago-del-teide",
+        "pr-tf-43",
+        "familia"
+      ],
+      "name": "Sendero del Chinyero — El último volcán de Tenerife",
+      "shortDescription": "En 1909, el Chinyero estuvo arrojando lava durante 10 días seguidos: fue la última erupción volcánica en la historia de Tenerife. Hoy, este sendero circular fácil rodea sus coladas negras entre pinares canarios y vistas al Teide — una lección de geología a cielo abierto apta para toda la familia",
+      "description": "Hay rutas que cuentan la historia de una isla mejor que cualquier libro. El **Sendero del Chinyero** es una de ellas. En **noviembre de 1909**, este volcán situado en la dorsal de Abeque entró en erupción sin previo aviso y estuvo expulsando lava de forma ininterrumpida durante **10 días**. Fue la **última erupción volcánica registrada en Tenerife**, y el paisaje que dejó —un mar de lava negra solidificada que contrasta con el verde intenso del pinar canario— sigue aquí, prácticamente intacto, más de un siglo después.\n\nEste circular de **6,44 km y solo 150 metros de desnivel** es uno de los senderos más accesibles y visualmente impactantes de toda la isla. Sin grandes dificultades técnicas, apto para familias y para viajeros que quieran vivir la cara más geológica de Tenerife sin adentrarse en rutas de montaña exigentes.\n\n### El Chinyero en contexto: Tenerife volcánica\n\nAntes de caminar conviene entender dónde estás. **Tenerife tiene casi 400 volcanes**, aunque la mayoría pasan desapercibidos porque en el vocabulario local se llaman simplemente \"montañas\". El Chinyero forma parte de la **Reserva Natural Especial del Chinyero**, un espacio protegido por la singularidad de sus hábitats de conos y coladas de lava reciente y la fauna y flora que los han ido colonizando desde 1909.\n\nEl Chinyero no está solo: por el camino se pasan otros volcanes de historia igual de intensa, como el **volcán Arenas Negras (o Trevejos)**, cuya erupción de **1706** arrasó mediante sus coladas el puerto y la villa de Garachico — por entonces el más importante de la isla. Montaña Bilma y Montaña Negra completan un escenario que parece sacado de otro planeta.\n\n### La ruta paso a paso\n\nEl sendero arranca desde la **carretera TF-38**, siguiendo las marcas del **PR-TF-43** (blanco y amarillo). Los primeros metros discurren por un **precioso pinar canario** que proporciona sombra y un ambiente de tranquilidad que contrasta con la dureza del paisaje volcánico que está por venir.\n\nTras unos **45 minutos de marcha suave**, el pinar va abriéndose y el negro de las cenizas comienza a ganar protagonismo. Aparece el **volcán Arenas Negras**: quieto, cubierto de líquenes y vegetación que intenta colonizar los flancos centenarios. Está totalmente prohibido subir al cono volcánico — la normativa de la Reserva Natural lo prohíbe para preservar una de las estructuras geológicas más frágiles y valiosas de las islas.\n\nMás adelante se cruza el **Canal de Vergara**, y el camino continúa en ligero ascenso hasta alcanzar el espectáculo principal: el **gran campo de lavas del Chinyero**. Aquí el paisaje cambia radicalmente. El suelo se convierte en un manto de bloques y coladas de **basalto negro**, con grandes bloques erráticos que se elevan sobre la llanura de lava y crean siluetas impactantes contra el cielo.\n\n### Frente a las lavas, con el Teide de fondo\n\nDesde el campo de lavas, la perspectiva es difícil de olvidar. **El Teide, el Pico Viejo y el propio Chinyero** se dibujan en el horizonte formando una trinidad volcánica que resume millones de años de historia geológica. Es uno de esos momentos en los que la escala del paisaje te recuerda que estás sobre una isla que todavía respira.\n\nLa vuelta por el **PR-TF-43.2** completa el circular entre pinares y vegetación de matorral, con tiempo para fijarse en la flora y fauna que ha ido colonizando estos terrenos desde la erupción de 1909.\n\n### Flora y fauna del malpaís\n\nLa vida vuelve despacio a las coladas volcánicas, pero vuelve. Entre las especies que se abren camino en este paisaje encuentras **jaras, escobones y codesos**, junto a el bejeque, la magarza y la retama gris. En cuanto a la fauna, los **lagartos** son los compañeros habituales del camino. Entre las aves destacan el **pico picapinos**, el **pinzón azul de Tenerife** — una de las especies emblemáticas del pinar canario — y la **abubilla**.\n\n### Lo que hace especial esta ruta\n- 🌋 **Último volcán en erupcionar en Tenerife (1909)** — caminas sobre la historia geológica viva de la isla\n- 🖤 **Coladas de basalto negro** — un \"malpaís\" de 115 años con bloques erráticos monumentales\n- 🌲 **Pinar canario** — sombra, frescor y los sonidos del bosque en el primer y último tramo\n- 🏔️ **Vistas al Teide y Pico Viejo** desde el campo de lavas, sin esfuerzo\n- 🦎 **Fauna del malpaís** — pinzón azul, pico picapinos, abubilla y lagartos\n- 👨‍👩‍👧 **Apto para toda la familia** — desnivel mínimo, sendero amplio y bien señalizado\n\n### Antes de ir\n- 🚗 Acceso desde la **TF-38** (km 15) o desde el Parque Recreativo de San José de los Llanos (El Tanque)\n- 🥾 Zapatillas deportivas o calzado de senderismo ligero — el terreno de lava puede ser irregular en algunos tramos\n- 💧 Lleva agua — no hay fuentes ni tiendas en la ruta\n- 🌡️ Temperatura fresca incluso en verano (altitud 1.400-1.540 m) — lleva una capa de abrigo\n- 📵 Señal de móvil intermitente — descarga la ruta offline antes de salir\n- 🚫 **Prohibido subir a los conos volcánicos** y salir de los senderos marcados — zona de alta sensibilidad ecológica\n\n### ⚠️ Alertas de montaña\n- 🌫️ **Niebla repentina** — habitual en esta cota; si aparece, para y espera o regresa por el mismo camino\n- 🌧️ **Lluvia y viento** — el tiempo cambia rápido en el entorno del Teide; consulta AEMET antes de salir\n- ⛔ **Zona de exclusión**: los conos del Chinyero y Montaña Negra son de acceso estrictamente prohibido — respeta la señalización\n- 📵 Sin cobertura en algunos tramos — sal con la ruta descargada y comunica tu plan a alguien\n- **Emergencias: 112**\n\n### Recomendación\nCombina la ruta con la visita al **Ecomuseo de El Tanque** (a 4 minutos en coche desde San José de los Llanos): un antiguo caserío que explica la historia agraria y volcánica de esta comarca de Tenerife. Perfecto para completar el día con cultura local tras el senderismo."
+    },
+    {
+      "slug": "montana-blanca-pico-teide",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2758,
+        "lng": -16.6199
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/teide_pico_viejo_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "7-10h",
+      "difficulty": "hard",
+      "emoji": "🏔️",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/a1y67e822XykKYoj7",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/u/2/edit?mid=1xPhRZFbH0sVMsywhJ6lYCf6lBsKf8d4",
+        "distance": "17,44 km",
+        "duration": "7-10h",
+        "type": "circular",
+        "elevationGain": 1344,
+        "tips": "Sale desde el aparcamiento de Montaña Blanca (2.398 m). Se necesita permiso gratuito para el tramo final hasta el cráter (Sendero Telesforo Bravo nº10) — reserva con antelación en miterd.es. Sale antes de las 6:00 para llegar al pico a primera hora y bajar antes del calor de mediodía. El Refugio de Altavista está actualmente cerrado como alojamiento. Lleva capas, protección solar extrema y al menos 3 L de agua."
+      },
+      "tags": [
+        "teide",
+        "pico-teide",
+        "volcan",
+        "cumbre",
+        "3715m",
+        "españa",
+        "patrimonio-unesco",
+        "montana-blanca",
+        "altavista",
+        "dificil",
+        "la-orotava",
+        "parque-nacional"
+      ],
+      "name": "Montaña Blanca → Pico del Teide (3.715 m)",
+      "shortDescription": "El punto más alto de España, el volcán más fotografiado del Atlántico y la ruta más icónica de Canarias: 17 km de ida y vuelta desde Montaña Blanca hasta el cráter del Teide, con 1.344 metros de desnivel y el mundo entero a tus pies a 3.715 metros de altitud",
+      "description": "Hay un único techo en España, y está en Tenerife. El **Pico del Teide**, con sus **3.715 metros de altitud**, es la cumbre más alta de todo el territorio español, el volcán más alto del Atlántico y uno de los volcanes más grandes del mundo medido desde su base oceánica. Subir a él a pie desde **Montaña Blanca** es, sin discusión, la ruta más icónica de las Islas Canarias — y una experiencia que los que la hacen raramente olvidan.\n\nEs también una de las más exigentes: **17,44 km de circular, 1.344 metros de desnivel y una altitud máxima que supera los 3.700 metros**. La altitud no perdona el ritmo alto ni la falta de preparación. Pero para quien llega preparado, el paisaje que ofrece es absolutamente fuera de este mundo — literalmente, porque a esa altura el cielo empieza a oscurecerse incluso de día.\n\n### Dos formas de llegar al cráter\n\n**Opción 1 — La ruta completa a pie (Montaña Blanca, la clásica)**\nLa ruta que realmente cuenta. Sale desde el **aparcamiento de Montaña Blanca (2.398 m)** y sube en su totalidad a pie hasta el Pico del Teide. Es la forma más pura — y más dura — de alcanzar la cumbre.\n\n**Opción 2 — Teleférico + Sendero Telesforo Bravo**\nEl teleférico sube desde la **Estación Inferior (2.356 m)** hasta **La Rambleta (3.555 m)** en unos 8 minutos. Desde ahí, si tienes permiso, 40-60 minutos más de caminata hasta el cráter. Mucho más sencilla, pero solo haces el último tramo.\n\nAmbas opciones comparten un requisito esencial: **para llegar al vértice geodésico y al cráter debes tener el permiso del Sendero Telesforo Bravo** (nº 10). Se trata de un permiso gratuito, pero de aforo limitado — solo se permiten 200 personas al día — y debe reservarse con antelación en el portal del Parque Nacional del Teide (miterd.es).\n\n### El recorrido completo desde Montaña Blanca\n\n**Tramo 1: Montaña Blanca → Huevos del Teide (1h30 aprox.)**\nEl camino empieza entre formaciones de pómez y lapilli, el suelo volcánico claro y poroso que da nombre al lugar. En este primer tramo el Teide ya se ve enorme sobre el horizonte — y no para de crecer a medida que se sube. A unos 45 minutos aparece uno de los elementos geológicos más llamativos de la ruta: los **Huevos del Teide**, grandes bolas de lava solidificada que rodaron desde el cráter durante erupciones antiguas y quedaron aquí, perfectamente esféricas, como si alguien las hubiera colocado a propósito en la ladera. Son un símbolo de la ruta y uno de los grandes hitos fotográficos del Parque Nacional.\n\n**Tramo 2: Huevos del Teide → Refugio de Altavista (1h aprox.)**\nEl camino se empina y el paisaje se vuelve más árido y lunar. Se entra de lleno en la **alta montaña volcánica**, con vistas sobre el Mar de Nubes y las islas vecinas en los días despejados. El **Refugio de Altavista (3.260 m)** supone el punto de descanso tradicional — actualmente cerrado como alojamiento, pero útil como referencia de altitud y como refugio ante un cambio brusco de tiempo.\n\n**Tramo 3: Altavista → La Rambleta (45 min aprox.)**\nEl tramo más duro. El desnivel se intensifica, el oxígeno escasea y el cuerpo empieza a notar los efectos de la altitud: puede aparecer dolor de cabeza, náuseas o sensación de mareo. La clave es **ir muy despacio**, respirar profundo y no forzar el ritmo. La llegada a **La Rambleta (3.555 m)** — donde confluye el teleférico — marca el inicio del tramo final.\n\n**Tramo 4: La Rambleta → Pico del Teide / Sendero Telesforo Bravo (45-60 min)**\nEl **Sendero Telesforo Bravo** (Sendero nº10) es el último tramo hasta el cráter y el vértice geodésico. Es aquí donde se controla el permiso. El camino bordea la chimenea principal del volcán, con emanaciones de azufre visibles en las fumarolas, el suelo amarillo y naranja por los depósitos minerales y el vacío del cráter abriéndose ante ti. Desde el **Pico del Teide (3.715 m)**, en días claros se ven las ocho islas del archipiélago, el norte de África y las costas de la Península.\n\n### Lo que hace especial esta ruta\n- 🏔️ **El punto más alto de España (3.715 m)** — y el volcán más alto del Atlántico\n- 🥚 **Huevos del Teide** — uno de los elementos geológicos más singulares del Parque Nacional\n- 🌊 **Mar de Nubes** — la alfombra de nubes bajo tus pies a 2.000 metros es un espectáculo\n- 🌋 **Fumarolas activas** — el Teide sigue siendo un volcán activo con azufre, gases y terreno caliente\n- 🌅 **Vistas desde la cima** — en días despejados se ven las 8 islas Canarias, el Sáhara y la Península\n- 🌌 **Cielo oscuro** — a 3.700 m de altitud el cielo empieza a oscurecer incluso de día; perfecto para astronomía en el Parque Nacional\n- 🏅 **Patrimonio Mundial UNESCO** — Parque Nacional del Teide, declarado en 2007\n\n### Antes de ir — checklist completo\n- 📋 **Reserva tu permiso con antelación** en miterd.es (gratuito, aforo de 200 personas/día para el tramo al cráter)\n- 🎟️ **Si subes en teleférico**, compra el billete también con antelación — las colas en temporada alta son largas\n- 🚗 Aparcamiento en Montaña Blanca (gratuito, en la TF-21)\n- 🌡️ La temperatura en la cima puede ser **20-25°C inferior a la costa** — prepárate para frío, viento y nieve en invierno\n- 🧴 **Protección solar SPF 50+** — a 3.700 m la radiación UV es extrema incluso en invierno\n- 💧 Lleva mínimo **3 litros de agua** por persona — no hay fuentes en toda la ruta\n- 🥾 **Botas de montaña** con buen agarre — el terreno de pómez es resbaladizo\n- 🧥 Ropa por capas: base técnica, capa intermedia de abrigo y chubasquero impermeable\n- 🌄 **Sale antes de las 6:00** — para llegar al pico a primera hora, bajar antes del calor y evitar las nubes de tarde\n- 🩺 No recomendado para personas con problemas cardíacos, hipertensión o enfermedades respiratorias sin consulta médica previa\n- 🤢 Lleva **ibuprofeno** para el dolor de cabeza por altitud; si aparecen síntomas graves de mal de altura, descende inmediatamente\n\n### ⚠️ Alertas de seguridad — montaña de alta altitud\n- 📈 **Mal de altura (mal agudo de montaña)**: puede aparecer entre los 2.500 y 3.715 m. Síntomas: dolor de cabeza intenso, náuseas, mareo, fatiga extrema. Si aparecen síntomas graves, **descende inmediatamente**\n- 🌡️ **Cambio brusco de temperatura**: en cuestión de minutos puede pasar de sol a viento, niebla o nieve\n- ❄️ **Hielo y nieve**: entre noviembre y abril el camino puede estar helado — consulta el estado de la ruta antes de salir\n- ☀️ **Radiación UV extrema**: sin protección solar adecuada a esta altitud el riesgo de quemadura grave es muy alto incluso en días nublados\n- 🌬️ **Viento fuerte en la cima**: ráfagas de 60-80 km/h son habituales; pueden dificultar o impedir el acceso al vértice\n- 📵 **Señal de móvil limitada** por encima del Refugio de Altavista — descarga la ruta offline\n- 🚫 **Sin permiso no hay acceso al cráter** — el control es estricto y no hay excepciones\n- **Emergencias: 112**\n\n### Recomendación\nLa ruta completa a pie desde Montaña Blanca es una de esas experiencias que definen un viaje. Pero si el tiempo, la forma física o la logística no acompañan, la combinación **teleférico + Sendero Telesforo Bravo** sigue siendo una experiencia impresionante — sobre todo si consigues el permiso y llegas a los 3.715 m. En cualquier caso, reserva el permiso antes de nada: sin él, la cumbre está vedada."
     }
   ],
   "sections": [
@@ -2339,59 +2609,42 @@
       "label": "Historia",
       "emoji": "🏰",
       "color": "#6366f1",
-      "pois": [
-        "santa-cruz",
-        "teide"
-      ]
+      "pois": ["santa-cruz", "teide"]
     },
     {
       "id": "cultura-canaria",
       "label": "Cultura Canaria",
       "emoji": "🎭",
       "color": "#ec4899",
-      "pois": [
-        "santa-cruz",
-        "teide"
-      ]
+      "pois": ["santa-cruz", "teide"]
     },
     {
       "id": "gastronomia",
       "label": "Gastronomía",
       "emoji": "🍽️",
       "color": "#f97316",
-      "pois": [
-        "santa-cruz"
-      ]
+      "pois": ["santa-cruz"]
     },
     {
       "id": "naturaleza",
       "label": "Naturaleza",
       "emoji": "🌿",
       "color": "#22c55e",
-      "pois": [
-        "teide",
-        "los-gigantes"
-      ]
+      "pois": ["teide", "los-gigantes"]
     },
     {
       "id": "tradiciones",
       "label": "Tradiciones",
       "emoji": "💃",
       "color": "#a855f7",
-      "pois": [
-        "santa-cruz",
-        "teide"
-      ]
+      "pois": ["santa-cruz", "teide"]
     },
     {
       "id": "curiosidades",
       "label": "Curiosidades",
       "emoji": "🔍",
       "color": "#06b6d4",
-      "pois": [
-        "teide",
-        "los-gigantes"
-      ]
+      "pois": ["teide", "los-gigantes"]
     },
     {
       "id": "playas",
@@ -2437,20 +2690,14 @@
       "label": "Actividades",
       "emoji": "🌊",
       "color": "#0284c7",
-      "pois": [
-        "siam-park",
-        "avistamiento-cetaceos-los-gigantes"
-      ]
+      "pois": ["siam-park", "avistamiento-cetaceos-los-gigantes"]
     },
     {
       "id": "transporte",
       "label": "Cómo Moverse",
       "emoji": "🚗",
       "color": "#94a3b8",
-      "pois": [
-        "alquiler-coche-tenerife",
-        "titsa-tenerife"
-      ]
+      "pois": ["alquiler-coche-tenerife", "titsa-tenerife"]
     }
   ],
   "municipios": [

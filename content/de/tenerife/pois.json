@@ -691,51 +691,10 @@
       "mapsUrl": "https://maps.app.goo.gl/B8mVnUwAHG8sXYRS7"
     },
     {
-      "slug": "barranco-del-infierno",
-      "name": "Barranco del Infierno",
-      "shortDescription": "Teneriffas berühmteste Wanderroute: 80m-Wasserfall und 200m-Schluchtwände",
-      "description": "Der Barranco del Infierno ist Teneriffas beliebteste Wanderroute und eine der spektakulärsten der Kanarischen Inseln. Sie beginnt im historischen Ortskern von Adeje und führt durch eine Schlucht mit senkrechten Wänden zu einem **dauerhaften 80-Meter-Wasserfall** — dem höchsten auf Teneriffa — in einer üppig subtropisch begrünten Umgebung, die nichts mit dem Strandtourismus der nahen Südküste zu tun hat.\n\n### Der Besuch\nDie Route ist linear — 7,5 km hin und zurück mit rund 350 Höhenmetern kumuliertem Anstieg. Der Weg folgt dem Schluchtengrund mit engen Passagen, Holzbrücken über das Wasser und Abschnitten, in denen sich die Wände auf wenige Meter verengen. Das feuchte Mikroklima unterhält eine üppige Vegetation aus Farnen, Tabaibas und Tarajales. Der Wasserfall am Ende ist die große Belohnung.\n\n### Vor der Abreise\n- 🎟️ Voranmeldung ist Pflicht, Tageskontingent begrenzt — Buchung auf der Website des Cabildo\n- 🥾 Wanderschuhe unbedingt erforderlich — unebenes Gelände und teils nasse Stellen\n- ⏱️ Dauer: 3–4 Stunden hin und zurück in gemächlichem Tempo\n- 🚗 Im Dorf Adeje parken — Zugang zur Schlucht zu Fuß vom historischen Ortskern\n- 💧 Mindestens 1,5 Liter Wasser pro Person mitbringen — im Sommer ist es sehr heiß\n\n### Empfehlung\nFrühzeitig starten (Öffnung um 8 Uhr), um Hitze und Menschenmassen zu vermeiden. Einige Tage im Voraus buchen, besonders in der Hochsaison.",
-      "island": "tenerife",
-      "category": "hiking",
-      "coordinates": {
-        "lat": 28.1213,
-        "lng": -16.7278
-      },
-      "images": {
-        "hero": "/images/tenerife/senderismo/barranco-infierno/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/barranco-infierno/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "wandern",
-        "schlucht",
-        "wasserfall",
-        "adeje",
-        "süden",
-        "beliebt"
-      ],
-      "visitDuration": "4-5h",
-      "difficulty": "moderate",
-      "emoji": "🥾",
-      "top": true,
-      "municipio": "adeje",
-      "track": {
-        "mapsUrl": "https://maps.app.goo.gl/SxQx5QGqQkRH5K9d8",
-        "distance": "7.5 km",
-        "duration": "3-4h",
-        "type": "ida-vuelta",
-        "elevationGain": 350
-      },
-      "mapsUrl": "https://maps.app.goo.gl/SxQx5QGqQkRH5K9d8"
-    },
-    {
       "slug": "sendero-masca",
-      "name": "Masca-Schlucht",
-      "shortDescription": "Teneriffas epischster Abstieg: 5km durch einen 300m-Canyon bis ans Meer",
-      "description": "Die Masca-Schlucht ist Teneriffas epischste Wanderroute und eine der spektakulärsten ganz Spaniens. Der Weg führt vom Dorf Masca durch einen **Canyon mit bis zu 300 Meter hohen Wänden** bis zu einer unberührten Bucht, die nur zu Fuß oder mit dem Boot erreichbar ist. 5 km, die die gesamte geologische Dramatik des Teno-Massivs konzentrieren.\n\n### Der Besuch\nDer Abstieg dauert 2,5 bis 3,5 Stunden über unebenes Gelände mit Kletterpassagen, Abschnitten auf dem nassen Schluchtengrund und subtropischer Vegetation, die mit den kahlen Vulkanfelsenwänden kontrastiert. Am Ende erwartet eine kleine **Schwarzkiesbucht** neben dem Atlantik. Die Rückkehr erfolgt zwingend per **Boot nach Los Gigantes** — die Bucht hat keinen anderen Landzugang — und diese Bootsfahrt ist Teil des Erlebnisses.\n\n### Vor der Abreise\n- 🎟️ Rückfahrtboot VOR dem Start buchen (Abfahrten aus der Bucht ca. 13, 15 und 16 Uhr) — ohne Buchung kann man stranden\n- 🥾 Wanderschuhe mit Gummisohle — nasse und rutschige Abschnitte\n- ⏱️ Frühzeitig in Masca aufbrechen (8–9 Uhr), um vor der Mittagshitze anzukommen\n- 💧 Mindestens 2 Liter Wasser pro Person — keine Wasserquellen auf der Route\n- ⚠️ Route bei Regen oder Überschwemmungsrisiko geschlossen\n\n### Empfehlung\nDas Boot Tage im Voraus buchen, vor 9 Uhr in Masca ankommen und die Logistik vor dem Start klären: die Belohnung am Ende — eine unberührte Bucht und eine Bootsfahrt an den Los Gigantes-Klippen vorbei — ist jeden Aufwand wert.",
+      "name": "Barranco de Masca",
+      "shortDescription": "Teneriffas epischster Abstieg: 5 km durch eine 300 m tiefe Schlucht bis zum Meer — Voranmeldung Pflicht, reguliert vom Cabildo de Tenerife",
+      "description": "Der Barranco de Masca ist Teneriffas epischste Wanderroute: 5 km Abstieg durch eine **Schlucht mit bis zu 300 Meter hohen Wänden** bis zu einer unberührten Bucht, nur zu Fuß oder per Boot erreichbar. Die Rückfahrt per **Boot oder Kajak nach Los Gigantes** gehört zum Erlebnis.\n\n### Der Abstieg\nUnebenes Gelände mit kurzen Kletterpassagen, Bachbettabschnitten und subtropischer Vegetation zwischen Vulkanfelswänden. Am Ende ein kleiner **Strand aus schwarzen Kieseln** am Atlantik. Dauer: 2,5–3,5 Stunden Abstieg.\n\n### Buchung Pflicht\nRegulierter Zugang — Voranmeldung auf [caminobarrancodemasca.com](https://www.caminobarrancodemasca.com) (**nur Mittwoch bis Samstag**, begrenzte Kapazität). Rückfahrt Boot/Kajak separat auf derselben Webseite buchen.\n- 🎫 Nicht-Resident Erwachsener: **40,66 €** · Kind: **20,33 €**\n- 🎫 Resident Kanarische Inseln: **7,49 €** · Kind: **3,75 €**\n\n### Anreise\nShuttle ab **Parkplatz Friedhof Santiago del Teide** (7:00–14:00 Uhr, alle 20 Min., 18 Plätze — Vorrang mit Barranco-Ticket). Nur Dorfbesuch: [Linie 355](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-355) oder [Linie 365](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-365). Dorfparkplatz max. 2 Std. (8:00–14:00 Uhr).\n\n### Ausrüstung\n- 🥾 Geschlossene Bergschuhe (Pflicht) · ⛑️ Helm (wird vom Personal ausgeliehen)\n- 💧 Mind. 1,5 L Wasser pro Person · 🍎 Verpflegung für den ganzen Tag\n- 🧴 Sonnencreme + Sonnenbrille + Hut · 🩺 Wanderstöcke empfohlen\n\n### Checkliste vor dem Start\n- ✅ Schlucht-Reservierung bestätigt (nur Mi–Sa)\n- ✅ Rückfahrt Boot/Kajak gebucht\n- ✅ **30 Min. vor** dem Zeitfenster am Besucherzentrum Masca sein\n- ✅ **1 Stunde vor** der Aktivität an der Shuttle-Haltestelle sein\n- ✅ Tickets für Schlucht UND Boot zur Zugangskontrolle mitbringen\n\n### ⚠️ Sicherheitshinweise\n- 📵 **Kein Handyempfang** im Inneren — vor dem Einstieg jemandem Bescheid geben\n- ☀️ **Hitzschlaggefahr** — die Schlucht erreicht im Sommer 40 °C; früh starten\n- 🌊 **Sturzflutgefahr** — Regen an den Gipfeln kann die Schlucht in Minuten fluten; bei dunklen Wolken über Teno nicht einsteigen\n- 🪨 **Unebenes Gelände** — rutschiges Gestein und Kletterpassagen; ein verstauchter Knöchel im Inneren ist ein Notfall\n- 🚑 **Schwierige Rettung** — Dutzende Einsätze pro Jahr; Route nicht unterschätzen\n- 🔋 **Akku voll laden** vor dem Start · **Notruf: 112** · Besucherzentrum Masca: +34 822 143 890",
       "island": "tenerife",
       "category": "hiking",
       "coordinates": {
@@ -743,10 +702,8 @@
         "lng": -16.8432
       },
       "images": {
-        "hero": "/images/tenerife/senderismo/barranco-masca/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/barranco-masca/1.avif"
-        ]
+        "hero": "/images/tenerife/senderos/barranco_de_masca_tenerife.avif",
+        "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -765,100 +722,14 @@
       "top": true,
       "municipio": "santiago-del-teide",
       "track": {
-        "mapsUrl": "https://maps.app.goo.gl/R5Yp4K2nJ3nQbPUA7",
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1fHot3XmVsRHum4kLq2IppT8qBjTOlXU",
         "distance": "5 km",
-        "duration": "2.5-3.5h",
-        "type": "lineal",
+        "duration": "2,5–3,5 Std.",
+        "type": "einfache-strecke",
         "elevationGain": -490,
-        "tips": "Nur Abstieg. Rückkehr per Boot von der Bucht nach Los Gigantes — im Voraus buchen."
+        "tips": "Nur Abstieg. Buchung Pflicht auf caminobarrancodemasca.com (Mi–Sa). Rückfahrt per Boot oder Kajak von der Bucht nach Los Gigantes. Shuttle vom Friedhofsparkplatz Santiago del Teide."
       },
-      "mapsUrl": "https://maps.app.goo.gl/R5Yp4K2nJ3nQbPUA7"
-    },
-    {
-      "slug": "sendero-paisaje-lunar",
-      "name": "Paisaje-Lunar-Wanderweg (PR-TF 72)",
-      "shortDescription": "Der Weg zu den weißen Vulkantuffsäulen durch Kiefernwald auf 2.000m Höhe",
-      "description": "Der Wanderweg PR-TF 72 ist die offizielle Route zum Paisaje Lunar, einer der einzigartigsten geologischen Formationen Teneriffas. Der Weg verläuft vollständig durch den **Kanarischen Kiefernwald von Vilaflor** — den höchsten auf Teneriffa —, mit Harzduft und Licht, das durch die Baumkronen filtert, bis sich der Wald plötzlich öffnet und die weißen Tuffnadeln erscheinen.\n\n### Der Besuch\nDer 6 km lange Hin- und Rückweg hat einen sanften Anstieg von rund 200 Metern und folgt einem gut markierten Forstweg. Der Kanarische Kiefernwald auf dieser Höhe ist in sich beeindruckend: 20–30 Meter hohe Bäume, der Boden mit Kiefernnadeln bedeckt und absolute Stille, nur vom Wind unterbrochen. Auf halber Strecke sind die Ausblicke nach Süden — mit dem Atlantik am Horizont — außergewöhnlich.\n\n### Vor der Abreise\n- 🚗 Parkplatz im ausgewiesenen Bereich neben der TF-21, ca. km 64 (ausgeschildert)\n- 🥾 Bequemes Schuhwerk — der Weg ist gut gepflegt und erfordert keine technische Ausrüstung\n- 🌡️ Im Winter kann es auf dem Weg Schnee oder Eis geben — Bedingungen vorher prüfen\n- ⏱️ Gesamtdauer: 2,5–3,5h mit Fotostopp am Paisaje Lunar\n- 📸 Das beste Licht für Fotos der Formationen ist zwischen 10 und 13 Uhr\n\n### Empfehlung\nDiesen Wanderweg mit einem Besuch des Teide-Nationalparks am selben Tag kombinieren: Beide liegen an der TF-21 und bilden zusammen den besten Ausflug ins Landesinnere Teneriffas.",
-      "island": "tenerife",
-      "category": "hiking",
-      "coordinates": {
-        "lat": 28.1687,
-        "lng": -16.6319
-      },
-      "images": {
-        "hero": "/images/tenerife/senderismo/paisaje-lunar/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/paisaje-lunar/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "wandern",
-        "kiefernwald",
-        "vilaflor",
-        "höhe",
-        "vulkanisch",
-        "PR-TF 72"
-      ],
-      "visitDuration": "3-4h",
-      "difficulty": "easy",
-      "emoji": "🥾",
-      "municipio": "vilaflor",
-      "track": {
-        "mapsUrl": "https://maps.app.goo.gl/VpSxEbKnzJcGCpnS8",
-        "distance": "6 km",
-        "duration": "2.5-3.5h",
-        "type": "ida-vuelta",
-        "elevationGain": 200,
-        "maxAltitude": 2200,
-        "code": "PR-TF 72"
-      },
-      "mapsUrl": "https://maps.app.goo.gl/VpSxEbKnzJcGCpnS8"
-    },
-    {
-      "slug": "montana-blanca-teide",
-      "name": "Montaña Blanca — Teide-Gipfel",
-      "shortDescription": "Die Wanderroute zum Teide-Krater: 8km auf 3.718m über erstarrter Lava",
-      "description": "Die Route von Montaña Blanca zum Teide-Krater ist der wichtigste Gipfelanstieg zu Fuß in Spanien und einer der spektakulärsten in Europa. Kein Seil, keine Schlangen: nur Sie, ein Weg aus erstarrter Lava und der Atlantikhorizont weit unter Ihren Füßen. Ein Erlebnis, das nur sehr wenige je vergessen.\n\n### Der Besuch\nDer Weg (TF-38) beginnt am Parkplatz Montaña Blanca auf 2.350 Metern Höhe und steigt 8 km zum Refugio Altavista (3.260m) und dann zum Krater (3.718m) auf. Die Landschaft ändert sich dramatisch mit der Höhe: zuerst roter Schlackenlava, dann Teide-Eier (eiförmige Lavaformationen), dann nackter Vulkanfels und schließlich der Kraterrand mit Schwefelgas-Fumarolen. Der Gipfel erfordert eine **kostenlose Genehmigung** des Nationalparks.\n\n### Vor der Abreise\n- 🎫 Die Kratergenehmigung ist kostenlos, aber begrenzt (200 Personen/Tag) — auf reservasparquesnacionales.es Monate im Voraus buchen\n- 🌄 Am Vortag aufsteigen und im Refugio Altavista übernachten, um den Gipfel bei Sonnenaufgang zu erreichen\n- 🌡️ Gipfeltemperatur kann auch im Sommer auf -10°C fallen — ordentliche Bergausrüstung ist unerlässlich\n- 💧 Ständig Wasser trinken — Höhe dehydriert schneller als erwartet\n- ⛑️ Höhenkrankheit kann ab 2.500m auftreten — bei Schwindel oder Kopfschmerzen ausruhen\n\n### Empfehlung\nIm Refugio Altavista übernachten, bei Sonnenaufgang den Gipfel erreichen, während die Insel in Wolken unter Ihren Füßen liegt, und mit der Seilbahn absteigen: das beste Bergerlebnis auf den Kanarischen Inseln.",
-      "island": "tenerife",
-      "category": "hiking",
-      "coordinates": {
-        "lat": 28.2723,
-        "lng": -16.6424
-      },
-      "images": {
-        "hero": "/images/tenerife/senderismo/montana-blanca/hero.avif",
-        "gallery": [
-          "/images/tenerife/senderismo/montana-blanca/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "wandern",
-        "teide",
-        "gipfel",
-        "hochgebirge",
-        "TF-38",
-        "altavista"
-      ],
-      "visitDuration": "8-10h",
-      "difficulty": "hard",
-      "emoji": "🏔️",
-      "top": true,
-      "municipio": "la-orotava",
-      "track": {
-        "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9",
-        "distance": "16 km",
-        "duration": "8-10h",
-        "type": "ida-vuelta",
-        "elevationGain": 1370,
-        "maxAltitude": 3718,
-        "code": "TF-38",
-        "tips": "Kostenlose Genehmigung für den Krater Pflicht. Refugio Altavista für Übernachtung verfügbar."
-      },
-      "mapsUrl": "https://maps.app.goo.gl/Xn7kP6tD5Y9vQcJm9"
+      "mapsUrl": "https://maps.app.goo.gl/5UgBvXUA7rkAusds7"
     },
     {
       "slug": "gastronomia-tenerife",
@@ -2329,6 +2200,457 @@
         "süden",
         "premium"
       ]
+    },
+    {
+      "slug": "alto-guajara-teide",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2183,
+        "lng": -16.5683
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/alto_guajara.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "4-5h",
+      "difficulty": "hard",
+      "emoji": "⛰️",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "mapsUrl": "https://maps.app.goo.gl/oSQvSqo5ns48Y9z17",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1iB8HM42PJFwQwciItIg4NEU6CNKsAKY",
+        "distance": "11,9 km",
+        "duration": "3–4 Std.",
+        "type": "rundweg",
+        "elevationGain": 621,
+        "tips": "Start am Parador de Las Cañadas: S-4 → S-5 → Degollada de Guajara → S-15 (Gipfel) → S-31 (Abstieg). Steinschlagwarnung am S-31 beachten. Keine Wasserquellen auf der gesamten Route."
+      },
+      "tags": [
+        "alta-montaña",
+        "teide",
+        "vilaflor",
+        "cumbre",
+        "circular",
+        "tajinaste",
+        "astronomia",
+        "dificil"
+      ],
+      "name": "Alto de Guajara",
+      "shortDescription": "Teneriffas vierthöchster Gipfel auf 2.718 m: Rundweg ab dem Parador über Pfade S-4, S-5 und S-15 mit Blick auf den Teide und die Kanarischen Inseln",
+      "description": "Den **Alto de Guajara** zu besteigen ist der zugänglichste Weg, um im Umfeld des Teides einen echten Gipfel zu erreichen — ohne Sondergenehmigung. Mit **2.718 Metern** ist er der vierthöchste Berg Teneriffas, und die Belohnung ist ein Panorama, das alles umfasst: der Teide, der den Horizont beherrscht, die Weite der Cañadas, die Ucanca-Gipfel und — an klaren Tagen — die Silhouetten anderer Kanarischer Inseln über dem Atlantik.\n\n### Die Route\nStartpunkt ist der **Parador de Las Cañadas del Teide** (auf rund 2.100 m Höhe), was bedeutet, dass man bereits in der Höhe beginnt und der tatsächliche Aufstieg nur 621 Höhenmeter beträgt — für eine Hochgebirgsroute durchaus überschaubar.\n\nDie Runde verbindet drei offizielle Wege des Nationalparks:\n\n1. **S-4 (Siete Cañadas)** — leichter Einstieg über das Plateau der Cañadas. In der Blütezeit sind hier häufig **rote Tajinastes** (*Echium wildpretii*) in voller Blüte zu sehen — die ikonischste Pflanze des Parks\n2. **S-5** — in weniger als 1,5 km führt er zur **Degollada de Guajara** hinauf, dem Sattel, der den Blick nach Süden öffnet. Offiziell als schwierig eingestuft, aber technisch unproblematisch für bergerfahrene Wanderer\n3. **S-15** — der abschließende Grat zum Gipfel. Oben stehen die Überreste der **Hütte des Astronomen Jean Mascart**, der 1910 hier oben den **Halleyschen Kometen** auf seinem Annäherungsweg beobachtete. Die Gipfelaussicht ist absolut spektakulär\n4. **S-31** — der Abstieg, das technisch anspruchsvollste Stück des Tages. Aufmerksamkeit erforderlich: Erheblicher Höhenverlust über losem Untergrund und ein offiziell ausgeschilderter **Steinschlag-Bereich** über mehrere hundert Meter entlang einer senkrechten Felswand. Bei ruhigen Bedingungen kein echtes Risiko — aber zügig durchqueren\n\n### Ausrüstung\n- 🥾 Bergschuhe mit Profilsohle (S-31 hat losen Schotter)\n- 💧 Mindestens 1,5 L Wasser pro Person — **keine Wasserquellen auf der gesamten Route**\n- 🍎 Ausreichend Verpflegung — die Höhe erhöht den Energieverbrauch\n- 🧥 Windjacke oder Fleece — auch wenn es unten warm ist, kann Wind am Gipfel die Temperatur drastisch senken\n- 🧴 Sonnencreme mit hohem Lichtschutzfaktor — die UV-Strahlung auf 2.700 m ist sehr intensiv\n- 🩺 Wanderstöcke — besonders nützlich beim Abstieg über den S-31\n\n### ⚠️ Sicherheitshinweise — bitte vor dem Start lesen\nDer Nationalpark El Teide ist echtes Hochgebirge. Die kurze Distanz darf nicht täuschen:\n\n- 🏔️ **Höhenkrankheit** — 2.718 m sind zwar nicht extrem, aber manche Menschen bekommen oberhalb von 2.000 m Kopfschmerzen, Übelkeit oder Schwindel. Bei Symptomen sofort absteigen\n- 📵 **Handy-Empfang fehlt** auf weiten Teilen der Route — vor dem Start jemandem den Plan mitteilen\n- 🌡️ **Plötzliche Temperatursturze** — Wind am Gipfel kann aus angenehmen 25 °C in den Cañadas weniger als 10 °C machen. Immer eine zusätzliche Schicht dabeihaben\n- ☁️ **Plötzlicher Nebel** — Wolken können die Sicht in Minuten auf nahezu null reduzieren. Bei Nebelvorhersage verschieben\n- 🪨 **Steinschlaggefahr am S-31** — offizielles Warnschild am Felswandabschnitt. Zügig durchqueren, nicht anhalten\n- ☀️ **Extreme UV-Strahlung** — auf dieser Höhe und bei klarem Himmel deutlich höher als an der Küste. Sonnencreme auch bei bewölktem Himmel Pflicht\n- 🚑 **Schwierige Evakuierung** — bei Verletzungen am Grat oder Gipfel ist der Zugang für Rettungsdienste aufwendig. Tempo dem eigenen Können anpassen\n\n**Notruf:** 112\n**Nationalpark Teide:** +34 922 922 371\n\n### Empfehlung\nZwischen 7:00 und 8:00 Uhr starten, um den Aufstieg vor dem Mittag abzuschließen — dann nimmt die Hitze in den Cañadas zu und Nachmittagswolken können die Sicht einschränken. Der **Parador de Las Cañadas** hat ein Café — ein heißer Kaffee vor dem Start und ein kaltes Bier danach ist der perfekte Plan. Wer in der Blütezeit (Mai–Juni) kommt, erlebt den S-4 auf dem Hinweg als visuelles Erlebnis der besonderen Art."
+    },
+    {
+      "slug": "roques-garcia-teide",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2097,
+        "lng": -16.6364
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/roques_de_garcia_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🪨",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "mapsUrl": "https://maps.app.goo.gl/yPB1Ng8jwoKpww1D6",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1O7Zvl9zpImTO7lUeohl-3_KZSrjfxck",
+        "distance": "3,66 km",
+        "duration": "1–1,5 Std.",
+        "type": "rundweg",
+        "elevationGain": 151,
+        "tips": "Weg 3 des Nationalparks Teide. Start am Parador-Parkplatz (TF-21, km 46,5, Mirador de la Ruleta). Vollständig beschildert — kein Verlaufsrisiko."
+      },
+      "tags": [
+        "roques",
+        "teide",
+        "circular",
+        "facil",
+        "vilaflor",
+        "volcanico",
+        "paisaje-lunar",
+        "cañadas"
+      ],
+      "name": "Roques de García",
+      "shortDescription": "Der fotogenste Spaziergang im Nationalpark Teide: 3,7 km Rundweg durch die Roques-Vulkanformationen mit Blick auf Llano de Ucanca und den Teide",
+      "description": "Der **Roques de García**-Weg ist die zugänglichste und spektakulärste Rundroute im Nationalpark El Teide. Nur 3,7 km auf einem gut ausgeschilderten Pfad durch Phonolith-Vulkanformationen, die wie eine andere Welt wirken — der Teide am Horizont, das Llano de Ucanca zu Füßen. Kein nennenswerter Höhenunterschied, kein Verlaufsrisiko: der perfekte Weg für alle in Hochgebirgsumgebung.\n\n### Die Route\nStart und Ziel am **Parkplatz gegenüber dem Parador Nacional de Las Cañadas del Teide** (TF-21, km 46,5, Mirador de la Ruleta). Der Weg ist vollständig beschildert — es ist buchstäblich unmöglich, sich zu verirren. Die Runde führt um die Roques de García herum, mit ständigem Blick auf das **Llano de Ucanca**, die große weiße Vulkansandebene, und den Teide-Kegel im Hintergrund.\n- 📍 **Roques de García** — Phonolith-Nadeln bis zu 50 m Höhe, vor Millionen von Jahren entstanden\n- 🌋 **Roque Cinchado** — die ikonischste Formation, auch \"Finger Gottes\" genannt\n- 🏜️ **Llano de Ucanca** — die weiße Vulkansandebene rund um die Felsen\n- 🌄 **Teide um jede Kurve** — der Vulkan erscheint aus mehreren Blickwinkeln\n\n### Vor dem Start\n- 🚗 Kostenloser Parkplatz am Mirador de la Ruleta, gegenüber dem Parador (TF-21, km 46,5)\n- ⏱️ Dauer: ca. 1–1,5 Stunden in gemächlichem Tempo\n- 🥾 Bequeme Schuhe mit fester Sohle — Gelände steinig, aber technisch anspruchslos\n- 📸 Bestes Licht: früher Morgen (goldenes Licht auf den Felsen) oder später Nachmittag\n- 🍽️ Das Café des Paradors liegt direkt am Startpunkt\n\n### ⚠️ Sicherheitshinweise\nAuch wenn der Weg einfach ist — man befindet sich auf über 2.000 m in einem Vulkan-Nationalpark:\n- 🏔️ **Höhe** — manche Menschen bekommen oberhalb von 2.000 m Kopfschmerzen oder Schwindel; bei Symptomen ausruhen\n- ☀️ **Extreme UV-Strahlung** — kein Schatten, direkte Sonne auf 2.100 m; Sonnencreme Pflicht\n- 🌡️ **Plötzliche Temperatursturze** — Wind kann die Temperatur in Minuten senken; extra Schicht mitbringen\n- 💧 **Keine Wasserquellen** — mindestens 1 Liter mitbringen\n- 📵 **Unzuverlässiger Handyempfang** — auch bei kurzen Wegen jemandem Bescheid geben\n- **Notruf: 112** · Nationalpark Teide: +34 922 922 371\n\n### Empfehlung\nDer leichteste Weg im Park ist nicht der unbeeindruckendste — ganz im Gegenteil. Die Roques de García gehören zu den meistfotografierten Landschaften Spaniens. Früh ankommen für freie Parkplätze und optimales Licht, und mit einem Besuch des Paradors und des Llano de Ucanca kombinieren. Wer mehr Zeit hat: der Weg zum Alto de Guajara startet vom selben Parkplatz."
+    },
+    {
+      "slug": "bosque-enigmas-anaga",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.5447,
+        "lng": -16.3242
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/bosque_encantado_anaga_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🌿",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/MUgH51za7TChCez36",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1--ceZLTCOhbhpGOpbk6FsxG8fJ50QjY",
+        "distance": "4,95 km",
+        "duration": "1,5–2 Std.",
+        "type": "rundweg",
+        "elevationGain": 184,
+        "tips": "Start am Besucherzentrum Cruz del Carmen (empfohlen) oder Mirador de Zapata. Ausgeschildert mit Posten 1–7. Kreuzt einmal die TF-143. Profilschuhe Pflicht — Boden dauerhaft feucht und rutschig."
+      },
+      "tags": [
+        "laurisilva",
+        "anaga",
+        "bosque",
+        "niebla",
+        "circular",
+        "facil",
+        "familia",
+        "naturaleza",
+        "la-laguna"
+      ],
+      "name": "Bosque de los Enigmas",
+      "shortDescription": "Ein Spaziergang durch moosbedeckte jahrhundertealte Bäume im Herzen des Anaga-Lorbeerwaldes: Nebel, Riesenfarne und Stille in einem der ältesten Wälder des Planeten — Rundweg, leicht, keine Reservierung nötig",
+      "description": "Manche Wanderwege beeindrucken durch ihre Aussichten. Der **Wald der Geheimnisse** beeindruckt durch seine Atmosphäre. Eine Rundroute von fast 5 km durch jahrtausendealten Lorbeerwald im Herzen des Naturparks Anaga: verdrehte Jahrhunderte-Bäume mit Moosüberzug, mannshohe Farne, dauerhafter Nebel durch die Passatwinde und eine Stille, die nur durch den Gesang der Segler unterbrochen wird. Ein Wald wie aus einem Märchen — der 20 Millionen Jahre Geschichte zu erzählen hat.\n\n### Die Route\nStart am **Besucherzentrum Cruz del Carmen** (beste Option: einfaches Parken, hilfreiches Personal, kostenlose Wanderkarten). Die TF-12 direkt gegenüber dem Zentrum überqueren — und schon nach wenigen Metern verschwindet der Asphalt: der Wald schließt sich sofort um den Pfad.\n\nDie Route ist mit **Posten 1 bis 7** ausgeschildert — unmöglich, sich zu verlaufen. Ab Posten 5 im Uhrzeigersinn gehen. Im Abschnitt **Hija Cambada** sieht man portugiesische Lorbeerbäume (*Prunus lusitanica*), die vom Wind umgeworfen wurden und horizontal nachgewachsen sind — lebendige, liegende Bäume, die vom Boden aus weiterwachsen. Weiter vorne der **Mirador de Zapata** — normalerweise von Wolken verhüllt — mit Blick auf den Norden der Insel, wenn der Nebel sich lichtet.\n\nDer Weg kreuzt einmal die TF-143 (eine ruhige Straße), bevor er zurück in den Wald und zum Ausgangspunkt führt.\n\n### Was diese Route besonders macht\n- 🌿 **Jahrtausendealter Lorbeerwald** — lebendes Fossil aus vor 20–50 Millionen Jahren, heute nur noch auf den Kanaren, Madeira und den Azoren\n- 🌫️ **Dauerhafter Nebel** — die Passatwinde bringen horizontalen Regen, der den Wald das ganze Jahr feucht hält\n- 🌲 **Einzigartige Flora**: Til-Bäume, Viñátigos, Paloblancos, Heidekraut, Fayas, Acebiños, Moose, Flechten und Riesenfarne\n- 🦅 **Schwarze Segler** (*Apus unicolor*) über dem Wald\n- 📱 **Selbstgeführter Weg** — die Biosphärenreserve Anaga bietet einen offiziellen Guide in 4 Sprachen mit Rätseln und Reflexionen über den Wald\n- 👨‍👩‍👧 **Für alle geeignet** — auch für Kleinkinder und Menschen mit Knieproblemen\n- 🎟️ **Freier Zugang** — keine Reservierung nötig\n\n### Vor dem Start\n- 🚗 Parken am Besucherzentrum Cruz del Carmen (kostenlos, Straße TF-12 Anaga)\n- 🥾 Schuhe mit Profilsohle — feuchter Boden und Wurzeln machen das Terrain rutschig\n- 🧥 Immer eine Extrajacke mitnehmen — auch im Juli kann Nebel und Wind es kühler machen\n- 💧 Kurze Route, aber Wasser mitnehmen — die Feuchtigkeit kann täuschen\n- 📱 Offiziellen selbstgeführten Guide herunterladen auf [reservabiosfera.tenerife.es](https://reservabiosfera.tenerife.es/descubre-anaga/senderos/el-bosque-de-los-enigmas/) (auf ES/EN/DE/FR verfügbar)\n\n### ⚠️ Sicherheitshinweise\nDie Route ist einfach, aber die Umgebung hat typische Eigenschaften kanarischen Berggeländes:\n- 🌫️ **Dichter Nebel** — Sichtbarkeit kann in Sekunden fallen; auf dem markierten Pfad bleiben\n- 🌧️ **Boden immer nass** — Wurzeln und Schlamm sind das ganze Jahr rutschig\n- 📵 **Unzuverlässiger Handyempfang** — vor dem Start jemandem Bescheid geben\n- 🌡️ **Kälter als erwartet** — Anaga kann 10 °C kühler sein als der Süden der Insel\n- **Notruf: 112** · Besucherzentrum Cruz del Carmen: +34 922 633 576\n\n### Empfehlung\nMit dem **Sendero de los Sentidos** kombinieren (startet vom gleichen Punkt, genauso zugänglich) für einen ganzen Vormittag im Lorbeerwald von Anaga. Zum Mittagessen danach hat das Weiler **Las Carboneras**, 20 Fahrminuten entfernt, traditionelle kanarische Restaurants. Im Sommer den Mittag nicht meiden — das ist der Moment mit dem dichtesten Nebel und der magischsten Stimmung im Wald."
+    },
+    {
+      "slug": "punta-hidalgo-chinamada",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.5747,
+        "lng": -16.3308
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/chinamada_anaga_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "3-4h",
+      "difficulty": "moderate",
+      "emoji": "🏘️",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/Jv4LEbniXoz2k2kW8",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1vmh4CIBimp8XXHQnOZMHPdfwDnoEp7I",
+        "distance": "10,41 km",
+        "duration": "3–3,5 Std.",
+        "type": "rundweg",
+        "elevationGain": 703,
+        "tips": "Start in Punta del Hidalgo (6 m über dem Meer), non-stop Aufstieg nach Chinamada (627 m). Alles bergauf auf dem Hinweg, alles bergab auf dem Rückweg. Der alternative Abstiegsabschnitt hat 200–300 m leicht ausgesetztes, aber gut passierbares Gelände. Teil der K42-Anaga-Ultrarennroute."
+      },
+      "tags": [
+        "chinamada",
+        "anaga",
+        "cuevas",
+        "pueblo-troglodita",
+        "laurisilva",
+        "moderado",
+        "circular",
+        "costa",
+        "la-laguna",
+        "k42"
+      ],
+      "name": "Punta del Hidalgo → Chinamada",
+      "shortDescription": "Vom Meer bis in ein Höhlendorf auf 627 Metern: die Route von Punta del Hidalgo nach Chinamada durchquert das Herz des Anaga-Lorbeerwaldes entlang des legendären K42-Trails — anspruchsvoll, Rundweg und absolut einzigartig",
+      "description": "Manche Wanderwege führen zu Landschaften. Dieser führt in eine andere Welt. Von der Küste von **Punta del Hidalgo** nach **Chinamada** zu steigen bedeutet, nach 700 Höhenmetern eines der letzten **bewohnten Höhlendörfer Europas** zu erreichen: Häuser, die in vulkanisches Gestein gehauen wurden und in denen Familien noch heute genauso leben wie seit Jahrhunderten. Und die Belohnung ist nicht nur das Ziel — es ist die gesamte Reise durch den Lorbeerwald von Anaga auf demselben Weg, den die Läufer des legendären **K42 Anaga**-Ultrarennens jedes Jahr zurücklegen.\n\n### Die Route\nAusgangspunkt ist **Punta del Hidalgo**, ein kleines Küstendorf im Norden Teneriffas, bekannt für seine natürlichen Felspools und seinen vulkanischen Leuchtturm. Von hier aus steigt der Weg gnadenlos an: Höhenmeter für Höhenmeter durch einen immer dichter werdenden und hüllenden Lorbeerwald.\n\nDer Aufstieg folgt einem gut ausgeschilderten, leicht zu verfolgenden Pfad. Der Wald verändert sich mit der Höhe: zunächst küstennahes Tabaibal und Cardonal-Gestrüpp, dann Lorbeerbäume, Heidekraut und Riesenfarne, die den Weg einengen, während der Passatnebel zwischen den Bäumen erscheint.\n\nBei der Ankunft in **Chinamada** (627 m) verändert sich die Landschaft vollständig. Die Häuser sind buchstäblich in vulkanischen Tuffstein gehauen: Türen, Fenster und Schornsteine in blankem Fels. Das Dorf hat eine kleine **Höhlenkapelle** und ein **Bar-Restaurant**, wo man einen Kaffee oder ein Sandwich vor dem Abstieg nehmen kann — ein obligatorischer Halt, um den Ort zu verarbeiten.\n\nDer Rückweg zum Ausgangspunkt erfolgt auf demselben Pfad, wobei der Autor der Route einen **alternativen Abstiegsabschnitt** von 200–300 m empfiehlt, der etwas ausgesetzt, aber problemlos zu bewältigen ist und das Erlebnis bereichert.\n\n### Was diese Route besonders macht\n- 🏘️ **Chinamada** — ein bewohntes Höhlendorf, eines der seltsamsten in ganz Europa\n- 🌿 **Anaga-Lorbeerwald** — man durchquert einen der ausgedehntesten und besterhaltenen Lorbeerwälder der Kanaren\n- 🏃 **K42-Rennen-Route** — man geht denselben Weg, den die besten Ultratrailläufer der Insel jedes Jahr rennen\n- 🌊 **Extremer Kontrast** — man startet 6 m über dem Meer und kommt auf 627 m an: zwei Welten an einem Tag\n- 🧭 **Gut ausgeschildert** — leicht zu verfolgen; ideal für Einsteiger in die Bergwanderwege von Anaga\n- 🍺 **Bar oben** — Chinamada hat ein Restaurant. Das können nicht viele Bergtouren bieten\n\n### Vor dem Start\n- 🚗 Parken in Punta del Hidalgo bei den natürlichen Felspools (kostenlos)\n- 🥾 Wanderschuhe — 703 Höhenmeter auf 5 km Aufstieg brauchen ordentlichen Grip\n- 💧 Mindestens 1,5 L Wasser mitnehmen — keine Wasserquellen auf der Route\n- 🧥 Eine warme Schicht einpacken — Chinamada kann im Nebel liegen und einige Grad kühler als die Küste sein\n- ⏱️ 3–3,5 Std. insgesamt einplanen; plus 30–45 Min. für den alternativen Abstieg oder Stopp in Chinamada\n- ☀️ Am besten morgens — im Sommer kann der Abstieg in voller Sonne anstrengend sein\n\n### ⚠️ Sicherheitshinweise\nDer Weg ist **moderat** — für erfahrenere Wanderer machbar, aber kein Spaziergang:\n- 📈 **703 Höhenmeter** — die gesamte Anstrengung liegt im Aufstieg und Abstieg; es gibt keine flachen Abschnitte\n- 📵 **Sehr begrenzter Handyempfang** auf dem oberen Anaga-Kamm — Route offline herunterladen und vor dem Start Bescheid geben\n- 🌫️ **Plötzlicher Nebel** auf dem Kamm — Sichtbarkeit kann in Minuten sinken; auf dem markierten Pfad bleiben\n- 🌧️ **Schlamm und rutschige Wurzeln** nach Regen oder bei Horizontalnebel — in Anaga sehr häufig\n- 🥵 **Hitze auf dem Küstenabschnitt** im Sommer — früh aufbrechen und Sonnenschutz mitbringen\n- 🌡️ **Temperaturunterschied** — zwischen der Küste und Chinamada können 8–10 °C liegen\n- **Notruf: 112**\n\n### Empfehlung\nDie Besteigung nach Chinamada mit einem Bad in den **natürlichen Felspools von Punta del Hidalgo** nach der Tour kombinieren — das werden Ihre Beine und Ihr Gemüt danken. Mit Auto lohnt sich das Dorf **Taganana** 40 Minuten entfernt auf der anderen Seite des Anaga-Kamms als Abstecher."
+    },
+    {
+      "slug": "vilaflor-paisaje-lunar",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.1595,
+        "lng": -16.6368
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/paisaje_lunar_vilaflor_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "5-7h",
+      "difficulty": "moderate",
+      "emoji": "🌕",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "vilaflor",
+      "mapsUrl": "https://maps.app.goo.gl/nTRg6xvPFUwxxwQY6",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1GNmGfMJ2-_p9XSpndckeBGZeqEhGt-M",
+        "distance": "13,36 km",
+        "duration": "5–6,5 Std.",
+        "type": "rundweg",
+        "elevationGain": 656,
+        "tips": "Start am Callejón La Callita in Vilaflor (neben dem Dorfplatz). Ausgeschildert als PR-TF 72. Kontinuierlicher Aufstieg zu den beiden Aussichtspunkten; Rückweg über einen anderen Ast. Keine flachen Abschnitte — alles bergauf und bergab. Der Weg führt an Casa Galinda, Casa Marrubial und Casa de los Llanitos vorbei."
+      },
+      "tags": [
+        "paisaje-lunar",
+        "vilaflor",
+        "corona-forestal",
+        "pinar-canario",
+        "geologico",
+        "moderado",
+        "circular",
+        "chimeneas-de-hadas",
+        "camino-real",
+        "sur",
+        "san-miguel-abona"
+      ],
+      "name": "Vilaflor → Paisaje Lunar",
+      "shortDescription": "Vom höchsten Dorf Spaniens zu einer Landschaft, die wie ein anderer Planet aussieht: der PR-TF 72 steigt 650 Meter durch uralten Kiefernwald zu Los Escurriales hinauf, den weißen Bimsstein-Feenkaminen, die Teneriffa in den Mond verwandelten",
+      "description": "Es gibt Orte auf Teneriffa, an denen man vergisst, auf welchem Planeten man sich befindet. Die **Mondlandschaft** — oder wie sie offiziell heißt, **Los Escurriales** — ist einer davon. Weiße Felskamine, die sich durch das Grün des kanarischen Kiefernwaldes erheben, jahrhundertelang von Wasser und Wind aus Bimsstein-Ablagerungen vulkanischen Ursprungs gemeißelt. Der Name „Mondlandschaft\" ist keine Übertreibung: Wenn man sie von Nahem sieht, drängt sich der Vergleich mit der Mondoberfläche unweigerlich auf. Und der beste Weg dorthin ist derselbe, den die Tinerfeños seit Jahrhunderten benutzen: der Wanderweg PR-TF 72 von **Vilaflor de Chasna**.\n\n### Die Route\nAusgangspunkt ist **Vilaflor**, eines der höchstgelegenen Dörfer Spaniens (1.400 m) und südliches Tor zum Naturpark Corona Forestal. Der Weg beginnt am **Callejón La Callita**, neben dem Dorfplatz, und steigt über 6,5 km kontinuierlich an — keine flachen Abschnitte, nur Kiefernwald und Höhe — bevor er die beiden Aussichtspunkte der Mondlandschaft auf fast 1.960 m erreicht.\n\nDer Rückweg vervollständigt den Kreis über einen anderen Ast, vorbei am **Casa de los Llanitos** (eine historische Schäfersiedlung mit einer spektakulären jahrhundertealten Kiefer) und hinunter nach Vilaflor.\n\n### Highlights unterwegs\nDer Weg folgt teilweise dem **Camino Real de Chasna**, dem historischen Pfad, den schon die Guanchen nutzten und der jahrhundertelang den Norden und Süden Teneriffas für Vieh- und Warentransport verband. Fünfhundert Jahre Geschichte unter den Füßen. Im 19. Jahrhundert liefen die Naturforscher **Philip Barker Webb** und **Sabino Berthelot** denselben Weg, um die Geologie des Teides zu erforschen.\n\nUnterwegs findet man:\n- **Aufgegebene Terrassenfelder**, die der kanarische Kiefernwald langsam zurückerobert\n- **Pechöfen (hornos de brea)** — historische Strukturen, wo Teer (brea) aus dem harzreichen Kernholz (tea) der kanarischen Kiefer zur Holzschiffimprägnierung gewonnen wurde. Rund 200 sind auf Teneriffa erhalten\n- **Casa Galinda** — wo sich die Rundroute teilt\n- **Casa Marrubial** — ein Wegmarkierungspunkt beim Aufstieg\n- **2 Aussichtspunkte der Mondlandschaft** — der erste mit weitem Blick, der zweite am Fuß der Formationen\n\n### Die Geologie der Mondlandschaft\nDer offizielle Name des Ortes ist **Los Escurriales**, der auf den Erosionsprozess verweist, der ihn formte. Vor Hunderttausenden von Jahren lagerten vulkanische Ausbrüche große Mengen **Bimsstein** (Pumita) in diesem Gebiet ab. Im Laufe der Zeit formten das durch die Schlucht fließende Wasser und die ständigen Winde diese Ablagerungen unterschiedlich: härtere Materialien widerstanden, weichere gaben nach — und es entstanden die weißen **Feenkamine**, die man heute sieht.\n\nDer Ort wurde **1966** vom Geologen Telesforo Bravo für die breite Öffentlichkeit wiederentdeckt und ist seitdem einer der geologisch einzigartigsten Flecken der Kanarischen Inseln.\n\n⚠️ **Die Formationen sind extrem zerbrechlich.** Das Betreten des Innenbereichs ist verboten — weder darauf gehen noch klettern. Von den ausgewiesenen Aussichtspunkten ist der Blick perfekt und die Umgebung geschützt.\n\n### Flora und Fauna des Kiefernwaldes\nDer Weg führt durch einen der dichtesten kanarischen Kiefernwälder im Süden Teneriffas. Die **kanarische Kiefer** (*Pinus canariensis*), mit Exemplaren bis zu 30 m Höhe, ist eine endemische Art mit feuerfester dicker Rinde — sie kann nach einem Waldbrand von Grund auf neu austreiben.\n\nBemerkenswerte Flora: Tajaste de bosque, Chajora (endemisch im Süden Teneriffas), Gänseblümchen und Kalifornischer Mohn. Tierwelt: **Teide-Buchfink** (*Fringilla teydea*), Buntspecht, Kohlmeise, Zilpzalp und Turmfalken über den Kiefern.\n\n### Vor dem Start\n- 🚗 Parken auf dem Dorfplatz (kostenlos) · Weg beginnt am Callejón La Callita, neben der Kirche\n- 🥾 Wanderschuhe — 650 m Daueraufstieg erfordern ordentlichen Grip\n- 💧 Mindestens 2 L Wasser mitbringen — keine Wasserquellen auf dem Weg\n- 🎒 Essen für den Tag: die Tour dauert 5–6,5 Stunden\n- 🧥 Warme Schicht — auf 1.960 m kann es auch im Sommer kalt sein\n- 🌤️ Früh starten: der Aufstieg unter der Mittagssonne ist in heißen Monaten anstrengend\n- 📍 Vor oder nach der Tour das historische Ortszentrum von Vilaflor erkunden: die Kirche San Pedro Apóstol, die **Pino Gordo** (eine der dicksten kanarischen Kiefern der Insel) und das Santuario del Hermano Pedro\n\n### ⚠️ Sicherheitshinweise\nDer Weg ist gut ausgeschildert, aber die Bergumgebung verlangt Respekt:\n- 📈 **650 m Daueraufstieg** — keine flachen Abschnitte; Ungeübte werden es spüren\n- ⏱️ **Lange Tour** — 13 km gesamt mit 5–6,5 Std. Gehzeit; nicht für unerfahrene Wanderer empfohlen\n- 📵 **Begrenzter Handyempfang** in der Höhe — Route offline laden und Plan mitteilen\n- 🥵 **Hitze in den Sommermonaten** — frühzeitiger Start ist entscheidend; der Abstieg am Mittag kann brutal sein\n- ❄️ **Kälte und Wind am Gipfel** — warme Schicht auch im Sommer mitnehmen\n- 🌨️ Im Winter kann es auf den oberen Abschnitten Schnee oder Eis geben\n- 🚫 **Betreten der Mondlandschaft verboten** — die Formationen sind zerbrechlich; nur die ausgewiesenen Aussichtspunkte nutzen\n- **Notruf: 112**\n\n### Empfehlung\nDer Frühaufsteher wird belohnt: Die Mondlandschaft im Morgengrauen mit schrägem Licht und Nebel zwischen den Kiefern ist auf einem anderen Niveau. Zum Essen danach hat der Dorfplatz in Vilaflor Restaurants mit traditioneller kanarischer Küche — papas arrugadas und langsam geschmortes Fleisch nach 13 km ist ein perfekter Abschluss."
+    },
+    {
+      "slug": "afur-playa-tamadite",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.5636,
+        "lng": -16.3161
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/barranco_de_afur_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2-4h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/66QJzA2uX5s9BpRg8",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1WorR-UceKux786CtDec2yZUSkVoILns",
+        "distance": "2,67 km",
+        "duration": "1–1,5 Std. (nur Abstieg)",
+        "type": "linienweg",
+        "elevationGain": 16,
+        "tips": "Start am Dorfplatz des Caserío de Afur (Ermita de San Pedro). Ausgeschildert als PR-TF-8. Einfacher Weg: 2,67 km Abstieg zum Strand. Rückweg über denselben Weg (+222 m Aufstieg, ~1 Std. extra) oder weiter nach Taganana über den Lomo de Tamadite. Das ganze Jahr matschig und rutschig — Profilschuhe unbedingt."
+      },
+      "tags": [
+        "playa-negra",
+        "barranco",
+        "anaga",
+        "arroyo",
+        "cascada",
+        "virgen",
+        "la-laguna",
+        "pr-tf-8",
+        "costa-salvaje",
+        "facil"
+      ],
+      "name": "Afur → Playa de Tamadite",
+      "shortDescription": "Eine Schlucht mit ganzjährigem Bach, Wasserfällen, natürlichen Pools und einem schwarzen Sandstrand, der nur zu Fuß erreichbar ist: der überraschendste Weg in Anaga, kurz, aber voller Landschaft und absoluter Stille",
+      "description": "Er erscheint nicht auf Flughafenplakaten oder Hotelprospekten im Süden. Den **Strand Tamadite** muss man sich verdienen: 2,67 km zu Fuß durch den **Barranco de Afur**, einem ganzjährigen Bach zwischen Wasserfällen und Felspools folgend, 220 Meter durch die wildesten Hänge des Anaga-Massivs hinunter bis zu einer kleinen Bucht aus schwarzem Vulkansand, umgeben von 700 Meter hohen Felstürmen. Eine dieser Routen, die man sein Leben lang nicht vergisst.\n\n### Der Ausgangspunkt: Caserío de Afur\nDer Weg beginnt am **Dorfplatz des Caserío de Afur**, an der Ermita de San Pedro-Kapelle, unter der imposanten Silhouette des **Roque Páez** (586 m). Vor dem Aufbruch ist der einzige Dorfladen ein Pflichtbesuch — der Besitzer kennt jeden Zentimeter der Schlucht und hat die besten Geschichten des Ortes.\n\nVom Platz folgt der offizielle **PR-TF-8** durch Gemüsegärten und verstreute Häuser im Bereich **Los Huertos**, mit ständigen Blicken auf das Amphitheater aus Felsnadeln rund um das Tal: **Roque Negro** (741 m), **Roque del Fraile** (710 m) und **Roque de Taborno** (706 m) schließen den Horizont auf allen Seiten.\n\n### Barranco de Afur: das ganze Jahr Wasser\nNur wenige Schluchten Teneriffas führen einen **ganzjährigen Bach** — der Barranco de Afur ist einer davon. Der Weg steigt durch Schilfrohrdickichte, kanarische Weiden, Vinagreras und Tabaibas mit dem Wassergeräusch als ständiger Klangkulisse ab.\n\nDas spektakulärste Highlight der Route ist der **Felsdamm**, der das Schluchtbett senkrecht durchschneidet: Das Wasser stürzt mehrere Meter in einem **Wasserfall in einen Pool, umgeben von kanarischen Weiden** — ein Bild wie gemalt. Von hier öffnet sich nach einem kurzen Steintreppanstieg der volle Blick über das **Valle de Afur** mit dem Roque Negro im Hintergrund.\n\nWeiter kommt der **Charco de la Pasada**, ein weiterer Pool, der von einem zweiten Wasserfall gespeist wird und nach lokaler Legende einst Süßwasseraale beherbergte (eine auf den Inseln heute praktisch ausgestorbene Art). Bei günstigen Bedingungen der perfekte Ort für ein erfrischendes Bad vor dem Strandbesuch.\n\n### Strand Tamadite\nAm Ende der Schlucht öffnet sich das Bachbett zwischen den Hängen und der **Strand Tamadite** erscheint: eine kleine Bucht aus **schwarzem Vulkansand und Callaos** (große Rundsteine) zwischen Punta de Tamadite und den Felshängen des Roque Marrubial (487 m), behangen mit riesigen Kandelaberkakteen und Tabaibas, die senkrecht ins Meer stürzen.\n\nKeine Strandbar, keine Liegestühle, kein Massentourismus. Nur Fels, Wasser, Wind und der Atlantik. Einer der ursprünglichsten und schwer erreichbaren Strände Teneriffas — und das Schweigen spricht für sich.\n\n🚫 **Baden am Strand ist nicht sicher** — starke, unberechenbare Wellen in einer dem Nordatlantik exponierten Bucht. Der Charco de la Pasada weiter oben ist der Badeplatz dieser Route.\n\n### Was diese Route besonders macht\n- 🌊 **Unberührter Strand nur zu Fuß erreichbar** — kein Massentourismus, keine Einrichtungen, kein Lärm\n- 💧 **Ganzjähriger Bach** — Schlucht mit ständigem Wasser, Pools und Wasserfällen das ganze Jahr\n- 🏔️ **Felsnadel-Amphitheater** — von 700 m senkrechten Wänden von Anfang an umgeben\n- 🌿 **Kanarische Schluchtenflora** — Weiden, Schilf, Tabaibas, Riesenkandelaberkakteen, Verodes\n- 📏 **Sehr kurz** — 2,67 km bergab; auch für wenig erfahrene Wanderer machbar\n- 🗺️ **Verbindung nach Taganana** — kann als Etappe einer längeren Route nach Taganana über den PR-TF-8 kombiniert werden\n\n### Vor dem Start\n- 🚗 Parken im Caserío de Afur (begrenzte Plätze, früh ankommen)\n- 🥾 **Profilschuhe Pflicht** — der Boden ist das ganze Jahr durch die Feuchtigkeit der Schlucht matschig und rutschig\n- 💧 Wasser mitbringen — das Bachwasser ist nicht trinkbar\n- 🔙 **Lineare Route**: nicht vergessen, man muss zurück bergauf (+222 m, ~1 Std. extra) oder nach Taganana weiter\n- 📅 **Beste Zeit: Oktober bis Mai** — im Sommer kann der Rückstieg in der Sonne brutal sein\n- 🌧️ Nach starkem Regen kann der Weg durch Steinschlag blockiert sein — vorher informieren\n\n### ⚠️ Sicherheitshinweise\nDie Route ist im Profil leicht, aber die Schluchtenumgebung birgt echte Risiken:\n- 🪨 **Steinschlaggefahr** — senkrechte Wände mit instabilem Fels, besonders nach Regen\n- 🌧️ **Dauerhafter Schlamm** — der Bach hält den Weg auch mitten im Sommer nass\n- 🌊 **Kein Baden am Strand** — starke, unberechenbare Wellen in einer dem Nordatlantik exponierten Bucht\n- 📵 **Kein Handyempfang** im unteren Schluchtenbereich — immer vorher Bescheid geben\n- ↩️ **Hin-und-Rückweg** — der Rückaufstieg sind +222 m auf müde Beine nach dem Abstieg\n- **Notruf: 112**\n\n### Empfehlung\nMit einem Besuch des Dorfes **Taganana** kombinieren (25 Min. mit dem Auto von Afur) zum Mittagessen in einem seiner traditionellen kanarischen Restaurants. Mit zwei Autos: eines in Taganana, eines in Afur lassen und die Schlucht in eine Richtung wandern, weiter über den Lomo de Tamadite — das komplette Anaga-Erlebnis an einem Tag."
+    },
+    {
+      "slug": "chamorga-circular",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.5698,
+        "lng": -16.1592
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/chamorga_anaga_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "3-5h",
+      "difficulty": "moderate",
+      "emoji": "🏚️",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/mwgytwoYGrMdLhPV9",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1_8hx1dcYmY1e1RcbCIJ7Pa1qF2fV_7Y",
+        "distance": "5,78 km",
+        "duration": "3,5–4,5 Std.",
+        "type": "rundweg",
+        "elevationGain": 453,
+        "tips": "Start in Chamorga neben der Ermita de la Inmaculada Concepción (PR-TF 6 Schilder). Aufstieg zur Cruz del Draguillo (~1 Std.), dann rechts zu den Casas de Tafada (~1 Std. 30 Min. mehr), Rückweg über PR-TF 6.1 durch Paso de la Burra und Roque Pilón. Auch in umgekehrter Richtung möglich. Anagas Wetter ändert sich in Minuten — Regenkleidung immer mitnehmen."
+      },
+      "tags": [
+        "chamorga",
+        "anaga",
+        "laurisilva",
+        "casas-tafada",
+        "abandonado",
+        "historia",
+        "orquilla",
+        "moderado",
+        "circular",
+        "la-laguna",
+        "pr-tf-6"
+      ],
+      "name": "Chamorga circular: Cruz del Draguillo y Casas de Tafada",
+      "shortDescription": "Der Weg, der die Geschichte eines Dorfes am Ende der Welt erzählt: Von Chamorga steigt man durch Lorbeerwald zu verlassenen Gehöftruinen, Aussichtspunkten über den Anaga-Leuchtturm und Pfaden auf, auf denen Dorfbewohner einst Särge trugen — TrailRank 80, 5 Sterne",
+      "description": "Chamorga liegt am absoluten Ende der Welt auf Teneriffa. Buchstäblich. Ganz im Nordosten des Anaga-Massivs, wo die Straße endet und nur noch Erdwege übrig bleiben, ein Weiler mit Jahrzehnten der Stille und dem Gefühl, an einem Ort angekommen zu sein, den die Zeit zurückgelassen hat. Dieser 5,78 km lange Rundweg ist nicht nur eine Bergwanderung — er ist ein Gang durch das lebendige Gedächtnis einer Gemeinschaft, die jahrhundertelang in einer der abgelegensten Ecken der Inseln überlebt hat.\n\n### Geschichte, die man begeht\n**Chamorga wurde 1760 gegründet**, als sich eine Gruppe von Menschen illegal in der Gegend niederließ, um Holz zu schlagen und Bergparzellen zu bewirtschaften. Auf seinem Höhepunkt hatte das Dorf über **700 Einwohner** (1940). Heute leben dort sehr wenige. Aber die Pfade erzählen, was Bücher nicht können:\n\nDer Weg nach **Taganana entlang der Küste** war derjenige, den die Dorfbewohner gingen, wenn jemand starb: Sie liefen stundenlang zur Behörde und kamen auf dem Rückweg **mit dem Sarg zurück**. Es gab keine andere Möglichkeit. Der Weg hinunter zum **Hafen von Roque Bermejo** war jahrhundertelang die wirtschaftliche Lebensader des Dorfes — Holz und Wein gingen hinaus, lebensnotwendige Güter kamen herein. Und es gibt noch einen weiteren, weniger bekannten Weg, auf dem **Frauen Körbe mit Birnen auf dem Kopf** nach San Andrés trugen, kilometerweit durch die Berge ohne freie Hände.\n\n### Die Route\nAusgangspunkt ist die **Ermita de la Inmaculada Concepción** in Chamorga, neben den Schildern des PR-TF 6. Vor dem Start ist der **Chorro del Laurel Rosa** — ein Steinbrunnen, der das Dorf jahrzehntelang mit Wasser versorgte — das erste historische Zeugnis wenige Meter vom Start entfernt.\n\nDer Weg steigt sanft durch **Fayas, Heidekraut, Kastanienbäume und Farne**. Zu den Farnen eine interessante Geschichte: In Zeiten der Hungersnot und des Getreidemangels wurden **Farnwurzeln** gemahlen, getrocknet, gemahlen und in Milch eingeweicht, um eine Art Gofio herzustellen. Es wurde so wichtig für das Überleben, dass es Neugeborenen vor dem ersten Stillen auf die Lippen gerieben wurde.\n\nNach etwa 60 Minuten moderaten Aufstiegs erreicht man die **Cruz del Draguillo**, einen Kamm, an dem sich der Weg in drei Richtungen teilt: links zum **Aussichtspunkt Cabeza del Tejo**, geradeaus hinunter zum Weiler Los Draguillos, und rechts — unser Weg — weiter zu den Casas de Tafada. Fünfzehn Minuten auf diesem Ast öffnet sich die Vegetation plötzlich: **Panoramablick auf den Roque de las Ánimas, Taganana und Almáciga**. Einer der schönsten Aussichtspunkte von ganz Anaga.\n\nDie nächste Stunde und dreißig Minuten führen durch **Acebiños, Heidekraut und Eiben**, mit sichtbarem Schaden durch wilde Ziegen. Bei den **Casas de Tafada** — heute in Ruinen — füllt der historische Kontext den Ort mit Bedeutung: Sie dienten als Kornspeicher, Erntlager, Viehpferch (Rinder und Schweine) und Unterkunft für die Landarbeiter und Pächter. Von hier bietet ein Aussichtspunkt Blicke auf den **Anaga-Leuchtturm** und den alten Steg bei Roque Bermejo.\n\nDer Rückweg führt über den **PR-TF 6.1** (1,3 km selbstgeführter Weg mit nummerierten Pfosten von 7 bis 1). Der Weg führt durch den **Paso de la Burra**: ein Steintreppenpfad auf einem vulkanischen Deich, denselben Übergang, den Menschen und Lasttiere zwischen Chamorga und Tafada über Generationen nutzten.\n\nKurz vor dem Dorf erscheint der **Roque Pilón** — ein natürlicher Aussichtspunkt über Chamorga. An seinen Wänden wuchs früher reichlich **Orchilla**, eine mit den Passatwinden assoziierte Flechte, aus der der **Purpurfarbstoff** für Bischofsmäntel gewonnen wurde. Es gab einen ganzen Beruf für ihre Sammlung — die *Orchilleros* kletterten buchstäblich die Vulkanwände hinauf. In der Nähe gibt es natürliche Höhlen, die früher als Ställe dienten.\n\nAm Ende, im einzigen Restaurant des Dorfes — **Casa Álvaro** — sind lokaler Weißwein und frischer Käse der perfekte Abschluss.\n\n### Was diese Route besonders macht\n- 🏚️ **Casas de Tafada** — verlassenes Landgut mit Agrargeschichte, Aussichtspunkt zum Anaga-Leuchtturm und Roque Bermejo\n- 🌿 **Anaga-Lorbeerwald** — Fayal-Brezal und Monteverde-Wald in reinster Form\n- 🔭 **Ausblicke auf Roque de las Ánimas und die Nordküste** — zwischen Cruz del Draguillo und Tafada\n- 🟣 **Orchilla und der Orchillero-Beruf** — die Flechte für den Purpurfarbstoff der Bischöfe, an den Wänden des Roque Pilón\n- 🧗 **Paso de la Burra** — historischer Steinpfad über vulkanischen Deich\n- 🎯 **TrailRank 80 · 5 Sterne** — der bestbewertete Weg im Nordosten Teneriffas\n\n### Vor dem Start\n- 🚗 Parken am Ende der Straße in Chamorga (kostenlos, wo der Asphalt endet)\n- 🧥 **Immer Regenkleidung mitnehmen** — Anagas Wetter ändert sich in Minuten; Nebel und Regen können kommen, während Chamorga sonnig ist\n- 🥾 Wanderschuhe — häufiger Schlamm und unebenes Gelände\n- 💧 Genug Wasser mitbringen — keine zuverlässigen Wasserquellen auf der Route\n- 🍔 Essen einpacken — Casas de Tafada ist der ideale Mittagsstopp mit Blick auf den Leuchtturm\n- ☀️ Die Tour kann auch in umgekehrter Richtung gemacht werden\n- 🚌 Öffentliche Verkehrsmittel möglich aber nicht empfohlen (Linie 947 aus Santa Cruz)\n\n### ⚠️ Sicherheitshinweise\nDas Anaga-Massiv hat eigene klimatische Merkmale, die Vorbereitung erfordern:\n- 🌧️ **Bei Gewitter nicht wandern** — steile Hänge mit Steinschlaggefahr, Wege werden sehr rutschig\n- 🌫️ **Plötzlicher Nebel** an Cruz del Draguillo und Casas de Tafada — kann die Sicht in Sekunden nehmen\n- 🌡️ **Schnell wechselnde Temperatur** — warm in Chamorga, kalt und windig auf dem Kamm. Auf beides vorbereiten\n- 📵 **Kein Handyempfang** auf mehreren Abschnitten — Route offline laden, vorher Bescheid geben\n- 🐐 **Wilde Ziegen** — im Gebiet vorhanden, besonders im oberen Abschnitt\n- **Notruf: 112**\n\n### Empfehlung\nMit dem Weg zum **Playa de Antequera** (startet am Friedhof von Chamorga) oder zur **Roque Bermejo und dem Anaga-Leuchtturm** für einen vollen Tag im wildesten Eck Teneriffas kombinieren. Stopp bei **Casa Álvaro** ist Pflicht — traditionelle kanarische Hausmannskost im abgelegensten Restaurant der Insel."
+    },
+    {
+      "slug": "chamorga-roque-bermejo",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.5698,
+        "lng": -16.1592
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/roque_bermejo_anaga_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "4-6h",
+      "difficulty": "moderate",
+      "emoji": "🔦",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/XvCSiRrQ4knCPiv67",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1-yQwGlFQ4qiJhB1MBufEGlmCUUWbrlc",
+        "distance": "9,76 km",
+        "duration": "4–5 Std.",
+        "type": "rundweg",
+        "elevationGain": 743,
+        "tips": "Start in Chamorga (Restaurant Casa Álvaro). Aufstieg über PR-TF 6.1 zu den Casas de Tafada → Anaga-Leuchtturm → Abstieg nach Roque Bermejo. Rückweg über PR-TF 6 die Schlucht hinauf nach Chamorga. Der Rückaufstieg (Roque Bermejo → Chamorga) ist der anspruchsvollste Abschnitt — kein Schatten, heiß in der Mittagssonne. Früh starten."
+      },
+      "tags": [
+        "roque-bermejo",
+        "faro-anaga",
+        "anaga",
+        "playa",
+        "faro",
+        "aldeacosteera",
+        "roques-anaga",
+        "moderado",
+        "circular",
+        "la-laguna",
+        "pr-tf-6"
+      ],
+      "name": "Chamorga → Faro de Anaga → Roque Bermejo",
+      "shortDescription": "Der älteste Leuchtturm der Kanaren, ein Küstendorf nur zu Fuß erreichbar und ein Bad im wilden Atlantik: Der große Chamorga-Rundweg steigt 743 Meter zu Roque Bermejo hinab und kehrt durch die Schlucht zurück — die vollständigste Route im Nordosten Teneriffas",
+      "description": "Wenn es eine Route gibt, die Anaga in seiner reinsten Form verkörpert, dann diese. Von **Chamorga** — dem Dorf, das die Straße 1975 erreichte und wo der Asphalt endet — hat dieser 9,76 km lange Rundweg alles: Lorbeerwald und Monteverde, verlassene Gutshöfe auf einem Kamm mit Blick auf den Atlantik, den **ältesten Leuchtturm der Kanarischen Inseln**, zwei vulkanische Felsinseln als Naturschutzgebiet, ein Küstendorf ohne Straße und einen dunklen Steinstrand für ein Bad vor dem Rückstieg.\n\n### Die Route Schritt für Schritt\n\nDer Weg startet beim **Restaurant Casa Álvaro** in Chamorga und folgt den Schildern des **PR-TF 6.1** Richtung Casas de Tafada. Die ersten 45 Minuten sind ein kontinuierlicher Anstieg auf dem selbstgeführten Weg — mit 7 nummerierten Stationen — durch Acebiños, Heidekraut und Fayas. Mit zunehmender Höhe bleibt Chamorga unten zurück und ein Amphitheater aus Vulkanwänden schließt die Landschaft ein. Auf diesem Abschnitt sind die **Höhlenställe** zu sehen, in denen früher Ziegen und Schafe zum Schutz der Kulturen untergebracht wurden.\n\nBei den **Casas de Tafada** (45 Min. von Chamorga) öffnet sich der erste spektakuläre Aussichtspunkt: Blicke von einem Kamm, der einst Gutsbesitzern zur Kontrolle ihrer Ländereien diente. Kartoffeln, Weinreben und Obstbäume — Kastanien, Apfel, Birne und Pflaume — werden hier noch angebaut.\n\nVon Tafada führt der Weg durch Fayas und Heidekraut zur **La Asomada** hinunter: ein natürliches Fenster zum Atlantik, wo einer der unerwartetsten Ausblicke Teneriffas erscheint — die **Roques de Anaga**. Zwei vulkanische Felsinseln, **Roque de Tierra** (178 m) und **Roque de Fuera** (66 m), durch etwa 800 Meter getrennt, bilden ein Naturschutzgebiet von außerordentlichem geologischem und ökologischem Interesse.\n\n### Anaga-Leuchtturm: der älteste der Kanaren\nKurz nach La Asomada erscheint der **Anaga-Leuchtturm** — zunächst in der Ferne, dann imposant aus der Nähe. Gebaut im Jahr **1863**, war er die **erste Anlage dieser Art, die im gesamten Kanarischen Archipel in Betrieb ging** — über 160 Jahre leuchtet er an der nordöstlichsten Spitze Teneriffas.\n\nVom Fuß des Leuchtturms ist der kleine Weiler Roque Bermejo gut sichtbar unten an der Küste, zusammen mit dem gewundenen Rückweg die Schlucht hinauf.\n\nDer Abstieg vom Leuchtturm über den **Lomo del Rayo** hat Abschnitte mit losem Sandstein, wo Ausrutschen leicht passiert — keine echte Gefahr, aber vorsichtig abstammen.\n\n### Roque Bermejo: das Dorf ohne Straße\nDer Abstieg vom Leuchtturm dauert 20–25 Minuten bis **Roque Bermejo**: sechs Häuser, eine kleine 1934 erbaute Kapelle, ein Dorfladen, ein kleiner Hafen und ein Häuflein freundlicher Bewohner, die seit Generationen an einem der abgelegensten Orte Teneriffas leben.\n\nKeine Straße führt hierher. Man kommt nur zu Fuß oder auf dem Seeweg — genau wie vor 200 Jahren, als dieser kleine Steg der einzige wirtschaftliche Ausgang des Dorfes war: Holz und Wein gingen hinaus, lebensnotwendige Güter kamen herein.\n\nDer dunkle Kieselstrand eignet sich gut zum Baden: Das Wasser ist klar und der Wellengang, durch den Roque Bermejo-Felsen geschützt, ist überschaubarer als an anderen Nordküstenstränden.\n\n### Der Rückweg: Schlucht hinauf ohne Schatten\nDer Rückweg nimmt den **PR-TF 6**, der das Barranco de Roque Bermejo aufsteigt. Unterwegs passiert man die **Casas Blancas**, ein früheres Landgut, wo ein wohlhabender Grundbesitzer aus La Laguna die Sommer zur Überwachung seiner Ländereien verbrachte. Der Aussichtspunkt zurück auf Roque Bermejo und den Leuchtturm ist von hier außergewöhnlich.\n\nDer Rückaufstieg ist der anspruchsvollste Abschnitt: **kein Schatten, volle Sonne wenn es spät ist** und Beine bereits müde vom Abstieg. Frühes Aufbrechen ist entscheidend.\n\nZurück in Chamorga ist das kalte Bier bei **Casa Álvaro** mehr als verdient.\n\n### Was diese Route besonders macht\n- 🔦 **Anaga-Leuchtturm (1863)** — der älteste der Kanaren, seit über 160 Jahren in Betrieb\n- ⛵ **Roque Bermejo** — Küstendorf ohne Straße, nur zu Fuß oder per Boot erreichbar\n- 🌊 **Schwimmen im Atlantik** — der Strand von Roque Bermejo lädt zum Baden ein\n- 🪨 **Roques de Anaga** — zwei vulkanische Naturschutzinseln, sichtbar von La Asomada\n- 🏚️ **Casas de Tafada und Casas Blancas** — Agrar- und Sozialgeschichte Anagas in schweigenden Ruinen\n- 🌿 **Lorbeerwald und Monteverde** — Fayas, Heidekraut, Acebiños und Farne beim Aufstieg\n\n### Vor dem Start\n- 🚗 Parken am Ende der Straße in Chamorga (kostenlos, wo der Asphalt endet)\n- 🥾 Wanderschuhe — Lomo del Rayo mit losem Sandstein, unebene Schlucht beim Rückweg\n- 💧 Mindestens 2 L Wasser mitbringen — keine Wasserquellen auf der Route\n- 🧴 Sonnenschutz — Abstieg zum Leuchtturm und Rückstieg durch die Schlucht sind völlig ungeschützt\n- 🌡️ **Früh aufbrechen** — der Rückstieg (Roque Bermejo → Chamorga) ohne Schatten und in der Mittagshitze ist brutal\n- 🏊 Badezeug mitnehmen — das Bad in Roque Bermejo ist die beste Belohnung des Tages\n- 🧥 Regenkleidung — Anagas Wetter kann sich in Minuten ändern\n\n### ⚠️ Sicherheitshinweise\n- 📈 **743 Höhenmeter** — der Rückaufstieg durch die Schlucht ist der anspruchsvollste Abschnitt, besonders bei Hitze\n- 🌊 **Wellengang am Strand beachten** — Roque Bermejo ist dem Nordatlantik ausgesetzt; Seebedingungen vor dem Baden prüfen\n- 🌧️ **Rutschig auf dem Lomo del Rayo** — loser Sandstein wird nach Regen gefährlich\n- 📵 **Kein Handyempfang** im unteren Abschnitt und in Roque Bermejo — Route offline laden\n- 🌫️ **Plötzlicher Nebel** in Anaga — kann ohne Vorwarnung auftreten\n- **Notruf: 112**\n\n### Empfehlung\nMit dem kürzeren Rundweg **Chamorga → Cruz del Draguillo → Casas de Tafada** bei einem anderen Besuch kombinieren — zwei Routen vom gleichen Ausgangspunkt, die sich perfekt ergänzen, um die wildeste Ecke Teneriffas aus zwei völlig verschiedenen Blickwinkeln zu entdecken."
+    },
+    {
+      "slug": "sendero-chinyero",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2618,
+        "lng": -16.7952
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/volcan_chinyero_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🌋",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/kQgUkqyMj3VfP58Z6",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/u/2/edit?mid=1Z9lVXrXO_PnEASgkNiSZ2UU8yfnSiZ0",
+        "distance": "6,44 km",
+        "duration": "2–3 Std.",
+        "type": "rundweg",
+        "elevationGain": 150,
+        "tips": "Zugang von der TF-38 (km 15) oder San José de los Llanos (El Tanque). Markierter PR-TF-43-Wanderweg (weiß-gelbe Markierungen). Besteigen der Vulkankegel verboten. Familienfreundlich. Wasser mitbringen — keine Wasserquellen auf der Route."
+      },
+      "tags": [
+        "chinyero",
+        "volcan",
+        "lava",
+        "pinar",
+        "teide",
+        "reserva-natural",
+        "facil",
+        "circular",
+        "santiago-del-teide",
+        "pr-tf-43",
+        "familia"
+      ],
+      "name": "Sendero del Chinyero — El último volcán de Tenerife",
+      "shortDescription": "Im Jahr 1909 spie der Chinyero 10 Tage lang ununterbrochen Lava — der letzte Vulkanausbruch in der Geschichte Teneriffas. Heute führt dieser einfache Rundweg um seine schwarzen Lavafelder durch kanarischen Kiefernwald mit Blick auf den Teide — eine Geologiestunde unter freiem Himmel für die ganze Familie",
+      "description": "Es gibt Routen, die die Geschichte einer Insel besser erzählen als jedes Buch. Der **Chinyero-Wanderweg** ist eine davon. Im **November 1909** brach dieser Vulkan auf dem Abeque-Rücken ohne Vorwarnung aus und spie **10 Tage lang** ununterbrochen Lava. Es war der **letzte vulkanische Ausbruch, der jemals auf Teneriffa verzeichnet wurde**, und die hinterlassene Landschaft — ein Meer aus erstarrter schwarzer Lava im Kontrast zum satten Grün des kanarischen Kiefernwaldes — ist über ein Jahrhundert später noch nahezu unverändert.\n\nDieser **6,44 km lange Rundweg mit nur 150 Höhenmetern** ist einer der zugänglichsten und visuell beeindruckendsten Wanderwege der gesamten Insel. Keine technischen Schwierigkeiten, geeignet für Familien und Reisende, die die geologische Seite Teneriffas erleben möchten, ohne anspruchsvolle Bergtouren zu unternehmen.\n\n### Der Chinyero im Kontext: Vulkanisches Teneriffa\n\nVor dem Wandern lohnt es sich zu verstehen, wo man sich befindet. **Teneriffa hat fast 400 Vulkane**, obwohl die meisten unbemerkt bleiben, da sie im lokalen Sprachgebrauch einfach \"Berge\" (montañas) heißen. Der Chinyero liegt im **Reserva Natural Especial del Chinyero**, einem Schutzgebiet, das wegen der Einzigartigkeit seiner jüngeren Kegel- und Lavafluss-Habitate und der sie allmählich besiedelnden Flora und Fauna ausgewiesen wurde.\n\nDer Chinyero ist nicht allein: Unterwegs passiert man andere Vulkane mit ebenso intensiver Geschichte, wie den **Arenas Negras (oder Trevejos)**, dessen Ausbruch von **1706** Lavaströme aussandte, die den Hafen und die Stadt Garachico zerstörten — damals der bedeutendste der Insel. Montaña Bilma und Montaña Negra vervollständigen eine Szenerie, die wie ein anderer Planet wirkt.\n\n### Die Route Schritt für Schritt\n\nDer Weg beginnt an der **TF-38**, den **PR-TF-43**-Markierungen folgend (weiß-gelb). Der erste Abschnitt schlängelt sich durch einen **wunderschönen kanarischen Kiefernwald**, der Schatten und Ruhe bietet, die stark mit der vulkanischen Landschaft kontrastieren, die noch bevorsteht.\n\nNach etwa **45 Minuten gemächlichen Gehens** lichten sich die Kiefern und das Schwarz der Vulkanasche gewinnt die Oberhand. Der **Arenas Negras-Vulkan** erscheint — heute still, seine Flanken von Flechten und Pionierpflanzen bedeckt. Das Besteigen des Kegels ist nach den Vorschriften des Naturschutzgebiets streng verboten.\n\nWeiter geht es über den **Canal de Vergara**, und der Weg steigt sanft an bis zum Hauptereignis: dem **großen Chinyero-Lavafeld**. Die Landschaft verändert sich vollständig. Der Boden wird zu einem Teppich aus **schwarzen Basaltblöcken und -strömen**, mit großen erratischen Felsblöcken, die sich über die Lavaebene erheben.\n\n### Vor den Laven, mit dem Teide im Rücken\n\nVom Lavafeld aus ist der Blick unvergesslich. **El Teide, Pico Viejo und der Chinyero selbst** zeichnen sich am Horizont ab und bilden eine vulkanische Dreiheit, die Millionen von Jahren Geologiegeschichte umspannt. Hier erinnert das Ausmaß der Landschaft daran, dass man auf einer Insel steht, die noch atmet.\n\nDer Rückweg auf dem **PR-TF-43.2** vervollständigt den Rundweg durch Kiefern und Buschland, mit Zeit, die Flora und Fauna zu beobachten, die diese Hänge seit dem Ausbruch von 1909 allmählich zurückerobert.\n\n### Flora und Fauna des Malpaís\n\nDas Leben kehrt langsam auf Lavafelder zurück, aber es kehrt zurück. Zu den Pionierarten gehören **Zistrose, Besenginster und Codeso**, daneben Bejeque, Magarza und graue Retama. Bei der Tierwelt sind **Eidechsen** die ständigen Begleiter des Weges. Vogelkundliche Highlights sind der **Buntspecht**, der **Teneriffa-Blaufink** — eine der Leitarten des kanarischen Kiefernwaldes — und der **Wiedehopf**.\n\n### Was diese Route besonders macht\n- 🌋 **Letzter Ausbruch auf Teneriffa (1909)** — man wandert auf der lebendigen Geologiegeschichte der Insel\n- 🖤 **Schwarze Basalt-Lavafelder** — ein 115 Jahre altes Malpaís mit monumentalen erratischen Felsblöcken\n- 🌲 **Kanarischer Kiefernwald** — Schatten, frische Luft und Vogelgesang auf den Einstiegs- und Abschlussabschnitten\n- 🏔️ **Blick auf El Teide und Pico Viejo** vom Lavafeld aus, mühelos\n- 🦎 **Malpaís-Tierwelt** — Teneriffa-Blaufink, Buntspecht, Wiedehopf und Eidechsen\n- 👨‍👩‍👧 **Familienfreundlich** — minimales Gefälle, breiter, gut markierter Weg\n\n### Vor dem Start\n- 🚗 Zugang von der **TF-38** (km 15) oder dem Erholungspark San José de los Llanos (El Tanque)\n- 🥾 Wanderschuhe oder leichte Trekkingschuhe — Lavagestein kann stellenweise uneben sein\n- 💧 Wasser mitbringen — keine Quellen oder Geschäfte auf der Route\n- 🌡️ Kühl selbst im Sommer (Höhe 1.400–1.540 m) — eine Schicht Kleidung einpacken\n- 📵 Unzuverlässiger Handyempfang — Route vor dem Start offline laden\n- 🚫 **Das Besteigen der Vulkankegel ist verboten** und das Verlassen markierter Wege nicht erlaubt — ökologisch sensibles Gebiet\n\n### ⚠️ Sicherheitshinweise\n- 🌫️ **Plötzlicher Nebel** — häufig in dieser Höhenlage; bei dichtem Nebel anhalten, warten oder umkehren\n- 🌧️ **Regen und Wind** — das Wetter ändert sich rund um den Teide schnell; vor dem Start AEMET prüfen\n- ⛔ **Sperrzone**: Chinyero und Montaña Negra sind strikt gesperrt — Beschilderung respektieren\n- 📵 Kein Signal auf einigen Abschnitten — mit heruntergeladener Route starten und jemanden informieren\n- **Notruf: 112**\n\n### Empfehlung\nDie Wanderung mit einem Besuch im **Ecomuseo de El Tanque** kombinieren (4 Autominuten von San José de los Llanos): ein traditionelles Gehöft, das die Agrar- und Vulkangeschichte dieses Teils von Teneriffa erklärt. Ein perfekter Abschluss des Tages mit lokaler Kultur nach der Wanderung."
+    },
+    {
+      "slug": "montana-blanca-pico-teide",
+      "island": "tenerife",
+      "category": "hiking",
+      "coordinates": {
+        "lat": 28.2758,
+        "lng": -16.6199
+      },
+      "images": {
+        "hero": "/images/tenerife/senderos/teide_pico_viejo_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": "7-10h",
+      "difficulty": "hard",
+      "emoji": "🏔️",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/a1y67e822XykKYoj7",
+      "track": {
+        "mapsUrl": "https://www.google.com/maps/d/u/2/edit?mid=1xPhRZFbH0sVMsywhJ6lYCf6lBsKf8d4",
+        "distance": "17,44 km",
+        "duration": "7–10 Std.",
+        "type": "rundweg",
+        "elevationGain": 1344,
+        "tips": "Start am Parkplatz Montaña Blanca (2.398 m). Kostenlose Genehmigung für den letzten Kraterabschnitt (Telesforo-Bravo-Wanderweg Nr. 10) erforderlich — im Voraus auf miterd.es buchen. Vor 6:00 Uhr aufbrechen. Altavista-Schutzhaus als Unterkunft derzeit geschlossen. Mehrschichtige Kleidung, LSF 50+ Sonnenschutz und mindestens 3 L Wasser pro Person mitbringen."
+      },
+      "tags": [
+        "teide",
+        "pico-teide",
+        "volcan",
+        "cumbre",
+        "3715m",
+        "españa",
+        "patrimonio-unesco",
+        "montana-blanca",
+        "altavista",
+        "dificil",
+        "la-orotava",
+        "parque-nacional"
+      ],
+      "name": "Montaña Blanca → Pico del Teide (3.715 m)",
+      "shortDescription": "Der höchste Punkt Spaniens, der meistfotografierte Vulkan des Atlantiks und die ikonischste Route der Kanarischen Inseln: 17 km Rundweg von Montaña Blanca zum Teide-Krater mit 1.344 Höhenmetern und der ganzen Welt zu Füßen auf 3.715 Metern",
+      "description": "Es gibt nur ein Dach in Spanien, und es liegt auf Teneriffa. Der **Pico del Teide** mit seinen **3.715 Metern** ist der höchste Gipfel im gesamten spanischen Staatsgebiet, der höchste Vulkan des Atlantiks und einer der größten Vulkane der Erde gemessen von seiner Meeresbasis. Ihn zu Fuß von **Montaña Blanca** aus zu besteigen ist zweifellos die ikonischste Route der Kanarischen Inseln — und ein Erlebnis, das jene, die es vollenden, selten vergessen.\n\nEs ist auch eine der anspruchsvollsten: **17,44 km Rundweg, 1.344 Höhenmeter und eine maximale Höhe über 3.700 Metern**. Die Höhe vergibt weder hohes Tempo noch mangelnde Vorbereitung. Doch für diejenigen, die gut vorbereitet kommen, ist die Landschaft buchstäblich aus einer anderen Welt — denn ab dieser Höhe beginnt der Himmel selbst am Tag dunkler zu werden.\n\n### Zwei Wege zum Krater\n\n**Option 1 — Vollständige Wanderung (Montaña Blanca, die klassische Route)**\nDie Route, die wirklich zählt. Start am **Parkplatz Montaña Blanca (2.398 m)**, vollständig zu Fuß bis zum Pico del Teide. Die reinste — und härteste — Art, den Gipfel zu erreichen.\n\n**Option 2 — Seilbahn + Telesforo-Bravo-Wanderweg**\nDie Seilbahn (Teleférico) fährt von der **Talstation (2.356 m)** zur **La Rambleta (3.555 m)** in etwa 8 Minuten. Von dort noch 40–60 Minuten Fußmarsch mit Genehmigung bis zum Krater. Deutlich einfacher, aber man absolviert nur die letzte Etappe.\n\nBeide Optionen teilen eine wesentliche Voraussetzung: **Um den Geodätischen Vermessungspunkt und den Krater zu erreichen, benötigt man die Genehmigung für den Telesforo-Bravo-Wanderweg** (Weg Nr. 10). Diese ist kostenlos, aber streng auf 200 Personen pro Tag begrenzt — sie muss im Voraus auf dem Portal des Nationalparks Teide (miterd.es) gebucht werden.\n\n### Die vollständige Route von Montaña Blanca\n\n**Abschnitt 1: Montaña Blanca → Huevos del Teide (ca. 1 Std. 30 Min.)**\nDer Weg beginnt durch Bimsstein- und Lapilli-Formationen — den hellen, porösen Vulkanboden, der dem Ort seinen Namen gibt. Schon von den ersten Schritten an ist der Teide riesig am Horizont zu sehen und wächst mit jedem Höhenmeter. Nach etwa 45 Minuten erscheint eines der markantesten geologischen Elemente der Route: die **Huevos del Teide** (Teide-Eier) — große Bälle aus erstarrter Lava, die bei alten Ausbrüchen vom Krater rollten und hier liegen blieben, perfekt kugelförmig, als ob sie jemand absichtlich an den Hang gelegt hätte.\n\n**Abschnitt 2: Huevos del Teide → Altavista-Schutzhaus (ca. 1 Std.)**\nDer Weg wird steiler und die Landschaft wird karger und mondähnlicher. Man betritt echtes **Hochgebirge auf vulkanischem Terrain**, mit Blick auf das Wolkenmeer und die Nachbarinseln an klaren Tagen. Das **Altavista-Schutzhaus (3.260 m)** ist die traditionelle Ruhepause — derzeit als Unterkunft geschlossen, aber als Höhenmarkierung und Schutz bei plötzlichem Wetterwechsel nützlich.\n\n**Abschnitt 3: Altavista → La Rambleta (ca. 45 Min.)**\nDer härteste Abschnitt. Das Gefälle verstärkt sich, Sauerstoff wird knapper und der Körper beginnt die Auswirkungen der Höhe zu spüren: Kopfschmerzen, Übelkeit oder Schwindel können auftreten. Der Schlüssel ist **sehr langsam zu gehen**, tief zu atmen und das Tempo nicht zu forcieren. Die Ankunft an der **La Rambleta (3.555 m)** — wo auch die Seilbahn ankommt — markiert den Beginn des letzten Anstiegs.\n\n**Abschnitt 4: La Rambleta → Pico del Teide / Telesforo-Bravo-Wanderweg (45–60 Min.)**\nDer **Telesforo-Bravo-Wanderweg** (Weg Nr. 10) ist die letzte Etappe bis zum Krater und zum geodätischen Vermessungspunkt, wo die Genehmigungen kontrolliert werden. Der Weg umrundet den Hauptvulkankamin, mit sichtbar dampfenden Schwefelquellen, dem durch Mineralablagerungen gelb-orangefarbenen Boden und dem sich öffnenden Schlund des Kraters. Vom **Pico del Teide (3.715 m)** sind an klaren Tagen alle acht Inseln des Archipels, die nordafrikanische Küste und die Iberische Halbinsel zu sehen.\n\n### Was diese Route besonders macht\n- 🏔️ **Höchster Punkt Spaniens (3.715 m)** — und höchster Vulkan des Atlantiks\n- 🥚 **Huevos del Teide** — eines der singulärsten geologischen Merkmale des Nationalparks\n- 🌊 **Wolkenmeer** — ein Wolkenteppich unter den Füßen auf 2.000 m ist ein Spektakel\n- 🌋 **Aktive Fumarolen** — der Teide ist noch aktiv mit Schwefel, Gasen und heißem Boden\n- 🌅 **Gipfelaussicht** — an klaren Tagen alle 8 Kanarischen Inseln, die Sahara und Spanien\n- 🌌 **Dunkler Himmel** — auf 3.700 m verdunkelt sich der Himmel selbst am Tag; idealer Astronomiestandort\n- 🏅 **UNESCO-Welterbe** — Nationalpark Teide, eingetragen 2007\n\n### Vor dem Start — vollständige Checkliste\n- 📋 **Genehmigung im Voraus buchen** auf miterd.es (kostenlos, max. 200 Personen/Tag für den Kraterabschnitt)\n- 🎟️ **Bei Seilbahnnutzung** ebenfalls Tickets im Voraus kaufen — in der Hochsaison sind die Warteschlangen lang\n- 🚗 Kostenloser Parkplatz an der Montaña Blanca an der TF-21\n- 🌡️ Gipfeltemperatur kann **20–25°C kälter als an der Küste** sein — auf Kälte, Wind und Schnee im Winter vorbereiten\n- 🧴 **Sonnenschutz LSF 50+** — UV-Strahlung auf 3.700 m ist selbst im Winter extrem\n- 💧 Mindestens **3 Liter Wasser** pro Person mitbringen — keine Wasserquellen auf der Route\n- 🥾 **Bergschuhe** mit gutem Halt — Bimsstein-Terrain ist rutschig\n- 🧥 Mehrschichtige Kleidung: technische Basisschicht, Isolationsschicht, wasserdichte Außenschicht\n- 🌄 **Vor 6:00 Uhr aufbrechen** — früh am Gipfel ankommen, vor der Nachmittagshitze absteigen\n- 🩺 Nicht empfohlen für Personen mit Herzproblemen, Bluthochdruck oder Atemwegserkrankungen ohne ärztliche Beratung\n- 🤢 **Ibuprofen** gegen Höhenkopfschmerzen mitnehmen; bei schweren Symptomen der Höhenkrankheit sofort absteigen\n\n### ⚠️ Sicherheitshinweise — Hochgebirge\n- 📈 **Akute Bergkrankheit**: kann zwischen 2.500 und 3.715 m auftreten. Symptome: starke Kopfschmerzen, Übelkeit, Schwindel, extreme Erschöpfung. Bei schweren Symptomen **sofort absteigen**\n- 🌡️ **Plötzlicher Temperaturwechsel**: Bedingungen können in Minuten von Sonnenschein zu Wind, Nebel oder Schnee wechseln\n- ❄️ **Eis und Schnee**: zwischen November und April kann der Weg vereist sein — Streckenzustand vor dem Start prüfen\n- ☀️ **Extreme UV-Strahlung**: ohne ausreichenden Sonnenschutz drohen schwere Verbrennungen selbst an bewölkten Tagen\n- 🌬️ **Starker Gipfelwind**: Böen von 60–80 km/h sind üblich und können den Zugang zum Gipfel verhindern\n- 📵 **Begrenzter Mobilfunkempfang** oberhalb des Altavista-Schutzhauses — Route offline laden\n- 🚫 **Ohne Genehmigung kein Zugang zum Krater** — Kontrollen sind streng, keine Ausnahmen\n- **Notruf: 112**\n\n### Empfehlung\nDie vollständige Wanderung von Montaña Blanca ist eines jener Erlebnisse, die eine Reise definieren. Wenn aber Zeit, Fitness oder Logistik es nicht erlauben, ist die Kombination **Seilbahn + Telesforo-Bravo-Wanderweg** immer noch ein atemberaubendes Erlebnis — besonders wenn man die Genehmigung sichert und die 3.715 m erreicht. In jedem Fall: zuerst die Genehmigung buchen — ohne sie ist der Gipfel gesperrt."
     }
   ],
   "sections": [

@@ -82,13 +82,16 @@ function parseMarkdown(text: string): string {
     .replace(/^## (.+)$/gm, '<h2>$1</h2>')
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
-    .replace(/^- (.+)$/gm, '<li>$1</li>')
-    .replace(/(<li>[^]*?<\/li>(\n|$))+/g, m => `<ul>${m}</ul>`)
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
+    .replace(/^- (.+)$/gm, '<li data-ul>$1</li>')
+    .replace(/^(\d+)\. (.+)$/gm, '<li data-ol>$2</li>')
+    .replace(/(<li data-ul>[^]*?<\/li>(\n|$))+/g, m => `<ul>${m.replace(/ data-ul/g, '')}</ul>`)
+    .replace(/(<li data-ol>[^]*?<\/li>(\n|$))+/g, m => `<ol>${m.replace(/ data-ol/g, '')}</ol>`)
     .split(/\n{2,}/)
     .map(block => {
       const b = block.trim();
       if (!b) return '';
-      if (/^<(h[23]|ul|li)/.test(b)) return b;
+      if (/^<(h[23]|ul|ol|li)/.test(b)) return b;
       return `<p>${b.replace(/\n/g, '<br>')}</p>`;
     })
     .join('');

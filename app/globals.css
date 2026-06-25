@@ -224,17 +224,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ── Rich text markdown ─────────────────────────────────────────────── */
-.rich-poi-text p { margin: 0 0 10px; }
+.rich-poi-text p { margin: 0 0 8px; }
 .rich-poi-text p:last-child { margin-bottom: 0; }
 .rich-poi-text strong { font-weight: 700; color: #1f2937; }
 .rich-poi-text em { font-style: italic; color: #4b5563; }
-.rich-poi-text h2 { font-size: 16px; font-weight: 700; color: #1f2937; margin: 16px 0 6px; font-family: 'Outfit', sans-serif; }
-.rich-poi-text h3 { font-size: 14px; font-weight: 700; color: #374151; margin: 14px 0 5px; font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 0.05em; }
-.rich-poi-text ul { padding-left: 18px; margin: 6px 0 10px; }
-.rich-poi-text ol { padding-left: 20px; margin: 6px 0 10px; }
-.rich-poi-text li { margin-bottom: 5px; line-height: 1.6; }
-.rich-poi-text blockquote { border-left: 3px solid #e5e7eb; padding-left: 12px; color: #6b7280; font-style: italic; margin: 10px 0; }
-.rich-poi-text hr { border: none; border-top: 1px solid #f1f5f9; margin: 14px 0; }
+.rich-poi-text a { color: #0ea5e9; text-decoration: underline; }
+.rich-poi-text h2 { font-size: 16px; font-weight: 700; color: #1f2937; margin: 14px 0 5px; font-family: 'Outfit', sans-serif; }
+.rich-poi-text h3 { font-size: 14px; font-weight: 700; color: #374151; margin: 12px 0 4px; font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 0.05em; }
+.rich-poi-text ul { padding-left: 18px; margin: 4px 0 8px; }
+.rich-poi-text ol { padding-left: 20px; margin: 4px 0 8px; }
+.rich-poi-text li { margin-bottom: 4px; line-height: 1.55; }
+.rich-poi-text blockquote { border-left: 3px solid #e5e7eb; padding-left: 12px; color: #6b7280; font-style: italic; margin: 8px 0; }
+.rich-poi-text hr { border: none; border-top: 1px solid #f1f5f9; margin: 12px 0; }
 
 /* ── Hover en botones de la card de detalle ─────────────────────────── */
 .poi-btn {
