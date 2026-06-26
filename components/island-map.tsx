@@ -1128,7 +1128,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             border: '1.5px solid #000000',
             boxShadow: '0 4px 20px rgba(0,0,0,0.13), 0 1px 3px rgba(0,0,0,0.06)',
             padding: '6px',
-            gap: '2px',
+            gap: '6px',
           }}>
             {/* Botones de acción */}
             {([

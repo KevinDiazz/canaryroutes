@@ -1,76 +1,10 @@
 {
   "pois": [
     {
-      "slug": "teide",
-      "name": "Teide",
-      "description": "El volcán más alto de España con 3.715 metros. Parque Nacional declarado Patrimonio de la Humanidad por la UNESCO. Sus paisajes lunares de lava y el teleférico hasta la cima lo convierten en el lugar más visitado de España.",
-      "shortDescription": "Volcán más alto de España, Patrimonio de la Humanidad",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.2723,
-        "lng": -16.6424
-      },
-      "images": {
-        "hero": "/images/tenerife/teide/hero.avif",
-        "gallery": [
-          "/images/tenerife/teide/1.avif"
-        ]
-      },
-      "audioPreview": "/audio/previews/es/teide-preview.mp3",
-      "hasPremiumAudio": true,
-      "premiumRouteId": "volcano-route",
-      "tags": [
-        "volcán",
-        "parque-nacional",
-        "senderismo",
-        "teleférico",
-        "cumbre"
-      ],
-      "visitDuration": "3-5h",
-      "difficulty": "moderate",
-      "emoji": "🌋",
-      "top": false,
-      "municipio": "la-orotava"
-    },
-    {
-      "slug": "los-gigantes",
-      "name": "Los Gigantes",
-      "description": "Acantilados de hasta 600 metros que caen verticalmente al Atlántico. Paseos en barco para avistar delfines y ballenas piloto en su hábitat natural. El pueblo más dramático del oeste de Tenerife.",
-      "shortDescription": "Acantilados de 600m y avistamiento de cetáceos",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.2441,
-        "lng": -16.8399
-      },
-      "images": {
-        "hero": "/images/tenerife/los-gigantes/hero.avif",
-        "gallery": [
-          "/images/tenerife/los-gigantes/1.avif"
-        ]
-      },
-      "audioPreview": "/audio/previews/es/los-gigantes-preview.mp3",
-      "hasPremiumAudio": true,
-      "premiumRouteId": "volcano-route",
-      "tags": [
-        "acantilados",
-        "ballenas",
-        "delfines",
-        "barco",
-        "oeste"
-      ],
-      "visitDuration": "2-4h",
-      "difficulty": "easy",
-      "emoji": "🏔️",
-      "top": false,
-      "municipio": "santiago-del-teide"
-    },
-    {
       "slug": "playa-de-las-teresitas",
       "name": "Playa de Las Teresitas",
       "shortDescription": "Arena dorada del Sáhara y aguas protegidas a 10 minutos de Santa Cruz",
-      "description": "La playa más famosa del norte de Tenerife tiene un origen tan singular como espectacular: su **arena dorada fue importada directamente del Sáhara** en los años 70, transformando una cala de guijarros en una de las playas más bonitas del archipiélago. Situada a tan solo diez minutos de Santa Cruz, es el refugio costero de la capital.\n\n### La visita\nUn rompeolas de casi un kilómetro protege la bahía del oleaje atlántico, creando aguas permanentemente tranquilas ideales para nadar en familia. Palmeras imperiales bordean el paseo marítimo y el pueblo pesquero de San Andrés —con sus legendarios restaurantes de pescado fresco— queda a un corto paseo. A pocos metros, el **Castillo de San Andrés**, una fortaleza del siglo XVI, añade un toque histórico al entorno.\n\n### Antes de ir\n- 🌅 En verano llega antes de las 11h — la playa se llena rápido, especialmente los fines de semana\n- 🚌 Bus 910 desde la Estación de Guaguas de Santa Cruz — 20 minutos, 1,35 €\n- 🐟 No te vayas sin comer en San Andrés: las gambas rojas y las lapas a la brasa son imprescindibles\n- 🏊 Aguas tranquilas todo el año gracias al rompeolas — perfecta incluso para niños pequeños\n- 🅿️ Parking gratuito junto a la playa, aunque en verano se llena temprano\n\n### Recomendación\nCombina el baño con una comida en los restaurantes de San Andrés y una visita al castillo: Las Teresitas no es solo una playa, es una experiencia completa del norte de Tenerife.",
+      "description": "La playa más famosa del norte de Tenerife tiene un origen tan singular como espectacular: su **arena dorada fue importada directamente del Sáhara** en los años 70, transformando una cala de guijarros en una de las playas más bonitas del archipiélago. Situada a tan solo diez minutos de Santa Cruz, es el refugio costero de la capital.\n\n### La visita\nUn rompeolas de casi un kilómetro protege la bahía del oleaje atlántico, creando aguas permanentemente tranquilas ideales para nadar en familia. Palmeras imperiales bordean el paseo marítimo y el pueblo pesquero de San Andrés —con sus legendarios restaurantes de pescado fresco— queda a un corto paseo. A pocos metros, el **Castillo de San Andrés**, una fortaleza del siglo XVI, añade un toque histórico al entorno.\n\n### Antes de ir\n- 🌅 En verano llega antes de las 11h — la playa se llena rápido, especialmente los fines de semana\n- 🚌 Bus 910 desde la Estación de Guaguas de Santa Cruz — 20 minutos (consultar tarifa en titsa.com)\n- 🐟 No te vayas sin comer en San Andrés: las gambas rojas y las lapas a la brasa son imprescindibles\n- 🏊 Aguas tranquilas todo el año gracias al rompeolas — perfecta incluso para niños pequeños\n- 🅿️ Parking gratuito junto a la playa, aunque en verano se llena temprano\n\n### Recomendación\nCombina el baño con una comida en los restaurantes de San Andrés y una visita al castillo: Las Teresitas no es solo una playa, es una experiencia completa del norte de Tenerife.",
       "island": "tenerife",
       "category": "beach",
       "coordinates": {
@@ -1083,7 +1017,7 @@
       "slug": "titsa-tenerife",
       "name": "TITSA — Guaguas de Tenerife",
       "shortDescription": "La red de guaguas interurbanas que conecta toda la isla de forma económica",
-      "description": "La **TITSA** (Transportes Interurbanos de Tenerife S.A.) es la red de autobuses públicos que conecta prácticamente todos los rincones de la isla, desde Santa Cruz hasta El Médano, desde Puerto de la Cruz hasta Los Gigantes. Es la opción más económica para moverse y una experiencia auténtica.\n\n### La visita\nLas líneas más útiles para turistas son la **111** (Santa Cruz – Los Cristianos, rápida), la **343** (Santa Cruz – La Laguna – Puerto de la Cruz), la **348** (Puerto de la Cruz – Teide – Los Cristianos, la ruta panorámica por excelencia) y la **910** (Santa Cruz – Las Teresitas). Las guaguas son modernas, con aire acondicionado y WiFi en las líneas principales. La **tarjeta BONO** permite viajes con descuento del 50% respecto al precio en efectivo.\n\n### Antes de ir\n- 📱 Descarga la app TITSA o consulta titsa.com para horarios actualizados — los domingos hay servicio reducido\n- 💳 Carga la tarjeta BONO en las estaciones principales — rentable desde el segundo viaje\n- 🕐 Las líneas expresas al sur (111, 110) son las más rápidas y frecuentes\n- 🏔️ La línea 348 atraviesa el Parque Nacional del Teide — una ruta panorámica que no requiere coche\n- 🎫 El billete sencillo en efectivo desde Santa Cruz al sur cuesta ~3,50 €; con BONO, menos de 2 €\n\n### Recomendación\nSi solo visitas el sur o el norte, la guagua es suficiente. Si quieres explorar el Teide, Anaga o Masca, alquila un coche al menos para esos días.",
+      "description": "La **TITSA** (Transportes Interurbanos de Tenerife S.A.) es la red de autobuses públicos que conecta prácticamente todos los rincones de la isla, desde Santa Cruz hasta El Médano, desde Puerto de la Cruz hasta Los Gigantes. Es la opción más económica para moverse y una experiencia auténtica.\n\n### La visita\nLas líneas más útiles para turistas son la **111** (Santa Cruz – Los Cristianos, rápida), la **343** (Santa Cruz – La Laguna – Puerto de la Cruz), la **348** (Puerto de la Cruz – Teide – Los Cristianos, la ruta panorámica por excelencia) y la **910** (Santa Cruz – Las Teresitas). Las guaguas son modernas, con aire acondicionado y WiFi en las líneas principales. La **tarjeta BONO** permite viajes con descuento del 50% respecto al precio en efectivo.\n\n### Antes de ir\n- 📱 Descarga la app TITSA o consulta titsa.com para horarios actualizados — los domingos hay servicio reducido\n- 💳 Carga la tarjeta BONO en las estaciones principales — rentable desde el segundo viaje\n- 🕐 Las líneas expresas al sur (111, 110) son las más rápidas y frecuentes\n- 🏔️ La línea 348 atraviesa el Parque Nacional del Teide — una ruta panorámica que no requiere coche\n- 🎫 El billete sencillo en efectivo desde Santa Cruz al sur cuesta consultar tarifa actualizada en titsa.com; con BONO, precio reducido significativo\n\n### Recomendación\nSi solo visitas el sur o el norte, la guagua es suficiente. Si quieres explorar el Teide, Anaga o Masca, alquila un coche al menos para esos días.",
       "island": "tenerife",
       "category": "transport",
       "coordinates": {
@@ -1109,184 +1043,10 @@
       "websiteUrl": "https://www.titsa.com"
     },
     {
-      "slug": "masca",
-      "name": "Masca",
-      "shortDescription": "El pueblo más dramático de Tenerife: barrancos verticales, casas colgadas y silencio",
-      "description": "Masca es uno de esos lugares que te dejan sin palabras. Enclavado en el macizo de Teno, el rincón más antiguo geológicamente de Tenerife, el pueblo se aferra a una cresta entre barrancos de paredes verticales a más de 700 metros de altura. Cuando llegas y asomas a ese paisaje, entiendes por qué esta aldea de menos de 100 habitantes aparece en todas las listas de los pueblos más bonitos de España.\n\n### La visita\nEl pueblo en sí es pequeño: unas pocas casas de piedra volcánica negra con tejados de tejas rojas, terrazas con vistas al abismo, un par de restaurantes con papas y queso de Teno y tiendas de artesanía. El atractivo está en el **paisaje que lo rodea**: el Barranco de Masca —que desciende hasta el mar a través de un cañón de paredes de 300 metros— es una de las rutas de senderismo más famosas de Canarias. También puedes visitar Masca como parada de una ruta circular por el norte que incluye Los Gigantes, el Mirador de Cherfe y la costa de Buenavista.\n\n### Antes de ir\n- 🚗 La carretera TF-436 es muy estrecha y con curvas cerradas — conduce despacio, especialmente si vas en camper\n- 🕐 Llega antes de las 10h para evitar los autobuses turísticos y tener el pueblo casi para ti\n- 🏔️ Si haces el barranco, organiza el regreso: solo se puede volver en barco hasta Los Gigantes (reserva online) o subir de vuelta a pie\n- 📸 El mejor mirador está a 500m antes de llegar al pueblo, junto a la carretera\n- 🌡️ La temperatura sube mucho en el barranco en verano — no recomendable de julio a septiembre\n\n### Recomendación\nVisita Masca temprano por la mañana, desayuna en una de las terrazas con vistas al barranco y continúa hacia Los Gigantes por la costa: es uno de los días más espectaculares que puedes hacer en Tenerife.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.2121,
-        "lng": -16.8432
-      },
-      "images": {
-        "hero": "/images/tenerife/naturaleza/masca/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/masca/1.avif",
-          "/images/tenerife/naturaleza/masca/2.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "pueblo",
-        "barranco",
-        "teno",
-        "norte",
-        "senderismo",
-        "dramático"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "easy",
-      "emoji": "🏘️",
-      "top": false,
-      "municipio": "santiago-del-teide",
-      "mapsUrl": "https://maps.app.goo.gl/YJg3HzEJ9fBJ7bEV9"
-    },
-    {
-      "slug": "parque-rural-anaga",
-      "name": "Parque Rural de Anaga",
-      "shortDescription": "El bosque de laurisilva más antiguo de Europa, en el extremo norte de Tenerife",
-      "description": "El Parque Rural de Anaga es una de las joyas naturales más extraordinarias de Europa y, sin embargo, uno de los rincones de Tenerife más ignorados por el turismo de masas. Este macizo montañoso en el extremo nororiental de la isla alberga el **mayor bosque de laurisilva del mundo**, un ecosistema relicto del Terciario que sobrevivió a la última glaciación aquí, en las Canarias.\n\n### La visita\nLa laurisilva es un bosque subtropical húmedo de una belleza impresionante: árboles cubiertos de musgo y líquenes, helechos gigantes, niebla que se filtra entre las copas y un silencio absoluto interrumpido solo por el canto de los pájaros endémicos. Los miradores del **Pico del Inglés** y de **Cruz del Carmen** ofrecen vistas sobre un mar de nubes que cubre el norte de la isla. Desde los pueblos de Taganana y El Bailadero se accede a algunas de las mejores rutas de senderismo de la isla.\n\n### Antes de ir\n- 🌫️ La niebla es frecuente — viene con ropa abrigada aunque sea verano\n- 🚗 Carretera TF-12 desde La Laguna dirección Pico del Inglés — curvas pero asfaltada\n- 🎒 El Centro de Visitantes de Cruz del Carmen tiene mapas de senderos y exposición del ecosistema\n- 🐦 El pájaro endémico del Parque es el Petirrojo de Tenerife — muy fácil de ver en los senderos\n- 🏖️ Combina con Playa de Benijo, a 20 minutos por la TF-134 desde Taganana\n\n### Recomendación\nSube a primera hora a Cruz del Carmen, camina 30 minutos por el sendero de laurisilva, para en el mirador del Pico del Inglés y baja a Taganana para comer en uno de sus bares: un día de naturaleza pura.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.5417,
-        "lng": -16.2055
-      },
-      "images": {
-        "hero": "/images/tenerife/naturaleza/anaga/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/anaga/1.avif",
-          "/images/tenerife/naturaleza/anaga/2.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "laurisilva",
-        "bosque",
-        "anaga",
-        "naturaleza",
-        "niebla",
-        "endémico"
-      ],
-      "visitDuration": "Medio día",
-      "difficulty": "easy",
-      "emoji": "🌿",
-      "top": false,
-      "municipio": "la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/YeXMu7J5tFPaV9Qa8"
-    },
-    {
-      "slug": "paisaje-lunar",
-      "name": "Paisaje Lunar",
-      "shortDescription": "Formaciones de toba volcánica blanca que simulan la superficie de la Luna, a 2.000 m de altitud",
-      "description": "A 2.000 metros de altitud, entre los pinares de Vilaflor, se esconde uno de los paisajes más surrealistas de las Islas Canarias: el **Paisaje Lunar**. Columnas, agujas y conos de **toba volcánica blanca y amarilla** erosionados durante milenios por el agua y el viento crean un escenario que recuerda a la superficie de la Luna.\n\n### La visita\nSolo se puede acceder a pie, por el sendero PR-TF 72 desde la zona de aparcamiento de Vilaflor (unos 45 minutos de subida suave por pinar de Pino Canario). Las formaciones tienen entre 2 y 5 metros de altura y puedes caminar entre ellas. La combinación de la toba blanca con el cielo azul profundo de la altitud crea un contraste fotográfico espectacular. En días despejados, el Teide se ve imponente al fondo.\n\n### Antes de ir\n- 🚗 Acceso por la TF-21 desde Vilaflor — aparcar en el área habilitada junto a la carretera (gratuito)\n- 🥾 Se recomienda calzado de senderismo — el camino tiene algo de desnivel pero es asequible\n- ⏱️ La ruta ida y vuelta dura entre 2 y 3 horas — sale mejor hacerlo por la mañana\n- 🌡️ La temperatura a 2.000m es 8-10°C más fría que en la costa — lleva chaqueta\n- 📸 La luz de media mañana (10-12h) es la mejor para fotografiar las formaciones blancas\n\n### Recomendación\nCombina el Paisaje Lunar con una visita al pueblo de Vilaflor —el más alto de España— y una parada en las Cañadas del Teide: es la ruta de interior más espectacular de Tenerife.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.1687,
-        "lng": -16.6319
-      },
-      "images": {
-        "hero": "/images/tenerife/naturaleza/paisaje-lunar/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/paisaje-lunar/1.avif",
-          "/images/tenerife/naturaleza/paisaje-lunar/2.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "volcánico",
-        "toba",
-        "altitud",
-        "senderismo",
-        "surrealista",
-        "vilaflor"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "moderate",
-      "emoji": "🌕",
-      "top": false,
-      "municipio": "vilaflor",
-      "mapsUrl": "https://maps.app.goo.gl/HgNPx7CJQaGM2fTs6"
-    },
-    {
-      "slug": "mirador-pico-ingles",
-      "name": "Mirador del Pico del Inglés",
-      "shortDescription": "El mejor mirador de Anaga: vistas de 360° sobre el norte de Tenerife y La Gomera",
-      "description": "El Mirador del Pico del Inglés, a 992 metros de altitud en el corazón del Parque Rural de Anaga, ofrece una de las vistas más espectaculares de todo Tenerife y, en días despejados, uno de los panoramas insulares más impresionantes del Atlántico. Su nombre viene de los antiguos turistas británicos que subían hasta aquí en el siglo XIX para contemplar el paisaje.\n\n### La visita\nDesde el mirador se domina visualmente el macizo de Anaga en toda su extensión: barrancos profundos cubiertos de laurisilva, el océano Atlántico en el horizonte, la silueta de Gran Canaria al sur y La Gomera al oeste. A tus pies, cuando hay nubes, se forma un **mar de nubes espectacular** que cubre el norte de la isla y que el Teide, al fondo, parece flotar sobre él. La estructura del mirador está bien habilitada con barandillas y paneles informativos.\n\n### Antes de ir\n- 🌫️ El mirador está frecuentemente entre nubes — comprueba la webcam de Anaga antes de subir\n- 🕐 La mejor visibilidad suele ser a primera hora de la mañana antes de que suba la niebla\n- 🚗 Carretera TF-12 desde La Laguna, bien señalizada — aparcamiento gratuito junto al mirador\n- 📸 Si hay mar de nubes, la foto desde aquí es de las más espectaculares de Tenerife\n- 🌿 Junto al mirador empieza el sendero al bosque de laurisilva de Cruz del Carmen\n\n### Recomendación\nMadruga, sube antes de las 9h cuando la niebla aún no ha subido, y si tienes suerte con el mar de nubes, verás uno de los espectáculos naturales más hermosos de las Canarias.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.5373,
-        "lng": -16.2285
-      },
-      "images": {
-        "hero": "/images/tenerife/naturaleza/pico-ingles/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/pico-ingles/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "mirador",
-        "anaga",
-        "vistas",
-        "mar-de-nubes",
-        "norte",
-        "panorámica"
-      ],
-      "visitDuration": "1h",
-      "difficulty": "easy",
-      "emoji": "🔭",
-      "top": false,
-      "municipio": "la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/Y5M3LPqo3BGPM7AV8"
-    },
-    {
-      "slug": "las-canadas-del-teide",
-      "name": "Las Cañadas del Teide",
-      "shortDescription": "La caldera volcánica más grande de España: un mar de lava solidificada a 2.000 metros",
-      "description": "Las Cañadas del Teide son el corazón del Parque Nacional y el escenario más lunar de toda España. Esta **caldera volcánica de 16 km de diámetro** —la más grande del país— es el resultado del colapso de un antiguo supervulcán y está rodeada por paredes de hasta 600 metros de altura. En su interior, el Teide y el Pico Viejo dominan un paisaje de lavas solidificadas de colores imposibles.\n\n### La visita\nEl camino circular de las Cañadas (TF-21) es uno de los recorridos en coche más espectaculares de Europa: malpaíses de lava negra, los Roques de García —formaciones volcánicas de 100 metros que parecen esculturas abstractas—, el Llano de Ucanca con su superficie de arena blanca y volcánica, y los horizontes ilimitados de un paisaje que cambia de color con la luz del día. La Parador Nacional de Las Cañadas está en el interior de la caldera y es la base perfecta para los que quieren ver el amanecer desde el Teide.\n\n### Antes de ir\n- 🎫 El Parque Nacional es gratuito — el teleférico y el acceso a la cumbre requieren reserva online con meses de antelación\n- 🌡️ La temperatura puede bajar a 0°C incluso en verano — lleva ropa de abrigo siempre\n- 🔭 La contaminación lumínica es mínima — las Cañadas son uno de los mejores spots de astroturismo de Europa\n- 🚗 TF-21 desde La Orotava (norte) o desde Vilaflor (sur) — la ruta norte tiene mejores vistas\n- ⛽ No hay gasolineras en el Parque — llena el depósito antes de subir\n\n### Recomendación\nSube a primera hora, para en los Roques de García a caminar 30 minutos, súbete al teleférico si tienes reserva y quédate al atardecer para ver cómo el Teide proyecta su sombra triangular sobre las nubes del norte.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.25,
-        "lng": -16.61
-      },
-      "images": {
-        "hero": "/images/tenerife/naturaleza/canadas/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/canadas/1.avif",
-          "/images/tenerife/naturaleza/canadas/2.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "caldera",
-        "lava",
-        "volcán",
-        "parque-nacional",
-        "altitud",
-        "roques"
-      ],
-      "visitDuration": "Medio día",
-      "difficulty": "easy",
-      "emoji": "🌋",
-      "top": false,
-      "municipio": "la-orotava",
-      "mapsUrl": "https://maps.app.goo.gl/B8mVnUwAHG8sXYRS7"
-    },
-    {
       "slug": "sendero-masca",
       "name": "Barranco de Masca",
       "shortDescription": "El descenso más épico de Tenerife: 5 km por un cañón de 300 m hasta el mar — reserva obligatoria, regulado por el Cabildo de Tenerife",
-      "description": "El Barranco de Masca es la ruta de senderismo más épica de Tenerife: 5 km de descenso por un **cañón de paredes de hasta 300 metros** hasta una cala virgen accesible solo a pie o en barco. El regreso es en **barco o kayak hasta Los Gigantes** y forma parte de la experiencia.\n\n### El descenso\nTerreno irregular con tramos de escalada baja, pasos por el lecho del barranco y vegetación subtropical entre paredes de roca volcánica. Al final, una pequeña **playa de cantos negros** junto al Atlántico. Duración: 2,5–3,5 horas de bajada.\n\n### Reserva obligatoria\nAcceso regulado — reserva previa en [caminobarrancodemasca.com](https://www.caminobarrancodemasca.com) (solo **miércoles a sábado**, cupo limitado). Reserva también el barco/kayak de vuelta por separado desde la misma web.\n- 🎫 Adulto no residente: **40,66 €** · Niño: **20,33 €**\n- 🎫 Residente Canarias: **7,49 €** · Niño: **3,75 €** (residentes Tenerife: devolución posterior)\n\n### Transporte\nLanzadera desde el **parking del cementerio de Santiago del Teide** (7:00–14:00 h, cada 20 min, 18 plazas — prioridad con ticket del barranco). Para visitar solo el caserío: [Línea 355](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-355) o [Línea 365](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-365). Aparcamiento en el caserío limitado a 2h (8:00–14:00).\n\n### Qué llevar\n- 🥾 Botas de montaña cerradas (obligatorio) · ⛑️ Casco (prestado en el Camino)\n- 💧 Mínimo 1,5 L de agua por persona · 🍎 Comida para toda la jornada\n- 🧴 Protector solar + gafas de sol + gorro · 🩺 Bastones recomendados\n\n### Checklist antes de salir\n- ✅ Reserva del barranco confirmada (mié–sáb)\n- ✅ Reserva del barco/kayak de vuelta hecha\n- ✅ Llegar al Centro de Visitantes de Masca **30 min antes** de tu hora\n- ✅ Estar en la parada de guagua de Santiago del Teide **1 hora antes**\n- ✅ Llevar tickets del barranco Y del barco para el control de acceso\n\n### ⚠️ Alertas de seguridad\n- 📵 **Sin señal móvil** en el interior — avisa a alguien de tu plan antes de entrar\n- ☀️ **Golpe de calor** — el barranco supera los 40 °C en verano; empieza temprano\n- 🌊 **Crecidas repentinas** — lluvia en las cumbres puede inundar el barranco en minutos; no entres con nubes oscuras sobre el Teno\n- 🪨 **Terreno irregular** — roca resbaladiza y escalada baja; un tobillo torcido en el interior es emergencia seria\n- 🚑 **Rescate difícil** — decenas de evacuaciones al año; no subestimes la ruta\n- 🔋 **Batería al 100%** antes de salir · **Emergencias: 112** · Centro Visitantes Masca: +34 822 143 890",
+      "description": "El Barranco de Masca es la ruta de senderismo más épica de Tenerife: 5 km de descenso por un **cañón de paredes de hasta 300 metros** hasta una cala virgen accesible solo a pie o en barco. El regreso es en **barco o kayak hasta Los Gigantes** y forma parte de la experiencia.\n\n### El descenso\nTerreno irregular con tramos de escalada baja, pasos por el lecho del barranco y vegetación subtropical entre paredes de roca volcánica. Al final, una pequeña **playa de cantos negros** junto al Atlántico. Duración: 2,5–3,5 horas de bajada.\n\n### Reserva obligatoria\nAcceso regulado — reserva previa en [caminobarrancodemasca.com](https://www.caminobarrancodemasca.com) (solo **miércoles a sábado**, cupo limitado). Reserva también el barco/kayak de vuelta por separado desde la misma web.\n- 🎫 **Entrada con coste** — consultar precios actualizados en caminobarrancodemasca.com (tarifas distintas para residentes canarios y no residentes)\n\n### Transporte\nLanzadera desde el **parking del cementerio de Santiago del Teide** (7:00–14:00 h, cada 20 min, 18 plazas — prioridad con ticket del barranco). Para visitar solo el caserío: [Línea 355](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-355) o [Línea 365](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-365). Aparcamiento en el caserío limitado a 2h (8:00–14:00).\n\n### Qué llevar\n- 🥾 Botas de montaña cerradas (obligatorio) · ⛑️ Casco (prestado en el Camino)\n- 💧 Mínimo 1,5 L de agua por persona · 🍎 Comida para toda la jornada\n- 🧴 Protector solar + gafas de sol + gorro · 🩺 Bastones recomendados\n\n### Checklist antes de salir\n- ✅ Reserva del barranco confirmada (mié–sáb)\n- ✅ Reserva del barco/kayak de vuelta hecha\n- ✅ Llegar al Centro de Visitantes de Masca **30 min antes** de tu hora\n- ✅ Estar en la parada de guagua de Santiago del Teide **1 hora antes**\n- ✅ Llevar tickets del barranco Y del barco para el control de acceso\n\n### ⚠️ Alertas de seguridad\n- 📵 **Sin señal móvil** en el interior — avisa a alguien de tu plan antes de entrar\n- ☀️ **Golpe de calor** — el barranco supera los 40 °C en verano; empieza temprano\n- 🌊 **Crecidas repentinas** — lluvia en las cumbres puede inundar el barranco en minutos; no entres con nubes oscuras sobre el Teno\n- 🪨 **Terreno irregular** — roca resbaladiza y escalada baja; un tobillo torcido en el interior es emergencia seria\n- 🚑 **Rescate difícil** — decenas de evacuaciones al año; no subestimes la ruta\n- 🔋 **Batería al 100%** antes de salir · **Emergencias: 112** · Centro Visitantes Masca: +34 822 143 890",
       "island": "tenerife",
       "category": "hiking",
       "coordinates": {
@@ -1611,7 +1371,7 @@
       "mapsUrl": "https://maps.google.com/?q=@28.0977,-16.6463",
       "name": "Quad por el Teide",
       "shortDescription": "Sube al Parque Nacional del Teide en quad hasta 2.100 m, por encima de las nubes — tour de día o al atardecer desde Arona",
-      "description": "Una de las experiencias más espectaculares de Tenerife: subir al Parque Nacional del Teide en quad, por encima de las nubes, hasta los 2.100 metros de altitud. Salida desde Arona en el sur, con dos modalidades — tour de día o al atardecer — y vistas que no encontrarás en ninguna excursión en autobús.\n\n### La ruta\nAproximadamente 70 km íntegramente por carretera pavimentada a velocidad máxima de 45 km/h. El itinerario sube desde Arona atravesando la **Corona Forestal** — uno de los pinares canarios más densos de la isla — hasta **Vilaflor**, el pueblo más alto de España (1.400 m) y hogar del legendario **Pino Gordo**, un ejemplar centenario de pino canario. Desde allí, la ruta continúa hacia **Boca Tauce**, con sus formaciones volcánicas del Pico Viejo, hasta alcanzar el **mirador panorámico a 2.100 m** con vistas al océano Atlántico en todas las direcciones.\n\n### Tour de día vs. tour al atardecer\n- ☀️ **Tour de día** — experiencia panorámica completa, más tiempo para paradas y fotos en cada punto del itinerario\n- 🌅 **Tour al atardecer** — los últimos rayos de sol tiñen el Teide y el mar de naranjas y rojos; el regreso a Arona se hace de noche, con las luces del sur de la isla a los pies\n\n### Lo que te va a sorprender\n- 🌥️ **Por encima de las nubes** — el mar de nubes desde los 2.100 m es irreal\n- 🌲 **Vilaflor y el Pino Gordo** — el pueblo más alto de España, con un pino centenario declarado monumento natural\n- 🏔️ **Boca Tauce** — formaciones volcánicas negras del Pico Viejo vistas de cerca\n- 🔭 **Vistas 360° del Atlántico** — en los días despejados se ve Gran Canaria y La Gomera\n- 📸 **Fotos durante el tour** — el guía las hace en los mejores puntos (20 € opcional)\n- 🏍️ **Quad individual o doble** — posibilidad de cambio de conductor sin coste\n\n### Antes de ir\n- 🪪 **Carné de conducir físico obligatorio** — no se aceptan fotos, ni permisos provisionales ni de menos de 1 año\n- 🧥 **Lleva chaqueta** — a 2.100 m la temperatura baja mucho, incluso en verano\n- 👟 Calzado cerrado imprescindible (se pueden alquilar chaquetas y zapatos allí)\n- 💶 Presupuesta 30 € opcionales para el seguro \"Zero Worries\" de daños al quad\n- 🎂 Mínimo 18 años para conducir. Acompañante mínimo 6 años y 120 cm\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nEl tour al atardecer es el favorito de las parejas. Si vas con familia y niños, el tour de día permite más paradas y luz para las fotos. Lleva ropa de abrigo aunque salga sol en Arona: el cambio de temperatura entre el sur y los 2.100 m es de más de 10ºC.",
+      "description": "Una de las experiencias más espectaculares de Tenerife: subir al Parque Nacional del Teide en quad, por encima de las nubes, hasta los 2.100 metros de altitud. Salida desde Arona en el sur, con dos modalidades — tour de día o al atardecer — y vistas que no encontrarás en ninguna excursión en autobús.\n\n### La ruta\nAproximadamente 70 km íntegramente por carretera pavimentada a velocidad máxima de 45 km/h. El itinerario sube desde Arona atravesando la **Corona Forestal** — uno de los pinares canarios más densos de la isla — hasta **Vilaflor**, el pueblo más alto de España (1.400 m) y hogar del legendario **Pino Gordo**, un ejemplar centenario de pino canario. Desde allí, la ruta continúa hacia **Boca Tauce**, con sus formaciones volcánicas del Pico Viejo, hasta alcanzar el **mirador panorámico a 2.100 m** con vistas al océano Atlántico en todas las direcciones.\n\n### Tour de día vs. tour al atardecer\n- ☀️ **Tour de día** — experiencia panorámica completa, más tiempo para paradas y fotos en cada punto del itinerario\n- 🌅 **Tour al atardecer** — los últimos rayos de sol tiñen el Teide y el mar de naranjas y rojos; el regreso a Arona se hace de noche, con las luces del sur de la isla a los pies\n\n### Lo que te va a sorprender\n- 🌥️ **Por encima de las nubes** — el mar de nubes desde los 2.100 m es irreal\n- 🌲 **Vilaflor y el Pino Gordo** — el pueblo más alto de España, con un pino centenario declarado monumento natural\n- 🏔️ **Boca Tauce** — formaciones volcánicas negras del Pico Viejo vistas de cerca\n- 🔭 **Vistas 360° del Atlántico** — en los días despejados se ve Gran Canaria y La Gomera\n- 📸 **Fotos durante el tour** — el guía las hace en los mejores puntos (coste opcional — consultar al reservar)\n- 🏍️ **Quad individual o doble** — posibilidad de cambio de conductor sin coste\n\n### Antes de ir\n- 🪪 **Carné de conducir físico obligatorio** — no se aceptan fotos, ni permisos provisionales ni de menos de 1 año\n- 🧥 **Lleva chaqueta** — a 2.100 m la temperatura baja mucho, incluso en verano\n- 👟 Calzado cerrado imprescindible (se pueden alquilar chaquetas y zapatos allí)\n- 💶 Consulta el coste del seguro opcional \"Zero Worries\" de daños al quad al reservar\n- 🎂 Mínimo 18 años para conducir. Acompañante mínimo 6 años y 120 cm\n- 🔄 Cancelación gratuita hasta 24 h antes\n\n### Recomendación\nEl tour al atardecer es el favorito de las parejas. Si vas con familia y niños, el tour de día permite más paradas y luz para las fotos. Lleva ropa de abrigo aunque salga sol en Arona: el cambio de temperatura entre el sur y los 2.100 m es de más de 10ºC.",
       "tags": [
         "quad",
         "teide",
@@ -2457,7 +2217,7 @@
       ],
       "name": "Tranvía de Tenerife",
       "shortDescription": "El tranvía conecta Santa Cruz de Tenerife con San Cristóbal de La Laguna en 34 minutos, con 21 paradas y salidas cada 7-8 minutos. La forma más cómoda de moverse entre las dos ciudades principales de la isla.",
-      "description": "El **Tranvía de Tenerife** (MetroTenerife) une el **Intercambiador de Santa Cruz** con **La Trinidad**, en San Cristóbal de La Laguna, a lo largo de 12,5 km y 21 paradas. El viaje completo dura unos **34 minutos** y las salidas son cada 7-8 minutos en hora punta, 12-15 minutos en fin de semana.\n\nLas paradas más útiles para turistas son el **Intercambiador / Weyler** (centro de Santa Cruz y conexión con TITSA), **La Laguna / Catedral** (casco histórico Patrimonio UNESCO) y **Cruz del Señor** (zona comercial de La Laguna).\n\nEl billete sencillo cuesta **1,35 €**. Con la tarjeta recargable BONO el precio baja a desde **0,60 €/viaje** y es interoperable con los autobuses TITSA, muy recomendable si usas el transporte público varios días.\n\nSi llegas al **Aeropuerto Tenerife Norte (TFN)**, combina el bus 014 o 102 desde el aeropuerto con el tranvía en el Intercambiador — la forma más rápida y económica de llegar al centro sin atascos.",
+      "description": "El **Tranvía de Tenerife** (MetroTenerife) une el **Intercambiador de Santa Cruz** con **La Trinidad**, en San Cristóbal de La Laguna, a lo largo de 12,5 km y 21 paradas. El viaje completo dura unos **34 minutos** y las salidas son cada 7-8 minutos en hora punta, 12-15 minutos en fin de semana.\n\nLas paradas más útiles para turistas son el **Intercambiador / Weyler** (centro de Santa Cruz y conexión con TITSA), **La Laguna / Catedral** (casco histórico Patrimonio UNESCO) y **Cruz del Señor** (zona comercial de La Laguna).\n\nEl billete tiene **precio variable según tramo** — consultar tarifas actualizadas en metrotenerife.com. Con la tarjeta recargable BONO el coste se reduce significativamente y es interoperable con los autobuses TITSA, muy recomendable si usas el transporte público varios días.\n\nSi llegas al **Aeropuerto Tenerife Norte (TFN)**, combina el bus 014 o 102 desde el aeropuerto con el tranvía en el Intercambiador — la forma más rápida y económica de llegar al centro sin atascos.",
       "websiteUrl": "https://www.metrotenerife.com"
     },
     {
@@ -2564,7 +2324,7 @@
       "slug": "muna-tenerife",
       "name": "MUNA — Museo de Naturaleza y Arqueología",
       "shortDescription": "La mayor colección guanche del mundo: momias, cerámicas y la historia prehispánica de Tenerife",
-      "description": "El **Museo de Naturaleza y Arqueología (MUNA)** de Santa Cruz de Tenerife es el museo más importante para entender la historia prehispánica de Canarias. Alberga la **colección arqueológica guanche más completa del mundo**, con momias, cerámicas, utensilios y restos óseos de los primeros habitantes de las islas.\n\n### Los guanches\nLos **guanches** fueron el pueblo de origen bereber que colonizó Tenerife hace más de 2.000 años desde el norte de África. El MUNA custodia más de **40.000 piezas arqueológicas** y una colección única de **momias guanches** preparadas con técnicas de momificación sorprendentemente similares a las del antiguo Egipto — un misterio que todavía fascina a los investigadores. Su práctica de la momificación los distingue del resto de pueblos prehispánicos del archipiélago.\n\n### La colección\n- 🦴 **Momias guanches** — algunas con más de 1.500 años de antigüedad\n- 🏺 Cerámicas, herramientas de obsidiana y elementos rituales\n- 🐚 Fauna marina prehistórica y fósiles de las islas\n- 🌿 Historia natural: flora, fauna endémica y geología volcánica de Canarias\n\n### El edificio\nInstalado en el antiguo **Hospital de los Dolores**, un edificio colonial del siglo XVIII en el corazón de Santa Cruz, el propio contenedor arquitectónico ya es un atractivo en sí mismo.\n\n### Información práctica\n- 🕙 Horario: martes–sábado **10:00–20:00** h · Domingos y festivos **10:00–14:00** h · Cerrado lunes\n- 💶 Entrada: **5 €** general · **3 €** reducida · Gratuito menores de 12 años\n- 🎧 Audioguía disponible en español e inglés\n\n### Cómo llegar\nEn el centro de Santa Cruz, a 10 minutos andando desde la parada de tranvía **Weyler** o **Plaza de España**.\n\n### Recomendación\nImprescindible para entender quiénes eran realmente los guanches antes de la conquista española. Dedica al menos **2 horas**. Perfecto para combinar con el casco histórico de Santa Cruz o con una visita a La Laguna (solo 9 km). Si te interesa la arqueología, el museo tiene fondos que no se exponen permanentemente — pregunta por las visitas especiales.",
+      "description": "El **Museo de Naturaleza y Arqueología (MUNA)** de Santa Cruz de Tenerife es el museo más importante para entender la historia prehispánica de Canarias. Alberga la **colección arqueológica guanche más completa del mundo**, con momias, cerámicas, utensilios y restos óseos de los primeros habitantes de las islas.\n\n### Los guanches\nLos **guanches** fueron el pueblo de origen bereber que colonizó Tenerife hace más de 2.000 años desde el norte de África. El MUNA custodia más de **40.000 piezas arqueológicas** y una colección única de **momias guanches** preparadas con técnicas de momificación sorprendentemente similares a las del antiguo Egipto — un misterio que todavía fascina a los investigadores. Su práctica de la momificación los distingue del resto de pueblos prehispánicos del archipiélago.\n\n### La colección\n- 🦴 **Momias guanches** — algunas con más de 1.500 años de antigüedad\n- 🏺 Cerámicas, herramientas de obsidiana y elementos rituales\n- 🐚 Fauna marina prehistórica y fósiles de las islas\n- 🌿 Historia natural: flora, fauna endémica y geología volcánica de Canarias\n\n### El edificio\nInstalado en el antiguo **Hospital de los Dolores**, un edificio colonial del siglo XVIII en el corazón de Santa Cruz, el propio contenedor arquitectónico ya es un atractivo en sí mismo.\n\n### Información práctica\n- 🕙 Horario: martes–sábado **10:00–20:00** h · Domingos y festivos **10:00–14:00** h · Cerrado lunes\n- 💶 **Entrada con coste** — consultar precios actualizados en el sitio oficial · Gratuito menores de 12 años\n- 🎧 Audioguía disponible en español e inglés\n\n### Cómo llegar\nEn el centro de Santa Cruz, a 10 minutos andando desde la parada de tranvía **Weyler** o **Plaza de España**.\n\n### Recomendación\nImprescindible para entender quiénes eran realmente los guanches antes de la conquista española. Dedica al menos **2 horas**. Perfecto para combinar con el casco histórico de Santa Cruz o con una visita a La Laguna (solo 9 km). Si te interesa la arqueología, el museo tiene fondos que no se exponen permanentemente — pregunta por las visitas especiales.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -2724,7 +2484,7 @@
       "slug": "piramides-guimar",
       "name": "Pirámides de Güímar",
       "shortDescription": "El yacimiento arqueológico más famoso de Tenerife — seis pirámides escalonadas que siguen alineaciones astronómicas exactas",
-      "description": "Las **Pirámides de Güímar** son el yacimiento arqueológico más intrigante y visitado de Tenerife. Seis estructuras piramidales escalonadas de **piedra volcánica seca**, distribuidas en un complejo de más de 35.000 m² en el municipio de Güímar, al sureste de la isla.\n\n### El enigma\nDurante décadas las pirámides fueron ignoradas o explicadas como montones de piedras agrícolas. Todo cambió en 1991 cuando el explorador y etnógrafo noruego **Thor Heyerdahl** — famoso por la expedición Kon-Tiki — visitó el yacimiento y quedó fascinado. Heyerdahl impulsó su estudio científico y la creación del **Parque Etnográfico**, defendiendo que las estructuras presentaban características demasiado precisas para ser simples desechos de campo.\n\n### Las alineaciones astronómicas\nLo que distingue a las pirámides de Güímar de cualquier acumulación de piedras es la **precisión de sus alineaciones**: las escaleras principales de varias estructuras apuntan exactamente hacia el **solsticio de verano** (21 de junio, salida del sol) y el **solsticio de invierno** (21 de diciembre). Esta intencionalidad astronómica es el dato más difícil de explicar como accidente agrícola.\n\n### Las teorías\n- 🗿 **Origen guanche**: estructuras ceremoniales o astronómicas preeuropeas\n- 🌾 **Origen campesino siglo XIX**: acumulación de piedras de desmonte con forma casual\n- 🌊 **Teoría transoceánica de Heyerdahl**: puente cultural entre culturas mediterráneas, bereberes y americanas\n- 🔬 **Consenso académico actual**: origen incierto, pero con intencionalidad en la orientación\n\n### El Parque Etnográfico\nHoy el complejo incluye: visita a las pirámides, **museo etnográfico**, jardín botánico de plantas canarias, réplica de la balsa *Kon-Tiki* de Heyerdahl, colonia de tortugas y documentación completa sobre la expedición Kon-Tiki y la teoría de las rutas transoceánicas.\n\n### Información práctica\n- 🕙 Horario: todos los días **9:30–18:00** h\n- 💶 Entrada: **12 €** adulto · **6 €** niño (4–12 años) · Gratuito menores de 4\n- ⏱️ Duración recomendada: **2–3 horas**\n- 📍 A 25 km de Santa Cruz por la TF-1 Sur\n\n### Cómo llegar\nDesde Santa Cruz: **Línea 120 de TITSA** dirección Güímar. En coche: TF-1 Sur, salida Güímar, seguir indicaciones al Parque Etnográfico.\n\n### Recomendación\nVisita por la mañana para evitar el calor del sur. Combina con la **Basílica de Candelaria** (15 km al norte) para una jornada completa por el sureste de Tenerife. Si te interesa la arqueología prehispánica, visita también el MUNA en Santa Cruz para comparar con los restos guanches.",
+      "description": "Las **Pirámides de Güímar** son el yacimiento arqueológico más intrigante y visitado de Tenerife. Seis estructuras piramidales escalonadas de **piedra volcánica seca**, distribuidas en un complejo de más de 35.000 m² en el municipio de Güímar, al sureste de la isla.\n\n### El enigma\nDurante décadas las pirámides fueron ignoradas o explicadas como montones de piedras agrícolas. Todo cambió en 1991 cuando el explorador y etnógrafo noruego **Thor Heyerdahl** — famoso por la expedición Kon-Tiki — visitó el yacimiento y quedó fascinado. Heyerdahl impulsó su estudio científico y la creación del **Parque Etnográfico**, defendiendo que las estructuras presentaban características demasiado precisas para ser simples desechos de campo.\n\n### Las alineaciones astronómicas\nLo que distingue a las pirámides de Güímar de cualquier acumulación de piedras es la **precisión de sus alineaciones**: las escaleras principales de varias estructuras apuntan exactamente hacia el **solsticio de verano** (21 de junio, salida del sol) y el **solsticio de invierno** (21 de diciembre). Esta intencionalidad astronómica es el dato más difícil de explicar como accidente agrícola.\n\n### Las teorías\n- 🗿 **Origen guanche**: estructuras ceremoniales o astronómicas preeuropeas\n- 🌾 **Origen campesino siglo XIX**: acumulación de piedras de desmonte con forma casual\n- 🌊 **Teoría transoceánica de Heyerdahl**: puente cultural entre culturas mediterráneas, bereberes y americanas\n- 🔬 **Consenso académico actual**: origen incierto, pero con intencionalidad en la orientación\n\n### El Parque Etnográfico\nHoy el complejo incluye: visita a las pirámides, **museo etnográfico**, jardín botánico de plantas canarias, réplica de la balsa *Kon-Tiki* de Heyerdahl, colonia de tortugas y documentación completa sobre la expedición Kon-Tiki y la teoría de las rutas transoceánicas.\n\n### Información práctica\n- 🕙 Horario: todos los días **9:30–18:00** h\n- 💶 **Entrada con coste** — consultar precios actualizados en el sitio oficial · Gratuito menores de 4\n- ⏱️ Duración recomendada: **2–3 horas**\n- 📍 A 25 km de Santa Cruz por la TF-1 Sur\n\n### Cómo llegar\nDesde Santa Cruz: **Línea 120 de TITSA** dirección Güímar. En coche: TF-1 Sur, salida Güímar, seguir indicaciones al Parque Etnográfico.\n\n### Recomendación\nVisita por la mañana para evitar el calor del sur. Combina con la **Basílica de Candelaria** (15 km al norte) para una jornada completa por el sureste de Tenerife. Si te interesa la arqueología prehispánica, visita también el MUNA en Santa Cruz para comparar con los restos guanches.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -2756,7 +2516,7 @@
       "slug": "drago-milenario",
       "name": "Drago Milenario de Icod",
       "shortDescription": "El árbol más antiguo y emblemático de Canarias — símbolo cultural de la isla con más de 800 años de historia",
-      "description": "El **Drago Milenario de Icod de los Vinos** es el ser vivo más emblemático de las Islas Canarias y el símbolo cultural de Tenerife. Con más de **800 años de antigüedad** — algunas estimaciones lo sitúan entre 800 y 1.000 años — es el ejemplar de *Dracaena draco* más grande y antiguo conocido del mundo.\n\n### El drago canario\nEl *Dracaena draco*, o drago canario, es una especie endémica de Canarias y Macaronesia de apariencia inconfundible: tronco grueso con corteza grisácea, copa en forma de paraguas invertido y hojas en punta que permanecen todo el año. Lo que lo hace verdaderamente extraordinario es su **savia roja**, llamada «sangre de dragón», que se oxida al contacto con el aire. Esta resina ha sido usada desde la Antigüedad en medicina, tintura y barnices.\n\n### El ejemplar de Icod\n- 📏 **17 metros de altura** y una copa de más de 20 metros de diámetro\n- 🌿 Se estima que tiene entre **800 y 1.000 años**\n- ⚖️ Peso estimado: más de **100 toneladas**\n- 🏛️ Declarado **Monumento Nacional** en 1917\n- 🗿 Los guanches lo consideraban un árbol **sagrado y protector**\n\n### La sangre de dragón\nLa savia roja del drago fue uno de los productos más valiosos del comercio canario desde la Antigüedad. Los romanos ya la importaban como pigmento y medicamento. Los guanches la usaban para embalsamar a sus muertos, curar heridas y como tinte. En la Edad Media y el Renacimiento fue uno de los productos más cotizados de Europa como barniz de violines y componente farmacéutico.\n\n### El Parque El Drago\nEl árbol se visita desde el **Parque El Drago**, un jardín botánico que rodea al ejemplar con otras especies canarias endémicas: tajinastes, bejeques, cardones y laurisilva. Una pasarela elevada permite contemplar la copa del drago a la altura de los ojos.\n\n### Información práctica\n- 🕙 Horario: todos los días **9:00–18:00** h\n- 💶 Entrada: **4 €** adulto · **2 €** niño · Gratuito menores de 6\n- 📍 En el casco de **Icod de los Vinos**, a 3 km de Garachico\n\n### Cómo llegar\nDesde Puerto de la Cruz: **Línea 363 de TITSA** (45 min). En coche: TF-5 Norte, salida Icod, aparcamiento en el pueblo (5 min andando).\n\n### Recomendación\nComplementa la visita al Drago con el casco histórico de Icod (las bodegas de vino del norte son excelentes) y con un paseo por **Garachico** (3 km). En la misma calle del Drago hay tiendas de artesanía y vinos locales de la D.O. Ycoden-Daute-Isora, ideales para llevar como recuerdo.",
+      "description": "El **Drago Milenario de Icod de los Vinos** es el ser vivo más emblemático de las Islas Canarias y el símbolo cultural de Tenerife. Con más de **800 años de antigüedad** — algunas estimaciones lo sitúan entre 800 y 1.000 años — es el ejemplar de *Dracaena draco* más grande y antiguo conocido del mundo.\n\n### El drago canario\nEl *Dracaena draco*, o drago canario, es una especie endémica de Canarias y Macaronesia de apariencia inconfundible: tronco grueso con corteza grisácea, copa en forma de paraguas invertido y hojas en punta que permanecen todo el año. Lo que lo hace verdaderamente extraordinario es su **savia roja**, llamada «sangre de dragón», que se oxida al contacto con el aire. Esta resina ha sido usada desde la Antigüedad en medicina, tintura y barnices.\n\n### El ejemplar de Icod\n- 📏 **17 metros de altura** y una copa de más de 20 metros de diámetro\n- 🌿 Se estima que tiene entre **800 y 1.000 años**\n- ⚖️ Peso estimado: más de **100 toneladas**\n- 🏛️ Declarado **Monumento Nacional** en 1917\n- 🗿 Los guanches lo consideraban un árbol **sagrado y protector**\n\n### La sangre de dragón\nLa savia roja del drago fue uno de los productos más valiosos del comercio canario desde la Antigüedad. Los romanos ya la importaban como pigmento y medicamento. Los guanches la usaban para embalsamar a sus muertos, curar heridas y como tinte. En la Edad Media y el Renacimiento fue uno de los productos más cotizados de Europa como barniz de violines y componente farmacéutico.\n\n### El Parque El Drago\nEl árbol se visita desde el **Parque El Drago**, un jardín botánico que rodea al ejemplar con otras especies canarias endémicas: tajinastes, bejeques, cardones y laurisilva. Una pasarela elevada permite contemplar la copa del drago a la altura de los ojos.\n\n### Información práctica\n- 🕙 Horario: todos los días **9:00–18:00** h\n- 💶 **Entrada con coste** — consultar precios actualizados en el sitio oficial · Gratuito menores de 6\n- 📍 En el casco de **Icod de los Vinos**, a 3 km de Garachico\n\n### Cómo llegar\nDesde Puerto de la Cruz: **Línea 363 de TITSA** (45 min). En coche: TF-5 Norte, salida Icod, aparcamiento en el pueblo (5 min andando).\n\n### Recomendación\nComplementa la visita al Drago con el casco histórico de Icod (las bodegas de vino del norte son excelentes) y con un paseo por **Garachico** (3 km). En la misma calle del Drago hay tiendas de artesanía y vinos locales de la D.O. Ycoden-Daute-Isora, ideales para llevar como recuerdo.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -2820,7 +2580,7 @@
       "slug": "casa-lercaro",
       "name": "Museo de Historia y Antropología — Casa Lercaro",
       "shortDescription": "El palacio genovés del siglo XVI más importante de Canarias — museo que narra la historia de Tenerife desde los guanches al siglo XX",
-      "description": "La **Casa Lercaro** es uno de los edificios civiles más importantes del patrimonio histórico de Canarias. Construida en el siglo XVI por la familia Lercaro, mercaderes genoveses enriquecidos con el comercio del azúcar y el vino, es el ejemplo más completo de **arquitectura palaciega renacentista** del casco histórico de La Laguna — declarado Patrimonio de la Humanidad por la UNESCO.\n\n### El palacio\nEl edificio destaca por su **patio interior porticado de dos plantas**, con galerías de madera de tea y columnas de piedra volcánica, siguiendo el modelo de los palacios italianos del Renacimiento. Sus proporciones, la calidad de los materiales y la conservación de los elementos originales hacen de la Casa Lercaro una joya de la arquitectura civil canaria del siglo XVI.\n\n### El museo\nEn su interior alberga el **Museo de Historia y Antropología de Tenerife**, que recorre cronológicamente la historia de la isla desde la época prehispánica hasta el siglo XX:\n- 🗿 **Época guanche**: instrumentos, cerámicas y cultura material del pueblo aborigen\n- ⚔️ **La conquista** (1494–1496): documentación y recreación del proceso de colonización\n- 🏛️ **Período colonial**: economía del azúcar, el vino y la cochinilla; relaciones con América\n- 📜 **Siglos XIX–XX**: ilustración canaria, liberalismo, emigración a América y modernización\n- 🎨 **Arte y mobiliario** de época: colección de piezas originales del siglo XVI al XIX\n\n### La Calle San Agustín\nLa Casa Lercaro se encuentra en la **Calle San Agustín**, una de las vías históricas más nobles de La Laguna, flanqueada por palacetes y casonas señoriales del siglo XVI. Un paseo por esta calle es, en sí mismo, un recorrido por la arquitectura colonial canaria.\n\n### Información práctica\n- 🕙 Horario: martes–domingo **10:00–18:00** h · Cerrado lunes\n- 💶 Entrada: **3 €** general · **1,50 €** reducida · Gratuito domingos\n- 📍 Calle San Agustín 22, La Laguna\n\n### Cómo llegar\nEn el casco histórico de La Laguna, a 3 min andando desde la Plaza del Adelantado. Tranvía L1 (parada **La Laguna**) + 7 min andando.\n\n### Recomendación\nImprescindible para entender la historia completa de Tenerife desde una perspectiva diferente a la del MUNA. Dedica **1,5–2 horas**. El patio interior solo ya justifica la visita. Perfecto para combinar con la Catedral y el casco histórico de La Laguna en una misma mañana.",
+      "description": "La **Casa Lercaro** es uno de los edificios civiles más importantes del patrimonio histórico de Canarias. Construida en el siglo XVI por la familia Lercaro, mercaderes genoveses enriquecidos con el comercio del azúcar y el vino, es el ejemplo más completo de **arquitectura palaciega renacentista** del casco histórico de La Laguna — declarado Patrimonio de la Humanidad por la UNESCO.\n\n### El palacio\nEl edificio destaca por su **patio interior porticado de dos plantas**, con galerías de madera de tea y columnas de piedra volcánica, siguiendo el modelo de los palacios italianos del Renacimiento. Sus proporciones, la calidad de los materiales y la conservación de los elementos originales hacen de la Casa Lercaro una joya de la arquitectura civil canaria del siglo XVI.\n\n### El museo\nEn su interior alberga el **Museo de Historia y Antropología de Tenerife**, que recorre cronológicamente la historia de la isla desde la época prehispánica hasta el siglo XX:\n- 🗿 **Época guanche**: instrumentos, cerámicas y cultura material del pueblo aborigen\n- ⚔️ **La conquista** (1494–1496): documentación y recreación del proceso de colonización\n- 🏛️ **Período colonial**: economía del azúcar, el vino y la cochinilla; relaciones con América\n- 📜 **Siglos XIX–XX**: ilustración canaria, liberalismo, emigración a América y modernización\n- 🎨 **Arte y mobiliario** de época: colección de piezas originales del siglo XVI al XIX\n\n### La Calle San Agustín\nLa Casa Lercaro se encuentra en la **Calle San Agustín**, una de las vías históricas más nobles de La Laguna, flanqueada por palacetes y casonas señoriales del siglo XVI. Un paseo por esta calle es, en sí mismo, un recorrido por la arquitectura colonial canaria.\n\n### Información práctica\n- 🕙 Horario: martes–domingo **10:00–18:00** h · Cerrado lunes\n- 💶 **Entrada con coste** — consultar precios actualizados en el sitio oficial · Gratuito domingos\n- 📍 Calle San Agustín 22, La Laguna\n\n### Cómo llegar\nEn el casco histórico de La Laguna, a 3 min andando desde la Plaza del Adelantado. Tranvía L1 (parada **La Laguna**) + 7 min andando.\n\n### Recomendación\nImprescindible para entender la historia completa de Tenerife desde una perspectiva diferente a la del MUNA. Dedica **1,5–2 horas**. El patio interior solo ya justifica la visita. Perfecto para combinar con la Catedral y el casco histórico de La Laguna en una misma mañana.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -2885,7 +2645,7 @@
       "slug": "casa-del-vino-tenerife",
       "name": "Casa del Vino de Tenerife",
       "shortDescription": "El museo del vino más importante de Canarias — hacienda del siglo XVII en El Sauzal con los 5 D.O. de Tenerife, catas y restaurante con vistas al Atlántico",
-      "description": "La **Casa del Vino de Tenerife** en **El Sauzal** es el espacio de referencia para entender y disfrutar la cultura vitivinícola canaria. Instalada en una hacienda tradicional del siglo XVII restaurada, con terrazas desde las que se ven el Atlántico y el Teide, es simultáneamente museo, espacio de catas, tienda de vinos y restaurante gastronómico.\n\n### El museo\nEl recorrido expositivo narra la historia del vino en Canarias desde los primeros viñedos plantados tras la conquista española en el siglo XV hasta las cinco denominaciones de origen actuales. Paneles, herramientas históricas de bodega, mapas de viñedos por municipio y una colección de botellas históricas configuran uno de los museos del vino más completos de España.\n\n### Los vinos de Tenerife\nTenerife tiene **5 Denominaciones de Origen** en una sola isla — la mayor concentración de D.O. por superficie de España:\n- 🍇 **Tacoronte-Acentejo** — la más antigua y reconocida, vinos tintos de gran carácter\n- 🍇 **Valle de la Orotava** — viñedos a los pies del Teide, blancos frescos y aromáticos\n- 🍇 **Ycoden-Daute-Isora** — costa noroeste, cepas centenarias en terrazas volcánicas\n- 🍇 **Abona** — sur de la isla, altitud extrema entre 400 y 1.700 m\n- 🍇 **Valle de Güímar** — sureste, microclima especial entre el Teide y el mar\n\nSus **cepas prefiloxéricas de hasta 500 años** — que sobrevivieron a la plaga que devastó los viñedos europeos en el siglo XIX — producen vinos únicos imposibles de replicar.\n\n### La tienda\nLa tienda de la Casa del Vino es la mejor selección de vinos de las 5 D.O. bajo un mismo techo. Ideal para llevarse a casa botellas que difícilmente encontrarás fuera de Tenerife.\n\n### El restaurante\nEl restaurante ofrece cocina canaria de mercado con maridaje de vinos locales. La terraza con vistas al Atlántico es uno de los escenarios más bonitos para comer en el norte de Tenerife.\n\n### Información práctica\n- 📍 Ctra. General del Norte 96, El Sauzal\n- 🕙 Martes–sábado **10:00–21:30** h · Domingo **11:00–18:00** h · Cerrado lunes\n- 💶 Entrada al museo: gratuita · Catas: desde **6 €**\n- 🚗 Salida El Sauzal desde la autopista TF-5 Norte\n\n### Recomendación\nVisita imprescindible para los amantes del vino. Llega por la mañana, haz el museo, compra en la tienda y quédate a comer en la terraza. Combina perfectamente con **La Laguna** (15 km) o **Puerto de la Cruz** (12 km). Si quieres una experiencia guiada con degustación incluida, puedes reservar una actividad organizada.",
+      "description": "La **Casa del Vino de Tenerife** en **El Sauzal** es el espacio de referencia para entender y disfrutar la cultura vitivinícola canaria. Instalada en una hacienda tradicional del siglo XVII restaurada, con terrazas desde las que se ven el Atlántico y el Teide, es simultáneamente museo, espacio de catas, tienda de vinos y restaurante gastronómico.\n\n### El museo\nEl recorrido expositivo narra la historia del vino en Canarias desde los primeros viñedos plantados tras la conquista española en el siglo XV hasta las cinco denominaciones de origen actuales. Paneles, herramientas históricas de bodega, mapas de viñedos por municipio y una colección de botellas históricas configuran uno de los museos del vino más completos de España.\n\n### Los vinos de Tenerife\nTenerife tiene **5 Denominaciones de Origen** en una sola isla — la mayor concentración de D.O. por superficie de España:\n- 🍇 **Tacoronte-Acentejo** — la más antigua y reconocida, vinos tintos de gran carácter\n- 🍇 **Valle de la Orotava** — viñedos a los pies del Teide, blancos frescos y aromáticos\n- 🍇 **Ycoden-Daute-Isora** — costa noroeste, cepas centenarias en terrazas volcánicas\n- 🍇 **Abona** — sur de la isla, altitud extrema entre 400 y 1.700 m\n- 🍇 **Valle de Güímar** — sureste, microclima especial entre el Teide y el mar\n\nSus **cepas prefiloxéricas de hasta 500 años** — que sobrevivieron a la plaga que devastó los viñedos europeos en el siglo XIX — producen vinos únicos imposibles de replicar.\n\n### La tienda\nLa tienda de la Casa del Vino es la mejor selección de vinos de las 5 D.O. bajo un mismo techo. Ideal para llevarse a casa botellas que difícilmente encontrarás fuera de Tenerife.\n\n### El restaurante\nEl restaurante ofrece cocina canaria de mercado con maridaje de vinos locales. La terraza con vistas al Atlántico es uno de los escenarios más bonitos para comer en el norte de Tenerife.\n\n### Información práctica\n- 📍 Ctra. General del Norte 96, El Sauzal\n- 🕙 Martes–sábado **10:00–21:30** h · Domingo **11:00–18:00** h · Cerrado lunes\n- 💶 Entrada al museo: gratuita · Catas: **con coste** (consultar programa y precios actualizados en el sitio oficial)\n- 🚗 Salida El Sauzal desde la autopista TF-5 Norte\n\n### Recomendación\nVisita imprescindible para los amantes del vino. Llega por la mañana, haz el museo, compra en la tienda y quédate a comer en la terraza. Combina perfectamente con **La Laguna** (15 km) o **Puerto de la Cruz** (12 km). Si quieres una experiencia guiada con degustación incluida, puedes reservar una actividad organizada.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -2917,7 +2677,7 @@
       "slug": "museo-ciencia-cosmos",
       "name": "Museo de la Ciencia y el Cosmos",
       "shortDescription": "El museo científico más completo de Canarias — planetario, astronomía y física interactiva en La Laguna",
-      "description": "El **Museo de la Ciencia y el Cosmos** de La Laguna es el espacio científico y divulgativo más importante de las Islas Canarias. Combinando exposiciones interactivas de física, biología y astronomía con un **planetario de proyección digital**, es una visita imprescindible tanto para familias con niños como para cualquiera con curiosidad por el universo.\n\n### El edificio y el contexto\nUbicado en La Laguna, a pocos minutos del casco histórico UNESCO, el museo pertenece a la red de museos del **Organismo Autónomo de Museos y Centros del Cabildo de Tenerife**. Su diseño exterior, con la cúpula del planetario como elemento dominante, es ya un referente visual del municipio.\n\n### Las exposiciones\nEl recorrido por el museo abarca tres grandes áreas temáticas:\n\n**🌌 Cosmos y Astronomía**\nTenerife es uno de los mejores lugares del mundo para la observación astronómica — el **Observatorio del Teide** (IAC) es la instalación astronómica más importante del hemisferio norte. El museo explica por qué: las condiciones de cielo, la posición geográfica y la historia de la astronomía en las Canarias desde los guanches hasta el presente.\n\n**⚛️ Física e interactividad**\nInstalaciones interactivas sobre mecánica, ondas, electricidad, óptica y termodinámica diseñadas para entender con las manos los principios del mundo físico. Pensado para todas las edades.\n\n**🧬 La vida y la evolución**\nBiología, evolución, ecosistemas canarios y biodiversidad del archipiélago. La sección sobre flora y fauna endémica de las Canarias conecta con la naturaleza única de las islas.\n\n### El planetario\nLa **sesión de planetario** es el punto culminante de la visita: proyección digital de 360° sobre la cúpula que recrea el cielo nocturno de Canarias, viajes virtuales por el sistema solar y el universo observable. Sesiones en español con horarios fijos — conviene consultar y reservar con antelación.\n\n### Información práctica\n- 📍 Avda. de Los Menceyes 70, La Laguna\n- 🕙 Martes–sábado **9:00–19:00** h · Domingo **10:00–17:00** h · Cerrado lunes\n- 💶 Entrada: **5 €** adulto · **3 €** reducida · Gratuito menores de 6\n- 🔭 Sesión de planetario: **2 €** adicionales — reserva en taquilla\n- 🚌 Guagua desde Santa Cruz (Línea 014) o desde La Laguna casco (15 min andando)\n\n### Recomendación\nIdeal para familias con niños y para cualquiera que tenga curiosidad científica. Dedica **2–3 horas** e incluye una sesión de planetario. Combina con el casco histórico de La Laguna (15 min andando) para una jornada completa en el municipio. Si tienes interés en astronomía, busca también información sobre las visitas al **Observatorio del Teide**.",
+      "description": "El **Museo de la Ciencia y el Cosmos** de La Laguna es el espacio científico y divulgativo más importante de las Islas Canarias. Combinando exposiciones interactivas de física, biología y astronomía con un **planetario de proyección digital**, es una visita imprescindible tanto para familias con niños como para cualquiera con curiosidad por el universo.\n\n### El edificio y el contexto\nUbicado en La Laguna, a pocos minutos del casco histórico UNESCO, el museo pertenece a la red de museos del **Organismo Autónomo de Museos y Centros del Cabildo de Tenerife**. Su diseño exterior, con la cúpula del planetario como elemento dominante, es ya un referente visual del municipio.\n\n### Las exposiciones\nEl recorrido por el museo abarca tres grandes áreas temáticas:\n\n**🌌 Cosmos y Astronomía**\nTenerife es uno de los mejores lugares del mundo para la observación astronómica — el **Observatorio del Teide** (IAC) es la instalación astronómica más importante del hemisferio norte. El museo explica por qué: las condiciones de cielo, la posición geográfica y la historia de la astronomía en las Canarias desde los guanches hasta el presente.\n\n**⚛️ Física e interactividad**\nInstalaciones interactivas sobre mecánica, ondas, electricidad, óptica y termodinámica diseñadas para entender con las manos los principios del mundo físico. Pensado para todas las edades.\n\n**🧬 La vida y la evolución**\nBiología, evolución, ecosistemas canarios y biodiversidad del archipiélago. La sección sobre flora y fauna endémica de las Canarias conecta con la naturaleza única de las islas.\n\n### El planetario\nLa **sesión de planetario** es el punto culminante de la visita: proyección digital de 360° sobre la cúpula que recrea el cielo nocturno de Canarias, viajes virtuales por el sistema solar y el universo observable. Sesiones en español con horarios fijos — conviene consultar y reservar con antelación.\n\n### Información práctica\n- 📍 Avda. de Los Menceyes 70, La Laguna\n- 🕙 Martes–sábado **9:00–19:00** h · Domingo **10:00–17:00** h · Cerrado lunes\n- 💶 **Entrada con coste** — consultar precios actualizados en el sitio oficial · Gratuito menores de 6\n- 🔭 Sesión de planetario: **coste adicional** — consultar en taquilla\n- 🚌 Guagua desde Santa Cruz (Línea 014) o desde La Laguna casco (15 min andando)\n\n### Recomendación\nIdeal para familias con niños y para cualquiera que tenga curiosidad científica. Dedica **2–3 horas** e incluye una sesión de planetario. Combina con el casco histórico de La Laguna (15 min andando) para una jornada completa en el municipio. Si tienes interés en astronomía, busca también información sobre las visitas al **Observatorio del Teide**.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -3136,6 +2896,959 @@
       "top": true,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": ""
+    },
+    {
+      "slug": "iglesia-concepcion-santa-cruz",
+      "name": "Iglesia de la Concepción de Santa Cruz",
+      "shortDescription": "Una de las iglesias más antiguas de Canarias (1502) — testigo de la historia de la isla desde la conquista hasta Trafalgar",
+      "description": "La **Iglesia de Nuestra Señora de la Concepción** de Santa Cruz de Tenerife es uno de los edificios históricos más importantes de las Islas Canarias. Fundada apenas **siete años después de la conquista de Tenerife**, en **1502**, es testigo directo de más de cinco siglos de historia de la isla.\n\n### El edificio\nDe estilo **gótico-mudéjar**, la iglesia tiene planta de cinco naves separadas por arcos de medio punto sobre columnas de piedra volcánica. Su elemento más singular es el **techo artesonado de estilo mudéjar** — una cubierta de madera policromada que combina la tradición artesanal islámica con la arquitectura cristiana y que es una de las mejores conservadas de Canarias. La torre de cinco cuerpos, visible desde gran parte del centro de Santa Cruz, es otro de sus iconos.\n\n### Las banderas de Trafalgar\nEl interior guarda uno de los tesoros históricos más singulares de Canarias: las **banderas tomadas al almirante Horatio Nelson** durante el **Combate de Santa Cruz de Tenerife** (25 de julio de 1797). En esta batalla, Nelson intentó tomar el puerto de Santa Cruz y fue rechazado — perdiendo además su brazo derecho en el ataque. Los estandartes capturados llevan más de dos siglos en la iglesia como símbolo de la resistencia tinerfeña.\n\n### Arte e historia\n- 🎨 Techo artesonado mudéjar policromado — siglo XVI\n- 🚩 Banderas tomadas a Nelson en 1797\n- 🖼️ Retablos barrocos y esculturas policromadas de los siglos XVII–XVIII\n- 🏛️ Declarada **Bien de Interés Cultural** (BIC)\n- 📅 Fundación: **1502** — 7 años después de la conquista de Tenerife\n\n### Cómo llegar\nEn el centro histórico de Santa Cruz, Plaza de la Iglesia. A 5 minutos andando desde la Plaza de España y el tranvía (parada **Weyler**). Entrada libre.\n\n### Recomendación\nVisita por la mañana para ver la luz atravesar las vidrieras. No te pierdas el techo artesonado — necesitarás mirar hacia arriba. Las banderas de Nelson están expuestas permanentemente y tienen un cartel explicativo en español e inglés. Combina con el Mercado de Nuestra Señora de África (10 min andando), el mercado más bonito de Santa Cruz.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4693,
+        "lng": -16.2524
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/iglesia-concepcion-santa-cruz.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "iglesia",
+        "santa-cruz",
+        "historia",
+        "nelson",
+        "mudéjar",
+        "conquista"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "top": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/pzs72GHKjtsDWfMe6"
+    },
+    {
+      "slug": "jardin-botanico-puerto-cruz",
+      "name": "Jardín Botánico de Puerto de la Cruz",
+      "shortDescription": "El jardín botánico más antiguo de Canarias — fundado por Carlos III en 1788 para aclimatar plantas tropicales, con más de 3.000 especies de todo el mundo",
+      "description": "El **Jardín de Aclimatación de La Orotava**, conocido popularmente como el Jardín Botánico de Puerto de la Cruz, es uno de los jardines históricos más importantes de España. Fundado en **1788 por orden del rey Carlos III**, su propósito original era aclimatar plantas tropicales traídas de América, Asia y África antes de enviarlas al Real Jardín Botánico de Madrid — una especie de «sala de espera» botánica para especies que nunca habían pisado suelo europeo.\n\n### Historia y misión\nEl jardín fue creado en pleno siglo de la Ilustración, cuando España recorría el mundo recolectando especímenes científicos para sus herbarios y jardines reales. El clima excepcional del norte de Tenerife — templado, húmedo y sin heladas — lo convertía en el lugar ideal para aclimatar plantas tropicales que de otra forma morirían en el continente. Más de dos siglos después, el jardín sigue siendo un centro de investigación botánica bajo la tutela del **Ministerio de Agricultura**.\n\n### La colección\nEn apenas **20.000 m²** se concentran más de **3.000 especies vegetales** de todos los continentes:\n- 🌴 Palmeras, helechos arbóreos y cicas de América tropical\n- 🌺 Orquídeas, bromelias y plantas carnívoras\n- 🌿 Flora endémica canaria y macaronésica\n- 🎋 Bambúes gigantes, baobabs y especies de África ecuatorial\n- 🌳 Árboles centenarios que superan los 200 años de historia\n\n### La higuera gigante\nEl emblema indiscutible del jardín es su **Ficus benjamina centenario**: un árbol de dimensiones descomunales cuyas raíces aéreas han creado con el tiempo un laberinto vegetal que parece salido de una película de aventuras. Es imposible no detenerse ante él.\n\n### Información práctica\n- 📍 Calle Retama 2, Puerto de la Cruz\n- 🕙 Todos los días **9:00–18:00** h (hasta 19:00 en verano)\n- 💶 **Entrada con coste** — consultar precios actualizados en el sitio oficial · Gratuito menores de 12\n- ⏱️ Duración recomendada: **1–1,5 horas**\n- 🚌 Guagua desde el centro de Puerto de la Cruz: **Línea 101**\n\n### Recomendación\nVisita por la mañana para disfrutar de la luz entre la vegetación. La temperatura dentro del jardín es siempre fresca — ideal incluso en los días más calurosos del norte. Perfecto para combinar con el **Puerto de la Cruz** centro y el paseo del lago Martiánez. Si visitas con niños, el jardín es una experiencia de exploración natural inmejorable.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.4071,
+        "lng": -16.5474
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/jardin-botanico-puerto-cruz.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "botánico",
+        "jardín",
+        "plantas",
+        "historia",
+        "puerto-de-la-cruz",
+        "siglo-xviii"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "🌿",
+      "top": true,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/8kb3FuXghguqzq3V6"
+    },
+    {
+      "slug": "palmetum-santa-cruz",
+      "name": "Palmetum de Santa Cruz",
+      "shortDescription": "La colección de palmeras más importante de Europa — 12 hectáreas construidas sobre un antiguo vertedero con más de 800 especies de palmas de todo el mundo",
+      "description": "El **Palmetum de Santa Cruz de Tenerife** es uno de los jardines botánicos más extraordinarios de Europa y la **colección de palmeras más completa del continente**. Inaugurado en **2014** tras más de 20 años de trabajo, su historia es tan sorprendente como su contenido: fue construido sobre el antiguo **vertedero municipal de Santa Cruz**, transformando 12 hectáreas de residuos en uno de los jardines más valiosos del mundo.\n\n### Un milagro de regeneración\nDurante dos décadas, el equipo del Palmetum fue depositando capa sobre capa de tierra, compost y sustrato sobre los residuos del antiguo vertedero, creando el sustrato necesario para acoger palmeras de todo el planeta. El resultado es una historia de regeneración ecológica sin precedentes en España y un ejemplo mundial de conversión de espacios degradados en patrimonio natural.\n\n### La colección\nCon más de **2.500 ejemplares** de más de **800 especies de palmeras** de los cinco continentes, el Palmetum organiza su colección por áreas geográficas:\n- 🌴 **Área de América**: palmeras de los trópicos y subtrópicos americanos\n- 🌴 **Área de África y Madagascar**: las palmeras más singulares del continente africano, incluyendo la mítica **palmera de Madagascar** (*Ravenea rivularis*)\n- 🌴 **Área de Asia y Pacífico**: desde las palmas de Borneo hasta las de las islas del Pacífico\n- 🌴 **Área de Canarias y Macaronesia**: la palmera canaria (*Phoenix canariensis*) en su hábitat natural\n- 🏞️ **Lago central**: con flamencos y patos en un entorno de gran belleza escénica\n\n### Los miradores\nEl jardín dispone de varios miradores desde los que se contemplan vistas panorámicas sobre el **Auditorio de Tenerife**, el Atlántico y el Teide. La combinación de las palmeras en primer plano con el Auditorio al fondo es una de las fotografías más singulares de Santa Cruz.\n\n### Información práctica\n- 📍 Avenida de la Constitución, Santa Cruz (junto al Auditorio)\n- 🕙 Todos los días **10:00–18:00** h\n- 💶 **Entrada con coste** — consultar precios actualizados en el sitio oficial · Gratuito menores de 12\n- ⏱️ Duración recomendada: **1,5–2 horas**\n- 🚋 Tranvía L1 (parada **Intercambiador** o **Auditorio**) + 5 min andando\n\n### Recomendación\nIdeal para combinar con el **Auditorio de Tenerife** y el paseo marítimo. La mejor luz para fotografiar las palmeras es la de la tarde, cuando el sol las ilumina desde el oeste. Con niños, el lago con flamencos y los caminos entre palmeras gigantes crean una experiencia memorable.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.459,
+        "lng": -16.2483
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/palmetum-santa-cruz.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "palmeras",
+        "jardín",
+        "santa-cruz",
+        "botánico",
+        "regeneración",
+        "auditorio"
+      ],
+      "visitDuration": "1.5-2h",
+      "difficulty": "easy",
+      "emoji": "🌴",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/AXqgqpbfech5CT1x5"
+    },
+    {
+      "slug": "mariposario-del-drago",
+      "name": "Mariposario del Drago",
+      "shortDescription": "El jardín de mariposas tropicales de Tenerife — cientos de especies exóticas vuelan libres entre plantas tropicales junto al Drago Milenario de Icod",
+      "description": "El **Mariposario del Drago** es uno de los espacios naturales más encantadores de Tenerife: un jardín tropical cerrado donde cientos de **mariposas exóticas de todo el mundo** vuelan en libertad entre orquídeas, heliconias y plantas tropicales. Ubicado en **Icod de los Vinos**, a pocos metros del famoso Drago Milenario, es una visita imprescindible para familias y para todos los que quieran una experiencia natural diferente.\n\n### La experiencia\nAl cruzar la puerta del mariposario entras en un microclima tropical: temperatura cálida, humedad elevada y un jardín exuberante donde las mariposas vuelan a tu alrededor, se posan en las flores y, con frecuencia, en tus brazos, manos o hombros. La experiencia de tener una mariposa tropical posada sobre la piel es algo que no se olvida fácilmente — especialmente para los más pequeños.\n\n### Las mariposas\n- 🦋 **Especies tropicales** de Asia, América Central y África\n- 🦋 Mariposas diurnas de gran tamaño y colores espectaculares\n- 🦋 El ciclo completo: huevos, orugas, crisálidas y adultos en el mismo espacio\n- 🦋 Nuevas eclosiones prácticamente cada día\n\nEntre las especies más llamativas destacan las **Morpho azules** de América tropical, las mariposas búho (*Caligo*) de alas de 15 cm, y varias especies de **Papilio** asiáticos con colas en las alas posteriores.\n\n### El jardín tropical\nLas mariposas viven rodeadas de una **selección de plantas huésped y nectaríferas** que recrean su hábitat natural: heliconias, anturios, pasifloras, orquídeas tropicales y una colección de plantas de los trópicos que por sí sola ya merece la visita.\n\n### Combinación perfecta\nEl Mariposario está situado a **pocos metros del Drago Milenario** — la visita conjunta de ambos forma una de las excursiones más completas del norte de Tenerife. El casco histórico de Icod de los Vinos, con sus bodegas y la Iglesia de San Marcos, completa la jornada.\n\n### Información práctica\n- 📍 Calle San Sebastián, Icod de los Vinos (junto al Drago)\n- 🕙 Todos los días **9:30–18:00** h\n- 💶 **Entrada con coste** — consultar precios actualizados en el sitio oficial · Gratuito menores de 4\n- ⏱️ Duración recomendada: **45 min – 1 hora**\n- 📸 La mejor luz para fotografiar las mariposas es la de media mañana\n\n### Recomendación\nLleva ropa de colores vivos — las mariposas se sienten atraídas por los colores brillantes y aumentan las probabilidades de que se posen en ti. Perfecto para familias con niños pequeños: la experiencia de interactuar con mariposas tropicales en libertad es mágica a cualquier edad. Combina con el Drago Milenario (entrada justo al lado) y el casco de Icod para una mañana completa.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.3795,
+        "lng": -16.722
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mariposario-del-drago.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mariposas",
+        "tropical",
+        "icod",
+        "jardín",
+        "familias",
+        "naturaleza"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "🦋",
+      "top": false,
+      "municipio": "icod-de-los-vinos",
+      "mapsUrl": "https://maps.app.goo.gl/d9acWz7sEsV5kD5y8"
+    },
+    {
+      "slug": "parque-garcia-sanabria",
+      "name": "Parque García Sanabria",
+      "shortDescription": "El jardín urbano más grande de Canarias — 7 hectáreas en pleno centro de Santa Cruz con una excepcional colección de escultura internacional al aire libre",
+      "description": "El **Parque García Sanabria** es el parque urbano más grande de las Islas Canarias y uno de los rincones más queridos de la ciudad de Santa Cruz de Tenerife. Inaugurado en **1926** y bautizado en honor al alcalde que impulsó su creación, Emilio García Sanabria, este pulmón verde de **73.000 m²** en pleno corazón de la capital es el lugar de encuentro por excelencia de los santacruceros — y una sorpresa grata para cualquier visitante que lo descubra.\n\n### Un museo de escultura a cielo abierto\nLo que convierte al Parque García Sanabria en un espacio verdaderamente singular no son solo sus plantas tropicales o sus fuentes, sino su **colección permanente de escultura internacional**: desde 1973, la ciudad acoge bienalmente el **Concurso Internacional de Escultura al Aire Libre de Santa Cruz de Tenerife**, y las obras ganadoras se quedan en el parque de forma permanente. Hoy, pasear por sus caminos es recorrer décadas de arte contemporáneo internacional entre la vegetación: obras de artistas de todo el mundo conviven con palmeras, árboles centenarios y flores tropicales en una combinación única.\n\n### La vegetación\nEl parque alberga una extraordinaria colección de plantas tropicales y subtropicales de todos los continentes:\n- 🌴 Palmeras de América, África y Asia\n- 🌺 Buganvillas, hibiscos y flamboyanes en flor permanente\n- 🌳 Árboles centenarios de sombra colosal\n- 🌿 Jardines temáticos con plantas aromáticas y medicinales\n- 🏞️ Fuentes ornamentales y estanques\n\n### La fuente luminosa\nLa gran **fuente central**, con juegos de agua y luz, es el elemento más icónico del parque y el punto de encuentro favorito de familias y visitantes. Por las noches, cuando el parque está iluminado y la fuente se enciende, el ambiente es especialmente mágico.\n\n### Información práctica\n- 📍 Rambla del General Franco, Santa Cruz de Tenerife (centro)\n- 🕙 Abierto **24 horas** — libre acceso todo el año\n- 💶 **Entrada gratuita**\n- ⏱️ Duración recomendada: **1 hora**\n- 🚋 Tranvía L1, parada **García Sanabria** (acceso directo)\n- 🧒 Zona de juegos infantiles en el interior\n\n### Recomendación\nIdeal para un paseo tranquilo antes o después del almuerzo — el parque está rodeado de restaurantes y terrazas. En primavera y verano la vegetación está en su máximo esplendor. Perfecto para combinar con el **Mercado de Nuestra Señora de África** (a 5 minutos andando) y el paseo por la Rambla de Santa Cruz.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.4677,
+        "lng": -16.255
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/parque-garcia-sanabria.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "parque",
+        "santa-cruz",
+        "escultura",
+        "jardín",
+        "urbano",
+        "gratuito"
+      ],
+      "visitDuration": "1h",
+      "difficulty": "easy",
+      "emoji": "🌳",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/613615WbGoHrnw4X6"
+    },
+    {
+      "slug": "parque-rural-anaga",
+      "name": "Parque Rural de Anaga",
+      "shortDescription": "Reserva de la Biosfera en el extremo norte de Tenerife — el bosque de laurisilva más extenso del mundo, barrancos dramáticos y pueblos rurales con 20 millones de años de historia natural",
+      "description": "El **Parque Rural de Anaga** es uno de los espacios naturales más extraordinarios no solo de Canarias, sino del planeta entero. Declarado **Reserva de la Biosfera por la UNESCO en 2015**, este macizo montañoso que ocupa el extremo noreste de Tenerife alberga el **bosque de laurisilva más extenso y mejor conservado del mundo** — un ecosistema relicto de la era Terciaria que existía en Europa y el norte de África hace **20 millones de años**, antes de que las glaciaciones lo borraran del mapa continental. En Anaga sobrevivió gracias al microclima especial del norte de Tenerife.\n\n### La laurisilva: un bosque prehistórico\nCaminar por el bosque de Anaga es, literalmente, viajar al pasado. Los árboles —laureles, tiles, viñátigos, acebiños y fayas— están envueltos en musgo y líquenes, y las ramas se entrelaban sobre los senderos creando túneles de vegetación de una belleza hipnótica. La humedad permanente y la niebla que envuelve el macizo dan al paisaje un aspecto casi mágico, especialmente al amanecer.\n\nEspecies clave de la laurisilva:\n- 🌿 **Laurel canario** (*Laurus novocanariensis*) — el árbol emblemático\n- 🌿 **Til** (*Ocotea foetens*) — de madera veteada excepcional\n- 🌿 **Viñátigo** (*Persea indica*) — pariente del aguacate\n- 🌿 **Faya** (*Myrica faya*) — arbusto colonizador de los barrancos\n\n### Los barrancos y el paisaje\nAnaga es un territorio de **relieves abruptos y dramáticos**: crestas afiladas que caen en picado hacia el mar, barrancos profundos que separan aldeas aisladas, y acantilados que se precipitan sobre el Atlántico. Las vistas desde las crestas son de una espectacularidad absoluta — se ven simultáneamente la costa norte y la costa sur de Tenerife, el Teide al fondo, y en días claros, incluso Gran Canaria y La Gomera.\n\n### Los pueblos rurales\nEntre el bosque se esconden pequeños núcleos rurales de una autenticidad excepcional — **Taganana, Las Carboneras, El Bailadero, Chamorga** — donde el tiempo parece haberse detenido. Son pueblos de difícil acceso, con carreteras estrechas y sinuosas, habitados por familias que llevan generaciones viviendo de la agricultura y la pesca.\n\n### Rutas imprescindibles\n- 🥾 **Cruz del Carmen → Las Carboneras** (9 km, por el corazón de la laurisilva)\n- 🥾 **Roque de Taborno** (mirador con vistas 360° sobre los barrancos)\n- 🥾 **Bosque de los Catalanes** (ruta corta entre árboles centenarios)\n- 🥾 **Chinamada** (pueblo de casas-cueva accesible solo a pie)\n- 🥾 **Playa de Benijo** (descenso por barranco hasta una playa de arena negra salvaje)\n\n### Fauna\n- 🦜 **Paloma turqué** y **paloma rabiche** — palomas endémicas de la laurisilva, en peligro de extinción\n- 🦎 Lagarto canario, perenquén (geco) y varias especies de lagartos endémicos\n- 🦋 Mariposas endémicas de Canarias\n\n### Información práctica\n- 📍 Centro de Visitantes: **Cruz del Carmen** (TF-12, Las Mercedes)\n- 🕙 Centro de visitantes: **9:00–17:00 h** (cerrado lunes)\n- 💶 **Entrada gratuita** al parque · Parking en Cruz del Carmen\n- 🚌 Guagua desde Santa Cruz: **Línea 75** (hasta Las Mercedes / Cruz del Carmen)\n- ⏱️ Variable: desde 1 h (mirador) hasta día completo (rutas largas)\n\n### Recomendación\nEvita las horas centrales del día en verano — las rutas de Anaga no tienen apenas sombra fuera del bosque y el calor puede ser intenso. Lleva ropa de abrigo ligera aunque salgas con sol: la niebla puede aparecer en minutos y bajar la temperatura significativamente. El amanecer en Cruz del Carmen, con el mar de nubes sobre el bosque, es una de las experiencias visuales más impresionantes de Tenerife.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.551,
+        "lng": -16.182
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/parque-rural-anaga.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "laurisilva",
+        "anaga",
+        "senderismo",
+        "biosfera",
+        "naturaleza",
+        "bosque",
+        "barrancos"
+      ],
+      "visitDuration": "medio-dia-dia-completo",
+      "difficulty": "moderate",
+      "emoji": "🌿",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/PAxbcxcLo54Frfa56"
+    },
+    {
+      "slug": "parque-nacional-teide",
+      "name": "Parque Nacional del Teide",
+      "shortDescription": "Patrimonio Mundial de la UNESCO y el parque nacional más visitado de España — el volcán Teide a 3.718 m, las Cañadas y un cielo estrellado único en el mundo",
+      "description": "El **Parque Nacional del Teide** es, sencillamente, uno de los lugares más extraordinarios de España y del mundo. **Patrimonio Mundial de la UNESCO desde 2007**, este parque de casi 19.000 hectáreas en el centro de Tenerife está dominado por el **Teide**, con sus **3.718 metros** sobre el nivel del mar el volcán más alto de España, el pico más elevado de todo el Atlántico y el tercer volcán más grande del mundo medido desde su base oceánica.\n\nEs también **el parque nacional más visitado de España** y uno de los más visitados de Europa — y con razón: el paisaje que ofrece no tiene parangón en ningún otro punto del continente.\n\n### El volcán y la caldera\nEl Teide no es simplemente un volcán: es el resultado de millones de años de erupciones que han dado forma a un paisaje de una variedad y una belleza extraordinarias. La **caldera de Las Cañadas** — una depresión circular de 16 km de diámetro formada por el colapso del antiguo edificio volcánico — es el escenario donde se asienta el parque. Dentro de ella, campos de lava solidificada, conos volcánicos secundarios, roques y pitones de formas caprichosas crean un paisaje que parece de otro planeta.\n\n**Hitos geológicos imprescindibles:**\n- 🌋 **Roques de García** — formaciones volcánicas de 8 millones de años, las más fotografiadas del parque\n- 🌋 **Pico Viejo** — segundo volcán del parque, con una caldera de 800 m de diámetro\n- 🌋 **Minas de San José** — campo de lapilli y pómez de colores increíbles\n- 🌋 **El Portillo** — puerta de entrada norte al parque, con centro de visitantes\n- 🌋 **La Fortaleza** — impresionante roque de 2.159 m con vistas sobre la caldera\n\n### El teleférico\nEl **Teleférico del Teide** asciende desde los 2.356 m hasta los 3.555 m en apenas 8 minutos, ofreciendo una de las perspectivas más impresionantes de Canarias: el mar de nubes bajo tus pies, las islas del Atlántico en el horizonte y la cima del Teide sobre tu cabeza. Para llegar a la cima exacta (3.718 m) se necesita un **permiso gratuito** que debe solicitarse con antelación en la web del parque.\n\n### La flora única\nEl parque alberga especies vegetales que no existen en ningún otro lugar del mundo:\n- 🌺 **Tajinaste rojo** (*Echium wildpretii*) — la flor emblemática de Tenerife, hasta 3 m de altura, florece en mayo-junio\n- 🌼 **Violeta del Teide** (*Viola cheiranthifolia*) — la planta que crece más arriba en toda España\n- 🌿 **Retama del Teide** (*Spartocytisus supranubius*) — arbusto blanco-rosado que perfuma el parque en primavera\n- 🌱 Más de 60 especies endémicas del Parque Nacional\n\n### El cielo más estrellado\nAntes de que amanezca o después de que anochezca, el Parque Nacional del Teide revela su secreto mejor guardado: uno de los **cielos más puros del hemisferio norte** para la observación astronómica. La altitud, la ausencia de contaminación lumínica y la estabilidad atmosférica de las Canarias han situado al Teide como uno de los mejores observatorios naturales del mundo — de hecho, el **Observatorio del Teide** del IAC (Instituto de Astrofísica de Canarias) lleva décadas midiendo las estrellas desde aquí.\n\n### Rutas destacadas\n- 🥾 **Roques de García** (circular, 3,5 km, fácil, espectacular)\n- 🥾 **Telesforo Bravo** (ascenso a pie a la cumbre, reserva previa obligatoria)\n- 🥾 **Pico Viejo** (requiere permiso, vistas únicas sobre la caldera del volcán)\n- 🥾 **Montana Blanca → Teide** (ruta de ascenso por la vertiente sur, 7,3 km, desnivel +900 m)\n\n### Información práctica\n- 📍 Centro del parque accesible por **TF-21** desde La Orotava / Vilaflor\n- 🕙 Parque: **abierto 24 horas** · Teleférico: **9:00–16:00** h (sujeto a condiciones meteorológicas)\n- 💶 Parque: **gratuito** · Teleférico: **entrada con coste** — consultar precio actualizado en telefericoteide.com\n- 🔒 Permiso cumbre (3.718 m): **gratuito**, reserva previa en reservasparquesnacionales.es\n- ⏱️ Duración recomendada: **medio día – día completo**\n- 🚌 Guagua desde Puerto de la Cruz o Los Cristianos (servicio estacional)\n\n### Recomendación\nSube en teleférico antes de las 10h para evitar las colas y garantizar visibilidad antes de que las nubes suban desde la costa. Si quieres ver el **mar de nubes** en todo su esplendor, llega al amanecer — es uno de los espectáculos naturales más hipnóticos de Canarias. En primavera (abril-junio), los tajinastes en flor convierten las laderas del Teide en un mar de puntos rojos de una belleza extraordinaria.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2723,
+        "lng": -16.643
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/parque-nacional-teide.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "teide",
+        "volcán",
+        "unesco",
+        "nacional",
+        "teleférico",
+        "senderismo",
+        "astronomía"
+      ],
+      "visitDuration": "medio-dia-dia-completo",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/frQ24gQ7m3g6xVep7"
+    },
+    {
+      "slug": "roques-de-garcia",
+      "name": "Roques de García",
+      "shortDescription": "Las formaciones volcánicas más icónicas de Tenerife — agujas y roques de 8 millones de años en el corazón del Parque Nacional del Teide con vistas directas al volcán",
+      "description": "Los **Roques de García** son la imagen más reconocible del Parque Nacional del Teide y uno de los paisajes volcánicos más fotografiados de toda España. Estas formaciones de roca basáltica de **8 millones de años** — anteriores al propio Teide — emergen en el centro de la caldera de Las Cañadas como testigos silenciosos de millones de años de actividad volcánica, creando un paisaje de una espectacularidad que parece pertenecer a otro planeta.\n\n### Geología: un libro en piedra\nLos Roques de García no son el resultado de una erupción reciente sino de la **erosión diferencial** sobre coladas de lava antigua: el material más duro ha resistido la erosión mientras el entorno se erosionaba, dejando expuestos estos pilares y agujas de roca que hoy se alzan sobre la caldera. Sus formas caprichosas tienen nombres propios:\n\n- 🪨 **La Catedral** — el roque más alto y vertical, que asciende como un campanario de piedra\n- 🪨 **Cinchado** — la roca en equilibrio, el elemento más fotografiado: una piedra de varios metros que parece imposiblemente suspendida sobre otra\n- 🪨 **El Sombrero** — formación de perfil inconfundible visible desde la carretera\n- 🪨 **La Ruleta** — columna circular de aspecto casi artificial\n\nEl contraste de colores es extraordinario: el negro y ocre de la roca volcánica contra el blanco del pumón y el rojo del lapilli, con el Teide nevado al fondo y el azul del cielo canario sobre todo.\n\n### La ruta circular\nEl sendero circular que rodea los Roques de García es uno de los **paseos más fáciles y espectaculares** de todo el parque nacional:\n- 🥾 **Distancia**: 3,5 km (circular)\n- ⏱️ **Duración**: 1–1,5 horas\n- 📈 **Desnivel**: prácticamente llano (~50 m)\n- ⭐ **Dificultad**: muy fácil — apta para todos los públicos\n\nDesde el sendero las vistas son impresionantes en todas las direcciones: el Teide y el Pico Viejo al norte, la pared sur de la caldera al fondo, y los propios roques cambiando de forma y perspectiva a cada paso.\n\n### El Parador Nacional\nA pocos metros de los Roques se encuentra el icónico **Parador Nacional de las Cañadas del Teide** — alojarse aquí y madrugar para ver el amanecer sobre los roques, con el Teide tiñendo el cielo de naranja y rosa, es una experiencia que muy pocos olvidan.\n\n### Información práctica\n- 📍 Carretera TF-21, km 41 — Las Cañadas del Teide\n- 🅿️ Parking gratuito junto a los roques (capacidad limitada — llega temprano)\n- 💶 **Entrada gratuita**\n- 🕙 Accesible **24 horas** (recomendado amanecer o atardecer)\n- ⏱️ Duración recomendada: **1–1,5 horas**\n- 🧥 Temperatura media: **10–15 °C** (lleva ropa de abrigo todo el año)\n\n### Recomendación\nLlega antes de las 9h o después de las 17h para evitar los autobuses turísticos y disfrutar del lugar con tranquilidad. La luz del amanecer y del atardecer tiñe los roques de colores cálidos y crea fotografías de una calidad excepcional. En invierno, si ha nevado en el Teide, el contraste de la nieve blanca con los roques negros es de una belleza sobrecogadora.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2264,
+        "lng": -16.6108
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/roques-de-garcia.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "volcánico",
+        "teide",
+        "geología",
+        "senderismo",
+        "fotografía",
+        "gratuito",
+        "nacional"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "🪨",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/hKfjaNEBmtJcHSSe6"
+    },
+    {
+      "slug": "montana-amarilla",
+      "name": "Monumento Natural de Montaña Amarilla",
+      "shortDescription": "El cono volcánico amarillo de la costa sur — una formación de toba volcánica de color ocre único en Tenerife, junto al mar en San Miguel de Abona",
+      "description": "La **Montaña Amarilla** es uno de los monumentos naturales más llamativos y menos conocidos del sur de Tenerife. Este cono de **toba volcánica** de color amarillo-ocre intenso —que le da su nombre— es el resultado de una erupción volcánica submarina que consolidó las cenizas en contacto con el agua del mar, creando el material característico conocido como **palagonita** que le confiere ese tono dorado único.\n\n### Una geología única\nLo que distingue a la Montaña Amarilla de la mayoría de los volcanes canarios es su origen: se trata de un **cono de toba hidrovolcánico**, formado cuando la lava caliente entró en contacto con el agua del mar durante la erupción. Esta reacción explosiva fragmentó el material volcánico en partículas finas que se consolidaron en capas, formando la toba amarillenta característica. El color, lejos de ser uniforme, varía desde el amarillo pálido hasta el ocre intenso y el marrón rojizo según la composición mineral y el grado de alteración.\n\nEstá declarado **Monumento Natural** por su valor geológico y paisajístico, y es uno de los mejores ejemplos de vulcanismo hidromagmático de las Islas Canarias.\n\n### El entorno costero\nLa montaña se asoma directamente al mar, junto a la urbanización de **Golf del Sur** en San Miguel de Abona, creando un contraste visual extraordinario: el amarillo de la roca volcánica sobre el azul intenso del Atlántico. Las aguas que la rodean son especialmente tranquilas y cristalinas, protegidas por la propia forma del cono, lo que las convierte en un punto popular para el **snorkel y el baño**.\n\nEn los alrededores se pueden observar:\n- 🌊 Formaciones de roca volcánica en la orilla modeladas por la erosión marina\n- 🐟 Fondos marinos con peces de colores entre las rocas volcánicas\n- 🦎 Lagarto canario (*Gallotia galloti*) soleándose en las rocas\n- 🌵 Vegetación xerófila adaptada al litoral seco del sur\n\n### La ascensión\nSe puede subir a la cima de la Montaña Amarilla por un sendero corto y sencillo desde la base. Desde arriba las vistas son espectaculares:\n- El litoral sur de Tenerife con sus urbanizaciones y el puerto de Los Abrigos\n- La isla de Gran Canaria en días despejados\n- Las aguas turquesas de la costa circundante\n- Los campos de lava negra que contrastan con el amarillo de la toba\n\n### Información práctica\n- 📍 Golf del Sur, San Miguel de Abona (TF-655)\n- 🅿️ Parking junto a la playa de Golf del Sur\n- 💶 **Entrada gratuita**\n- 🕙 Accesible **todo el día**\n- ⏱️ Duración recomendada: **1–1,5 horas**\n- 🏖️ Combinable con baño en las piscinas naturales y playas cercanas\n\n### Recomendación\nIdeal para combinar con una visita al pueblo de **Los Abrigos** (famoso por sus restaurantes de pescado fresco) y un baño en las piscinas naturales de la zona. La mejor luz para fotografiar la montaña es la de la mañana, cuando el sol ilumina directamente la cara amarilla del cono. Lleva calzado cómodo para la subida y protección solar —el sur de Tenerife tiene muy poca sombra.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.0166,
+        "lng": -16.5902
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/montana-amarilla.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "volcánico",
+        "costa",
+        "geología",
+        "sur",
+        "snorkel",
+        "gratuito",
+        "san-miguel"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "🟡",
+      "top": false,
+      "municipio": "san-miguel-de-abona",
+      "mapsUrl": "https://maps.app.goo.gl/PBsWFYAJhPpD4Czw6"
+    },
+    {
+      "slug": "montana-roja-el-medano",
+      "name": "Reserva Natural de Montaña Roja",
+      "shortDescription": "El volcán rojo sobre El Médano — un cono volcánico protegido de 171 m junto a la mejor playa natural de Tenerife, con anidamiento de avutarda hubara y vistas al Atlántico",
+      "description": "La **Reserva Natural Especial de Montaña Roja** es uno de los espacios naturales más singulares del sur de Tenerife. Este cono volcánico de **171 metros** de altura, que recibe su nombre del intenso color rojizo de su roca —resultado de la oxidación del hierro en la lava— se alza directamente sobre la costa en el municipio de Granadilla de Abona, junto a El Médano, creando uno de los paisajes litorales más espectaculares de la isla.\n\n### Un santuario de fauna en peligro\nLo que eleva a Montaña Roja más allá de su valor paisajístico es su importancia ecológica: es uno de los pocos lugares de Europa donde anida la **avutarda hubara canaria** (*Chlamydotis undulata fuerteventurae*), un ave esteparia en peligro crítico de extinción que ha encontrado en los arenales y pedregales del entorno de la montaña uno de sus últimos refugios en el archipiélago. La reserva también protege una de las mejores muestras de **vegetación costera halófila** (adaptada a la sal) de Tenerife: tabaibas, cardones costeros, balancones y otras plantas perfectamente adaptadas al litoral árido del sur.\n\n**Fauna destacada:**\n- 🦅 **Avutarda hubara canaria** — en peligro crítico de extinción, anida en la zona\n- 🦅 **Guirre** (alimoche canario) — buitre endémico de las Canarias\n- 🐦 Correlimos, chorlitejos y otros limícolas en la playa de La Tejita\n- 🦎 Lagarto tizón (*Gallotia galloti*) en las paredes rocosas de la montaña\n\n### La montaña\nEl ascenso a la cima de Montaña Roja es una experiencia corta pero gratificante:\n- 🥾 **Distancia**: ~2 km (circular desde la base)\n- ⏱️ **Duración**: 45 minutos – 1 hora\n- 📈 **Desnivel**: 171 m\n- ⭐ **Dificultad**: fácil-moderada (pendiente pronunciada pero sin peligro)\n\nDesde la cima las vistas son de 360°:\n- La playa de El Médano y La Tejita al norte\n- El aeropuerto Tenerife Sur al oeste\n- La isla de Gran Canaria en el horizonte\n- Los campos de lava negra que rodean la montaña\n- El Atlántico en todo su esplendor a tus pies\n\n### La Tejita: la mejor playa natural\nA los pies de Montaña Roja se extiende la **Playa de La Tejita**, considerada por muchos la mejor playa de arena natural de Tenerife: larga, ancha, con arena dorada y sin edificaciones de ningún tipo, protegida precisamente por encontrarse dentro de la reserva natural. Es también uno de los mejores spots de **windsurf y kitesurf** de todo el Atlántico — el viento del sur sopla aquí con una regularidad y una fuerza ideales para estos deportes.\n\n### El Médano\nEl pueblo de **El Médano** está a pocos minutos andando: un pueblo auténtico, sin las grandes cadenas hoteleras del sur de Tenerife, con bares de tapas, chiringuitos y un ambiente relajado que lo distingue del turismo masivo de Los Cristianos o Las Américas.\n\n### Información práctica\n- 📍 Playa de La Tejita, El Médano — Granadilla de Abona\n- 🅿️ Parking en La Tejita (gratuito, capacidad limitada en verano)\n- 💶 **Entrada gratuita**\n- 🕙 Accesible **todo el día**\n- ⏱️ Duración recomendada: **2 horas** (subida + baño en La Tejita)\n- 🌬️ Zona de viento fuerte: no recomendable en días de calima intensa\n\n### Recomendación\nEl atardecer desde la cima de Montaña Roja, con el sol hundiéndose en el Atlántico y el cielo tiñéndose de rojo —que hace juego con la propia roca del volcán— es uno de los más bonitos del sur de Tenerife. Combina la subida con un baño en La Tejita y cena en El Médano para una tarde perfecta. Respeta la señalización de la reserva durante la época de cría de la avutarda (enero–julio).",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.0328,
+        "lng": -16.5345
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/montana-roja-el-medano.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "volcánico",
+        "reserva",
+        "avutarda",
+        "el-médano",
+        "playa",
+        "senderismo",
+        "costa"
+      ],
+      "visitDuration": "2h",
+      "difficulty": "easy",
+      "emoji": "🔴",
+      "top": false,
+      "municipio": "granadilla-de-abona",
+      "mapsUrl": "https://maps.app.goo.gl/VZjKZzPGGYq4joUP7"
+    },
+    {
+      "slug": "barranco-del-infierno",
+      "name": "Barranco del Infierno",
+      "shortDescription": "La ruta de senderismo más famosa del sur de Tenerife — un barranco protegido con laurisilva, paredes de 400 m y la única cascada permanente del sur de la isla",
+      "description": "El **Barranco del Infierno** es la ruta de senderismo más célebre del sur de Tenerife y uno de los senderos más populares de todo el archipiélago. Este espectacular cañón en el municipio de **Adeje** concentra en apenas 4,5 km de recorrido una biodiversidad y una belleza paisajística que contrasta radicalmente con el turismo de sol y playa del litoral que tiene a sus espaldas: al final del camino te espera la **única cascada permanente del sur de Tenerife**, una caída de agua de casi **80 metros** en el fondo de un barranco de paredes verticales.\n\n### El barranco\nEl Barranco del Infierno es un profundo cañón excavado durante miles de años por el agua en el macizo de Adeje. Sus paredes verticales alcanzan en algunos puntos los **400 metros** de altura, creando un microclima húmedo y protegido donde sobreviven especies vegetales propias de la laurisilva — el bosque terciario prehistórico — que de otro modo no existirían en el árido sur de Tenerife. El barranco está declarado **Monumento Natural** y su acceso está estrictamente regulado para preservar el ecosistema.\n\n### La flora\nEl microclima del barranco permite la existencia de una vegetación inusual para el sur de la isla:\n- 🌿 **Laureles, tiles y viñátigos** — árboles propios de la laurisilva húmeda del norte\n- 🌵 **Cardones y tabaibas** — en las paredes más soleadas y secas\n- 🌺 **Lotus y Aeonium endémicos** — especies rupícolas en las paredes rocosas\n- 🌾 **Helechos y musgos** — en las zonas más húmedas cerca de la cascada\n- 🌸 Orquídeas silvestres en primavera\n\n### La fauna\n- 🦅 **Cernícalo primilla** — nidifica en las paredes verticales del barranco\n- 🦎 Lagarto tizón y perenquén en las paredes soleadas\n- 🐦 Canario silvestre, herrerillo y curruca cabecinegra\n- 🦋 Mariposas endémicas de Canarias\n\n### La cascada\nEl objetivo de la ruta es la **cascada del Infierno**: una caída de agua de casi 80 metros que en invierno y primavera luce en todo su esplendor. Es el único punto de agua permanente del sur árido de Tenerife, lo que explica por qué este barranco ha sido habitado desde la época de los guanches — los aborígenes canarios — que dejaron aquí testimonios arqueológicos de su presencia.\n\n### La ruta\n- 🥾 **Distancia**: 9 km (4,5 km ida + 4,5 km vuelta)\n- ⏱️ **Duración**: 3–4 horas\n- 📈 **Desnivel**: ~400 m de subida\n- ⭐ **Dificultad**: moderada\n- 🕙 **Horario de visita**: 8:00–13:00 h (último acceso 13:00 h)\n- 👥 **Aforo máximo**: 300 personas/día (reserva previa obligatoria)\n\n### Información práctica\n- 📍 Calle Barranco del Infierno, 1 — Adeje\n- 💶 **Entrada con coste** — consultar precios actualizados en barrancoDelinfierno.com · Gratuito menores de 3\n- 🔒 **Reserva obligatoria**: barrancoDelinfierno.com\n- 🧥 Lleva ropa fresca pero un chubasquero ligero — el interior del barranco puede estar húmedo\n- 👟 Calzado de senderismo imprescindible — el suelo puede ser resbaladizo\n- 🚫 No apto para carritos de bebé ni personas con movilidad reducida\n\n### Recomendación\nReserva con al menos **1–2 semanas de antelación** en temporada alta (noviembre–abril) — las plazas se agotan rápido. Llega al parking 30 minutos antes de tu hora de acceso. La luz del interior del barranco es mejor en la primera entrada de la mañana (8h). El tramo final hasta la cascada requiere algo de esfuerzo, pero la recompensa visual lo justifica completamente.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.1227,
+        "lng": -16.7275
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/barranco-del-infierno.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "barranco",
+        "senderismo",
+        "cascada",
+        "adeje",
+        "laurisilva",
+        "naturaleza",
+        "reserva"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "moderate",
+      "emoji": "💧",
+      "top": true,
+      "municipio": "adeje",
+      "mapsUrl": "https://maps.app.goo.gl/uQCfm9QFmLxAnLpT9"
+    },
+    {
+      "slug": "volcan-chinyero",
+      "name": "Volcán Chinyero",
+      "shortDescription": "El último volcán en erupcionar en Tenerife — la colada de lava de 1909 sigue intacta entre el bosque de pinos, accesible por una circular de gran belleza en el oeste de la isla",
+      "description": "El **Volcán Chinyero** es uno de los lugares más singulares de Tenerife: el **último volcán en entrar en erupción en la isla**, en noviembre de **1909**, hace algo más de un siglo. Durante **10 días** (del 18 al 28 de noviembre), el Chinyero expulsó lava, cenizas y gases que amenazaron los pueblos del noroeste de la isla — y hoy, más de 100 años después, su colada de lava negra sigue perfectamente visible e intacta entre el bosque de pinos canarios, como si la erupción hubiera ocurrido ayer.\n\n### La erupción de 1909\nFue la última erupción histórica de Tenerife y una de las más estudiadas del archipiélago. El Chinyero abrió varios centros de emisión a **1.559 metros** de altitud en el macizo de Teno, en el municipio de Santiago del Teide. La lava avanzó hacia el norte y el noroeste, destruyendo terrenos agrícolas y amenazando los pueblos de El Palmar y Erjos, aunque sin causar víctimas mortales. La Iglesia de Santiago del Teide organizó rogativas y se dice que la lava se detuvo milagrosamente antes de llegar al pueblo — una historia que los lugareños todavía cuentan con orgullo.\n\n### El paisaje volcánico\nEl resultado de aquella erupción es uno de los **campos de lava más jóvenes y mejor conservados de Canarias**: tongadas de lava negra que se extienden entre el pinar, con la morfología original prácticamente intacta. Se pueden distinguir:\n- 🌋 **Lavas pahoe-hoe** — coladas de superficie lisa y ondulada, como cuerdas solidificadas\n- 🌋 **Lavas aa** — coladas de superficie rugosa y escoriácea, más difíciles de caminar\n- 🌋 **Hornitos** — pequeños conos secundarios formados durante la erupción\n- 🌋 **Tubos volcánicos** — conductos por donde fluyó la lava bajo una costra ya solidificada\n\nEntre las grietas y huecos de la lava ha ido colonizando una vegetación pionera de gran valor ecológico: líquenes, musgos y las primeras plantas vasculares que inician la sucesión ecológica hacia el bosque.\n\n### El pinar canario\nEl volcán está rodeado por uno de los **pinares canarios** (*Pinus canariensis*) más densos y bellos del oeste de Tenerife. El pino canario es una especie única en el mundo, capaz de rebrotar después de un incendio gracias a sus yemas latentes bajo la corteza — una adaptación perfecta a la actividad volcánica y los incendios que caracterizan las Canarias. Caminar entre estos pinos centenarios con el olor a resina y el suelo cubierto de pinocha es una experiencia de una tranquilidad absoluta.\n\n### La ruta circular\n- 🥾 **Distancia**: ~8 km (circular)\n- ⏱️ **Duración**: 3–4 horas\n- 📈 **Desnivel**: ~300 m\n- ⭐ **Dificultad**: moderada\n- 🚗 Inicio: área recreativa junto a la TF-82, entre Santiago del Teide e Icod\n\n### Información práctica\n- 📍 Área recreativa Chinyero — TF-82, km 31 (municipio Santiago del Teide)\n- 💶 **Entrada gratuita**\n- 🅿️ Parking gratuito en el área recreativa\n- 🧥 Temperatura media: **15–20 °C** — lleva ropa de abrigo ligera\n- 📱 No hay cobertura móvil en el interior del recorrido\n\n### Recomendación\nEs uno de los senderos menos masificados de Tenerife — una joya para los que buscan naturaleza auténtica lejos de los circuitos turísticos. Combina perfectamente con una visita al **Drago Milenario de Icod de los Vinos** (a 20 minutos en coche) para una jornada completa en el norte-noroeste de la isla. La mejor época para visitarlo es primavera y otoño.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2833,
+        "lng": -16.805
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/volcan-chinyero.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "volcán",
+        "lava",
+        "senderismo",
+        "pinar",
+        "1909",
+        "santiago-del-teide",
+        "naturaleza"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "top": false,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/mDczDL1sScMFnKcp8"
+    },
+    {
+      "slug": "malpais-de-guimar",
+      "name": "Malpaís de Güímar",
+      "shortDescription": "El campo de lava más extenso de Tenerife — una Reserva Natural Especial de 10 km² en el sureste de la isla con flora endémica única y vistas sobre el Valle de Güímar",
+      "description": "El **Malpaís de Güímar** es uno de los espacios naturales más desconocidos y más auténticos de Tenerife. Declarado **Reserva Natural Especial**, este extenso campo de lava de más de **10 km²** en el municipio de Güímar es el resultado de sucesivas erupciones volcánicas que modelaron el sureste de la isla, dejando un paisaje de roca negra, escoria volcánica y coladas solidificadas sobre el que ha prosperado una flora endémica canaria de un valor excepcional.\n\n### Un ecosistema pionero\nEl término «malpaís» —literalmente «mal país»— describe el aspecto inhóspito y difícil de transitar de estos campos de lava. Sin embargo, lejos de ser un paisaje muerto, el malpaís de Güímar es un ecosistema vivo y dinámico donde la naturaleza ha ido colonizando la roca durante cientos de años:\n\n**Flora endémica destacada:**\n- 🌵 **Cardón canario** (*Euphorbia canariensis*) — el cactus endémico más emblemático de Canarias, que puede alcanzar los 4–5 metros\n- 🌿 **Tabaiba dulce** (*Euphorbia balsamifera*) — arbusto bajo que cubre gran parte del malpaís\n- 🌱 **Tabaiba salvaje** (*Euphorbia regis-jubae*) — de tallos verdes y flores amarillas\n- 🌺 **Verode** (*Kleinia neriifolia*) — suculenta endémica de flores amarillas\n- 🌿 **Balancón** (*Zygophyllum fontanesii*) — planta costera halófila\n- 🌸 Numerosas especies de **Aeonium** y líquenes rupícolas\n\n**Fauna:**\n- 🦎 **Lagarto tizón** (*Gallotia galloti*) — el lagarto endémico de Tenerife, muy abundante en el malpaís\n- 🐦 **Cernícalo vulgar**, **curruca cabecinegra** y otras aves rupícolas\n- 🦎 **Perenquén** (geco de Tenerife) en las grietas de la lava\n- 🦋 Varias especies de mariposas endémicas de Canarias\n\n### El paisaje\nLo que hace especial al Malpaís de Güímar es la combinación de elementos naturales:\n- La **lava negra** de las coladas históricas, aún reconocible en sus diferentes morfologías\n- Los **cardones** y **tabaibas** que emergen entre la roca como una selva de cactus canarios\n- Las **vistas** sobre el Valle de Güímar — uno de los valles más fértiles del este de Tenerife\n- La **costa** que bordea el malpaís por el este, con acantilados y playas de piedra volcánica\n- La proximidad de las **Pirámides de Güímar** — el enigmático complejo de estructuras escalonadas estudiado por Thor Heyerdahl\n\n### Los senderos\nExisten varios senderos señalizados que permiten recorrer diferentes zonas del malpaís:\n- 🥾 **Sendero litoral** — recorre la costa junto al malpaís con vistas al mar\n- 🥾 **Sendero del malpaís interior** — penetra entre los cardones y las coladas de lava\n- 🥾 **Mirador del Valle** — acceso a puntos con vistas panorámicas sobre Güímar\n- ⏱️ Duración variable: de 1 hora a medio día según la ruta elegida\n\n### Información práctica\n- 📍 Güímar, Tenerife — acceso por la TF-28 o la TF-612\n- 💶 **Entrada gratuita**\n- 🕙 Accesible **todo el día**\n- ⏱️ Duración recomendada: **1,5–2 horas**\n- 👟 Calzado cerrado y resistente — la lava puede ser muy cortante\n- ☀️ Poca sombra: lleva protección solar y agua\n\n### Recomendación\nCombina la visita al malpaís con las **Pirámides de Güímar** (a escasos kilómetros) y una bajada al puerto de Güímar para comer pescado fresco. Es uno de los rincones más auténticos y menos turísticos del sureste de Tenerife — un espacio donde la naturaleza volcánica de la isla se muestra en su estado más puro. La mejor época es otoño e invierno, cuando las lluvias despiertan la vegetación.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.3,
+        "lng": -16.39
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/malpais-de-guimar.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "malpaís",
+        "lava",
+        "flora",
+        "endémica",
+        "güímar",
+        "reserva",
+        "cardones"
+      ],
+      "visitDuration": "1.5-2h",
+      "difficulty": "easy",
+      "emoji": "🌵",
+      "top": false,
+      "municipio": "guimar",
+      "mapsUrl": "https://maps.app.goo.gl/N7h37d2LcMYzfrrG9"
+    },
+    {
+      "slug": "la-ensillada",
+      "name": "La Ensillada",
+      "shortDescription": "El collado más espectacular del macizo de Teno — un paso de montaña en el extremo noroeste de Tenerife con vistas a los Acantilados de Los Gigantes y los dos océanos",
+      "description": "**La Ensillada** es uno de los miradores naturales más dramáticos y menos conocidos de Tenerife. Este collado —una silla de montaña formada entre dos crestas del **Macizo de Teno**— se abre en el extremo noroeste de la isla a una perspectiva de 180 grados que abarca simultáneamente la costa norte y la costa sur de Tenerife, el Atlántico en todo su esplendor, y los imponentes **Acantilados de Los Gigantes** cayendo en picado hacia el mar a sus pies.\n\n### El macizo de Teno\nEl Macizo de Teno es el más antiguo de los tres macizos volcánicos que conforman Tenerife, con más de **7 millones de años** de historia geológica. Sus barrancos profundos, sus crestas afiladas y su paisaje áspero y dramático lo convierten en uno de los territorios más salvajes de la isla — un contraste absoluto con el turismo del sur. La Ensillada se sitúa en uno de los puntos más elevados y expuestos de este macizo, donde el viento esculpe constantemente la vegetación y el paisaje adquiere una textura casi lunar.\n\n### Las vistas\nDesde La Ensillada las panorámicas son de una espectacularidad difícil de igualar:\n- 🌊 Al sur: los **Acantilados de Los Gigantes** y la costa occidental, con La Gomera al fondo\n- 🌊 Al norte: la costa de Buenavista del Norte y el cabo de Teno, el punto más occidental de Tenerife\n- 🏔️ Al este: el Teide dominando el horizonte interior\n- 🌊 A 360°: el Atlántico por todos los flancos en los días más claros\n\nLa combinación de las paredes verticales de los Acantilados de Los Gigantes en primer plano y el océano extendiéndose hasta La Gomera crea una de las fotografías más impactantes que se pueden tomar en Tenerife.\n\n### La flora y el paisaje\nLa vegetación de este rincón del Macizo de Teno refleja las condiciones extremas del lugar:\n- 🌿 **Tabaibas y cardones** adaptados al viento y la sequía\n- 🌱 **Verodes y Aeonium** sobre las paredes rocosas\n- 🌿 **Retama y tomillo** en las zonas de transición\n- 🌳 Reductos de **laurisilva** en los barrancos más protegidos\n\n### Cómo llegar\nLa Ensillada se alcanza a través de las carreteras estrechas del interior de Teno — el acceso forma parte de la experiencia:\n- 🚗 Desde Santiago del Teide por la **TF-436** (carretera de montaña sinuosa, muy recomendable con cautela)\n- 🚗 Desde Buenavista del Norte por la misma TF-436 en dirección sur\n- 🥾 También accesible a pie desde varios puntos del Parque Rural de Teno\n\n### Información práctica\n- 📍 TF-436 — Macizo de Teno, Santiago del Teide\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — mejor al amanecer o al atardecer\n- ☁️ La niebla y las nubes son frecuentes — combina maravillosamente con el paisaje\n- 🌬️ Zona de viento muy fuerte en días de temporal\n- 📸 Llevar trípode para las tomas del atardecer\n\n### Recomendación\nLa Ensillada es el punto de partida perfecto para combinar con la **visita en barco a los Acantilados de Los Gigantes** desde el puerto del mismo nombre. Ver los acantilados primero desde arriba — en toda su altura vertical — y después desde abajo, navegando a sus pies, es una experiencia que pone en perspectiva la magnitud real de estas paredes de roca. El atardecer desde La Ensillada, con La Gomera encendiéndose en rojo al fondo del Atlántico, es absolutamente irrepetible.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.33,
+        "lng": -16.82
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/la-ensillada.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "teno",
+        "acantilados",
+        "vistas",
+        "senderismo",
+        "noroeste",
+        "naturaleza"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "⛰️",
+      "top": false,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/rn2jYucqLouFgffB9"
+    },
+    {
+      "slug": "acantilados-los-gigantes",
+      "name": "Acantilados de Los Gigantes",
+      "shortDescription": "Los acantilados más altos de Europa — paredes verticales de hasta 800 m que caen directamente al Atlántico en la costa noroeste de Tenerife, con delfines y ballenas en sus aguas",
+      "description": "Los **Acantilados de Los Gigantes** son uno de los espectáculos naturales más impresionantes de Canarias y de toda Europa. Estas paredes de roca volcánica negra que se precipitan verticalmente desde alturas de hasta **800 metros** directamente al Atlántico constituyen uno de los paisajes costeros más dramáticos del planeta — y uno de los que más impactan a quienes los ven por primera vez, ya sea desde tierra o, aún mejor, navegando a sus pies.\n\n### La formación\nLos acantilados son el resultado de la **erosión marina sobre el flanco occidental del Macizo de Teno**, el más antiguo de los tres macizos volcánicos de Tenerife con más de 7 millones de años. Durante milenios, el Atlántico ha atacado sin descanso esta pared de roca volcánica, creando acantilados verticales de una verticalidad casi perfecta. La roca negra del basalto, rayada por las distintas coladas que se superpusieron en millones de años de actividad volcánica, tiene una textura y un cromatismo únicos — especialmente cuando la luz del atardecer la tiñe de dorado.\n\n### Las dimensiones\n- 📏 **Altura máxima**: hasta **800 metros** sobre el nivel del mar\n- 📏 **Longitud**: aproximadamente **5 km** de frente acantilado\n- 🌊 **Profundidad marina**: hasta **60 metros** bajo las paredes\n\n### La experiencia\nHay dos formas de vivir los Acantilados de Los Gigantes:\n\n**Desde tierra:**\n- El mirador de **La Ensillada** (en el Macizo de Teno) ofrece la visión desde arriba — la perspectiva total de las paredes en toda su altura, el océano al fondo y La Gomera en el horizonte\n- El paseo marítimo de **Puerto de Santiago** permite contemplarlos desde la orilla\n\n**Desde el mar (la experiencia definitiva):**\n- Las **excursiones en barco** desde el Puerto de Los Gigantes son la manera de entender realmente la escala de estos acantilados. Navegar a sus pies —mirando hacia arriba una pared de 800 metros que parece caer sobre ti— es una experiencia que no tiene parangón en el Atlántico europeo\n- Las excursiones incluyen normalmente **avistamiento de cetáceos**: las aguas frente a Los Gigantes son uno de los mejores lugares de Europa para ver **calderones tropicales** (*Globicephala macrorhynchus*) y **delfines comunes**, que viven aquí todo el año\n\n### Los cetáceos\nLas aguas profundas y tranquilas al abrigo de los acantilados crean un ecosistema marino excepcional:\n- 🐋 **Calderón tropical** (*Globicephala macrorhynchus*) — residente permanente, grupos de 20–40 individuos\n- 🐬 **Delfín mular** (*Tursiops truncatus*) — el más frecuente, sociable y curioso con los barcos\n- 🐬 **Delfín común** (*Delphinus delphis*) — en grupos de hasta centenares\n- 🐋 **Ballena jorobada** (*Megaptera novaeangliae*) — en paso estacional\n- 🐋 **Cachalote** (*Physeter macrocephalus*) — en la zona de aguas profundas frente a la costa\n\n### El buceo\nLas aguas bajo los acantilados son uno de los **mejores puntos de buceo de Tenerife**: visibilidad excelente, fondos ricos en vida marina y la experiencia única de bucear bajo una pared de roca que sube 800 metros sobre tu cabeza.\n\n### Información práctica\n- 📍 Puerto de Los Gigantes — Santiago del Teide\n- 🚢 Múltiples empresas ofrecen excursiones en barco desde el puerto\n- 💶 Excursiones en barco: **con coste** — consultar precios directamente en el puerto de Los Gigantes\n- 🕙 Salidas: normalmente **10:00 h y 12:00 h** (consultar temporada)\n- 🐋 Avistamiento de cetáceos garantizado en la mayoría de excursiones\n\n### Recomendación\nNo te conformes con verlos desde tierra — la excursión en barco es la que transforma Los Gigantes de «paisaje bonito» a «experiencia que te cambia la perspectiva». Los delfines que salen a jugar en la proa son un bonus casi garantizado. Reserva con al menos 24–48 horas de antelación en temporada alta. Si tienes posibilidad, elige un barco pequeño (máx. 12 personas) para una experiencia más íntima y respetuosa con los cetáceos.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2533,
+        "lng": -16.84
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/acantilados-los-gigantes.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "acantilados",
+        "cetáceos",
+        "ballenas",
+        "delfines",
+        "barco",
+        "teno",
+        "costa"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🐋",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/MRkHioX4r9ncCgtSA"
+    },
+    {
+      "slug": "mirador-chipeque",
+      "name": "Mirador de Chipeque",
+      "shortDescription": "El balcón más espectacular sobre el Valle de La Orotava — a 1.700 m de altitud entre el pinar y el Teide, con vistas a vuelo de pájaro sobre el valle más fértil de Tenerife",
+      "description": "El **Mirador de Chipeque** es uno de los miradores más bellos y menos masificados de Tenerife. Situado a **1.700 metros de altitud** en la carretera TF-24 que asciende desde La Orotava hacia el Parque Nacional del Teide, este balcón natural sobre el **Valle de La Orotava** ofrece una de las vistas más espectaculares de toda la isla: el valle más fértil y verde de Tenerife desplegándose a tus pies desde las faldas del Teide hasta el mar, con Puerto de la Cruz, el Atlántico y las islas en el horizonte.\n\n### La perspectiva\nLo que hace único al Mirador de Chipeque es su posición privilegiada: estás lo suficientemente alto para ver el valle en su totalidad, pero rodeado de pinar canario que enmarca la vista y le da una escala que los miradores más elevados (donde solo hay lava y roca) no tienen. La combinación de:\n- 🌲 Pinos canarios centenarios en primer plano\n- 🟩 El tapiz verde intenso del Valle de La Orotava en el centro\n- 🏘️ Los tejados de La Orotava, La Victoria y Tacoronte escalando por las laderas\n- 🌊 Puerto de la Cruz y el litoral norte al fondo\n- 🌍 El Atlántico extendiéndose hasta el horizonte\n- 🏔️ El Teide sobre tu cabeza, cerrando el paisaje por arriba\n\n...crea una de las composiciones paisajísticas más completas y equilibradas de toda Canarias.\n\n### El Valle de La Orotava\nEl **Valle de La Orotava** es el valle más fértil de Tenerife, irrigado por el agua que desciende del Teide a través de una red de galerías y acequias que los canarios construyeron durante siglos. Sus laderas están cubiertas de plataneras, viñedos, papas y huertos que dan al valle ese color verde intenso que contrasta con la aridez del resto del norte. Desde Chipeque se puede apreciar su forma perfecta de anfiteatro natural — una caldera antigua que se abrió al mar hace millones de años.\n\n### El entorno del mirador\nChipeque está enclavado en la **Corona Forestal**, el parque natural que rodea el Teide. El pinar canario (*Pinus canariensis*) que rodea el mirador es uno de los más densos y bellos de la isla, con árboles de gran porte que crean una atmósfera de silencio y tranquilidad difícil de encontrar en otros puntos de Tenerife. En primavera, el suelo está cubierto de flores de retama y el aire huele a resina y a campo.\n\n### Los efectos de luz\nLa hora cambia radicalmente el aspecto del mirador:\n- 🌅 **Mañana**: luz lateral que ilumina el valle desde el este, máxima nitidez\n- ☁️ **Media mañana**: posible **mar de nubes** que llena el valle y deja solo las cumbres asomando\n- 🌅 **Tarde**: luz dorada que intensifica los verdes del valle y los tonos del Teide\n- 🌃 **Noche**: el cielo del Corona Forestal es excepcional para la astronomía\n\n### Información práctica\n- 📍 Carretera TF-24, km 22 — entre La Orotava y el Parque Nacional del Teide\n- 🅿️ Parking junto al mirador (gratuito, capacidad limitada)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — mejor mañana temprano o tarde\n- 🧥 Temperatura: **10–18 °C** según época — siempre más fresco que en la costa\n- 🚗 Acceso en coche recomendado (la TF-24 es una carretera de montaña en buen estado)\n\n### Recomendación\nLlega temprano si quieres posibilidad de ver el **mar de nubes** llenando el valle — el espectáculo de las cimas de los edificios y los árboles asomando sobre una capa de nubes blancas como algodón es absolutamente irreal. Combina la visita con el ascenso hasta el **Parque Nacional del Teide** (a 30 minutos por la misma TF-24) para una jornada completa de montaña. Lleva ropa de abrigo aunque el día en la costa sea caluroso.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.3233,
+        "lng": -16.58
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-chipeque.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "valle",
+        "orotava",
+        "pinar",
+        "vistas",
+        "teide",
+        "corona-forestal"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "🏔️",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/5L5GHokTzuWNXvaD7"
+    },
+    {
+      "slug": "mirador-de-jardina",
+      "name": "Mirador de Jardina",
+      "shortDescription": "El primer balcón sobre el bosque de Anaga — vistas panorámicas sobre el macizo más antiguo de Tenerife y la laurisilva desde la carretera que sube desde La Laguna",
+      "description": "El **Mirador de Jardina** es una de las primeras y más impactantes paradas en el acceso al Parque Rural de Anaga desde San Cristóbal de La Laguna. Situado en la carretera TF-13 a unos **700 metros de altitud**, este mirador regala una de las vistas más completas sobre el **Macizo de Anaga** — el más antiguo de los tres grandes macizos volcánicos de Tenerife, con más de 7 millones de años — antes de adentrarse en el corazón del bosque.\n\n### La perspectiva\nDesde Jardina la mirada se abre sobre un paisaje de crestas verdes cubiertas de laurisilva que se suceden una tras otra hacia el noreste, bajando en escalones hacia la costa:\n- 🌿 El **océano de laurisilva** que cubre las laderas del Anaga desde la cima hasta los barrancos\n- 🌊 La **costa norte** de Tenerife, con los acantilados cayendo al Atlántico\n- 🏘️ Los tejados de **La Laguna** y el Valle de Aguere al fondo\n- ⛅ Con frecuencia, la línea de **inversión térmica** que separa el cielo azul de las nubes bajas, creando un efecto visual de «isla flotante» sobre el mar de nubes\n\n### El bosque que te espera\nJardina es la antesala del Anaga: desde aquí puedes ver el bosque desde fuera antes de entrar en él. Las crestas verdes que se divisan desde el mirador se revelan, al caminar entre ellas, como un laberinto de árboles centenarios cubiertos de musgo, caminos empedrados y barrancos donde el tiempo parece detenido. El mirador prepara visualmente para lo que está a punto de vivirse.\n\n### La flora del entorno\nEl entorno inmediato del mirador ya muestra las primeras especies de transición hacia la laurisilva:\n- 🌿 **Brezos arborescentes** (*Erica arborea*) — los primeros árboles del bosque húmedo\n- 🌳 **Acebiños** (*Ilex canariensis*) — acebo canario de hojas perennes\n- 🌱 **Helechos** y **líquenes** que indican la presencia de humedad permanente\n- 🍃 **Fayas** y **laureles** que anuncian la entrada en la laurisilva plena\n\n### Información práctica\n- 📍 Carretera TF-13, km 8 — entre La Laguna y las Mercedes\n- 🅿️ Área de aparcamiento junto al mirador (gratuito)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — mejor mañana temprano antes de la niebla\n- 🚌 Guagua desde La Laguna: **Línea 75** (hacia Cruz del Carmen / Las Mercedes)\n- ⏱️ Duración recomendada: **30–45 minutos**\n\n### Recomendación\nJardina es la parada perfecta para hacer un alto antes de entrar en Anaga: te da la perspectiva global que después perderás cuando estés dentro del bosque. Combínalo con el **Mirador de Cruz del Carmen** (15 min más adelante por la misma carretera) para tener dos perspectivas complementarias — una desde el exterior del bosque y otra desde su interior. En días con niebla el ambiente es especialmente mágico.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.5166,
+        "lng": -16.2833
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-de-jardina.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "anaga",
+        "laurisilva",
+        "vistas",
+        "la-laguna",
+        "bosque",
+        "naturaleza"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🌄",
+      "top": false,
+      "municipio": "san-cristobal-de-la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/JXyTwWTYfpmDsuPk6"
+    },
+    {
+      "slug": "mirador-cruz-del-carmen",
+      "name": "Mirador Cruz del Carmen",
+      "shortDescription": "El corazón del Parque Rural de Anaga — el mirador más emblemático de la laurisilva, con ermita, centro de visitantes y las vistas más impresionantes sobre el bosque terciario y el norte de Tenerife",
+      "description": "El **Mirador de Cruz del Carmen** es, sin duda, el punto neurálgico del **Parque Rural de Anaga** y el lugar donde el macizo revela toda su personalidad. A **920 metros de altitud** sobre la carretera TF-12 (Las Mercedes), este mirador combina en un solo punto la **Ermita de la Cruz del Carmen** —una pequeña capilla del siglo XVII con una historia ligada a las rogativas de los agricultores del norte—, un restaurante tradicional canario, el Centro de Visitantes del parque y una panorámica sobre la laurisilva que es, sencillamente, una de las más hermosas de Canarias.\n\n### El paisaje\nLa vista desde Cruz del Carmen es una de esas perspectivas que quedan grabadas en la memoria:\n- 🌿 El **mar verde** de la laurisilva extendiéndose en todas las direcciones — el bosque terciario más extenso del mundo\n- 🌊 La **costa norte** de Tenerife cayendo en acantilados sobre el Atlántico\n- ⛅ Con frecuencia un **mar de nubes** que cubre el valle y deja solo las cimas del Anaga emergiendo como islas\n- 🏔️ En días despejados, el **Teide** al sur, por encima de todo\n- 🌅 El **amanecer** sobre el macizo, con el sol emergiendo del Atlántico por el este, es uno de los más espectaculares de Tenerife\n\n### La laurisilva desde Cruz del Carmen\nCruz del Carmen es el punto de partida de las rutas más importantes del Anaga. El bosque que rodea el mirador está entre los más densos y mejor conservados del macizo:\n- 🌳 Laureles centenarios de 15–20 metros de altura\n- 🌿 Tiles y viñátigos con troncos cubiertos de musgo verde intenso\n- 🍂 El suelo cubierto de hojarasca húmeda y raíces que se entrecruzan\n- 🕊️ El canto de la **paloma turqué** y la **paloma rabiche** — las dos palomas endémicas de la laurisilva, en peligro de extinción\n\n### Rutas desde el mirador\n- 🥾 **Cruz del Carmen → El Bailadero** (3 km, por la cresta con vistas a las dos costas)\n- 🥾 **Cruz del Carmen → Las Carboneras** (9 km, por el corazón del bosque)\n- 🥾 **Cruz del Carmen → Chinamada** (8 km, hasta el pueblo de casas-cueva)\n- 🥾 **Bosque de los Catalanes** (circular corta de 2 km, perfecta para familias)\n\n### La Ermita y el restaurante\nLa **Ermita de la Cruz del Carmen**, del siglo XVII, es uno de los elementos más pintorescos del lugar. El pequeño restaurante junto al mirador sirve platos tradicionales canarios — papas arrugadas, ropa vieja, bienmesabe — en un ambiente rústico y acogedor, perfecto para reponer fuerzas antes o después de una ruta.\n\n### Información práctica\n- 📍 Carretera TF-12 (Las Mercedes) — Municipio de La Laguna\n- 🅿️ Parking gratuito junto al mirador\n- 💶 **Acceso gratuito** · Restaurante y tienda en el centro de visitantes\n- 🕙 Centro de visitantes: **9:00–17:00 h** (cerrado lunes)\n- 🚌 Guagua desde La Laguna: **Línea 75**\n- ⏱️ Duración recomendada: **1–3 horas** según si se hace ruta o solo mirador\n\n### Recomendación\nEl amanecer en Cruz del Carmen, llegando antes de que salga el sol y esperando cómo la luz va iluminando el mar de nubes y el bosque, es una de las experiencias naturales más impresionantes de Tenerife. Lleva ropa de abrigo aunque el día sea cálido en la costa — a 920 metros con niebla la temperatura puede bajar de 10 °C. La niebla y la lluvia fina no son obstáculos: forman parte del carácter del Anaga y crean un ambiente especialmente mágico.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.5333,
+        "lng": -16.25
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-cruz-del-carmen.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "anaga",
+        "laurisilva",
+        "ermita",
+        "senderismo",
+        "biosfera",
+        "vistas"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "✝️",
+      "top": true,
+      "municipio": "san-cristobal-de-la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/eqcdtF8k1BXiW1Ct6"
+    },
+    {
+      "slug": "mirador-de-cherfe",
+      "name": "Mirador de Cherfe",
+      "shortDescription": "El balcón sobre el barranco de Masca — vistas vertiginosas sobre el cañón más profundo del Macizo de Teno, el Teide al fondo y la costa oeste de Tenerife",
+      "description": "El **Mirador de Cherfe** es uno de los miradores más dramáticos y emocionantes de Tenerife. Situado en la carretera TF-82 entre Santiago del Teide y Tamaimo, este balcón natural sobre el **Barranco de Masca** — el cañón más espectacular del Macizo de Teno — ofrece una vista que corta la respiración: paredes verticales que caen cientos de metros hasta el fondo del barranco, el pueblo de Masca aferrado a los riscos al fondo, y el Teide cerrando el horizonte.\n\n### El Barranco de Masca desde las alturas\nDesde Cherfe puedes comprender de un solo vistazo lo que hace al Barranco de Masca tan especial: es un sistema de cañones anidados donde los barrancos se ramifican y profundizan durante kilómetros hasta llegar al mar. La vista revela:\n- 🏔️ Las paredes del cañón con **desniveles de 400–600 metros** de caída prácticamente vertical\n- 🏘️ El **pueblo de Masca** asomando entre los riscos en el fondo — un puñado de casas que parecen imposibles a esa altura y en ese emplazamiento\n- 🌿 Las laderas cubiertas de **vegetación xerófila** — cardones, tabaibas, palmeras canarias — que se alternan con la roca desnuda\n- 🌋 El **Teide** dominando el horizonte al este en todo su esplendor\n- 🌊 La **costa oeste** de Tenerife con el océano al fondo y, en días claros, la silueta de **La Gomera** y **La Palma**\n\n### El pueblo de Masca\nMasca es el pueblo más inaccesible y más fotografiado del Macizo de Teno — y uno de los más singulares de Tenerife. Aferrado a una cresta entre dos barrancos a más de 600 metros de altitud, con una sola carretera de acceso de curvas cerradas, Masca ha mantenido durante siglos un aislamiento que ha preservado tanto su arquitectura como su entorno natural. Desde el Mirador de Cherfe puedes verlo desde una perspectiva exterior que pocas veces se aprecia desde dentro del propio pueblo.\n\n### El entorno del Macizo de Teno\nEl paisaje que rodea a Cherfe es el del **Macizo de Teno** en su versión más salvaje:\n- 🌵 Cardones canarios gigantes (*Euphorbia canariensis*) en las laderas soleadas\n- 🌴 Palmeras canarias (*Phoenix canariensis*) en los barrancos más protegidos\n- 🌿 Tabaibas, verodes y bejeques en las paredes rocosas\n- 🦅 Cernícalos y afectos que planean sobre el barranco aprovechando las corrientes térmicas\n\n### La ruta de Masca\nCherfe es también el punto de partida natural para bajar a Masca y acceder desde allí al **Barranco de Masca** — la ruta de senderismo de descenso hasta el mar que es una de las más espectaculares de Canarias:\n- 🥾 **Masca → Playa de Masca** (3,8 km, solo descenso, vuelta en barco)\n- ⭐ Dificultad moderada-alta — requiere reserva y barco de regreso desde la playa\n- ⏱️ 3–4 horas de descenso\n\n### Información práctica\n- 📍 Carretera TF-82, entre Santiago del Teide y Tamaimo\n- 🅿️ Área de aparcamiento junto al mirador (gratuito)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — el atardecer es especialmente espectacular\n- 🌬️ Zona de viento fuerte — en días de calima la visibilidad disminuye\n- ⏱️ Duración recomendada: **30–45 minutos** (solo mirador)\n\n### Recomendación\nEl **atardecer desde Cherfe** es uno de los más bonitos del oeste de Tenerife: el sol se hunde en el Atlántico exactamente por encima del barranco, iluminando las paredes del cañón de naranja y dorado mientras Masca se va quedando en sombra. Llega 30–45 minutos antes de la puesta de sol para elegir tu posición. Combina con la visita al **pueblo de Masca** (a 10 minutos por la TF-82) y, si tienes energía y lo has reservado, baja el barranco hasta la playa para una jornada completa e irrepetible.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2166,
+        "lng": -16.8
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-de-cherfe.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "masca",
+        "barranco",
+        "teno",
+        "vistas",
+        "atardecer",
+        "naturaleza"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🏔️",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/VRTohob2kwXRQy6g8"
+    },
+    {
+      "slug": "mirador-la-garanona",
+      "name": "Mirador La Garañona",
+      "shortDescription": "Un balcón secreto entre pinos centenarios de la Corona Forestal — vistas privilegiadas sobre el Valle de La Orotava y la costa norte desde el corazón del bosque de pinos del Teide",
+      "description": "El **Mirador La Garañona** es uno de esos rincones que los turistas raramente encuentran y que los tinerfeños guardan como un tesoro. Enclavado en la **Corona Forestal**, el gran parque natural de pinos canarios que rodea el Parque Nacional del Teide, este mirador ofrece una perspectiva íntima y silenciosa del Valle de La Orotava y la costa norte de Tenerife — sin las aglomeraciones de los miradores más conocidos, rodeado únicamente del sonido del viento entre los pinos y el olor a resina.\n\n### El entorno: la Corona Forestal\nLa **Corona Forestal** es el parque natural que actúa como cinturón verde alrededor del Parque Nacional del Teide, a altitudes de entre **1.000 y 2.000 metros**. El pinar canario (*Pinus canariensis*) que domina este espacio es una de las formaciones vegetales más singulares del mundo: una especie endémica que solo crece en las Canarias y que ha desarrollado adaptaciones extraordinarias para sobrevivir a los incendios y la actividad volcánica — sus yemas latentes bajo la corteza le permiten rebrotar semanas después de ser quemado por completo.\n\n### Las vistas\nDesde La Garañona la vista se abre entre los pinos hacia el norte, con una perspectiva diferente a la de los miradores más visitados:\n- 🌲 Los **pinos centenarios** enmarcando la vista en primer plano — una composición fotográfica natural de gran belleza\n- 🟩 El **Valle de La Orotava** desplegándose desde las faldas del Teide hasta el litoral\n- 🌊 **Puerto de la Cruz** y la costa norte brillando al fondo\n- 🌍 El **Atlántico** cerrando el horizonte\n- ⛅ En las mañanas de invierno y primavera, el espectacular **mar de nubes** que llena el valle\n\n### El silencio del bosque\nLo que distingue a La Garañona de otros miradores es el ambiente que lo rodea: el **silencio del pinar** interrumpido solo por el viento, el pico picapinos (*Dendrocopos major thanneri*) golpeando algún tronco lejano, o el vuelo de algún azor (*Accipiter nisus*) entre las copas. Es un mirador para quienes buscan contemplación más que fotografía, aunque la fotografía que da es de gran calidad.\n\n### La fauna del pinar\n- 🐦 **Pinzón azul de Tenerife** (*Fringilla teydea*) — una de las aves más raras de Europa, endémica de los pinares del Teide\n- 🐦 **Picapinos canario** (*Dendrocopos major thanneri*) — subespecie endémica del pájaro carpintero\n- 🦅 **Gavilán** y **azor** — rapaces del bosque que cazan entre los pinos\n- 🦎 **Lagarto tizón** y **perenquén** en las zonas soleadas del borde del bosque\n\n### Información práctica\n- 📍 Corona Forestal, municipio de La Orotava — acceso por la TF-21 o TF-24\n- 🅿️ Área de aparcamiento junto al mirador (gratuito)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día**\n- 🧥 Temperatura: **12–18 °C** — el bosque es siempre más fresco que la costa\n- ⏱️ Duración recomendada: **30–45 minutos** + paseo opcional por el pinar\n\n### Recomendación\nLa Garañona es la parada perfecta en el camino entre la costa norte y el Parque Nacional del Teide. Detente aquí 20–30 minutos antes de continuar la subida — la transición del calor del litoral al frescor del pinar, y la perspectiva sobre el valle que acabas de dejar atrás, es parte de la experiencia de subir al Teide. Si tienes tiempo, el paseo corto por los senderos del pinar adyacente vale mucho la pena.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.355,
+        "lng": -16.565
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-la-garanona.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "pinar",
+        "corona-forestal",
+        "orotava",
+        "vistas",
+        "silencio",
+        "naturaleza"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🌲",
+      "top": false,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/ARCjo86T9LngQnPB6"
+    },
+    {
+      "slug": "mirador-narices-del-teide",
+      "name": "Mirador de las Narices del Teide",
+      "shortDescription": "Las heridas volcánicas del Teide al descubierto — el espectacular mirador sobre los cráteres secundarios de 1798 y las coladas de lava negra que bajaron hasta el mar por el suroeste",
+      "description": "El **Mirador de las Narices del Teide** es uno de los puntos de observación volcánica más impresionantes de Tenerife. Situado en la carretera TF-38 que desciende desde el Parque Nacional del Teide hacia Chio y Santiago del Teide, este mirador permite contemplar de forma excepcional las **Narices del Teide** — los cráteres y bocas eruptivas secundarias del flanco suroeste del **Pico Viejo**, que en la erupción de **1798** expulsaron las coladas de lava más recientes del edificio del Teide.\n\n### Las Narices: la última gran erupción\nEn **1798**, el flanco suroeste del Pico Viejo (el volcán hermano del Teide dentro del Parque Nacional) abrió una serie de bocas eruptivas en su falda que los canarios bautizaron popularmente como las **Narices del Teide** — las fosas nasales del volcán. Durante meses, estas bocas expulsaron lava que bajó por el barranco de las Arenas Negras hacia el suroeste, llegando hasta el mar y creando nuevos kilómetros de costa lávica en lo que hoy es la zona de Los Guíos.\n\nLas coladas de aquella erupción — casi **230 años después** — siguen perfectamente visibles desde el mirador: lenguas de lava negra que descienden por la ladera del Pico Viejo, aún con la morfología original intacta, contrastando con el ocre y el blanco de la caldera de Las Cañadas que las rodea.\n\n### El espectáculo geológico\nDesde el mirador se puede apreciar:\n- 🌋 Las **bocas eruptivas** de 1798 — cráteres secundarios en el flanco del Pico Viejo\n- 🌋 Las **coladas de lava negra** descendiendo hacia el suroeste, aún frescas a escala geológica\n- 🌋 El **Pico Viejo** (3.135 m) — el segundo volcán del parque, con su enorme caldera de 800 m\n- 🌋 El **Teide** al fondo, en toda su monumentalidad\n- 🏔️ La **caldera de Las Cañadas** revelada desde un ángulo completamente diferente al habitual\n- 🌊 La **costa suroeste** de Tenerife visible al fondo en los días claros\n\n### La carretera TF-38: el camino menos transitado\nLa TF-38 es la ruta de acceso al Parque Nacional del Teide menos utilizada — la mayoría de visitantes acceden por la TF-21 desde el norte o desde el sur — y precisamente por eso la que ofrece una experiencia más tranquila y auténtica. Es una carretera de alta montaña que asciende desde Santiago del Teide y Chio a través del pinar y de los campos de lava hasta entrar en el parque nacional por el suroeste. El mirador de las Narices está en uno de los puntos más espectaculares de este acceso.\n\n### Información práctica\n- 📍 Carretera TF-38, acceso suroeste al Parque Nacional del Teide\n- 🅿️ Área de aparcamiento junto al mirador (gratuito)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — la mañana ofrece mejor visibilidad\n- 🧥 Temperatura: **8–15 °C** — zona de alta montaña, viento fuerte posible\n- ⏱️ Duración recomendada: **30–45 minutos**\n\n### Recomendación\nSi visitas el Parque Nacional del Teide, el acceso por la TF-38 desde el suroeste te da una perspectiva del Teide completamente diferente a la habitual: subes entre pinos y lava y de repente el volcán aparece desde el ángulo suroeste, con las Narices en primer plano y el Pico Viejo al lado. Es una de las entradas más cinematográficas al parque. Combínalo con la carretera de Chío y el paisaje de lava negra para entender el volcán desde su lado más íntimo y salvaje.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.25,
+        "lng": -16.71
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-narices-del-teide.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "teide",
+        "volcán",
+        "1798",
+        "lava",
+        "pico-viejo",
+        "geología"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🌋",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/TJ3weFf8q3tp7fF89"
+    },
+    {
+      "slug": "mirador-archipenque",
+      "name": "Mirador Archipenque",
+      "shortDescription": "El mirador más cercano a los Acantilados de Los Gigantes — vistas frontales a pie de cliff sobre las paredes volcánicas negras y el Atlántico desde el sur de Los Gigantes",
+      "description": "El **Mirador Archipenque** es el punto de tierra más cercano a los **Acantilados de Los Gigantes** y ofrece la perspectiva más diferente e impactante de estas paredes volcánicas: en lugar de verlos desde arriba (como desde La Ensillada) o desde el mar (como en la excursión en barco), aquí los acantilados se contemplan **casi frontalmente y a la misma altura**, revelando una textura y una escala de la roca que desde otros puntos no se aprecia.\n\n### La perspectiva única\nArchipenque está situado en un promontorio volcánico al sur del puerto de Los Gigantes, a una altura que permite ver los acantilados casi de frente. La vista es completamente diferente a la que se obtiene desde tierra en el paseo marítimo de Puerto de Santiago:\n- 🪨 La **textura volcánica** de las paredes negras — las capas de basalto superpuestas durante millones de años son perfectamente visibles\n- 📏 La **escala real** de los acantilados — aquí se comprende visceralmente que estas paredes tienen 600–800 metros\n- 🌊 El mar **azul oscuro** en el pie de los acantilados — aguas profundas de 40–60 metros\n- 🌅 El **atardecer** iluminando las paredes negras desde el oeste — las tiñe de naranja, dorado y rojo\n- 🌍 La isla de **La Gomera** perfectamente visible en el horizonte — en días muy claros también **La Palma** y **El Hierro**\n\n### Los Acantilados desde Archipenque\nLo que hace especial este mirador es su posición en la base sur de los acantilados: mientras La Ensillada los ve desde arriba y el barco desde abajo, Archipenque los ve **de frente y a media altura**. Esto permite apreciar:\n- Las **columnas de basalto** que forman la base de los acantilados\n- Los **nidos de cernícalo** y otras aves rupícolas en las grietas de la roca\n- Las **cuevas y oquedades** al nivel del mar, algunas accesibles solo en kayak\n- El cambio de color de la roca según la hora del día — del negro al dorado al rojo al naranja\n\n### El entorno\nEl mirador de Archipenque está rodeado de un paisaje volcánico costero de gran belleza: el suelo de lava negra, la vegetación xerófila adaptada al litoral —tabaibas, cardones, balancones— y el sonido del mar rompiendo contra la roca crean un ambiente que tiene muy poco que ver con el turismo masivo que hay a apenas unos kilómetros, en Los Gigantes y Puerto de Santiago.\n\n### Información práctica\n- 📍 Acceso desde Los Gigantes / Puerto de Santiago — Santiago del Teide\n- 🅿️ Aparcamiento en las inmediaciones\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — el atardecer es el momento estrella\n- ⏱️ Duración recomendada: **45 minutos – 1 hora**\n- 🌬️ Zona expuesta al viento del suroeste\n\n### Recomendación\nEl atardecer en Archipenque, con la luz dorada iluminando frontalmente los acantilados negros mientras el sol se hunde al fondo del Atlántico, es uno de los más fotogénicos de todo Tenerife. Combínalo con el paseo marítimo de Los Gigantes y una cena en el puerto para cerrar el día con una experiencia completa del Macizo de Teno desde el mar. Para los amantes del kayak, la zona al pie de los acantilados desde el agua es absolutamente extraordinaria — varias empresas locales organizan excursiones en kayak hasta las cuevas.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.245,
+        "lng": -16.84
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-archipenque.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "gigantes",
+        "acantilados",
+        "atardecer",
+        "costa",
+        "teno",
+        "fotografía"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "🌅",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/XWWrmVPB67q1UqD77"
+    },
+    {
+      "slug": "mirador-de-masca",
+      "name": "Mirador de Masca",
+      "shortDescription": "El pueblo más inaccesible de Tenerife visto desde el mejor ángulo — el balcón sobre el Barranco de Masca y sus casas aferradas a los riscos del Macizo de Teno",
+      "description": "El **Mirador de Masca** es el punto desde el que el famoso pueblo de Masca se muestra en toda su magnificencia. Desde aquí se comprende de golpe por qué Masca es considerado uno de los pueblos más espectaculares de toda España: un puñado de casas blancas y de piedra aferradas a una cresta imposible entre dos barrancos, a más de **600 metros de altitud**, rodeado de paredes verticales que caen hacia el mar y con el Atlántico y La Gomera al fondo.\n\n### El pueblo de Masca\nMasca es un asentamiento humano de origen **guanche** —los aborígenes canarios— que la naturaleza casi infranqueable del Macizo de Teno preservó durante siglos en un aislamiento casi total. Su única carretera de acceso, la TF-436, es una de las más estrechas y sinuosas de Canarias — una sucesión de curvas cerradas que abrazan los barrancos y que hacen que llegar al pueblo sea ya de por sí una aventura.\n\nEl resultado de ese aislamiento es un pueblo que conserva una arquitectura rural canaria de una autenticidad excepcional: casas de piedra basáltica, eras de trillar, jardines colgantes sobre el precipicio, fuentes de agua fresca que brotan entre la roca. Masca es uno de esos lugares en los que el tiempo parece haberse detenido — o al menos ralentizado considerablemente.\n\n### La vista desde el mirador\nDesde el mirador se descubre la perspectiva más completa del pueblo y su entorno:\n- 🏘️ Las **casas de Masca** aferradas a la cresta entre los dos barrancos principales\n- 🏔️ Las **paredes del Barranco de Masca** cayendo cientos de metros a ambos lados del pueblo\n- 🌴 Las **palmeras canarias** y los **cardones gigantes** colonizando las laderas del barranco\n- 🌊 La **costa noroeste** de Tenerife y el Atlántico al fondo\n- 🌍 **La Gomera** perfectamente visible en el horizonte en los días claros\n- 🌋 El **Teide** asomando por encima de las crestas del Teno al este\n\n### El Barranco de Masca\nEl barranco que se ve desde el mirador es el famoso **Barranco de Masca** — la ruta de senderismo de descenso más demandada de Tenerife, que parte desde el pueblo y baja durante 3,8 km hasta la **Playa de Masca**, una playa virgen accesible solo a pie o en barco. La vista desde el mirador permite ver el trazado del barranco casi completo: las paredes que van cerrándose, las curvas del sendero, la apertura hacia el mar en la parte final.\n\n### El pueblo por dentro\nDesde el mirador, baja los 10 minutos a pie (o en coche por la TF-436) hasta el núcleo de Masca para:\n- 🥾 Iniciar el descenso del Barranco de Masca (reserva previa y transporte de regreso)\n- ☕ Tomar algo en alguno de los pequeños bares del pueblo\n- 📸 Fotografiar la arquitectura rural y los jardines colgantes\n- 🌿 Pasear por los caminos entre las casas y las eras\n\n### Información práctica\n- 📍 TF-436 — Masca, Santiago del Teide / Buenavista del Norte\n- 🅿️ Parking en las inmediaciones del mirador (capacidad muy limitada — llega temprano)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — la mañana temprana evita las aglomeraciones\n- 🌬️ La carretera TF-436 es estrecha y sinuosa — conduce con precaución\n- ⏱️ Duración recomendada: **1–2 horas** (mirador + paseo por el pueblo)\n\n### Recomendación\nLlega a Masca antes de las 9h — a partir de las 10h la carretera y el pueblo se llenan de turistas y el aparcamiento es un caos. El amanecer desde el mirador, con la primera luz iluminando las casas y el barranco todavía en sombra, es de una belleza silenciosa absolutamente especial. Si vas a bajar el barranco, resérvalo con al menos 1 semana de antelación y organiza el barco de regreso desde la playa.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2078,
+        "lng": -16.8336
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-de-masca.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "masca",
+        "barranco",
+        "teno",
+        "pueblo",
+        "vistas",
+        "senderismo"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏘️",
+      "top": true,
+      "municipio": "buenavista-del-norte",
+      "mapsUrl": "https://maps.app.goo.gl/54U7r7fyrsr1ft4T6"
+    },
+    {
+      "slug": "mirador-de-la-ruleta",
+      "name": "Mirador de La Ruleta",
+      "shortDescription": "Un balcón silencioso dentro del Parque Nacional del Teide — vistas sobre la caldera de Las Cañadas y los campos de lava desde uno de los miradores menos visitados del parque",
+      "description": "El **Mirador de La Ruleta** es uno de esos miradores del Parque Nacional del Teide que los visitantes con prisa suelen pasar de largo — y que los que se detienen descubren como una de las paradas más contemplativas y silenciosas de toda la ruta por la caldera. Situado en la carretera TF-21 dentro del parque, este mirador toma su nombre del **Roque de La Ruleta**, una de las formaciones volcánicas de los Roques de García cuya forma circular y columnar evoca, de lejos, una rueda o un torno de piedra.\n\n### La caldera desde La Ruleta\nDesde este mirador la perspectiva sobre el interior de la caldera de Las Cañadas es diferente a la de los puntos más conocidos:\n- 🌋 Los **campos de lava** de diferentes épocas volcánicas extendiéndose por el fondo de la caldera\n- 🪨 Los **Roques de García** visibles desde un ángulo diferente al habitual — se aprecian sus formas y siluetas desde una perspectiva lateral\n- 🌋 El **Teide** en toda su altura, dominando el horizonte norte\n- 🌋 El **Pico Viejo** con su gran caldera lateral\n- 🏔️ La **pared sur** de Las Cañadas — la muralla volcánica de roca antigua que delimita la caldera por el sur\n- 🌵 La flora singular del parque: **retamas del Teide**, **tajinastes** (en primavera) y **violetas del Teide** en las grietas\n\n### La tranquilidad del lugar\nLo que distingue a La Ruleta de los miradores más visitados del parque es precisamente su **menor afluencia de visitantes**. Mientras los aparcamientos del Teleférico y los Roques de García se llenan desde primera hora, La Ruleta es un punto donde se puede contemplar el mismo paisaje volcánico en relativa soledad. El silencio, interrumpido solo por el viento de la caldera, forma parte esencial de la experiencia.\n\n### La flora del entorno\nEl entorno del mirador muestra la flora más característica de la alta montaña canaria:\n- 🌿 **Retama del Teide** (*Spartocytisus supranubius*) — el arbusto blanco-rosado más abundante del parque, en flor entre mayo y junio\n- 🌺 **Tajinaste rojo** (*Echium wildpretii*) — la flor emblemática de Tenerife, visible en primavera en las laderas\n- 🌼 **Violeta del Teide** (*Viola cheiranthifolia*) — crece en las grietas de la roca cerca del mirador\n- 🌱 **Codeso del Teide** (*Adenocarpus viscosus*) — arbusto amarillo de altitud\n\n### Información práctica\n- 📍 Carretera TF-21 — interior del Parque Nacional del Teide\n- 🅿️ Área de aparcamiento junto al mirador (gratuito)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día**\n- 🧥 Temperatura: **5–15 °C** según época — siempre más frío que en la costa\n- ⏱️ Duración recomendada: **30–45 minutos**\n\n### Recomendación\nUn alto perfecto en el itinerario por el parque entre los Roques de García y el Teleférico. La combinación de La Ruleta con el paseo circular de los Roques (3,5 km) forma una mañana completa de exploración volcánica de bajo impacto físico y alto impacto visual. En días de nieve en invierno, el contraste de la roca negra con el blanco de la nieve en el mirador es de una belleza austral inconfundible.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.22,
+        "lng": -16.62
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-de-la-ruleta.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "teide",
+        "caldera",
+        "lava",
+        "nacional",
+        "silencio",
+        "volcánico"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🌋",
+      "top": false,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/uxRvPLGrqrugdCss9"
+    },
+    {
+      "slug": "mirador-pico-del-ingles",
+      "name": "Mirador Pico del Inglés",
+      "shortDescription": "El mirador 360° más espectacular de Tenerife — a casi 1.000 m en el corazón de Anaga, con vistas simultáneas al Teide, el Atlántico, La Laguna y el bosque de laurisilva en todas las direcciones",
+      "description": "El **Mirador Pico del Inglés** es, para muchos conocedores de Tenerife, el más espectacular de todos los miradores de la isla. Su emplazamiento —en uno de los puntos más elevados del **Macizo de Anaga**, a casi **1.000 metros** de altitud— le otorga una perspectiva de **360 grados** sin obstáculos que abarca prácticamente toda la geografía de Tenerife y parte del Atlántico circundante. Es uno de esos lugares donde la magnitud de la isla se comprende de una sola mirada.\n\n### El nombre\n«Pico del Inglés» —Pico del Inglés, literalmente— recibe este nombre por la costumbre histórica de los viajeros y comerciantes británicos que, desde el siglo XIX, hacían la travesía a pie o a caballo hasta este punto para contemplar el paisaje. Los ingleses tenían predilección por Tenerife (La Laguna fue durante siglos escala habitual de las rutas comerciales del Atlántico) y este pico era una de sus excursiones favoritas desde la ciudad.\n\n### El panorama de 360°\nDe pie en el Pico del Inglés, la vista abarca en un solo giro completo:\n- 🌋 **El Teide** al suroeste — el volcán más alto de España asomando sobre el horizonte de pinos y nubes\n- 🌊 La **costa norte** de Tenerife con sus acantilados y el Atlántico\n- 🏙️ **San Cristóbal de La Laguna** y el **Valle de Aguere** desplegándose al sur y al oeste\n- 🌿 El **océano de laurisilva** del Macizo de Anaga en todas las direcciones — el bosque terciario más extenso del mundo visto desde dentro\n- 🌊 La **costa este** de Tenerife con Santa Cruz al fondo\n- 🌍 En días muy claros: **Gran Canaria** al sur, **La Gomera** al oeste, incluso **El Hierro** y **La Palma**\n- ⛅ Con frecuencia, el espectáculo del **mar de nubes** — el mirador queda por encima de la capa de inversión térmica y se ve el manto de nubes extenderse sobre el valle y la costa\n\n### El bosque desde arriba\nDesde el Pico del Inglés, el bosque de laurisilva se muestra desde su perspectiva aérea: las copas de los laureles, tiles y fayas crean un tapiz verde oscuro y compacto que cubre las laderas en todas las direcciones. Esta perspectiva desde arriba —que solo se consigue en los pocos puntos que emergen por encima del bosque— es cualitativamente diferente a la de caminar dentro del bosque: aquí se ve la extensión real de la laurisilva.\n\n### Los amanecer y el atardecer\nEl Pico del Inglés tiene fama entre los fotógrafos de naturaleza de Tenerife por sus condiciones de luz en los momentos clave del día:\n- 🌅 **Amanecer**: el sol emerge del Atlántico por el este justo frente al mirador, iluminando el bosque en tonos dorados y la caldera de niebla del Valle de Aguere\n- 🌅 **Atardecer**: el sol se pone por encima del Teide al oeste, con el volcán recortado contra el cielo rojo y naranja\n\n### Las antenas\nEn el punto más alto del Pico del Inglés hay instalaciones de telecomunicaciones — antenas y repetidores— que son visibles desde lejos. No afectan a la calidad de las vistas desde el mirador.\n\n### Información práctica\n- 📍 Carretera TF-12 (Las Mercedes), Anaga — Municipio de La Laguna\n- 🅿️ Parking gratuito junto al mirador\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — mejor al amanecer o al atardecer\n- 🧥 Temperatura: **10–18 °C** — el macizo es siempre más fresco que la costa\n- 🚌 Guagua desde La Laguna: **Línea 75**\n- ⏱️ Duración recomendada: **45 minutos – 1 hora**\n\n### Recomendación\nSi tuvieras que elegir un solo mirador de Tenerife, este sería uno de los candidatos más serios. La amplitud y variedad del panorama — Teide, Atlántico, bosque, ciudad, isla, nubes — en un único punto no tiene parangón en la isla. Combínalo con el **Mirador Cruz del Carmen** (a 10 minutos por la TF-12) para completar el recorrido por los dos mejores miradores de Anaga. Llega al amanecer si es posible — el espectáculo de la luz rompiendo sobre el bosque y el valle de nubes es absolutamente extraordinario.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.5366,
+        "lng": -16.2191
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-pico-del-ingles.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "anaga",
+        "360",
+        "panorámica",
+        "teide",
+        "laurisilva",
+        "amanecer"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "🔭",
+      "top": true,
+      "municipio": "san-cristobal-de-la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/vTLmjLrayzwNUpUB9"
+    },
+    {
+      "slug": "mirador-corral-del-nino",
+      "name": "Mirador de El Corral del Niño",
+      "shortDescription": "Un mirador tranquilo en el corazón del Macizo de Teno — vistas sobre los valles verdes y los barrancos del noroeste de Tenerife lejos del circuito turístico habitual",
+      "description": "El **Mirador de El Corral del Niño** es uno de esos puntos de contemplación del **Macizo de Teno** que la mayoría de los visitantes nunca llegan a conocer. Apartado de las rutas más transitadas, este mirador ofrece una perspectiva auténtica y sosegada sobre el paisaje más antiguo de Tenerife — los valles, barrancos y laderas del noroeste que durante siglos han sido territorio de agricultores y pastores, y que hoy conservan una belleza rural de difícil parangón.\n\n### El Macizo de Teno: la Tenerife más antigua\nEl Macizo de Teno tiene más de **7 millones de años** — es el territorio más antiguo de Tenerife, formado mucho antes de que el Teide y el resto de la isla existieran. Sus paisajes reflejan esa antigüedad: el basalto negro y rojizo de sus paredes, la vegetación adaptada al clima seco y ventoso del noroeste, los barrancos profundos excavados durante millones de años de erosión. Es un territorio que escapa completamente al Tenerife turístico y que guarda una autenticidad difícil de encontrar en otras partes de la isla.\n\n### Las vistas\nDesde El Corral del Niño la mirada se abre sobre el interior del macizo:\n- 🌿 Los **valles verdes** del noroeste — El Palmar, Erjos, las tierras agrícolas de Buenavista\n- 🏔️ Las **crestas del Teno** recortadas contra el cielo, con sus perfiles serrados\n- 🌵 Las laderas con **vegetación xerófila** adaptada al clima seco del noroeste: cardones, tabaibas, palmeras canarias\n- 🏘️ Los pequeños **núcleos rurales** diseminados por el paisaje — caseríos y cortijos que apenas han cambiado en un siglo\n- 🌊 En días claros, **atisbos del Atlántico** y la silueta de **La Palma** al noroeste\n\n### El entorno rural\nLo que hace especial a este mirador no es solo la vista sino el paisaje que lo rodea: bancales de cultivo en terrazas sobre los barrancos, palmeras canarias solitarias en las crestas, caminos de piedra que bajan a los valles. Es el Tenerife que existía antes del turismo — y que en el Macizo de Teno todavía existe.\n\n### La fauna\n- 🦅 **Cernícalo vulgar** (*Falco tinnunculus*) — nidifica en los riscos del macizo\n- 🦜 **Canario silvestre** (*Serinus canaria*) — el canario original, de color verde-amarillento\n- 🦎 **Lagarto tizón** (*Gallotia galloti*) — muy abundante en las zonas rocosas soleadas\n- 🦦 **Lisneja** (*Chalcides viridanus*) — eslizón endémico canario\n\n### Información práctica\n- 📍 Macizo de Teno — TF-436 o carreteras locales de Buenavista / Erjos\n- 🅿️ Área de aparcamiento en las proximidades (gratuito)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día**\n- ⏱️ Duración recomendada: **30–45 minutos**\n- 🌬️ Zona de viento frecuente — el noroeste de Tenerife es el más ventoso\n\n### Recomendación\nCombina El Corral del Niño con una ruta circular por los valles del Teno para descubrir el Tenerife más auténtico y rural. Si llegas al atardecer, la luz dorada sobre los valles verdes del noroeste tiene una calidad fotográfica excepcional. Es un mirador para quienes buscan la Tenerife que no aparece en las guías turísticas convencionales.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.34,
+        "lng": -16.78
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-corral-del-nino.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mirador",
+        "teno",
+        "rural",
+        "noroeste",
+        "barrancos",
+        "auténtico",
+        "naturaleza"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🌄",
+      "top": false,
+      "municipio": "buenavista-del-norte",
+      "mapsUrl": "https://maps.app.goo.gl/MPL3cjVaKVmRxZFq6"
+    },
+    {
+      "slug": "parque-natural-corona-forestal",
+      "name": "Parque Natural Corona Forestal",
+      "shortDescription": "El parque natural más grande de Canarias — 46.000 hectáreas de pinar canario alrededor del Teide, hogar del pinzón azul y paraíso para senderistas entre los 1.000 y 2.000 m de altitud",
+      "description": "El **Parque Natural Corona Forestal** es el parque natural más extenso de las Islas Canarias con sus **46.000 hectáreas** y el cinturón verde que rodea al Parque Nacional del Teide, protegiéndolo y creando una zona de transición entre el mundo costero y el mundo volcánico de alta montaña. A altitudes de entre **1.000 y 2.200 metros**, la Corona Forestal es fundamentalmente el dominio del **pino canario** (*Pinus canariensis*) — el único pino endémico de Canarias y uno de los árboles más extraordinarios del planeta.\n\n### El pino canario: una especie única\nEl pino canario es, sencillamente, uno de los árboles más singulares del mundo. A diferencia de la mayoría de las coníferas, está dotado de una capacidad casi milagrosa: puede **rebrotar después de un incendio forestal** gracias a las yemas latentes que guarda bajo la corteza. Semanas después de que el fuego arraser el bosque, los troncos carbonizados comienzan a echar nuevos brotes verdes desde la base, el tronco y las ramas — una adaptación perfecta a los incendios recurrentes y la actividad volcánica que caracterizan el archipiélago canario.\n\nAdemás, el pino canario tiene las agujas más largas de todos los pinos europeos —hasta 30 cm— y es capaz de sobrevivir a temperaturas de hasta -15 °C y a nevadas importantes, lo que lo convierte en el árbol dominante en las altitudes medias-altas de las Canarias occidentales.\n\n### La biodiversidad\n**Flora:**\n- 🌲 **Pino canario** (*Pinus canariensis*) — domina entre los 1.000 y 2.000 m\n- 🌿 **Brezo arbóreo** (*Erica arborea*) y **faya** (*Myrica faya*) — en las zonas de transición con la laurisilva\n- 🌱 **Retama del Teide** (*Spartocytisus supranubius*) — en las zonas altas de contacto con el parque nacional\n- 🍄 Gran diversidad de **hongos y líquenes** que crecen en la pinocha y los troncos\n\n**Fauna:**\n- 🐦 **Pinzón azul de Tenerife** (*Fringilla teydea*) — una de las aves más raras de Europa, endémica exclusivamente de los pinares del Teide y la Corona Forestal. El macho tiene un plumaje azul cobalto espectacular; la hembra es más apagada pero igualmente difícil de ver\n- 🐦 **Picapinos canario** (*Dendrocopos major thanneri*) — el pájaro carpintero canario, se oye más de lo que se ve\n- 🦅 **Gavilán** y **azor** — rapaces del bosque\n- 🦎 **Lagarto tizón** en los claros soleados entre los pinos\n\n### Las áreas recreativas\nLa Corona Forestal cuenta con numerosas **áreas recreativas** distribuidas por todo el parque, equipadas con mesas de picnic, barbacoas, fuentes y acceso a senderos. Algunas de las más populares:\n- 🌲 **Área recreativa de Aguamansa** — en la ladera norte, acceso desde La Orotava\n- 🌲 **Área recreativa de La Caldera** — cerca de Vilaflor, en el sur\n- 🌲 **Área recreativa Chinyero** — junto al Volcán Chinyero, en el oeste\n- 🌲 **Área recreativa de El Portillo** — en el límite con el Parque Nacional\n\n### Los senderos\nLa Corona Forestal está atravesada por una extensa red de senderos señalizados que permiten explorar el pinar en todas sus dimensiones:\n- 🥾 **Sendero de la Orilla del Bosque** — recorre el borde del pinar con vistas al valle\n- 🥾 **Sendero del Teide** — conexión entre zonas del parque con vistas al volcán\n- 🥾 **GR-131 (Ruta del Teide)** — el gran sendero interinsular pasa por la Corona Forestal\n\n### Información práctica\n- 📍 Rodea el Parque Nacional del Teide — accesible por TF-21, TF-24, TF-38 y TF-28\n- 💶 **Acceso gratuito** a pie y en coche\n- 🕙 Accesible **todo el día** — las áreas recreativas abren de amanecer a anochecer\n- 🧥 Temperatura: **12–22 °C** según altitud y época del año\n- ⏱️ Variable: desde un paseo de 1 hora hasta rutas de varios días\n\n### Recomendación\nLa Corona Forestal es el espacio natural perfecto para quienes quieren naturaleza auténtica y tranquila sin la masificación del Parque Nacional del Teide. Las áreas recreativas son ideales para familias con niños. Si buscas el **pinzón azul**, tu mejor opción es el pinar de Aguamansa a primera hora de la mañana en primavera — es cuando el macho está más activo y cantando desde lo alto de los pinos.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.3,
+        "lng": -16.6
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/parque-natural-corona-forestal.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "pinar",
+        "corona-forestal",
+        "pinzón-azul",
+        "senderismo",
+        "naturaleza",
+        "teide",
+        "parque"
+      ],
+      "visitDuration": "medio-dia-dia-completo",
+      "difficulty": "easy",
+      "emoji": "🌲",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/ASiiUdLNguPgsZWd7"
+    },
+    {
+      "slug": "llano-de-ucanca",
+      "name": "Llano de Ucanca",
+      "shortDescription": "La gran llanura interior de Las Cañadas del Teide — una planicie volcánica de 2.100 m de altitud que parece otro planeta, con el Teide al fondo y los Roques de García al lado",
+      "description": "El **Llano de Ucanca** es la llanura más extensa y espectacular del interior de la **Caldera de Las Cañadas del Teide** y uno de los paisajes más sobrecogedores y extraños de toda España. A **2.100 metros de altitud**, este vasto espacio plano en el corazón del Parque Nacional del Teide está formado por depósitos de pómez, lapilli y lava solidificada de diferentes épocas eruptivas que crean un suelo de colores increíbles: blancos, ocres, grises, negros y rojos que se mezclan en un tapiz mineral único.\n\n### El paisaje\nEl Llano de Ucanca tiene algo de los paisajes de otro planeta: es demasiado vasto, demasiado silencioso y demasiado extraño para parecer un lugar de la Tierra. La planicie se extiende durante kilómetros con una horizontalidad casi perfecta, bordeada por las paredes de la caldera al sur y con el **Teide** dominando el horizonte norte en toda su monumentalidad. A sus lados se alzan los **Roques de García** y el **Parador Nacional de Las Cañadas**, los dos elementos artificiales más icónicos de este paisaje.\n\n### Los colores del suelo\nLo que hace visualmente único al Llano de Ucanca son sus colores:\n- ⬜ **Pómez blanca** de las erupciones explosivas del Teide — zonas de un blanco casi cegador\n- 🟤 **Lapilli ocre** — el suelo esponjoso de piedra volcánica porosa típico de las Cañadas\n- ⬛ **Lava basáltica negra** de las coladas más recientes\n- 🔴 **Escoria roja** oxidada por el hierro volcánico\n- 🟡 **Pómez amarilla** de erupciones diferenciadas en composición\n\nEsta paleta de colores, que cambia según la luz del día, es el sello visual más característico del Llano de Ucanca y la razón por la que es uno de los paisajes más fotografiados de Tenerife.\n\n### La luz\nLa calidad de la luz en el Llano de Ucanca varía extraordinariamente según la hora:\n- 🌅 **Amanecer**: luz rasante de color rosa y naranja que arrasa la planicie e ilumina las paredes de la caldera desde el este\n- ☀️ **Mediodía**: luz cenital que aplana el paisaje y hace brillar el pómez\n- 🌅 **Atardecer**: la mejor luz — el sol ilumina el Teide desde el oeste y proyecta sombras largas sobre la planicie, mientras el cielo se incendia en naranjas y rojos\n- 🌃 **Noche**: el Llano de Ucanca es uno de los mejores puntos del parque para la observación astronómica — el cielo a 2.100 metros, sin contaminación lumínica, es excepcional\n\n### El Parador Nacional\nJunto al Llano de Ucanca se encuentra el **Parador Nacional de Las Cañadas del Teide**, el único alojamiento dentro del Parque Nacional. Alojarse aquí y salir antes del amanecer a caminar sobre el Llano de Ucanca en silencio absoluto, con el Teide oscuro contra un cielo lleno de estrellas, es una de las experiencias más memorables que puede ofrecer Tenerife.\n\n### La flora singular\nA pesar de las condiciones extremas —frío, viento, suelo pobre y sequía— el Llano de Ucanca no está desprovisto de vida vegetal:\n- 🌿 **Retama del Teide** (*Spartocytisus supranubius*) — arbustos dispersos que en mayo-junio se llenan de flores blancas y rosadas\n- 🌺 **Tajinaste rojo** (*Echium wildpretii*) — aparece en los bordes de la planicie, espectacular en primavera\n- 🌼 **Violeta del Teide** (*Viola cheiranthifolia*) — crece incluso en las grietas de la lava más expuesta\n\n### Información práctica\n- 📍 Carretera TF-21 — dentro del Parque Nacional del Teide, junto al Parador\n- 🅿️ Parking junto al Parador y en los Roques de García (gratuito)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **24 horas** — especialmente recomendable amanecer, atardecer y noche\n- 🧥 Temperatura media: **5–12 °C** — imprescindible ropa de abrigo en todas las épocas\n- ⏱️ Duración recomendada: **1–2 horas** (paseo por la llanura)\n\n### Recomendación\nEl amanecer en el Llano de Ucanca, llegando antes de que salga el sol y contemplando cómo la luz rosa va iluminando el Teide y la caldera mientras la llanura permanece en sombra, es una de las experiencias visuales más poderosas de Tenerife. Combínalo siempre con los Roques de García (a pocos minutos en coche) para una mañana completa en el corazón del parque nacional. En primavera, cuando los tajinastes y las retamas están en flor, el paisaje adquiere una dimensión de belleza adicional difícilmente descriptible.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.227,
+        "lng": -16.65
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/llano-de-ucanca.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "teide",
+        "caldera",
+        "llanura",
+        "volcánico",
+        "amanecer",
+        "astronómico",
+        "nacional"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🪐",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/Mx4JY2dTv7pY7LQ58"
+    },
+    {
+      "slug": "punta-de-teno",
+      "name": "Punta de Teno",
+      "shortDescription": "El confín occidental de Tenerife — un cabo volcánico donde el Atlántico se rompe contra los acantilados del Macizo de Teno, con un faro histórico, aguas cristalinas y las mejores vistas de La Gomera y La Palma",
+      "description": "La **Punta de Teno** es el punto más occidental de Tenerife y uno de los lugares más singulares y emocionalmente poderosos de toda la isla. En el extremo del **Macizo de Teno** — la parte más antigua de Tenerife con más de 7 millones de años —, el cabo se adentra en el Atlántico entre acantilados de basalto negro, aguas de un turquesa imposible y un silencio roto únicamente por el viento y el mar. Aquí termina Tenerife. Y aquí empieza el Atlántico.\n\n### El paisaje\nLlegar a la Punta de Teno es llegar al fin del mundo en el mejor sentido posible. La carretera TF-445 desciende entre acantilados verticales sobre el mar hasta depositar al viajero en un pequeño espacio donde todo confluye:\n- 🏔️ Los **acantilados del Teno** de basalto negro, salvajes e imponentes, cayendo a pico sobre el océano\n- 🌊 El **Atlántico** de un turquesa profundo que contrasta brutalmente con la roca negra\n- 🏝️ La pequeña **playa de piedras negras** al pie del cabo — tranquila, protegida, de una belleza austera\n- 🏛️ El **Faro de Punta de Teno** — uno de los faros más bonitos de Canarias, blanco sobre negro volcánico\n- 🌬️ El viento constante del noroeste, que modela los cardones y la vegetación en formas esculturales\n\n### Las vistas\nDesde la Punta de Teno se despliega una de las panorámicas más espectaculares del archipiélago:\n- 🏝️ **La Gomera** — la isla vecina, tan cercana que parece poder tocarse, con el Roque de Agando y el macizo del Garajonay perfectamente reconocibles\n- 🏔️ **La Palma** — en el horizonte noroeste, cuando el tiempo lo permite, con su perfil de caldera inconfundible\n- 🌊 El **estrecho de La Gomera** — las aguas que separan las dos islas, a menudo con ballenas piloto (*Globicephala macrorhynchus*) y delfines\n- 🏔️ Los **acantilados de Los Gigantes** — el gran muro basáltico del sur del Teno, visible desde el cabo mirando al sureste\n\n### El faro\nEl **Faro de Punta de Teno** fue construido en **1897** y lleva más de 125 años guiando a los navegantes por el paso entre Tenerife y La Gomera. Su torre blanca sobre la roca negra volcánica es una de las imágenes más icónicas del noroeste de Tenerife y una de las fotografías más buscadas por quienes visitan la isla. El faro sigue operativo hoy en día.\n\n### El mar y la fauna marina\nLas aguas de la Punta de Teno pertenecen a la **Reserva Marina del Norte de Tenerife**, lo que garantiza una extraordinaria calidad del agua y una biodiversidad marina notable:\n- 🐬 **Calderón tropical** (*Globicephala macrorhynchus*) — la ballena piloto de aleta corta reside de forma permanente en las aguas entre Tenerife y La Gomera. Las excursiones de avistamiento salen desde Los Gigantes, pero desde el cabo también se observan\n- 🐢 **Tortuga boba** (*Caretta caretta*) — pasa por estas aguas en sus migraciones atlánticas\n- 🐟 **Fondo marino** excepcionalmente rico: meros, sargos, pulpos, morenas, ángeles de mar\n- 🐦 **Charrán real** (*Thalasseus maximus*) y **pardela cenicienta** (*Calonectris borealis*) sobrevolando el cabo\n\n### La vegetación\nEl entorno del cabo muestra la vegetación característica del noroeste árido de Tenerife:\n- 🌵 **Cardón canario** (*Euphorbia canariensis*) — los cactus columnares que pueblan los acantilados\n- 🌿 **Tabaiba amarga** (*Euphorbia regis-jubae*) — arbusto grisáceo adaptado al salitre\n- 🌱 **Verol** (*Aeonium* spp.) — las rosetas suculentas que crecen en las grietas de la roca\n- 🌴 **Palmera canaria** (*Phoenix canariensis*) — solitarias en las oquedades más protegidas\n\n### El acceso: lanzadera o andando\nEl acceso a la Punta de Teno es especial. La carretera está **cerrada al tráfico privado** la mayor parte del tiempo, lo que ha preservado perfectamente el lugar:\n- 🚌 **Lanzadera oficial** desde el aparcamiento de Buenavista del Norte — el modo principal de acceso\n- 🥾 **A pie** por la carretera o por el **sendero de costa** que baja desde Buenavista (≈ 3,5 km, 1,5 h)\n- 🚗 Acceso en coche privado solo en horarios muy limitados (consultar web del Cabildo)\n\n### Información práctica\n- 📍 Punta de Teno, Buenavista del Norte — extremo oeste de Tenerife\n- 🚌 Lanzadera desde Buenavista: consultar horarios actualizados en el Cabildo de Tenerife\n- 💶 **Acceso gratuito** (la lanzadera puede tener coste reducido)\n- 🕙 **Todo el día** — el atardecer es especialmente mágico\n- ⏱️ Duración recomendada: **2–3 horas**\n- 🌬️ Zona muy ventosa — lleva ropa de abrigo incluso en verano\n- 🏊 Baño posible en la playa de piedras, pero ojo con las corrientes\n\n### Recomendación\nLlega al atardecer. La luz del sol poniente ilumina La Gomera y transforma el océano en un espejo de naranjas y rojos mientras el faro enciende su destellante señal blanca. Es uno de los momentos más poderosos de la experiencia Tenerife — y uno de los que más recuerdan quienes lo viven. Si puedes, combínalo con un paseo por el **pueblo de Buenavista del Norte**, el más tranquilo y auténtico del noroeste de la isla.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.3461,
+        "lng": -16.9108
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/punta-de-teno.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "cabo",
+        "faro",
+        "teno",
+        "atlántico",
+        "la-gomera",
+        "acantilados",
+        "reserva-marina",
+        "atardecer"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🏴",
+      "top": true,
+      "municipio": "buenavista-del-norte",
+      "mapsUrl": "https://maps.app.goo.gl/rB1PoHJYXr2wGG8a7"
     }
   ],
   "sections": [

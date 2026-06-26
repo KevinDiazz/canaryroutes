@@ -1,76 +1,10 @@
 {
   "pois": [
     {
-      "slug": "teide",
-      "name": "Teide",
-      "description": "Spaniens höchster Vulkan mit 3.715 Metern. Ein UNESCO-Welterbe-Nationalpark. Seine mondähnlichen Lavalandschaften und die Seilbahn zur Gipfelstation machen ihn zum meistbesuchten Ort Spaniens.",
-      "shortDescription": "Spaniens höchster Vulkan, UNESCO-Welterbe",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.2723,
-        "lng": -16.6424
-      },
-      "images": {
-        "hero": "/images/tenerife/teide/hero.avif",
-        "gallery": [
-          "/images/tenerife/teide/1.avif"
-        ]
-      },
-      "audioPreview": "/audio/previews/de/teide-preview.mp3",
-      "hasPremiumAudio": true,
-      "premiumRouteId": "volcano-route",
-      "tags": [
-        "vulkan",
-        "nationalpark",
-        "wandern",
-        "seilbahn",
-        "gipfel"
-      ],
-      "visitDuration": "3-5h",
-      "difficulty": "moderate",
-      "emoji": "🌋",
-      "top": true,
-      "municipio": "la-orotava"
-    },
-    {
-      "slug": "los-gigantes",
-      "name": "Los Gigantes",
-      "description": "Klippen bis zu 600 Meter hoch, die senkrecht in den Atlantik fallen. Bootsausflüge zur Beobachtung von Delfinen und Grindwalen in ihrem natürlichen Lebensraum. Das dramatischste Dorf an der Westküste Teneriffas.",
-      "shortDescription": "600 m hohe Klippen und Walbeobachtung an der Westküste",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.2441,
-        "lng": -16.8399
-      },
-      "images": {
-        "hero": "/images/tenerife/los-gigantes/hero.avif",
-        "gallery": [
-          "/images/tenerife/los-gigantes/1.avif"
-        ]
-      },
-      "audioPreview": "/audio/previews/de/los-gigantes-preview.mp3",
-      "hasPremiumAudio": true,
-      "premiumRouteId": "volcano-route",
-      "tags": [
-        "klippen",
-        "wale",
-        "delfine",
-        "boot",
-        "westen"
-      ],
-      "visitDuration": "2-4h",
-      "difficulty": "easy",
-      "emoji": "🏔️",
-      "top": true,
-      "municipio": "santiago-del-teide"
-    },
-    {
       "slug": "playa-de-las-teresitas",
       "name": "Playa de Las Teresitas",
       "shortDescription": "Goldener Sahara-Sand und geschützte ruhige Gewässer nur 10 Minuten von Santa Cruz",
-      "description": "Der berühmteste Strand im Norden Teneriffas hat einen so einzigartigen wie spektakulären Ursprung: **Sein goldener Sand wurde in den 1970er-Jahren direkt aus der Sahara importiert** und verwandelte eine Kieselbucht in einen der schönsten Strände des Archipels. Nur zehn Minuten von Santa Cruz entfernt ist er der Küstenzufluchtsort der Hauptstadt.\n\n### Der Besuch\nEin fast einen Kilometer langer Wellenbrecher schützt die Bucht vor dem atlantischen Wellengang und schafft dauerhaft ruhiges Wasser, das ideal zum Schwimmen mit der Familie ist. Königspalmen säumen die Promenade, und das Fischerdorf San Andrés — mit seinen legendären Restaurants für frischen Fisch — ist nur einen kurzen Spaziergang entfernt. Wenige Meter vom Strand entfernt verleiht das **Castillo de San Andrés**, eine Festung aus dem 16. Jahrhundert, dem Umfeld eine historische Dimension.\n\n### Vor der Abreise\n- 🌅 Im Sommer vor 11 Uhr anreisen — der Strand füllt sich schnell, besonders an Wochenenden\n- 🚌 Bus 910 vom Busbahnhof Santa Cruz — 20 Minuten, 1,35 €\n- 🐟 San Andrés nicht verlassen ohne zu essen: Rote Garnelen und gegrillte Napfschnecken sind ein Muss\n- 🏊 Dank des Wellenbrechers das ganze Jahr über ruhiges Wasser — perfekt sogar für sehr kleine Kinder\n- 🅿️ Kostenloser Parkplatz neben dem Strand, füllt sich im Sommer aber früh\n\n### Empfehlung\nEinen Badestopp mit einem Mittagessen in einem Restaurant in San Andrés und einem Besuch der Burg kombinieren: Las Teresitas ist mehr als ein Strand — es ist ein vollständiges Erlebnis im Norden Teneriffas.",
+      "description": "Der berühmteste Strand im Norden Teneriffas hat einen so einzigartigen wie spektakulären Ursprung: **Sein goldener Sand wurde in den 1970er-Jahren direkt aus der Sahara importiert** und verwandelte eine Kieselbucht in einen der schönsten Strände des Archipels. Nur zehn Minuten von Santa Cruz entfernt ist er der Küstenzufluchtsort der Hauptstadt.\n\n### Der Besuch\nEin fast einen Kilometer langer Wellenbrecher schützt die Bucht vor dem atlantischen Wellengang und schafft dauerhaft ruhiges Wasser, das ideal zum Schwimmen mit der Familie ist. Königspalmen säumen die Promenade, und das Fischerdorf San Andrés — mit seinen legendären Restaurants für frischen Fisch — ist nur einen kurzen Spaziergang entfernt. Wenige Meter vom Strand entfernt verleiht das **Castillo de San Andrés**, eine Festung aus dem 16. Jahrhundert, dem Umfeld eine historische Dimension.\n\n### Vor der Abreise\n- 🌅 Im Sommer vor 11 Uhr anreisen — der Strand füllt sich schnell, besonders an Wochenenden\n- 🚌 Bus 910 vom Busbahnhof Santa Cruz — 20 Minuten (aktueller Tarif unter titsa.com)\n- 🐟 San Andrés nicht verlassen ohne zu essen: Rote Garnelen und gegrillte Napfschnecken sind ein Muss\n- 🏊 Dank des Wellenbrechers das ganze Jahr über ruhiges Wasser — perfekt sogar für sehr kleine Kinder\n- 🅿️ Kostenloser Parkplatz neben dem Strand, füllt sich im Sommer aber früh\n\n### Empfehlung\nEinen Badestopp mit einem Mittagessen in einem Restaurant in San Andrés und einem Besuch der Burg kombinieren: Las Teresitas ist mehr als ein Strand — es ist ein vollständiges Erlebnis im Norden Teneriffas.",
       "island": "tenerife",
       "category": "beach",
       "coordinates": {
@@ -290,7 +224,7 @@
       "slug": "titsa-tenerife",
       "name": "TITSA — Busse auf Teneriffa",
       "shortDescription": "Das Überlandbusnetz, das die gesamte Insel günstig verbindet",
-      "description": "**TITSA** (Transportes Interurbanos de Tenerife S.A.) ist das öffentliche Busnetz, das praktisch jeden Winkel der Insel verbindet, von Santa Cruz bis El Médano, von Puerto de la Cruz bis Los Gigantes. Es ist die günstigste Möglichkeit, sich fortzubewegen, und ein authentisches lokales Erlebnis.\n\n### Der Besuch\nDie nützlichsten Linien für Besucher sind **111** (Santa Cruz – Los Cristianos, Express), **343** (Santa Cruz – La Laguna – Puerto de la Cruz), **348** (Puerto de la Cruz – Teide – Los Cristianos, die große Panoramaroute der Insel) und **910** (Santa Cruz – Las Teresitas). Die Busse sind modern mit Klimaanlage und WLAN auf den Hauptstrecken. Die **BONO-Karte** gibt 50% Rabatt gegenüber Bargeldtarifen.\n\n### Vor der Abreise\n- 📱 Die TITSA-App herunterladen oder titsa.com für aktuelle Fahrpläne prüfen — sonntags eingeschränkter Service\n- 💳 BONO-Karte an den Hauptbahnhöfen aufladen — rentabel ab der zweiten Fahrt\n- 🕐 Expresslinien in den Süden (111, 110) sind die schnellsten und häufigsten\n- 🏔️ Linie 348 durchquert den Teide-Nationalpark — eine malerische Route, die kein Auto erfordert\n- 🎫 Eine Einzelfahrt bar von Santa Cruz in den Süden kostet ~3,50 €; mit BONO unter 2 €\n\n### Empfehlung\nWenn Sie nur den Süden oder Norden besuchen, reicht der Bus. Wenn Sie Teide, Anaga oder Masca erkunden möchten, mieten Sie zumindest für diese Tage ein Auto.",
+      "description": "**TITSA** (Transportes Interurbanos de Tenerife S.A.) ist das öffentliche Busnetz, das praktisch jeden Winkel der Insel verbindet, von Santa Cruz bis El Médano, von Puerto de la Cruz bis Los Gigantes. Es ist die günstigste Möglichkeit, sich fortzubewegen, und ein authentisches lokales Erlebnis.\n\n### Der Besuch\nDie nützlichsten Linien für Besucher sind **111** (Santa Cruz – Los Cristianos, Express), **343** (Santa Cruz – La Laguna – Puerto de la Cruz), **348** (Puerto de la Cruz – Teide – Los Cristianos, die große Panoramaroute der Insel) und **910** (Santa Cruz – Las Teresitas). Die Busse sind modern mit Klimaanlage und WLAN auf den Hauptstrecken. Die **BONO-Karte** gibt 50% Rabatt gegenüber Bargeldtarifen.\n\n### Vor der Abreise\n- 📱 Die TITSA-App herunterladen oder titsa.com für aktuelle Fahrpläne prüfen — sonntags eingeschränkter Service\n- 💳 BONO-Karte an den Hauptbahnhöfen aufladen — rentabel ab der zweiten Fahrt\n- 🕐 Expresslinien in den Süden (111, 110) sind die schnellsten und häufigsten\n- 🏔️ Linie 348 durchquert den Teide-Nationalpark — eine malerische Route, die kein Auto erfordert\n- 🎫 aktuelle Preise unter titsa.com — mit der BONO-Karte deutlich günstiger\n\n### Empfehlung\nWenn Sie nur den Süden oder Norden besuchen, reicht der Bus. Wenn Sie Teide, Anaga oder Masca erkunden möchten, mieten Sie zumindest für diese Tage ein Auto.",
       "island": "tenerife",
       "category": "transport",
       "coordinates": {
@@ -315,184 +249,10 @@
       "websiteUrl": "https://www.titsa.com"
     },
     {
-      "slug": "masca",
-      "name": "Masca",
-      "shortDescription": "Teneriffas dramatischstes Dorf: senkrechte Schluchten, an Klippen hängende Häuser und Stille",
-      "description": "Masca ist einer jener Orte, die einen sprachlos machen. Eingebettet in das Teno-Massiv — die geologisch älteste Ecke Teneriffas — klammert sich das Dorf an einen Grat zwischen senkrechten Schluchten auf mehr als 700 Metern Höhe. Wenn man ankommt und dieses Panorama sieht, versteht man, warum dieser Weiler mit weniger als 100 Einwohnern auf jeder Liste der schönsten Dörfer Spaniens erscheint.\n\n### Der Besuch\nDas Dorf selbst ist klein: ein paar Häuser aus schwarzem Vulkanstein mit roten Ziegeldächern, Terrassen mit Blick in den Abgrund, ein paar Restaurants mit Papas und Teno-Käse sowie Kunsthandwerksläden. Die eigentliche Attraktion ist die **umliegende Landschaft**: die Masca-Schlucht — die durch einen Canyon mit 300 Meter hohen Wänden bis zum Meer absteigt — ist eine der bekanntesten Wanderrouten der Kanarischen Inseln. Man kann Masca auch als Zwischenstopp einer Rundroute durch den Norden besuchen, die Los Gigantes, den Mirador de Cherfe und die Küste von Buenavista einschließt.\n\n### Vor der Abreise\n- 🚗 Die Straße TF-436 ist sehr schmal und kurvenreich — langsam fahren, besonders mit Wohnmobilen\n- 🕐 Vor 10 Uhr ankommen, um Touristenbusse zu vermeiden und das Dorf fast für sich zu haben\n- 🏔️ Bei der Schluchtwanderung die Rückfahrt organisieren: Rückkehr nur per Boot nach Los Gigantes (online buchen) oder zu Fuß bergauf\n- 📸 Der beste Aussichtspunkt liegt 500m vor dem Dorf, an der Straße\n- 🌡️ Die Temperatur in der Schlucht steigt im Sommer stark an — von Juli bis September nicht empfehlenswert\n\n### Empfehlung\nMasca früh morgens besuchen, auf einer Terrasse mit Blick auf die Schlucht frühstücken und weiter nach Los Gigantes an der Küste fahren: einer der spektakulärsten Tage, die man auf Teneriffa verbringen kann.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.2121,
-        "lng": -16.8432
-      },
-      "images": {
-        "hero": "/images/tenerife/naturaleza/masca/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/masca/1.avif",
-          "/images/tenerife/naturaleza/masca/2.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "dorf",
-        "schlucht",
-        "teno",
-        "norden",
-        "wandern",
-        "dramatisch"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "easy",
-      "emoji": "🏘️",
-      "top": true,
-      "municipio": "santiago-del-teide",
-      "mapsUrl": "https://maps.app.goo.gl/YJg3HzEJ9fBJ7bEV9"
-    },
-    {
-      "slug": "parque-rural-anaga",
-      "name": "Parque Rural de Anaga",
-      "shortDescription": "Europas ältester Lorbeerwald im äußersten Norden Teneriffas",
-      "description": "Der Parque Rural de Anaga ist eines der außergewöhnlichsten Naturjuwele Europas und dennoch einer der von Massentourismus am meisten ignorierten Winkel Teneriffas. Dieses Gebirgsmassiv an der nordöstlichen Spitze der Insel beherbergt den **weltgrößten Lorbeerwald** — ein Reliktökosystem aus dem Tertiär, das hier auf den Kanaren die letzte Eiszeit überlebt hat.\n\n### Der Besuch\nDer Lorbeerwald ist ein feuchter subtropischer Wald von atemberaubender Schönheit: von Moos und Flechten bedeckte Bäume, Riesenfarne, Nebel, der sich durch die Baumkronen filtert, und eine absolute Stille, nur vom Gesang endemischer Vögel unterbrochen. Die Aussichtspunkte am **Pico del Inglés** und an **Cruz del Carmen** bieten Ausblicke auf ein Wolkenmeer, das den Norden der Insel bedeckt. Von den Dörfern Taganana und El Bailadero aus sind einige der besten Wanderwege der Insel erreichbar.\n\n### Vor der Abreise\n- 🌫️ Nebel ist häufig — warme Kleidung mitbringen, auch im Sommer\n- 🚗 Straße TF-12 von La Laguna Richtung Pico del Inglés — kurvig, aber asphaltiert\n- 🎒 Das Besucherzentrum in Cruz del Carmen hat Wanderkarten und eine Ausstellung zum Ökosystem\n- 🐦 Das endemische Rotkehlchen von Teneriffa ist auf den Wanderwegen sehr leicht zu sehen\n- 🏖️ Mit Playa de Benijo kombinieren, 20 Minuten über die TF-134 von Taganana entfernt\n\n### Empfehlung\nFrühzeitig nach Cruz del Carmen aufsteigen, 30 Minuten auf dem Lorbeerwald-Wanderweg gehen, am Aussichtspunkt Pico del Inglés anhalten und nach Taganana hinabsteigen, um in einer der Bars zu Mittag zu essen: ein Tag reiner Natur.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.5417,
-        "lng": -16.2055
-      },
-      "images": {
-        "hero": "/images/tenerife/naturaleza/anaga/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/anaga/1.avif",
-          "/images/tenerife/naturaleza/anaga/2.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "lorbeerwald",
-        "wald",
-        "anaga",
-        "natur",
-        "nebel",
-        "endemisch"
-      ],
-      "visitDuration": "Halber Tag",
-      "difficulty": "easy",
-      "emoji": "🌿",
-      "top": true,
-      "municipio": "la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/YeXMu7J5tFPaV9Qa8"
-    },
-    {
-      "slug": "paisaje-lunar",
-      "name": "Paisaje Lunar",
-      "shortDescription": "Weiße Vulkantuffformationen, die die Mondoberfläche auf 2.000 m Höhe simulieren",
-      "description": "Auf 2.000 Metern Höhe, versteckt zwischen den Kiefernwäldern von Vilaflor, verbirgt sich eine der surrealistischsten Landschaften der Kanarischen Inseln: das **Paisaje Lunar**. Durch Wasser und Wind über Jahrtausende erodierte Säulen, Nadeln und Kegel aus **weißem und gelbem Vulkantuff** schaffen eine Szenerie, die tatsächlich an die Oberfläche des Mondes erinnert.\n\n### Der Besuch\nEs ist nur zu Fuß zugänglich, über den Wanderweg PR-TF 72 vom Parkplatz Vilaflor aus (etwa 45 Minuten sanften Anstiegs durch Kanarischen Kiefernwald). Die Formationen sind zwischen 2 und 5 Meter hoch, und man kann frei zwischen ihnen laufen. Die Kombination aus weißem Tuff vor dem tiefblauen Himmel in der Höhe schafft spektakuläre fotografische Kontraste. An klaren Tagen ist der Teide eindrucksvoll im Hintergrund zu sehen.\n\n### Vor der Abreise\n- 🚗 Zugang über die TF-21 von Vilaflor — am ausgewiesenen Bereich neben der Straße parken (kostenlos)\n- 🥾 Wanderschuhe empfohlen — der Weg hat etwas Gefälle, ist aber zugänglich\n- ⏱️ Hin- und Rückweg dauert 2–3 Stunden — besser morgens durchführen\n- 🌡️ Auf 2.000 m ist es 8–10°C kälter als an der Küste — Jacke mitbringen\n- 📸 Das Morgenlicht (10–12 Uhr) eignet sich am besten für Fotos der weißen Formationen\n\n### Empfehlung\nPaisaje Lunar mit einem Besuch des Dorfes Vilaflor — Spaniens höchstgelegenes Dorf — und einem Halt an den Teide-Cañadas kombinieren: die spektakulärste Inlandsroute auf Teneriffa.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.1687,
-        "lng": -16.6319
-      },
-      "images": {
-        "hero": "/images/tenerife/naturaleza/paisaje-lunar/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/paisaje-lunar/1.avif",
-          "/images/tenerife/naturaleza/paisaje-lunar/2.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "vulkanisch",
-        "tuff",
-        "höhe",
-        "wandern",
-        "surreal",
-        "vilaflor"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "moderate",
-      "emoji": "🌕",
-      "top": true,
-      "municipio": "vilaflor",
-      "mapsUrl": "https://maps.app.goo.gl/HgNPx7CJQaGM2fTs6"
-    },
-    {
-      "slug": "mirador-pico-ingles",
-      "name": "Mirador del Pico del Inglés",
-      "shortDescription": "Anaga's bester Aussichtspunkt: 360°-Panorama über Nordteneriffa und La Gomera",
-      "description": "Der Mirador del Pico del Inglés auf 992 Metern Höhe im Herzen des Parque Rural de Anaga bietet einen der spektakulärsten Ausblicke auf ganz Teneriffa und an klaren Tagen eines der beeindruckendsten Inselpanoramen im Atlantik. Seinen Namen verdankt er den alten britischen Touristen, die im 19. Jahrhundert heraufkamen, um die Landschaft zu genießen.\n\n### Der Besuch\nVom Aussichtspunkt aus überblickt man das gesamte Anaga-Massiv: tiefe, mit Lorbeerwald bedeckte Schluchten, der Atlantik am Horizont, die Silhouette Gran Canarias im Süden und La Gomeras im Westen. Tief unten, wenn Wolken aufziehen, bildet sich ein **spektakuläres Wolkenmeer**, das den Norden der Insel bedeckt, über dem der Teide in der Ferne zu schweben scheint. Der Aussichtspunkt ist gut mit Geländern und Informationstafeln ausgestattet.\n\n### Vor der Abreise\n- 🌫️ Der Aussichtspunkt liegt häufig in Wolken — vor der Auffahrt die Anaga-Webcam prüfen\n- 🕐 Die beste Sicht ist meist früh morgens, bevor der Nebel aufsteigt\n- 🚗 Straße TF-12 von La Laguna, gut ausgeschildert — kostenloser Parkplatz neben dem Aussichtspunkt\n- 📸 Bei Wolkenmeer ist das Foto von hier eines der spektakulärsten auf Teneriffa\n- 🌿 Der Lorbeerwald-Wanderweg Cruz del Carmen beginnt neben dem Aussichtspunkt\n\n### Empfehlung\nFrüh aufstehen, vor 9 Uhr ankommen, wenn der Nebel noch nicht aufgestiegen ist, und bei Glück mit dem Wolkenmeer eines der schönsten Naturschauspiele der Kanarischen Inseln erleben.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.5373,
-        "lng": -16.2285
-      },
-      "images": {
-        "hero": "/images/tenerife/naturaleza/pico-ingles/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/pico-ingles/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "aussichtspunkt",
-        "anaga",
-        "ausblicke",
-        "wolkenmeer",
-        "norden",
-        "panorama"
-      ],
-      "visitDuration": "1h",
-      "difficulty": "easy",
-      "emoji": "🔭",
-      "top": true,
-      "municipio": "la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/Y5M3LPqo3BGPM7AV8"
-    },
-    {
-      "slug": "las-canadas-del-teide",
-      "name": "Las Cañadas del Teide",
-      "shortDescription": "Spaniens größte Vulkankaldera: ein Meer aus erstarrter Lava auf 2.000 Metern Höhe",
-      "description": "Las Cañadas del Teide sind das Herz des Nationalparks und die mondähnlichste Landschaft ganz Spaniens. Diese **Vulkankaldera von 16 km Durchmesser** — die größte des Landes — entstand durch den Kollaps eines alten Supervulkans und ist von bis zu 600 Meter hohen Wänden umgeben. Im Inneren dominieren Teide und Pico Viejo eine Landschaft aus erstarrten Laven in unmöglichen Farben.\n\n### Der Besuch\nDie Cañadas-Rundstraße (TF-21) ist eine der spektakulärsten Autofahrten Europas: Badlands aus schwarzer Lava, die Roques de García — 100 Meter hohe Vulkanformationen, die wie abstrakte Skulpturen wirken —, der Llano de Ucanca mit seiner weißen Vulkansandoberfläche und die grenzenlosen Horizonte einer Landschaft, die sich mit dem Tageslicht in der Farbe verändert. Das Parador Nacional de Las Cañadas liegt im Inneren der Kaldera und ist die perfekte Basis für alle, die den Sonnenaufgang vom Teide aus erleben möchten.\n\n### Vor der Abreise\n- 🎫 Der Nationalpark ist kostenlos — Seilbahn und Gipfelzugang erfordern eine Online-Buchung Monate im Voraus\n- 🌡️ Die Temperatur kann auch im Sommer auf 0°C fallen — immer warme Kleidung mitbringen\n- 🔭 Lichtverschmutzung ist minimal — Las Cañadas ist einer der besten Astrotourismus-Spots Europas\n- 🚗 TF-21 von La Orotava (Norden) oder Vilaflor (Süden) — die nördliche Route hat die besseren Aussichten\n- ⛽ Keine Tankstellen im Park — vor der Auffahrt tanken\n\n### Empfehlung\nFrühzeitig aufsteigen, bei den Roques de García für einen 30-minütigen Spaziergang anhalten, bei Buchung die Seilbahn nehmen und zum Sonnenuntergang bleiben, um zu sehen, wie der Teide seinen dreieckigen Schatten auf die Nordwolken wirft.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.25,
-        "lng": -16.61
-      },
-      "images": {
-        "hero": "/images/tenerife/naturaleza/canadas/hero.avif",
-        "gallery": [
-          "/images/tenerife/naturaleza/canadas/1.avif",
-          "/images/tenerife/naturaleza/canadas/2.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "kaldera",
-        "lava",
-        "vulkan",
-        "nationalpark",
-        "höhe",
-        "roques"
-      ],
-      "visitDuration": "Halber Tag",
-      "difficulty": "easy",
-      "emoji": "🌋",
-      "top": true,
-      "municipio": "la-orotava",
-      "mapsUrl": "https://maps.app.goo.gl/B8mVnUwAHG8sXYRS7"
-    },
-    {
       "slug": "sendero-masca",
       "name": "Barranco de Masca",
       "shortDescription": "Teneriffas epischster Abstieg: 5 km durch eine 300 m tiefe Schlucht bis zum Meer — Voranmeldung Pflicht, reguliert vom Cabildo de Tenerife",
-      "description": "Der Barranco de Masca ist Teneriffas epischste Wanderroute: 5 km Abstieg durch eine **Schlucht mit bis zu 300 Meter hohen Wänden** bis zu einer unberührten Bucht, nur zu Fuß oder per Boot erreichbar. Die Rückfahrt per **Boot oder Kajak nach Los Gigantes** gehört zum Erlebnis.\n\n### Der Abstieg\nUnebenes Gelände mit kurzen Kletterpassagen, Bachbettabschnitten und subtropischer Vegetation zwischen Vulkanfelswänden. Am Ende ein kleiner **Strand aus schwarzen Kieseln** am Atlantik. Dauer: 2,5–3,5 Stunden Abstieg.\n\n### Buchung Pflicht\nRegulierter Zugang — Voranmeldung auf [caminobarrancodemasca.com](https://www.caminobarrancodemasca.com) (**nur Mittwoch bis Samstag**, begrenzte Kapazität). Rückfahrt Boot/Kajak separat auf derselben Webseite buchen.\n- 🎫 Nicht-Resident Erwachsener: **40,66 €** · Kind: **20,33 €**\n- 🎫 Resident Kanarische Inseln: **7,49 €** · Kind: **3,75 €**\n\n### Anreise\nShuttle ab **Parkplatz Friedhof Santiago del Teide** (7:00–14:00 Uhr, alle 20 Min., 18 Plätze — Vorrang mit Barranco-Ticket). Nur Dorfbesuch: [Linie 355](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-355) oder [Linie 365](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-365). Dorfparkplatz max. 2 Std. (8:00–14:00 Uhr).\n\n### Ausrüstung\n- 🥾 Geschlossene Bergschuhe (Pflicht) · ⛑️ Helm (wird vom Personal ausgeliehen)\n- 💧 Mind. 1,5 L Wasser pro Person · 🍎 Verpflegung für den ganzen Tag\n- 🧴 Sonnencreme + Sonnenbrille + Hut · 🩺 Wanderstöcke empfohlen\n\n### Checkliste vor dem Start\n- ✅ Schlucht-Reservierung bestätigt (nur Mi–Sa)\n- ✅ Rückfahrt Boot/Kajak gebucht\n- ✅ **30 Min. vor** dem Zeitfenster am Besucherzentrum Masca sein\n- ✅ **1 Stunde vor** der Aktivität an der Shuttle-Haltestelle sein\n- ✅ Tickets für Schlucht UND Boot zur Zugangskontrolle mitbringen\n\n### ⚠️ Sicherheitshinweise\n- 📵 **Kein Handyempfang** im Inneren — vor dem Einstieg jemandem Bescheid geben\n- ☀️ **Hitzschlaggefahr** — die Schlucht erreicht im Sommer 40 °C; früh starten\n- 🌊 **Sturzflutgefahr** — Regen an den Gipfeln kann die Schlucht in Minuten fluten; bei dunklen Wolken über Teno nicht einsteigen\n- 🪨 **Unebenes Gelände** — rutschiges Gestein und Kletterpassagen; ein verstauchter Knöchel im Inneren ist ein Notfall\n- 🚑 **Schwierige Rettung** — Dutzende Einsätze pro Jahr; Route nicht unterschätzen\n- 🔋 **Akku voll laden** vor dem Start · **Notruf: 112** · Besucherzentrum Masca: +34 822 143 890",
+      "description": "Der Barranco de Masca ist Teneriffas epischste Wanderroute: 5 km Abstieg durch eine **Schlucht mit bis zu 300 Meter hohen Wänden** bis zu einer unberührten Bucht, nur zu Fuß oder per Boot erreichbar. Die Rückfahrt per **Boot oder Kajak nach Los Gigantes** gehört zum Erlebnis.\n\n### Der Abstieg\nUnebenes Gelände mit kurzen Kletterpassagen, Bachbettabschnitten und subtropischer Vegetation zwischen Vulkanfelswänden. Am Ende ein kleiner **Strand aus schwarzen Kieseln** am Atlantik. Dauer: 2,5–3,5 Stunden Abstieg.\n\n### Buchung Pflicht\nRegulierter Zugang — Voranmeldung auf [caminobarrancodemasca.com](https://www.caminobarrancodemasca.com) (**nur Mittwoch bis Samstag**, begrenzte Kapazität). Rückfahrt Boot/Kajak separat auf derselben Webseite buchen.\n- 🎫 **Eintritt kostenpflichtig** — aktuelle Preise unter caminobarrancodemasca.com (unterschiedliche Tarife für Ansässige und Nicht-Ansässige)\n\n### Anreise\nShuttle ab **Parkplatz Friedhof Santiago del Teide** (7:00–14:00 Uhr, alle 20 Min., 18 Plätze — Vorrang mit Barranco-Ticket). Nur Dorfbesuch: [Linie 355](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-355) oder [Linie 365](https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-365). Dorfparkplatz max. 2 Std. (8:00–14:00 Uhr).\n\n### Ausrüstung\n- 🥾 Geschlossene Bergschuhe (Pflicht) · ⛑️ Helm (wird vom Personal ausgeliehen)\n- 💧 Mind. 1,5 L Wasser pro Person · 🍎 Verpflegung für den ganzen Tag\n- 🧴 Sonnencreme + Sonnenbrille + Hut · 🩺 Wanderstöcke empfohlen\n\n### Checkliste vor dem Start\n- ✅ Schlucht-Reservierung bestätigt (nur Mi–Sa)\n- ✅ Rückfahrt Boot/Kajak gebucht\n- ✅ **30 Min. vor** dem Zeitfenster am Besucherzentrum Masca sein\n- ✅ **1 Stunde vor** der Aktivität an der Shuttle-Haltestelle sein\n- ✅ Tickets für Schlucht UND Boot zur Zugangskontrolle mitbringen\n\n### ⚠️ Sicherheitshinweise\n- 📵 **Kein Handyempfang** im Inneren — vor dem Einstieg jemandem Bescheid geben\n- ☀️ **Hitzschlaggefahr** — die Schlucht erreicht im Sommer 40 °C; früh starten\n- 🌊 **Sturzflutgefahr** — Regen an den Gipfeln kann die Schlucht in Minuten fluten; bei dunklen Wolken über Teno nicht einsteigen\n- 🪨 **Unebenes Gelände** — rutschiges Gestein und Kletterpassagen; ein verstauchter Knöchel im Inneren ist ein Notfall\n- 🚑 **Schwierige Rettung** — Dutzende Einsätze pro Jahr; Route nicht unterschätzen\n- 🔋 **Akku voll laden** vor dem Start · **Notruf: 112** · Besucherzentrum Masca: +34 822 143 890",
       "island": "tenerife",
       "category": "hiking",
       "coordinates": {
@@ -1609,7 +1369,7 @@
       "mapsUrl": "https://maps.google.com/?q=@28.0977,-16.6463",
       "name": "Quad-Tour zum Teide",
       "shortDescription": "Mit dem Quad in den Nationalpark Teide auf 2.100 m, über den Wolken — Tages- oder Sonnenuntergangs-Tour ab Arona",
-      "description": "Eines der spektakulärsten Erlebnisse auf Teneriffa: mit dem Quad in den Nationalpark Teide hinauffahren, über den Wolken, auf 2.100 Meter Höhe. Abfahrt ab Arona im Süden, mit zwei Optionen — Tagestour oder Sonnenuntergangs-Tour — und Aussichten, die Sie in keinem Busausflug finden werden.\n\n### Die Route\nEtwa 70 km ausschließlich auf geteerten Straßen bei einer Höchstgeschwindigkeit von 45 km/h. Das Programm führt von Arona durch die **Corona Forestal** — einen der dichtesten kanarischen Kiefernwälder der Insel — nach **Vilaflor**, dem höchsten Dorf Spaniens (1.400 m) und Heimat des legendären **Pino Gordo**, einer jahrhundertealten kanarischen Kiefer. Von dort führt die Route weiter zur **Boca Tauce** mit ihren vulkanischen Formationen des Pico Viejo, bis zum **Panoramablick auf 2.100 m** mit Blick auf den Atlantik in alle Richtungen.\n\n### Tagestour vs. Sonnenuntergangs-Tour\n- ☀️ **Tagestour** — vollständige Panoramaerfahrung, mehr Zeit für Stopps und Fotos\n- 🌅 **Sonnenuntergangs-Tour** — die letzten Sonnenstrahlen tauchen den Teide und das Meer in Orange und Rot; die Rückfahrt nach Arona erfolgt bei Nacht, mit den Lichtern Südteneriffas zu Füßen\n\n### Was Sie überraschen wird\n- 🌥️ **Über den Wolken** — das Wolkenmeer von 2.100 m ist unwirklich schön\n- 🌲 **Vilaflor und der Pino Gordo** — Spaniens höchstes Dorf mit einer zum Naturdenkmal erklärten jahrhundertealten Kiefer\n- 🏔️ **Boca Tauce** — schwarze Vulkanformationen des Pico Viejo aus nächster Nähe\n- 🔭 **360°-Atlantikblick** — an klaren Tagen sieht man Gran Canaria und La Gomera\n- 📸 **Fotos während der Tour** — der Guide macht sie an den besten Punkten (20 € optional)\n- 🏍️ **Einzel- oder Doppel-Quad** — Fahrerwechsel ohne Aufpreis\n\n### Vor dem Besuch\n- 🪪 **Physischer Führerschein Pflicht** — Fotos, vorläufige Führerscheine und Führerscheine unter 1 Jahr werden nicht akzeptiert\n- 🧥 **Jacke mitbringen** — auf 2.100 m sinkt die Temperatur stark, auch im Sommer\n- 👟 Geschlossene Schuhe unbedingt erforderlich (Jacken und Schuhe können dort gemietet werden)\n- 💶 30 € optionale \"Zero Worries\"-Fahrzeugschutzversicherung einplanen\n- 🎂 Mindest 18 Jahre zum Fahren. Beifahrer mindestens 6 Jahre und 120 cm\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nDie Sonnenuntergangs-Tour ist der Favorit für Paare. Mit Familie und Kindern ermöglicht die Tagestour mehr Stopps und besseres Licht für Fotos. Warme Kleidung mitbringen, auch wenn es in Arona sonnig ist: Der Temperaturunterschied zwischen der Südküste und 2.100 m beträgt mehr als 10°C.",
+      "description": "Eines der spektakulärsten Erlebnisse auf Teneriffa: mit dem Quad in den Nationalpark Teide hinauffahren, über den Wolken, auf 2.100 Meter Höhe. Abfahrt ab Arona im Süden, mit zwei Optionen — Tagestour oder Sonnenuntergangs-Tour — und Aussichten, die Sie in keinem Busausflug finden werden.\n\n### Die Route\nEtwa 70 km ausschließlich auf geteerten Straßen bei einer Höchstgeschwindigkeit von 45 km/h. Das Programm führt von Arona durch die **Corona Forestal** — einen der dichtesten kanarischen Kiefernwälder der Insel — nach **Vilaflor**, dem höchsten Dorf Spaniens (1.400 m) und Heimat des legendären **Pino Gordo**, einer jahrhundertealten kanarischen Kiefer. Von dort führt die Route weiter zur **Boca Tauce** mit ihren vulkanischen Formationen des Pico Viejo, bis zum **Panoramablick auf 2.100 m** mit Blick auf den Atlantik in alle Richtungen.\n\n### Tagestour vs. Sonnenuntergangs-Tour\n- ☀️ **Tagestour** — vollständige Panoramaerfahrung, mehr Zeit für Stopps und Fotos\n- 🌅 **Sonnenuntergangs-Tour** — die letzten Sonnenstrahlen tauchen den Teide und das Meer in Orange und Rot; die Rückfahrt nach Arona erfolgt bei Nacht, mit den Lichtern Südteneriffas zu Füßen\n\n### Was Sie überraschen wird\n- 🌥️ **Über den Wolken** — das Wolkenmeer von 2.100 m ist unwirklich schön\n- 🌲 **Vilaflor und der Pino Gordo** — Spaniens höchstes Dorf mit einer zum Naturdenkmal erklärten jahrhundertealten Kiefer\n- 🏔️ **Boca Tauce** — schwarze Vulkanformationen des Pico Viejo aus nächster Nähe\n- 🔭 **360°-Atlantikblick** — an klaren Tagen sieht man Gran Canaria und La Gomera\n- 📸 **Fotos während der Tour** — der Guide macht sie an den besten Punkten (optionaler Aufpreis — beim Buchen erfragen)\n- 🏍️ **Einzel- oder Doppel-Quad** — Fahrerwechsel ohne Aufpreis\n\n### Vor dem Besuch\n- 🪪 **Physischer Führerschein Pflicht** — Fotos, vorläufige Führerscheine und Führerscheine unter 1 Jahr werden nicht akzeptiert\n- 🧥 **Jacke mitbringen** — auf 2.100 m sinkt die Temperatur stark, auch im Sommer\n- 👟 Geschlossene Schuhe unbedingt erforderlich (Jacken und Schuhe können dort gemietet werden)\n- 💶 Optionale \"Zero Worries\"-Fahrzeugschutzversicherung — Kosten beim Buchen erfragenen\n- 🎂 Mindest 18 Jahre zum Fahren. Beifahrer mindestens 6 Jahre und 120 cm\n- 🔄 Kostenlose Stornierung bis 24 Stunden vorher\n\n### Empfehlung\nDie Sonnenuntergangs-Tour ist der Favorit für Paare. Mit Familie und Kindern ermöglicht die Tagestour mehr Stopps und besseres Licht für Fotos. Warme Kleidung mitbringen, auch wenn es in Arona sonnig ist: Der Temperaturunterschied zwischen der Südküste und 2.100 m beträgt mehr als 10°C.",
       "tags": [
         "quad",
         "teide",
@@ -2455,7 +2215,7 @@
       ],
       "name": "Straßenbahn Teneriffa",
       "shortDescription": "Die Straßenbahn verbindet Santa Cruz de Tenerife in 34 Minuten mit San Cristóbal de La Laguna — 21 Haltestellen, alle 7–8 Minuten. Der komfortabelste Weg zwischen den beiden Hauptstädten der Insel.",
-      "description": "Die **Straßenbahn Teneriffa** (MetroTenerife) verbindet den **Intercambiador Santa Cruz** mit **La Trinidad** in San Cristóbal de La Laguna auf 12,5 km mit 21 Haltestellen. Die Gesamtfahrzeit beträgt rund **34 Minuten**, mit Abfahrten alle 7–8 Minuten zur Hauptverkehrszeit und alle 12–15 Minuten am Wochenende.\n\nDie nützlichsten Haltestellen für Besucher sind **Intercambiador / Weyler** (Stadtzentrum Santa Cruz und TITSA-Anschluss), **La Laguna / Catedral** (UNESCO-Weltkulturerbe Altstadt) und **Cruz del Señor** (Einkaufsbereich La Laguna).\n\nEin Einzelfahrschein kostet **1,35 €**. Mit der aufladbaren BONO-Karte fällt der Preis auf **0,60 € pro Fahrt** — die Karte gilt auch für TITSA-Busse und lohnt sich ab zwei Tagen.\n\nAnkunft am **Flughafen Teneriffa-Nord (TFN)**? Bus 014 oder 102 zum Intercambiador nehmen, dann in die Straßenbahn umsteigen — der schnellste und günstigste Weg ins Stadtzentrum ohne Stau.",
+      "description": "Die **Straßenbahn Teneriffa** (MetroTenerife) verbindet den **Intercambiador Santa Cruz** mit **La Trinidad** in San Cristóbal de La Laguna auf 12,5 km mit 21 Haltestellen. Die Gesamtfahrzeit beträgt rund **34 Minuten**, mit Abfahrten alle 7–8 Minuten zur Hauptverkehrszeit und alle 12–15 Minuten am Wochenende.\n\nDie nützlichsten Haltestellen für Besucher sind **Intercambiador / Weyler** (Stadtzentrum Santa Cruz und TITSA-Anschluss), **La Laguna / Catedral** (UNESCO-Weltkulturerbe Altstadt) und **Cruz del Señor** (Einkaufsbereich La Laguna).\n\nDie Ticketpreise variieren je nach Strecke — aktuelle Tarife unter metrotenerife.com. Mit der BONO-Karte sinkt der Preis erheblich — die Karte gilt auch für TITSA-Busse und lohnt sich ab zwei Tagen.\n\nAnkunft am **Flughafen Teneriffa-Nord (TFN)**? Bus 014 oder 102 zum Intercambiador nehmen, dann in die Straßenbahn umsteigen — der schnellste und günstigste Weg ins Stadtzentrum ohne Stau.",
       "websiteUrl": "https://www.metrotenerife.com"
     },
     {
@@ -2562,7 +2322,7 @@
       "slug": "muna-tenerife",
       "name": "MUNA — Museum für Natur und Archäologie",
       "shortDescription": "Die weltweit größte Guanchen-Sammlung: Mumien, Keramiken und die vorspanische Geschichte Teneriffas",
-      "description": "Das **Museum für Natur und Archäologie (MUNA)** in Santa Cruz de Tenerife ist das bedeutendste Museum für das Verständnis der vorspanischen Geschichte der Kanarischen Inseln. Es beherbergt die **weltweit vollständigste archäologische Guanchen-Sammlung**, darunter Mumien, Keramiken, Werkzeuge und Skelettreste der ersten Inselbewohner.\n\n### Die Guanchen\nDie **Guanchen** waren ein Volk berberischer Herkunft, das vor mehr als 2.000 Jahren von Nordafrika aus Teneriffa besiedelte. Das MUNA verwahrt mehr als **40.000 archäologische Objekte** und eine einzigartige Sammlung von **Guanchen-Mumien**, die mit Mumifizierungstechniken präpariert wurden, die dem alten Ägypten bemerkenswert ähneln — ein Geheimnis, das Forscher bis heute fasziniert. Ihre Mumifizierungspraxis unterscheidet sie von allen anderen vorspanischen Völkern des Archipels.\n\n### Die Sammlung\n- 🦴 **Guanchen-Mumien** — einige über 1.500 Jahre alt\n- 🏺 Keramiken, Obsidian-Werkzeuge und Ritualgegenstände\n- 🐚 Prähistorische Meerestiere und Inselfossilien\n- 🌿 Naturgeschichte: endemische Flora, Fauna und Vulkangeologie der Kanaren\n\n### Das Gebäude\nUntergebracht im ehemaligen **Hospital de los Dolores**, einem Kolonialgebäude aus dem 18. Jahrhundert im Herzen von Santa Cruz, ist der architektonische Rahmen selbst eine Sehenswürdigkeit.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: Di–Sa **10:00–20:00** Uhr · So & Feiertage **10:00–14:00** Uhr · Montag geschlossen\n- 💶 Eintritt: **5 €** regulär · **3 €** ermäßigt · Kostenlos unter 12 Jahren\n- 🎧 Audioguide auf Spanisch und Englisch verfügbar\n\n### Anreise\nIm Zentrum von Santa Cruz, 10 Gehminuten von den Straßenbahnhaltestellen **Weyler** oder **Plaza de España**.\n\n### Empfehlung\nUnbedingt empfehlenswert, wenn Sie verstehen möchten, wer die Guanchen wirklich waren. Planen Sie mindestens **2 Stunden** ein. Ideal zu kombinieren mit dem historischen Zentrum von Santa Cruz oder einem Besuch in La Laguna (nur 9 km entfernt). Bei tiefem archäologischem Interesse nach Sonderführungen zu Sammlungen fragen, die nicht dauerhaft ausgestellt sind.",
+      "description": "Das **Museum für Natur und Archäologie (MUNA)** in Santa Cruz de Tenerife ist das bedeutendste Museum für das Verständnis der vorspanischen Geschichte der Kanarischen Inseln. Es beherbergt die **weltweit vollständigste archäologische Guanchen-Sammlung**, darunter Mumien, Keramiken, Werkzeuge und Skelettreste der ersten Inselbewohner.\n\n### Die Guanchen\nDie **Guanchen** waren ein Volk berberischer Herkunft, das vor mehr als 2.000 Jahren von Nordafrika aus Teneriffa besiedelte. Das MUNA verwahrt mehr als **40.000 archäologische Objekte** und eine einzigartige Sammlung von **Guanchen-Mumien**, die mit Mumifizierungstechniken präpariert wurden, die dem alten Ägypten bemerkenswert ähneln — ein Geheimnis, das Forscher bis heute fasziniert. Ihre Mumifizierungspraxis unterscheidet sie von allen anderen vorspanischen Völkern des Archipels.\n\n### Die Sammlung\n- 🦴 **Guanchen-Mumien** — einige über 1.500 Jahre alt\n- 🏺 Keramiken, Obsidian-Werkzeuge und Ritualgegenstände\n- 🐚 Prähistorische Meerestiere und Inselfossilien\n- 🌿 Naturgeschichte: endemische Flora, Fauna und Vulkangeologie der Kanaren\n\n### Das Gebäude\nUntergebracht im ehemaligen **Hospital de los Dolores**, einem Kolonialgebäude aus dem 18. Jahrhundert im Herzen von Santa Cruz, ist der architektonische Rahmen selbst eine Sehenswürdigkeit.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: Di–Sa **10:00–20:00** Uhr · So & Feiertage **10:00–14:00** Uhr · Montag geschlossen\n- 💶 **Eintritt kostenpflichtig** — aktuelle Preise auf der offiziellen Website · Kostenlos unter 12 Jahren\n- 🎧 Audioguide auf Spanisch und Englisch verfügbar\n\n### Anreise\nIm Zentrum von Santa Cruz, 10 Gehminuten von den Straßenbahnhaltestellen **Weyler** oder **Plaza de España**.\n\n### Empfehlung\nUnbedingt empfehlenswert, wenn Sie verstehen möchten, wer die Guanchen wirklich waren. Planen Sie mindestens **2 Stunden** ein. Ideal zu kombinieren mit dem historischen Zentrum von Santa Cruz oder einem Besuch in La Laguna (nur 9 km entfernt). Bei tiefem archäologischem Interesse nach Sonderführungen zu Sammlungen fragen, die nicht dauerhaft ausgestellt sind.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -2722,7 +2482,7 @@
       "slug": "piramides-guimar",
       "name": "Pyramiden von Güímar",
       "shortDescription": "Die bekannteste archäologische Stätte Teneriffas — sechs gestufte Pyramiden mit präzisen astronomischen Ausrichtungen",
-      "description": "Die **Pyramiden von Güímar** sind die faszinierendste und meistbesuchte archäologische Stätte Teneriffas. Sechs rechteckige gestufte Strukturen aus **trockenem Vulkangestein**, verteilt auf einem Komplex von über 35.000 m² in der Gemeinde Güímar an der Südostküste der Insel.\n\n### Das Rätsel\nJahrzehntelang wurden die Pyramiden ignoriert oder als Steinhaufen aus der Landwirtschaft abgetan. Alles änderte sich 1991, als der norwegische Forscher und Ethnograph **Thor Heyerdahl** — bekannt durch die Kon-Tiki-Expedition — das Gelände besuchte und von dem, was er sah, fasziniert war. Heyerdahl trieb die wissenschaftliche Erforschung des Komplexes und die Schaffung des **Ethnographischen Parks** voran und argumentierte, dass die Strukturen zu präzise für bloße Feldsteinabfälle seien.\n\n### Die astronomischen Ausrichtungen\nWas die Pyramiden von Güímar von jedem zufälligen Steinhaufen unterscheidet, ist die **Präzision ihrer Ausrichtung**: Die Haupttreppen mehrerer Strukturen zeigen exakt zum **Sonnenaufgang der Sommersonnenwende** (21. Juni) und zum **Sonnenaufgang der Wintersonnenwende** (21. Dezember). Diese astronomische Absichtlichkeit ist die am schwersten zu erklärende Tatsache als landwirtschaftlichen Zufall.\n\n### Die Theorien\n- 🗿 **Guanchen-Ursprung**: voreuropäische Zeremonial- oder Astronomiestrukturen\n- 🌾 **Ursprung bäuerlicher Natur im 19. Jh.**: Steinrodehaufen mit zufälliger Form\n- 🌊 **Heyerdahls transozeanische Theorie**: Kulturbrücke zwischen mediterranen, berberi­schen und amerikanischen Zivilisationen\n- 🔬 **Aktueller wissenschaftlicher Konsens**: ungewisser Ursprung, aber absichtliche Ausrichtung bestätigt\n\n### Der Ethnographische Park\nHeute umfasst der Komplex: Besuche der Pyramiden, ein **ethnographisches Museum**, einen botanischen Garten mit kanarischen Pflanzen, ein Nachbau des *Kon-Tiki*-Floßes von Heyerdahl, eine Schildkrötenkolonie und vollständige Dokumentation zur Kon-Tiki-Expedition.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: täglich **9:30–18:00** Uhr\n- 💶 Eintritt: **12 €** Erwachsene · **6 €** Kinder (4–12 J.) · Kostenlos unter 4\n- ⏱️ Empfohlene Dauer: **2–3 Stunden**\n- 📍 25 km von Santa Cruz über TF-1 Süd\n\n### Anreise\nAb Santa Cruz: **TITSA Linie 120** Richtung Güímar. Mit dem Auto: TF-1 Süd, Ausfahrt Güímar, Hinweisschildern zum Ethnographischen Park folgen.\n\n### Empfehlung\nMorgens besuchen, um die Südosthitze zu meiden. Kombinierbar mit der **Basilika von Candelaria** (15 km nördlich) für einen kompletten Tag entlang der Südostküste Teneriffas. Bei Interesse an vorspanischer Archäologie auch das MUNA in Santa Cruz besuchen.",
+      "description": "Die **Pyramiden von Güímar** sind die faszinierendste und meistbesuchte archäologische Stätte Teneriffas. Sechs rechteckige gestufte Strukturen aus **trockenem Vulkangestein**, verteilt auf einem Komplex von über 35.000 m² in der Gemeinde Güímar an der Südostküste der Insel.\n\n### Das Rätsel\nJahrzehntelang wurden die Pyramiden ignoriert oder als Steinhaufen aus der Landwirtschaft abgetan. Alles änderte sich 1991, als der norwegische Forscher und Ethnograph **Thor Heyerdahl** — bekannt durch die Kon-Tiki-Expedition — das Gelände besuchte und von dem, was er sah, fasziniert war. Heyerdahl trieb die wissenschaftliche Erforschung des Komplexes und die Schaffung des **Ethnographischen Parks** voran und argumentierte, dass die Strukturen zu präzise für bloße Feldsteinabfälle seien.\n\n### Die astronomischen Ausrichtungen\nWas die Pyramiden von Güímar von jedem zufälligen Steinhaufen unterscheidet, ist die **Präzision ihrer Ausrichtung**: Die Haupttreppen mehrerer Strukturen zeigen exakt zum **Sonnenaufgang der Sommersonnenwende** (21. Juni) und zum **Sonnenaufgang der Wintersonnenwende** (21. Dezember). Diese astronomische Absichtlichkeit ist die am schwersten zu erklärende Tatsache als landwirtschaftlichen Zufall.\n\n### Die Theorien\n- 🗿 **Guanchen-Ursprung**: voreuropäische Zeremonial- oder Astronomiestrukturen\n- 🌾 **Ursprung bäuerlicher Natur im 19. Jh.**: Steinrodehaufen mit zufälliger Form\n- 🌊 **Heyerdahls transozeanische Theorie**: Kulturbrücke zwischen mediterranen, berberi­schen und amerikanischen Zivilisationen\n- 🔬 **Aktueller wissenschaftlicher Konsens**: ungewisser Ursprung, aber absichtliche Ausrichtung bestätigt\n\n### Der Ethnographische Park\nHeute umfasst der Komplex: Besuche der Pyramiden, ein **ethnographisches Museum**, einen botanischen Garten mit kanarischen Pflanzen, ein Nachbau des *Kon-Tiki*-Floßes von Heyerdahl, eine Schildkrötenkolonie und vollständige Dokumentation zur Kon-Tiki-Expedition.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: täglich **9:30–18:00** Uhr\n- 💶 **Eintritt kostenpflichtig** — aktuelle Preise auf der offiziellen Website · Kostenlos unter 4\n- ⏱️ Empfohlene Dauer: **2–3 Stunden**\n- 📍 25 km von Santa Cruz über TF-1 Süd\n\n### Anreise\nAb Santa Cruz: **TITSA Linie 120** Richtung Güímar. Mit dem Auto: TF-1 Süd, Ausfahrt Güímar, Hinweisschildern zum Ethnographischen Park folgen.\n\n### Empfehlung\nMorgens besuchen, um die Südosthitze zu meiden. Kombinierbar mit der **Basilika von Candelaria** (15 km nördlich) für einen kompletten Tag entlang der Südostküste Teneriffas. Bei Interesse an vorspanischer Archäologie auch das MUNA in Santa Cruz besuchen.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -2754,7 +2514,7 @@
       "slug": "drago-milenario",
       "name": "Tausendjähriger Drachenbaum von Icod",
       "shortDescription": "Der älteste und emblematischste Baum der Kanaren — Kultursymbol Teneriffas mit über 800 Jahren Geschichte",
-      "description": "Der **Tausendjährige Drachenbaum von Icod de los Vinos** ist das emblematischste Lebewesen der Kanarischen Inseln und das Kultursymbol Teneriffas. Mit einem geschätzten Alter von über **800 Jahren** — einige Schätzungen legen es zwischen 800 und 1.000 Jahre — ist er das größte und älteste bekannte Exemplar von *Dracaena draco* der Welt.\n\n### Der Kanarische Drachenbaum\n*Dracaena draco*, der kanarische Drachenbaum, ist eine endemische Art der Kanaren und Makaronesiens mit unverwechselbarem Erscheinungsbild: dicker Stamm mit grauem Borke, eine umgekehrt schirmförmige Krone und spitze Blätter, die das ganze Jahr über bestehen. Was ihn wirklich außergewöhnlich macht, ist sein **roter Saft**, bekannt als «Drachenblut», der beim Kontakt mit Luft oxidiert. Diese Resina wurde seit der Antike in Medizin, Färberei und Lacken verwendet.\n\n### Das Exemplar von Icod\n- 📏 **17 Meter hoch** mit einer Krone von über 20 Metern Durchmesser\n- 🌿 Geschätztes Alter: **800 bis 1.000 Jahre**\n- ⚖️ Geschätztes Gewicht: über **100 Tonnen**\n- 🏛️ 1917 zum **Nationalen Denkmal** erklärt\n- 🗿 Die Guanchen betrachteten ihn als **heiligen und schützenden** Baum\n\n### Drachenblut\nDer rote Saft des Drachenbaums war eines der wertvollsten Produkte des kanarischen Handels seit der Antike. Die Römer importierten es bereits als Pigment und Arzneimittel. Die Guanchen verwendeten es zum Einbalsamieren ihrer Toten, Wundheilen und als Farbstoff. Im Mittelalter und der Renaissance war es eines der begehrtesten Güter Europas — als Violinenlack und pharmazeutische Zutat.\n\n### Parque El Drago\nDer Baum wird vom **Parque El Drago** aus besucht, einem Botanischen Garten, der das Exemplar mit anderen endemischen kanarischen Arten umgibt: Tajinaste, Bejeque, Cardón-Kakteen und Lorbeerwaldpflanzen. Ein erhöhter Steg ermöglicht es, die Krone des Drachenbaums auf Augenhöhe zu betrachten.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: täglich **9:00–18:00** Uhr\n- 💶 Eintritt: **4 €** Erwachsene · **2 €** Kinder · Kostenlos unter 6\n- 📍 Im Zentrum von **Icod de los Vinos**, 3 km von Garachico\n\n### Anreise\nAb Puerto de la Cruz: **TITSA Linie 363** (45 Min.). Mit dem Auto: TF-5 Nord, Ausfahrt Icod, Dorfparkplatz (5 Min. Fußweg).\n\n### Empfehlung\nDen Drachenbaum mit dem historischen Zentrum von Icod kombinieren — die Weinkeller des Nordens sind ausgezeichnet — und einem Spaziergang durch **Garachico** (3 km). In der gleichen Straße wie der Drachenbaum gibt es Kunsthandwerk- und Weinläden mit lokalen D.O. Ycoden-Daute-Isora-Weinen, ideal als Mitbringsel.",
+      "description": "Der **Tausendjährige Drachenbaum von Icod de los Vinos** ist das emblematischste Lebewesen der Kanarischen Inseln und das Kultursymbol Teneriffas. Mit einem geschätzten Alter von über **800 Jahren** — einige Schätzungen legen es zwischen 800 und 1.000 Jahre — ist er das größte und älteste bekannte Exemplar von *Dracaena draco* der Welt.\n\n### Der Kanarische Drachenbaum\n*Dracaena draco*, der kanarische Drachenbaum, ist eine endemische Art der Kanaren und Makaronesiens mit unverwechselbarem Erscheinungsbild: dicker Stamm mit grauem Borke, eine umgekehrt schirmförmige Krone und spitze Blätter, die das ganze Jahr über bestehen. Was ihn wirklich außergewöhnlich macht, ist sein **roter Saft**, bekannt als «Drachenblut», der beim Kontakt mit Luft oxidiert. Diese Resina wurde seit der Antike in Medizin, Färberei und Lacken verwendet.\n\n### Das Exemplar von Icod\n- 📏 **17 Meter hoch** mit einer Krone von über 20 Metern Durchmesser\n- 🌿 Geschätztes Alter: **800 bis 1.000 Jahre**\n- ⚖️ Geschätztes Gewicht: über **100 Tonnen**\n- 🏛️ 1917 zum **Nationalen Denkmal** erklärt\n- 🗿 Die Guanchen betrachteten ihn als **heiligen und schützenden** Baum\n\n### Drachenblut\nDer rote Saft des Drachenbaums war eines der wertvollsten Produkte des kanarischen Handels seit der Antike. Die Römer importierten es bereits als Pigment und Arzneimittel. Die Guanchen verwendeten es zum Einbalsamieren ihrer Toten, Wundheilen und als Farbstoff. Im Mittelalter und der Renaissance war es eines der begehrtesten Güter Europas — als Violinenlack und pharmazeutische Zutat.\n\n### Parque El Drago\nDer Baum wird vom **Parque El Drago** aus besucht, einem Botanischen Garten, der das Exemplar mit anderen endemischen kanarischen Arten umgibt: Tajinaste, Bejeque, Cardón-Kakteen und Lorbeerwaldpflanzen. Ein erhöhter Steg ermöglicht es, die Krone des Drachenbaums auf Augenhöhe zu betrachten.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: täglich **9:00–18:00** Uhr\n- 💶 **Eintritt kostenpflichtig** — aktuelle Preise auf der offiziellen Website · Kostenlos unter 6\n- 📍 Im Zentrum von **Icod de los Vinos**, 3 km von Garachico\n\n### Anreise\nAb Puerto de la Cruz: **TITSA Linie 363** (45 Min.). Mit dem Auto: TF-5 Nord, Ausfahrt Icod, Dorfparkplatz (5 Min. Fußweg).\n\n### Empfehlung\nDen Drachenbaum mit dem historischen Zentrum von Icod kombinieren — die Weinkeller des Nordens sind ausgezeichnet — und einem Spaziergang durch **Garachico** (3 km). In der gleichen Straße wie der Drachenbaum gibt es Kunsthandwerk- und Weinläden mit lokalen D.O. Ycoden-Daute-Isora-Weinen, ideal als Mitbringsel.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -2850,7 +2610,7 @@
       "slug": "casa-lercaro",
       "name": "Museum für Geschichte und Anthropologie — Casa Lercaro",
       "shortDescription": "Der bedeutendste genuesische Palast des 16. Jahrhunderts auf den Kanaren — Museum zur Geschichte Teneriffas von den Guanchen bis ins 20. Jahrhundert",
-      "description": "Die **Casa Lercaro** ist eines der bedeutendsten Zivildenkmäler der Kanarischen Inseln. Im 16. Jahrhundert von der Familie Lercaro erbaut, genuesischen Kaufleuten, die durch den Zucker- und Weinhandel reich geworden waren, ist sie das vollständigste Beispiel **Renaissancepaläste** im historischen Zentrum von La Laguna — UNESCO-Weltkulturerbe.\n\n### Der Palast\nDas Gebäude besticht durch seinen **zweistöckigen überdachten Innenhof** mit Teeeholzgalerien und Vulkansteinsäulen, dem Vorbild italienischer Renaissancepaläste folgend. Seine Proportionen, die Materialqualität und die Erhaltung der Originalelemente machen die Casa Lercaro zu einem Juwel der kanarischen Zivilarchitektur des 16. Jahrhunderts.\n\n### Das Museum\nIm Inneren beherbergt das **Museum für Geschichte und Anthropologie Teneriffas** eine chronologische Darstellung der Inselgeschichte von der vorspanischen Zeit bis ins 20. Jahrhundert:\n- 🗿 **Guanchen-Zeit**: Werkzeuge, Keramiken und materielle Kultur der Urbevölkerung\n- ⚔️ **Die Conquista** (1494–1496): Dokumentation und Rekonstruktion des Kolonisierungsprozesses\n- 🏛️ **Kolonialzeit**: Zucker-, Wein- und Cochenille-Wirtschaft; Beziehungen zu Amerika\n- 📜 **19.–20. Jahrhundert**: kanarische Aufklärung, Liberalismus, Auswanderung nach Amerika und Modernisierung\n- 🎨 **Zeitgenössische Kunst und Möbel**: Originalsammlung vom 16. bis 19. Jahrhundert\n\n### Calle San Agustín\nDie Casa Lercaro befindet sich in der **Calle San Agustín**, einer der historisch bedeutendsten Straßen La Lagunas, gesäumt von Palästen und Herrenhäusern aus dem 16. Jahrhundert. Ein Spaziergang durch diese Straße ist für sich genommen ein Ausflug in die kanarische Kolonialarchitektur.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: Di–So **10:00–18:00** Uhr · Montag geschlossen\n- 💶 Eintritt: **3 €** regulär · **1,50 €** ermäßigt · Sonntags kostenlos\n- 📍 Calle San Agustín 22, La Laguna\n\n### Anreise\nIn der Altstadt von La Laguna, 3 Gehminuten von der Plaza del Adelantado. Straßenbahn L1 (Haltestelle **La Laguna**) + 7 Gehminuten.\n\n### Empfehlung\nUnbedingt empfehlenswert, um die vollständige Geschichte Teneriffas aus einer anderen Perspektive als dem MUNA zu erleben. **1,5–2 Stunden** einplanen. Der Innenhof allein rechtfertigt den Besuch. Ideal kombiniert mit der Kathedrale und der Altstadt von La Laguna an einem Vormittag.",
+      "description": "Die **Casa Lercaro** ist eines der bedeutendsten Zivildenkmäler der Kanarischen Inseln. Im 16. Jahrhundert von der Familie Lercaro erbaut, genuesischen Kaufleuten, die durch den Zucker- und Weinhandel reich geworden waren, ist sie das vollständigste Beispiel **Renaissancepaläste** im historischen Zentrum von La Laguna — UNESCO-Weltkulturerbe.\n\n### Der Palast\nDas Gebäude besticht durch seinen **zweistöckigen überdachten Innenhof** mit Teeeholzgalerien und Vulkansteinsäulen, dem Vorbild italienischer Renaissancepaläste folgend. Seine Proportionen, die Materialqualität und die Erhaltung der Originalelemente machen die Casa Lercaro zu einem Juwel der kanarischen Zivilarchitektur des 16. Jahrhunderts.\n\n### Das Museum\nIm Inneren beherbergt das **Museum für Geschichte und Anthropologie Teneriffas** eine chronologische Darstellung der Inselgeschichte von der vorspanischen Zeit bis ins 20. Jahrhundert:\n- 🗿 **Guanchen-Zeit**: Werkzeuge, Keramiken und materielle Kultur der Urbevölkerung\n- ⚔️ **Die Conquista** (1494–1496): Dokumentation und Rekonstruktion des Kolonisierungsprozesses\n- 🏛️ **Kolonialzeit**: Zucker-, Wein- und Cochenille-Wirtschaft; Beziehungen zu Amerika\n- 📜 **19.–20. Jahrhundert**: kanarische Aufklärung, Liberalismus, Auswanderung nach Amerika und Modernisierung\n- 🎨 **Zeitgenössische Kunst und Möbel**: Originalsammlung vom 16. bis 19. Jahrhundert\n\n### Calle San Agustín\nDie Casa Lercaro befindet sich in der **Calle San Agustín**, einer der historisch bedeutendsten Straßen La Lagunas, gesäumt von Palästen und Herrenhäusern aus dem 16. Jahrhundert. Ein Spaziergang durch diese Straße ist für sich genommen ein Ausflug in die kanarische Kolonialarchitektur.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: Di–So **10:00–18:00** Uhr · Montag geschlossen\n- 💶 **Eintritt kostenpflichtig** — aktuelle Preise auf der offiziellen Website · Sonntags kostenlos\n- 📍 Calle San Agustín 22, La Laguna\n\n### Anreise\nIn der Altstadt von La Laguna, 3 Gehminuten von der Plaza del Adelantado. Straßenbahn L1 (Haltestelle **La Laguna**) + 7 Gehminuten.\n\n### Empfehlung\nUnbedingt empfehlenswert, um die vollständige Geschichte Teneriffas aus einer anderen Perspektive als dem MUNA zu erleben. **1,5–2 Stunden** einplanen. Der Innenhof allein rechtfertigt den Besuch. Ideal kombiniert mit der Kathedrale und der Altstadt von La Laguna an einem Vormittag.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -2915,7 +2675,7 @@
       "slug": "casa-del-vino-tenerife",
       "name": "Casa del Vino de Tenerife",
       "shortDescription": "Das bedeutendste Weinmuseum der Kanaren — Hacienda aus dem 17. Jahrhundert in El Sauzal mit allen 5 Teneriffa-D.O.s, Weinproben und Restaurant mit Atlantikblick",
-      "description": "Die **Casa del Vino de Tenerife** in **El Sauzal** ist die Referenzadresse für das Verständnis und den Genuss der kanarischen Weinkultur. Untergebracht in einer restaurierten traditionellen Hacienda aus dem 17. Jahrhundert mit Terrassen mit Blick auf den Atlantik und den Teide, vereint sie Weinmuseum, Verkostungsraum, Weinladen und Gastronomierestaurant unter einem Dach.\n\n### Das Museum\nDie Ausstellung verfolgt die Geschichte des Weins auf den Kanaren von den ersten Weinbergen nach der spanischen Eroberung im 15. Jahrhundert bis zu den fünf heutigen Herkunftsbezeichnungen. Tafeln, historische Kellereigeräte, Weinbergkarten nach Gemeinden und eine Sammlung historischer Flaschen machen dies zu einem der vollständigsten Weinmuseen Spaniens.\n\n### Die Weine Teneriffas\nTeneriffa hat **5 Herkunftsbezeichnungen auf einer einzigen Insel** — die höchste D.O.-Dichte pro Fläche in Spanien:\n- 🍇 **Tacoronte-Acentejo** — die älteste und renommierteste, kräftige Rotweine\n- 🍇 **Valle de la Orotava** — Weinberge am Fuß des Teide, frische aromatische Weißweine\n- 🍇 **Ycoden-Daute-Isora** — Nordwestküste, jahrhundertealte Reben auf Vulkanterrassen\n- 🍇 **Abona** — Südseite der Insel, extreme Höhenlage zwischen 400 und 1.700 m\n- 🍇 **Valle de Güímar** — Südosten, einzigartiges Mikroklima zwischen Teide und Meer\n\nSeine **Reblaus-freien Reben von bis zu 500 Jahren** — die die Seuche überlebten, die im 19. Jahrhundert europäische Weinberge verwüstete — produzieren nirgendwo anders replizierbare Weine.\n\n### Der Laden\nDer Laden der Casa del Vino bietet die beste Auswahl aller 5 D.O.s unter einem Dach — ideal, um Flaschen mit nach Hause zu nehmen, die man außerhalb Teneriffas kaum findet.\n\n### Das Restaurant\nDas Restaurant serviert marktfrische kanarische Küche mit lokalem Weinpairing. Die Terrasse mit Atlantikblick ist einer der schönsten Tische Nordteneriffas.\n\n### Praktische Informationen\n- 📍 Ctra. General del Norte 96, El Sauzal\n- 🕙 Di–Sa **10:00–21:30** Uhr · So **11:00–18:00** Uhr · Montag geschlossen\n- 💶 Museumseintritt: kostenlos · Weinproben: ab **6 €**\n- 🚗 Ausfahrt El Sauzal von der Autobahn TF-5 Nord\n\n### Empfehlung\nUnbedingt für Weinliebhaber. Morgens ankommen, Museum besichtigen, im Laden stöbern und zum Mittagessen auf der Terrasse bleiben. Gut kombinierbar mit **La Laguna** (15 km) oder **Puerto de la Cruz** (12 km). Für ein geführtes Erlebnis mit inkludierter Weinprobe kann eine organisierte Aktivität gebucht werden.",
+      "description": "Die **Casa del Vino de Tenerife** in **El Sauzal** ist die Referenzadresse für das Verständnis und den Genuss der kanarischen Weinkultur. Untergebracht in einer restaurierten traditionellen Hacienda aus dem 17. Jahrhundert mit Terrassen mit Blick auf den Atlantik und den Teide, vereint sie Weinmuseum, Verkostungsraum, Weinladen und Gastronomierestaurant unter einem Dach.\n\n### Das Museum\nDie Ausstellung verfolgt die Geschichte des Weins auf den Kanaren von den ersten Weinbergen nach der spanischen Eroberung im 15. Jahrhundert bis zu den fünf heutigen Herkunftsbezeichnungen. Tafeln, historische Kellereigeräte, Weinbergkarten nach Gemeinden und eine Sammlung historischer Flaschen machen dies zu einem der vollständigsten Weinmuseen Spaniens.\n\n### Die Weine Teneriffas\nTeneriffa hat **5 Herkunftsbezeichnungen auf einer einzigen Insel** — die höchste D.O.-Dichte pro Fläche in Spanien:\n- 🍇 **Tacoronte-Acentejo** — die älteste und renommierteste, kräftige Rotweine\n- 🍇 **Valle de la Orotava** — Weinberge am Fuß des Teide, frische aromatische Weißweine\n- 🍇 **Ycoden-Daute-Isora** — Nordwestküste, jahrhundertealte Reben auf Vulkanterrassen\n- 🍇 **Abona** — Südseite der Insel, extreme Höhenlage zwischen 400 und 1.700 m\n- 🍇 **Valle de Güímar** — Südosten, einzigartiges Mikroklima zwischen Teide und Meer\n\nSeine **Reblaus-freien Reben von bis zu 500 Jahren** — die die Seuche überlebten, die im 19. Jahrhundert europäische Weinberge verwüstete — produzieren nirgendwo anders replizierbare Weine.\n\n### Der Laden\nDer Laden der Casa del Vino bietet die beste Auswahl aller 5 D.O.s unter einem Dach — ideal, um Flaschen mit nach Hause zu nehmen, die man außerhalb Teneriffas kaum findet.\n\n### Das Restaurant\nDas Restaurant serviert marktfrische kanarische Küche mit lokalem Weinpairing. Die Terrasse mit Atlantikblick ist einer der schönsten Tische Nordteneriffas.\n\n### Praktische Informationen\n- 📍 Ctra. General del Norte 96, El Sauzal\n- 🕙 Di–Sa **10:00–21:30** Uhr · So **11:00–18:00** Uhr · Montag geschlossen\n- 💶 Museumseintritt: kostenlos · Weinproben: **kostenpflichtig** (aktuelles Programm und Preise auf der offiziellen Website)\n- 🚗 Ausfahrt El Sauzal von der Autobahn TF-5 Nord\n\n### Empfehlung\nUnbedingt für Weinliebhaber. Morgens ankommen, Museum besichtigen, im Laden stöbern und zum Mittagessen auf der Terrasse bleiben. Gut kombinierbar mit **La Laguna** (15 km) oder **Puerto de la Cruz** (12 km). Für ein geführtes Erlebnis mit inkludierter Weinprobe kann eine organisierte Aktivität gebucht werden.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -2947,7 +2707,7 @@
       "slug": "museo-ciencia-cosmos",
       "name": "Museum für Wissenschaft und den Kosmos",
       "shortDescription": "Das vollständigste Wissenschaftsmuseum der Kanaren — Planetarium, Astronomie und interaktive Physik in La Laguna",
-      "description": "Das **Museum für Wissenschaft und den Kosmos** in La Laguna ist das wichtigste Wissenschafts- und Vermittlungszentrum der Kanarischen Inseln. Mit interaktiven Ausstellungen zu Physik, Biologie und Astronomie sowie einem **digitalen Projektionsplanetarium** ist es ein unverzichtbarer Besuch für Familien mit Kindern und alle, die neugierig auf das Universum sind.\n\n### Das Gebäude und der Kontext\nIn La Laguna gelegen, wenige Minuten vom UNESCO-Altstadtzentrum entfernt, gehört das Museum zum **Museen- und Zentrennetzwerk des Cabildo Teneriffa**. Sein Außendesign mit der Planetariumskuppel als dominierendem Element ist bereits ein visuelles Wahrzeichen der Gemeinde.\n\n### Die Ausstellungen\nDas Museum deckt drei Hauptthemenbereiche ab:\n\n**🌌 Kosmos und Astronomie**\nTeneriffa ist einer der besten Orte der Welt für astronomische Beobachtungen — das **Teide-Observatorium** (IAC) ist die bedeutendste astronomische Anlage der nördlichen Hemisphäre. Das Museum erklärt warum: Himmelsbedingungen, geografische Lage und die Geschichte der Astronomie auf den Kanaren von den Guanchen bis zur Gegenwart.\n\n**⚛️ Physik und Interaktivität**\nHands-on-Installationen zu Mechanik, Wellen, Elektrizität, Optik und Thermodynamik — zum Verständnis der physikalischen Welt durch direkte Erfahrung. Für alle Altersgruppen geeignet.\n\n**🧬 Leben und Evolution**\nBiologie, Evolution, kanarische Ökosysteme und die Biodiversität des Archipels. Der Abschnitt über endemische kanarische Flora und Fauna verbindet direkt mit dem einzigartigen Naturerbe der Inseln.\n\n### Das Planetarium\nDie **Planetariumsvorführung** ist der Höhepunkt des Besuchs: 360°-Digitalprojektion auf die Kuppel, die den kanarischen Nachthimmel nachbildet, mit virtuellen Reisen durch das Sonnensystem und das beobachtbare Universum. Vorführungen auf Spanisch zu festen Zeiten — Vorabinformation und Reservierung empfohlen.\n\n### Praktische Informationen\n- 📍 Avda. de Los Menceyes 70, La Laguna\n- 🕙 Di–Sa **9:00–19:00** Uhr · So **10:00–17:00** Uhr · Montag geschlossen\n- 💶 Eintritt: **5 €** Erwachsene · **3 €** ermäßigt · Kostenlos unter 6\n- 🔭 Planetariumsvorführung: **2 €** extra — an der Kasse buchen\n- 🚌 Bus ab Santa Cruz (Linie 014) oder 15 Min. Fußweg von der Altstadt La Laguna\n\n### Empfehlung\nIdeal für Familien mit Kindern und alle mit wissenschaftlicher Neugier. **2–3 Stunden** einplanen und eine Planetariumsvorführung einschließen. Mit der Altstadt La Laguna (15 Min. Fußweg) zu einem Tagesausflug kombinieren. Bei astronomischem Interesse auch Besuche im **Teide-Observatorium** in Betracht ziehen.",
+      "description": "Das **Museum für Wissenschaft und den Kosmos** in La Laguna ist das wichtigste Wissenschafts- und Vermittlungszentrum der Kanarischen Inseln. Mit interaktiven Ausstellungen zu Physik, Biologie und Astronomie sowie einem **digitalen Projektionsplanetarium** ist es ein unverzichtbarer Besuch für Familien mit Kindern und alle, die neugierig auf das Universum sind.\n\n### Das Gebäude und der Kontext\nIn La Laguna gelegen, wenige Minuten vom UNESCO-Altstadtzentrum entfernt, gehört das Museum zum **Museen- und Zentrennetzwerk des Cabildo Teneriffa**. Sein Außendesign mit der Planetariumskuppel als dominierendem Element ist bereits ein visuelles Wahrzeichen der Gemeinde.\n\n### Die Ausstellungen\nDas Museum deckt drei Hauptthemenbereiche ab:\n\n**🌌 Kosmos und Astronomie**\nTeneriffa ist einer der besten Orte der Welt für astronomische Beobachtungen — das **Teide-Observatorium** (IAC) ist die bedeutendste astronomische Anlage der nördlichen Hemisphäre. Das Museum erklärt warum: Himmelsbedingungen, geografische Lage und die Geschichte der Astronomie auf den Kanaren von den Guanchen bis zur Gegenwart.\n\n**⚛️ Physik und Interaktivität**\nHands-on-Installationen zu Mechanik, Wellen, Elektrizität, Optik und Thermodynamik — zum Verständnis der physikalischen Welt durch direkte Erfahrung. Für alle Altersgruppen geeignet.\n\n**🧬 Leben und Evolution**\nBiologie, Evolution, kanarische Ökosysteme und die Biodiversität des Archipels. Der Abschnitt über endemische kanarische Flora und Fauna verbindet direkt mit dem einzigartigen Naturerbe der Inseln.\n\n### Das Planetarium\nDie **Planetariumsvorführung** ist der Höhepunkt des Besuchs: 360°-Digitalprojektion auf die Kuppel, die den kanarischen Nachthimmel nachbildet, mit virtuellen Reisen durch das Sonnensystem und das beobachtbare Universum. Vorführungen auf Spanisch zu festen Zeiten — Vorabinformation und Reservierung empfohlen.\n\n### Praktische Informationen\n- 📍 Avda. de Los Menceyes 70, La Laguna\n- 🕙 Di–Sa **9:00–19:00** Uhr · So **10:00–17:00** Uhr · Montag geschlossen\n- 💶 **Eintritt kostenpflichtig** — aktuelle Preise auf der offiziellen Website · Kostenlos unter 6\n- 🔭 Planetariumsvorführung: **gegen Aufpreis** — an der Kasse erfragen\n- 🚌 Bus ab Santa Cruz (Linie 014) oder 15 Min. Fußweg von der Altstadt La Laguna\n\n### Empfehlung\nIdeal für Familien mit Kindern und alle mit wissenschaftlicher Neugier. **2–3 Stunden** einplanen und eine Planetariumsvorführung einschließen. Mit der Altstadt La Laguna (15 Min. Fußweg) zu einem Tagesausflug kombinieren. Bei astronomischem Interesse auch Besuche im **Teide-Observatorium** in Betracht ziehen.",
       "island": "tenerife",
       "category": "culture",
       "coordinates": {
@@ -3166,6 +2926,927 @@
       "top": true,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": ""
+    },
+    {
+      "slug": "jardin-botanico-puerto-cruz",
+      "name": "Botanischer Garten Puerto de la Cruz",
+      "shortDescription": "Der älteste Botanische Garten der Kanaren — 1788 von König Karl III. gegründet, um tropische Pflanzen zu akklimatisieren, mit über 3.000 Arten aus aller Welt",
+      "description": "Der **Jardín de Aclimatación de La Orotava**, bekannt als der Botanische Garten von Puerto de la Cruz, ist einer der historisch bedeutsamsten Gärten Spaniens. Im **Jahr 1788 auf Befehl von König Karl III.** gegründet, war sein ursprünglicher Zweck die Akklimatisierung tropischer Pflanzen aus Amerika, Asien und Afrika, bevor sie in den Königlichen Botanischen Garten in Madrid gebracht wurden — eine botanische «Wartehalle» für Arten, die noch nie europäischen Boden betreten hatten.\n\n### Geschichte und Auftrag\nDer Garten wurde auf dem Höhepunkt der Aufklärung angelegt, als Spanien die Welt bereiste und wissenschaftliche Exemplare für seine Herbarien und Königsgärten sammelte. Das außergewöhnliche Klima Nordteneriffas — mild, feucht und frostfrei — machte ihn zum idealen Ort für die Akklimatisierung tropischer Pflanzen, die auf dem Kontinent sonst verkümmern würden. Mehr als zwei Jahrhunderte später ist der Garten weiterhin ein botanisches Forschungszentrum unter der Obhut des **Spanischen Landwirtschaftsministeriums**.\n\n### Die Sammlung\nAuf gerade einmal **20.000 m²** sind mehr als **3.000 Pflanzenarten** aller Kontinente versammelt:\n- 🌴 Palmen, Baumfarne und Cycadeen aus dem tropischen Amerika\n- 🌺 Orchideen, Bromelien und Fleischfressende Pflanzen\n- 🌿 Endemische kanarische und makaronesische Flora\n- 🎋 Riesenbambus, Baobabs und Arten aus dem äquatorialen Afrika\n- 🌳 Hundertjährige Bäume mit über 200 Jahren Geschichte\n\n### Der Riesenfeigenbaum\nDas unbestrittene Wahrzeichen des Gartens ist sein **jahrhundertealter Ficus benjamina**: ein Baum von außergewöhnlichen Ausmaßen, dessen Luftwurzeln im Laufe der Zeit ein botanisches Labyrinth geschaffen haben, das wie aus einem Abenteuerfilm wirkt. Man kann nicht anders, als vor ihm innezuhalten.\n\n### Praktische Informationen\n- 📍 Calle Retama 2, Puerto de la Cruz\n- 🕙 Täglich **9:00–18:00** Uhr (bis 19:00 Uhr im Sommer)\n- 💶 **Eintritt kostenpflichtig** — aktuelle Preise auf der offiziellen Website · Kostenlos unter 12\n- ⏱️ Empfohlene Dauer: **1–1,5 Stunden**\n- 🚌 Bus vom Zentrum Puerto de la Cruz: **Linie 101**\n\n### Empfehlung\nMorgens besuchen für das beste Licht durch die Vegetation. Die Temperatur im Inneren des Gartens ist immer angenehm kühl — ideal auch an den heißesten Tagen im Norden. Ideal kombiniert mit dem **Stadtzentrum Puerto de la Cruz** und der Martiánez-Seepromenade. Mit Kindern ist der Garten ein unschlagbares Naturerkundungserlebnis.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.4071,
+        "lng": -16.5474
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/jardin-botanico-puerto-cruz.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "botanisch",
+        "garten",
+        "pflanzen",
+        "geschichte",
+        "puerto-de-la-cruz",
+        "18-jahrhundert"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "🌿",
+      "top": true,
+      "municipio": "puerto-de-la-cruz",
+      "mapsUrl": "https://maps.app.goo.gl/8kb3FuXghguqzq3V6"
+    },
+    {
+      "slug": "palmetum-santa-cruz",
+      "name": "Palmetum Santa Cruz",
+      "shortDescription": "Europas bedeutendste Palmensammlung — 12 Hektar auf einer ehemaligen Mülldeponie mit über 800 Palmenarten aus aller Welt",
+      "description": "Das **Palmetum von Santa Cruz de Tenerife** ist einer der außergewöhnlichsten Botanischen Gärten Europas und die **vollständigste Palmensammlung des Kontinents**. Im **Jahr 2014** nach mehr als 20 Jahren Arbeit eingeweiht, ist seine Geschichte ebenso bemerkenswert wie sein Inhalt: Es wurde auf der ehemaligen **städtischen Mülldeponie von Santa Cruz** errichtet und verwandelte 12 Hektar Abfall in einen der wertvollsten Gärten der Welt.\n\n### Ein Wunder der Regeneration\nZwei Jahrzehnte lang schichtete das Palmetum-Team Lage für Lage Erde, Kompost und Substrat über den alten Deponieabfall und schuf so den Nährboden für Palmen aus allen Erdteilen. Das Ergebnis ist eine beispiellose Geschichte ökologischer Regeneration in Spanien und ein weltweites Vorbild für die Umwandlung degradierter Flächen in Naturerbe.\n\n### Die Sammlung\nMit über **2.500 Exemplaren** von mehr als **800 Palmenarten** aus fünf Kontinenten gliedert das Palmetum seine Sammlung nach geografischen Gebieten:\n- 🌴 **Amerika-Bereich**: Palmen aus dem tropischen und subtropischen Amerika\n- 🌴 **Afrika und Madagaskar**: die einzigartigsten Palmen des afrikanischen Kontinents, darunter die legendäre **Madagaskar-Palme** (*Ravenea rivularis*)\n- 🌴 **Asien und Pazifik**: von den Palmen Borneos bis zu denen der Pazifikinseln\n- 🌴 **Kanaren und Makaronesien**: die Kanarische Dattelpalme (*Phoenix canariensis*) in ihrem natürlichen Lebensraum\n- 🏞️ **Zentraler See**: mit Flamingos und Enten in einer landschaftlich reizvollen Umgebung\n\n### Die Aussichtspunkte\nDer Garten verfügt über mehrere Aussichtspunkte mit Panoramablick auf das **Auditorium Teneriffa**, den Atlantik und den Teide. Die Kombination aus Palmen im Vordergrund und dem Auditorium im Hintergrund ist eine der einzigartigsten Fotografien, die man in Santa Cruz aufnehmen kann.\n\n### Praktische Informationen\n- 📍 Avenida de la Constitución, Santa Cruz (neben dem Auditorium)\n- 🕙 Täglich **10:00–18:00** Uhr\n- 💶 **Eintritt kostenpflichtig** — aktuelle Preise auf der offiziellen Website · Kostenlos unter 12\n- ⏱️ Empfohlene Dauer: **1,5–2 Stunden**\n- 🚋 Straßenbahn L1 (Haltestelle **Intercambiador** oder **Auditorio**) + 5 Gehminuten\n\n### Empfehlung\nIdeal kombiniert mit dem **Auditorium Teneriffa** und der Strandpromenade. Das beste Licht für Palmenfotos ist nachmittags, wenn die Sonne sie von Westen beleuchtet. Mit Kindern schaffen der Flamingosee und die Wege zwischen riesigen Palmen unvergessliche Erinnerungen.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.459,
+        "lng": -16.2483
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/palmetum-santa-cruz.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "palmen",
+        "garten",
+        "santa-cruz",
+        "botanisch",
+        "regeneration",
+        "auditorium"
+      ],
+      "visitDuration": "1.5-2h",
+      "difficulty": "easy",
+      "emoji": "🌴",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/AXqgqpbfech5CT1x5"
+    },
+    {
+      "slug": "mariposario-del-drago",
+      "name": "Mariposario del Drago — Schmetterlingshaus",
+      "shortDescription": "Teneriffas tropischer Schmetterlingsgarten — Hunderte exotischer Arten fliegen frei zwischen Tropenpflanzen neben dem Tausendjährigen Drachenbaum in Icod",
+      "description": "Das **Mariposario del Drago** ist einer der bezauberndsten Naturräume Teneriffas: ein geschlossener Tropengarten, in dem Hunderte von **exotischen Schmetterlingen aus aller Welt** frei zwischen Orchideen, Helikonien und Tropenpflanzen fliegen. In **Icod de los Vinos** gelegen, nur wenige Meter vom berühmten Tausendjährigen Drachenbaum entfernt, ist es ein unverzichtbarer Besuch für Familien und alle, die ein anderes Naturerlebnis suchen.\n\n### Das Erlebnis\nWenn Sie die Tür des Schmetterlingshauses durchqueren, betreten Sie ein tropisches Mikroklima: warme Temperatur, hohe Luftfeuchtigkeit und ein üppiger Garten, in dem Schmetterlinge um Sie herum flattern, auf Blumen landen und — häufig — auf Ihren Armen, Händen oder Schultern. Das Erlebnis, einen tropischen Schmetterling auf der Haut zu spüren, ist etwas, das man so leicht nicht vergisst — besonders für kleine Kinder.\n\n### Die Schmetterlinge\n- 🦋 **Tropische Arten** aus Asien, Mittelamerika und Afrika\n- 🦋 Große Tagschmetterlinge mit spektakulären Farben\n- 🦋 Der vollständige Lebenszyklus: Eier, Raupen, Puppen und Falter\n- 🦋 Neue Schlüpflinge praktisch täglich\n\nZu den auffälligsten Arten gehören die **Blauen Morphos** aus dem tropischen Amerika, **Eulenschmetterlinge** (*Caligo*) mit 15 cm Flügelspannweite und mehrere **asiatische Papilio**-Arten mit geschwänzten Hinterflügeln.\n\n### Der Tropengarten\nDie Schmetterlinge leben inmitten einer **Auswahl an Wirts- und Nektarpflanzen**, die ihren natürlichen Lebensraum nachbilden: Helikonien, Anthuriums, Passionsblumen, tropische Orchideen und eine Sammlung tropischer Pflanzen, die für sich allein schon einen Besuch wert ist.\n\n### Perfekte Kombination\nDas Schmetterlingshaus liegt **nur wenige Meter vom Tausendjährigen Drachenbaum** entfernt — der gemeinsame Besuch bildet einen der vollständigsten Ausflüge in Nordteneriffa. Die historische Altstadt von Icod de los Vinos mit ihren Weinkellern und der Kirche San Marcos rundet den Tag ab.\n\n### Praktische Informationen\n- 📍 Calle San Sebastián, Icod de los Vinos (neben dem Drachenbaum)\n- 🕙 Täglich **9:30–18:00** Uhr\n- 💶 **Eintritt kostenpflichtig** — aktuelle Preise auf der offiziellen Website · Kostenlos unter 4\n- ⏱️ Empfohlene Dauer: **45 Min. – 1 Stunde**\n- 📸 Das beste Licht für Schmetterlingsfotos ist am späten Vormittag\n\n### Empfehlung\nBunte Kleidung tragen — Schmetterlinge werden von leuchtenden Farben angezogen und die Chancen steigen, dass sie sich auf Ihnen niederlassen. Perfekt für Familien mit kleinen Kindern: Das Erlebnis, mit freifliegenden Tropenschmetterlingen zu interagieren, ist in jedem Alter magisch. Mit dem Drachenbaum (Eingang direkt nebenan) und der Altstadt von Icod zu einem vollständigen Vormittag kombinieren.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.3795,
+        "lng": -16.722
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mariposario-del-drago.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "schmetterlinge",
+        "tropisch",
+        "icod",
+        "garten",
+        "familien",
+        "natur"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "🦋",
+      "top": false,
+      "municipio": "icod-de-los-vinos",
+      "mapsUrl": "https://maps.app.goo.gl/d9acWz7sEsV5kD5y8"
+    },
+    {
+      "slug": "parque-garcia-sanabria",
+      "name": "Parque García Sanabria",
+      "shortDescription": "Der größte Stadtpark der Kanarischen Inseln — 7 Hektar im Herzen von Santa Cruz mit einer außergewöhnlichen internationalen Freiluftskulpturensammlung",
+      "description": "Der **Parque García Sanabria** ist der größte Stadtpark der Kanarischen Inseln und eine der liebsten Ecken der Stadt Santa Cruz de Tenerife. Im **Jahr 1926** eingeweiht und nach dem Bürgermeister benannt, der seine Schaffung vorantrieb, Emilio García Sanabria, ist diese grüne Lunge von **73.000 m²** im Herzen der Hauptstadt der wichtigste Treffpunkt der Einwohner von Santa Cruz — und eine angenehme Überraschung für jeden Besucher, der ihn entdeckt.\n\n### Ein Freilichtmuseum für Skulpturen\nWas den Parque García Sanabria wirklich einzigartig macht, sind nicht nur seine Tropenpflanzen oder Brunnen, sondern seine **permanente internationale Skulpturensammlung**: Seit 1973 veranstaltet die Stadt den **Internationalen Wettbewerb für Freiluftbildhauerei in Santa Cruz de Tenerife**, und die prämierten Werke bleiben dauerhaft im Park. Heute gleicht ein Spaziergang durch seine Wege einem Gang durch Jahrzehnte internationaler zeitgenössischer Kunst inmitten der Vegetation: Werke von Künstlern aus aller Welt stehen neben Palmen, jahrhundertealten Bäumen und tropischen Blumen in einer einzigartigen Kombination.\n\n### Die Vegetation\nDer Park beherbergt eine außergewöhnliche Sammlung tropischer und subtropischer Pflanzen von allen Kontinenten:\n- 🌴 Palmen aus Amerika, Afrika und Asien\n- 🌺 Bougainvilleen, Hibiskus und Flammbäume in dauerhafter Blüte\n- 🌳 Jahrhundertealte Schattenbäume von kolossalem Ausmaß\n- 🌿 Themengärten mit Duft- und Heilpflanzen\n- 🏞️ Zierbrunnen und Teiche\n\n### Der Leuchtende Brunnen\nDer große **Mittelbrunnen** mit seinen Wasser- und Lichtspielen ist das ikonischste Element des Parks und der beliebteste Treffpunkt für Familien und Besucher. Abends, wenn der Park beleuchtet ist und der Brunnen erstrahlt, ist die Atmosphäre besonders zauberhaft.\n\n### Praktische Informationen\n- 📍 Rambla del General Franco, Santa Cruz de Tenerife (Stadtzentrum)\n- 🕙 **24 Stunden** geöffnet — freier Zugang das ganze Jahr\n- 💶 **Kostenloser Eintritt**\n- ⏱️ Empfohlene Dauer: **1 Stunde**\n- 🚋 Straßenbahn L1, Haltestelle **García Sanabria** (direkter Zugang)\n- 🧒 Kinderspielplatz im Inneren\n\n### Empfehlung\nIdeal für einen gemütlichen Spaziergang vor oder nach dem Mittagessen — der Park ist von Restaurants und Terrassen umgeben. Im Frühling und Sommer ist die Vegetation in voller Pracht. Perfekt kombiniert mit dem **Mercado de Nuestra Señora de África** (5 Gehminuten) und einem Spaziergang entlang der Rambla de Santa Cruz.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.4677,
+        "lng": -16.255
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/parque-garcia-sanabria.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "park",
+        "santa-cruz",
+        "skulptur",
+        "garten",
+        "urban",
+        "kostenlos"
+      ],
+      "visitDuration": "1h",
+      "difficulty": "easy",
+      "emoji": "🌳",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/613615WbGoHrnw4X6"
+    },
+    {
+      "slug": "parque-rural-anaga",
+      "name": "Landschaftspark Anaga",
+      "shortDescription": "Ein UNESCO-Biosphärenreservat an der Nordspitze Teneriffas — der ausgedehnteste Lorbeerwald der Welt, dramatische Schluchten und zeitlose Dörfer mit 20 Millionen Jahren Naturgeschichte",
+      "description": "Der **Landschaftspark Anaga** ist einer der außergewöhnlichsten Naturräume nicht nur der Kanaren, sondern des gesamten Planeten. Seit **2015 von der UNESCO zum Biosphärenreservat** erklärt, beherbergt dieses Gebirgsmassiv an der Nordostspitze Teneriffas den **ausgedehntesten und besterhaltenen Lorbeerwald der Welt** — ein Relikt-Ökosystem aus dem Tertiär, das vor **20 Millionen Jahren** in Europa und Nordafrika verbreitet war, bevor die Eiszeiten es vom kontinentalen Festland tilgten. In Anaga überlebte er dank des besonderen Mikroklimas Nordteneriffas.\n\n### Der Lorbeerwald: Ein Urwald\nEinen Spaziergang durch den Wald von Anaga zu machen bedeutet buchstäblich, in die Vergangenheit zu reisen. Die Bäume — Lorbeer, Til, Viñátigo, Stechpalme und Faya — sind von Moos und Flechten bedeckt, und ihre Äste verflechten sich über den Wegen zu Pflanzentunneln von hypnotischer Schönheit. Die permanente Feuchtigkeit und der Nebel, der das Massiv einhüllt, verleihen der Landschaft einen beinahe magischen Charakter, besonders in der Morgendämmerung.\n\nSchlüsselarten des Lorbeerwaldes:\n- 🌿 **Kanarischer Lorbeer** (*Laurus novocanariensis*) — der Wahrzeichen-Baum\n- 🌿 **Til** (*Ocotea foetens*) — mit außergewöhnlich gemasertem Holz\n- 🌿 **Viñátigo** (*Persea indica*) — ein Verwandter der Avocado\n- 🌿 **Faya** (*Myrica faya*) — ein Strauch, der die Schluchten besiedelt\n\n### Die Schluchten und die Landschaft\nAnaga ist ein Gebiet mit **abruptem und dramatischem Relief**: scharfe Grate, die steil zum Meer abfallen, tiefe Schluchten, die abgelegene Dörfer voneinander trennen, und Klippen, die in den Atlantik stürzen. Die Ausblicke von den Graten sind von absoluter Spektakularität — man sieht gleichzeitig die Nord- und Südküste Teneriffas, den Teide im Hintergrund und an klaren Tagen sogar Gran Canaria und La Gomera.\n\n### Die Bergdörfer\nZwischen dem Wald verstecken sich kleine Dörfer von außergewöhnlicher Ursprünglichkeit — **Taganana, Las Carboneras, El Bailadero, Chamorga** — wo die Zeit stehen geblieben zu sein scheint. Schwer erreichbar, mit engen Serpentinenstraßen, werden sie von Familien bewohnt, die seit Generationen von Landwirtschaft und Fischerei leben.\n\n### Unverzichtbare Wanderrouten\n- 🥾 **Cruz del Carmen → Las Carboneras** (9 km, durch das Herz des Lorbeerwaldes)\n- 🥾 **Roque de Taborno** (Aussichtspunkt mit 360°-Blick über die Schluchten)\n- 🥾 **Bosque de los Catalanes** (kurze Route zwischen jahrhundertealten Bäumen)\n- 🥾 **Chinamada** (Höhlenhäuser-Dorf, nur zu Fuß erreichbar)\n- 🥾 **Playa de Benijo** (Abstieg durch eine Schlucht zum wilden Schwarzsandstrand)\n\n### Fauna\n- 🦜 **Bolle-Taube** und **Weißschwanz-Lorbeertaube** — endemische Tauben des Lorbeerwaldes, gefährdet\n- 🦎 Kanarischer Eidechse, Gecko und mehrere endemische Eidechsenarten\n- 🦋 Kanarische Endemitenschmetterlinge\n\n### Praktische Informationen\n- 📍 Besucherzentrum: **Cruz del Carmen** (TF-12, Las Mercedes)\n- 🕙 Besucherzentrum: **9:00–17:00** Uhr (montags geschlossen)\n- 💶 **Kostenloser Eintritt** · Parkplatz in Cruz del Carmen\n- 🚌 Bus aus Santa Cruz: **Linie 75** (bis Las Mercedes / Cruz del Carmen)\n- ⏱️ Variabel: von 1 Stunde (Aussichtspunkt) bis zu einem vollen Tag (lange Routen)\n\n### Empfehlung\nVermeiden Sie die Mittagsstunden im Sommer — Anagas Wanderwege haben außerhalb des Waldes kaum Schatten und die Hitze kann intensiv sein. Bringen Sie eine leichte Jacke mit, auch wenn Sie bei Sonnenschein starten: Nebel kann in Minuten aufziehen und die Temperatur deutlich senken. Der Sonnenaufgang in Cruz del Carmen, mit einem Wolkenmeer über dem Wald, ist eines der beeindruckendsten visuellen Erlebnisse Teneriffas.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.551,
+        "lng": -16.182
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/parque-rural-anaga.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "lorbeerwald",
+        "anaga",
+        "wandern",
+        "biosphäre",
+        "natur",
+        "wald",
+        "schluchten"
+      ],
+      "visitDuration": "halber-tag-ganzer-tag",
+      "difficulty": "moderate",
+      "emoji": "🌿",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/PAxbcxcLo54Frfa56"
+    },
+    {
+      "slug": "parque-nacional-teide",
+      "name": "Nationalpark Teide",
+      "shortDescription": "UNESCO-Welterbe und meistbesuchter Nationalpark Spaniens — der Teide-Vulkan auf 3.718 m, die Cañadas-Caldera und einer der besten Sternenhimmel der Welt",
+      "description": "Der **Nationalpark Teide** ist schlicht und einfach einer der außergewöhnlichsten Orte in Spanien und auf der Welt. Seit **2007 UNESCO-Welterbe** dominiert dieser Park von fast 19.000 Hektar im Herzen Teneriffas der **Teide** mit seinen **3.718 Metern** über dem Meeresspiegel — der höchste Vulkan Spaniens, der höchste Gipfel im gesamten Atlantik und der drittgrößte Vulkan der Welt gemessen von seiner ozeanischen Basis.\n\nEr ist auch der **meistbesuchte Nationalpark Spaniens** und einer der meistbesuchten Europas — und das aus gutem Grund: die Landschaft, die er bietet, ist mit nichts anderem auf dem Kontinent zu vergleichen.\n\n### Der Vulkan und die Caldera\nDer Teide ist nicht einfach ein Vulkan: Er ist das Ergebnis von Millionen Jahren von Eruptionen, die eine Landschaft von außerordentlicher Vielfalt und Schönheit geformt haben. Die **Caldera de Las Cañadas** — eine kreisförmige Senke von 16 km Durchmesser, die durch den Kollaps des alten Vulkangebäudes entstand — ist die Kulisse, in der der Park liegt. In ihr schaffen Felder aus erstarrter Lava, sekundäre Vulkankegel und bizarr geformte Felsen eine Landschaft wie von einem anderen Planeten.\n\n**Unverzichtbare geologische Sehenswürdigkeiten:**\n- 🌋 **Roques de García** — 8 Millionen Jahre alte Vulkanformationen, die meistfotografierten des Parks\n- 🌋 **Pico Viejo** — zweiter Vulkan des Parks mit einer 800 m breiten Caldera\n- 🌋 **Minas de San José** — Felder aus Lapilli und Bimsstein in außergewöhnlichen Farben\n- 🌋 **El Portillo** — nördliches Eingangstor zum Park mit Besucherzentrum\n- 🌋 **La Fortaleza** — beeindruckender 2.159 m hoher Felsen mit Blick über die Caldera\n\n### Die Seilbahn\nDie **Teide-Seilbahn** steigt in nur 8 Minuten von 2.356 m auf 3.555 m auf und bietet eine der beeindruckendsten Perspektiven der Kanaren: ein Wolkenmeer unter Ihren Füßen, die Atlantikinseln am Horizont und den Teide-Gipfel über Ihrem Kopf. Um den genauen Gipfel (3.718 m) zu erreichen, ist eine **kostenlose Genehmigung** erforderlich, die im Voraus auf der Nationalpark-Website reserviert werden muss.\n\n### Einzigartige Flora\nDer Park beherbergt Pflanzenarten, die nirgendwo sonst auf der Welt vorkommen:\n- 🌺 **Roter Tajinaste** (*Echium wildpretii*) — Teneriffas Wahrzeichen-Blume, bis 3 m hoch, blüht Mai–Juni\n- 🌼 **Teide-Veilchen** (*Viola cheiranthifolia*) — die am höchsten wachsende Pflanze ganz Spaniens\n- 🌿 **Teide-Ginster** (*Spartocytisus supranubius*) — weiß-rosafarbener Strauch, der den Park im Frühling parfümiert\n- 🌱 Mehr als 60 endemische Arten im Nationalpark\n\n### Der reinste Sternenhimmel\nVor der Morgendämmerung oder nach Einbruch der Dunkelheit enthüllt der Nationalpark Teide sein bestgehütetes Geheimnis: einen der **reinsten Himmel der nördlichen Hemisphäre** für astronomische Beobachtungen. Die Höhe, die Abwesenheit von Lichtverschmutzung und die atmosphärische Stabilität der Kanaren haben den Teide zu einem der besten natürlichen Observatorien der Welt gemacht — das **Teide-Observatorium** des IAC (Kanarisches Institut für Astrophysik) misst hier seit Jahrzehnten die Sterne.\n\n### Empfohlene Wanderrouten\n- 🥾 **Roques de García** (Rundweg, 3,5 km, leicht, spektakulär)\n- 🥾 **Telesforo Bravo** (Aufstieg zum Gipfel zu Fuß, Voranmeldung erforderlich)\n- 🥾 **Pico Viejo** (Genehmigung erforderlich, einzigartige Aussichten über die Vulkancaldera)\n- 🥾 **Montana Blanca → Teide** (Aufstiegsroute auf der Südseite, 7,3 km, +900 m Höhenunterschied)\n\n### Praktische Informationen\n- 📍 Parkzentrum erreichbar über **TF-21** von La Orotava / Vilaflor\n- 🕙 Park: **24 Stunden** geöffnet · Seilbahn: **9:00–16:00** Uhr (wetterabhängig)\n- 💶 Park: **kostenlos** · Seilbahn: **kostenpflichtig** — aktuellen Preis unter telefericoteide.com prüfen\n- 🔒 Gipfelgenehmigung (3.718 m): **kostenlos**, Vorausbuchung auf reservasparquesnacionales.es\n- ⏱️ Empfohlene Dauer: **halber Tag – ganzer Tag**\n- 🚌 Bus aus Puerto de la Cruz oder Los Cristianos (Saisondienst)\n\n### Empfehlung\nNehmen Sie die Seilbahn vor 10 Uhr, um Warteschlangen zu vermeiden und Sichtbarkeit zu gewährleisten, bevor Wolken von der Küste aufsteigen. Um das **Wolkenmeer** in seiner vollen Pracht zu erleben, kommen Sie zum Sonnenaufgang — es ist eines der hypnotischsten Naturschauspiele der Kanaren. Im Frühling (April–Juni) verwandeln blühende Tajinaste die Hänge in ein rotes Meer von außerordentlicher Schönheit.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2723,
+        "lng": -16.643
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/parque-nacional-teide.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "teide",
+        "vulkan",
+        "unesco",
+        "nationalpark",
+        "seilbahn",
+        "wandern",
+        "sternenhimmel"
+      ],
+      "visitDuration": "halber-tag-ganzer-tag",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/frQ24gQ7m3g6xVep7"
+    },
+    {
+      "slug": "roques-de-garcia",
+      "name": "Roques de García",
+      "shortDescription": "Teneriffas ikonischste Vulkanformationen — 8 Millionen Jahre alte Felsnadeln im Herzen des Nationalparks Teide mit direktem Blick auf den Vulkan",
+      "description": "Die **Roques de García** sind das bekannteste Bild des Nationalparks Teide und eine der meistfotografierten Vulkanlandschaften in ganz Spanien. Diese **8 Millionen Jahre alten** basaltischen Felsformationen — älter als der Teide selbst — erheben sich aus der Mitte der Caldera de Las Cañadas wie stille Zeugen von Millionen Jahren vulkanischer Aktivität und schaffen eine Landschaft von solch außerordentlicher Spektakularität, dass sie wie von einem anderen Planeten zu stammen scheint.\n\n### Geologie: Ein Buch aus Stein\nDie Roques de García sind nicht das Ergebnis einer jüngsten Eruption, sondern der **differenziellen Erosion** auf alten Lavaströmen: Das härtere Material hat der Erosion standgehalten, während die Umgebung abgetragen wurde, und legt nun diese Säulen und Nadeln aus Fels frei, die heute über der Caldera aufragen. Ihre eigenwilligen Formen haben eigene Namen:\n\n- 🪨 **La Catedral** — der höchste, vertikalste Felsen, der wie ein steinerner Glockenturm aufsteigt\n- 🪨 **Cinchado** — der Balancierstein, das meistfotografierte Element: ein mehrere Meter großer Felsblock, der scheinbar unmöglich auf einem anderen hängt\n- 🪨 **El Sombrero** — ein unverkennbares hutförmiges Profil, von der Straße aus sichtbar\n- 🪨 **La Ruleta** — eine beinahe künstlich wirkende kreisförmige Säule\n\nDer Farbkontrast ist außergewöhnlich: das Schwarz und Ocker des Vulkangesteins vor dem Weißen des Bimssteins und dem Rot des Lapillis, mit dem schneebedeckten Teide im Hintergrund und dem kanarischen Blau des Himmels darüber.\n\n### Der Rundweg\nDer Rundwanderweg um die Roques de García ist einer der **einfachsten und spektakulärsten Spaziergänge** im gesamten Nationalpark:\n- 🥾 **Distanz**: 3,5 km (Rundweg)\n- ⏱️ **Dauer**: 1–1,5 Stunden\n- 📈 **Höhenunterschied**: praktisch eben (~50 m)\n- ⭐ **Schwierigkeit**: sehr leicht — für alle geeignet\n\nVom Weg aus sind die Aussichten in alle Richtungen atemberaubend: der Teide und Pico Viejo im Norden, die Südwand der Caldera im Hintergrund und die Roques selbst, die bei jedem Schritt ihre Form und Perspektive verändern.\n\n### Das Parador Nacional\nNur wenige Meter von den Roques entfernt steht das ikonische **Parador Nacional de las Cañadas del Teide** — hier zu übernachten und früh aufzustehen, um den Sonnenaufgang über den Felsen zu beobachten, während der Teide den Himmel in Orange und Rosa taucht, ist ein Erlebnis, das nur wenige Menschen vergessen.\n\n### Praktische Informationen\n- 📍 Straße TF-21, km 41 — Las Cañadas del Teide\n- 🅿️ Kostenloser Parkplatz neben den Roques (begrenzte Kapazität — früh ankommen)\n- 💶 **Kostenloser Eintritt**\n- 🕙 **24 Stunden** zugänglich (empfohlen bei Sonnenauf- oder -untergang)\n- ⏱️ Empfohlene Dauer: **1–1,5 Stunden**\n- 🧥 Durchschnittstemperatur: **10–15 °C** (ganzjährig warme Kleidung mitbringen)\n\n### Empfehlung\nKommen Sie vor 9 Uhr oder nach 17 Uhr, um Reisebussen auszuweichen und den Ort in Ruhe zu genießen. Das Morgen- und Abendlicht taucht die Roques in warme Goldtöne und ermöglicht Fotografien von außergewöhnlicher Qualität. Im Winter, wenn der Teide verschneit ist, ist der Kontrast von weißem Schnee gegen schwarzes Gestein von überwältigender Schönheit.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2264,
+        "lng": -16.6108
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/roques-de-garcia.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "vulkanisch",
+        "teide",
+        "geologie",
+        "wandern",
+        "fotografie",
+        "kostenlos",
+        "nationalpark"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "🪨",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/hKfjaNEBmtJcHSSe6"
+    },
+    {
+      "slug": "montana-amarilla",
+      "name": "Naturdenkmal Montaña Amarilla",
+      "shortDescription": "Der gelbe Vulkankegel der Südküste — eine einzigartige ockerfarbene Tuffformation, die es so nirgends sonst in Teneriffa gibt, direkt am Meer in San Miguel de Abona",
+      "description": "Die **Montaña Amarilla** ist eines der auffälligsten und am wenigsten bekannten Naturdenkmäler im Süden Teneriffas. Dieser Kegel aus **vulkanischem Tuff** in intensivem Gelb-Ocker — der ihm seinen Namen gibt — ist das Ergebnis eines submarinen Vulkanausbruchs, bei dem Asche beim Kontakt mit dem Meerwasser konsolidierte und das charakteristische Material namens **Palagonit** entstand, das ihm diesen einzigartigen Goldton verleiht.\n\n### Eine einzigartige Geologie\nWas die Montaña Amarilla von den meisten kanarischen Vulkanen unterscheidet, ist ihre Entstehung: Es handelt sich um einen **hydrovolkanischen Tuffkegel**, der entstand, als heiße Lava während des Ausbruchs mit Meerwasser in Kontakt kam. Diese explosive Reaktion zersplitterte das vulkanische Material in feine Partikel, die sich in Schichten konsolidierten und den charakteristischen gelblichen Tuff bildeten. Die Farbe ist alles andere als einheitlich und reicht von blassem Gelb bis tiefem Ocker und Rotbraun je nach Mineralzusammensetzung und Verwitterungsgrad.\n\nSie ist als **Naturdenkmal** wegen ihres geologischen und landschaftlichen Wertes ausgewiesen und eines der besten Beispiele für hydromagmatischen Vulkanismus auf den Kanarischen Inseln.\n\n### Die Küstenumgebung\nDer Berg liegt direkt am Meer, neben der **Golf del Sur**-Siedlung in San Miguel de Abona, und schafft einen außergewöhnlichen visuellen Kontrast: das Gelb des Vulkangesteins vor dem tiefen Blau des Atlantiks. Die umliegenden Gewässer sind besonders ruhig und klar, durch die Form des Kegels selbst geschützt, was sie zu einem beliebten Ort zum **Schnorcheln und Schwimmen** macht.\n\nIn der Umgebung kann man beobachten:\n- 🌊 Vulkanfelsformationen an der Küste, von der Meeresströmung geformt\n- 🐟 Meeresböden mit bunten Fischen zwischen den Vulkanfelsen\n- 🦎 Kanarische Eidechse (*Gallotia galloti*), die sich auf den Felsen sonnt\n- 🌵 Xerophile Vegetation, die an die trockene südliche Küste angepasst ist\n\n### Der Aufstieg\nMan kann auf einem kurzen, einfachen Pfad von der Basis zum Gipfel der Montaña Amarilla aufsteigen. Von oben sind die Aussichten spektakulär:\n- Die Südküste Teneriffas mit ihren Siedlungen und dem Hafen von Los Abrigos\n- Die Insel Gran Canaria an klaren Tagen\n- Die türkisfarbenen Gewässer der umliegenden Küste\n- Die schwarzen Lavafelder, die mit dem Gelb des Tuffs kontrastieren\n\n### Praktische Informationen\n- 📍 Golf del Sur, San Miguel de Abona (TF-655)\n- 🅿️ Parkplatz am Strand von Golf del Sur\n- 💶 **Kostenloser Eintritt**\n- 🕙 **Den ganzen Tag** zugänglich\n- ⏱️ Empfohlene Dauer: **1–1,5 Stunden**\n- 🏖️ Kombinierbar mit Schwimmen in den nahegelegenen Naturpools und Stränden\n\n### Empfehlung\nIdeal kombiniert mit einem Besuch im Dorf **Los Abrigos** (bekannt für seine Frischfischrestaurants) und einem Bad in den lokalen Naturpools. Das beste Licht für Fotos der Montaña Amarilla ist morgens, wenn die Sonne direkt auf die gelbe Seite des Kegels scheint. Bequeme Schuhe für den Aufstieg und Sonnenschutz mitbringen — Südteneriffa hat kaum Schatten.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.0166,
+        "lng": -16.5902
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/montana-amarilla.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "vulkanisch",
+        "küste",
+        "geologie",
+        "süden",
+        "schnorcheln",
+        "kostenlos",
+        "san-miguel"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "🟡",
+      "top": false,
+      "municipio": "san-miguel-de-abona",
+      "mapsUrl": "https://maps.app.goo.gl/PBsWFYAJhPpD4Czw6"
+    },
+    {
+      "slug": "montana-roja-el-medano",
+      "name": "Naturreservat Montaña Roja",
+      "shortDescription": "Der rote Vulkan über El Médano — ein geschützter 171 m hoher Kegel neben Teneriffas schönstem Naturstrand, Nistplatz der vom Aussterben bedrohten Kanaren-Trappe",
+      "description": "Das **Sondernaturreservat Montaña Roja** ist einer der einzigartigsten Naturräume im Süden Teneriffas. Dieser **171 Meter** hohe Vulkankegel — der seinen Namen von der intensiven roten Farbe seines Gesteins erhält, das Ergebnis der Eisenoxidation in der Lava — erhebt sich direkt an der Küste im Gemeindebezirk Granadilla de Abona neben El Médano und schafft eine der spektakulärsten Küstenlandschaften der Insel.\n\n### Ein Refugium für bedrohte Wildtiere\nWas die Montaña Roja über ihren landschaftlichen Wert hinaus auszeichnet, ist ihre ökologische Bedeutung: Sie ist einer der wenigen Orte in Europa, wo die **Kanarische Hubara-Trappe** (*Chlamydotis undulata fuerteventurae*) nistet — ein vom Aussterben bedrohter Steppenvo­gel, der in dem sandigen und steinigen Gelände um den Berg eines seiner letzten Refugien im Archipel gefunden hat. Das Reservat schützt auch eines der besten Beispiele für **halophile Küstenvegetation** (salztolerante Pflanzen) Teneriffas: Tabaibas, Küstenkardonen, Balancones und andere Pflanzen, die perfekt an die trockene Südküste angepasst sind.\n\n**Bemerkenswerte Fauna:**\n- 🦅 **Kanarische Hubara-Trappe** — vom Aussterben bedroht, nistet im Gebiet\n- 🦅 **Schmutzgeier** (*Neophron percnopterus*) — endemische kanarische Unterart\n- 🐦 Strandläufer, Regenpfeifer und andere Wattvögel am Strand La Tejita\n- 🦎 Teneriffa-Eidechse (*Gallotia galloti*) an den Felswänden des Berges\n\n### Der Berg\nDer Aufstieg zum Gipfel der Montaña Roja ist ein kurzes, aber lohnendes Erlebnis:\n- 🥾 **Distanz**: ~2 km (Rundweg von der Basis)\n- ⏱️ **Dauer**: 45 Minuten – 1 Stunde\n- 📈 **Höhenunterschied**: 171 m\n- ⭐ **Schwierigkeit**: leicht bis mittel (steil, aber sicher)\n\nVom Gipfel aus bietet sich ein 360°-Panorama:\n- El Médano und La Tejita-Strand im Norden\n- Der Flughafen Teneriffa-Süd im Westen\n- Die Insel Gran Canaria am Horizont\n- Die schwarzen Lavafelder, die den Berg umgeben\n- Der Atlantik in seiner ganzen Pracht zu Ihren Füßen\n\n### La Tejita: Teneriffas schönster Naturstrand\nAm Fuß der Montaña Roja erstreckt sich die **Playa de La Tejita**, von vielen als bester Naturstrand Teneriffas angesehen: lang, breit, mit goldenem Sand und keinerlei Bebauung, gerade weil er innerhalb des Naturreservats liegt. Es ist auch einer der besten **Windsur­fing- und Kitesurfing**-Spots im gesamten Atlantik — der Südwind weht hier mit der idealen Regelmäßigkeit und Stärke für diese Sportarten.\n\n### El Médano\nDas Dorf **El Médano** ist nur wenige Gehminuten entfernt: ein authentischer Ort ohne die großen Hotelketten Südteneriffas, mit Tapas-Bars, Strandlokalen und einer entspannten Atmosphäre, die ihn vom Massentourismus von Los Cristianos oder Las Américas abhebt.\n\n### Praktische Informationen\n- 📍 Playa de La Tejita, El Médano — Granadilla de Abona\n- 🅿️ Parkplatz bei La Tejita (kostenlos, im Sommer begrenzt)\n- 💶 **Kostenloser Eintritt**\n- 🕙 **Den ganzen Tag** zugänglich\n- ⏱️ Empfohlene Dauer: **2 Stunden** (Aufstieg + Bad bei La Tejita)\n- 🌬️ Windiges Gebiet: bei starkem Calima nicht empfohlen\n\n### Empfehlung\nDer Sonnenuntergang vom Gipfel der Montaña Roja aus, wenn die Sonne im Atlantik versinkt und der Himmel rot wird — passend zur Farbe des Gesteins unter Ihren Füßen — ist einer der schönsten in Südteneriffa. Kombinieren Sie den Aufstieg mit einem Bad bei La Tejita und dem Abendessen in El Médano für einen perfekten Nachmittag. Respektieren Sie die ausgeschilderten Wege des Reservats während der Niststätte der Hubara-Trappe (Januar–Juli).",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.0328,
+        "lng": -16.5345
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/montana-roja-el-medano.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "vulkanisch",
+        "reservat",
+        "hubara-trappe",
+        "el-medano",
+        "strand",
+        "wandern",
+        "küste"
+      ],
+      "visitDuration": "2h",
+      "difficulty": "easy",
+      "emoji": "🔴",
+      "top": false,
+      "municipio": "granadilla-de-abona",
+      "mapsUrl": "https://maps.app.goo.gl/VZjKZzPGGYq4joUP7"
+    },
+    {
+      "slug": "barranco-del-infierno",
+      "name": "Barranco del Infierno — Höllen­schlucht",
+      "shortDescription": "Der berühmteste Wanderweg Südteneriffas — eine geschützte Schlucht mit Lorbeerwald, 400 m hohen Wänden und dem einzigen dauerhaften Wasserfall im Süden der Insel",
+      "description": "Der **Barranco del Infierno** (Höllenschlucht) ist der bekannteste Wanderweg im Süden Teneriffas und einer der beliebtesten Pfade im gesamten Archipel. Dieser spektakuläre Canyon im Gemeindebezirk **Adeje** vereint auf nur 4,5 km eine Artenvielfalt und landschaftliche Schönheit, die im radikalen Kontrast zum Sonne-und-Strand-Tourismus der nahe gelegenen Küste steht: Am Ende des Weges wartet der **einzige dauerhafte Wasserfall Südteneriffas**, ein fast **80 Meter** hoher Wasserfall am Boden eines Canyons mit senkrechten Wänden.\n\n### Die Schlucht\nDer Barranco del Infierno ist ein tiefer Canyon, der über Tausende von Jahren vom Wasser in das Adeje-Massiv gegraben wurde. Seine senkrechten Wände erreichen an manchen Stellen bis zu **400 Meter** Höhe und schaffen ein feuchtes, geschütztes Mikroklima, in dem Pflanzenarten des Lorbeerwaldes — des prähistorischen Tertiärwaldes — überleben, die im trockenen Süden Teneriffas sonst nicht existieren würden. Die Schlucht ist als **Naturdenkmal** ausgewiesen und der Zugang ist streng geregelt.\n\n### Flora\nDas Mikroklima der Schlucht ermöglicht eine für den Süden der Insel ungewöhnliche Vegetation:\n- 🌿 **Lorbeer, Til und Viñátigo** — Bäume des feuchten Lorbeerwaldes des Nordens\n- 🌵 **Kardonen und Tabaibas** — an den sonnigeren, trockeneren Wänden\n- 🌺 **Endemischer Lotus und Aeonium** — felsenbewohnende Arten an den Kliffwänden\n- 🌾 **Farne und Moose** — in den feuchtesten Abschnitten nahe dem Wasserfall\n- 🌸 Wildorchideen im Frühling\n\n### Fauna\n- 🦅 **Rötelfalke** — nistet in den senkrechten Wänden der Schlucht\n- 🦎 Teneriffa-Eidechse und Gecko an den sonnigen Wänden\n- 🐦 Wildkanarienvogel, Blaumeise und Sardiniengrasmücke\n- 🦋 Kanarische Endemitenschmetterlinge\n\n### Der Wasserfall\nZiel der Route ist der **Wasserfall des Infierno**: ein fast 80 Meter hoher Wasserfall, der im Winter und Frühling in seiner ganzen Pracht leuchtet. Er ist die einzige dauerhafte Wasserquelle im trockenen Süden Teneriffas, was erklärt, warum diese Schlucht seit der Zeit der Guanchen — der kanarischen Ureinwohner — bewohnt wurde, die hier archäologische Zeugnisse ihrer Anwesenheit hinterließen.\n\n### Die Route\n- 🥾 **Distanz**: 9 km (4,5 km hin + 4,5 km zurück)\n- ⏱️ **Dauer**: 3–4 Stunden\n- 📈 **Höhenunterschied**: ~400 m Aufstieg\n- ⭐ **Schwierigkeit**: mittel\n- 🕙 **Besuchszeiten**: 8:00–13:00 Uhr (letzter Einlass 13:00 Uhr)\n- 👥 **Maximale Kapazität**: 300 Personen/Tag (Voranmeldung erforderlich)\n\n### Praktische Informationen\n- 📍 Calle Barranco del Infierno, 1 — Adeje\n- 💶 **Eintritt kostenpflichtig** — aktuelle Preise unter barrancoDelinfierno.com · Kostenlos unter 3\n- 🔒 **Buchung erforderlich**: barrancoDelinfierno.com\n- 🧥 Leichte Kleidung, aber einen leichten Regenponcho mitbringen — das Innere der Schlucht kann feucht sein\n- 👟 Wanderschuhe unerlässlich — der Boden kann rutschig sein\n- 🚫 Nicht geeignet für Kinderwagen oder Personen mit eingeschränkter Mobilität\n\n### Empfehlung\nMindestens **1–2 Wochen im Voraus** in der Hauptsaison (November–April) buchen — die Plätze sind schnell vergriffen. 30 Minuten vor Ihrer Einlasszeit am Parkplatz ankommen. Das Licht im Inneren der Schlucht ist beim ersten Einlass am Morgen (8 Uhr) am besten. Der letzte Abschnitt zum Wasserfall erfordert etwas Anstrengung, aber die visuelle Belohnung ist es vollkommen wert.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.1227,
+        "lng": -16.7275
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/barranco-del-infierno.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "schlucht",
+        "wandern",
+        "wasserfall",
+        "adeje",
+        "lorbeerwald",
+        "natur",
+        "reservat"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "moderate",
+      "emoji": "💧",
+      "top": true,
+      "municipio": "adeje",
+      "mapsUrl": "https://maps.app.goo.gl/uQCfm9QFmLxAnLpT9"
+    },
+    {
+      "slug": "volcan-chinyero",
+      "name": "Vulkan Chinyero",
+      "shortDescription": "Der letzte Vulkan, der auf Teneriffa ausbrach — der Lavastrom von 1909 liegt unberührt im Kiefernwald, zugänglich über eine schöne Rundwanderung im Westen der Insel",
+      "description": "Der **Vulkan Chinyero** ist einer der einzigartigsten Orte auf Teneriffa: der **letzte Vulkan, der auf der Insel ausbrach**, im November **1909**, vor etwas mehr als einem Jahrhundert. Während **10 Tagen** (18.–28. November) stieß der Chinyero Lava, Asche und Gase aus, die die Dörfer im Nordwesten der Insel bedrohten — und heute, mehr als 100 Jahre später, ist sein schwarzer Lavastrom zwischen dem Kanarischen Kiefernwald noch perfekt sichtbar und intakt, als wäre die Eruption erst gestern gewesen.\n\n### Die Eruption von 1909\nEs war der letzte historische Ausbruch auf Teneriffa und einer der am besten untersuchten im Archipel. Der Chinyero öffnete mehrere Emissionszentren in **1.559 Metern** Höhe im Teno-Massiv, im Gemeindebezirk Santiago del Teide. Die Lava floss nach Norden und Nordwesten, zerstörte landwirtschaftliche Flächen und bedrohte die Dörfer El Palmar und Erjos, forderte aber keine Todesopfer. Die Kirche von Santiago del Teide organisierte Gebete und es heißt, die Lava habe sich wie durch ein Wunder gestoppt, bevor sie das Dorf erreichte — eine Geschichte, die die Einheimischen noch heute mit Stolz erzählen.\n\n### Die Vulkanlandschaft\nDas Ergebnis jenes Ausbruchs ist eines der **jüngsten und besterhaltenen Lavafelder der Kanaren**: Ströme schwarzer Lava, die sich zwischen den Kiefern erstrecken, mit nahezu unberührter Originalmorphologie. Man kann unterscheiden:\n- 🌋 **Pahoehoe-Lava** — glatte, seilartige erstarrte Ströme\n- 🌋 **Aa-Lava** — raue, zerklüftete, schlackige Ströme, schwieriger zu begehen\n- 🌋 **Hornitos** — kleine sekundäre Kegel, die während des Ausbruchs entstanden\n- 🌋 **Lavaröhren** — Kanäle, durch die Lava unter einer bereits erstarrten Kruste floss\n\nZwischen den Rissen und Hohlräumen der Lava hat sich eine Pioniervegetation von großem ökologischen Wert angesiedelt: Flechten, Moose und die ersten Gefäßpflanzen, die die ökologische Sukzession zum Wald einleiten.\n\n### Der Kanarische Kiefernwald\nDer Vulkan ist von einem der **dichtesten und schönsten Kanarischen Kiefernwälder** (*Pinus canariensis*) im Westen Teneriffas umgeben. Die Kanarische Kiefer ist eine weltweit einzigartige Art, die dank schlafender Knospen unter der Borke nach einem Feuer wieder ausschlagen kann — eine perfekte Anpassung an die Vulkantätigkeit und Brände, die die Kanaren prägen. Zwischen diesen jahrhundertealten Kiefern zu wandern, mit dem Harzduft und dem Kiefernnadelteppich unter den Füßen, ist ein Erlebnis absoluter Stille.\n\n### Der Rundweg\n- 🥾 **Distanz**: ~8 km (Rundweg)\n- ⏱️ **Dauer**: 3–4 Stunden\n- 📈 **Höhenunterschied**: ~300 m\n- ⭐ **Schwierigkeit**: mittel\n- 🚗 Start: Erholungsgebiet neben der TF-82, zwischen Santiago del Teide und Icod\n\n### Praktische Informationen\n- 📍 Erholungsgebiet Chinyero — TF-82, km 31 (Gemeinde Santiago del Teide)\n- 💶 **Kostenloser Eintritt**\n- 🅿️ Kostenloser Parkplatz im Erholungsgebiet\n- 🧥 Durchschnittstemperatur: **15–20 °C** — leichte Jacke mitbringen\n- 📱 Kein Mobilfunknetz auf dem größten Teil der Route\n\n### Empfehlung\nDies ist einer der am wenigsten frequentierten Wanderwege Teneriffas — ein Geheimtipp für alle, die authentische Natur fernab der Touristenpfade suchen. Er lässt sich perfekt mit einem Besuch des **Tausendjährigen Drachenbaums in Icod de los Vinos** (20 Autominuten) zu einem kompletten Tag im Nordwesten der Insel verbinden. Beste Reisezeit: Frühling und Herbst.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2833,
+        "lng": -16.805
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/volcan-chinyero.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "vulkan",
+        "lava",
+        "wandern",
+        "kiefernwald",
+        "1909",
+        "santiago-del-teide",
+        "natur"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "moderate",
+      "emoji": "🌋",
+      "top": false,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/mDczDL1sScMFnKcp8"
+    },
+    {
+      "slug": "malpais-de-guimar",
+      "name": "Malpaís de Güímar",
+      "shortDescription": "Teneriffas ausgedehntestes Lavafeld — ein 10 km² großes Sondernaturreservat im Südosten mit einzigartiger endemischer Flora und Blick über das Güímar-Tal",
+      "description": "Das **Malpaís de Güímar** ist einer der unbekanntesten und authentischsten Naturräume Teneriffas. Als **Sondernaturreservat** ausgewiesen, ist dieses ausgedehnte Lavafeld von mehr als **10 km²** im Gemeindebezirk Güímar das Ergebnis aufeinanderfolgender Vulkanausbrüche, die den Südosten der Insel formten und eine Landschaft aus schwarzem Fels, vulkanischer Schlacke und erstarrten Strömen hinterließen, auf der eine endemische kanarische Flora von außergewöhnlichem Wert gedeiht.\n\n### Ein Pionierökosystem\nDer Begriff «Malpaís» — wörtlich «schlechtes Land» — beschreibt das unwirtliche, schwer zu durchquerende Erscheinungsbild dieser Lavafelder. Aber weit davon entfernt, eine tote Landschaft zu sein, ist das Malpaís de Güímar ein lebendiges und dynamisches Ökosystem, in dem die Natur seit Hunderten von Jahren den Fels besiedelt:\n\n**Bedeutende endemische Flora:**\n- 🌵 **Kanarischer Kardón** (*Euphorbia canariensis*) — der emblematischste endemische Kaktus der Kanaren, bis zu 4–5 Meter hoch\n- 🌿 **Süße Tabaiba** (*Euphorbia balsamifera*) — niedriger Strauch, der weite Teile des Malpaís bedeckt\n- 🌱 **Wilde Tabaiba** (*Euphorbia regis-jubae*) — mit grünen Stängeln und gelben Blüten\n- 🌺 **Verode** (*Kleinia neriifolia*) — endemische Sukkulente mit gelben Blüten\n- 🌿 **Balancón** (*Zygophyllum fontanesii*) — halophile Küstenpflanze\n- 🌸 Zahlreiche **Aeonium**-Arten und Flechten\n\n**Fauna:**\n- 🦎 **Teneriffa-Eidechse** (*Gallotia galloti*) — im gesamten Malpaís sehr häufig\n- 🐦 **Turmfalke**, **Sardiniengrasmücke** und andere felsbewohnende Vögel\n- 🦎 **Teneriffa-Gecko** in den Lavaspalten\n- 🦋 Mehrere kanarische Endemitenschmetterlinge\n\n### Die Landschaft\nWas das Malpaís de Güímar besonders macht, ist die Kombination natürlicher Elemente:\n- **Schwarze Lava** aus historischen Strömen, noch in ihren verschiedenen Morphologien erkennbar\n- **Kardón-Kakteen** und **Tabaibas**, die zwischen dem Fels wie ein Wald kanarischer Sukkulenten aufragen\n- **Ausblicke** über das Güímar-Tal — eines der fruchtbarsten Täler im Osten Teneriffas\n- Die **Küste**, die das Malpaís im Osten begrenzt, mit Klippen und Stränden aus Vulkanstein\n- Nähe zu den **Pirámides de Güímar** — den rätselhaften Stufenstrukturen, die Thor Heyerdahl untersuchte\n\n### Die Wanderwege\nMehrere ausgeschilderte Pfade ermöglichen es, verschiedene Bereiche des Malpaís zu erkunden:\n- 🥾 **Küstenweg** — verläuft am Meer entlang des Malpaís\n- 🥾 **Innerer Malpaís-Weg** — führt zwischen den Kardonen und Lavaströmen hindurch\n- 🥾 **Talaussichtspunkt** — Zugang zu Panoramablicken über Güímar\n- ⏱️ Variable Dauer: von 1 Stunde bis zu einem halben Tag je nach gewählter Route\n\n### Praktische Informationen\n- 📍 Güímar, Teneriffa — Zufahrt über TF-28 oder TF-612\n- 💶 **Kostenloser Eintritt**\n- 🕙 **Den ganzen Tag** zugänglich\n- ⏱️ Empfohlene Dauer: **1,5–2 Stunden**\n- 👟 Geschlossenes, festes Schuhwerk — Lava kann sehr scharf sein\n- ☀️ Wenig Schatten: Sonnenschutz und Wasser mitbringen\n\n### Empfehlung\nKombinieren Sie den Besuch des Malpaís mit den **Pirámides de Güímar** (nur wenige Kilometer entfernt) und einer Fahrt zum Hafen von Güímar für frischen Fisch. Es ist einer der authentischsten und am wenigsten touristischen Winkel Südostteneriffas — ein Raum, in dem die vulkanische Natur der Insel sich in ihrem reinsten Zustand zeigt. Beste Reisezeit: Herbst und Winter, wenn die Regenfälle die Vegetation erwecken.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.3,
+        "lng": -16.39
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/malpais-de-guimar.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "lavafeld",
+        "lava",
+        "flora",
+        "endemisch",
+        "guimar",
+        "reservat",
+        "kardone"
+      ],
+      "visitDuration": "1.5-2h",
+      "difficulty": "easy",
+      "emoji": "🌵",
+      "top": false,
+      "municipio": "guimar",
+      "mapsUrl": "https://maps.app.goo.gl/N7h37d2LcMYzfrrG9"
+    },
+    {
+      "slug": "la-ensillada",
+      "name": "La Ensillada",
+      "shortDescription": "Der spektakulärste Gebirgspass des Teno-Massivs — ein Sattel an der Nordwestspitze Teneriffas mit Blick auf die Klippen von Los Gigantes und beide Küsten",
+      "description": "**La Ensillada** ist einer der dramatischsten und am wenigsten bekannten Naturaussichtspunkte Teneriffas. Dieser Sattel — ein zwischen zwei Graten des **Teno-Massivs** gebildeter Gebirgspass — öffnet sich an der Nordwestspitze der Insel zu einem 180-Grad-Panorama, das gleichzeitig die Nord- und Südküste Teneriffas, den Atlantik in seiner ganzen Pracht und die imposanten **Klippen von Los Gigantes** umfasst, die senkrecht ins Meer stürzen.\n\n### Das Teno-Massiv\nDas Teno-Massiv ist das älteste der drei Vulkanmassive, die Teneriffa bilden, mit mehr als **7 Millionen Jahren** geologischer Geschichte. Seine tiefen Schluchten, scharfen Grate und die rauhe, dramatische Landschaft machen es zu einem der wildesten Gebiete der Insel — ein absoluter Kontrast zum Tourismus des Südens. La Ensillada liegt an einem der höchsten und exponiertesten Punkte dieses Massivs, wo der Wind die Vegetation ständig formt und die Landschaft eine fast mondähnliche Textur annimmt.\n\n### Die Aussichten\nDie Panoramen von La Ensillada sind von einer Spektakularität, die schwer zu übertreffen ist:\n- 🌊 Im Süden: die **Klippen von Los Gigantes** und die Westküste, mit La Gomera im Hintergrund\n- 🌊 Im Norden: die Küste von Buenavista del Norte und Punta de Teno, Teneriffas westlichster Punkt\n- 🏔️ Im Osten: der Teide, der den inneren Horizont dominiert\n- 🌊 Ringsum: der Atlantik an allen Flanken an den klarsten Tagen\n\nDie Kombination aus den senkrechten Wänden der Klippen von Los Gigantes im Vordergrund und dem sich bis La Gomera erstreckenden Ozean schafft eine der eindrucksvollsten Fotomotive Teneriffas.\n\n### Flora und Landschaft\nDie Vegetation in diesem Winkel des Teno-Massivs spiegelt die extremen Bedingungen des Ortes wider:\n- 🌿 **Tabaibas und Kardone** an Wind und Trockenheit angepasst\n- 🌱 **Verodes und Aeonium** auf den Felswänden\n- 🌿 **Ginster und Thymian** in Übergangszonen\n- 🌳 Reste von **Lorbeerwald** in den geschütztesten Schluchten\n\n### Anreise\nLa Ensillada ist über die engen Bergstraßen des Teno-Inneren erreichbar — die Anfahrt ist Teil des Erlebnisses:\n- 🚗 Von Santiago del Teide über die **TF-436** (kurvenreiche Bergstraße, vorsichtig fahren)\n- 🚗 Von Buenavista del Norte über dieselbe TF-436 in südlicher Richtung\n- 🥾 Auch zu Fuß von mehreren Punkten des Ländlichen Parks Teno erreichbar\n\n### Praktische Informationen\n- 📍 TF-436 — Teno-Massiv, Santiago del Teide\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich — am besten bei Sonnenauf- oder -untergang\n- ☁️ Nebel und Wolken sind häufig — sie kombinieren sich wunderschön mit der Landschaft\n- 🌬️ Sehr windiges Gebiet bei Sturm\n- 📸 Stativ für Sonnenuntergangsaufnahmen mitbringen\n\n### Empfehlung\nLa Ensillada ist der perfekte Ausgangspunkt für eine Kombination mit einer **Bootsfahrt zu den Klippen von Los Gigantes** vom gleichnamigen Hafen aus. Die Klippen zuerst von oben zu sehen — in ihrer vollen vertikalen Höhe — und dann von unten, zu ihren Füßen segelnd, gibt den wahren Maßstab dieser Felswände ein unvergessliches Gefühl. Der Sonnenuntergang von La Ensillada aus, mit dem in Rot glühenden La Gomera am fernen Atlantikhorizont, ist absolut einmalig.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.33,
+        "lng": -16.82
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/la-ensillada.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "teno",
+        "klippen",
+        "aussichten",
+        "wandern",
+        "nordwesten",
+        "natur"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "⛰️",
+      "top": false,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/rn2jYucqLouFgffB9"
+    },
+    {
+      "slug": "acantilados-los-gigantes",
+      "name": "Klippen von Los Gigantes",
+      "shortDescription": "Europas höchste Küstenklippen — senkrechte Wände von bis zu 800 m, die direkt in den Atlantik an Teneriffas Nordwestküste stürzen, mit Delfinen und Walen darunter",
+      "description": "Die **Klippen von Los Gigantes** (Die Riesen) sind eines der beeindruckendsten Naturschauspiele der Kanaren und ganz Europas. Diese Wände aus schwarzem Vulkangestein, die sich von Höhen von bis zu **800 Metern** senkrecht in den Atlantik stürzen, zählen zu den dramatischsten Küstenlandschaften des Planeten — und zu jenen, die bei allen, die sie zum ersten Mal sehen, den tiefsten Eindruck hinterlassen, sei es vom Land aus oder, noch besser, wenn man zu ihren Füßen segelt.\n\n### Die Entstehung\nDie Klippen sind das Ergebnis der **Meeresströmung auf die Westflanke des Teno-Massivs**, dem ältesten der drei Vulkanmassive Teneriffas mit mehr als 7 Millionen Jahren. Jahrtausende lang hat der Atlantik unablässig gegen diese Felswand aus Vulkangestein gearbeitet und Klippen von nahezu perfekter Senkrechte geschaffen. Der schwarze Basalt, gestreift von den aufeinanderfolgenden Lavaströmen aus Millionen Jahren Vulkantätigkeit, hat eine einzigartige Textur und Farbgebung — besonders wenn das Abendlicht ihn golden färbt.\n\n### Die Abmessungen\n- 📏 **Maximale Höhe**: bis zu **800 Meter** über dem Meeresspiegel\n- 📏 **Länge**: ungefähr **5 km** Klippenfront\n- 🌊 **Meerestiefe**: bis zu **60 Meter** unter den Wänden\n\n### Das Erlebnis\nEs gibt zwei Möglichkeiten, die Klippen von Los Gigantes zu erleben:\n\n**Vom Land:**\n- Der Aussichtspunkt **La Ensillada** (im Teno-Massiv) bietet die Sicht von oben — die volle Höhe der Wände, der Ozean dahinter und La Gomera am Horizont\n- Die Strandpromenade von **Puerto de Santiago** ermöglicht den Blick von der Küste\n\n**Vom Meer (das ultimative Erlebnis):**\n- **Bootsausflüge** vom Hafen Los Gigantes sind der Weg, um den wahren Maßstab dieser Klippen zu begreifen. Zu ihren Füßen zu segeln — und eine 800 Meter hohe Wand hinaufzuschauen, die scheinbar auf einen zuzufallen droht — ist ein Erlebnis ohne Gleichen am europäischen Atlantik\n- Die Ausflüge beinhalten normalerweise **Wal- und Delfin-Beobachtung**: die Gewässer vor Los Gigantes sind einer der besten Orte Europas, um **Grindwale** (*Globicephala macrorhynchus*) und **Große Tümmler** zu sehen, die das ganze Jahr hier leben\n\n### Die Meeressäuger\nDie tiefen, geschützten Gewässer im Windschatten der Klippen schaffen ein außergewöhnliches Meeresökosystem:\n- 🐋 **Kurzflossen-Grindwal** (*Globicephala macrorhynchus*) — Dauereinwohner, Gruppen von 20–40 Tieren\n- 🐬 **Großer Tümmler** (*Tursiops truncatus*) — der häufigste, gesellig und neugierig\n- 🐬 **Gemeiner Delfin** (*Delphinus delphis*) — in Gruppen von bis zu Hunderten\n- 🐋 **Buckelwal** (*Megaptera novaeangliae*) — saisonaler Durchzug\n- 🐋 **Pottwal** (*Physeter macrocephalus*) — im Tiefwasser vor der Küste\n\n### Tauchen\nDie Gewässer unter den Klippen sind einer der **besten Tauchspots Teneriffas**: ausgezeichnete Sicht, reiches Meeresleben und das einzigartige Erlebnis, unter einer Felswand zu tauchen, die 800 Meter über dem Kopf aufsteigt.\n\n### Praktische Informationen\n- 📍 Hafen Los Gigantes — Santiago del Teide\n- 🚢 Mehrere Unternehmen bieten Bootsausflüge vom Hafen an\n- 💶 Bootsausflüge: **kostenpflichtig** — aktuelle Preise direkt im Hafen Los Gigantes erfragen\n- 🕙 Abfahrten: normalerweise **10:00 und 12:00 Uhr** (saisonal prüfen)\n- 🐋 Cetacean-Sichtungen bei den meisten Ausflügen garantiert\n\n### Empfehlung\nBegnügen Sie sich nicht mit dem Blick vom Land — der Bootsausflug ist es, der Los Gigantes von einer «schönen Landschaft» in ein «perspektivveränderndes Erlebnis» verwandelt. Delfine, die in der Bugwelle spielen, sind ein fast garantierter Bonus. Mindestens 24–48 Stunden im Voraus in der Hauptsaison buchen. Wenn möglich, wählen Sie ein kleines Boot (max. 12 Personen) für ein intimeres und tierschutzgerechteres Erlebnis.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2533,
+        "lng": -16.84
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/acantilados-los-gigantes.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "klippen",
+        "meeressäuger",
+        "wale",
+        "delfine",
+        "boot",
+        "teno",
+        "küste"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🐋",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/MRkHioX4r9ncCgtSA"
+    },
+    {
+      "slug": "mirador-chipeque",
+      "name": "Mirador de Chipeque",
+      "shortDescription": "Der spektakulärste Balkon über das Orotava-Tal — auf 1.700 m zwischen Kiefern und Teide, mit Vogelperspektive über Teneriffas fruchtbarstes Tal",
+      "description": "Der **Mirador de Chipeque** ist einer der schönsten und am wenigsten überlaufenen Aussichtspunkte Teneriffas. Auf **1.700 Metern Höhe** an der Straße TF-24, die von La Orotava zum Nationalpark Teide aufsteigt, gelegen, bietet dieser natürliche Balkon über das **Orotava-Tal** eine der spektakulärsten Aussichten der ganzen Insel: Teneriffas fruchtbarstes und grünstes Tal entfaltet sich vor Ihnen von den Hängen des Teide bis zum Meer, mit Puerto de la Cruz, dem Atlantik und den Nachbarinseln am Horizont.\n\n### Die Perspektive\nWas den Mirador de Chipeque einzigartig macht, ist seine privilegierte Lage: Man ist hoch genug, um das Tal in seiner Gesamtheit zu sehen, aber von Kanarischem Kiefernwald umgeben, der die Aussicht einrahmt und ihr eine Maßstäblichkeit verleiht, die höhere Aussichtspunkte — wo es nur Lava und Fels gibt — schlicht nicht besitzen. Die Kombination aus:\n- 🌲 Jahrhundertealten Kanarischen Kiefern im Vordergrund\n- 🟩 Dem tiefen Grünteppich des Orotava-Tals in der Mitte\n- 🏘️ Den Dächern von La Orotava, La Victoria und Tacoronte, die die Hänge hochklettern\n- 🌊 Puerto de la Cruz und der Nordküste im Hintergrund\n- 🌍 Dem sich zum Horizont erstreckenden Atlantik\n- 🏔️ Dem Teide über dem Kopf, der die Landschaft von oben abschließt\n\n...schafft eine der vollständigsten und ausgewogensten Landschaftskompositionen der gesamten Kanaren.\n\n### Das Orotava-Tal\nDas **Orotava-Tal** ist Teneriffas fruchtbarstes Tal, bewässert durch das Wasser, das vom Teide durch ein Netz von Galerien und Bewässerungskanälen absteigt, die die Kanarier über Jahrhunderte bauten. Seine Hänge sind mit Bananenplantagen, Weinbergen, Kartoffeln und Gärten bedeckt, die dem Tal dieses tiefe Grün verleihen, das mit der Trockenheit des übrigen Nordens kontrastiert. Von Chipeque aus kann man seine perfekte Form eines natürlichen Amphitheaters erkennen — eine alte Caldera, die sich vor Millionen von Jahren zum Meer hin öffnete.\n\n### Die Umgebung\nChipeque liegt inmitten der **Corona Forestal**, dem Naturpark um den Teide. Der Kanarische Kiefernwald (*Pinus canariensis*) um den Aussichtspunkt ist einer der dichtesten und schönsten der Insel, mit hohen Exemplaren, die eine Atmosphäre der Stille und Ruhe schaffen, die anderswo auf Teneriffa schwer zu finden ist. Im Frühling ist der Boden mit Ginsterblüten bedeckt und die Luft riecht nach Harz.\n\n### Die Lichteffekte\nDie Tageszeit verändert den Charakter des Aussichtspunkts grundlegend:\n- 🌅 **Morgen**: Seitenlicht, das das Tal von Osten beleuchtet, maximale Klarheit\n- ☁️ **Spätvormittag**: mögliches **Wolkenmeer**, das das Tal füllt und nur die Gipfel herausragen lässt\n- 🌅 **Nachmittag**: goldenes Licht, das das Grün des Tals und die Töne des Teide intensiviert\n- 🌃 **Nacht**: Der Himmel der Corona Forestal ist außergewöhnlich für Sternbeobachtungen\n\n### Praktische Informationen\n- 📍 Straße TF-24, km 22 — zwischen La Orotava und dem Nationalpark Teide\n- 🅿️ Parkplatz neben dem Aussichtspunkt (kostenlos, begrenzte Kapazität)\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich — am besten früh morgens oder nachmittags\n- 🧥 Temperatur: **10–18 °C** je nach Jahreszeit — immer kühler als an der Küste\n- 🚗 Auto empfohlen (TF-24 ist eine gut ausgebaute Bergstraße)\n\n### Empfehlung\nKommen Sie früh, wenn Sie das **Wolkenmeer** im Tal sehen möchten — das Spektakel von Gebäudedächern und Baumkronen, die durch eine weißwattige Wolkenschicht ragen, ist absolut unwirklich. Kombinieren Sie den Besuch mit der Fahrt zum **Nationalpark Teide** (30 Minuten weiter auf derselben TF-24) für einen kompletten Bergtag. Immer eine warme Jacke einpacken, auch wenn es an der Küste heiß ist.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.3233,
+        "lng": -16.58
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-chipeque.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "tal",
+        "orotava",
+        "kiefernwald",
+        "aussichten",
+        "teide",
+        "corona-forestal"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "🏔️",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/5L5GHokTzuWNXvaD7"
+    },
+    {
+      "slug": "mirador-de-jardina",
+      "name": "Mirador de Jardina",
+      "shortDescription": "Der erste Balkon über den Anaga-Wald — Panoramablicke über Teneriffas ältestes Massiv und den Lorbeerwald von der Straße, die von La Laguna hinaufführt",
+      "description": "Der **Mirador de Jardina** ist einer der ersten und eindrucksvollsten Stopps auf dem Weg zum Ländlichen Park Anaga von San Cristóbal de La Laguna aus. An der Straße TF-13 auf rund **700 Metern Höhe** gelegen, bietet dieser Aussichtspunkt einen der vollständigsten Blicke über das **Anaga-Massiv** — das älteste der drei großen Vulkanmassive Teneriffas mit mehr als 7 Millionen Jahren — bevor man in das Herz des Waldes eintaucht.\n\n### Die Perspektive\nVon Jardina öffnet sich der Blick auf eine Landschaft grüner, mit Lorbeerwald bedeckter Grate, die sich nordöstlich eine nach der anderen bis zur Küste hinab erstrecken:\n- 🌿 Das **Meer aus Lorbeerwald**, das die Anaga-Hänge von den Gipfeln bis zu den Schluchten bedeckt\n- 🌊 Die **Nordküste** Teneriffas mit Klippen, die in den Atlantik fallen\n- 🏘️ Die Dächer von **La Laguna** und das Valle de Aguere im Hintergrund\n- ⛅ Häufig die **Temperatuurinversionslinie**, die den blauen Himmel von den tiefen Wolken trennt und einen visuellen Effekt einer «schwebenden Insel» über dem Wolkenmeer schafft\n\n### Der Wald, der wartet\nJardina ist das Vorzimmer des Anaga: Von hier aus kann man den Wald von außen sehen, bevor man in ihn eintritt. Die grünen Grate, die vom Aussichtspunkt zu sehen sind, entpuppen sich beim Wandern als Labyrinth jahrhundertealter moosbedeckter Bäume, gepflasterter Wege und Schluchten, in denen die Zeit stillzustehen scheint. Der Aussichtspunkt bereitet einen visuell auf das vor, was gleich erlebt wird.\n\n### Flora der Umgebung\nDie unmittelbare Umgebung des Aussichtspunkts zeigt bereits die ersten Übergangsarten zum Lorbeerwald:\n- 🌿 **Baumheiden** (*Erica arborea*) — die ersten Bäume des feuchten Waldes\n- 🌳 **Kanarische Stechpalme** (*Ilex canariensis*) — immergrüne endemische Stechpalme\n- 🌱 **Farne** und **Flechten**, die auf dauerhafte Feuchtigkeit hinweisen\n- 🍃 **Fayas** und **Lorbeer**, die den Eingang in die vollständige Laurisilva ankündigen\n\n### Praktische Informationen\n- 📍 Straße TF-13, km 8 — zwischen La Laguna und Las Mercedes\n- 🅿️ Parkplatz neben dem Aussichtspunkt (kostenlos)\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich — am besten früh morgens, bevor der Nebel aufzieht\n- 🚌 Bus aus La Laguna: **Linie 75** (Richtung Cruz del Carmen / Las Mercedes)\n- ⏱️ Empfohlene Dauer: **30–45 Minuten**\n\n### Empfehlung\nJardina ist der perfekte Stopp vor dem Eintreten in Anaga: Er gibt einem die Gesamtperspektive, die man verliert, sobald man sich im Inneren des Waldes befindet. Kombinieren Sie ihn mit dem **Mirador de Cruz del Carmen** (15 Minuten weiter auf derselben Straße) für zwei sich ergänzende Perspektiven — eine von außerhalb und eine von innerhalb des Waldes. An nebligen Tagen ist die Atmosphäre besonders magisch.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.5166,
+        "lng": -16.2833
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-de-jardina.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "anaga",
+        "lorbeerwald",
+        "aussichten",
+        "la-laguna",
+        "wald",
+        "natur"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🌄",
+      "top": false,
+      "municipio": "san-cristobal-de-la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/JXyTwWTYfpmDsuPk6"
+    },
+    {
+      "slug": "mirador-cruz-del-carmen",
+      "name": "Mirador Cruz del Carmen",
+      "shortDescription": "Das Herz des Ländlichen Parks Anaga — der ikonischste Aussichtspunkt über den Lorbeerwald, mit Kapelle, Besucherzentrum und dem atemberaubendsten Blick über Teneriffas Urwald",
+      "description": "Der **Mirador de Cruz del Carmen** ist zweifellos das Herzstück des **Ländlichen Parks Anaga** und der Ort, wo das Massiv seine ganze Persönlichkeit offenbart. Auf **920 Metern Höhe** an der Straße TF-12 (Las Mercedes) vereint dieser Aussichtspunkt an einem einzigen Punkt die **Ermita de la Cruz del Carmen** — eine kleine Kapelle aus dem 17. Jahrhundert mit einer Geschichte, die mit den Gebeten der Bauern des Nordens verbunden ist —, ein traditionelles kanarisches Restaurant, das Besucherzentrum des Parks und ein Panorama über den Lorbeerwald, das schlicht eines der schönsten der Kanaren ist.\n\n### Die Landschaft\nDer Blick von Cruz del Carmen ist eines jener Panoramen, die im Gedächtnis bleiben:\n- 🌿 Das **grüne Meer** der Laurisilva, das sich in alle Richtungen erstreckt — der ausgedehnteste Tertiärwald der Welt\n- 🌊 Die **Nordküste** Teneriffas, die in Klippen in den Atlantik stürzt\n- ⛅ Häufig ein **Wolkenmeer**, das das Tal bedeckt und nur die Anaga-Gipfel wie Inseln herausragen lässt\n- 🏔️ An klaren Tagen der **Teide** im Süden, der über allem aufragt\n- 🌅 Der **Sonnenaufgang** über dem Massiv, mit der Sonne, die im Osten aus dem Atlantik aufsteigt, ist einer der spektakulärsten Teneriffas\n\n### Der Lorbeerwald von Cruz del Carmen\nCruz del Carmen ist der Ausgangspunkt der wichtigsten Routen im Anaga. Der Wald, der den Aussichtspunkt umgibt, zählt zu den dichtesten und besterhaltenen des Massivs:\n- 🌳 Jahrhundertealte Lorbeerbäume mit 15–20 Metern Höhe\n- 🌿 Tils und Viñátigos mit von tiefgrünem Moos bedeckten Stämmen\n- 🍂 Der von feuchter Laubstreu und sich verflechtenden Wurzeln bedeckte Boden\n- 🕊️ Der Gesang der **Bolle-Taube** und der **Weißschwanz-Lorbeertaube** — der beiden endemischen Tauben des Lorbeerwaldes, beide gefährdet\n\n### Wanderrouten vom Aussichtspunkt\n- 🥾 **Cruz del Carmen → El Bailadero** (3 km, entlang der Krete mit Blick auf beide Küsten)\n- 🥾 **Cruz del Carmen → Las Carboneras** (9 km, durch das Herz des Waldes)\n- 🥾 **Cruz del Carmen → Chinamada** (8 km, bis zum Höhlenhäuser-Dorf)\n- 🥾 **Bosque de los Catalanes** (2 km Rundweg, perfekt für Familien)\n\n### Die Kapelle und das Restaurant\nDie **Ermita de la Cruz del Carmen** aus dem 17. Jahrhundert ist eines der malerischsten Elemente des Ortes. Das kleine Restaurant neben dem Aussichtspunkt serviert traditionelle kanarische Gerichte — papas arrugadas, ropa vieja, bienmesabe — in rustikaler und einladender Atmosphäre, ideal zur Stärkung vor oder nach einer Wanderung.\n\n### Praktische Informationen\n- 📍 Straße TF-12 (Las Mercedes) — Gemeinde La Laguna\n- 🅿️ Kostenloser Parkplatz neben dem Aussichtspunkt\n- 💶 **Freier Zugang** · Restaurant und Geschäft im Besucherzentrum\n- 🕙 Besucherzentrum: **9:00–17:00 Uhr** (montags geschlossen)\n- 🚌 Bus aus La Laguna: **Linie 75**\n- ⏱️ Empfohlene Dauer: **1–3 Stunden** je nach Wanderung oder nur Aussichtspunkt\n\n### Empfehlung\nDer Sonnenaufgang in Cruz del Carmen — vor der Sonne ankommen und beobachten, wie das Licht allmählich das Wolkenmeer und den Wald beleuchtet — ist eines der eindrucksvollsten Naturerlebnisse Teneriffas. Warme Kleidung mitbringen, auch wenn es an der Küste warm ist: Auf 920 Metern im Nebel kann die Temperatur unter 10 °C fallen. Nebel und Nieselregen sind hier kein Hindernis: Sie gehören zum Charakter des Anaga und schaffen eine besonders magische Atmosphäre.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.5333,
+        "lng": -16.25
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-cruz-del-carmen.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "anaga",
+        "lorbeerwald",
+        "kapelle",
+        "wandern",
+        "biosphäre",
+        "aussichten"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "✝️",
+      "top": true,
+      "municipio": "san-cristobal-de-la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/eqcdtF8k1BXiW1Ct6"
+    },
+    {
+      "slug": "mirador-de-cherfe",
+      "name": "Mirador de Cherfe",
+      "shortDescription": "Der Balkon über der Masca-Schlucht — schwindelerregende Aussichten über den tiefsten Canyon des Teno-Massivs, Teide am Horizont und Teneriffas Westküste",
+      "description": "Der **Mirador de Cherfe** ist einer der dramatischsten und aufregendsten Aussichtspunkte Teneriffas. An der Straße TF-82 zwischen Santiago del Teide und Tamaimo gelegen, bietet dieser natürliche Balkon über dem **Barranco de Masca** — dem spektakulärsten Canyon des Teno-Massivs — eine Aussicht, die einem den Atem verschlägt: senkrechte Wände, die hunderte von Metern bis zum Schluchtengrund fallen, das Dorf Masca, das sich an die Felsen unten klammert, und der Teide, der den Horizont abschließt.\n\n### Die Masca-Schlucht von oben\nVon Cherfe aus können Sie auf einen Blick erfassen, was den Barranco de Masca so besonders macht: ein System verschachtelter Canyons, in dem Schluchten sich kilometerweit bis zum Meer hin verzweigen und vertiefen. Der Blick enthüllt:\n- 🏔️ Schluchtenwände mit **Gefällen von 400–600 Metern** nahezu senkrechten Felses\n- 🏘️ Das **Dorf Masca**, das zwischen den Felsen unten hervorschaut — eine Handvoll Häuser, die in dieser Höhe und Lage unmöglich erscheinen\n- 🌿 Die mit **xerophiler Vegetation** bedeckten Hänge — Kardone, Tabaibas, Kanarische Palmen — im Wechsel mit nacktem Fels\n- 🌋 Der **Teide**, der den östlichen Horizont in seiner ganzen Pracht dominiert\n- 🌊 Die **Westküste** Teneriffas mit dem Ozean dahinter und, an klaren Tagen, den Silhouetten von **La Gomera** und **La Palma**\n\n### Das Dorf Masca\nMasca ist das unzugänglichste und meistfotografierte Dorf des Teno-Massivs — und eines der einzigartigsten Teneriffas. Auf einem Grat zwischen zwei Schluchten auf über 600 Metern Höhe gelegen, über eine einzige Straße mit engen Haarnadelkurven erreichbar, bewahrte Masca jahrhundertelang eine Abgeschiedenheit, die sowohl seine Architektur als auch seine natürliche Umgebung konservierte. Vom Mirador de Cherfe aus kann man es aus einer Außenperspektive sehen, die vom Inneren des Dorfes aus selten wahrgenommen wird.\n\n### Die Landschaft des Teno-Massivs\nDie Landschaft um Cherfe ist das **Teno-Massiv** in seiner wildesten Ausprägung:\n- 🌵 Riesige Kanarische Kardone (*Euphorbia canariensis*) auf den sonnigen Hängen\n- 🌴 Kanarische Palmen (*Phoenix canariensis*) in den geschütztesten Schluchten\n- 🌿 Tabaibas, Verodes und Bejeques an den Felswänden\n- 🦅 Turmfalken und Schmutzgeier, die über der Schlucht auf Thermik gleiten\n\n### Der Masca-Weg\nCherfe ist auch der natürliche Ausgangspunkt, um nach Masca hinabzusteigen und von dort den **Barranco de Masca** zu begehen — den Abstiegsweg zum Meer, der eine der spektakulärsten Wanderungen der Kanaren ist:\n- 🥾 **Masca → Playa de Masca** (3,8 km, nur Abstieg, Rückfahrt per Boot)\n- ⭐ Mittlerer bis hoher Schwierigkeitsgrad — Buchung und Rückfahrboot vom Strand erforderlich\n- ⏱️ 3–4 Stunden Abstieg\n\n### Praktische Informationen\n- 📍 Straße TF-82, zwischen Santiago del Teide und Tamaimo\n- 🅿️ Parkplatz neben dem Aussichtspunkt (kostenlos)\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich — der Sonnenuntergang ist besonders spektakulär\n- 🌬️ Sehr windiges Gebiet — bei Calima nimmt die Sichtweite ab\n- ⏱️ Empfohlene Dauer: **30–45 Minuten** (nur Aussichtspunkt)\n\n### Empfehlung\nDer **Sonnenuntergang von Cherfe** ist einer der schönsten im Westen Teneriffas: Die Sonne sinkt genau über der Schlucht in den Atlantik und taucht die Canyonwände in Orange und Gold, während Masca allmählich im Schatten versinkt. 30–45 Minuten vor Sonnenuntergang ankommen, um den besten Platz zu finden. Kombinieren Sie den Besuch mit dem **Dorf Masca** (10 Minuten auf der TF-82) und, wenn Sie die Energie haben und vorgebucht haben, dem Abstieg durch die Schlucht bis zum Strand für einen kompletten und unvergesslichen Tag.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2166,
+        "lng": -16.8
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-de-cherfe.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "masca",
+        "schlucht",
+        "teno",
+        "aussichten",
+        "sonnenuntergang",
+        "natur"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🏔️",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/VRTohob2kwXRQy6g8"
+    },
+    {
+      "slug": "mirador-la-garanona",
+      "name": "Mirador La Garañona",
+      "shortDescription": "Ein geheimes Aussichtspunkte zwischen jahrhundertealten Kiefern der Corona Forestal — privilegierte Aussichten auf das Orotava-Tal und die Nordküste aus dem Herzen des Teide-Kiefernwaldes",
+      "description": "Der **Mirador La Garañona** ist einer jener Winkel, die Touristen selten finden und die Tinerfeños wie einen Schatz hüten. Eingebettet in die **Corona Forestal**, den großen Naturpark aus Kanarischen Kiefern rund um den Nationalpark Teide, bietet dieser Aussichtspunkt eine intime und stille Perspektive auf das Orotava-Tal und die Nordküste Teneriffas — ohne die Menschenmassen der bekannteren Aussichtspunkte, umgeben nur vom Windgeräusch zwischen den Kiefern und dem Harzduft.\n\n### Die Umgebung: Die Corona Forestal\nDie **Corona Forestal** ist der Naturpark, der als grüner Gürtel um den Nationalpark Teide auf Höhen zwischen **1.000 und 2.000 Metern** fungiert. Die Kanarische Kiefer (*Pinus canariensis*), die diesen Raum dominiert, ist eine der einzigartigsten Pflanzenformationen der Welt: eine endemische Art, die nur auf den Kanaren wächst und außergewöhnliche Anpassungen entwickelt hat, um Brände und Vulkantätigkeit zu überleben — ihre schlafenden Knospen unter der Borke ermöglichen es ihr, Wochen nach einem vollständigen Brand wieder auszuschlagen.\n\n### Die Aussichten\nVon La Garañona öffnet sich zwischen den Kiefern der Blick nach Norden, mit einer Perspektive, die sich von den populäreren Aussichtspunkten unterscheidet:\n- 🌲 **Jahrhundertealte Kiefern**, die die Aussicht im Vordergrund einrahmen — eine natürlich schöne fotografische Komposition\n- 🟩 Das **Orotava-Tal**, das sich von den Hängen des Teide bis zur Küste entfaltet\n- 🌊 **Puerto de la Cruz** und die Nordküste glänzend im Hintergrund\n- 🌍 Der **Atlantik**, der den Horizont abschließt\n- ⛅ An Winter- und Frühlingsmorgen das spektakuläre **Wolkenmeer**, das das Tal füllt\n\n### Die Stille des Waldes\nWas La Garañona von anderen Aussichtspunkten unterscheidet, ist die Atmosphäre ringsherum: die **Stille des Kiefernwaldes**, nur unterbrochen vom Wind, dem Buntspecht (*Dendrocopos major thanneri*), der an einem fernen Stamm hämmert, oder dem Flug eines Sperbers zwischen den Kronen. Es ist ein Aussichtspunkt für jene, die Kontemplation mehr suchen als Fotografie — obwohl die Fotos, die er bietet, von außergewöhnlicher Qualität sind.\n\n### Fauna des Kiefernwaldes\n- 🐦 **Teneriffa-Blaufink** (*Fringilla teydea*) — einer der seltensten Vögel Europas, endemisch in den Kiefernwäldern des Teide\n- 🐦 **Kanarischer Buntspecht** (*Dendrocopos major thanneri*) — endemische Spechtunterart\n- 🦅 **Sperber** und **Habicht** — Waldgreifvögel, die zwischen den Kiefern jagen\n- 🦎 **Teneriffa-Eidechse** und **Gecko** an den sonnigen Waldrändern\n\n### Praktische Informationen\n- 📍 Corona Forestal, Gemeinde La Orotava — Zufahrt über TF-21 oder TF-24\n- 🅿️ Parkplatz neben dem Aussichtspunkt (kostenlos)\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich\n- 🧥 Temperatur: **12–18 °C** — der Wald ist immer kühler als die Küste\n- ⏱️ Empfohlene Dauer: **30–45 Minuten** + optionaler Spaziergang durch den Kiefernwald\n\n### Empfehlung\nLa Garañona ist der perfekte Stopp auf dem Weg zwischen der Nordküste und dem Nationalpark Teide. Halten Sie hier 20–30 Minuten an, bevor Sie den Aufstieg fortsetzen — der Übergang von der Küstenwärme zur Kühle des Kiefernwaldes und die Perspektive auf das Tal, das Sie gerade verlassen haben, ist Teil des Erlebnisses, zum Teide aufzusteigen. Wenn Sie Zeit haben, lohnt sich ein kurzer Spaziergang auf den Pfaden des angrenzenden Kiefernwaldes sehr.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.355,
+        "lng": -16.565
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-la-garanona.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "kiefernwald",
+        "corona-forestal",
+        "orotava",
+        "aussichten",
+        "stille",
+        "natur"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🌲",
+      "top": false,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/ARCjo86T9LngQnPB6"
+    },
+    {
+      "slug": "mirador-narices-del-teide",
+      "name": "Mirador de las Narices del Teide",
+      "shortDescription": "Teides Vulkanwunden offen — der spektakuläre Aussichtspunkt über die Sekundärkrater von 1798 und die schwarzen Lavaströme, die an der Südwestflanke bis zum Meer hinabflossen",
+      "description": "Der **Mirador de las Narices del Teide** (Aussichtspunkt der Teide-Nasenlöcher) ist einer der eindrucksvollsten Vulkanbeobachtungspunkte Teneriffas. An der Straße TF-38 gelegen, die vom Nationalpark Teide nach Chio und Santiago del Teide hinabführt, ermöglicht dieser Aussichtspunkt einen außergewöhnlichen Blick auf die **Narices del Teide** — die Sekundärkrater und Eruptionsspalten an der Südwestflanke des **Pico Viejo**, die beim Ausbruch von **1798** die jüngsten Lavaströme des Teide-Vulkansystems ausspuckten.\n\n### Die Narices: Der letzte große Ausbruch\nIm Jahr **1798** öffnete die Südwestflanke des Pico Viejo (Teides Zwillingsvulkan im Nationalpark) eine Reihe von Eruptionsspalten an seinem Hang, die die Kanarier volkstümlich als **Narices del Teide** — die Nasenlöcher des Vulkans — tauften. Monatelang stießen diese Öffnungen Lava aus, die durch den Barranco de las Arenas Negras nach Südwesten floss, das Meer erreichte und neue Kilometer Lavaküste schuf, in dem, was heute die Zone Los Guíos ist.\n\nDie Ströme jenes Ausbruchs — fast **230 Jahre später** — sind vom Aussichtspunkt noch perfekt sichtbar: Zungen schwarzer Lava, die den Hang des Pico Viejo hinabsteigen, mit noch intakter Originalmorphologie, im Kontrast zum Ocker und Weiß der Las Cañadas-Caldera, die sie umgibt.\n\n### Das geologische Spektakel\nVom Aussichtspunkt aus kann man sehen:\n- 🌋 Die **Eruptionsspalten** von 1798 — Sekundärkrater am Hang des Pico Viejo\n- 🌋 Die **schwarzen Lavaströme**, die nach Südwesten hinabsteigen, in geologischem Maßstab noch jung\n- 🌋 Der **Pico Viejo** (3.135 m) — der zweite Vulkan des Parks mit seiner riesigen 800 m breiten Caldera\n- 🌋 Der **Teide** im Hintergrund in seiner ganzen monumentalen Pracht\n- 🏔️ Die **Las Cañadas-Caldera** aus einem völlig anderen als dem üblichen Winkel\n- 🌊 Die **Südwestküste** Teneriffas an klaren Tagen im Hintergrund sichtbar\n\n### Die TF-38: Die Straße, die nicht jeder nimmt\nDie TF-38 ist die am wenigsten genutzte Zufahrtsstraße zum Nationalpark Teide — die meisten Besucher kommen über die TF-21 von Norden oder Süden — und genau deshalb bietet sie die ruhigste und authentischste Erfahrung. Es ist eine Hochgebirgsstraße, die von Santiago del Teide und Chio durch den Kiefernwald und die Lavafelder zum Nationalpark im Südwesten aufsteigt. Der Narices-Aussichtspunkt liegt an einem der spektakulärsten Punkte dieser Zufahrt.\n\n### Praktische Informationen\n- 📍 Straße TF-38, Südwestzufahrt zum Nationalpark Teide\n- 🅿️ Parkplatz neben dem Aussichtspunkt (kostenlos)\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich — morgens beste Sichtweite\n- 🧥 Temperatur: **8–15 °C** — Hochgebirgszone, starker Wind möglich\n- ⏱️ Empfohlene Dauer: **30–45 Minuten**\n\n### Empfehlung\nWenn Sie den Nationalpark Teide besuchen, gibt Ihnen die Anfahrt über die TF-38 von Südwesten eine völlig andere Perspektive auf den Teide als die übliche: Sie steigen durch Kiefern und Lava auf und plötzlich erscheint der Vulkan aus dem Südwestwinkel, mit den Narices im Vordergrund und Pico Viejo daneben. Es ist einer der kinematografischsten Eingänge zum Park. Kombinieren Sie ihn mit der Chio-Straße und der schwarzen Lavakuppe, um den Vulkan von seiner intimsten und wildesten Seite zu verstehen.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.25,
+        "lng": -16.71
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-narices-del-teide.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "teide",
+        "vulkan",
+        "1798",
+        "lava",
+        "pico-viejo",
+        "geologie"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🌋",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/TJ3weFf8q3tp7fF89"
+    },
+    {
+      "slug": "mirador-archipenque",
+      "name": "Mirador Archipenque",
+      "shortDescription": "Der nächste Landaussichtspunkt zu den Klippen von Los Gigantes — nahezu frontale Sicht auf die schwarzen Vulkanwände und den Atlantik vom südlichen Ende von Los Gigantes",
+      "description": "Der **Mirador Archipenque** ist der nächste Landpunkt zu den **Klippen von Los Gigantes** und bietet die unterschiedlichste und eindrucksvollste Perspektive auf diese Vulkanwände: Statt sie von oben zu sehen (wie von La Ensillada) oder vom Meer (wie bei der Bootsfahrt), werden die Klippen hier **fast frontal und auf ähnlicher Höhe** betrachtet, was eine Textur und Maßstäblichkeit des Gesteins offenbart, die von keinem anderen Aussichtspunkt zu erkennen ist.\n\n### Die einzigartige Perspektive\nArchipenque liegt auf einem Vulkanvorsprung südlich des Hafens von Los Gigantes, auf einer Höhe, die es ermöglicht, die Klippen fast von vorne zu sehen. Der Blick unterscheidet sich völlig von dem, den man von der Strandpromenade in Puerto de Santiago erhält:\n- 🪨 Die **vulkanische Textur** der schwarzen Wände — die über Millionen von Jahren abgelagerten Basaltschichten sind deutlich sichtbar\n- 📏 Der **wahre Maßstab** der Klippen — hier spürt man instinktiv, dass diese Wände 600–800 Meter hoch sind\n- 🌊 Das **tiefdunkle Blau** des Meeres am Fuß der Klippen — 40–60 Meter tiefes Wasser\n- 🌅 Der **Sonnenuntergang**, der die schwarzen Wände von Westen beleuchtet — färbt sie orange, golden und rot\n- 🌍 Die Insel **La Gomera** am Horizont deutlich sichtbar — an sehr klaren Tagen auch **La Palma** und **El Hierro**\n\n### Die Klippen von Archipenque\nWas diesen Aussichtspunkt besonders macht, ist seine Position an der südlichen Basis der Klippen: Während La Ensillada sie von oben und das Boot sie von unten sieht, sieht Archipenque sie **frontal auf halber Höhe**. Dies erlaubt es, zu sehen:\n- Die **Basaltsäulen**, die die Klippenbasis bilden\n- Die **Turmfalken-Nester** und andere felsbewohnende Vögel in den Felsspalten\n- Die **Meereshöhlen** auf Meereshöhe, einige nur per Kajak zugänglich\n- Den Farbwechsel des Gesteins im Laufe des Tages — von schwarz zu golden zu rot zu orange\n\n### Die Umgebung\nDer Mirador Archipenque ist von einer küstennahen Vulkanlandschaft von großer Schönheit umgeben: der schwarze Lavaboden, die halophile Küstenvegetation — Tabaibas, Kardone, Balancones — und das Meeresrauschen, das gegen die Felsen schlägt, schaffen eine Atmosphäre, die wenig mit dem Massentourismus einige Kilometer entfernt in Los Gigantes und Puerto de Santiago gemein hat.\n\n### Praktische Informationen\n- 📍 Zugang von Los Gigantes / Puerto de Santiago — Santiago del Teide\n- 🅿️ Parkmöglichkeiten in der Nähe\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich — der Sonnenuntergang ist der Höhepunkt\n- ⏱️ Empfohlene Dauer: **45 Minuten – 1 Stunde**\n- 🌬️ Dem Südwestwind ausgesetztes Gebiet\n\n### Empfehlung\nDer Sonnenuntergang in Archipenque, wenn das goldene Licht die schwarzen Klippen fast frontal beleuchtet, während die Sonne in den Atlantik sinkt, ist einer der fotogensten ganz Teneriffas. Kombinieren Sie ihn mit einem Spaziergang entlang der Los Gigantes Promenade und dem Abendessen im Hafen, um den Tag mit einem vollständigen Erlebnis des Teno-Massivs vom Meer aus abzuschließen. Für Kajak-Enthusiasten ist die Zone am Fuß der Klippen absolut außergewöhnlich — mehrere lokale Unternehmen bieten Kajak-Ausflüge zu den Meereshöhlen an.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.245,
+        "lng": -16.84
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-archipenque.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "gigantes",
+        "klippen",
+        "sonnenuntergang",
+        "küste",
+        "teno",
+        "fotografie"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "🌅",
+      "top": true,
+      "municipio": "santiago-del-teide",
+      "mapsUrl": "https://maps.app.goo.gl/XWWrmVPB67q1UqD77"
+    },
+    {
+      "slug": "mirador-de-masca",
+      "name": "Mirador de Masca",
+      "shortDescription": "Teneriffas unzugänglichstes Dorf aus dem besten Blickwinkel — der Balkon über der Masca-Schlucht und seinen Häusern, die sich an die Felsen des Teno-Massivs klammern",
+      "description": "Der **Mirador de Masca** ist der Punkt, von dem aus das berühmte Dorf Masca sich in seiner ganzen Pracht zeigt. Von hier aus versteht man auf einen Blick, warum Masca als eines der spektakulärsten Dörfer ganz Spaniens gilt: eine Handvoll weißer und steinerner Häuser, die sich an einem unmöglichen Grat zwischen zwei Schluchten auf über **600 Metern Höhe** festklammern, umgeben von senkrechten Wänden, die zum Meer hinabfallen, mit dem Atlantik und La Gomera im Hintergrund.\n\n### Das Dorf Masca\nMasca ist eine Siedlung **guanchischen** Ursprungs — der kanarischen Ureinwohner —, die die nahezu unpassierbare Natur des Teno-Massivs jahrhundertelang in fast völliger Abgeschiedenheit bewahrte. Seine einzige Zufahrtsstraße, die TF-436, ist eine der schmalsten und kurvenreichsten der Kanaren — eine Abfolge enger Haarnadelkurven, die die Schluchten umarmen und die Ankunft im Dorf schon an sich zu einem Abenteuer machen.\n\nDas Ergebnis dieser Abgeschiedenheit ist ein Dorf, das eine ländliche kanarische Architektur von außergewöhnlicher Ursprünglichkeit bewahrt: Häuser aus Basaltstein, Dreschtennen, hängende Gärten über dem Abgrund, Frischwasserquellen, die zwischen den Felsen hervorbrechen. Masca ist einer jener Orte, an denen die Zeit stillgestanden zu sein scheint — oder zumindest erheblich langsamer geworden ist.\n\n### Der Blick vom Aussichtspunkt\nVom Aussichtspunkt entdeckt man die vollständigste Perspektive auf das Dorf und seine Umgebung:\n- 🏘️ Die **Häuser von Masca**, die sich an den Grat zwischen den beiden Hauptschluchten klammern\n- 🏔️ Die **Wände des Barranco de Masca**, die auf beiden Seiten des Dorfes Hunderte von Metern abfallen\n- 🌴 **Kanarische Palmen** und **riesige Kardone**, die die Schluchtenhänge besiedeln\n- 🌊 Die **Nordwestküste** Teneriffas und der Atlantik dahinter\n- 🌍 **La Gomera** an klaren Tagen am Horizont deutlich sichtbar\n- 🌋 Der **Teide**, der über den Teno-Graten im Osten hervorschaut\n\n### Der Barranco de Masca\nDie vom Aussichtspunkt sichtbare Schlucht ist der berühmte **Barranco de Masca** — der begehrteste Abstiegswanderweg Teneriffas, der im Dorf beginnt und 3,8 km bis zur **Playa de Masca** hinabführt, einem unberührten Strand, der nur zu Fuß oder per Boot erreichbar ist. Vom Aussichtspunkt aus kann man fast die gesamte Länge der Schlucht sehen: die sich allmählich schließenden Wände, die Kurven des Weges und die Öffnung zum Meer am Ende.\n\n### Das Dorf selbst\nVom Aussichtspunkt 10 Minuten zu Fuß (oder mit dem Auto über die TF-436) ins Zentrum von Masca hinabsteigen, um:\n- 🥾 Den Abstieg durch den Barranco de Masca zu beginnen (Voranmeldung und Rücktransport erforderlich)\n- ☕ In einer der kleinen Bars des Dorfes etwas zu trinken\n- 📸 Die ländliche Architektur und die hängenden Gärten zu fotografieren\n- 🌿 Auf den Wegen zwischen den Häusern und Dreschtennen zu spazieren\n\n### Praktische Informationen\n- 📍 TF-436 — Masca, Santiago del Teide / Buenavista del Norte\n- 🅿️ Parkplatz in der Nähe des Aussichtspunkts (sehr begrenzte Kapazität — früh ankommen)\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich — früh morgens vermeidet man die Menschenmassen\n- 🌬️ Die TF-436 ist eng und kurvenreich — vorsichtig fahren\n- ⏱️ Empfohlene Dauer: **1–2 Stunden** (Aussichtspunkt + Dorfspaziergang)\n\n### Empfehlung\nKommen Sie vor 9 Uhr in Masca an — ab 10 Uhr füllen sich Straße und Dorf mit Touristen und der Parkplatz wird chaotisch. Die Morgendämmerung vom Aussichtspunkt, mit dem ersten Licht auf den Häusern während die Schlucht noch im Schatten liegt, hat eine stille und besondere Schönheit. Wenn Sie die Schlucht hinabsteigen möchten, mindestens 1 Woche im Voraus buchen und das Rückfahrboot vom Strand organisieren.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.2078,
+        "lng": -16.8336
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-de-masca.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "masca",
+        "schlucht",
+        "teno",
+        "dorf",
+        "aussichten",
+        "wandern"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏘️",
+      "top": true,
+      "municipio": "buenavista-del-norte",
+      "mapsUrl": "https://maps.app.goo.gl/54U7r7fyrsr1ft4T6"
+    },
+    {
+      "slug": "mirador-de-la-ruleta",
+      "name": "Mirador de La Ruleta",
+      "shortDescription": "Ein stiller Balkon im Nationalpark Teide — Aussichten über die Caldera de Las Cañadas und die Lavafelder von einem der am wenigsten besuchten Aussichtspunkte des Parks",
+      "description": "Der **Mirador de La Ruleta** ist einer jener Aussichtspunkte im Nationalpark Teide, an denen eilige Besucher normalerweise vorbeifahren — und den jene, die anhalten, als einen der kontemplativsten und ruhigsten Stopps der gesamten Caldera-Route entdecken. An der Straße TF-21 im Inneren des Parks gelegen, nimmt dieser Aussichtspunkt seinen Namen vom **Roque de La Ruleta**, einer der Vulkanformationen der Roques de García, deren kreisförmige, säulenförmige Gestalt aus der Ferne an ein Steinrad oder eine Töpferscheibe erinnert.\n\n### Die Caldera von La Ruleta\nVon diesem Aussichtspunkt unterscheidet sich die Perspektive auf das Innere der Caldera de Las Cañadas von den bekannteren Standpunkten:\n- 🌋 Die **Lavafelder** aus verschiedenen Vulkanepochen, die sich über den Calderaboden erstrecken\n- 🪨 Die **Roques de García** aus einem ungewöhnlichen Winkel sichtbar — ihre Formen und Silhouetten in Seitenperspektive erkennbar\n- 🌋 Der **Teide** in voller Höhe, der den nördlichen Horizont dominiert\n- 🌋 Der **Pico Viejo** mit seiner großen Seitencaldera\n- 🏔️ Die **Südwand** der Las Cañadas — das alte Vulkangesteinsbollwerk, das die Caldera im Süden begrenzt\n- 🌵 Die einzigartige Flora des Parks: **Teide-Ginster**, **Tajinaste** (im Frühling) und **Teide-Veilchen** in den Felsspalten\n\n### Die Stille\nWas La Ruleta von den belebtesten Aussichtspunkten des Parks unterscheidet, ist genau seine **geringere Besucherzahl**. Während sich die Parkplätze der Seilbahn und der Roques de García schon früh morgens füllen, ist La Ruleta ein Punkt, an dem dieselbe Vulkanlandschaft in relativer Einsamkeit betrachtet werden kann. Die Stille, nur vom Caldera-Wind unterbrochen, ist wesentlicher Bestandteil des Erlebnisses.\n\n### Flora der Umgebung\n- 🌿 **Teide-Ginster** (*Spartocytisus supranubius*) — der häufigste weiß-rosafarbene Strauch im Park, blüht Mai–Juni\n- 🌺 **Roter Tajinaste** (*Echium wildpretii*) — Teneriffas emblematische Frühlingsblume an den umliegenden Hängen\n- 🌼 **Teide-Veilchen** (*Viola cheiranthifolia*) — wächst in Felsspalten in der Nähe des Aussichtspunkts\n- 🌱 **Codeso del Teide** (*Adenocarpus viscosus*) — gelber Hochgebirgsstrauch\n\n### Praktische Informationen\n- 📍 Straße TF-21 — im Inneren des Nationalparks Teide\n- 🅿️ Parkplatz neben dem Aussichtspunkt (kostenlos)\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich\n- 🧥 Temperatur: **5–15 °C** je nach Jahreszeit — immer kälter als an der Küste\n- ⏱️ Empfohlene Dauer: **30–45 Minuten**\n\n### Empfehlung\nEin perfekter Stopp auf dem Parkrundweg zwischen den Roques de García und der Seilbahn. Die Kombination von La Ruleta mit dem Roques-Rundweg (3,5 km) ergibt einen vollständigen Erkundungsmorgen mit wenig körperlichem Aufwand und hoher Bildwirkung. An verschneiten Wintertagen hat der Kontrast von schwarzem Fels mit weißem Schnee am Aussichtspunkt eine unverkennbar südliche Schönheit.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.22,
+        "lng": -16.62
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-de-la-ruleta.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "teide",
+        "caldera",
+        "lava",
+        "nationalpark",
+        "stille",
+        "vulkanisch"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🌋",
+      "top": false,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/uxRvPLGrqrugdCss9"
+    },
+    {
+      "slug": "mirador-pico-del-ingles",
+      "name": "Mirador Pico del Inglés",
+      "shortDescription": "Teneriffas spektakulärster 360°-Aussichtspunkt — auf fast 1.000 m im Herzen von Anaga, mit gleichzeitigem Blick auf Teide, Atlantik, La Laguna und den Lorbeerwald in alle Richtungen",
+      "description": "Der **Mirador Pico del Inglés** ist für viele Teneriffa-Kenner der spektakulärste Aussichtspunkt der gesamten Insel. Seine Lage — an einem der höchsten Punkte des **Anaga-Massivs**, auf fast **1.000 Metern** Höhe — verleiht ihm ein ungehindertes **360-Grad-Panorama**, das praktisch die gesamte Geographie Teneriffas und einen großen Teil des umgebenden Atlantiks umfasst. Es ist einer jener Orte, an denen das wahre Ausmaß der Insel mit einem einzigen Blick begreifbar wird.\n\n### Der Name\n«Pico del Inglés» — Englischmanns Gipfel — verdankt seinen Namen der historischen Gewohnheit britischer Reisender und Kaufleute, die ab dem 19. Jahrhundert zu Fuß oder zu Pferd bis zu diesem Punkt wanderten, um die Landschaft zu genießen. Die Briten hatten eine besondere Vorliebe für Teneriffa (La Laguna war jahrhundertelang ein regelmäßiger Halt auf den atlantischen Handelsrouten) und dieser Gipfel war einer ihrer Lieblingsausflüge von der Stadt aus.\n\n### Das 360°-Panorama\nAm Pico del Inglés stehend, erfasst eine einzige vollständige Drehung:\n- 🌋 Der **Teide** im Südwesten — Spaniens höchster Vulkan, der über dem Horizont aus Kiefern und Wolken aufragt\n- 🌊 Die **Nordküste** Teneriffas mit ihren Klippen und dem Atlantik\n- 🏙️ **San Cristóbal de La Laguna** und das **Valle de Aguere**, die sich im Süden und Westen ausbreiten\n- 🌿 Das **Lorbeerwald-Meer** des Anaga-Massivs in alle Richtungen — der ausgedehnteste Tertiärwald der Welt, von innen gesehen\n- 🌊 Die **Ostküste** Teneriffas mit Santa Cruz im Hintergrund\n- 🌍 An sehr klaren Tagen: **Gran Canaria** im Süden, **La Gomera** im Westen, sogar **El Hierro** und **La Palma**\n- ⛅ Häufig das Spektakel des **Wolkenmeers** — der Aussichtspunkt liegt über der Temperaturinversionslinie und man kann die Wolkendecke über Tal und Küste beobachten\n\n### Der Wald von oben\nVom Pico del Inglés aus zeigt sich der Lorbeerwald in seiner Vogelperspektive: Die Baumkronen von Lorbeer, Til und Faya schaffen einen dichten, dunkelgrünen Teppich, der die Hänge in alle Richtungen bedeckt. Diese Draufsicht — nur an den wenigen Punkten erreichbar, die über dem Wald aufragen — unterscheidet sich qualitativ vom Wandern im Waldesinneren: Hier sieht man das wahre Ausmaß der Laurisilva.\n\n### Sonnenauf- und -untergang\nDer Pico del Inglés hat unter Naturfotrgrafen Teneriffas einen Ruf für die Qualität seines Lichts zu den wichtigsten Tageszeiten:\n- 🌅 **Sonnenaufgang**: Die Sonne geht im Osten direkt vor dem Aussichtspunkt aus dem Atlantik auf und taucht den Wald in goldene Töne und das nebelgefüllte Valle de Aguere\n- 🌅 **Sonnenuntergang**: Die Sonne geht über dem Teide im Westen unter, mit dem Vulkan als Silhouette vor rotem und orangefarbenem Himmel\n\n### Praktische Informationen\n- 📍 Straße TF-12 (Las Mercedes), Anaga — Gemeinde La Laguna\n- 🅿️ Kostenloser Parkplatz neben dem Aussichtspunkt\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich — am besten bei Sonnenauf- oder -untergang\n- 🧥 Temperatur: **10–18 °C** — das Massiv ist immer kühler als die Küste\n- 🚌 Bus aus La Laguna: **Linie 75**\n- ⏱️ Empfohlene Dauer: **45 Minuten – 1 Stunde**\n\n### Empfehlung\nWenn Sie nur einen einzigen Aussichtspunkt auf Teneriffa wählen müssten, wäre dieser einer der stärksten Kandidaten. Die Breite und Vielfalt des Panoramas — Teide, Atlantik, Wald, Stadt, Insel, Wolken — von einem einzigen Punkt aus ist auf der Insel unübertroffen. Kombinieren Sie ihn mit dem **Mirador Cruz del Carmen** (10 Minuten auf der TF-12), um die beiden besten Aussichtspunkte des Anaga abzuschließen. Wenn möglich, zum Sonnenaufgang kommen — das Spektakel des Lichts, das über den Wald und das Wolkental bricht, ist wirklich außergewöhnlich.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.5366,
+        "lng": -16.2191
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-pico-del-ingles.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "anaga",
+        "360",
+        "panorama",
+        "teide",
+        "lorbeerwald",
+        "sonnenaufgang"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "🔭",
+      "top": true,
+      "municipio": "san-cristobal-de-la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/vTLmjLrayzwNUpUB9"
+    },
+    {
+      "slug": "mirador-corral-del-nino",
+      "name": "Mirador de El Corral del Niño",
+      "shortDescription": "Ein ruhiger Aussichtspunkt im Herzen des Teno-Massivs — Blicke auf die grünen Täler und Schluchten des Nordwestens Teneriffas abseits der üblichen Touristenrouten",
+      "description": "Der **Mirador de El Corral del Niño** ist einer jener Betrachtungspunkte im **Teno-Massiv**, die die große Mehrheit der Besucher nie kennenlernt. Abseits der belebtesten Routen gelegen, bietet dieser Aussichtspunkt eine authentische und besinnliche Perspektive auf Teneriffas älteste Landschaft — die Täler, Schluchten und Hänge des Nordwestens, die jahrhundertelang das Territorium von Bauern und Hirten waren und die heute eine ländliche Schönheit bewahren, die schwer ihresgleichen findet.\n\n### Das Teno-Massiv: Teneriffas ältestes Land\nDas Teno-Massiv ist über **7 Millionen Jahre** alt — das älteste Gebiet Teneriffas, das lange vor dem Teide und dem Rest der Insel entstand. Seine Landschaften spiegeln dieses Alter wider: der schwarze und rote Basalt seiner Wände, die an das trockene und windige Nordwestklima angepasste Vegetation, die tiefen Schluchten, die über Millionen von Jahren durch Erosion gegraben wurden. Es ist ein Territorium, das dem touristischen Teneriffa vollständig entgangen ist und eine Ursprünglichkeit bewahrt, die anderswo auf der Insel schwer zu finden ist.\n\n### Die Aussichten\nVom Corral del Niño öffnet sich der Blick über das Innere des Massivs:\n- 🌿 Die **grünen Täler** des Nordwestens — El Palmar, Erjos, das Agrarland von Buenavista\n- 🏔️ Die **Teno-Grate**, die gezackt gegen den Himmel schneiden\n- 🌵 Die Hänge mit **xerophiler Vegetation**, die an das trockene Nordwestklima angepasst ist: Kardone, Tabaibas, Kanarische Palmen\n- 🏘️ Die kleinen **ländlichen Siedlungen**, die in der Landschaft verstreut sind — Gehöfte und Weiler, die sich in einem Jahrhundert kaum verändert haben\n- 🌊 An klaren Tagen **Andeutungen des Atlantiks** und die Silhouette von **La Palma** im Nordwesten\n\n### Die ländliche Umgebung\nWas diesen Aussichtspunkt besonders macht, ist nicht nur die Aussicht, sondern die ihn umgebende Landschaft: Anbauterrassen an den Schluchthängen, einsame Kanarische Palmen auf den Graten, steinerne Wege, die in die Täler hinabführen. Dies ist das Teneriffa, das vor dem Tourismus existierte — und im Teno-Massiv noch existiert.\n\n### Fauna\n- 🦅 **Turmfalke** (*Falco tinnunculus*) — nistet in den Felsen des Massivs\n- 🦜 **Wildkanarienvogel** (*Serinus canaria*) — der ursprüngliche Kanarienvogel, grün-gelb gefärbt\n- 🦎 **Teneriffa-Eidechse** (*Gallotia galloti*) — an sonnigen Felsflächen sehr häufig\n- 🦦 **Kanarischer Skinke** (*Chalcides viridanus*) — endemische kanarische Eidechsenart\n\n### Praktische Informationen\n- 📍 Teno-Massiv — TF-436 oder Nebenstraßen von Buenavista / Erjos\n- 🅿️ Parkplatz in der Nähe (kostenlos)\n- 💶 **Freier Zugang**\n- 🕙 **Den ganzen Tag** zugänglich\n- ⏱️ Empfohlene Dauer: **30–45 Minuten**\n- 🌬️ Häufig windiges Gebiet — der Nordwesten ist Teneriffas windigste Ecke\n\n### Empfehlung\nKombinieren Sie El Corral del Niño mit einer Rundwanderung durch die Teno-Täler, um die authentischste und ländlichste Seite Teneriffas zu entdecken. Beim Sonnenuntergang hat das goldene Licht über den grünen Tälern des Nordwestens eine außergewöhnliche fotografische Qualität. Ein Aussichtspunkt für jene, die das Teneriffa suchen, das in herkömmlichen Reiseführern nicht vorkommt.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.34,
+        "lng": -16.78
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/mirador-corral-del-nino.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "aussichtspunkt",
+        "teno",
+        "ländlich",
+        "nordwesten",
+        "schluchten",
+        "authentisch",
+        "natur"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "🌄",
+      "top": false,
+      "municipio": "buenavista-del-norte",
+      "mapsUrl": "https://maps.app.goo.gl/MPL3cjVaKVmRxZFq6"
+    },
+    {
+      "slug": "parque-natural-corona-forestal",
+      "name": "Naturpark Corona Forestal",
+      "shortDescription": "Der größte Naturpark der Kanaren — 46.000 Hektar Kanarischer Kiefernwald um den Teide, Heimat des Teneriffa-Blaufinken und Paradiess für Wanderer auf 1.000 bis 2.000 m Höhe",
+      "description": "Der **Naturpark Corona Forestal** ist der flächenmäßig größte Naturpark der Kanarischen Inseln mit **46.000 Hektar** und der grüne Gürtel, der den Nationalpark Teide umgibt, ihn schützt und eine Übergangszone zwischen der Küstenwelt und der vulkanischen Hochgebirgswelt schafft. Auf Höhen zwischen **1.000 und 2.200 Metern** ist die Corona Forestal vor allem das Reich der **Kanarischen Kiefer** (*Pinus canariensis*) — der einzigen auf den Kanaren endemischen Kiefer und eines der außergewöhnlichsten Bäume des Planeten.\n\n### Die Kanarische Kiefer: Eine einzigartige Art\nDie Kanarische Kiefer ist schlicht und einfach einer der einzigartigsten Bäume der Welt. Anders als die meisten Nadelbäume besitzt sie eine nahezu wundersame Fähigkeit: Sie kann **nach einem Waldbrand wieder ausschlagen**, dank der schlafenden Knospen, die sie unter ihrer Borke bewahrt. Wochen nachdem das Feuer den Wald verwüstet hat, beginnen die verkohlten Stämme, neue grüne Triebe von der Basis, dem Stamm und den Ästen zu treiben — eine perfekte Anpassung an die wiederkehrenden Brände und die Vulkantätigkeit, die den Kanarischen Archipel prägen.\n\nZudem hat die Kanarische Kiefer die längsten Nadeln aller europäischen Kiefern — bis zu 30 cm — und kann Temperaturen bis -15 °C und starken Schneefällen standhalten, was sie zum dominierenden Baum in den mittleren bis hohen Lagen der westlichen Kanaren macht.\n\n### Biodiversität\n**Flora:**\n- 🌲 **Kanarische Kiefer** (*Pinus canariensis*) — dominant zwischen 1.000 und 2.000 m\n- 🌿 **Baumheide** (*Erica arborea*) und **Faya** (*Myrica faya*) — in Übergangszonen zum Lorbeerwald\n- 🌱 **Teide-Ginster** (*Spartocytisus supranubius*) — in den höheren Zonen an der Grenze zum Nationalpark\n- 🍄 Große Vielfalt von **Pilzen und Flechten** auf dem Kiefernnadelteppich und den Stämmen\n\n**Fauna:**\n- 🐦 **Teneriffa-Blaufink** (*Fringilla teydea*) — einer der seltensten Vögel Europas, ausschließlich endemisch in den Kiefernwäldern des Teide und der Corona Forestal. Das Männchen hat ein spektakuläres kobaltblaues Gefieder; das Weibchen ist unauffälliger, aber ebenso schwer zu beobachten\n- 🐦 **Kanarischer Buntspecht** (*Dendrocopos major thanneri*) — öfter gehört als gesehen\n- 🦅 **Sperber** und **Habicht** — Waldgreifvögel\n- 🦎 **Teneriffa-Eidechse** in sonnigen Lichtungen zwischen den Kiefern\n\n### Die Erholungsgebiete\nDie Corona Forestal verfügt über zahlreiche **Erholungsgebiete** im gesamten Park, ausgestattet mit Picknicktischen, Grillplätzen, Wasserquellen und Wanderwegzugang. Einige der beliebtesten:\n- 🌲 **Erholungsgebiet Aguamansa** — am Nordhang, Zugang von La Orotava\n- 🌲 **Erholungsgebiet La Caldera** — bei Vilaflor im Süden\n- 🌲 **Erholungsgebiet Chinyero** — neben dem Vulkan Chinyero im Westen\n- 🌲 **Erholungsgebiet El Portillo** — an der Grenze zum Nationalpark\n\n### Die Wanderwege\nDie Corona Forestal wird von einem ausgedehnten Netz ausgeschilderter Pfade durchzogen, die es ermöglichen, den Kiefernwald in all seinen Dimensionen zu erkunden:\n- 🥾 **Orilla del Bosque-Weg** — verläuft am Waldrand mit Talblicken\n- 🥾 **Teide-Weg** — verbindet Parkzonen mit Vulkanblicken\n- 🥾 **GR-131 (Teide-Route)** — der interinsulare Fernwanderweg führt durch die Corona Forestal\n\n### Praktische Informationen\n- 📍 Umgibt den Nationalpark Teide — zugänglich über TF-21, TF-24, TF-38 und TF-28\n- 💶 **Kostenloser Zugang** zu Fuß und mit dem Auto\n- 🕙 **Den ganzen Tag** zugänglich — Erholungsgebiete von Sonnenaufgang bis Sonnenuntergang geöffnet\n- 🧥 Temperatur: **12–22 °C** je nach Höhe und Jahreszeit\n- ⏱️ Variabel: von einem 1-stündigen Spaziergang bis zu mehrtägigen Routen\n\n### Empfehlung\nDie Corona Forestal ist der perfekte Naturraum für jene, die authentische, ruhige Natur ohne den Massentourismus des Nationalparks Teide suchen. Die Erholungsgebiete eignen sich ideal für Familien mit Kindern. Wenn Sie den **Teneriffa-Blaufink** suchen, ist Ihre beste Option der Kiefernwald von Aguamansa früh morgens im Frühling — das ist, wenn das Männchen am aktivsten ist und von den Wipfeln der höchsten Kiefern singt.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.3,
+        "lng": -16.6
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/parque-natural-corona-forestal.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "kiefernwald",
+        "corona-forestal",
+        "blaufink",
+        "wandern",
+        "natur",
+        "teide",
+        "park"
+      ],
+      "visitDuration": "halber-tag-ganzer-tag",
+      "difficulty": "easy",
+      "emoji": "🌲",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/ASiiUdLNguPgsZWd7"
+    },
+    {
+      "slug": "llano-de-ucanca",
+      "name": "Llano de Ucanca",
+      "shortDescription": "Die große innere Ebene der Cañadas del Teide — eine Vulkanebene auf 2.100 m Höhe, die wie ein anderer Planet wirkt, mit dem Teide dahinter und den Roques de García nebenan",
+      "description": "Das **Llano de Ucanca** ist die ausgedehnteste und spektakulärste Ebene im Inneren der **Caldera de Las Cañadas del Teide** und eine der beeindruckendsten und seltsamsten Landschaften ganz Spaniens. Auf **2.100 Metern Höhe** besteht dieser riesige flache Raum im Herzen des Nationalparks Teide aus Ablagerungen von Bimsstein, Lapilli und erstarrter Lava aus verschiedenen Eruptionsepochen, die einen Boden von unglaublichen Farben schaffen: Weiß, Ocker, Grau, Schwarz und Rot mischen sich zu einem einzigartigen mineralischen Teppich.\n\n### Die Landschaft\nDas Llano de Ucanca hat etwas von einer außerirdischen Welt: Es ist zu weitläufig, zu still und zu fremd, um wie ein irdischer Ort zu wirken. Die Ebene erstreckt sich kilometerweit mit nahezu perfekter Horizontalität, begrenzt von den Calderawänden im Süden und mit dem **Teide**, der den nördlichen Horizont in seiner ganzen Monumentalität dominiert. An seinen Seiten erheben sich die **Roques de García** und das **Parador Nacional de Las Cañadas** — die beiden ikonischsten künstlichen Elemente dieser Landschaft.\n\n### Die Farben des Bodens\nWas das Llano de Ucanca visuell einzigartig macht, sind seine Farben:\n- ⬜ **Weißer Bimsstein** aus den explosiven Eruptionen des Teide — Bereiche von einem fast blendenden Weiß\n- 🟤 **Ockerfarbener Lapilli** — der schwammige poröse Vulkansteinboden typisch für Las Cañadas\n- ⬛ **Schwarze Basaltlava** aus den jüngsten Strömen\n- 🔴 **Rote Schlacke**, durch vulkanisches Eisen oxidiert\n- 🟡 **Gelber Bimsstein** aus Eruptionen unterschiedlicher Zusammensetzung\n\nDiese Farbpalette, die sich je nach Tageszeit verändert, ist das charakteristischste visuelle Merkmal des Llano de Ucanca und der Grund, warum es eine der meistfotografierten Landschaften Teneriffas ist.\n\n### Das Licht\nDie Lichtqualität auf dem Llano de Ucanca variiert je nach Stunde außerordentlich:\n- 🌅 **Sonnenaufgang**: streifendes rosa-orangenes Licht, das die Ebene überflutet und die Calderawände von Osten beleuchtet\n- ☀️ **Mittag**: Zenitallicht, das die Landschaft verflacht und den Bimsstein zum Leuchten bringt\n- 🌅 **Sonnenuntergang**: das beste Licht — die Sonne beleuchtet den Teide von Westen und wirft lange Schatten über die Ebene, während der Himmel in Orange und Rot aufleuchtet\n- 🌃 **Nacht**: Das Llano de Ucanca ist einer der besten Sternbeobachtungspunkte des Parks — der Himmel auf 2.100 m ohne Lichtverschmutzung ist außergewöhnlich\n\n### Das Parador Nacional\nNeben dem Llano de Ucanca steht das **Parador Nacional de Las Cañadas del Teide**, die einzige Unterkunft im Nationalpark. Hier zu übernachten und vor der Morgendämmerung hinaus auf das Llano de Ucanca in absoluter Stille zu gehen, mit dem dunklen Teide gegen einen sternenübersäten Himmel, ist eines der unvergesslichsten Erlebnisse, das Teneriffa bieten kann.\n\n### Einzigartige Flora\nTrotz der extremen Bedingungen — Kälte, Wind, armer Boden und Trockenheit — ist das Llano de Ucanca nicht pflanzenfrei:\n- 🌿 **Teide-Ginster** (*Spartocytisus supranubius*) — verstreute Sträucher, die im Mai–Juni voller weißer und rosa Blüten stehen\n- 🌺 **Roter Tajinaste** (*Echium wildpretii*) — erscheint an den Rändern der Ebene, im Frühling spektakulär\n- 🌼 **Teide-Veilchen** (*Viola cheiranthifolia*) — wächst sogar in den Rissen der exponiertesten Lava\n\n### Praktische Informationen\n- 📍 Straße TF-21 — im Nationalpark Teide, neben dem Parador\n- 🅿️ Parkplatz beim Parador und den Roques de García (kostenlos)\n- 💶 **Freier Zugang**\n- 🕙 **24 Stunden** zugänglich — besonders empfohlen bei Sonnenaufgang, -untergang und nachts\n- 🧥 Durchschnittstemperatur: **5–12 °C** — warme Kleidung zu jeder Jahreszeit unerlässlich\n- ⏱️ Empfohlene Dauer: **1–2 Stunden** (Spaziergang über die Ebene)\n\n### Empfehlung\nDer Sonnenaufgang auf dem Llano de Ucanca — vor Sonnenaufgang ankommen und beobachten, wie rosa Licht allmählich den Teide und die Caldera beleuchtet, während die Ebene im Schatten bleibt — ist eines der eindrucksvollsten visuellen Erlebnisse Teneriffas. Immer mit den Roques de García (wenige Autominuten entfernt) kombinieren für einen vollständigen Morgen im Herzen des Nationalparks. Im Frühling, wenn Tajinaste und Ginster blühen, erhält die Landschaft eine zusätzliche Dimension der Schönheit, die kaum zu beschreiben ist.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.227,
+        "lng": -16.65
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/llano-de-ucanca.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "teide",
+        "caldera",
+        "ebene",
+        "vulkanisch",
+        "sonnenaufgang",
+        "sternbeobachtung",
+        "nationalpark"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🪐",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/Mx4JY2dTv7pY7LQ58"
+    },
+    {
+      "slug": "punta-de-teno",
+      "name": "Punta de Teno",
+      "shortDescription": "Teneriffas westlichster Punkt — ein vulkanisches Kap, wo der Atlantik gegen die Klippen des Teno-Massivs bricht, mit einem historischen Leuchtturm, kristallklarem Wasser und dem schönsten Blick auf La Gomera und La Palma",
+      "description": "Die **Punta de Teno** ist der westlichste Punkt Teneriffas und einer der eigenartigsten und emotional eindringlichsten Orte der gesamten Insel. Am äußersten Ende des **Teno-Massivs** — dem ältesten Teil Teneriffas mit über 7 Millionen Jahren — ragt das Kap zwischen schwarzen Basaltklippen, unmöglich türkisem Wasser und einer Stille, die nur vom Wind und dem Meer unterbrochen wird, in den Atlantik. Hier endet Teneriffa. Und hier beginnt der Atlantik.\n\n### Die Landschaft\nZur Punta de Teno zu gelangen bedeutet, ans Ende der Welt im besten Sinne zu kommen. Die Straße TF-445 schlängelt sich zwischen senkrechten Klippen über dem Meer hinab und setzt den Reisenden an einem kleinen Ort ab, wo alles zusammenkommt:\n- 🏔️ Die **Teno-Klippen** aus schwarzem Basalt — wild und imposant, steil ins Meer abfallend\n- 🌊 Der **Atlantik** in einem tiefen Türkis, das brutal mit dem schwarzen Fels kontrastiert\n- 🏝️ Der kleine **schwarze Kiesstrand** am Fuß des Kaps — ruhig, geschützt, von karger Schönheit\n- 🏛️ Der **Leuchtturm Punta de Teno** — einer der schönsten Leuchttürme der Kanaren, weiß auf schwarzem Vulkangestein\n- 🌬️ Der beständige Nordwestwind, der Kardone und Vegetation in skulpturale Formen modelt\n\n### Die Aussichten\nVon der Punta de Teno entfaltet sich eines der spektakulärsten Panoramen des Archipels:\n- 🏝️ **La Gomera** — die Nachbarinsel, so nah, dass man sie zu berühren meint, mit dem Roque de Agando und dem Garajonay-Massiv gut erkennbar\n- 🏔️ **La Palma** — am nordwestlichen Horizont bei klarem Wetter, mit dem unverwechselbaren Calderaprofil\n- 🌊 Die **Straße von La Gomera** — die Gewässer zwischen den beiden Inseln, oft mit Kurzflossen-Grindwalen (*Globicephala macrorhynchus*) und Delfinen\n- 🏔️ Die **Klippen von Los Gigantes** — die große Basaltwand des südlichen Teno, vom Kap nach Südosten sichtbar\n\n### Der Leuchtturm\nDer **Leuchtturm Punta de Teno** wurde **1897** erbaut und leitet seit über 125 Jahren Seefahrer durch den Engpass zwischen Teneriffa und La Gomera. Sein weißer Turm auf dem schwarzen Vulkangestein ist eines der ikonischsten Bilder des Nordwestens Teneriffas und eine der meistgesuchten Fotografien von Inselbesuchern. Der Leuchtturm ist bis heute in Betrieb.\n\n### Das Meer und die Meeresfauna\nDie Gewässer vor der Punta de Teno gehören zum **Meeresschutzgebiet Nordteneriffa**, was außergewöhnliche Wasserqualität und bemerkenswerte Meeresbiodiversität gewährleistet:\n- 🐬 **Kurzflossen-Grindwal** (*Globicephala macrorhynchus*) — dauerhafter Bewohner der Gewässer zwischen Teneriffa und La Gomera. Walbeobachtungsausflüge starten von Los Gigantes, aber auch vom Kap aus sind Sichtungen möglich\n- 🐢 **Unechte Karettschildkröte** (*Caretta caretta*) — durchquert diese Gewässer während atlantischer Wanderungen\n- 🐟 **Außergewöhnlich reichhaltiger Meeresgrund**: Zackenbarsche, Weißbrassen, Oktopusse, Muränen, Meerengel\n- 🐦 **Königsseeschwalbe** (*Thalasseus maximus*) und **Cory-Sturmtaucher** (*Calonectris borealis*) über dem Kap kreisend\n\n### Die Vegetation\nDie Umgebung des Kaps zeigt die charakteristische Vegetation des trockenen Nordwestens Teneriffas:\n- 🌵 **Kanarischer Kardón** (*Euphorbia canariensis*) — die säulenförmigen Kakteen an den Klippen\n- 🌿 **Tabaiba amarga** (*Euphorbia regis-jubae*) — grauer Strauch, an Salznebel angepasst\n- 🌱 **Verol** (*Aeonium* spp.) — die Sukkulentenrosetten in den Felsspalten\n- 🌴 **Kanarische Palme** (*Phoenix canariensis*) — einzeln in den geschütztesten Mulden\n\n### Der Zugang: Pendelbus oder zu Fuß\nDer Zugang zur Punta de Teno ist besonders. Die Straße ist den größten Teil der Zeit **für den Privatverkehr gesperrt**, was den Ort perfekt erhalten hat:\n- 🚌 **Offizieller Pendelbus** vom Parkplatz in Buenavista del Norte — der Hauptzugangsweg\n- 🥾 **Zu Fuß** entlang der Straße oder über den **Küstenpfad** von Buenavista hinunter (≈ 3,5 km, 1,5 Std.)\n- 🚗 Privatauto nur in sehr begrenzten Zeitfenstern (aktuelle Zeiten beim Cabildo de Tenerife erfragen)\n\n### Praktische Informationen\n- 📍 Punta de Teno, Buenavista del Norte — westlichste Spitze Teneriffas\n- 🚌 Pendelbus ab Buenavista: aktuelle Fahrpläne auf der Website des Cabildo de Tenerife prüfen\n- 💶 **Kostenloser Zugang** (Pendelbus eventuell mit geringem Kostenbeitrag)\n- 🕙 **Den ganzen Tag** — der Sonnenuntergang ist besonders magisch\n- ⏱️ Empfohlene Dauer: **2–3 Stunden**\n- 🌬️ Sehr windiges Gebiet — auch im Sommer Jacke mitbringen\n- 🏊 Schwimmen am Kiesstrand möglich, aber auf Strömungen achten\n\n### Empfehlung\nKommen Sie zum Sonnenuntergang. Das letzte Licht beleuchtet La Gomera und verwandelt den Ozean in einen Spiegel aus Orange und Rot, während der Leuchtturm sein weißes Blinksignal zu senden beginnt. Es ist einer der eindringlichsten Momente der Teneriffa-Erfahrung — und einer der am meisten erinnerten von jenen, die ihn erleben. Kombinieren Sie es wenn möglich mit einem Spaziergang durch das Dorf **Buenavista del Norte**, das ruhigste und authentischste im Nordwesten der Insel.",
+      "island": "tenerife",
+      "category": "nature",
+      "coordinates": {
+        "lat": 28.3461,
+        "lng": -16.9108
+      },
+      "images": {
+        "hero": "/images/tenerife/nature/punta-de-teno.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "kap",
+        "leuchtturm",
+        "teno",
+        "atlantik",
+        "la-gomera",
+        "klippen",
+        "meeresschutzgebiet",
+        "sonnenuntergang"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🏴",
+      "top": true,
+      "municipio": "buenavista-del-norte",
+      "mapsUrl": "https://maps.app.goo.gl/rB1PoHJYXr2wGG8a7"
     }
   ],
   "sections": [
