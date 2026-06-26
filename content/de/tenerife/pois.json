@@ -34,38 +34,6 @@
       "municipio": "la-orotava"
     },
     {
-      "slug": "santa-cruz",
-      "name": "Santa Cruz de Tenerife",
-      "description": "Hauptstadt von Teneriffa und Heimat des berühmtesten Karnevals Spaniens, der als Veranstaltung von internationalem touristischen Interesse anerkannt ist. Großer Handelshafen, García-Sanabria-Park und die moderne Architektur von Calatravas Auditorium.",
-      "shortDescription": "Hauptstadt Teneriffas und Heimat des berühmtesten Karnevals Spaniens",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4636,
-        "lng": -16.2518
-      },
-      "images": {
-        "hero": "/images/tenerife/santa-cruz/hero.avif",
-        "gallery": [
-          "/images/tenerife/santa-cruz/1.avif"
-        ]
-      },
-      "audioPreview": "/audio/previews/de/santa-cruz-preview.mp3",
-      "hasPremiumAudio": true,
-      "premiumRouteId": "volcano-route",
-      "tags": [
-        "stadt",
-        "karneval",
-        "kultur",
-        "hafen",
-        "auditorium"
-      ],
-      "visitDuration": "halber Tag",
-      "emoji": "🏙️",
-      "municipio": "santa-cruz",
-      "top": true
-    },
-    {
       "slug": "los-gigantes",
       "name": "Los Gigantes",
       "description": "Klippen bis zu 600 Meter hoch, die senkrecht in den Atlantik fallen. Bootsausflüge zur Beobachtung von Delfinen und Grindwalen in ihrem natürlichen Lebensraum. Das dramatischste Dorf an der Westküste Teneriffas.",
@@ -292,8 +260,8 @@
     {
       "slug": "alquiler-coche-tenerife",
       "name": "Autovermietung auf Teneriffa",
-      "shortDescription": "Unverzichtbar für die Erkundung der Insel: wie, wo und was die Anmietung eines Autos kostet",
-      "description": "Teneriffa ist eine große und abwechslungsreiche Insel, und **ein Mietwagen ist die freieste und effizienteste Art, sie zu erkunden**. Vom Flughafen Reina Sofía (Süden) oder Los Rodeos (Norden) aus haben Sie unmittelbaren Zugang zu allen großen Mietwagengesellschaften. Die Preise gehören dank des starken Wettbewerbs und des Sondersteuerregimes der Kanarischen Inseln zu den günstigsten in Europa.\n\n### Der Besuch\nMit einem Auto können Sie an einem einzigen Tag den Teide am Morgen, die Klippen von Los Gigantes um Mittag und einen Sonnenuntergang in El Médano kombinieren. Ohne Auto würde dieselbe Route zwei bis drei Tage mit öffentlichen Verkehrsmitteln erfordern. Die Autobahn TF-1 verbindet den Süden mit dem Norden in weniger als 45 Minuten, und die TF-5 verbindet Santa Cruz mit Puerto de la Cruz in 30 Minuten. Bergstraßen (Masca, Anaga) erfordern Vorsicht, sind aber mit einem Standardauto problemlos befahrbar.\n\n### Vor der Abreise\n- 🛬 Immer von zu Hause über DiscoverCars oder ähnliches buchen — bis zu 40% günstiger als an den Flughafenschaltern\n- 📋 Sie benötigen Führerschein, Kreditkarte und müssen über 21 Jahre alt sein (manche Anbieter verlangen 25)\n- ⛽ Tankstellen sind im Süden reichlich vorhanden — im Norden und in den Bergen vorher tanken\n- 🔑 Automatikfahrzeuge sind in der Hochsaison schnell ausgebucht: im Voraus reservieren\n- 🅿️ Parken in Santa Cruz und Puerto de la Cruz kann schwierig sein — kostenpflichtige Parkplätze nutzen\n\n### Empfehlung\nMindestens 48 Stunden vor Ankunft online buchen, Vollkaskoversicherung ohne Selbstbeteiligung wählen und Routen gegen den Uhrzeigersinn planen, um das Tageslicht optimal zu nutzen.",
+      "shortDescription": "Teneriffa ist groß und abwechslungsreich — ohne Auto verpasst man die Hälfte. Online bei DiscoverCars buchen und bis zu 40 % weniger zahlen als am Flughafenschalter.",
+      "description": "Teneriffa ist eine Insel, die man mit dem Auto wirklich erlebt. Die Autobahn TF-1 bringt einen in unter 45 Minuten von Süd nach Nord, doch das eigentliche Erlebnis liegt auf den Nebenstraßen: die Schluchten von Anaga, die Kurven über Masca, die Stille des Teide in der Morgendämmerung. Mit öffentlichen Verkehrsmitteln würde das Tage dauern; mit dem Auto ist es ein Vormittag.\n\nDas Fahren auf der Insel ist unkompliziert — Schilder sind klar, Straßen in gutem Zustand und der Verkehr außerhalb der Stoßzeiten in Santa Cruz überschaubar. Bergstraßen erfordern Ruhe und Rücksicht, sind aber mit einem normalen PKW problemlos befahrbar.\n\n**Online buchen ist immer günstiger.** Mit **DiscoverCars** vergleicht man alle verfügbaren Anbieter an beiden Flughäfen auf einen Blick und findet die besten Preise — bis zu 40 % günstiger als am Schalter. Automatikfahrzeuge und SUVs sind in der Hochsaison schnell vergriffen, also frühzeitig buchen. Vollkasko ohne Selbstbeteiligung wählen: die Sicherheit ist es wert.\n\n**Was sich mit einem Auto auf Teneriffa ändert:** Man kann den Teide am Morgen, Los Gigantes am Mittag und einen Sonnenuntergang im Süden am selben Tag erleben. Man erreicht Strände, die in keinem Busfahrplan auftauchen. Man fährt nach Anaga, wenn der Wald noch leer ist. Man hält an, wo etwas den Blick festhält, und bleibt, wo es sich lohnt.",
       "island": "tenerife",
       "category": "transport",
       "coordinates": {
@@ -301,7 +269,7 @@
         "lng": -16.5725
       },
       "images": {
-        "hero": "/images/tenerife/transport/alquiler-coche/hero.avif",
+        "hero": "/images/tenerife/transport/alquiler-coche-tenerife.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -330,7 +298,7 @@
         "lng": -16.2518
       },
       "images": {
-        "hero": "/images/tenerife/transport/titsa/hero.avif",
+        "hero": "/images/tenerife/transport/guagua_tenerife.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -345,176 +313,6 @@
       "emoji": "🚌",
       "municipio": "santa-cruz",
       "websiteUrl": "https://www.titsa.com"
-    },
-    {
-      "slug": "la-laguna-casco",
-      "name": "La Laguna — Altstadt",
-      "shortDescription": "UNESCO-Weltkulturerbe mit der schönsten Kolonialarchitektur der Kanarischen Inseln",
-      "description": "San Cristóbal de La Laguna war die erste unbefestigte Stadt in der Geschichte Spaniens — ein städtebauliches Experiment aus dem 15. Jahrhundert, das direkt das Design von Städten wie Lima, Havanna und San Juan de Puerto Rico beeinflusste. Die UNESCO erkannte sie 1999 als Weltkulturerbe an. Ihre Altstadt mit schwarzen Lavastraßen und bunten Kolonialfassaden ist die schönste der Kanarischen Inseln.\n\n### Der Besuch\nDie Hauptachse ist die **Calle Obispo Rey Redondo**, gesäumt von Adelshäusern, Barockkirchen und dem Kloster Santa Clara. Die **Kathedrale von La Laguna**, im 20. Jahrhundert im nüchternen neugotischen Stil erbaut, beherbergt den Cristo de La Laguna, das meistverehrte Bildnis Teneriffas. Auf der **Plaza del Adelantado**, dem Herz der Stadt, befinden sich der Stadtmarkt, das Rathaus und einige der besten Cafés der Insel. Die Stadt beherbergt auch die älteste Universität der Kanarischen Inseln, was ihr eine dauerhaft junge und bohemische Atmosphäre verleiht.\n\n### Vor der Abreise\n- 🚋 Die Straßenbahn verbindet La Laguna mit Santa Cruz in 30 Minuten — der komfortabelste Weg dorthin\n- 🕐 Mindestens 3 Stunden für die Altstadt einplanen; es gibt viel zu sehen und zu entdecken\n- ☕ Die Nebenstraßen der Calle Herradores und Umgebung konzentrieren die besten lokalen Cafés und Restaurants\n- 📸 Das Morgenlicht auf den Kolonialfassaden eignet sich am besten für Fotos\n- 🎭 In der Karwoche erlebt La Laguna eine der beeindruckendsten Prozessionen Spaniens\n\n### Empfehlung\nLa Laguna mit dem Parque Rural de Anaga kombinieren: die Stadt nordostwärts verlassen und in 20 Minuten ist man in einem filmreifen Lorbeerwald.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4853,
-        "lng": -16.3139
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/la-laguna/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/la-laguna/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "weltkulturerbe",
-        "kolonial",
-        "geschichte",
-        "kathedrale",
-        "unesco",
-        "altstadt"
-      ],
-      "visitDuration": "3-4h",
-      "difficulty": "easy",
-      "emoji": "🏛️",
-      "top": true,
-      "municipio": "la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/XbEpHvWXaBTMZ2FA9"
-    },
-    {
-      "slug": "puerto-de-la-cruz",
-      "name": "Puerto de la Cruz",
-      "shortDescription": "Die Tourismushauptstadt des Nordens: Gärten, Naturbecken und Teneriffas erstes Resort",
-      "description": "Puerto de la Cruz war Teneriffas erster moderner Tourismusort, im 20. Jahrhundert von der europäischen — und besonders britischen — Aristokratie gewählt, die dem kalten Winter entfliehen wollte. Heute bewahrt es diesen kosmopolitischen Charme einer Stadt, die seit Jahrzehnten die Welt empfängt, ohne ihre kanarische Identität zu verlieren.\n\n### Der Besuch\nDas Herz des Ortes ist die **Plaza del Charco**, umgeben von jahrhundertealten Drachenbäumen und Palmen, mit Terrassen, die zum Verweilen einladen. Die **Lago Martiánez Pools**, entworfen vom lokalen Künstler César Manrique, sind ein Wunder der organischen kanarischen Architektur: Salzwasserbecken verschiedener Größen, die in die schwarze Vulkanlandschaft integriert sind, mit dem Atlantik als Kulisse. Der **Botanische Garten** — einer der ältesten Spaniens — beherbergt tropische Arten aus aller Welt. Und nur 10 Minuten entfernt liegt der **Loro Parque**, der meistausgezeichnete Zoo der Welt.\n\n### Vor der Abreise\n- 🌊 Lago Martiánez hat Eintritt (~8 €), ist aber jeden Cent wert — morgens ankommen\n- 🚌 Bus 343 von Santa Cruz (45 Min.) und Bus 101/102 von Los Gigantes\n- 🛍️ Der Dienstag- und Samstagmarkt ist der beste für lokale Produkte\n- 🌴 Der Botanische Garten ist 10 Gehminuten vom Zentrum entfernt\n- 🍷 Calle Blanco und Umgebung bieten die besten Bars und Restaurants\n\n### Empfehlung\nMorgens ankommen, die ersten Stunden in den Martiánez-Pools verbringen, im Zentrum zu Mittag essen und nachmittags zum Loro Parque fahren: Puerto de la Cruz genießt man ohne Eile.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4147,
-        "lng": -16.549
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/puerto-de-la-cruz/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "norden",
-        "becken",
-        "manrique",
-        "garten",
-        "tourismus",
-        "kosmopolitisch"
-      ],
-      "visitDuration": "Ganzer Tag",
-      "difficulty": "easy",
-      "emoji": "🌴",
-      "top": true,
-      "municipio": "puerto-de-la-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/3CKJvX1H3aMJqnUT8"
-    },
-    {
-      "slug": "loro-parque",
-      "name": "Loro Parque",
-      "shortDescription": "Der meistausgezeichnete Zoo der Welt: Orcas, Wale, Pinguine und die größte Papageiensammlung",
-      "description": "1972 als Papageienpark gegründet, hat sich Loro Parque zu einem der am höchsten bewerteten Zoos des Planeten entwickelt, von TripAdvisor wiederholt als bester Zoo der Welt ausgezeichnet. Seine hochmodernen Anlagen, Artenschutzprogramme und Orca- und Delfinshows machen ihn zur größten Familienattraktion Teneriffas.\n\n### Der Besuch\nDer Park beherbergt mehr als 30 Primatenarten, die einzigen **Orcas in Europa** außerhalb von SeaWorld, eine der größten in Gefangenschaft gehaltenen **Antarktispinguin**-Kolonien der Welt, Haie, Krokodile und die weltgrößte Papageiensammlung mit mehr als 3.000 Exemplaren aus 350 Arten. Orca-, Delfin- und Seelöwenshows finden mehrmals täglich statt. PlanetPenguin, der Pinguinlebensraum, simuliert die Antarktis mit echtem Schnee.\n\n### Vor der Abreise\n- 🎟️ Tickets online kaufen — bis zu 15% günstiger und keine Warteschlangen\n- 🕘 Zur Öffnung ankommen (10 Uhr), um die ersten Shows ohne Gedränge zu erleben\n- 🐋 Die Orcashow hat begrenzte Kapazität — 20 Minuten früher kommen, um einen Platz zu bekommen\n- 🚌 Bus 343/107 von Puerto de la Cruz Richtung Loro Parque (eigene Haltestelle)\n- ☀️ Der Park erfordert einen ganzen Tag — Sonnencreme und Wasser mitbringen\n\n### Empfehlung\nUm 10 Uhr ankommen, zuerst die Orcashow besuchen (10:30 Uhr), dann PlanetPenguin und die Aquarien erkunden und den Tag mit den Delfinen beenden: Loro Parque ist für einen ganzen Tag ohne Langeweile ausgelegt.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4067,
-        "lng": -16.5713
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/loro-parque/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/loro-parque/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "zoo",
-        "orcas",
-        "pinguine",
-        "familie",
-        "norden",
-        "auszeichnungen"
-      ],
-      "visitDuration": "Ganzer Tag",
-      "difficulty": "easy",
-      "emoji": "🦜",
-      "top": true,
-      "municipio": "puerto-de-la-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/P9xV1y7f4m1Xqn1H8",
-      "websiteUrl": "https://www.loroparque.com"
-    },
-    {
-      "slug": "piramides-de-guimar",
-      "name": "Pyramiden von Güímar",
-      "shortDescription": "Mysteriöse Stufenkonstruktionen, die Thor Heyerdahl mit dem alten Ägypten in Verbindung brachte",
-      "description": "In der Küstengemeinde Güímar im Südosten Teneriffas stehen sechs **gestufte Pyramiden aus schwarzem Vulkanstein**, deren Ursprung weiterhin diskutiert wird. Der norwegische Forscher Thor Heyerdahl — bekannt durch die Kon-Tiki-Expedition — untersuchte sie in den 1990er-Jahren und schlug vor, dass es sich nicht um einfache landwirtschaftliche Steinhaufen handele, sondern um absichtliche Konstruktionen mit astronomischer Ausrichtung, möglicherweise mit vorkolumbianischen Handelsrouten verbunden.\n\n### Der Besuch\nDer von Heyerdahl geschaffene ethnographische Park umfasst die Pyramiden, ein Museum mit Reproduktionen von Schilfschiffen und Navigationsobjekten sowie Gärten mit endemischen Pflanzen. Die Ausrichtung der Pyramiden zur Sommersonnenwende ist das stärkste Argument für eine absichtliche Konstruktion. Die Hintergrundlandschaft mit dem Teide am Horizont verleiht der Anlage eine fast mystische Dimension.\n\n### Vor der Abreise\n- 🎟️ Eintritt ~12 €; Führungen in mehreren Sprachen verfügbar\n- 🕐 2–3 Stunden einplanen — das Museum ist genauso interessant wie die Pyramiden selbst\n- 🚗 Mit öffentlichen Verkehrsmitteln schwierig — besser mit dem Auto, 40 Minuten von Santa Cruz über die TF-1\n- 📸 Das beste Foto entsteht vom erhöhten Bereich des Parks mit dem Teide im Hintergrund\n- 🌵 Der Botanische Garten des Parks umfasst endemische Kanarische Arten\n\n### Empfehlung\nIdeal kombiniert mit einem Halt im Dorf Güímar und den Aussichtspunkten im Südosten — ein viel weniger besuchtes Gebiet mit spektakulärem Meerblick.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.3108,
-        "lng": -16.3939
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/piramides-guimar/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "geschichte",
-        "pyramiden",
-        "archäologie",
-        "geheimnis",
-        "heyerdahl",
-        "südosten"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "easy",
-      "emoji": "🔺",
-      "municipio": "guimar",
-      "mapsUrl": "https://maps.app.goo.gl/9y3M4K9A8RQLsDWQ7",
-      "websiteUrl": "https://www.piramidesdeguimar.es"
-    },
-    {
-      "slug": "parque-garcia-sanabria",
-      "name": "García Sanabria Park",
-      "shortDescription": "Santa Cruz' größter Garten: Stadtkunst, Brunnen und jahrhundertealte Drachenbäume",
-      "description": "Der García Sanabria Park ist der größte Stadtgarten der Kanarischen Inseln und einer der schönsten Grünräume des Archipels. 1926 eingeweiht, umfasst er sechs Hektar im Zentrum von Santa Cruz und kombiniert tropische Gärten mit einer permanenten Sammlung **zeitgenössischer Freiluftplastiken**, Ergebnis des Internationalen Skulpturensymposiums von 1973.\n\n### Der Besuch\nKönigliche Palmen, jahrhundertealte Fikusbäume, monumentale Brunnen und Werke internationaler Bildhauer koexistieren in einem Raum, der gleichzeitig Stadtpark und Freilichtmuseum ist. Die **alten Drachenbäume** — der Symbolbaum der Kanarischen Inseln — sind die beeindruckendsten in Santa Cruz. Der Park liegt zwei Gehminuten vom Calatrava-Auditorium und dem Natur- und Archäologiemuseum entfernt.\n\n### Vor der Abreise\n- 🆓 Freier Eintritt — täglich geöffnet\n- 🌿 Am besten morgens besuchen, wenn das Licht durch die Bäume fällt und die Hitze noch mild ist\n- 🖼️ Die Skulpturenkarte ist am Eingang erhältlich — mehr als 40 Werke verteilt im Park\n- 📍 5 Gehminuten vom Calatrava-Auditorium, dem Markt Nuestra Señora de África und Linie zur Playa Teresitas\n- 🍦 Die Eisstände und Terrassencafés der angrenzenden Allee sind ein klassischer Santa Cruz-Nachmittag\n\n### Empfehlung\nDen Tag im Park beginnen, zum Auditorium weitergehen und mit einem Spaziergang durch den Afrika-Markt enden: die perfekte Route, um das kulturelle Herz von Santa Cruz kennenzulernen.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4636,
-        "lng": -16.2518
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/garcia-sanabria/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/garcia-sanabria/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "park",
-        "skulptur",
-        "garten",
-        "santa-cruz",
-        "drachenbäume",
-        "stadtkunst"
-      ],
-      "visitDuration": "1-2h",
-      "difficulty": "easy",
-      "emoji": "🌳",
-      "municipio": "santa-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/Ku3hJVBJzxCuNbUM6"
     },
     {
       "slug": "masca",
@@ -730,39 +528,6 @@
         "tips": "Nur Abstieg. Buchung Pflicht auf caminobarrancodemasca.com (Mi–Sa). Rückfahrt per Boot oder Kajak von der Bucht nach Los Gigantes. Shuttle vom Friedhofsparkplatz Santiago del Teide."
       },
       "mapsUrl": "https://maps.app.goo.gl/5UgBvXUA7rkAusds7"
-    },
-    {
-      "slug": "gastronomia-tenerife",
-      "name": "Kanarische Küche auf Teneriffa",
-      "shortDescription": "Papas arrugadas, Mojo, Gofio und die besten atlantischen Weine: der Gastronomieführer der Insel",
-      "description": "Die kanarische Küche auf Teneriffa ist eine der originellsten Spaniens: eine Mischung aus atlantischen, amerikanischen, afrikanischen und mediterranen Einflüssen mit einheimischen Zutaten, die man nirgendwo sonst findet. Abseits des Tourismus ist die Gastronomie der Insel eine Welt authentischer Aromen.\n\n### Der Besuch\n**Papas arrugadas mit Mojo** sind das bekannteste Gericht: kleine Kartoffeln in stark gesalzenem Wasser gekocht, bis sich eine Salzkruste auf der Schale bildet, serviert mit grünem Mojo (Koriander und Knoblauch) oder rotem Mojo (Paprika und Essig). **Gofio** — Mehl aus geröstetem Getreide, ein Erbe der Guanchen — erscheint in Suppen, Desserts und als Beilage. **Rancho canario**, **Caldo de papas** und **Potaje de berros** sind die traditionellsten Eintöpfe. Weine aus dem Valle de La Orotava und der D.O. Tacoronte-Acentejo gehören zu den besten atlantischen Weinen der Welt.\n\n### Vor der Abreise\n- 🍽️ Beste traditionelle Küche: Markt Nuestra Señora de África (Santa Cruz), Taganana (Anaga), San Andrés und Nordorte wie La Orotava\n- 🌶️ Roter und grüner Mojo sind so verschieden, dass es Pflicht ist, beide zu bestellen\n- 🍷 Nach Weinen mit D.O. Tacoronte-Acentejo oder Valle de La Orotava Ausschau halten — Listán Negro und Listán Blanco sind weltweit einzigartige Sorten\n- 🐟 Frischer Fisch (Papageienfisch, Zackenbarsch, Meerbrasse) gegrillt mit Mojo ist das beste Küstengericht\n- 🍮 Bienmesabe und Frangollo sind die traditionellen Desserts, die man nicht verpassen darf\n\n### Empfehlung\nResortpromenaden-Restaurants meiden und die Guachinches im Norden aufsuchen: kleine Familienbars mit Hauswein und lokalen Tapas. Das ist das authentischste Gastronomie-Erlebnis auf Teneriffa.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4636,
-        "lng": -16.2518
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/gastronomia/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/gastronomia/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "gastronomie",
-        "papas-arrugadas",
-        "mojo",
-        "gofio",
-        "wein",
-        "guachinche"
-      ],
-      "visitDuration": "Variabel",
-      "difficulty": "easy",
-      "emoji": "🍽️",
-      "municipio": "santa-cruz",
-      "sectionOnly": true
     },
     {
       "slug": "playa-de-radazul",
@@ -2651,6 +2416,756 @@
       "name": "Montaña Blanca → Pico del Teide (3.715 m)",
       "shortDescription": "Der höchste Punkt Spaniens, der meistfotografierte Vulkan des Atlantiks und die ikonischste Route der Kanarischen Inseln: 17 km Rundweg von Montaña Blanca zum Teide-Krater mit 1.344 Höhenmetern und der ganzen Welt zu Füßen auf 3.715 Metern",
       "description": "Es gibt nur ein Dach in Spanien, und es liegt auf Teneriffa. Der **Pico del Teide** mit seinen **3.715 Metern** ist der höchste Gipfel im gesamten spanischen Staatsgebiet, der höchste Vulkan des Atlantiks und einer der größten Vulkane der Erde gemessen von seiner Meeresbasis. Ihn zu Fuß von **Montaña Blanca** aus zu besteigen ist zweifellos die ikonischste Route der Kanarischen Inseln — und ein Erlebnis, das jene, die es vollenden, selten vergessen.\n\nEs ist auch eine der anspruchsvollsten: **17,44 km Rundweg, 1.344 Höhenmeter und eine maximale Höhe über 3.700 Metern**. Die Höhe vergibt weder hohes Tempo noch mangelnde Vorbereitung. Doch für diejenigen, die gut vorbereitet kommen, ist die Landschaft buchstäblich aus einer anderen Welt — denn ab dieser Höhe beginnt der Himmel selbst am Tag dunkler zu werden.\n\n### Zwei Wege zum Krater\n\n**Option 1 — Vollständige Wanderung (Montaña Blanca, die klassische Route)**\nDie Route, die wirklich zählt. Start am **Parkplatz Montaña Blanca (2.398 m)**, vollständig zu Fuß bis zum Pico del Teide. Die reinste — und härteste — Art, den Gipfel zu erreichen.\n\n**Option 2 — Seilbahn + Telesforo-Bravo-Wanderweg**\nDie Seilbahn (Teleférico) fährt von der **Talstation (2.356 m)** zur **La Rambleta (3.555 m)** in etwa 8 Minuten. Von dort noch 40–60 Minuten Fußmarsch mit Genehmigung bis zum Krater. Deutlich einfacher, aber man absolviert nur die letzte Etappe.\n\nBeide Optionen teilen eine wesentliche Voraussetzung: **Um den Geodätischen Vermessungspunkt und den Krater zu erreichen, benötigt man die Genehmigung für den Telesforo-Bravo-Wanderweg** (Weg Nr. 10). Diese ist kostenlos, aber streng auf 200 Personen pro Tag begrenzt — sie muss im Voraus auf dem Portal des Nationalparks Teide (miterd.es) gebucht werden.\n\n### Die vollständige Route von Montaña Blanca\n\n**Abschnitt 1: Montaña Blanca → Huevos del Teide (ca. 1 Std. 30 Min.)**\nDer Weg beginnt durch Bimsstein- und Lapilli-Formationen — den hellen, porösen Vulkanboden, der dem Ort seinen Namen gibt. Schon von den ersten Schritten an ist der Teide riesig am Horizont zu sehen und wächst mit jedem Höhenmeter. Nach etwa 45 Minuten erscheint eines der markantesten geologischen Elemente der Route: die **Huevos del Teide** (Teide-Eier) — große Bälle aus erstarrter Lava, die bei alten Ausbrüchen vom Krater rollten und hier liegen blieben, perfekt kugelförmig, als ob sie jemand absichtlich an den Hang gelegt hätte.\n\n**Abschnitt 2: Huevos del Teide → Altavista-Schutzhaus (ca. 1 Std.)**\nDer Weg wird steiler und die Landschaft wird karger und mondähnlicher. Man betritt echtes **Hochgebirge auf vulkanischem Terrain**, mit Blick auf das Wolkenmeer und die Nachbarinseln an klaren Tagen. Das **Altavista-Schutzhaus (3.260 m)** ist die traditionelle Ruhepause — derzeit als Unterkunft geschlossen, aber als Höhenmarkierung und Schutz bei plötzlichem Wetterwechsel nützlich.\n\n**Abschnitt 3: Altavista → La Rambleta (ca. 45 Min.)**\nDer härteste Abschnitt. Das Gefälle verstärkt sich, Sauerstoff wird knapper und der Körper beginnt die Auswirkungen der Höhe zu spüren: Kopfschmerzen, Übelkeit oder Schwindel können auftreten. Der Schlüssel ist **sehr langsam zu gehen**, tief zu atmen und das Tempo nicht zu forcieren. Die Ankunft an der **La Rambleta (3.555 m)** — wo auch die Seilbahn ankommt — markiert den Beginn des letzten Anstiegs.\n\n**Abschnitt 4: La Rambleta → Pico del Teide / Telesforo-Bravo-Wanderweg (45–60 Min.)**\nDer **Telesforo-Bravo-Wanderweg** (Weg Nr. 10) ist die letzte Etappe bis zum Krater und zum geodätischen Vermessungspunkt, wo die Genehmigungen kontrolliert werden. Der Weg umrundet den Hauptvulkankamin, mit sichtbar dampfenden Schwefelquellen, dem durch Mineralablagerungen gelb-orangefarbenen Boden und dem sich öffnenden Schlund des Kraters. Vom **Pico del Teide (3.715 m)** sind an klaren Tagen alle acht Inseln des Archipels, die nordafrikanische Küste und die Iberische Halbinsel zu sehen.\n\n### Was diese Route besonders macht\n- 🏔️ **Höchster Punkt Spaniens (3.715 m)** — und höchster Vulkan des Atlantiks\n- 🥚 **Huevos del Teide** — eines der singulärsten geologischen Merkmale des Nationalparks\n- 🌊 **Wolkenmeer** — ein Wolkenteppich unter den Füßen auf 2.000 m ist ein Spektakel\n- 🌋 **Aktive Fumarolen** — der Teide ist noch aktiv mit Schwefel, Gasen und heißem Boden\n- 🌅 **Gipfelaussicht** — an klaren Tagen alle 8 Kanarischen Inseln, die Sahara und Spanien\n- 🌌 **Dunkler Himmel** — auf 3.700 m verdunkelt sich der Himmel selbst am Tag; idealer Astronomiestandort\n- 🏅 **UNESCO-Welterbe** — Nationalpark Teide, eingetragen 2007\n\n### Vor dem Start — vollständige Checkliste\n- 📋 **Genehmigung im Voraus buchen** auf miterd.es (kostenlos, max. 200 Personen/Tag für den Kraterabschnitt)\n- 🎟️ **Bei Seilbahnnutzung** ebenfalls Tickets im Voraus kaufen — in der Hochsaison sind die Warteschlangen lang\n- 🚗 Kostenloser Parkplatz an der Montaña Blanca an der TF-21\n- 🌡️ Gipfeltemperatur kann **20–25°C kälter als an der Küste** sein — auf Kälte, Wind und Schnee im Winter vorbereiten\n- 🧴 **Sonnenschutz LSF 50+** — UV-Strahlung auf 3.700 m ist selbst im Winter extrem\n- 💧 Mindestens **3 Liter Wasser** pro Person mitbringen — keine Wasserquellen auf der Route\n- 🥾 **Bergschuhe** mit gutem Halt — Bimsstein-Terrain ist rutschig\n- 🧥 Mehrschichtige Kleidung: technische Basisschicht, Isolationsschicht, wasserdichte Außenschicht\n- 🌄 **Vor 6:00 Uhr aufbrechen** — früh am Gipfel ankommen, vor der Nachmittagshitze absteigen\n- 🩺 Nicht empfohlen für Personen mit Herzproblemen, Bluthochdruck oder Atemwegserkrankungen ohne ärztliche Beratung\n- 🤢 **Ibuprofen** gegen Höhenkopfschmerzen mitnehmen; bei schweren Symptomen der Höhenkrankheit sofort absteigen\n\n### ⚠️ Sicherheitshinweise — Hochgebirge\n- 📈 **Akute Bergkrankheit**: kann zwischen 2.500 und 3.715 m auftreten. Symptome: starke Kopfschmerzen, Übelkeit, Schwindel, extreme Erschöpfung. Bei schweren Symptomen **sofort absteigen**\n- 🌡️ **Plötzlicher Temperaturwechsel**: Bedingungen können in Minuten von Sonnenschein zu Wind, Nebel oder Schnee wechseln\n- ❄️ **Eis und Schnee**: zwischen November und April kann der Weg vereist sein — Streckenzustand vor dem Start prüfen\n- ☀️ **Extreme UV-Strahlung**: ohne ausreichenden Sonnenschutz drohen schwere Verbrennungen selbst an bewölkten Tagen\n- 🌬️ **Starker Gipfelwind**: Böen von 60–80 km/h sind üblich und können den Zugang zum Gipfel verhindern\n- 📵 **Begrenzter Mobilfunkempfang** oberhalb des Altavista-Schutzhauses — Route offline laden\n- 🚫 **Ohne Genehmigung kein Zugang zum Krater** — Kontrollen sind streng, keine Ausnahmen\n- **Notruf: 112**\n\n### Empfehlung\nDie vollständige Wanderung von Montaña Blanca ist eines jener Erlebnisse, die eine Reise definieren. Wenn aber Zeit, Fitness oder Logistik es nicht erlauben, ist die Kombination **Seilbahn + Telesforo-Bravo-Wanderweg** immer noch ein atemberaubendes Erlebnis — besonders wenn man die Genehmigung sichert und die 3.715 m erreicht. In jedem Fall: zuerst die Genehmigung buchen — ohne sie ist der Gipfel gesperrt."
+    },
+    {
+      "slug": "tranvia-tenerife",
+      "island": "tenerife",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.4699,
+        "lng": -16.2515
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/tranvia_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [
+        {
+          "provider": "MetroTenerife",
+          "label": "Fahrpläne und Tarife — metrotenerife.com",
+          "url": "https://www.metrotenerife.com",
+          "type": "info"
+        }
+      ],
+      "visitDuration": null,
+      "difficulty": null,
+      "emoji": "🚊",
+      "top": false,
+      "sectionOnly": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "tags": [
+        "tranvia",
+        "tren",
+        "transporte",
+        "santa-cruz",
+        "la-laguna",
+        "metro",
+        "urbano"
+      ],
+      "name": "Straßenbahn Teneriffa",
+      "shortDescription": "Die Straßenbahn verbindet Santa Cruz de Tenerife in 34 Minuten mit San Cristóbal de La Laguna — 21 Haltestellen, alle 7–8 Minuten. Der komfortabelste Weg zwischen den beiden Hauptstädten der Insel.",
+      "description": "Die **Straßenbahn Teneriffa** (MetroTenerife) verbindet den **Intercambiador Santa Cruz** mit **La Trinidad** in San Cristóbal de La Laguna auf 12,5 km mit 21 Haltestellen. Die Gesamtfahrzeit beträgt rund **34 Minuten**, mit Abfahrten alle 7–8 Minuten zur Hauptverkehrszeit und alle 12–15 Minuten am Wochenende.\n\nDie nützlichsten Haltestellen für Besucher sind **Intercambiador / Weyler** (Stadtzentrum Santa Cruz und TITSA-Anschluss), **La Laguna / Catedral** (UNESCO-Weltkulturerbe Altstadt) und **Cruz del Señor** (Einkaufsbereich La Laguna).\n\nEin Einzelfahrschein kostet **1,35 €**. Mit der aufladbaren BONO-Karte fällt der Preis auf **0,60 € pro Fahrt** — die Karte gilt auch für TITSA-Busse und lohnt sich ab zwei Tagen.\n\nAnkunft am **Flughafen Teneriffa-Nord (TFN)**? Bus 014 oder 102 zum Intercambiador nehmen, dann in die Straßenbahn umsteigen — der schnellste und günstigste Weg ins Stadtzentrum ohne Stau.",
+      "websiteUrl": "https://www.metrotenerife.com"
+    },
+    {
+      "slug": "ferries-tenerife",
+      "island": "tenerife",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.4752,
+        "lng": -16.2466
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/ferrie.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": null,
+      "difficulty": null,
+      "emoji": "⛴️",
+      "top": false,
+      "sectionOnly": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "tags": [
+        "ferry",
+        "barco",
+        "naviera",
+        "interislas",
+        "fred-olsen",
+        "armas",
+        "transporte",
+        "santa-cruz",
+        "los-cristianos"
+      ],
+      "name": "Fähren ab Teneriffa",
+      "shortDescription": "Regelmäßige Fähren von Teneriffa nach Gran Canaria, Fuerteventura, La Gomera und La Palma. Hafen Santa Cruz für die östlichen Inseln; Los Cristianos für La Gomera (45 Min.) und El Hierro.",
+      "description": "Von Teneriffa bestehen regelmäßige Fährverbindungen zu den nächstgelegenen Inseln des Archipels. Die beiden Haupthäfen sind **Santa Cruz de Tenerife** und **Los Cristianos** im Süden.\n\n**Gran Canaria (Las Palmas de GC)** — Die häufigste Verbindung: 1h30–2h30 ab Santa Cruz. Mehrere Abfahrten täglich in beide Richtungen.\n\n**Fuerteventura** — Verbindung ab Santa Cruz in ca. 3–4h. Ideal, um beide Inseln auf einer Reise zu kombinieren.\n\n**La Gomera (San Sebastián)** — Die beliebteste Route des Archipels: **45 Minuten** ab Los Cristianos, mit mehreren täglichen Abfahrten. Perfekt für einen Tagesausflug vom Süden Teneriffas.\n\n**La Palma (Santa Cruz de La Palma)** — 2h30–5h ab Santa Cruz je nach Verbindung. Direktverbindung zur grünsten Insel der Kanaren.\n\nFrühzeitig buchen in der Hochsaison (Juli–August) und an langen Wochenenden — besonders die La-Gomera-Route ist schnell ausgebucht. Mit Fahrzeug: Stellplätze sind begrenzt.",
+      "websiteUrl": "https://www.directferries.de/tenerife_fahre.htm"
+    },
+    {
+      "slug": "la-laguna-unesco",
+      "name": "San Cristóbal de La Laguna",
+      "shortDescription": "Die erste geplante Stadt ohne Mauern der Welt, UNESCO-Weltkulturerbe seit 1999",
+      "description": "San Cristóbal de La Laguna, 1999 zum **UNESCO-Weltkulturerbe** erklärt, ist das bedeutendste historische Erbe der Kanarischen Inseln. Die 1496 von Alonso Fernández de Lugo gegründete Stadt war die **erste geplante, mauerlose Stadt der Welt** — ein rechtwinkliges Stadtlayout, das direkt als Vorbild für die Kolonialstädte Lateinamerikas diente.\n\n### Die Altstadt\nEin Labyrinth gepflasterter Gassen aus dem 16. Jahrhundert, das sein ursprüngliches Stadtgefüge bis heute nahezu unverändert bewahrt hat. Adelspaläste, Barockkirchen, Klöster und Herrenhäuser aus dem 16. bis 18. Jahrhundert stehen in makellosem Erhaltungszustand. Die **Kathedrale von La Laguna**, das **Kloster Santa Catalina de Siena** und das **Haus der Generalkapitäne** sind die architektonischen Wahrzeichen, die man nicht verpassen sollte.\n\n### Universität und Kulturleben\nDie **Universität von La Laguna**, gegründet 1701 und älteste der Kanarischen Inseln, erfüllt die Stadt mit studentischem Leben. Cafés, Antiquariate und Tapas-Bars rund um die Plaza del Adelantado schaffen eine einzigartige Atmosphäre, in der Jahrhunderte der Geschichte auf modernen Alltag treffen.\n\n### Karwoche\nDie **Semana Santa in La Laguna** ist die bedeutendste auf den Kanarischen Inseln. Kerzenlichtprozessionen mit jahrhundertelanger Tradition ziehen durch die Altstadt und sind als Festival von nationalem touristischem Interesse anerkannt.\n\n### Wichtige Fakten\n- 📅 Gründung: **1496** — älter als viele lateinamerikanische Hauptstädte\n- 🏛️ UNESCO: **1999** — anerkannt als weltweites Stadtplanungsmodell\n- 🎓 Universität gegründet **1701**, älteste akademische Institution des Archipels\n- ⛪ Mehr als **60 denkmalgeschützte Gebäude** in der Altstadt\n\n### Anreise\nNur 9 km von Santa Cruz entfernt, bestens verbunden durch die **Stadtbahn (Linie L1)** ab Santa Cruz und dem Flughafenbahnhof. Parken im Zentrum ist sehr schwierig — die Straßenbahn ist sehr empfehlenswert.\n\n### Empfehlung\nBeginnen Sie mit dem Frühstück auf dem **Stadtmarkt**. Dann folgen Sie der Calle Obispo Rey Redondo zur Kathedrale und nehmen Sie sich mindestens 3 Stunden Zeit für die Altstadt. Am Nachmittag bieten die Tapas-Bars um die Plaza del Adelantado lokalen Wein und Pintxos.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4874,
+        "lng": -16.3159
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/san_cristobal_de_la_laguna_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "welterbe",
+        "unesco",
+        "geschichte",
+        "altstadt",
+        "universität",
+        "architektur"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/7YiXs9q88A5aMk3S8"
+    },
+    {
+      "slug": "auditorio-tenerife",
+      "name": "Auditorium Teneriffa",
+      "shortDescription": "Weltweites Wahrzeichen zeitgenössischer Architektur von Santiago Calatrava, Heimat des Teneriffa Sinfonieorchesters",
+      "description": "Das **Auditorium Tenerife Adán Martín** ist eines der ikonischsten Gebäude des 21. Jahrhunderts und ein weltweites Wahrzeichen der zeitgenössischen Architektur. Entworfen vom Architekten **Santiago Calatrava** und 2003 eingeweiht, prägt seine unverwechselbare Silhouette die Uferpromenade von Santa Cruz de Tenerife.\n\n### Einzigartige Architektur\nDas Gebäude besticht durch sein **58 Meter langes freitragendes Vordach aus weißem Beton**, das eine sich am Atlantik brechende Welle evoziert. Mit mehr als 23.000 m² Nutzfläche und einem Hauptsaal mit **1.616 Sitzen** ist es die ständige Heimat des **Teneriffa Sinfonieorchesters** und beherbergt jedes Jahr Hunderte von Konzerten, Opern, Festivals und internationalen Veranstaltungen.\n\n### Das perfekte Foto\nAls eines der meistfotografierten Gebäude Spaniens bietet das Auditorium zu jeder Stunde ein beeindruckendes Bild. **Nachts, beleuchtet über dem Atlantik**, ist der Anblick unvergesslich. Die Perspektive von der Uferpromenade bei Sonnenuntergang, mit dem Teide im Hintergrund, ist eine der einzigartigsten Aussichten der Kanarischen Inseln.\n\n### Programm\nDie Saison läuft von **Oktober bis Juni** mit klassischer Musik, Oper, Jazz und internationalem Pop. Die Zyklen des Teneriffa Sinfonieorchesters sind regelmäßig ausverkauft — kaufen Sie Karten frühzeitig.\n\n### Wichtige Fakten\n- 🏗️ Architekt: **Santiago Calatrava Valls**, Valencia 1951\n- 📅 Einweihung: **2003**\n- 💺 Hauptsaal: **1.616 Sitzplätze**\n- 📐 Vordachkragarm: **58 Meter**\n- 🌐 Eines der 10 meistfotografierten Gebäude Spaniens\n\n### Anreise\nIm Herzen von Santa Cruz, direkt an der Uferpromenade. Straßenbahn L1 (Haltestelle **Weyler**, 10 Min. Fußweg) oder Haltestelle **Intercambiador** (5 Min.). Parkplatz am Auditorium selbst oder am Parque Marítimo, 200 m entfernt.\n\n### Empfehlung\nAuch ohne Eintritt lohnt sich der Spaziergang am Außenbereich. Kombinieren Sie den Besuch mit dem benachbarten **César-Manrique-Meerespark** und der Uferpromenade von Santa Cruz. Für das volle Erlebnis: Konzertkarten für das Sinfonieorchester buchen — ein Konzertabend in diesem Ambiente ist unvergesslich.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4634,
+        "lng": -16.253
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/auditorio_de_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "architektur",
+        "calatrava",
+        "musik",
+        "santa-cruz",
+        "wahrzeichen",
+        "fotografie"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🎼",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/eVNPv4xTT8aN5rjz9"
+    },
+    {
+      "slug": "muna-tenerife",
+      "name": "MUNA — Museum für Natur und Archäologie",
+      "shortDescription": "Die weltweit größte Guanchen-Sammlung: Mumien, Keramiken und die vorspanische Geschichte Teneriffas",
+      "description": "Das **Museum für Natur und Archäologie (MUNA)** in Santa Cruz de Tenerife ist das bedeutendste Museum für das Verständnis der vorspanischen Geschichte der Kanarischen Inseln. Es beherbergt die **weltweit vollständigste archäologische Guanchen-Sammlung**, darunter Mumien, Keramiken, Werkzeuge und Skelettreste der ersten Inselbewohner.\n\n### Die Guanchen\nDie **Guanchen** waren ein Volk berberischer Herkunft, das vor mehr als 2.000 Jahren von Nordafrika aus Teneriffa besiedelte. Das MUNA verwahrt mehr als **40.000 archäologische Objekte** und eine einzigartige Sammlung von **Guanchen-Mumien**, die mit Mumifizierungstechniken präpariert wurden, die dem alten Ägypten bemerkenswert ähneln — ein Geheimnis, das Forscher bis heute fasziniert. Ihre Mumifizierungspraxis unterscheidet sie von allen anderen vorspanischen Völkern des Archipels.\n\n### Die Sammlung\n- 🦴 **Guanchen-Mumien** — einige über 1.500 Jahre alt\n- 🏺 Keramiken, Obsidian-Werkzeuge und Ritualgegenstände\n- 🐚 Prähistorische Meerestiere und Inselfossilien\n- 🌿 Naturgeschichte: endemische Flora, Fauna und Vulkangeologie der Kanaren\n\n### Das Gebäude\nUntergebracht im ehemaligen **Hospital de los Dolores**, einem Kolonialgebäude aus dem 18. Jahrhundert im Herzen von Santa Cruz, ist der architektonische Rahmen selbst eine Sehenswürdigkeit.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: Di–Sa **10:00–20:00** Uhr · So & Feiertage **10:00–14:00** Uhr · Montag geschlossen\n- 💶 Eintritt: **5 €** regulär · **3 €** ermäßigt · Kostenlos unter 12 Jahren\n- 🎧 Audioguide auf Spanisch und Englisch verfügbar\n\n### Anreise\nIm Zentrum von Santa Cruz, 10 Gehminuten von den Straßenbahnhaltestellen **Weyler** oder **Plaza de España**.\n\n### Empfehlung\nUnbedingt empfehlenswert, wenn Sie verstehen möchten, wer die Guanchen wirklich waren. Planen Sie mindestens **2 Stunden** ein. Ideal zu kombinieren mit dem historischen Zentrum von Santa Cruz oder einem Besuch in La Laguna (nur 9 km entfernt). Bei tiefem archäologischem Interesse nach Sonderführungen zu Sammlungen fragen, die nicht dauerhaft ausgestellt sind.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4698,
+        "lng": -16.2519
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_de_naturaleza_y_arqueologia_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museum",
+        "guanchen",
+        "archäologie",
+        "geschichte",
+        "santa-cruz",
+        "mumien"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🏺",
+      "top": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/2rFBSFjmPGCUzdSdA"
+    },
+    {
+      "slug": "basilica-candelaria",
+      "name": "Basilika Unserer Lieben Frau von Candelaria",
+      "shortDescription": "Das wichtigste religiöse Zentrum der Kanarischen Inseln — Schutzpatronin des Archipels",
+      "description": "Die **Basilika Unserer Lieben Frau von Candelaria** ist das bedeutendste katholische Heiligtum der Kanarischen Inseln und eines der meistbesuchten Spaniens. Sie beherbergt die **Schutzpatronin der Kanaren**, deren Legende auf die Guanchen selbst zurückgeht — das vorspanische Volk, das Teneriffa vor der spanischen Eroberung bewohnte.\n\n### Die Legende der Jungfrau\nDer Überlieferung nach wurde das Bildnis der Jungfrau von zwei Guanchen-Hirten am Strand von Chimisay im frühen 15. Jahrhundert gefunden, **Jahrzehnte vor der Ankunft der Spanier**. Da sie die Figur nicht bewegen konnten, verehrten die Guanchen sie als heilig und brachten sie in einer Höhle unter. Diese einzigartige Geschichte macht Unsere Liebe Frau von Candelaria zu einem Symbol der Begegnung zwischen guanchischer und spanischer Kultur.\n\n### Das Heiligtum\nDie heutige Basilika im **neoklassischen Stil** wurde zwischen 1943 und 1958 auf dem Gelände eines Dominikanerklosters aus dem 16. Jahrhundert erbaut. Im Inneren wird die **Schwarze Madonna** aufbewahrt — eine Holzschnitzerei aus dem 15. Jahrhundert, die eine Überschwemmung im Jahr 1826 teilweise überstand. Ihr schwarzer Mantel mit goldenen Sternen und die Kerze, die sie trägt, geben ihr den Namen Candelaria.\n\n### Die Guanchen-Menceyes\nAuf der **Plaza de la Patrona de Canarias**, mit Blick aufs Meer, stehen neun Bronzestatuen, die die **Menceyes** darstellen — die neun Guanchen-Könige, die Teneriffa vor der Eroberung regierten. Sie gehören zu den meistfotografierten Denkmälern Teneriffas und sind eine dauerhafte Hommage an das Volk, das die Jungfrau zuerst verehrte.\n\n### Pilgerfahrt am 15. August\nAm **14. und 15. August** findet die große Romería (Pilgerfahrt) statt, die Tausende von Pilgern aus ganz Kanarischen Inseln, Lateinamerika und der weltweiten Gemeinschaft der Kanarier anzieht. Es ist die größte religiöse Zusammenkunft des Archipels.\n\n### Wichtige Fakten\n- 🕍 Stil: **neoklassisch**, erbaut 1943–1958\n- 👑 Titel: **Schutzpatronin der Kanaren** und eine der Patroninnen Spaniens\n- 📅 Legende: Guanchen-Erscheinung, **15. Jahrhundert** (vor der Eroberung)\n- 🗿 9 Bronzestatuen der **Menceyes** an der Strandpromenade\n- ✈️ Nur 20 km vom Flughafen Süd und 15 km von Santa Cruz\n\n### Anreise\nAb Santa Cruz: **TITSA Linie 120 oder 121** (30 Min.) oder Straßenbahn bis El Cardonal + Anschluss. Mit dem Auto: Ausfahrt Candelaria auf der TF-1 (Südautobahn). Kostenloser Parkplatz neben der Basilika.\n\n### Empfehlung\nBesuchen Sie das Innere der Basilika (freier Eintritt) und nehmen Sie sich Zeit für die Krypta und die Kapelle der Menceyes. Danach entlang der **Strandpromenade von Candelaria** mit den neun Bronzestatuen spazieren und beim Café auf dem Platz ausklingen lassen. Ideal kombinierbar mit einem Stopp im historischen Zentrum von Güímar (10 km).",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3513,
+        "lng": -16.3726
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/basilica_de_nuestra_senora_de_candelaria.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "religion",
+        "schutzpatronin",
+        "candelaria",
+        "guanchen",
+        "menceyes",
+        "pilgerfahrt"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "top": true,
+      "municipio": "candelaria",
+      "mapsUrl": "https://maps.app.goo.gl/2A9SJozDM9gfd68a8"
+    },
+    {
+      "slug": "casa-balcones-orotava",
+      "name": "Casa de los Balcones",
+      "shortDescription": "Das Juwel der kanarischen Kolonialarchitektur — handgeschnitzte Teeholzbalkone aus dem 17. Jahrhundert und lebendes Kunsthandwerksmuseum",
+      "description": "Das **Casa de los Balcones** in La Orotava ist das bekannteste Beispiel traditioneller kanarischer Architektur und eines der meistfotografierten historischen Gebäude Teneriffas. Im Jahr **1632** auf dem Höhepunkt der Kolonialzeit La Orotavas erbaut, sind seine weitläufigen Galerien aus handgeschnitztem **Teeeholz** (Herz des kanarischen Kiefernbaums) das ikonische Bild des herrschaftlichen Wohnbaus auf den Inseln.\n\n### Die Teeeholzbalkone\nTeeeholz — der harzreiche Kern der kanarischen Kiefer — war das Edelholz schlechthin in der historischen Architektur der Kanaren. Seine **natürliche Resistenz gegen Feuchtigkeit und Insekten** macht es praktisch unzerstörbar. Die Balkone des Hauses, mit ihren geschnitzten Gittern und Verzierungen, stehen seit über 390 Jahren und haben Farbe und Textur des Originals bewahrt.\n\n### Das Kunsthandwerksmuseum\nIm Inneren ist das Haus ein **lebendes Kunsthandwerksmuseum**: funktionsfähige Webstühle, Live-Demonstrationen von Hohlsaum-Stickerei und Spitzen, Sammlung von Regionaltrachten sowie Ausstellung von Haushalts- und Arbeitsgeräten aus dem 17. und 18. Jahrhundert. Besucher können Handwerkerinnen bei der tinerfeñischen Hohlsaumstickerei zuschauen — einer der raffiniertesten Textiltraditionen des Archipels.\n\n### Das Geschäft\nIm Erdgeschoss befindet sich eines der umfangreichsten Kunsthandwerksgeschäfte Teneriffas: Tischdecken mit Hohlsaumstickerei, Handstickereien, Tonfiguren, traditionelle Keramik, lokale Produkte und Repliken der historischen Architektur der Kanaren — alles aus lokaler, zertifizierter Produktion.\n\n### Der Innenhof\nDer **Innenhof mit Zentralbrunnen**, umgeben von zweigeschossigen Galerien, ist ein weiteres der schönsten architektonischen Merkmale des Ensembles. Der Kontrast zwischen dem dunklen Vulkansteinboden und dem hellen Teeeholz der Galerien ist charakteristisch für die Herrenhäuser La Orotavas.\n\n### Wichtige Fakten\n- 📅 Erbaut: **1632** — über 390 Jahre Geschichte\n- 🪵 Material: **Teeeholz** (kanarische Kiefer), handgeschnitzt\n- 🧵 Kunsthandwerk: Spitzenarbeit, Stickereien und Webstühle in Betrieb\n- 🏛️ Als **Bien de Interés Cultural** eingetragen (Kulturdenkmal)\n\n### Anreise\nIn der Altstadt von La Orotava, Calle San Francisco. 5 Gehminuten vom Parkplatz des Rathauses. Bus ab Puerto de la Cruz (Linie 350).\n\n### Empfehlung\nUnbedingt auf dem Spaziergang durch die Altstadt von La Orotava einplanen. Kombinieren mit der **Kirche La Concepción** (200 m) und den **Jardines del Marquesado de la Quinta Roja**. Wenn möglich, im Juni zum **Corpus Christi** besuchen — die Straßen La Orotavas werden mit außergewöhnlichen Blumen- und Vulkansandteppichen bedeckt.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3895,
+        "lng": -16.5226
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/casa_de_los_balcones_la_orotava.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "architektur",
+        "kunsthandwerk",
+        "kolonial",
+        "la-orotava",
+        "balkone",
+        "teeeholz"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏠",
+      "top": false,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/eHK3EkdvMF8cLtKSA"
+    },
+    {
+      "slug": "la-orotava",
+      "name": "La Orotava",
+      "shortDescription": "Eines der best erhaltenen Kolonialzentren der Kanaren, bekannt für seine Corpus-Christi-Blumenteppiche",
+      "description": "**La Orotava** ist das Juwel der kanarischen Kolonialarchitektur. Auf den Hängen des Orotava-Tals gelegen, mit dem **Teide** als permanenter Kulisse, vereint sein historisches Zentrum die größte Anzahl an Herrenhäusern aus dem 17. und 18. Jahrhundert des gesamten Archipels — alle makellos erhalten.\n\n### Die Altstadt\nDie gepflasterten Gassen führen bergab und sind gesäumt von **Herrenhäusern mit handgeschnitzten Teeeholzbalkonen**, Barockkirchen, Klöstern und Wohnhäusern der Oberschicht, die ihren Kolonialcharakter bis heute bewahrt haben. Die **Kirche Unserer Lieben Frau der Empfängnis** mit ihren Zwillingstürmen und Azulejo-Kacheln auf den Kuppeln ist das unbestrittene Symbol der Stadt und eine der schönsten Barockkirchen der Kanaren.\n\n### Die Corpus-Christi-Teppiche\nJeden Juni erlebt La Orotava seinen spektakulärsten Moment: **Corpus Christi**. Die Straßen der Altstadt und der Rathausplatz werden mit aufwändigen **Teppichen aus Blumen, farbigem Vulkansand und Salz** zu Ehren des Allerheiligsten Sakraments bedeckt. Der Hauptteppich vor dem Rathaus, der Kunstwerke oder religiöse Motive nachbildet, kann bis zu 800 m² groß sein und Wochen der Vorbereitung erfordern. Als **Festival von internationalem touristischen Interesse** ausgezeichnet.\n\n### Gärten und Aussichtspunkte\nDie **Jardines del Marquesado de la Quinta Roja** — mit ihrem neoklassischen Mausoleum inmitten tropischer Vegetation — und der **Aussichtspunkt Humberto Fuentes** bieten Ausblicke auf das Orotava-Tal, den Atlantik und den Teide in einem Panorama, das auf der Insel seinesgleichen sucht.\n\n### Das Orotava-Tal\nDie Gemeinde kontrolliert eines der fruchtbarsten Täler der Kanaren. Hier entstand die Weinbautradition Nordteneriffas sowie der Anbau von Bananen, Kartoffeln und Tomaten, der die kanarische Wirtschaft über Jahrhunderte prägte. Lokale Bauernmärkte und landwirtschaftliches Erbe sind Teil des Erlebnisses.\n\n### Wichtige Fakten\n- 🏛️ Historisches Zentrum: **17.–18. Jh.**, unter Kulturerbeschutz\n- 🌸 Corpus Christi: **Juni** — Teppiche als Festival von internationalem touristischen Interesse\n- ⛪ Kirche La Concepción: kanarischer Barock, Zwillingstürme und Kachelkuppeln\n- 🌋 **Teide-Ausblicke** von zahlreichen Punkten der Altstadt\n\n### Anreise\nAb Puerto de la Cruz: **Linie 350** (15 Min.). Ab Santa Cruz oder dem Süden: TF-5 (Nordautobahn), Ausfahrt La Orotava. Parkplatz beim Rathaus.\n\n### Empfehlung\nPlanen Sie einen ganzen Vormittag für die Altstadt ein: **Casa de los Balcones**, Kirche La Concepción, Quinta-Roja-Gärten und Aussichtspunkt. Bei einem Besuch im Juni Unterkunft Wochen im Voraus buchen — Corpus Christi ist eines der gefragtesten Events Teneriffas. Zum Mittagessen: die Restaurants rund um die Plaza de la Constitución servieren authentische kanarische Küche mit Talblick.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.389,
+        "lng": -16.5229
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/la_orotava_casco_historico.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "altstadt",
+        "corpus-christi",
+        "blumenteppiche",
+        "kolonial",
+        "barock",
+        "teide"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🌸",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/Y7L9sSjCe1KUJdRv7"
+    },
+    {
+      "slug": "garachico",
+      "name": "Garachico",
+      "shortDescription": "Das schönste Dorf im Norden — auf dem Lavastrom von 1706 wiederaufgebaut, mit kostenlosen Naturbecken und intaktem Kolonialviertel",
+      "description": "**Garachico** gilt für viele als das schönste Dorf Teneriffas. Seine tragische Geschichte und Resilienz machen es einzigartig: Es war der **wichtigste Hafen der Kanarischen Inseln** im 16. und 17. Jahrhundert, bis am 5. Mai **1706** der Ausbruch des Vulkans Montaña Negra den Hafen, die Lagerhäuser und Teile des Stadtgebiets unter Lava begrub. Was stehen blieb, wurde wiederaufgebaut, und wo die Lava auf das Meer traf, entstanden die heute berühmten **natürlichen Felsenbecken von El Caletón**.\n\n### El Caletón\nDie erstarrte Lava, die den alten Hafen zerstörte, hinterließ an seiner Stelle ein einzigartiges System von **natürlichen Becken im Vulkangestein**, das vom Atlantik gespült wird. El Caletón ist heute das Wahrzeichen von Garachico: kristallklares Wasser in verschiedenen Tiefen, freier Zugang, und eines der am meisten reproduzierten Bilder Nordteneriffas. Besonders eindrucksvoll bei Sonnenuntergang.\n\n### Die Altstadt\nWas der Vulkan nicht zerstörte, bewahrt die intakte Kolonialarchitektur des 17. Jahrhunderts. Die **Kirche Santa Ana**, das **Kloster San Francisco** (heute Casa de la Cultura), das **Kastell San Miguel** aus dem 16. Jahrhundert — das einzige historische Gebäude, das die Lava überstand — und die gepflasterten Straßen mit Herrenhäusern bilden ein historisches Ensemble von großer Schönheit.\n\n### Der verlorene Hafen\nVor 1706 war Garachico der wichtigste Exportpunkt für Teneriffa-Wein, Zucker und Cochenille nach Europa und Amerika. Der Vulkanausbruch veränderte alles: Der Hafen war zerstört, der Handel verlagerte sich nach Santa Cruz, und der kommerzielle Niedergang des Nordens begann. Garachico erlangte seine Handelsbedeutung nie zurück, bewahrte aber seine Seele.\n\n### Wichtige Fakten\n- 🌋 Vulkanausbruch: **5. Mai 1706**, Montaña Negra\n- 🏛️ Wichtigster Hafen der Kanaren: **16.–17. Jahrhundert**\n- 🏊 El Caletón: **kostenlose Naturbecken** im Vulkangestein\n- 🏰 Kastell San Miguel: einziges historisches Gebäude, das die Lava überstand\n- 📍 Nur **3 km von Icod de los Vinos**\n\n### Anreise\nAus dem Norden: TF-42 oder TF-82 ab Icod. Aus dem Süden: TF-1 + TF-82 über Buenavista. Bus ab Puerto de la Cruz: **Linie 363**. Kostenloser Parkplatz an der Strandpromenade.\n\n### Empfehlung\nFrüh ankommen, um El Caletón noch ruhig zu genießen. In den Becken schwimmen, dann zur Altstadt hochgehen für Kaffee und Gebäck beim Kastell. Das Innere des Klosters San Francisco und die Meeresausblicke vom Kastell San Miguel nicht verpassen.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3724,
+        "lng": -16.7641
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/garachico_casco_historico.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "dorf",
+        "vulkan",
+        "naturbecken",
+        "kolonial",
+        "norden",
+        "geschichte"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": true,
+      "municipio": "garachico",
+      "mapsUrl": "https://maps.app.goo.gl/NxMHTbAUdKit3cmPA"
+    },
+    {
+      "slug": "piramides-guimar",
+      "name": "Pyramiden von Güímar",
+      "shortDescription": "Die bekannteste archäologische Stätte Teneriffas — sechs gestufte Pyramiden mit präzisen astronomischen Ausrichtungen",
+      "description": "Die **Pyramiden von Güímar** sind die faszinierendste und meistbesuchte archäologische Stätte Teneriffas. Sechs rechteckige gestufte Strukturen aus **trockenem Vulkangestein**, verteilt auf einem Komplex von über 35.000 m² in der Gemeinde Güímar an der Südostküste der Insel.\n\n### Das Rätsel\nJahrzehntelang wurden die Pyramiden ignoriert oder als Steinhaufen aus der Landwirtschaft abgetan. Alles änderte sich 1991, als der norwegische Forscher und Ethnograph **Thor Heyerdahl** — bekannt durch die Kon-Tiki-Expedition — das Gelände besuchte und von dem, was er sah, fasziniert war. Heyerdahl trieb die wissenschaftliche Erforschung des Komplexes und die Schaffung des **Ethnographischen Parks** voran und argumentierte, dass die Strukturen zu präzise für bloße Feldsteinabfälle seien.\n\n### Die astronomischen Ausrichtungen\nWas die Pyramiden von Güímar von jedem zufälligen Steinhaufen unterscheidet, ist die **Präzision ihrer Ausrichtung**: Die Haupttreppen mehrerer Strukturen zeigen exakt zum **Sonnenaufgang der Sommersonnenwende** (21. Juni) und zum **Sonnenaufgang der Wintersonnenwende** (21. Dezember). Diese astronomische Absichtlichkeit ist die am schwersten zu erklärende Tatsache als landwirtschaftlichen Zufall.\n\n### Die Theorien\n- 🗿 **Guanchen-Ursprung**: voreuropäische Zeremonial- oder Astronomiestrukturen\n- 🌾 **Ursprung bäuerlicher Natur im 19. Jh.**: Steinrodehaufen mit zufälliger Form\n- 🌊 **Heyerdahls transozeanische Theorie**: Kulturbrücke zwischen mediterranen, berberi­schen und amerikanischen Zivilisationen\n- 🔬 **Aktueller wissenschaftlicher Konsens**: ungewisser Ursprung, aber absichtliche Ausrichtung bestätigt\n\n### Der Ethnographische Park\nHeute umfasst der Komplex: Besuche der Pyramiden, ein **ethnographisches Museum**, einen botanischen Garten mit kanarischen Pflanzen, ein Nachbau des *Kon-Tiki*-Floßes von Heyerdahl, eine Schildkrötenkolonie und vollständige Dokumentation zur Kon-Tiki-Expedition.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: täglich **9:30–18:00** Uhr\n- 💶 Eintritt: **12 €** Erwachsene · **6 €** Kinder (4–12 J.) · Kostenlos unter 4\n- ⏱️ Empfohlene Dauer: **2–3 Stunden**\n- 📍 25 km von Santa Cruz über TF-1 Süd\n\n### Anreise\nAb Santa Cruz: **TITSA Linie 120** Richtung Güímar. Mit dem Auto: TF-1 Süd, Ausfahrt Güímar, Hinweisschildern zum Ethnographischen Park folgen.\n\n### Empfehlung\nMorgens besuchen, um die Südosthitze zu meiden. Kombinierbar mit der **Basilika von Candelaria** (15 km nördlich) für einen kompletten Tag entlang der Südostküste Teneriffas. Bei Interesse an vorspanischer Archäologie auch das MUNA in Santa Cruz besuchen.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.311,
+        "lng": -16.4121
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/piramides_de_guimar.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "archäologie",
+        "pyramiden",
+        "güímar",
+        "rätsel",
+        "heyerdahl",
+        "astronomie"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🔺",
+      "top": false,
+      "municipio": "guimar",
+      "mapsUrl": "https://maps.app.goo.gl/i4p83WUoFjF2SexdA"
+    },
+    {
+      "slug": "drago-milenario",
+      "name": "Tausendjähriger Drachenbaum von Icod",
+      "shortDescription": "Der älteste und emblematischste Baum der Kanaren — Kultursymbol Teneriffas mit über 800 Jahren Geschichte",
+      "description": "Der **Tausendjährige Drachenbaum von Icod de los Vinos** ist das emblematischste Lebewesen der Kanarischen Inseln und das Kultursymbol Teneriffas. Mit einem geschätzten Alter von über **800 Jahren** — einige Schätzungen legen es zwischen 800 und 1.000 Jahre — ist er das größte und älteste bekannte Exemplar von *Dracaena draco* der Welt.\n\n### Der Kanarische Drachenbaum\n*Dracaena draco*, der kanarische Drachenbaum, ist eine endemische Art der Kanaren und Makaronesiens mit unverwechselbarem Erscheinungsbild: dicker Stamm mit grauem Borke, eine umgekehrt schirmförmige Krone und spitze Blätter, die das ganze Jahr über bestehen. Was ihn wirklich außergewöhnlich macht, ist sein **roter Saft**, bekannt als «Drachenblut», der beim Kontakt mit Luft oxidiert. Diese Resina wurde seit der Antike in Medizin, Färberei und Lacken verwendet.\n\n### Das Exemplar von Icod\n- 📏 **17 Meter hoch** mit einer Krone von über 20 Metern Durchmesser\n- 🌿 Geschätztes Alter: **800 bis 1.000 Jahre**\n- ⚖️ Geschätztes Gewicht: über **100 Tonnen**\n- 🏛️ 1917 zum **Nationalen Denkmal** erklärt\n- 🗿 Die Guanchen betrachteten ihn als **heiligen und schützenden** Baum\n\n### Drachenblut\nDer rote Saft des Drachenbaums war eines der wertvollsten Produkte des kanarischen Handels seit der Antike. Die Römer importierten es bereits als Pigment und Arzneimittel. Die Guanchen verwendeten es zum Einbalsamieren ihrer Toten, Wundheilen und als Farbstoff. Im Mittelalter und der Renaissance war es eines der begehrtesten Güter Europas — als Violinenlack und pharmazeutische Zutat.\n\n### Parque El Drago\nDer Baum wird vom **Parque El Drago** aus besucht, einem Botanischen Garten, der das Exemplar mit anderen endemischen kanarischen Arten umgibt: Tajinaste, Bejeque, Cardón-Kakteen und Lorbeerwaldpflanzen. Ein erhöhter Steg ermöglicht es, die Krone des Drachenbaums auf Augenhöhe zu betrachten.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: täglich **9:00–18:00** Uhr\n- 💶 Eintritt: **4 €** Erwachsene · **2 €** Kinder · Kostenlos unter 6\n- 📍 Im Zentrum von **Icod de los Vinos**, 3 km von Garachico\n\n### Anreise\nAb Puerto de la Cruz: **TITSA Linie 363** (45 Min.). Mit dem Auto: TF-5 Nord, Ausfahrt Icod, Dorfparkplatz (5 Min. Fußweg).\n\n### Empfehlung\nDen Drachenbaum mit dem historischen Zentrum von Icod kombinieren — die Weinkeller des Nordens sind ausgezeichnet — und einem Spaziergang durch **Garachico** (3 km). In der gleichen Straße wie der Drachenbaum gibt es Kunsthandwerk- und Weinläden mit lokalen D.O. Ycoden-Daute-Isora-Weinen, ideal als Mitbringsel.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3791,
+        "lng": -16.7228
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/drago_milenario_icod_de_los_vinos.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "drachenbaum",
+        "baum",
+        "icod",
+        "symbol",
+        "guanchen",
+        "natur"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🌳",
+      "top": true,
+      "municipio": "icod-de-los-vinos",
+      "mapsUrl": "https://maps.app.goo.gl/JHfhDiSoBNfWmHVi8"
+    },
+    {
+      "slug": "catedral-la-laguna",
+      "name": "Kathedrale von La Laguna",
+      "shortDescription": "Die bedeutendste Kirche der Kanaren — drei Jahrhunderte Geschichte im Herzen der UNESCO-Altstadt von La Laguna",
+      "description": "Die **Kathedrale Unserer Lieben Frau von Los Remedios** in San Cristóbal de La Laguna ist der Bischofssitz der Diözese Teneriffa und die wichtigste Kirche der Kanarischen Inseln. Eingebettet in das zum **UNESCO-Weltkulturerbe** erklärte historische Zentrum, reicht ihre Geschichte bis in die ersten Jahre der spanischen Kolonisierung der Insel zurück.\n\n### Geschichte und Architektur\nDer Ursprung der Kathedrale geht auf **1515** zurück, als auf diesem Grundstück die erste Pfarrkirche errichtet wurde, kaum zwei Jahrzehnte nach der Gründung von La Laguna. Im Laufe der Jahrhunderte wurde das Gebäude mehrmals erweitert und umgestaltet, bis die heutige neoklassische Fassade — entworfen von **Diego Nicolás Eduardo** im Jahr 1819 — ihr endgültiges äußeres Erscheinungsbild verlieh. Das Innere vereint **gotische, renaissance- und barockzeitliche** Elemente aus vier Jahrhunderten Geschichte.\n\n### Das Innere\nDrei Schiffe, getrennt durch achteckige Pfeiler, kunsthistorisch bedeutende Altaraufsätze, polychrome Skulpturen aus dem 17. Jahrhundert und eine außergewöhnliche Sammlung religiöser Silberwaren. Besonders hervorzuheben:\n- ⚰️ Das **Grabmal von Alonso Fernández de Lugo**, Conquistador und Gründer von La Laguna\n- 🖼️ Der neoklassische Hauptaltar mit Schnitzereien aus dem 16.–18. Jahrhundert\n- 🎨 Flämische und spanische Gemälde aus dem 16. und 17. Jahrhundert\n- 🔔 Die historische Pfeifenorgel, restauriert und in Betrieb\n\n### Die Fassade\nDie neoklassische Granitfassade mit korinthischen Säulen und dem großen Mittelrosettenfenster ist eines der visuellen Wahrzeichen der Altstadt von La Laguna. Tausendfach fotografiert, verkörpert sie am besten die architektonische Würde der UNESCO-Stadt.\n\n### Wichtige Fakten\n- 📅 Ursprung: **1515** — frühe Jahre der spanischen Kolonisierung\n- 🏛️ Sitz der **Diözese Teneriffa**\n- 🎨 Neoklassische Fassade: Entwurf von **Diego Nicolás Eduardo**, 1819\n- 🌍 Teil des **UNESCO-Weltkulturerbes** von La Laguna (1999)\n\n### Anreise\nIm Herzen der Altstadt von La Laguna, Plaza de la Catedral. Straßenbahn L1 (Haltestelle **La Laguna**) + 5 Gehminuten. Freier Eintritt während der Gottesdienste und Besuchszeiten.\n\n### Empfehlung\nDas Innere am Morgen besuchen (9:00–13:00 Uhr), wenn das Licht durch die Seitenfenster einfällt und die Altaraufsätze beleuchtet. Danach um die Fassade herum und zur Plaza del Adelantado (200 m) gehen, um das Stadtgefüge rund um die Kathedrale zu erleben. Idealer Ausgangspunkt für einen vollständigen Rundgang durch die UNESCO-Altstadt.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4862,
+        "lng": -16.3169
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/catedral_de_la_laguna.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "kathedrale",
+        "la-laguna",
+        "religion",
+        "unesco",
+        "neoklassisch",
+        "kunst"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "top": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/6Nu9wdDhS8Ugaf836"
+    },
+    {
+      "slug": "iglesia-concepcion-santa-cruz",
+      "name": "Kirche der Empfängnis, Santa Cruz",
+      "shortDescription": "Eine der ältesten Kirchen der Kanaren (1502) — Zeugin der Inselgeschichte von der Conquista bis zu Nelsons gescheitertem Angriff",
+      "description": "Die **Kirche Unserer Lieben Frau der Empfängnis** in Santa Cruz de Tenerife ist eines der historisch bedeutsamsten Gebäude der Kanarischen Inseln. Gegründet nur **sieben Jahre nach der Conquista von Teneriffa**, im Jahr **1502**, ist sie direkter Zeuge von über fünf Jahrhunderten Inselgeschichte.\n\n### Das Gebäude\nIm **gotisch-mudéjarsichen Stil** erbaut, hat die Kirche einen fünfschiffigen Grundriss, getrennt durch Rundbogen auf Vulkansteinsäulen. Ihr markantestes Merkmal ist die **mudéjarische Kassettendecke** — eine polychrome Holzkonstruktion, die islamisches Kunsthandwerk mit christlicher Architektur verbindet und zu den am besten erhaltenen ihrer Art auf den Kanaren zählt. Der fünfstöckige Turm, von weiten Teilen des Stadtzentrums von Santa Cruz aus sichtbar, ist ein weiteres Wahrzeichen.\n\n### Nelsons Fahnen\nIm Inneren verwahrt die Kirche einen der seltsamsten historischen Schätze der Kanaren: die **erbeuteten Kriegsfahnen von Admiral Horatio Nelson** aus der **Schlacht von Santa Cruz de Tenerife** (25. Juli 1797). In diesem Gefecht versuchte Nelson, den Hafen von Santa Cruz mit Gewalt einzunehmen, wurde zurückgeschlagen — und verlor dabei seinen rechten Arm. Die erbeuteten Standarten befinden sich seit über zwei Jahrhunderten in der Kirche als Symbol des Widerstands Teneriffas.\n\n### Kunst und Geschichte\n- 🎨 Polychrome mudéjarische Kassettendecke — 16. Jahrhundert\n- 🚩 Nelsons Fahnen, erbeutet 1797\n- 🖼️ Barockaltäre und polychrome Skulpturen aus dem 17.–18. Jahrhundert\n- 🏛️ Als **Bien de Interés Cultural** eingetragen (Kulturdenkmal)\n- 📅 Gegründet: **1502** — 7 Jahre nach der Conquista Teneriffas\n\n### Anreise\nIm historischen Zentrum von Santa Cruz, Plaza de la Iglesia. 5 Gehminuten von der Plaza de España und der Straßenbahn (Haltestelle **Weyler**). Freier Eintritt.\n\n### Empfehlung\nMorgens besuchen, um das Licht durch die Buntglasfenster zu erleben. Die Kassettendecke nicht verpassen — Blick nach oben richten. Nelsons Fahnen sind dauerhaft ausgestellt mit Erklärungstafeln auf Spanisch und Englisch. Kombination mit dem Mercado Nuestra Señora de África (10 Min. Fußweg) empfohlen — der schönste Markt von Santa Cruz.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4693,
+        "lng": -16.2524
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/iglesia-concepcion-santa-cruz.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "kirche",
+        "santa-cruz",
+        "geschichte",
+        "nelson",
+        "mudéjar",
+        "conquista"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "top": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/pzs72GHKjtsDWfMe6"
+    },
+    {
+      "slug": "casa-lercaro",
+      "name": "Museum für Geschichte und Anthropologie — Casa Lercaro",
+      "shortDescription": "Der bedeutendste genuesische Palast des 16. Jahrhunderts auf den Kanaren — Museum zur Geschichte Teneriffas von den Guanchen bis ins 20. Jahrhundert",
+      "description": "Die **Casa Lercaro** ist eines der bedeutendsten Zivildenkmäler der Kanarischen Inseln. Im 16. Jahrhundert von der Familie Lercaro erbaut, genuesischen Kaufleuten, die durch den Zucker- und Weinhandel reich geworden waren, ist sie das vollständigste Beispiel **Renaissancepaläste** im historischen Zentrum von La Laguna — UNESCO-Weltkulturerbe.\n\n### Der Palast\nDas Gebäude besticht durch seinen **zweistöckigen überdachten Innenhof** mit Teeeholzgalerien und Vulkansteinsäulen, dem Vorbild italienischer Renaissancepaläste folgend. Seine Proportionen, die Materialqualität und die Erhaltung der Originalelemente machen die Casa Lercaro zu einem Juwel der kanarischen Zivilarchitektur des 16. Jahrhunderts.\n\n### Das Museum\nIm Inneren beherbergt das **Museum für Geschichte und Anthropologie Teneriffas** eine chronologische Darstellung der Inselgeschichte von der vorspanischen Zeit bis ins 20. Jahrhundert:\n- 🗿 **Guanchen-Zeit**: Werkzeuge, Keramiken und materielle Kultur der Urbevölkerung\n- ⚔️ **Die Conquista** (1494–1496): Dokumentation und Rekonstruktion des Kolonisierungsprozesses\n- 🏛️ **Kolonialzeit**: Zucker-, Wein- und Cochenille-Wirtschaft; Beziehungen zu Amerika\n- 📜 **19.–20. Jahrhundert**: kanarische Aufklärung, Liberalismus, Auswanderung nach Amerika und Modernisierung\n- 🎨 **Zeitgenössische Kunst und Möbel**: Originalsammlung vom 16. bis 19. Jahrhundert\n\n### Calle San Agustín\nDie Casa Lercaro befindet sich in der **Calle San Agustín**, einer der historisch bedeutendsten Straßen La Lagunas, gesäumt von Palästen und Herrenhäusern aus dem 16. Jahrhundert. Ein Spaziergang durch diese Straße ist für sich genommen ein Ausflug in die kanarische Kolonialarchitektur.\n\n### Praktische Informationen\n- 🕙 Öffnungszeiten: Di–So **10:00–18:00** Uhr · Montag geschlossen\n- 💶 Eintritt: **3 €** regulär · **1,50 €** ermäßigt · Sonntags kostenlos\n- 📍 Calle San Agustín 22, La Laguna\n\n### Anreise\nIn der Altstadt von La Laguna, 3 Gehminuten von der Plaza del Adelantado. Straßenbahn L1 (Haltestelle **La Laguna**) + 7 Gehminuten.\n\n### Empfehlung\nUnbedingt empfehlenswert, um die vollständige Geschichte Teneriffas aus einer anderen Perspektive als dem MUNA zu erleben. **1,5–2 Stunden** einplanen. Der Innenhof allein rechtfertigt den Besuch. Ideal kombiniert mit der Kathedrale und der Altstadt von La Laguna an einem Vormittag.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.487,
+        "lng": -16.3148
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_de_historia_y_antropologia_de_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museum",
+        "la-laguna",
+        "geschichte",
+        "palast",
+        "genuesisch",
+        "unesco"
+      ],
+      "visitDuration": "1.5-2h",
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "top": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/wZhCtxBHciqMkvfj7"
+    },
+    {
+      "slug": "museo-del-vino-con-degustacion-de-vinos-locales-y-comida",
+      "name": "Weinmuseum Teneriffa — Weinprobe & lokale Gastronomie",
+      "shortDescription": "Teneriffas bestes Weinerlebnis — D.O. Vulkanweinprobe und kanarische Küche in einer Hacienda aus dem 17. Jahrhundert mit Atlantikblick",
+      "description": "Das **Weinmuseum Teneriffa** (Casa del Vino) in **El Sauzal** im Norden der Insel ist die Referenzadresse für die Entdeckung der kanarischen Weinkultur. Untergebracht in einer restaurierten traditionellen Hacienda aus dem 17. Jahrhundert mit Blick auf den Atlantik und den Teide, bietet es ein vollständiges Erlebnis: Museum, geführte Weinprobe lokaler Weine und authentische kanarische Gastronomie.\n\n### Das Erlebnis\nDer Besuch umfasst eine Führung durch das Museum, bei der Sie die Geschichte des Weins auf den Kanaren entdecken — von den ersten Weinbergen nach der spanischen Eroberung bis zu den heutigen Herkunftsbezeichnungen. Der Abschluss ist eine **geführte Probe ausgewählter lokaler Weine** mit typischen Inselspezialitäten.\n\n### Die Weine Teneriffas\nTeneriffa ist die einzige spanische Provinz mit **5 Herkunftsbezeichnungen auf einer einzigen Insel**: Tacoronte-Acentejo, Valle de la Orotava, Ycoden-Daute-Isora, Abona und Valle de Güímar. Die Vulkanweinberge beherbergen **Reblaus-freie Reben von bis zu 500 Jahren** — zu den ältesten der Welt — und produzieren Weine, die nirgendwo sonst auf der Erde zu finden sind. **Listán negro** (Rot) und **Listán blanco** (Weiß) sind die Leitrebsorten des Archipels.\n\n### Was ist enthalten\n- 🏛️ Geführte Museumsbesichtigung\n- 🍷 Probe ausgewählter D.O. Teneriffa-Weine\n- 🧀 Kanarische Begleitung: lokale Käsesorten, Wurstwaren, Mojo und Gofio\n- 🍽️ Option eines vollständigen Menüs mit traditioneller kanarischer Marktküche\n\n### Die Hacienda\nDas restaurierte traditionelle Gebäude aus dem 17. Jahrhundert verfügt über eine Terrasse mit **Blick auf den Atlantik, die Nordküste und den Teide**. Einer der einzigartigsten Orte für eine Weinprobe in ganz Spanien — dieselben Ausblicke wie die kanarischen Winzer vor vier Jahrhunderten.\n\n### Praktische Informationen\n- 📍 El Sauzal, Nordteneriffa (TF-152)\n- 🕙 Di–Sa **10:00–21:30** Uhr · So **11:00–18:00** Uhr · Montag geschlossen\n- 🎫 Online-Buchung empfohlen — begrenzte Plätze bei den Weinproben\n- 🚗 Ausfahrt El Sauzal von der Autobahn TF-5\n\n### Empfehlung\nIdeal für Wein- und Lebensmittelliebhaber. Kombinierbar mit einem Besuch in **La Laguna** (15 km) oder **Puerto de la Cruz** (12 km). Bei Wahl des vollständigen Menüs bietet das Restaurant marktfrische kanarische Küche mit lokalem Weinpairing — ein vollständiges Geschmackserlebnis mit Atlantikblick.",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.4744,
+        "lng": -16.4136
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/museo-vino-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "wein",
+        "gastronomie",
+        "weinprobe",
+        "museum",
+        "el-sauzal",
+        "herkunftsbezeichnung"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🍷",
+      "top": true,
+      "municipio": "el-sauzal",
+      "gygTourId": "415940",
+      "gygUrl": "https://gyg.me/srarOtSz"
+    },
+    {
+      "slug": "casa-del-vino-tenerife",
+      "name": "Casa del Vino de Tenerife",
+      "shortDescription": "Das bedeutendste Weinmuseum der Kanaren — Hacienda aus dem 17. Jahrhundert in El Sauzal mit allen 5 Teneriffa-D.O.s, Weinproben und Restaurant mit Atlantikblick",
+      "description": "Die **Casa del Vino de Tenerife** in **El Sauzal** ist die Referenzadresse für das Verständnis und den Genuss der kanarischen Weinkultur. Untergebracht in einer restaurierten traditionellen Hacienda aus dem 17. Jahrhundert mit Terrassen mit Blick auf den Atlantik und den Teide, vereint sie Weinmuseum, Verkostungsraum, Weinladen und Gastronomierestaurant unter einem Dach.\n\n### Das Museum\nDie Ausstellung verfolgt die Geschichte des Weins auf den Kanaren von den ersten Weinbergen nach der spanischen Eroberung im 15. Jahrhundert bis zu den fünf heutigen Herkunftsbezeichnungen. Tafeln, historische Kellereigeräte, Weinbergkarten nach Gemeinden und eine Sammlung historischer Flaschen machen dies zu einem der vollständigsten Weinmuseen Spaniens.\n\n### Die Weine Teneriffas\nTeneriffa hat **5 Herkunftsbezeichnungen auf einer einzigen Insel** — die höchste D.O.-Dichte pro Fläche in Spanien:\n- 🍇 **Tacoronte-Acentejo** — die älteste und renommierteste, kräftige Rotweine\n- 🍇 **Valle de la Orotava** — Weinberge am Fuß des Teide, frische aromatische Weißweine\n- 🍇 **Ycoden-Daute-Isora** — Nordwestküste, jahrhundertealte Reben auf Vulkanterrassen\n- 🍇 **Abona** — Südseite der Insel, extreme Höhenlage zwischen 400 und 1.700 m\n- 🍇 **Valle de Güímar** — Südosten, einzigartiges Mikroklima zwischen Teide und Meer\n\nSeine **Reblaus-freien Reben von bis zu 500 Jahren** — die die Seuche überlebten, die im 19. Jahrhundert europäische Weinberge verwüstete — produzieren nirgendwo anders replizierbare Weine.\n\n### Der Laden\nDer Laden der Casa del Vino bietet die beste Auswahl aller 5 D.O.s unter einem Dach — ideal, um Flaschen mit nach Hause zu nehmen, die man außerhalb Teneriffas kaum findet.\n\n### Das Restaurant\nDas Restaurant serviert marktfrische kanarische Küche mit lokalem Weinpairing. Die Terrasse mit Atlantikblick ist einer der schönsten Tische Nordteneriffas.\n\n### Praktische Informationen\n- 📍 Ctra. General del Norte 96, El Sauzal\n- 🕙 Di–Sa **10:00–21:30** Uhr · So **11:00–18:00** Uhr · Montag geschlossen\n- 💶 Museumseintritt: kostenlos · Weinproben: ab **6 €**\n- 🚗 Ausfahrt El Sauzal von der Autobahn TF-5 Nord\n\n### Empfehlung\nUnbedingt für Weinliebhaber. Morgens ankommen, Museum besichtigen, im Laden stöbern und zum Mittagessen auf der Terrasse bleiben. Gut kombinierbar mit **La Laguna** (15 km) oder **Puerto de la Cruz** (12 km). Für ein geführtes Erlebnis mit inkludierter Weinprobe kann eine organisierte Aktivität gebucht werden.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4744,
+        "lng": -16.4136
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/casa-del-vino-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "wein",
+        "museum",
+        "herkunftsbezeichnung",
+        "el-sauzal",
+        "gastronomie",
+        "hacienda"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🍷",
+      "top": true,
+      "municipio": "el-sauzal",
+      "mapsUrl": "https://maps.app.goo.gl/Qk42coyAhY58ycvt9"
+    },
+    {
+      "slug": "museo-ciencia-cosmos",
+      "name": "Museum für Wissenschaft und den Kosmos",
+      "shortDescription": "Das vollständigste Wissenschaftsmuseum der Kanaren — Planetarium, Astronomie und interaktive Physik in La Laguna",
+      "description": "Das **Museum für Wissenschaft und den Kosmos** in La Laguna ist das wichtigste Wissenschafts- und Vermittlungszentrum der Kanarischen Inseln. Mit interaktiven Ausstellungen zu Physik, Biologie und Astronomie sowie einem **digitalen Projektionsplanetarium** ist es ein unverzichtbarer Besuch für Familien mit Kindern und alle, die neugierig auf das Universum sind.\n\n### Das Gebäude und der Kontext\nIn La Laguna gelegen, wenige Minuten vom UNESCO-Altstadtzentrum entfernt, gehört das Museum zum **Museen- und Zentrennetzwerk des Cabildo Teneriffa**. Sein Außendesign mit der Planetariumskuppel als dominierendem Element ist bereits ein visuelles Wahrzeichen der Gemeinde.\n\n### Die Ausstellungen\nDas Museum deckt drei Hauptthemenbereiche ab:\n\n**🌌 Kosmos und Astronomie**\nTeneriffa ist einer der besten Orte der Welt für astronomische Beobachtungen — das **Teide-Observatorium** (IAC) ist die bedeutendste astronomische Anlage der nördlichen Hemisphäre. Das Museum erklärt warum: Himmelsbedingungen, geografische Lage und die Geschichte der Astronomie auf den Kanaren von den Guanchen bis zur Gegenwart.\n\n**⚛️ Physik und Interaktivität**\nHands-on-Installationen zu Mechanik, Wellen, Elektrizität, Optik und Thermodynamik — zum Verständnis der physikalischen Welt durch direkte Erfahrung. Für alle Altersgruppen geeignet.\n\n**🧬 Leben und Evolution**\nBiologie, Evolution, kanarische Ökosysteme und die Biodiversität des Archipels. Der Abschnitt über endemische kanarische Flora und Fauna verbindet direkt mit dem einzigartigen Naturerbe der Inseln.\n\n### Das Planetarium\nDie **Planetariumsvorführung** ist der Höhepunkt des Besuchs: 360°-Digitalprojektion auf die Kuppel, die den kanarischen Nachthimmel nachbildet, mit virtuellen Reisen durch das Sonnensystem und das beobachtbare Universum. Vorführungen auf Spanisch zu festen Zeiten — Vorabinformation und Reservierung empfohlen.\n\n### Praktische Informationen\n- 📍 Avda. de Los Menceyes 70, La Laguna\n- 🕙 Di–Sa **9:00–19:00** Uhr · So **10:00–17:00** Uhr · Montag geschlossen\n- 💶 Eintritt: **5 €** Erwachsene · **3 €** ermäßigt · Kostenlos unter 6\n- 🔭 Planetariumsvorführung: **2 €** extra — an der Kasse buchen\n- 🚌 Bus ab Santa Cruz (Linie 014) oder 15 Min. Fußweg von der Altstadt La Laguna\n\n### Empfehlung\nIdeal für Familien mit Kindern und alle mit wissenschaftlicher Neugier. **2–3 Stunden** einplanen und eine Planetariumsvorführung einschließen. Mit der Altstadt La Laguna (15 Min. Fußweg) zu einem Tagesausflug kombinieren. Bei astronomischem Interesse auch Besuche im **Teide-Observatorium** in Betracht ziehen.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4826,
+        "lng": -16.3198
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_de_la_ciencia_y_el_cosmos.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museum",
+        "wissenschaft",
+        "planetarium",
+        "astronomie",
+        "la-laguna",
+        "familien"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🔭",
+      "top": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/wBBqN6rMKdwEsVKf6"
+    },
+    {
+      "slug": "cristo-de-la-laguna",
+      "name": "Königliches Heiligtum des Allerheiligsten Christus von La Laguna",
+      "shortDescription": "Die meistverehrte Kultstätte der Kanaren — ein Christusbild aus dem 15. Jahrhundert zieht jeden September Zehntausende Gläubige an",
+      "description": "Das **Königliche Heiligtum des Allerheiligsten Christus von La Laguna** ist die meistverehrte Kultstätte der Kanarischen Inseln und eines der bedeutendsten Zentren volkstümlicher Frömmigkeit in ganz Spanien. Das Bildnis des **Santísimo Cristo de La Laguna** — eine polychrome flämische Holzschnitzerei aus dem 15. Jahrhundert — ist seit mehr als fünfhundert Jahren Gegenstand tiefer und weitverbreiteter Verehrung unter den Kanarern.\n\n### Das Bildnis\nDie Schnitzerei unbekannter Urheberschaft und flämischer Technik traf in den letzten Jahren des 15. Jahrhunderts in La Laguna ein, kurz nach der Stadtgründung. Ihr **Ausdruck würdevoller Gelassenheit im Leiden** und die außergewöhnliche Qualität der Schnitzerei machen sie zu einem der bedeutendsten religiösen Kunstwerke der Kanarischen Inseln. Das Bildnis trägt den traditionellen **schwarzen Samtrock** und wird in einer eigenen Kapellenkammer im Inneren des Heiligtums aufbewahrt.\n\n### Die September-Romería\nJedes Jahr in der zweiten Septemberhälfte erlebt La Laguna die emotionalsten Tage seines Festkalenders. Das **Fest des Allerheiligsten Christus** — als Festival von nationalem touristischen Interesse anerkannt — zieht Zehntausende Gläubige aus ganz Kanarischen Inseln, dem spanischen Festland und der kanarischen Gemeinschaft in Lateinamerika an. Die nächtlichen Prozessionen durch das UNESCO-Altstadtzentrum mit dem Christus auf seinem blumengeschmückten Umzugswagen sind einer der eindrucksvollsten Ausdrücke kanarischer Volksfrömmigkeit.\n\n### Das Heiligtum\nDas heutige Gebäude im barock-kolonialen Stil stammt aus dem 17. Jahrhundert und wurde von den Franziskanern errichtet, um das verehrte Bildnis zu beherbergen. Im Inneren:\n- ✝️ Die Originalschnitzerei des **Allerheiligsten Christus** (15. Jahrhundert)\n- 🕯️ Das **Camarín**, in dem das Bildnis verehrt wird, von großem ornamentalen Reichtum\n- 🖼️ Votivgaben der Gläubigen aus Jahrhunderten\n- 🏛️ Barockaltäre und Skulpturen aus dem 17.–18. Jahrhundert\n\n### Historischer Kontext\nDie Verehrung des Christus von La Laguna geht über das Religiöse hinaus: Sie war jahrhundertelang das stärkste Element kanarischer kollektiver Identität. Seeleute, Auswanderer und kanarische Soldaten riefen ihn in entscheidenden Momenten an, und das Bildnis hat die wichtigsten Ereignisse der Geschichte Teneriffas begleitet.\n\n### Praktische Informationen\n- 📍 Plaza de Santo Domingo, La Laguna\n- 🕙 Täglich geöffnet — variable Gottesdienstzeiten (beim Heiligtum erfragen)\n- 💶 Freier Eintritt\n- 🚋 Straßenbahn L1 (Haltestelle **La Laguna**) + 5 Gehminuten\n\n### Empfehlung\nIn Stille eintreten und sich einige Minuten Zeit nehmen, das Bildnis zu betrachten — die Qualität der Schnitzerei rechtfertigt den Besuch unabhängig vom persönlichen Glauben. Im September sind die Christusprozessionen ein einzigartiges Erlebnis. Ideal kombiniert mit der Kathedrale (200 m) und einem vollständigen Rundgang durch die UNESCO-Altstadt von La Laguna.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4868,
+        "lng": -16.3165
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/real_santuario_del_cristo_de_la_laguna.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "religion",
+        "la-laguna",
+        "frömmigkeit",
+        "wallfahrt",
+        "barock",
+        "franziskaner"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "✝️",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/jHKezrBQ5gFPiga1A"
+    },
+    {
+      "slug": "museo-militar-almeyda",
+      "name": "Regionales Militärmuseum der Kanaren",
+      "shortDescription": "Das bedeutendste Militärmuseum der Kanaren — Heimat der Kanone El Tigre, die Nelson 1797 den Arm kostete",
+      "description": "Das **Regionale Militärmuseum der Kanaren** im **Almeyda-Kaserne** in Santa Cruz de Tenerife ist das wichtigste lebendige Archiv der Militärgeschichte der Kanarischen Inseln. Seine Sammlungen reichen von der spanischen Conquista des 15. Jahrhunderts bis ins 20. Jahrhundert, doch sein Glanzstück ist zweifellos die **Kanone El Tigre**: das Artilleriegeschütz, das der Überlieferung nach die Kanonenkugel abfeuerte, die den britischen Admiral **Horatio Nelson** während der **Schlacht von Santa Cruz 1797** verwundete und ihm den rechten Arm kostete.\n\n### Die Kanone El Tigre\nAm 25. Juli 1797 griff Nelson den Hafen von Santa Cruz mit einer Flotte von 3.700 Mann an, um die Stadt einzunehmen und eine Galeone mit dem Schatz des Vizekönigs von Peru zu erbeuten. Er wurde von den kanarischen Milizen unter dem Befehl von **General Gutiérrez** zurückgeschlagen. Bei der gescheiterten Landung verwundete eine Kanonenkugel Nelsons rechten Arm, der amputiert werden musste. Die Schlacht war eine der wenigen Niederlagen in Nelsons gesamter Karriere. Die Kanone El Tigre, die während der Verteidigung schoß, wird im Museum als Symbol des teneriffanischen Widerstands aufbewahrt.\n\n### Die Sammlungen\n- 🏰 **Waffen und Uniformen** von der Conquista des 15. Jahrhunderts bis ins 20. Jahrhundert\n- 🗺️ **Historische Kartographie** der Kanarischen Inseln ab dem 16. Jahrhundert\n- ⚔️ **Rekonstruktion der Schlacht von Santa Cruz 1797** — Karten, Waffen, Originaldokumente\n- 🎖️ **Militärische Auszeichnungen und Medaillen** der Kanaren\n- 🚢 **Schiffsmodelle** und Material aus der Zeit der atlantischen Kriege\n\n### Die Almeyda-Kaserne\nDas Museumsgebäude ist selbst ein Kulturdenkmal: die **Almeyda-Hauptkaserne**, ein Militärbau des 19. Jahrhunderts im Herzen von Santa Cruz, mit ihrem Innenhof-Paradeplatz und neoklassischer Militärarchitektur.\n\n### Praktische Informationen\n- 📍 Calle San Isidro, Santa Cruz de Tenerife\n- 🕙 Di–Sa **10:00–14:00** Uhr · Sonn- und Montag geschlossen\n- 💶 Freier Eintritt\n- 🚋 Straßenbahn (Haltestelle **Weyler**) + 10 Gehminuten\n\n### Empfehlung\nIdeal kombiniert mit der **Kirche La Concepción** (5 Min. Fußweg), wo die Nelson in derselben Schlacht abgenommenen Fahnen aufbewahrt werden. Zusammen erzählen sie die vollständige Geschichte der Schlacht von Santa Cruz 1797 — eine der bemerkenswertesten Episoden der europäischen Militärgeschichte.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.464,
+        "lng": -16.2506
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_historico_militar_de_canarias.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museum",
+        "militär",
+        "nelson",
+        "santa-cruz",
+        "geschichte",
+        "artillerie"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "⚔️",
+      "top": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/A9syxRoypDs5WZnK7"
+    },
+    {
+      "slug": "mercado-africa-santa-cruz",
+      "name": "Markt Nuestra Señora de África",
+      "shortDescription": "Der schönste Markt Teneriffas — «der Bauch von Santa Cruz», mit Tropenfrüchten, Blumen, Frischfisch und Kunsthandwerk unter einzigartiger Kolonialarchitektur",
+      "description": "Der **Markt Nuestra Señora de África** ist das gastronomische und soziale Herz von Santa Cruz de Tenerife. Im Jahr **1943** eingeweiht und vom Architekten **José Enrique Marrero Regalado** entworfen, macht ihn seine arabisch-koloniale Architektur — mit Hufeisenbögen, farbigen Mosaiken und einer Zentralkuppel — zu einem der schönsten Märkte Spaniens.\n\n### Das Gebäude\nDas Marktdesign integriert Elemente des kanarischen **Mudéjarismus** mit nordafrikanischen und atlantischen Kolonialeinflüssen und schafft einen einzigartigen Raum, der zugleich Architekturerbe und lebendiger Alltagsmarkt ist. Seine überdachten Galerien, der offene Innenhof und die ocker-weißen Fassadenfarben machen ihn schon von außen unwiderstehlich.\n\n### Der Markt innen\nIm Erdgeschoss konzentriert sich das gesamte Lebensmittelangebot:\n- 🐟 **Fischtheken** — Thunfisch, Vieja (Papageifisch), Sama, Goldbrasse, Wrackbarsch, Tintenfisch und der Tagesfang aus dem Atlantik\n- 🥩 **Metzgereien** — Ziegenfleisch, Kaninchen und auf der Insel aufgezogenes Schwein\n- 🥑 **Tropenfrüchte und Gemüse** — kanarische Bananen, Avocado, Papaya, Mango, Ananas, Kirschtomaten aus dem Süden\n- 🧀 **Kanarische Käsesorten** — frisch, gereift und geräuchert von verschiedenen Inseln\n- 🫙 **Lokale Produkte** — roter Mojo, grüner Mojo, Gofio, Palmenhonig, Honigrum\n\n### Der Flohmarkt und Kunsthandwerk\nIm oberen Bereich verwandelt der sonntägliche **Rastrillo** (Flohmarkt) den Markt in einen Ort für Secondhand-Waren, lokales Kunsthandwerk und kreative Produkte. Unter der Woche beherbergen die oberen Etagen Blumenstände, die den Markt zu einem der farbenprächtigsten des Archipels machen.\n\n### Die Marktbars\nDas bestgehütete Geheimnis des Afrika-Markts sind seine **Innenbars und Tabancos**, wo Einheimische ab 7 Uhr morgens frühstücken — Kaffee, Toast mit Mojo und Croissants. Ein authentisches Erlebnis abseits der Touristenrouten.\n\n### Praktische Informationen\n- 📍 Avda. de San Sebastián, Santa Cruz de Tenerife\n- 🕙 Mo–Sa **6:00–14:00** Uhr · So **6:00–13:00** Uhr (Flohmarkt)\n- 💶 Freier Eintritt\n- 🚋 Straßenbahn (Haltestelle **Weyler**) + 5 Gehminuten\n\n### Empfehlung\nVor 9:00 Uhr ankommen, um den Markt auf seinem Höhepunkt zu erleben. In einer der Innenbars frühstücken, kanarischen Käse und Mojo zum Mitnehmen kaufen und mit einem Rundgang durch die Blumenstände abschließen. Am Sonntag verleiht der Flohmarkt dem Ganzen eine zusätzliche Atmosphäreschicht.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4664,
+        "lng": -16.2531
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/mercado_nuestra_senora_de_africa.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "markt",
+        "gastronomie",
+        "santa-cruz",
+        "architektur",
+        "lokale-produkte",
+        "blumen"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🛒",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/n3YjaWSFsXbTxDCu7"
+    },
+    {
+      "slug": "gastronomia-canaria-tenerife",
+      "name": "Kanarische Gastronomie",
+      "shortDescription": "Eine Küche mit einzigartiger Identität — Gofio, Papas arrugadas, Mojo, Bienmesabe und Honigrum: die Aromen, die Teneriffa definieren",
+      "description": "Die kanarische Küche ist eine der einzigartigsten Spaniens: eine Kochkultur mit **Guanchen**-Wurzeln und afrikanischen, lateinamerikanischen und festlandspanischen Einflüssen, die über fünf Jahrhunderte eine unverwechselbare eigene Identität entwickelt hat. Teneriffa ist das beste Schaufenster dieser kulinarischen Tradition.\n\n### Die unverzichtbaren Gerichte\n\n**🥔 Papas arrugadas con mojo**\nDas ikonischste Gericht der Kanaren. Kleine Kartoffeln in stark gesalzenem Wasser gekocht, bis die Schale runzlig wird und eine weiße Salzkruste entsteht. Serviert mit **rotem Mojo** (Paprika, Knoblauch, Kreuzkümmel und Essig) oder **grünem Mojo** (Koriander oder Petersilie). Ein bescheidenes ländliches Gericht, das heute in den besten Restaurants der Welt auf den Tisch kommt.\n\n**🌾 Gofio**\nDas Urnahrungsmittel der Guanchen: steingeröstetes Getreidemehl (Weizen, Hirse oder Mais). Mit 2.000 Jahren Geschichte wird Gofio auf den Kanaren als Pasta, Suppendickmacher, Dessert (Gofio escaldón) und Brotersatz verwendet. Weltweit einzigartig — in keiner anderen Küche zu finden.\n\n**🍲 Puchero canario**\nDer Inseleintopf: Kichererbsen, Saisongemüse (Kürbis, Süßkartoffel, grüne Bohnen, Mais), Schweinefleisch, Hühnchen und Speck. Zuerst als Suppe, dann als Tellergericht serviert. Gofio wird in die Brühe gerührt, um Escaldón zu machen.\n\n**🐇 Kaninchen in Salmorejo**\nKanarisches Salmorejo hat nichts mit der andalusischen Suppe zu tun: Es ist eine Marinade aus Knoblauch, Paprika, Thymian, Lorbeer, Essig und Weißwein, in der das Kaninchen stundenlang eingelegt wird, bevor es gebraten wird. Eines der repräsentativsten Gerichte der traditionellen Teneriffa-Küche.\n\n**🐟 Gegrillte Vieja**\nVieja (Papageifisch) ist der kanarischste aller Fische. Weißfleischig und delikat im Geschmack, wird er gegrillt mit Papas arrugadas, Mojo und Salat serviert. Eine perfekte Kombination in jedem Guachinche der Insel.\n\n**🐐 Geschmorte Ziege**\nZiegen waren seit den Guanchen das wichtigste Nutztier der Inseln. Geschmorte Ziege mit Kartoffeln und lokalen Gewürzen ist ein Sonntagsgericht, das die Innenlandküche Teneriffas definiert.\n\n### Desserts\n\n**🍯 Bienmesabe**\nGemahlene Mandelcreme mit Zucker, Eiern, Zitrone und Zimt. Dicht in der Textur und intensiv im Geschmack, pur gegessen, über Vanilleeis oder als Gebäckfüllung. Der Name sagt alles: «es schmeckt mir gut».\n\n**🌽 Frangollo**\nKanarischer Pudding aus Millo (Mais)-Mehl, gekocht mit Milch, Zucker, Eiern, Mandeln, Rosinen und Zitrone. Traditionell ein Festtagsdessert, heute seltener, aber von zeitgenössischen kanarischen Restaurants wiederbelebt.\n\n**🍠 Truchas de batata**\nGebratene Teigtaschen, gefüllt mit Süßkartoffel, Mandel, Kürbismarmelade und Zimt, mit Puderzucker bestäubt. Das Weihnachtsgebäck schlechthin auf Teneriffa, das ganzjährig in Bäckereien zu finden ist.\n\n**🥛 Quesillo**\nDer kanarische Flan: ein Kondensmilch-Ei-Pudding, dichter und süßer als die Festlandversion. Auf der Tageskarte jedes Nachbarschaftsrestaurants.\n\n### Getränke\n\n**🍷 D.O.-Weine Teneriffas**\nFünf Herkunftsbezeichnungen auf einer einzigen Insel. Einen Rotwein aus Tacoronte-Acentejo zum Kaninchen, einen Weißwein aus dem Valle de la Orotava zum Fisch oder einen Vino de tea (in kanarischem Kiefernholz gereift) probieren, wenn verfügbar.\n\n**☕ Barraquito**\nDer kanarischste Kaffee der Welt: In einem Glas werden Kondensmilch, Licor 43, heiße Milch, Espresso, Milchschaum und Zimt mit Zitronenschale vor den Augen des Gastes geschichtet. Ein visuelles Ritual ebenso wie ein Geschmackserlebnis — Symbol der Kaffeekultur in Santa Cruz.\n\n**🥃 Ron Miel**\nZuckerrohrschnaps gemischt mit kanarischem Palmenhonig. Mit unter 20% Alkohol und süß-würzigem Geschmack ist es der beliebteste Likör der Kanaren. Pur, auf Eis oder in Cocktails getrunken.\n\n### Wo authentisch essen auf Teneriffa\n- 🍽️ **Guachinche**: informales Bauernhausrestaurant, Einheitsmenü mit lokalem Wein. Nur im Norden Teneriffas — das authentischste Gastronomieerlebnis der Insel\n- 🐟 **Strand-Chiringuito**: Tagesfang gegrillt mit Mojo und Papas arrugadas\n- 🛒 **Afrika-Markt** (Santa Cruz): Produkte kaufen und mit Einheimischen frühstücken\n- 🏡 **Restaurant kanarische Küche**: nach «Cuchifrito» oder «Menú canario» in Wohnvierteln suchen\n\n### Empfehlung\nTeneriffa nicht verlassen ohne: Papas arrugadas mit scharfem rotem Mojo, Barraquito in Santa Cruz zum Frühstück, gegrillte Vieja in einem Strandlokal im Norden und Bienmesabe als Dessert. Bei verfügbarer Zeit einen Tisch in einem Guachinche im Orotava-Tal oder Tacoronte reservieren — das authentischste Gastronomieerlebnis der Kanaren.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4637,
+        "lng": -16.2524
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/papas_arrugadas_con_mojo.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "gastronomie",
+        "kanarische-küche",
+        "gofio",
+        "papas-arrugadas",
+        "mojo",
+        "guachinche"
+      ],
+      "visitDuration": "variable",
+      "difficulty": "easy",
+      "emoji": "🍽️",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/NotEoxDieRJcMhfx9"
+    },
+    {
+      "slug": "romerias-tenerife",
+      "name": "Romerías von Teneriffa",
+      "shortDescription": "Die tiefverwurzeltste Festtradition der Kanaren — Prozessionen mit Ochsenkarren, Trachten, Volksmusik und lokalem Wein",
+      "description": "**Romerías** sind der echteste und farbenprächtigste Ausdruck kanarischer Kulturidentität. In ihrer Gesamtheit zum **Festival von nationalem touristischem Interesse** erklärt, sind sie festliche Prozessionen religiösen Ursprungs, die den Schutzpatron jeder Gemeinde mit einer einzigartigen Mischung aus Volksfrömmigkeit, Folklore, Gastronomie und Gemeinschaftsgeist feiern.\n\n### Was ist eine Romería?\nDas Wort «Romería» kommt von «Romero» — dem Pilger, der nach Rom geht. Auf den Kanaren bezeichnet es die Volksprozession, die jede Ortschaft zu Ehren ihres Schutzpatrons feiert: ein Zug von Hunderten oder Tausenden von Teilnehmern in kanarischer Tracht, begleitet von blumengeschmückten Ochsenkarren mit den besten Erzeugnissen des Landes, lebendiger Volksmusik und reichlich lokalem Wein.\n\n### Die Elemente einer Romería\n\n**🐂 Die Carretas (Ochsenkarren)**\nDas visuelle Herzstück jeder Romería. Holzkarren, von Ochsen gezogen, mit Blumen, Früchten, Gemüse, Stickereien und Landelementen geschmückt. Jeder Karren repräsentiert eine Gruppe oder einen Verein, der in Schönheit und Originalität konkurriert. Der Geruch von feuchter Erde, Blumen und Wein beim Vorbeiziehen der Karren ist unverkennbar.\n\n**👗 Die kanarische Tracht**\nTeilnehmer ziehen in regionaler Tracht auf: für Frauen bunter Unterrock (Refajo), bestickter Ausschnitt, Schal und Strohhut mit Blumen; für Männer kurze Wollhose, weißes Hemd, Schärpe, Weste und Hut. Jede Gemeinde hat ihre eigenen charakteristischen Farben und Stickmuster.\n\n**🎵 Volksmusik**\nFolkloregruppen (Cuadrillas) mit Timples (das für die Kanaren typische kleine Saiteninstrument), Gitarren, Lauten und Kastagnetten bestimmen das Tempo des Zuges. Kanarische Rhythmen — **Folía, Isa und Tajaraste** — erklingen bei jeder Romería. Improvisierter Gesang (Trovos) ist eine weitere Tradition, die die Umzüge begleitet.\n\n**🍷 Wein und Essen**\nKeine Romería ohne lokalen Wein, kanarischen Käse, Insel-Wurstwaren und Papas arrugadas mit Mojo. Romerías sind auch ein gastronomisches Fest: Die Teilnehmer teilen alles, was sie auf den Karren tragen, mit dem Publikum und untereinander. Kanarische Gastfreundschaft in ihrer vollen Ausprägung.\n\n### Die wichtigsten Romerías Teneriffas\n\n- 🌿 **Romería de San Marcos** (Tegueste) — **April** · Eine der ältesten der Kanaren\n- 🌾 **Romería de San Isidro** (La Orotava) — **Mai/Juni** · Die größte im Norden, mit dem Teide im Hintergrund\n- 🎉 **Romería de San Benito Abad** (La Laguna) — **Juli** · Durch die UNESCO-Altstadt\n- 🌊 **Romería de la Virgen del Carmen** (verschiedene Gemeinden) — **Juli** · Maritime Prozession in Küstendörfern\n- ⛪ **Romería de la Virgen de Candelaria** — **August** · Die größte der Kanaren\n- ✝️ **Romería del Cristo de La Laguna** — **September** · Die frömmste und meistbesuchte Teneriffas\n\n### Romería vs. Karneval\nWenn der **Karneval von Santa Cruz** das Fest der Respektlosigkeit, des Exzesses und der urbanen Kreativität ist, ist die Romería ihr ergänzendes Gegenteil: das Fest des Landes, der Tradition, der ländlichen Identität und der Wurzeln. Zwei Ausdrucksformen derselben kanarischen Seele, beide gleichermaßen leidenschaftlich.\n\n### Das Timple\nDas **Timple** ist für die kanarische Folklore, was die Flamenco-Gitarre für Andalusien ist: ein kleines Saiteninstrument mit erhöhtem Resonanzkörper und kristallklarem Klang, das bei jeder Romería, Parada und kanarischen Abendveranstaltung erklingt. Es live bei einer Romería zu hören bedeutet, etwas Wesentliches über die Kultur dieser Inseln zu verstehen.\n\n### Touristische Empfehlung\nWenn Ihr Besuch mit einer Romería zusammenfällt, verpassen Sie sie nicht — es ist eines der visuell und sensorisch authentischsten Spektakel, das Teneriffa bietet. Früh ankommen, um die Karren vorbeiziehen zu sehen, Wein und Käse annehmen, den die Teilnehmer anbieten (das gehört zur Tradition), und für die abendliche Verbena bleiben, die dem Umzug folgt. Den offiziellen Kalender der Romerías und Feste veröffentlicht das Cabildo de Tenerife jedes Jahr.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.389,
+        "lng": -16.5229
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/romeria_de_los_labradores.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "romería",
+        "folklore",
+        "tradition",
+        "ochsenkarren",
+        "timple",
+        "festival"
+      ],
+      "visitDuration": "variable",
+      "difficulty": "easy",
+      "emoji": "🎉",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": ""
+    },
+    {
+      "slug": "carnaval-santa-cruz-tenerife",
+      "name": "Karneval von Santa Cruz de Tenerife",
+      "shortDescription": "Der zweitgrößte Karneval der Welt — zum Festival von internationalem touristischen Interesse erklärt, mit über 250.000 Menschen auf den Straßen von Santa Cruz jeden Februar",
+      "description": "Der **Karneval von Santa Cruz de Tenerife** ist das größte Spektakel der Insel und eines der bedeutendsten Kulturereignisse der Welt. Zum **Festival von internationalem touristischen Interesse** erklärt und als **zweitgrößter Karneval der Welt** nach Rio de Janeiro betrachtet, verwandelt er Santa Cruz für zwei Wochen im Februar in das globale Epizentrum von Fantasie, Farbe und Musik.\n\n### Geschichte\nDie ersten Hinweise auf den Karneval auf Teneriffa stammen aus dem **16. Jahrhundert**, als die Insel bereits Maskenbälle und Kostümfeste im mediterranen Stil feierte. Während der Franco-Diktatur wurde er verboten und offiziell in «Winterfeste» umbenannt, aber die Tinerfeños feierten ihn weiterhin im Geheimen mit demselben Geist. Ab 1977, mit der Rückkehr der Demokratie, gewann der Karneval von Santa Cruz seinen Namen zurück und entwickelte sich zu dem gigantischen Ereignis, das er heute ist.\n\n### Hauptveranstaltungen\n\n**👑 Wahl der Karnevalskönigin**\nDie spektakulärste und medienwirksamste Veranstaltung des Karnevals. Die Kandidatinnen präsentieren Fantasiekostüme von unmöglichen Ausmaßen — Strukturen von mehreren Metern Höhe und Dutzenden von Kilogramm Gewicht — die wahre Werke der Textiltechnik sind. Die Karnevalskönigin von Santa Cruz ist eine Figur von weltweiter Bekanntheit.\n\n**🎭 Der Eröffnungsumzug (Cabalgata Anunciadora)**\nDer Umzug, der den Karneval offiziell eröffnet. Comparsas, Murgas, Rondallas und Festwagen füllen die Straßen von Santa Cruz in einem stundenlangen Farb- und Musikspektakel.\n\n**🎺 Murgas und Comparsas**\n**Murgas** sind Gruppen mit satirischer Musik, die monatelang Lieder mit politischer und sozialer Kritik vorbereiten, mit geistreichen Texten und eingängigen Rhythmen. **Comparsas** sind Tanzgruppen mit synchronisierten Choreografien und thematischen Kostümen. Beide treten beim **Wettbewerb der Murgas und Comparsas** vor Tausenden von Zuschauern an.\n\n**🎶 El Coso (Abschlussparade)**\nDie große Abschlussparade des Karnevals — der bevölkerungsreichste Umzug des Jahres, der durch das Zentrum von Santa Cruz mit Comparsas, Murgas, Festwagen und Zehntausenden kostümierten Feiernden verläuft. Der Tages-Coso ist familienfreundlich und farbenfroh; der **Nacht-Coso** ist die erwachsene, respektlose Version.\n\n**🐟 Das Begräbnis der Sardine**\nDie Abschlussveranstaltung des Karnevals, die am Aschermittwoch stattfindet. Eine riesige Sardine — Symbol für das Ende der Feier — wird in einer Parodieprozession unter vorgetäuschtem Weinen und humorvollen Reden getragen und schließlich «begraben» oder verbrannt. Ein Abschiedsritual mit jahrhundertelanger Tradition in ganz Spanien, das auf Teneriffa einzigartige Ausmaße annimmt.\n\n### Karnevalsnächte\nDie **Abendgalas** auf der Plaza de España und im Zentrum von Santa Cruz ziehen Zehntausende kostümierte Feiernde an. Lateinmusik-Konzerte, internationale Künstler und die verwandelte Atmosphäre der Stadt machen den Teneriffa-Karneval zu einem Erlebnis, das jede Erwartung übertrifft. Die Party endet nicht bis zur Morgendämmerung.\n\n### Wichtige Fakten\n- 🌍 **Zweitgrößter Karneval der Welt** nach Rio de Janeiro\n- 🎪 Zum **Festival von internationalem touristischen Interesse** erklärt\n- 📅 Termine: **Februar** (variiert jährlich mit dem liturgischen Kalender)\n- 👥 Besucherzahl: über **250.000 Personen** bei den Hauptveranstaltungen\n- 📜 Dokumentierte Geschichte seit dem **16. Jahrhundert**\n- 🚫 Von Franco verboten, im Geheimen gefeiert — Symbol des kulturellen Widerstands\n\n### Als Tourist erleben\n- 🎫 Für die **Königinnenwahl** Eintrittskarten Monate im Voraus kaufen\n- 🏨 Unterkunft in Santa Cruz **3–6 Monate** im Voraus buchen — die Insel füllt sich komplett\n- 🚋 Die Straßenbahn verlängert ihre Betriebszeiten während des Karnevals\n- 👗 Kostüm nicht zwingend, aber sehr empfehlenswert — niemand schaut komisch, wenn man verkleidet ist\n- 📍 Plaza de España, La Rambla und Parque García Sanabria sind die Hauptzentren\n\n### Empfehlung\nWenn Sie nur ein Ereignis auf Teneriffa erleben können, wählen Sie den Karneval. Die Kombination aus Ausmaß, grenzenloser Kreativität, Straßenmusik und der Energie einer völlig verwandelten Stadt ist unübertroffen. In Kostüm kommen, akzeptieren dass man wenig schlafen wird, und sich auf eines der außergewöhnlichsten menschlichen Spektakel Europas vorbereiten.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4641,
+        "lng": -16.2519
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/carnaval_de_santa_cruz_de_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "karneval",
+        "santa-cruz",
+        "festival",
+        "kostüm",
+        "murga",
+        "comparsa"
+      ],
+      "visitDuration": "variable",
+      "difficulty": "easy",
+      "emoji": "🎭",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": ""
     }
   ],
   "sections": [

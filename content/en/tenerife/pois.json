@@ -34,38 +34,6 @@
       "municipio": "la-orotava"
     },
     {
-      "slug": "santa-cruz",
-      "name": "Santa Cruz de Tenerife",
-      "description": "Capital of Tenerife and home to Spain's most famous Carnival, declared an International Tourist Interest event. Major commercial port, García Sanabria Park and the modern architecture of Calatrava's Auditorium.",
-      "shortDescription": "Capital of Tenerife, home to Spain's most famous Carnival",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4636,
-        "lng": -16.2518
-      },
-      "images": {
-        "hero": "/images/tenerife/santa-cruz/hero.avif",
-        "gallery": [
-          "/images/tenerife/santa-cruz/1.avif"
-        ]
-      },
-      "audioPreview": "/audio/previews/en/santa-cruz-preview.mp3",
-      "hasPremiumAudio": true,
-      "premiumRouteId": "volcano-route",
-      "tags": [
-        "city",
-        "carnival",
-        "culture",
-        "port",
-        "auditorium"
-      ],
-      "visitDuration": "half day",
-      "emoji": "🏙️",
-      "municipio": "santa-cruz",
-      "top": true
-    },
-    {
       "slug": "los-gigantes",
       "name": "Los Gigantes",
       "description": "Cliffs up to 600 metres tall dropping vertically into the Atlantic. Boat trips to spot dolphins and pilot whales in their natural habitat. The most dramatic village on the west coast of Tenerife.",
@@ -292,8 +260,8 @@
     {
       "slug": "alquiler-coche-tenerife",
       "name": "Car rental in Tenerife",
-      "shortDescription": "Essential for exploring the island: how, where and how much to rent a car",
-      "description": "Tenerife is a large and varied island, and **renting a car is the freest and most efficient way to explore it**. From Reina Sofía Airport (south) or Los Rodeos Airport (north), you have immediate access to all major rental companies. Prices are among the most competitive in Europe thanks to strong competition and the Canary Islands' special tax regime.\n\n### The visit\nWith a car, in a single day you can combine Teide in the morning, the Los Gigantes cliffs at midday and a sunset at El Médano. Without a car, that same route would take two or three days by public transport. The TF-1 motorway links the south with the north in under 45 minutes, and the TF-5 connects Santa Cruz to Puerto de la Cruz in 30 minutes. Mountain roads (Masca, Anaga) require care but are perfectly manageable in a standard car.\n\n### Before you go\n- 🛬 Always book from home via DiscoverCars or similar — up to 40% cheaper than airport desk prices\n- 📋 You need a driving licence, credit card and to be over 21 (some operators require 25)\n- ⛽ Petrol stations are plentiful in the south — in the north and mountains, fill up before heading up\n- 🔑 Automatic cars sell out fast in peak season: book in advance\n- 🅿️ Parking in Santa Cruz and Puerto de la Cruz can be tricky — use paid car parks\n\n### Recommendation\nBook online at least 48h before arrival, choose full cover with no excess, and plan routes anticlockwise to make the most of daylight.",
+      "shortDescription": "Tenerife is large and varied — without a car you miss half of it. Book online with DiscoverCars and pay up to 40% less than at the airport counter.",
+      "description": "Tenerife is an island that really comes alive with a car. The TF-1 motorway gets you from south to north in under 45 minutes, but the real reward is on the back roads: the ravines of Anaga, the bends above Masca, the silence of Teide at sunrise. By public transport that would take days; by car, it's a morning.\n\nDriving on the island is straightforward — signs are clear, roads are in good condition and traffic is manageable outside Santa Cruz rush hour. Mountain roads require care and patience, but are perfectly accessible in a standard car.\n\n**Booking online is always cheaper.** With **DiscoverCars** you compare every company available at both airports in one place and find the best prices — up to 40% less than at the counter. Automatic cars and SUVs go fast in high season, so book ahead. Choose full coverage with no excess: the peace of mind is worth it.\n\n**What changes when you have a car on Tenerife:** you can combine Teide in the morning, Los Gigantes at midday and a south-coast sunset the same day. You reach beaches that never appear on bus routes. You get to Anaga when the forest is empty. You stop when something catches your eye, and stay where it's worth staying.",
       "island": "tenerife",
       "category": "transport",
       "coordinates": {
@@ -301,7 +269,7 @@
         "lng": -16.5725
       },
       "images": {
-        "hero": "/images/tenerife/transport/alquiler-coche/hero.avif",
+        "hero": "/images/tenerife/transport/alquiler-coche-tenerife.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -330,7 +298,7 @@
         "lng": -16.2518
       },
       "images": {
-        "hero": "/images/tenerife/transport/titsa/hero.avif",
+        "hero": "/images/tenerife/transport/guagua_tenerife.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -345,176 +313,6 @@
       "emoji": "🚌",
       "municipio": "santa-cruz",
       "websiteUrl": "https://www.titsa.com"
-    },
-    {
-      "slug": "la-laguna-casco",
-      "name": "La Laguna — Historic Quarter",
-      "shortDescription": "UNESCO World Heritage city with the most beautiful colonial architecture in the Canary Islands",
-      "description": "San Cristóbal de La Laguna was the first unwalled city in Spanish history — a 15th-century urban experiment that directly influenced the design of cities such as Lima, Havana and San Juan de Puerto Rico. UNESCO recognised it as a World Heritage Site in 1999. Its historic quarter, with black lava streets and colourful colonial façades, is the most beautiful in the Canary Islands.\n\n### The visit\nThe main axis is **Calle Obispo Rey Redondo**, flanked by noble mansions, baroque churches and the Convent of Santa Clara. **La Laguna Cathedral**, built in the 20th century in an austere neo-Gothic style, houses the Cristo de La Laguna, Tenerife's most venerated image. **Plaza del Adelantado**, the heart of the city, is home to the municipal market, the Town Hall and some of the island's best cafés. The city is also home to the oldest university in the Canary Islands, giving it a permanently young and bohemian atmosphere.\n\n### Before you go\n- 🚋 The tram connects La Laguna to Santa Cruz in 30 minutes — the most comfortable way to get there\n- 🕐 Allow at least 3 hours for the historic quarter; there is a great deal to see and explore\n- ☕ The side streets off Calle Herradores and around it are where the best local cafés and restaurants are\n- 📸 Morning light on the colonial façades is the best for photography\n- 🎭 During Holy Week, La Laguna hosts one of the most impressive processions in Spain\n\n### Recommendation\nCombine La Laguna with the Anaga Rural Park: leave the city heading northeast and within 20 minutes you will be in a cinematic laurel forest.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4853,
-        "lng": -16.3139
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/la-laguna/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/la-laguna/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "world-heritage",
-        "colonial",
-        "history",
-        "cathedral",
-        "unesco",
-        "historic-quarter"
-      ],
-      "visitDuration": "3-4h",
-      "difficulty": "easy",
-      "emoji": "🏛️",
-      "top": true,
-      "municipio": "la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/XbEpHvWXaBTMZ2FA9"
-    },
-    {
-      "slug": "puerto-de-la-cruz",
-      "name": "Puerto de la Cruz",
-      "shortDescription": "The north's tourist capital: gardens, natural pools and Tenerife's original resort town",
-      "description": "Puerto de la Cruz was Tenerife's first modern tourist destination, chosen in the 20th century by European — and especially British — aristocracy seeking an escape from cold winters. Today it retains that cosmopolitan charm of a town that has been welcoming the world for decades without losing its Canarian identity.\n\n### The visit\nThe heart of the town is **Plaza del Charco**, surrounded by century-old dragon trees and palms, with terraces that invite you to linger. The **Lago Martiánez pools**, designed by local artist César Manrique, are a marvel of organic Canarian architecture: saltwater pools of different sizes integrated into the black volcanic landscape, with the Atlantic as a backdrop. The **Botanical Garden** — one of Spain's oldest — houses tropical species brought from around the world. And just 10 minutes away is **Loro Parque**, the world's most award-winning zoo.\n\n### Before you go\n- 🌊 Lago Martiánez has an entrance fee (~€8) but is worth every cent — arrive in the morning\n- 🚌 Bus 343 from Santa Cruz (45 min) and Bus 101/102 from Los Gigantes\n- 🛍️ The Tuesday and Saturday market is the best for local produce\n- 🌴 The Botanical Garden is 10 minutes' walk from the centre — impossible to miss\n- 🍷 Calle Blanco and its surroundings have the best bars and restaurants\n\n### Recommendation\nArrive in the morning, spend the first hours at the Martiánez pools, have lunch in the centre and head to Loro Parque in the afternoon: Puerto de la Cruz is a place to be enjoyed without rushing.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4147,
-        "lng": -16.549
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/puerto-de-la-cruz/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "north",
-        "pools",
-        "manrique",
-        "garden",
-        "tourism",
-        "cosmopolitan"
-      ],
-      "visitDuration": "Full day",
-      "difficulty": "easy",
-      "emoji": "🌴",
-      "top": true,
-      "municipio": "puerto-de-la-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/3CKJvX1H3aMJqnUT8"
-    },
-    {
-      "slug": "loro-parque",
-      "name": "Loro Parque",
-      "shortDescription": "The world's most awarded zoo: orcas, whales, penguins and the largest parrot collection",
-      "description": "Founded in 1972 as a parrot park, Loro Parque has evolved into one of the most highly rated zoological parks on the planet, repeatedly awarded best zoo in the world by TripAdvisor. Its state-of-the-art facilities, species conservation programmes and orca and dolphin shows make it Tenerife's biggest family attraction.\n\n### The visit\nThe park houses more than 30 primate species, the only **orcas in Europe** outside SeaWorld, one of the largest captive **Antarctic penguin** colonies in the world, sharks, crocodiles and the world's largest parrot collection with more than 3,000 specimens of 350 species. Orca, dolphin and sea lion shows take place several times a day. PlanetPenguin, the penguin habitat, simulates Antarctica with real snow.\n\n### Before you go\n- 🎟️ Buy tickets online — up to 15% cheaper and no queues\n- 🕘 Arrive at opening (10am) to catch the first shows without crowds\n- 🐋 The orca show has limited capacity — arrive 20 minutes early to get a seat\n- 🚌 Bus 343/107 from Puerto de la Cruz towards Loro Parque (dedicated stop)\n- ☀️ The park requires a full day to see everything — bring sunscreen and water\n\n### Recommendation\nArrive at 10am, attend the orca show first (10:30am), then explore PlanetPenguin and the aquariums, and end the day with the dolphins: Loro Parque is designed for a full day without getting bored.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4067,
-        "lng": -16.5713
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/loro-parque/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/loro-parque/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "zoo",
-        "orcas",
-        "penguins",
-        "family",
-        "north",
-        "awards"
-      ],
-      "visitDuration": "Full day",
-      "difficulty": "easy",
-      "emoji": "🦜",
-      "top": true,
-      "municipio": "puerto-de-la-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/P9xV1y7f4m1Xqn1H8",
-      "websiteUrl": "https://www.loroparque.com"
-    },
-    {
-      "slug": "piramides-de-guimar",
-      "name": "Pyramids of Güímar",
-      "shortDescription": "Mysterious stepped structures that Thor Heyerdahl linked to ancient Egypt",
-      "description": "In the coastal town of Güímar, on the southeast coast of Tenerife, stand six **stepped pyramids of black volcanic stone** whose origin remains debated. Norwegian explorer Thor Heyerdahl — famous for the Kon-Tiki expedition — studied them in the 1990s and proposed that they were not simply agricultural stone piles but intentional constructions with astronomical alignment, possibly linked to pre-Columbian trade routes.\n\n### The visit\nThe ethnographic park created by Heyerdahl includes the pyramids, a museum with reproductions of reed boats and navigation objects, and gardens of endemic plants. The pyramids' alignment with the summer solstice is the strongest argument for intentional construction. The background landscape, with Teide dominating the horizon, adds an almost mystical dimension to the site.\n\n### Before you go\n- 🎟️ Entrance ~€12; guided tours available in several languages\n- 🕐 Allow 2–3 hours — the museum is as interesting as the pyramids themselves\n- 🚗 Difficult by public transport — best by car, 40 minutes from Santa Cruz on the TF-1\n- 📸 The best photograph is from the elevated area of the park with Teide in the background\n- 🌵 The park's botanical garden includes endemic Canarian species\n\n### Recommendation\nIdeal combined with a stop in the village of Güímar and the southeast viewpoints — a much less visited area with spectacular sea views.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.3108,
-        "lng": -16.3939
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/piramides-guimar/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "history",
-        "pyramids",
-        "archaeology",
-        "mystery",
-        "heyerdahl",
-        "southeast"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "easy",
-      "emoji": "🔺",
-      "municipio": "guimar",
-      "mapsUrl": "https://maps.app.goo.gl/9y3M4K9A8RQLsDWQ7",
-      "websiteUrl": "https://www.piramidesdeguimar.es"
-    },
-    {
-      "slug": "parque-garcia-sanabria",
-      "name": "García Sanabria Park",
-      "shortDescription": "Santa Cruz's largest garden: urban art, fountains and century-old dragon trees",
-      "description": "García Sanabria Park is the largest municipal garden in the Canary Islands and one of the archipelago's most beautiful green spaces. Opened in 1926, it covers six hectares in the centre of Santa Cruz and combines tropical gardens with a permanent collection of **contemporary outdoor sculpture**, the result of the 1973 International Sculpture Symposium.\n\n### The visit\nRoyal palms, century-old ficus trees, monumental fountains and pieces by international sculptors coexist in a space that is simultaneously an urban park and an open-air museum. The **ancient dragon trees** — the symbolic tree of the Canary Islands — are the most impressive in Santa Cruz. The park is two minutes' walk from the Calatrava Auditorium and the Natural History and Archaeology Museum, making it the cultural hub of the city centre.\n\n### Before you go\n- 🆓 Free admission — open every day\n- 🌿 Best visited in the morning, when light filters through the trees and the heat is still gentle\n- 🖼️ The sculpture map is available at the entrance — there are more than 40 pieces throughout the park\n- 📍 5 minutes' walk from the Calatrava Auditorium, the Nuestra Señora de África Market and Las Teresitas beach (by bus)\n- 🍦 The ice cream stalls and terrace cafés on the adjacent avenue are a classic Santa Cruz afternoon\n\n### Recommendation\nStart the day in the park, continue to the Auditorium and end with a walk through the Africa market: the perfect route to discover the cultural heart of Santa Cruz.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4636,
-        "lng": -16.2518
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/garcia-sanabria/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/garcia-sanabria/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "park",
-        "sculpture",
-        "garden",
-        "santa-cruz",
-        "dragon-trees",
-        "urban-art"
-      ],
-      "visitDuration": "1-2h",
-      "difficulty": "easy",
-      "emoji": "🌳",
-      "municipio": "santa-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/Ku3hJVBJzxCuNbUM6"
     },
     {
       "slug": "masca",
@@ -730,39 +528,6 @@
         "tips": "Descent only. Advance booking mandatory at caminobarrancodemasca.com (Wed–Sat). Return by boat or kayak from the cove to Los Gigantes. Shuttle from Santiago del Teide cemetery car park."
       },
       "mapsUrl": "https://maps.app.goo.gl/5UgBvXUA7rkAusds7"
-    },
-    {
-      "slug": "gastronomia-tenerife",
-      "name": "Canarian Cuisine in Tenerife",
-      "shortDescription": "Papas arrugadas, mojo, gofio and the Atlantic's finest wines: the island's food guide",
-      "description": "Canarian cooking in Tenerife is one of Spain's most original cuisines: a blend of Atlantic, American, African and Mediterranean influences with indigenous ingredients you will not find anywhere else. Away from the tourist strip, the island's gastronomy is a world of authentic flavours.\n\n### The visit\n**Papas arrugadas with mojo** are the most recognisable dish: small potatoes boiled in heavily salted water until a salt crust forms on the skin, served with green mojo (coriander and garlic) or red mojo (paprika and vinegar). **Gofio** — flour made from toasted grains, a legacy of the Guanche people — appears in soups, desserts and as a side dish. **Rancho canario**, **caldo de papas** and **potaje de berros** are the most traditional hearty stews. Wines from the Valle de La Orotava and the Tacoronte-Acentejo D.O. are among the finest Atlantic wines in the world.\n\n### Before you go\n- 🍽️ Best traditional food: Nuestra Señora de África market (Santa Cruz), Taganana (Anaga), San Andrés and northern villages like La Orotava\n- 🌶️ Red mojo and green mojo are different enough that ordering both is compulsory\n- 🍷 Look for wines with D.O. Tacoronte-Acentejo or Valle de La Orotava — listán negro and listán blanco are unique to Tenerife\n- 🐟 Fresh fish (parrotfish, grouper, sea bream) grilled with mojo is the finest coastal meal\n- 🍮 Bienmesabe and frangollo are the traditional desserts not to be missed\n\n### Recommendation\nAvoid the resort seafront restaurants and seek out the guachinches of the north: small family bars serving house wine and local tapas. This is the most authentic gastronomic experience on Tenerife.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4636,
-        "lng": -16.2518
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/gastronomia/hero.avif",
-        "gallery": [
-          "/images/tenerife/cultura/gastronomia/1.avif"
-        ]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "gastronomy",
-        "papas-arrugadas",
-        "mojo",
-        "gofio",
-        "wine",
-        "guachinche"
-      ],
-      "visitDuration": "Variable",
-      "difficulty": "easy",
-      "emoji": "🍽️",
-      "municipio": "santa-cruz",
-      "sectionOnly": true
     },
     {
       "slug": "playa-de-radazul",
@@ -2651,6 +2416,756 @@
       "name": "Montaña Blanca → Pico del Teide (3.715 m)",
       "shortDescription": "The highest point in Spain, the most photographed volcano in the Atlantic and the most iconic route in the Canary Islands: 17 km round trip from Montaña Blanca to the Teide crater, with 1,344 metres of elevation and the whole world at your feet at 3,715 metres",
       "description": "There is only one rooftop in Spain, and it stands on Tenerife. **Pico del Teide**, at **3,715 metres**, is the highest summit in all of Spanish territory, the tallest volcano in the Atlantic and one of the largest volcanoes on Earth measured from its ocean base. Climbing it on foot from **Montaña Blanca** is, without question, the most iconic route in the Canary Islands — and an experience those who do it rarely forget.\n\nIt is also one of the most demanding: **17.44 km, 1,344 metres of elevation and a maximum altitude above 3,700 metres**. The altitude does not forgive a fast pace or lack of preparation. But for those who arrive ready, the landscape is absolutely out of this world — literally, because at that height the sky begins to darken even in daytime.\n\n### Two ways to reach the crater\n\n**Option 1 — Full walking route (Montaña Blanca, the classic)**\nThe route that really counts. Starts at the **Montaña Blanca car park (2,398 m)** and climbs entirely on foot to Pico del Teide. The purest — and hardest — way to reach the summit.\n\n**Option 2 — Cable car + Telesforo Bravo Trail**\nThe cable car (teleférico) rises from the **Lower Station (2,356 m)** to **La Rambleta (3,555 m)** in about 8 minutes. From there, with a permit, 40–60 more minutes of walking to the crater. Much easier, but you only do the final stretch.\n\nBoth options share one essential requirement: **to reach the geodesic vertex and the crater you need the Telesforo Bravo Trail permit** (Trail nº10). It is free, but strictly limited to 200 people per day — it must be booked in advance on the Parque Nacional del Teide portal (miterd.es).\n\n### The full route from Montaña Blanca\n\n**Section 1: Montaña Blanca → Huevos del Teide (approx. 1h30)**\nThe path begins through pumice and lapilli formations — the pale, porous volcanic soil that gives the area its name. From the very first steps, Teide already looms enormous on the horizon, and grows with every metre of ascent. About 45 minutes in, one of the route's most striking geological features appears: the **Huevos del Teide** (Teide's Eggs) — large balls of solidified lava that rolled from the crater during ancient eruptions and came to rest here, perfectly spherical, as if placed deliberately on the slope. They are one of the great photographic landmarks of the National Park.\n\n**Section 2: Huevos del Teide → Altavista Refuge (approx. 1h)**\nThe path steepens and the landscape grows more arid and lunar. You enter true **high-altitude volcanic terrain**, with views over the Sea of Clouds and the neighbouring islands on clear days. The **Altavista Refuge (3,260 m)** is the traditional rest stop — currently closed as accommodation, but a useful altitude marker and shelter in case of sudden weather changes.\n\n**Section 3: Altavista → La Rambleta (approx. 45 min)**\nThe hardest stretch. The gradient intensifies, oxygen thins and the body begins to register the effects of altitude: headache, nausea or dizziness may appear. The key is to **go very slowly**, breathe deeply and not push the pace. Reaching **La Rambleta (3,555 m)** — where the cable car arrives — marks the start of the final push.\n\n**Section 4: La Rambleta → Pico del Teide / Telesforo Bravo Trail (45–60 min)**\nThe **Telesforo Bravo Trail** (Trail nº10) is the last stretch to the crater and the geodesic vertex, where permits are checked. The path skirts the main volcanic vent, with sulphur fumaroles visibly steaming, the ground yellow and orange from mineral deposits, and the void of the crater opening up before you. From **Pico del Teide (3,715 m)**, on clear days all eight islands of the archipelago are visible, along with the coast of North Africa and the Spanish mainland.\n\n### What makes this route special\n- 🏔️ **Highest point in Spain (3,715 m)** — and the tallest volcano in the Atlantic\n- 🥚 **Huevos del Teide** — one of the most singular geological features in the National Park\n- 🌊 **Sea of Clouds** — a carpet of clouds below your feet at 2,000 m is a spectacle\n- 🌋 **Active fumaroles** — Teide is still an active volcano with sulphur, gases and hot ground\n- 🌅 **Summit views** — on clear days all 8 Canary Islands, the Sahara and the Iberian Peninsula\n- 🌌 **Dark sky** — at 3,700 m the sky begins to darken even in daylight; Teide is one of the world's top astronomy spots\n- 🏅 **UNESCO World Heritage Site** — Teide National Park, inscribed in 2007\n\n### Before you go — full checklist\n- 📋 **Book your permit in advance** at miterd.es (free, limited to 200 people/day for the crater section)\n- 🎟️ **If taking the cable car**, buy tickets in advance too — queues in high season are long\n- 🚗 Free car park at Montaña Blanca on the TF-21\n- 🌡️ Summit temperature can be **20–25°C lower than the coast** — expect cold, wind and snow in winter\n- 🧴 **SPF 50+ sun protection** — UV radiation at 3,700 m is extreme even in winter\n- 💧 Carry at least **3 litres of water** per person — no water sources along the route\n- 🥾 **Mountain boots** with solid grip — pumice terrain is slippery\n- 🧥 Layered clothing: technical base layer, mid-layer insulation and waterproof shell\n- 🌄 **Set off before 6:00 am** — arrive at the summit early, descend before the afternoon heat and avoid cloud build-up\n- 🩺 Not recommended for people with heart conditions, hypertension or respiratory illness without prior medical advice\n- 🤢 Carry **ibuprofen** for altitude headache; if severe altitude sickness symptoms appear, descend immediately\n\n### ⚠️ Safety alerts — high-altitude mountain\n- 📈 **Acute mountain sickness**: can appear between 2,500 and 3,715 m. Symptoms: severe headache, nausea, dizziness, extreme fatigue. If severe symptoms develop, **descend immediately**\n- 🌡️ **Sudden temperature change**: conditions can switch from sunshine to wind, fog or snow in minutes\n- ❄️ **Ice and snow**: between November and April the path can be icy — check trail conditions before setting out\n- ☀️ **Extreme UV radiation**: without adequate sun protection at this altitude, serious sunburn is a real risk even on cloudy days\n- 🌬️ **Strong summit winds**: gusts of 60–80 km/h are common and may prevent access to the vertex\n- 📵 **Limited mobile signal** above the Altavista Refuge — download the route offline\n- 🚫 **No permit, no crater access** — checks are strict and there are no exceptions\n- **Emergencies: 112**\n\n### Recommendation\nThe full walking route from Montaña Blanca is one of those experiences that define a trip. But if time, fitness or logistics do not allow it, the **cable car + Telesforo Bravo Trail** combination is still a breathtaking experience — especially if you secure the permit and reach 3,715 m. Either way, book the permit before anything else: without it, the summit is closed."
+    },
+    {
+      "slug": "tranvia-tenerife",
+      "island": "tenerife",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.4699,
+        "lng": -16.2515
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/tranvia_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [
+        {
+          "provider": "MetroTenerife",
+          "label": "Timetables and fares — metrotenerife.com",
+          "url": "https://www.metrotenerife.com",
+          "type": "info"
+        }
+      ],
+      "visitDuration": null,
+      "difficulty": null,
+      "emoji": "🚊",
+      "top": false,
+      "sectionOnly": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "tags": [
+        "tranvia",
+        "tren",
+        "transporte",
+        "santa-cruz",
+        "la-laguna",
+        "metro",
+        "urbano"
+      ],
+      "name": "Tenerife Tram",
+      "shortDescription": "The tram connects Santa Cruz de Tenerife with San Cristóbal de La Laguna in 34 minutes, with 21 stops and departures every 7–8 minutes — the most comfortable way to travel between the island's two main cities.",
+      "description": "The **Tenerife Tram** (MetroTenerife) links the **Santa Cruz Interchange** with **La Trinidad** in San Cristóbal de La Laguna, covering 12.5 km and 21 stops. The full journey takes around **34 minutes**, with departures every 7–8 minutes at peak times and every 12–15 minutes at weekends.\n\nThe most useful stops for visitors are **Intercambiador / Weyler** (Santa Cruz city centre and TITSA connection), **La Laguna / Catedral** (UNESCO World Heritage historic quarter) and **Cruz del Señor** (La Laguna shopping district).\n\nA single ticket costs **€1.35**. With the rechargeable BONO card the price drops to as little as **€0.60 per trip** — the card is valid on TITSA buses too, making it well worth it for multi-day visitors.\n\nArriving at **Tenerife North Airport (TFN)**? Take bus 014 or 102 to the Interchange, then hop on the tram — the fastest and cheapest way into the city centre with no traffic jams.",
+      "websiteUrl": "https://www.metrotenerife.com"
+    },
+    {
+      "slug": "ferries-tenerife",
+      "island": "tenerife",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.4752,
+        "lng": -16.2466
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/ferrie.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": null,
+      "difficulty": null,
+      "emoji": "⛴️",
+      "top": false,
+      "sectionOnly": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "tags": [
+        "ferry",
+        "barco",
+        "naviera",
+        "interislas",
+        "fred-olsen",
+        "armas",
+        "transporte",
+        "santa-cruz",
+        "los-cristianos"
+      ],
+      "name": "Ferries from Tenerife",
+      "shortDescription": "Regular ferries from Tenerife to Gran Canaria, Fuerteventura, La Gomera and La Palma. Santa Cruz port for the eastern islands; Los Cristianos for La Gomera (45 min) and El Hierro.",
+      "description": "From Tenerife there are regular ferry connections to the nearest islands in the archipelago. The two main ports are **Santa Cruz de Tenerife** and **Los Cristianos**, in the south.\n\n**Gran Canaria (Las Palmas de GC)** — The most frequent crossing: 1h30–2h30 from Santa Cruz. Multiple sailings daily in both directions.\n\n**Fuerteventura** — Connection from Santa Cruz in around 3–4h. Ideal for combining both islands in one trip.\n\n**La Gomera (San Sebastián)** — The most popular route in the archipelago: **45 minutes** from Los Cristianos, with several daily departures. Perfect for a day trip from the south of Tenerife.\n\n**La Palma (Santa Cruz de La Palma)** — 2h30–5h from Santa Cruz depending on the service. Direct connection to the greenest island in the Canaries.\n\nBook in advance during high season (July–August) and long weekends — especially the La Gomera route, which fills up fast. Travelling with a vehicle, car spaces are limited.",
+      "websiteUrl": "https://www.directferries.co.uk/tenerife_ferry.htm"
+    },
+    {
+      "slug": "la-laguna-unesco",
+      "name": "San Cristóbal de La Laguna",
+      "shortDescription": "The world's first planned unwalled city, UNESCO World Heritage Site since 1999",
+      "description": "San Cristóbal de La Laguna, declared a **UNESCO World Heritage Site in 1999**, is the greatest historical treasure in the Canary Islands. Founded in 1496 by Alonso Fernández de Lugo, it was the **world's first planned city built without walls** — an orthogonal urban layout that directly inspired the colonial planning of Latin American cities.\n\n### The Historic Quarter\nA labyrinth of cobbled streets from the 16th century, perfectly preserved to this day. Noble palaces, baroque churches, convents and manor houses from the 16th to 18th centuries line every corner. The **Cathedral of La Laguna**, the **Convent of Santa Catalina de Siena** and the **House of the Captains General** are the landmark buildings not to miss.\n\n### University Life & Culture\nThe **University of La Laguna**, founded in 1701 and the oldest in the Canaries, fills the city with student energy. Its cafés, second-hand bookshops and tapas bars around the Plaza del Adelantado create a unique atmosphere blending centuries of history with everyday modern life.\n\n### Holy Week\nLa Laguna's **Semana Santa** is the most important in the Canary Islands. Candlelit night processions of great solemnity wind through the historic quarter and have been recognised as a Festival of National Tourist Interest.\n\n### Key Facts\n- 📅 Founded: **1496** — older than most Latin American capitals\n- 🏛️ UNESCO: **1999** — recognised as a global urban planning model\n- 🎓 University founded **1701**, oldest academic institution in the archipelago\n- ⛪ Over **60 listed historic buildings** in the old town\n\n### Getting There\nJust 9 km from Santa Cruz, perfectly connected by the **Metropolitan Tram (L1)** from Santa Cruz and the airport interchange. Parking in the centre is very limited — the tram is strongly recommended.\n\n### Recommendation\nStart with breakfast at the **Municipal Market**. Then follow Calle Obispo Rey Redondo towards the Cathedral and spend at least 3 hours exploring the old town. In the afternoon, the tapas bars around Plaza del Adelantado are ideal for local wine and pintxos.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4874,
+        "lng": -16.3159
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/san_cristobal_de_la_laguna_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "heritage",
+        "unesco",
+        "history",
+        "old-town",
+        "university",
+        "architecture"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/7YiXs9q88A5aMk3S8"
+    },
+    {
+      "slug": "auditorio-tenerife",
+      "name": "Tenerife Auditorium",
+      "shortDescription": "An icon of contemporary world architecture designed by Santiago Calatrava, home of the Tenerife Symphony Orchestra",
+      "description": "The **Tenerife Auditorium Adán Martín** is one of the most iconic buildings of the 21st century and a global landmark of contemporary architecture. Designed by architect **Santiago Calatrava** and inaugurated in 2003, its unmistakable silhouette dominates the Santa Cruz seafront.\n\n### Architecture Like No Other\nThe building is defined by its **58-metre cantilevered white concrete canopy**, evoking a wave breaking over the Atlantic. With over 23,000 m² of floor space and a main hall with **1,616 seats**, it is the permanent home of the **Tenerife Symphony Orchestra** and hosts hundreds of concerts, operas, festivals and international events each year.\n\n### The Shot You're Looking For\nNamed one of the most photographed buildings in Spain, the Auditorium is spectacular at any hour. **At night, lit up above the Atlantic**, the image is unforgettable. The view from the seafront promenade at sunset, with Teide in the background, is one of the most singular sights in the Canaries.\n\n### Programme\nThe season runs from **October to June**, with classical, opera, jazz and international pop. Tenerife Symphony Orchestra cycles sell out regularly — check the official programme well in advance.\n\n### Key Facts\n- 🏗️ Architect: **Santiago Calatrava Valls**, Valencia 1951\n- 📅 Inaugurated: **2003**\n- 💺 Main hall capacity: **1,616 seats**\n- 📐 Canopy cantilever: **58 metres**\n- 🌐 One of the 10 most photographed buildings in Spain\n\n### Getting There\nIn the heart of Santa Cruz, next to the seafront promenade. Tram L1 (stop **Weyler**, 10 min walk) or stop **Intercambiador** (5 min). Parking at the Auditorium itself or at Parque Marítimo, 200 m away.\n\n### Recommendation\nEven without going inside, the exterior justifies the walk. Combine it with the adjacent **César Manrique Maritime Park** and the Santa Cruz promenade. For the full experience, book tickets for the Tenerife Symphony Orchestra — a concert night in this setting is unforgettable.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4634,
+        "lng": -16.253
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/auditorio_de_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "architecture",
+        "calatrava",
+        "music",
+        "santa-cruz",
+        "icon",
+        "photography"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🎼",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/eVNPv4xTT8aN5rjz9"
+    },
+    {
+      "slug": "muna-tenerife",
+      "name": "MUNA — Museum of Nature and Archaeology",
+      "shortDescription": "The world's largest Guanche collection: mummies, ceramics and the pre-Hispanic history of Tenerife",
+      "description": "The **Museum of Nature and Archaeology (MUNA)** in Santa Cruz de Tenerife is the most important museum for understanding the pre-Hispanic history of the Canary Islands. It houses the **world's most complete Guanche archaeological collection**, including mummies, ceramics, tools and skeletal remains of the islands' first inhabitants.\n\n### The Guanche People\nThe **Guanches** were a Berber-origin people who colonised Tenerife over 2,000 years ago from North Africa. MUNA holds more than **40,000 archaeological pieces** and a unique collection of **Guanche mummies** prepared with mummification techniques remarkably similar to those of ancient Egypt — a mystery that still fascinates researchers today. Their practice of mummification sets them apart from all other pre-Hispanic peoples in the archipelago.\n\n### The Collection\n- 🦴 **Guanche mummies** — some over 1,500 years old\n- 🏺 Ceramics, obsidian tools and ritual objects\n- 🐚 Prehistoric marine fauna and island fossils\n- 🌿 Natural history: endemic flora, fauna and volcanic geology of the Canaries\n\n### The Building\nHoused in the former **Hospital de los Dolores**, an 18th-century colonial building in the heart of Santa Cruz, the architectural container itself is an attraction in its own right.\n\n### Practical Information\n- 🕙 Hours: Tue–Sat **10:00–20:00** · Sun & public holidays **10:00–14:00** · Closed Monday\n- 💶 Entry: **€5** general · **€3** reduced · Free under 12\n- 🎧 Audio guide available in Spanish and English\n\n### Getting There\nIn central Santa Cruz, a 10-minute walk from tram stops **Weyler** or **Plaza de España**.\n\n### Recommendation\nEssential if you want to understand who the Guanches really were before the Spanish conquest. Allow at least **2 hours**. Perfect combined with the Santa Cruz historic quarter or a visit to La Laguna (just 9 km away). If you have a deep interest in archaeology, ask about special visits to collections not on permanent display.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4698,
+        "lng": -16.2519
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_de_naturaleza_y_arqueologia_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museum",
+        "guanche",
+        "archaeology",
+        "history",
+        "santa-cruz",
+        "mummies"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🏺",
+      "top": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/2rFBSFjmPGCUzdSdA"
+    },
+    {
+      "slug": "basilica-candelaria",
+      "name": "Basilica of Our Lady of Candelaria",
+      "shortDescription": "The most important religious centre in the Canary Islands — Patron Saint of the archipelago",
+      "description": "The **Basilica of Our Lady of Candelaria** is the most important Catholic shrine in the Canary Islands and one of the most visited in Spain. It houses the **Patron Saint of the Canaries**, whose legend dates back to the Guanches themselves — the pre-Hispanic people who inhabited Tenerife before the Spanish conquest.\n\n### The Legend of the Virgin\nAccording to tradition, the image of the Virgin was found by two Guanche shepherds on the beach of Chimisay in the early 15th century, **decades before the arrival of the Spanish**. Unable to move the figure, the Guanches venerated it as sacred and installed it in a cave. This unique story makes Our Lady of Candelaria a symbol of the encounter between Guanche and Spanish cultures.\n\n### The Shrine\nThe current basilica, in **neoclassical style**, was built between 1943 and 1958 on the site of a 16th-century Dominican convent. Inside, the **Dark Virgin** — a 15th-century wooden carving that partially survived a flash flood in 1826 — is kept in a place of honour. Her black cloak with golden stars and the candle she holds give her the name Candelaria.\n\n### The Guanche Menceyes\nOn the **Plaza de la Patrona de Canarias**, facing the sea, nine bronze statues represent the **menceyes** — the nine Guanche kings who ruled Tenerife before the conquest. They are among the most photographed monuments in Tenerife and a permanent tribute to the people who first venerated the Virgin.\n\n### The August 15th Pilgrimage\nOn **14 and 15 August**, the great romería (pilgrimage) takes place, drawing thousands of pilgrims from across the Canaries, Latin America and the global Canarian community. It is the largest religious gathering in the archipelago.\n\n### Key Facts\n- 🕍 Style: **neoclassical**, built 1943–1958\n- 👑 Title: **Patron Saint of the Canaries** and one of Spain's patronesses\n- 📅 Legend: Guanche apparition, **15th century** (before the conquest)\n- 🗿 9 bronze statues of the **Menceyes** on the seafront promenade\n- ✈️ Just 20 km from the South Airport and 15 km from Santa Cruz\n\n### Getting There\nFrom Santa Cruz: **TITSA Line 120 or 121** (30 min). By car: Candelaria exit on the TF-1 (Southern motorway). Free parking next to the basilica.\n\n### Recommendation\nVisit the basilica interior (free entry) and take time in the crypt and the Menceyes chapel. Then walk the **Candelaria seafront promenade** with the nine bronze statues and finish with a coffee in the square. Pairs well with a stop in the old town of Güímar (10 km).",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3513,
+        "lng": -16.3726
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/basilica_de_nuestra_senora_de_candelaria.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "religion",
+        "patron-saint",
+        "candelaria",
+        "guanche",
+        "menceyes",
+        "pilgrimage"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "top": true,
+      "municipio": "candelaria",
+      "mapsUrl": "https://maps.app.goo.gl/2A9SJozDM9gfd68a8"
+    },
+    {
+      "slug": "casa-balcones-orotava",
+      "name": "Casa de los Balcones",
+      "shortDescription": "The jewel of Canarian colonial architecture — hand-carved 17th-century tea wood balconies and a living crafts museum",
+      "description": "The **Casa de los Balcones** in La Orotava is the most celebrated example of traditional Canarian architecture and one of the most photographed historic buildings in Tenerife. Built in **1632** during La Orotava's colonial heyday, its sweeping galleries of hand-carved **tea wood** (Canarian pine heartwood) are the iconic image of the islands' noble residential architecture.\n\n### The Tea Wood Balconies\nTea wood — the resin-rich heartwood of the Canarian pine — was the premium material in historic Canarian construction. Its **natural resistance to humidity and insects** makes it virtually indestructible. The house's balconies, with their carved lattices and ornamental details, have stood for over 390 years and retain their original colour and texture.\n\n### The Crafts Museum\nInside, the house is a **living crafts museum**: working looms, live demonstrations of drawn-thread embroidery and lacework, a collection of regional costumes, and a display of 17th and 18th-century household tools. Visitors can watch artisans at work on Tenerife drawn-thread work, one of the most refined textile traditions in the archipelago.\n\n### The Shop\nThe ground floor houses one of the most complete craft shops in Tenerife: drawn-thread table linen, hand embroidery, clay figures, traditional pottery, local products and replicas of Canarian historic architecture — all locally made and certified.\n\n### The Inner Courtyard\nThe **central-well courtyard** ringed by two-storey galleries is another of the most beautiful architectural features of the complex. The contrast between the dark volcanic stone floor and the light tea wood of the galleries is a hallmark of La Orotava's stately homes.\n\n### Key Facts\n- 📅 Built: **1632** — over 390 years of history\n- 🪵 Material: **tea wood** (Canarian pine), hand-carved\n- 🧵 Crafts: lacework, embroidery and working looms on site\n- 🏛️ Listed as a **Bien de Interés Cultural** (Cultural Heritage Asset)\n\n### Getting There\nIn La Orotava's historic quarter, Calle San Francisco. 5-minute walk from the Town Hall car park. Bus from Puerto de la Cruz (Line 350).\n\n### Recommendation\nEssential stop on any walk through La Orotava's old town. Combine with the **Church of La Concepción** (200 m away) and the **Marquesado de la Quinta Roja Gardens**. If you can, visit in June during **Corpus Christi** — La Orotava's streets are covered with extraordinary flower and volcanic sand carpets.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3895,
+        "lng": -16.5226
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/casa_de_los_balcones_la_orotava.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "architecture",
+        "crafts",
+        "colonial",
+        "la-orotava",
+        "balconies",
+        "tea-wood"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏠",
+      "top": false,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/eHK3EkdvMF8cLtKSA"
+    },
+    {
+      "slug": "la-orotava",
+      "name": "La Orotava",
+      "shortDescription": "One of the best-preserved colonial old towns in the Canaries, famous for its Corpus Christi flower carpets",
+      "description": "**La Orotava** is the jewel of Canarian colonial architecture. Perched on the slopes of the Orotava Valley, with **Mount Teide** as a permanent backdrop, its historic quarter concentrates the largest number of 17th and 18th-century manor houses in the entire archipelago, all impeccably preserved.\n\n### The Historic Quarter\nIts sloping cobbled streets are lined with **manor houses with carved tea-wood balconies**, baroque churches, convents and stately homes that have maintained their colonial character intact. The **Church of Our Lady of the Conception**, with its twin towers and azulejo-tiled domes, is the city's undisputed symbol and one of the finest baroque churches in the Canaries.\n\n### The Corpus Christi Carpets\nEvery June, La Orotava lives its most spectacular moment: **Corpus Christi**. The streets of the old town and the Town Hall square are covered with elaborate **carpets of flowers, coloured volcanic sand and salt** in honour of the Blessed Sacrament. The main tapestry in front of the Town Hall, recreating artworks or religious motifs, can measure up to 800 m² and takes weeks of preparation. Declared a **Festival of International Tourist Interest**.\n\n### Gardens & Viewpoints\nThe **Marquesado de la Quinta Roja Gardens** — with their neoclassical mausoleum set among tropical vegetation — and the **Humberto Fuentes viewpoint** offer views over the Orotava Valley, the Atlantic and Teide in a panorama unmatched on the island.\n\n### Orotava Valley\nThe municipality controls one of the most fertile valleys in the Canaries. This is where the northern Tenerife wine tradition was born, along with the banana, potato and tomato crops that sustained the Canarian economy for centuries. Local farmers' markets and agricultural heritage are part of the experience.\n\n### Key Facts\n- 🏛️ Historic quarter: **17th–18th century**, protected Cultural Heritage\n- 🌸 Corpus Christi: **June** — carpets declared Festival of International Tourist Interest\n- ⛪ Church of La Concepción: Canarian baroque, twin towers and tiled domes\n- 🌋 **Teide views** from multiple points in the old town\n\n### Getting There\nFrom Puerto de la Cruz: **Line 350** (15 min). From Santa Cruz or the South: TF-5 (Northern motorway), La Orotava exit. Parking at the Town Hall area.\n\n### Recommendation\nDedicate a full morning to the old town: **Casa de los Balcones**, Church of La Concepción, Quinta Roja Gardens and the viewpoint. If visiting in June, book accommodation weeks in advance — Corpus Christi is one of Tenerife's most in-demand events. For lunch: the restaurants around Plaza de la Constitución serve authentic Canarian cuisine with valley views.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.389,
+        "lng": -16.5229
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/la_orotava_casco_historico.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "historic-quarter",
+        "corpus-christi",
+        "carpets",
+        "colonial",
+        "baroque",
+        "teide"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🌸",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/Y7L9sSjCe1KUJdRv7"
+    },
+    {
+      "slug": "garachico",
+      "name": "Garachico",
+      "shortDescription": "The most beautiful village in northern Tenerife — rebuilt on 1706 lava flows with free natural pools and an intact colonial quarter",
+      "description": "**Garachico** is, for many, the most beautiful village in Tenerife. Its tragic history and resilience make it unique: it was the **most important port in the Canaries** during the 16th and 17th centuries, until 5 May **1706**, when the eruption of Montaña Negra volcano buried the harbour, warehouses and part of the urban fabric under lava. What survived was rebuilt, and where the lava met the sea, it left behind the now famous **El Caletón natural rock pools**.\n\n### El Caletón\nThe solidified lava that destroyed the old port created in its place a unique system of **natural pools in volcanic rock** washed by the Atlantic. El Caletón is today the symbol of Garachico: crystal-clear waters of varying depths, free access, and one of the most reproduced images of northern Tenerife. Particularly stunning at sunset.\n\n### The Historic Quarter\nWhat the volcano did not destroy preserves intact 17th-century colonial architecture. The **Church of Santa Ana**, the **Convent of San Francisco** (now the Casa de la Cultura), the 16th-century **Castle of San Miguel** — the only historic building to survive the lava — and the cobbled streets lined with manor houses form a historic ensemble of great beauty.\n\n### The Lost Port\nBefore 1706, Garachico was the main export point for Tenerife wine, sugar and cochineal to Europe and the Americas. The eruption changed everything: the port was destroyed, trade shifted to Santa Cruz, and the north's commercial decline began. Garachico never recovered its mercantile importance, but it kept its soul.\n\n### Key Facts\n- 🌋 Eruption: **5 May 1706**, Montaña Negra volcano\n- 🏛️ Most important port in the Canaries: **16th–17th century**\n- 🏊 El Caletón: **free natural pools** in volcanic rock\n- 🏰 Castle of San Miguel: the only historic building that survived the lava\n- 📍 Just **3 km from Icod de los Vinos**\n\n### Getting There\nFrom the north: TF-42 or TF-82 from Icod. From the south: TF-1 + TF-82 via Buenavista. Bus from Puerto de la Cruz: **Line 363**. Free parking on the seafront promenade.\n\n### Recommendation\nArrive early to enjoy El Caletón before the crowds. Swim in the pools, then head up to the historic quarter for coffee and pastries near the Castle. Don't miss the interior of the Convent of San Francisco or the sea views from the Castle of San Miguel.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3724,
+        "lng": -16.7641
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/garachico_casco_historico.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "village",
+        "volcano",
+        "natural-pools",
+        "colonial",
+        "north",
+        "history"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": true,
+      "municipio": "garachico",
+      "mapsUrl": "https://maps.app.goo.gl/NxMHTbAUdKit3cmPA"
+    },
+    {
+      "slug": "piramides-guimar",
+      "name": "Pyramids of Güímar",
+      "shortDescription": "Tenerife's most famous archaeological site — six stepped pyramids with precise astronomical alignments",
+      "description": "The **Pyramids of Güímar** are the most intriguing and most visited archaeological site in Tenerife. Six rectangular stepped structures of **dry volcanic stone**, spread across a complex of over 35,000 m² in the municipality of Güímar, on the island's southeastern coast.\n\n### The Enigma\nFor decades the pyramids were overlooked or dismissed as piles of agricultural clearance stones. Everything changed in 1991 when Norwegian explorer and ethnographer **Thor Heyerdahl** — famous for the Kon-Tiki expedition — visited the site and was fascinated by what he found. Heyerdahl drove the scientific study of the complex and the creation of the **Ethnographic Park**, arguing that the structures showed too much precision to be mere field debris.\n\n### The Astronomical Alignments\nWhat sets the Güímar pyramids apart from any random stone pile is the **precision of their orientation**: the main staircases of several structures point exactly towards the **summer solstice sunrise** (21 June) and the **winter solstice sunrise** (21 December). This astronomical intentionality is the hardest fact to explain as agricultural coincidence.\n\n### The Theories\n- 🗿 **Guanche origin**: pre-European ceremonial or astronomical structures\n- 🌾 **19th-century farmer origin**: stone clearance piles with accidental shape\n- 🌊 **Heyerdahl's transoceanic theory**: cultural bridge between Mediterranean, Berber and American civilisations\n- 🔬 **Current academic consensus**: uncertain origin, but intentional orientation confirmed\n\n### The Ethnographic Park\nToday the complex includes: visits to the pyramids, an **ethnographic museum**, a Canarian botanic garden, a replica of Heyerdahl's *Kon-Tiki* raft, a tortoise colony and full documentation on the Kon-Tiki expedition and transoceanic route theory.\n\n### Practical Information\n- 🕙 Hours: daily **9:30–18:00**\n- 💶 Entry: **€12** adult · **€6** child (4–12) · Free under 4\n- ⏱️ Recommended duration: **2–3 hours**\n- 📍 25 km from Santa Cruz via TF-1 South\n\n### Getting There\nFrom Santa Cruz: **TITSA Line 120** towards Güímar. By car: TF-1 South, Güímar exit, follow signs to the Ethnographic Park.\n\n### Recommendation\nVisit in the morning to avoid the southeastern heat. Combine with the **Basilica of Candelaria** (15 km north) for a full day along Tenerife's southeastern coast. If pre-Hispanic archaeology interests you, also visit the MUNA in Santa Cruz to compare with Guanche remains.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.311,
+        "lng": -16.4121
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/piramides_de_guimar.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "archaeology",
+        "pyramids",
+        "guimar",
+        "mystery",
+        "heyerdahl",
+        "astronomy"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🔺",
+      "top": false,
+      "municipio": "guimar",
+      "mapsUrl": "https://maps.app.goo.gl/i4p83WUoFjF2SexdA"
+    },
+    {
+      "slug": "drago-milenario",
+      "name": "Millenary Dragon Tree of Icod",
+      "shortDescription": "The oldest and most emblematic tree in the Canaries — Tenerife's cultural symbol with over 800 years of history",
+      "description": "The **Millenary Dragon Tree of Icod de los Vinos** is the most emblematic living being in the Canary Islands and Tenerife's cultural symbol. Estimated at over **800 years old** — some estimates place it between 800 and 1,000 years — it is the largest and oldest known specimen of *Dracaena draco* in the world.\n\n### The Canarian Dragon Tree\n*Dracaena draco*, the Canarian dragon tree, is a species endemic to the Canaries and Macaronesia with an unmistakable appearance: thick trunk with greyish bark, an upside-down umbrella-shaped canopy, and pointed leaves that remain year-round. What makes it truly extraordinary is its **red sap**, known as 'dragon's blood', which oxidises on contact with air. This resin has been used since antiquity in medicine, dyeing and varnishes.\n\n### The Icod Specimen\n- 📏 **17 metres tall** with a canopy over 20 metres in diameter\n- 🌿 Estimated age: **800 to 1,000 years**\n- ⚖️ Estimated weight: over **100 tonnes**\n- 🏛️ Declared a **National Monument** in 1917\n- 🗿 The Guanches regarded it as a **sacred and protective** tree\n\n### Dragon's Blood\nThe red sap of the dragon tree was one of the most valuable products of Canarian trade since antiquity. The Romans already imported it as pigment and medicine. The Guanches used it to embalm their dead, heal wounds and as a dye. In the Middle Ages and Renaissance it was one of Europe's most prized commodities — used as a violin varnish and pharmaceutical ingredient.\n\n### Parque El Drago\nThe tree is visited from **Parque El Drago**, a botanical garden surrounding the specimen with other endemic Canarian species: tajinaste, bejeque, cardón cactus and laurel forest plants. An elevated walkway allows visitors to view the dragon tree's canopy at eye level.\n\n### Practical Information\n- 🕙 Hours: daily **9:00–18:00**\n- 💶 Entry: **€4** adult · **€2** child · Free under 6\n- 📍 In the centre of **Icod de los Vinos**, 3 km from Garachico\n\n### Getting There\nFrom Puerto de la Cruz: **TITSA Line 363** (45 min). By car: TF-5 North, Icod exit, village car park (5 min walk).\n\n### Recommendation\nPair the Dragon Tree with the historic quarter of Icod — the northern wine cellars are excellent — and a walk through **Garachico** (3 km). On the same street as the Dragon Tree, craft and wine shops sell local D.O. Ycoden-Daute-Isora wines, ideal as a souvenir.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3791,
+        "lng": -16.7228
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/drago_milenario_icod_de_los_vinos.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "dragon-tree",
+        "tree",
+        "icod",
+        "symbol",
+        "guanche",
+        "nature"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🌳",
+      "top": true,
+      "municipio": "icod-de-los-vinos",
+      "mapsUrl": "https://maps.app.goo.gl/JHfhDiSoBNfWmHVi8"
+    },
+    {
+      "slug": "catedral-la-laguna",
+      "name": "Cathedral of La Laguna",
+      "shortDescription": "The most important church in the Canaries — three centuries of history in the heart of La Laguna's UNESCO old town",
+      "description": "The **Cathedral of Our Lady of Los Remedios** in San Cristóbal de La Laguna is the seat of the Diocese of Tenerife and the most important church in the Canary Islands. Embedded in the **UNESCO World Heritage historic quarter**, its history stretches back to the very earliest years of the Spanish colonisation of the island.\n\n### History and Architecture\nThe cathedral's origins date to **1515**, when the first parish church was built on this site, barely two decades after La Laguna's foundation. Over the following centuries the building was extended and remodelled repeatedly, until the current neoclassical façade — designed by **Diego Nicolás Eduardo** in 1819 — gave it its definitive external image. The interior combines **Gothic, Renaissance and Baroque** elements accumulated across four centuries of history.\n\n### The Interior\nThree naves separated by octagonal-section pillars, artistically significant altarpieces, 17th-century polychrome sculptures and an exceptional collection of religious silverware. Highlights include:\n- ⚰️ The **tomb of Alonso Fernández de Lugo**, conquistador and founder of La Laguna\n- 🖼️ The neoclassical high altarpiece with carvings from the 16th–18th centuries\n- 🎨 Flemish and Spanish school paintings from the 16th and 17th centuries\n- 🔔 The historic pipe organ, restored and in use\n\n### The Façade\nThe neoclassical grey granite façade, with its Corinthian columns and large central rose window, is one of the visual landmarks of La Laguna's historic quarter. Photographed thousands of times, it best captures the architectural solemnity of the UNESCO city.\n\n### Key Facts\n- 📅 Origin: **1515** — early years of Spanish colonisation\n- 🏛️ Seat of the **Diocese of Tenerife**\n- 🎨 Neoclassical façade: designed by **Diego Nicolás Eduardo**, 1819\n- 🌍 Part of La Laguna's **UNESCO World Heritage** site (1999)\n\n### Getting There\nIn the heart of La Laguna's historic quarter, Plaza de la Catedral. Tram L1 (stop **La Laguna**) + 5-minute walk. Free entry during worship hours and visiting times.\n\n### Recommendation\nVisit the interior in the morning (9:00–13:00), when the light enters through the side windows and illuminates the altarpieces. Then circle the façade and walk to the Plaza del Adelantado (200 m) to take in the urban ensemble surrounding the cathedral. The perfect starting point for a full walk through the UNESCO historic quarter.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4862,
+        "lng": -16.3169
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/catedral_de_la_laguna.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "cathedral",
+        "la-laguna",
+        "religion",
+        "unesco",
+        "neoclassical",
+        "art"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "top": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/6Nu9wdDhS8Ugaf836"
+    },
+    {
+      "slug": "iglesia-concepcion-santa-cruz",
+      "name": "Church of La Concepción, Santa Cruz",
+      "shortDescription": "One of the oldest churches in the Canaries (1502) — witness to island history from the conquest to Nelson's failed attack",
+      "description": "The **Church of Our Lady of the Conception** in Santa Cruz de Tenerife is one of the most historically significant buildings in the Canary Islands. Founded just **seven years after the conquest of Tenerife**, in **1502**, it is a direct witness to over five centuries of the island's history.\n\n### The Building\nBuilt in **Gothic-Mudéjar style**, the church has a five-nave plan separated by semicircular arches on volcanic stone columns. Its most remarkable feature is the **Mudéjar coffered ceiling** — a polychrome wooden structure combining Islamic craftsmanship with Christian architecture, and one of the best preserved of its kind in the Canaries. The five-storey tower, visible from much of central Santa Cruz, is another of its icons.\n\n### Nelson's Flags\nThe interior houses one of the most singular historical treasures in the Canaries: the **battle standards captured from Admiral Horatio Nelson** during the **Battle of Santa Cruz de Tenerife** (25 July 1797). In that engagement, Nelson attempted to take the port of Santa Cruz by force and was repelled — losing his right arm in the attack. The captured flags have been held in the church for over two centuries as a symbol of Tenerife's resistance.\n\n### Art and History\n- 🎨 Polychrome Mudéjar coffered ceiling — 16th century\n- 🚩 Battle standards captured from Nelson in 1797\n- 🖼️ Baroque altarpieces and polychrome sculptures from the 17th–18th centuries\n- 🏛️ Declared a **Bien de Interés Cultural** (Cultural Heritage Asset)\n- 📅 Founded: **1502** — 7 years after the conquest of Tenerife\n\n### Getting There\nIn Santa Cruz's historic centre, Plaza de la Iglesia. 5-minute walk from Plaza de España and the tram (stop **Weyler**). Free entry.\n\n### Recommendation\nVisit in the morning to see light through the stained glass. Don't miss the coffered ceiling — you'll need to look up. Nelson's flags are permanently displayed with explanatory panels in Spanish and English. Combine with the Nuestra Señora de África Market (10 min walk), the most beautiful market in Santa Cruz.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4693,
+        "lng": -16.2524
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/iglesia-concepcion-santa-cruz.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "church",
+        "santa-cruz",
+        "history",
+        "nelson",
+        "mudejar",
+        "conquest"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "top": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/pzs72GHKjtsDWfMe6"
+    },
+    {
+      "slug": "casa-lercaro",
+      "name": "Museum of History and Anthropology — Casa Lercaro",
+      "shortDescription": "The finest 16th-century Genoese palace in the Canaries — a museum tracing Tenerife's history from the Guanches to the 20th century",
+      "description": "**Casa Lercaro** is one of the most important civil heritage buildings in the Canary Islands. Built in the 16th century by the Lercaro family, Genoese merchants enriched by the sugar and wine trade, it is the most complete example of **Renaissance palatial architecture** in La Laguna's historic quarter — a UNESCO World Heritage Site.\n\n### The Palace\nThe building is defined by its **two-storey arcaded inner courtyard**, with tea-wood galleries and volcanic stone columns following the model of Italian Renaissance palaces. Its proportions, quality of materials and preservation of original elements make Casa Lercaro a jewel of 16th-century Canarian civil architecture.\n\n### The Museum\nInside, the **Museum of History and Anthropology of Tenerife** traces the island's history chronologically from pre-Hispanic times to the 20th century:\n- 🗿 **Guanche period**: tools, ceramics and material culture of the aboriginal people\n- ⚔️ **The Conquest** (1494–1496): documentation and reconstruction of the colonisation process\n- 🏛️ **Colonial period**: sugar, wine and cochineal economy; links with the Americas\n- 📜 **19th–20th centuries**: Canarian Enlightenment, liberalism, emigration to America and modernisation\n- 🎨 **Period art and furniture**: original collection of pieces from the 16th to 19th centuries\n\n### Calle San Agustín\nCasa Lercaro stands on **Calle San Agustín**, one of La Laguna's most historically significant streets, flanked by palaces and manor houses from the 16th century. A walk along this street is itself a journey through Canarian colonial architecture.\n\n### Practical Information\n- 🕙 Hours: Tue–Sun **10:00–18:00** · Closed Monday\n- 💶 Entry: **€3** general · **€1.50** reduced · Free on Sundays\n- 📍 Calle San Agustín 22, La Laguna\n\n### Getting There\nIn La Laguna's historic quarter, 3 min walk from Plaza del Adelantado. Tram L1 (stop **La Laguna**) + 7 min walk.\n\n### Recommendation\nEssential for understanding the complete history of Tenerife from a different perspective than the MUNA. Allow **1.5–2 hours**. The inner courtyard alone is worth the visit. Perfect combined with the Cathedral and La Laguna's historic quarter in a single morning.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.487,
+        "lng": -16.3148
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_de_historia_y_antropologia_de_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museum",
+        "la-laguna",
+        "history",
+        "palace",
+        "genoese",
+        "unesco"
+      ],
+      "visitDuration": "1.5-2h",
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "top": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/wZhCtxBHciqMkvfj7"
+    },
+    {
+      "slug": "museo-del-vino-con-degustacion-de-vinos-locales-y-comida",
+      "name": "Tenerife Wine Museum — Tasting & Local Gastronomy",
+      "shortDescription": "Tenerife's finest wine experience — D.O. volcanic wine tasting and Canarian cuisine in a 17th-century farmhouse with Atlantic views",
+      "description": "The **Tenerife Wine Museum** (Casa del Vino), in **El Sauzal** in the north of the island, is the definitive destination for discovering Canarian wine culture. Housed in a restored 17th-century traditional farmhouse with views of the Atlantic and Teide, it offers a complete experience: museum, guided tasting of local wines and authentic Canarian gastronomy.\n\n### The Experience\nThe visit includes a tour of the museum, where you'll discover the history of wine in the Canaries — from the first vineyards planted after the Spanish conquest to the current designations of origin. The session ends with a **guided tasting of selected local wines** paired with typical island products.\n\n### Tenerife's Wines\nTenerife is the only Spanish province with **5 Designations of Origin on a single island**: Tacoronte-Acentejo, Valle de la Orotava, Ycoden-Daute-Isora, Abona and Valle de Güímar. Its volcanic vineyards contain **pre-phylloxera vines up to 500 years old** — among the oldest in the world — producing wines impossible to find anywhere else on the planet. **Listán negro** (red) and **listán blanco** (white) are the emblematic varieties of the archipelago.\n\n### What's Included\n- 🏛️ Guided museum tour\n- 🍷 Tasting of selected D.O. Tenerife wines\n- 🧀 Canarian pairing: local cheeses, cured meats, mojo and gofio\n- 🍽️ Option of full menu with traditional Canarian market cuisine\n\n### The Farmhouse\nThe restored 17th-century traditional farmhouse has a terrace with **views of the Atlantic, the north coast and Teide**. One of the most singular settings for a wine tasting anywhere in Spain — the same views enjoyed by Canarian winemakers four centuries ago.\n\n### Practical Information\n- 📍 El Sauzal, north Tenerife (TF-152)\n- 🕙 Tue–Sat **10:00–21:30** · Sun **11:00–18:00** · Closed Monday\n- 🎫 Online booking recommended — limited places on tastings\n- 🚗 El Sauzal exit from the TF-5 motorway\n\n### Recommendation\nPerfect for wine and food lovers. Pairs well with a visit to **La Laguna** (15 km) or **Puerto de la Cruz** (12 km). If you choose the full menu, the restaurant offers market-driven Canarian cuisine with local wine pairing — a complete gastronomic experience with Atlantic views hard to match anywhere on the island.",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.4744,
+        "lng": -16.4136
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/museo-vino-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "wine",
+        "gastronomy",
+        "tasting",
+        "museum",
+        "el-sauzal",
+        "designation-of-origin"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🍷",
+      "top": true,
+      "municipio": "el-sauzal",
+      "gygTourId": "415940",
+      "gygUrl": "https://gyg.me/srarOtSz"
+    },
+    {
+      "slug": "casa-del-vino-tenerife",
+      "name": "Casa del Vino de Tenerife",
+      "shortDescription": "The most important wine museum in the Canaries — 17th-century farmhouse in El Sauzal with all 5 Tenerife D.O.s, tastings and a restaurant with Atlantic views",
+      "description": "The **Casa del Vino de Tenerife** in **El Sauzal** is the reference destination for understanding and enjoying Canarian wine culture. Housed in a restored 17th-century traditional farmhouse with terraces overlooking the Atlantic and Teide, it combines a wine museum, tasting space, wine shop and gastronomic restaurant under one roof.\n\n### The Museum\nThe exhibition traces the history of wine in the Canaries from the first vineyards planted after the 15th-century Spanish conquest to the five current designations of origin. Panels, historic winery tools, vineyard maps by municipality and a collection of historic bottles make this one of the most complete wine museums in Spain.\n\n### Tenerife's Wines\nTenerife has **5 Designations of Origin on a single island** — the highest concentration of D.O.s per area in Spain:\n- 🍇 **Tacoronte-Acentejo** — the oldest and most recognised, full-bodied reds\n- 🍇 **Valle de la Orotava** — vineyards at the foot of Teide, fresh aromatic whites\n- 🍇 **Ycoden-Daute-Isora** — northwest coast, century-old vines on volcanic terraces\n- 🍇 **Abona** — south of the island, extreme altitude between 400 and 1,700 m\n- 🍇 **Valle de Güímar** — southeast, unique microclimate between Teide and the sea\n\nIts **pre-phylloxera vines up to 500 years old** — which survived the blight that devastated European vineyards in the 19th century — produce wines impossible to replicate anywhere else.\n\n### The Shop\nThe Casa del Vino shop offers the best selection of wines from all 5 D.O.s under one roof — ideal for taking home bottles you won't easily find outside Tenerife.\n\n### The Restaurant\nThe restaurant serves market-driven Canarian cuisine paired with local wines. The Atlantic-view terrace is one of the most beautiful dining settings in northern Tenerife.\n\n### Practical Information\n- 📍 Ctra. General del Norte 96, El Sauzal\n- 🕙 Tue–Sat **10:00–21:30** · Sun **11:00–18:00** · Closed Monday\n- 💶 Museum entry: free · Tastings: from **€6**\n- 🚗 El Sauzal exit from the TF-5 North motorway\n\n### Recommendation\nEssential for wine lovers. Arrive in the morning, do the museum, browse the shop, and stay for lunch on the terrace. Pairs well with **La Laguna** (15 km) or **Puerto de la Cruz** (12 km). For a guided experience with included tasting, you can book an organised activity.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4744,
+        "lng": -16.4136
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/casa-del-vino-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "wine",
+        "museum",
+        "designation-of-origin",
+        "el-sauzal",
+        "gastronomy",
+        "farmhouse"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🍷",
+      "top": true,
+      "municipio": "el-sauzal",
+      "mapsUrl": "https://maps.app.goo.gl/Qk42coyAhY58ycvt9"
+    },
+    {
+      "slug": "museo-ciencia-cosmos",
+      "name": "Museum of Science and the Cosmos",
+      "shortDescription": "The most complete science museum in the Canaries — planetarium, astronomy and interactive physics in La Laguna",
+      "description": "The **Museum of Science and the Cosmos** in La Laguna is the most important science and outreach space in the Canary Islands. Combining interactive exhibitions on physics, biology and astronomy with a **digital projection planetarium**, it is an essential visit for families with children and anyone curious about the universe.\n\n### The Building and Context\nLocated in La Laguna, a few minutes from the UNESCO historic quarter, the museum is part of the **Tenerife Island Council's Museum and Centres network**. Its exterior design, with the planetarium dome as the dominant feature, is already a visual landmark of the municipality.\n\n### The Exhibitions\nThe museum covers three main thematic areas:\n\n**🌌 Cosmos and Astronomy**\nTenerife is one of the world's finest locations for astronomical observation — the **Teide Observatory** (IAC) is the most important astronomical installation in the northern hemisphere. The museum explains why: sky conditions, geographical position and the history of astronomy in the Canaries from the Guanches to the present.\n\n**⚛️ Physics and Interactivity**\nHands-on installations covering mechanics, waves, electricity, optics and thermodynamics — designed to understand the physical world through direct experience. Suitable for all ages.\n\n**🧬 Life and Evolution**\nBiology, evolution, Canarian ecosystems and the biodiversity of the archipelago. The section on endemic Canarian flora and fauna connects directly with the unique natural heritage of the islands.\n\n### The Planetarium\nThe **planetarium session** is the highlight of the visit: a 360° digital projection on the dome recreating the Canarian night sky, with virtual journeys through the solar system and observable universe. Sessions in Spanish at fixed times — worth checking and booking ahead.\n\n### Practical Information\n- 📍 Avda. de Los Menceyes 70, La Laguna\n- 🕙 Tue–Sat **9:00–19:00** · Sun **10:00–17:00** · Closed Monday\n- 💶 Entry: **€5** adult · **€3** reduced · Free under 6\n- 🔭 Planetarium session: **€2** extra — book at the ticket desk\n- 🚌 Bus from Santa Cruz (Line 014) or 15-min walk from La Laguna old town\n\n### Recommendation\nIdeal for families with children and anyone with scientific curiosity. Allow **2–3 hours** and include a planetarium session. Combine with the La Laguna historic quarter (15 min walk) for a full day in the municipality. If you're interested in astronomy, also look into visits to the **Teide Observatory**.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4826,
+        "lng": -16.3198
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_de_la_ciencia_y_el_cosmos.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museum",
+        "science",
+        "planetarium",
+        "astronomy",
+        "la-laguna",
+        "families"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🔭",
+      "top": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/wBBqN6rMKdwEsVKf6"
+    },
+    {
+      "slug": "cristo-de-la-laguna",
+      "name": "Royal Sanctuary of the Most Holy Christ of La Laguna",
+      "shortDescription": "The most venerated place of worship in the Canaries — a 15th-century Christ image that draws tens of thousands of devotees every September",
+      "description": "The **Royal Sanctuary of the Most Holy Christ of La Laguna** is the most venerated place of worship in the Canary Islands and one of the most important centres of popular devotion in all of Spain. The image of the **Santísimo Cristo de La Laguna** — a 15th-century polychrome Flemish wooden carving — has been the focus of deep and widespread devotion among Canarians for more than five hundred years.\n\n### The Image\nThe carving, of unknown authorship and Flemish technique, arrived in La Laguna in the final years of the 15th century, shortly after the city's foundation. Its **expression of serene dignity in suffering** and the exceptional quality of the carving make it one of the most important religious images in Canarian art. It is dressed in a traditional **black velvet skirt** and kept in its own chapel chamber inside the sanctuary.\n\n### The September Romería\nEvery year in the second half of **September**, La Laguna experiences the most emotionally charged days of its festive calendar. The **Feast of the Most Holy Christ** — declared a Festival of National Tourist Interest — draws tens of thousands of devotees from across the Canaries, mainland Spain and the Canarian community in Latin America. The night-time processions through the UNESCO historic quarter, with the Christ on its float surrounded by flowers and candles, are one of the most striking expressions of popular Canarian devotion.\n\n### The Sanctuary\nThe current building, in baroque-colonial style, dates from the 17th century and was built by the Franciscans to house the venerated image. Inside:\n- ✝️ The original carving of the **Most Holy Christ** (15th century)\n- 🕯️ The **camarín** where the image is venerated, of great ornamental richness\n- 🖼️ Votive offerings deposited by the faithful over centuries\n- 🏛️ Baroque altarpieces and sculptures from the 17th–18th centuries\n\n### Historical Context\nDevotion to the Cristo de La Laguna transcends the purely religious: for centuries it has been the most powerful element of Canarian collective identity. Sailors, emigrants and Canarian soldiers invoked it in decisive moments, and the image has presided over the most important events in Tenerife's history.\n\n### Practical Information\n- 📍 Plaza de Santo Domingo, La Laguna\n- 🕙 Open daily — variable worship hours (check with the sanctuary)\n- 💶 Free entry\n- 🚋 Tram L1 (stop **La Laguna**) + 5-min walk\n\n### Recommendation\nEnter quietly and take a few minutes to look at the image — the quality of the carving is worth the visit regardless of personal faith. If you can visit in September, the Cristo processions are a unique experience. Perfect combined with the Cathedral (200 m) and a full walk through La Laguna's UNESCO historic quarter.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4868,
+        "lng": -16.3165
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/real_santuario_del_cristo_de_la_laguna.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "religion",
+        "la-laguna",
+        "devotion",
+        "pilgrimage",
+        "baroque",
+        "franciscan"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "✝️",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/jHKezrBQ5gFPiga1A"
+    },
+    {
+      "slug": "museo-militar-almeyda",
+      "name": "Regional Military Museum of the Canaries",
+      "shortDescription": "The most important military museum in the Canaries — home of the El Tigre cannon that cost Nelson his arm in 1797",
+      "description": "The **Regional Military Museum of the Canaries**, housed in the **Almeyda Barracks** in Santa Cruz de Tenerife, is the main living archive of the military history of the Canary Islands. Its collections span from the 15th-century Spanish conquest to the 20th century, but its star piece is undoubtedly the **El Tigre cannon**: the artillery piece that, according to tradition, fired the cannonball that wounded British Admiral **Horatio Nelson** during the **Battle of Santa Cruz in 1797**, costing him his right arm.\n\n### The El Tigre Cannon\nOn 25 July 1797, Nelson attacked the port of Santa Cruz commanding a fleet of 3,700 men, aiming to take the city and seize a galleon carrying the treasure of the Viceroy of Peru. He was repelled by the Canarian militias under the command of **General Gutiérrez**. During the failed landing, a cannonball wounded Nelson's right arm, which had to be amputated. The battle was one of the very few naval defeats in Nelson's career. The El Tigre cannon, which fired during the defence, is preserved in the museum as a symbol of Tenerife's resistance.\n\n### The Collections\n- 🏰 **Weapons and uniforms** from the 15th-century conquest to the 20th century\n- 🗺️ **Historic cartography** of the Canary Islands from the 16th century\n- ⚔️ **Recreation of the 1797 Battle of Santa Cruz** — maps, weapons, original documents\n- 🎖️ **Military decorations and medals** from the Canaries\n- 🚢 **Naval models** and material from the Atlantic wars era\n\n### The Almeyda Barracks\nThe building housing the museum is itself a heritage asset: the **Almeyda General Barracks**, a 19th-century military construction in the heart of Santa Cruz, with its interior parade ground and neoclassical military architecture.\n\n### Practical Information\n- 📍 Calle San Isidro, Santa Cruz de Tenerife\n- 🕙 Tue–Sat **10:00–14:00** · Closed Sundays and Mondays\n- 💶 Free entry\n- 🚋 Tram (stop **Weyler**) + 10-min walk\n\n### Recommendation\nIdeal combined with the **Church of La Concepción** (5 min walk), which holds the flags captured from Nelson in the same battle. Together they tell the complete story of the 1797 Battle of Santa Cruz — one of the most remarkable episodes in European military history.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.464,
+        "lng": -16.2506
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_historico_militar_de_canarias.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museum",
+        "military",
+        "nelson",
+        "santa-cruz",
+        "history",
+        "artillery"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "⚔️",
+      "top": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/A9syxRoypDs5WZnK7"
+    },
+    {
+      "slug": "mercado-africa-santa-cruz",
+      "name": "Nuestra Señora de África Market",
+      "shortDescription": "The most beautiful market in Tenerife — 'the belly of Santa Cruz', with tropical fruits, flowers, fresh fish and local crafts under unique colonial architecture",
+      "description": "The **Nuestra Señora de África Market** is the gastronomic and social heart of Santa Cruz de Tenerife. Inaugurated in **1943** and designed by architect **José Enrique Marrero Regalado**, its Arab-colonial architecture — with horseshoe arches, coloured mosaics and a central dome — makes it one of the most beautiful markets in Spain.\n\n### The Building\nThe market's design integrates elements of Canarian **Mudejarism** with North African and Atlantic colonial influences, creating a unique space that is simultaneously architectural heritage and a living, daily-use market. Its covered galleries, open central courtyard and ochre-and-white façade make it irresistible from the outside.\n\n### Inside the Market\nThe ground floor concentrates all the food offering:\n- 🐟 **Fish stalls** — tuna, vieja (parrotfish), sama, sea bream, wreckfish, octopus and the day's Atlantic catch\n- 🥩 **Butchers** — goat, rabbit and locally raised pork\n- 🥑 **Tropical fruit and vegetables** — Canarian bananas, avocado, papaya, mango, pineapple, cherry tomatoes from the south\n- 🧀 **Canarian cheeses** — fresh, cured and smoked from across the islands\n- 🫙 **Local products** — red mojo, green mojo, gofio, palm honey, honey rum\n\n### The Flea Market and Crafts\nOn the upper level, the Sunday **rastrillo** (flea market) turns the space into a venue for second-hand goods, local crafts and creative products. During the week, the upper floors hold flower stalls that make the market one of the most colourful in the archipelago.\n\n### The Market Bars\nThe best-kept secret of the Africa Market is its **interior bars and tabancos**, where locals have breakfast — coffee, toast with mojo and medialunas — from 7 in the morning. An authentic experience far from the tourist circuit.\n\n### Practical Information\n- 📍 Avda. de San Sebastián, Santa Cruz de Tenerife\n- 🕙 Mon–Sat **6:00–14:00** · Sun **6:00–13:00** (flea market)\n- 💶 Free entry\n- 🚋 Tram (stop **Weyler**) + 5-min walk\n\n### Recommendation\nArrive before 9:00 to see the market at its liveliest. Have breakfast at one of the interior bars, buy Canarian cheese and mojo to take home, and finish with a walk through the flower stalls. On Sunday, the flea market adds an extra layer of atmosphere and colour.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4664,
+        "lng": -16.2531
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/mercado_nuestra_senora_de_africa.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "market",
+        "gastronomy",
+        "santa-cruz",
+        "architecture",
+        "local-products",
+        "flowers"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🛒",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/n3YjaWSFsXbTxDCu7"
+    },
+    {
+      "slug": "gastronomia-canaria-tenerife",
+      "name": "Canarian Gastronomy",
+      "shortDescription": "A cuisine of unique identity — gofio, papas arrugadas, mojo, bienmesabe and honey rum: the flavours that define Tenerife",
+      "description": "Canarian cuisine is one of the most singular in Spain: a cooking tradition rooted in **Guanche** heritage with African, Latin American and mainland Spanish influences, which over five centuries has developed an unmistakable identity of its own. Tenerife is the finest showcase for this culinary tradition.\n\n### Essential Dishes\n\n**🥔 Papas arrugadas con mojo**\nThe most iconic dish in the Canaries. Small potatoes boiled in heavily salted water until the skin wrinkles and a white salt crust forms. Served with **red mojo** (pepper, garlic, cumin and vinegar) or **green mojo** (coriander or parsley). A humble dish of rural origin that now appears in the world's best restaurants.\n\n**🌾 Gofio**\nThe ancestral food of the Guanches: stone-roasted cereal flour (wheat, millet or maize). With 2,000 years of history, gofio is used in the Canaries as pasta, soup thickener, dessert (gofio escaldón) and bread substitute. Unique in the world — it exists in no other cuisine.\n\n**🍲 Puchero canario**\nThe island stew: chickpeas, seasonal vegetables (pumpkin, sweet potato, green beans, corn), pork, chicken and bacon. Served first as soup, then as a plate. Gofio is stirred into the broth to make escaldón.\n\n**🐇 Rabbit in salmorejo**\nCanarian salmorejo bears no relation to the Andalusian soup: it is a marinade of garlic, pepper, thyme, bay leaf, vinegar and white wine in which rabbit is soaked for hours before frying. One of the most representative dishes of traditional Tenerife cooking.\n\n**🐟 Grilled vieja**\nVieja (parrotfish) is the most distinctly Canarian fish. White-fleshed and delicately flavoured, it is served grilled with papas arrugadas, mojo and salad. A perfect combination found in every guachinche on the island.\n\n**🐐 Stewed goat**\nGoats have been the most important livestock in the islands since the Guanches. Goat stewed with potatoes and local spices is a Sunday dish that defines the inland cooking of Tenerife.\n\n### Desserts\n\n**🍯 Bienmesabe**\nGround almond cream with sugar, eggs, lemon and cinnamon. Dense in texture and intense in flavour, eaten alone, over vanilla ice cream or as a pastry filling. Its name says it all: «it tastes good to me».\n\n**🌽 Frangollo**\nCanarian pudding of millo (maize) flour cooked with milk, sugar, eggs, almonds, raisins and lemon. A festive dessert by tradition, less common today but being revived by contemporary Canarian restaurants.\n\n**🍠 Truchas de batata**\nFried pastry parcels filled with sweet potato, almond, pumpkin jam and cinnamon, dusted with icing sugar. The quintessential Christmas sweet of Tenerife, though found year-round in bakeries and pastry shops.\n\n**🥛 Quesillo**\nThe Canarian flan: a condensed-milk and egg pudding, denser and sweeter than the mainland version. A fixture on the menú del día of any neighbourhood restaurant.\n\n### Drinks\n\n**🍷 D.O. Wines of Tenerife**\nFive designations of origin on a single island. Try a red from Tacoronte-Acentejo with the rabbit, a white from Valle de la Orotava with the fish, or a vino de tea (aged in Canarian pine wood) if you find one.\n\n**☕ Barraquito**\nThe most Canarian coffee in the world: in a glass, layers of condensed milk, Licor 43, hot milk, espresso, milk foam and cinnamon with lemon zest are assembled before your eyes. A visual ritual as much as a flavour experience — the symbol of Santa Cruz café culture.\n\n**🥃 Ron Miel**\nSugar cane spirit blended with Canarian palm honey. At under 20% alcohol and with a sweet, spiced flavour, it is the most popular liqueur in the Canaries. Drunk neat, on ice or in cocktails.\n\n### Where to Eat Authentically in Tenerife\n- 🍽️ **Guachinche**: informal farmer's house restaurant, set menu with local wine. Found only in northern Tenerife, they are the most authentic gastronomic experience on the island\n- 🐟 **Beach chiringuito**: fresh catch of the day grilled with mojo and papas arrugadas\n- 🛒 **Africa Market** (Santa Cruz): to buy local products and have breakfast with locals\n- 🏡 **Canarian cuisine restaurant**: look for «cuchifrito» or «menú canario» in residential neighbourhoods\n\n### Recommendation\nDon't leave Tenerife without trying: papas arrugadas with spicy red mojo, a barraquito in Santa Cruz for breakfast, grilled vieja at a northern beach bar and bienmesabe for dessert. If time allows, book a table at a guachinche in the Orotava Valley or Tacoronte — the most authentic gastronomic experience in the Canaries.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4637,
+        "lng": -16.2524
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/papas_arrugadas_con_mojo.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "gastronomy",
+        "canarian-food",
+        "gofio",
+        "papas-arrugadas",
+        "mojo",
+        "guachinche"
+      ],
+      "visitDuration": "variable",
+      "difficulty": "easy",
+      "emoji": "🍽️",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/NotEoxDieRJcMhfx9"
+    },
+    {
+      "slug": "romerias-tenerife",
+      "name": "Romerías of Tenerife",
+      "shortDescription": "The most deeply rooted festive tradition in the Canaries — processions with ox carts, traditional costumes, folk music and local wine",
+      "description": "**Romerías** are the most genuine and colourful expression of Canarian cultural identity. Collectively declared a **Festival of National Tourist Interest**, they are festive processions of religious origin that celebrate each municipality's patron saint with a unique mix of popular faith, folklore, gastronomy and community spirit.\n\n### What is a Romería?\nThe word «romería» comes from «romero» — the pilgrim who walks to Rome. In the Canaries it refers to the popular procession that each town celebrates in honour of its patron saint: a procession of hundreds or thousands of participants in traditional Canarian dress, accompanied by flower-decorated ox carts bearing the best produce of the land, live folk music, and abundant local wine.\n\n### The Elements of a Romería\n\n**🐂 The Carretas (Ox Carts)**\nThe visual centrepiece of every romería. Wooden carts pulled by oxen, decorated with flowers, fruits, vegetables, embroidery and rural elements. Each carreta represents a team or association competing in beauty and originality. The scent of damp earth, flowers and wine as the carts pass by is unmistakable.\n\n**👗 The Traditional Canarian Costume**\nParticipants march in regional traditional dress: for women, brightly coloured underskirt (refajo), embroidered blouse, shawl and straw hat with flowers; for men, short wool breeches, white shirt, sash, waistcoat and hat. Each municipality has its own characteristic colours and embroidery patterns.\n\n**🎵 Folk Music**\nFolklore groups (cuadrillas) with timples (the small string instrument unique to the Canaries), guitars, lutes and castanets set the pace of the procession. Canarian rhythms — **folía, isa and tajaraste** — play at every romería. Improvised singing (trovos) is another tradition woven through the parades.\n\n**🍷 Wine and Food**\nNo romería goes without local wine, Canarian cheese, island cured meats and papas arrugadas with mojo. Romerías are also a gastronomic celebration: the participants share everything they carry on the carts with the public and with each other. Canarian hospitality at its fullest.\n\n### The Most Important Romerías in Tenerife\n\n- 🌿 **Romería de San Marcos** (Tegueste) — **April** · One of the oldest in the Canaries\n- 🌾 **Romería de San Isidro** (La Orotava) — **May/June** · The largest in the north, with Teide as backdrop\n- 🎉 **Romería de San Benito Abad** (La Laguna) — **July** · Through the UNESCO historic quarter\n- 🌊 **Romería de la Virgen del Carmen** (various municipalities) — **July** · Maritime procession in coastal villages\n- ⛪ **Romería de la Virgen de Candelaria** — **August** · The largest in the Canaries\n- ✝️ **Romería del Cristo de La Laguna** — **September** · The most devout and most attended in Tenerife\n\n### Romería vs. Carnival\nIf the **Santa Cruz Carnival** is the festival of irreverence, excess and urban creativity, the romería is its complementary opposite: the festival of the countryside, tradition, rural identity and roots. Two expressions of the same Canarian spirit, both equally passionate.\n\n### The Timple\nThe **timple** is to Canarian folklore what the flamenco guitar is to Andalusia: a small stringed instrument with a raised soundbox and crystal-clear tone, heard at every romería, parada and Canarian evening gathering. Hearing it live at a romería is to understand something essential about the culture of these islands.\n\n### Tourist Recommendation\nIf your visit coincides with any romería, do not miss it — it is one of the most visually and sensorially authentic spectacles Tenerife offers. Arrive early to watch the carts pass, accept the wine and cheese the participants offer you (it is part of the tradition), and stay for the evening verbena that follows the parade. The official calendar of romerías and festivals is published by the Cabildo de Tenerife each year.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.389,
+        "lng": -16.5229
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/romeria_de_los_labradores.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "romeria",
+        "folklore",
+        "tradition",
+        "ox-carts",
+        "timple",
+        "festival"
+      ],
+      "visitDuration": "variable",
+      "difficulty": "easy",
+      "emoji": "🎉",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": ""
+    },
+    {
+      "slug": "carnaval-santa-cruz-tenerife",
+      "name": "Santa Cruz de Tenerife Carnival",
+      "shortDescription": "The world's second largest carnival — declared a Festival of International Tourist Interest, with over 250,000 people on the streets of Santa Cruz every February",
+      "description": "The **Santa Cruz de Tenerife Carnival** is the island's greatest spectacle and one of the most important cultural events in the world. Declared a **Festival of International Tourist Interest** and considered the **world's second largest carnival** after Rio de Janeiro, it transforms Santa Cruz for two weeks each February into the global epicentre of fantasy, colour and music.\n\n### History\nThe first references to carnival in Tenerife date from the **16th century**, when the island already held masquerades and costume parties in the Mediterranean tradition. During Franco's dictatorship it was banned and officially renamed «Winter Festivals», but Tinerfeños continued to celebrate it clandestinely with the same spirit. From 1977, with the return of democracy, the Santa Cruz Carnival reclaimed its name and evolved into the colossal event it is today.\n\n### Main Events\n\n**👑 Carnival Queen Election**\nThe most spectacular and high-profile event of the Carnival. Candidates parade in fantasy costumes of impossible dimensions — structures several metres tall and weighing tens of kilos — which are genuine works of textile engineering. The Santa Cruz Carnival Queen is a figure of worldwide recognition.\n\n**🎭 The Opening Parade (Cabalgata Anunciadora)**\nThe parade that officially opens the Carnival. Comparsas, murgas, rondallas and floats fill the streets of Santa Cruz in a spectacle of colour and music lasting for hours.\n\n**🎺 Murgas and Comparsas**\n**Murgas** are satirical music groups that spend months preparing songs of political and social criticism, with witty lyrics and catchy rhythms. **Comparsas** are dance groups with synchronised choreography and themed costumes. Both compete in the **Murgas and Comparsas Contest** before thousands of spectators.\n\n**🎶 El Coso (Final Parade)**\nThe grand closing parade of the Carnival — the year's most packed procession, moving through central Santa Cruz with comparsas, murgas, floats and tens of thousands of costumed revellers. The daytime Coso is family-friendly and colourful; the **Night Coso** is the adult, irreverent version.\n\n**🐟 The Burial of the Sardine**\nThe closing ceremony of the Carnival, held on Ash Wednesday. A giant sardine — symbolising the end of the party — is carried in a mock procession amid feigned weeping and humorous speeches, and finally «buried» or burned. A farewell ritual with centuries of tradition across Spain, but in Tenerife it reaches unique proportions.\n\n### Carnival Nights\nThe **evening galas** on Plaza de España and in central Santa Cruz draw tens of thousands of costumed revellers. Latin music concerts, international artists and the transformed atmosphere of the city make the Tenerife Carnival an experience that exceeds any expectation. The party does not end until dawn.\n\n### Key Facts\n- 🌍 **World's 2nd largest carnival** after Rio de Janeiro\n- 🎪 Declared a **Festival of International Tourist Interest**\n- 📅 Dates: **February** (varies each year with the liturgical calendar)\n- 👥 Attendance: over **250,000 people** at the main events\n- 📜 Documented history since the **16th century**\n- 🚫 Banned by Franco, celebrated clandestinely — a symbol of cultural resistance\n\n### How to Experience It as a Tourist\n- 🎫 For the **Queen Election**, buy tickets months in advance\n- 🏨 Book accommodation in Santa Cruz **3–6 months** ahead — the island fills up completely\n- 🚋 The tram extends its hours during Carnival\n- 👗 Costume not compulsory, but strongly recommended — no one will look at you strangely in fancy dress\n- 📍 Plaza de España, La Rambla and Parque García Sanabria are the main hubs\n\n### Recommendation\nIf you can only choose one event to experience in Tenerife, choose Carnival. The combination of scale, boundless creativity, street music and the energy of a city utterly transformed is unmatched. Come in costume, accept you'll sleep little, and prepare for one of the most extraordinary human spectacles in Europe.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4641,
+        "lng": -16.2519
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/carnaval_de_santa_cruz_de_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "carnival",
+        "santa-cruz",
+        "festival",
+        "costume",
+        "murga",
+        "comparsa"
+      ],
+      "visitDuration": "variable",
+      "difficulty": "easy",
+      "emoji": "🎭",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": ""
     }
   ],
   "sections": [

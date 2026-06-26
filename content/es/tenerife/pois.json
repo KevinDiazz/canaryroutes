@@ -13,7 +13,9 @@
       },
       "images": {
         "hero": "/images/tenerife/teide/hero.avif",
-        "gallery": ["/images/tenerife/teide/1.avif"]
+        "gallery": [
+          "/images/tenerife/teide/1.avif"
+        ]
       },
       "audioPreview": "/audio/previews/es/teide-preview.mp3",
       "hasPremiumAudio": true,
@@ -32,30 +34,6 @@
       "municipio": "la-orotava"
     },
     {
-      "slug": "santa-cruz",
-      "name": "Santa Cruz de Tenerife",
-      "description": "Capital de Tenerife y sede del Carnaval más famoso de España, declarado de Interés Turístico Internacional. Gran puerto comercial, Parque García Sanabria y la moderna arquitectura del Auditorio de Calatrava.",
-      "shortDescription": "Capital de Tenerife y sede del Carnaval más famoso de España",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4636,
-        "lng": -16.2518
-      },
-      "images": {
-        "hero": "/images/tenerife/santa-cruz/hero.avif",
-        "gallery": ["/images/tenerife/santa-cruz/1.avif"]
-      },
-      "audioPreview": "/audio/previews/es/santa-cruz-preview.mp3",
-      "hasPremiumAudio": true,
-      "premiumRouteId": "volcano-route",
-      "tags": ["ciudad", "carnaval", "cultura", "puerto", "auditorio"],
-      "visitDuration": "medio día",
-      "emoji": "🏙️",
-      "municipio": "santa-cruz",
-      "top": false
-    },
-    {
       "slug": "los-gigantes",
       "name": "Los Gigantes",
       "description": "Acantilados de hasta 600 metros que caen verticalmente al Atlántico. Paseos en barco para avistar delfines y ballenas piloto en su hábitat natural. El pueblo más dramático del oeste de Tenerife.",
@@ -68,12 +46,20 @@
       },
       "images": {
         "hero": "/images/tenerife/los-gigantes/hero.avif",
-        "gallery": ["/images/tenerife/los-gigantes/1.avif"]
+        "gallery": [
+          "/images/tenerife/los-gigantes/1.avif"
+        ]
       },
       "audioPreview": "/audio/previews/es/los-gigantes-preview.mp3",
       "hasPremiumAudio": true,
       "premiumRouteId": "volcano-route",
-      "tags": ["acantilados", "ballenas", "delfines", "barco", "oeste"],
+      "tags": [
+        "acantilados",
+        "ballenas",
+        "delfines",
+        "barco",
+        "oeste"
+      ],
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏔️",
@@ -1067,8 +1053,8 @@
     {
       "slug": "alquiler-coche-tenerife",
       "name": "Alquiler de coche en Tenerife",
-      "shortDescription": "Imprescindible para explorar la isla: cómo, dónde y cuánto cuesta alquilar un coche",
-      "description": "Tenerife es una isla grande y variada, y **alquilar un coche es la forma más libre y eficiente de explorarla**. Desde el aeropuerto Reina Sofía (sur) o el aeropuerto Los Rodeos (norte), tienes acceso inmediato a las principales compañías. Los precios son de los más competitivos de Europa gracias a la competencia y al régimen fiscal canario.\n\n### La visita\nCon coche, en un día puedes combinar el Teide por la mañana, los acantilados de Los Gigantes al mediodía y una puesta de sol en el Médano. Sin coche, esa misma ruta requeriría dos o tres días en transporte público. La autopista TF-1 conecta el sur con el norte en menos de 45 minutos, y la TF-5 une Santa Cruz con Puerto de la Cruz en 30 minutos. Las carreteras de montaña (Masca, Anaga) requieren precaución pero son perfectamente transitables con un turismo estándar.\n\n### Antes de ir\n- 🛬 Reserva desde España siempre por DiscoverCars o similar — hasta un 40% más barato que en mostradores del aeropuerto\n- 📋 Necesitas carnet de conducir, tarjeta de crédito y tener más de 21 años (algunos operadores, 25)\n- ⛽ Gasolineras abundantes en el sur — en el norte y la montaña, llena antes de subir\n- 🔑 Los coches automáticos se agotan rápido en temporada alta: reserva con antelación\n- 🅿️ Aparcar en Santa Cruz y Puerto de la Cruz puede ser complicado — usa los parkings de pago\n\n### Recomendación\nReserva online al menos 48h antes de llegar, elige un seguro completo sin franquicia y planifica rutas en sentido antihorario para aprovechar mejor la luz del día.",
+      "shortDescription": "Tenerife es grande y variada — sin coche te pierdes la mitad. Reserva online con DiscoverCars y paga hasta un 40% menos que en el mostrador del aeropuerto.",
+      "description": "Tenerife es una isla que se disfruta de verdad con coche. Con la autopista TF-1 puedes cruzar de sur a norte en menos de 45 minutos, pero el verdadero premio está en las carreteras secundarias: los barrancos de Anaga, las curvas de Masca, el silencio del Teide al amanecer. En transporte público eso te llevaría días; en coche, lo tienes en una mañana.\n\nNo hace falta nada especial para conducir en la isla — los carteles son claros, las carreteras están en buen estado y el tráfico es razonable salvo en Santa Cruz en hora punta. Las carreteras de montaña piden calma y respeto, pero son perfectamente accesibles con un turismo normal.\n\n**Reservar online siempre sale más barato.** Con **DiscoverCars** comparas todas las compañías disponibles en los aeropuertos en un solo lugar y encuentras los mejores precios — hasta un 40% menos que en el mostrador. Los coches automáticos y los SUV se agotan en temporada alta, así que reserva con antelación. Elige seguro completo sin franquicia: la tranquilidad vale lo que cuesta.\n\n**Lo que cambia tener coche en Tenerife:** puedes combinar el Teide por la mañana, Los Gigantes al mediodía y el atardecer en el sur el mismo día. Llegas a playas que no aparecen en los circuitos de autobús. Subes a Anaga cuando el bosque está vacío. Paras cuando quieres, te quedas donde merece la pena.",
       "island": "tenerife",
       "category": "transport",
       "coordinates": {
@@ -1076,12 +1062,18 @@
         "lng": -16.5725
       },
       "images": {
-        "hero": "/images/tenerife/transport/alquiler-coche/hero.avif",
+        "hero": "/images/tenerife/transport/alquiler-coche-tenerife.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": ["transporte", "coche", "alquiler", "aeropuerto", "movilidad"],
+      "tags": [
+        "transporte",
+        "coche",
+        "alquiler",
+        "aeropuerto",
+        "movilidad"
+      ],
       "emoji": "🚗",
       "municipio": "granadilla",
       "discoverCarsLocation": "spain-canary-islands/tenerife",
@@ -1099,168 +1091,22 @@
         "lng": -16.2518
       },
       "images": {
-        "hero": "/images/tenerife/transport/titsa/hero.avif",
+        "hero": "/images/tenerife/transport/guagua_tenerife.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
-      "tags": ["transporte", "bus", "guagua", "titsa", "público", "económico"],
+      "tags": [
+        "transporte",
+        "bus",
+        "guagua",
+        "titsa",
+        "público",
+        "económico"
+      ],
       "emoji": "🚌",
       "municipio": "santa-cruz",
       "websiteUrl": "https://www.titsa.com"
-    },
-    {
-      "slug": "la-laguna-casco",
-      "name": "La Laguna — Casco Histórico",
-      "shortDescription": "Ciudad Patrimonio de la Humanidad con la arquitectura colonial más bella de Canarias",
-      "description": "San Cristóbal de La Laguna fue la primera ciudad no amurallada de la historia de España, un experimento urbanístico del siglo XV que influyó directamente en el diseño de ciudades como Lima, La Habana o San Juan de Puerto Rico. La UNESCO la reconoció Patrimonio de la Humanidad en 1999. Su casco histórico, con calles de lava negra y fachadas coloniales de colores, es el más bello de Canarias.\n\n### La visita\nEl eje principal es la **Calle Obispo Rey Redondo**, flanqueada por casonas nobles, iglesias barrocas y el Convento de Santa Clara. La **Catedral de La Laguna**, construida en el siglo XX pero de estilo neogótico austero, alberga el Cristo de La Laguna, la imagen más venerada de Tenerife. En la **Plaza del Adelantado**, el corazón de la ciudad, se concentran el mercado municipal, el Ayuntamiento y algunas de las mejores cafeterías de la isla. La ciudad también alberga la universidad más antigua de Canarias, lo que le da un ambiente joven y bohemio permanente.\n\n### Antes de ir\n- 🚋 El tranvía conecta La Laguna con Santa Cruz en 30 minutos — la forma más cómoda de llegar\n- 🕐 Dedica al menos 3 horas al casco histórico; hay mucho que ver y callejear\n- ☕ Las calles laterales de la Calle Herradores y alrededores concentran los mejores cafés y restaurantes locales\n- 📸 La luz de la mañana sobre las fachadas coloniales es la mejor para fotografiar\n- 🎭 En Semana Santa, La Laguna vive una de las procesiones más impresionantes de España\n\n### Recomendación\nCombina La Laguna con el Parque Rural de Anaga: sal de la ciudad hacia el noreste y en 20 minutos estarás en un bosque de laurisilva de película.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4853,
-        "lng": -16.3139
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/la-laguna/hero.avif",
-        "gallery": ["/images/tenerife/cultura/la-laguna/1.avif"]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "patrimonio-humanidad",
-        "colonial",
-        "historia",
-        "catedral",
-        "unesco",
-        "casco-histórico"
-      ],
-      "visitDuration": "3-4h",
-      "difficulty": "easy",
-      "emoji": "🏛️",
-      "top": false,
-      "municipio": "la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/XbEpHvWXaBTMZ2FA9"
-    },
-    {
-      "slug": "puerto-de-la-cruz",
-      "name": "Puerto de la Cruz",
-      "shortDescription": "La capital turística del norte: jardines, piscinas naturales y el primer resort de Canarias",
-      "description": "Puerto de la Cruz fue el primer destino turístico moderno de Tenerife, elegido en el siglo XX por la aristocracia europea —y especialmente británica— que buscaba escapar de los inviernos fríos. Hoy conserva ese encanto cosmopolita de ciudad que lleva décadas recibiendo al mundo sin perder su identidad canaria.\n\n### La visita\nEl corazón del pueblo es la **Plaza del Charco**, rodeada de dragos centenarios y palmeras, con terrazas que invitan a quedarse. Las **Piscinas Lago Martiánez**, diseñadas por el artista local César Manrique, son una maravilla de la arquitectura orgánica canaria: piscinas de agua salada de distintos tamaños integradas en el paisaje volcánico negro, con el mar Atlántico de fondo. El **Jardín Botánico** —uno de los más antiguos de España— alberga especies tropicales traídas de todo el mundo. Y a solo 10 minutos está el **Loro Parque**, el zoo más premiado del mundo.\n\n### Antes de ir\n- 🌊 Las Piscinas Lago Martiánez tienen entrada de pago (~8 €) pero valen cada céntimo — llega por la mañana\n- 🚌 Bus 343 desde Santa Cruz (45 min) y Bus 101/102 desde Los Gigantes\n- 🛍️ El mercado municipal del martes y sábado es el mejor para productos locales\n- 🌴 El Jardín Botánico está a 10 minutos a pie del centro — no tiene pérdida\n- 🍷 La Calle Blanco y sus alrededores concentran los mejores bares y restaurantes\n\n### Recomendación\nLlega por la mañana, pasa las primeras horas en las piscinas de Martiánez, come en el centro y por la tarde sube al Loro Parque: Puerto de la Cruz se disfruta sin prisa.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4147,
-        "lng": -16.549
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/puerto-de-la-cruz/hero.avif",
-        "gallery": ["/images/tenerife/cultura/puerto-de-la-cruz/1.avif"]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "norte",
-        "piscinas",
-        "manrique",
-        "jardín",
-        "turismo",
-        "cosmopolita"
-      ],
-      "visitDuration": "Día completo",
-      "difficulty": "easy",
-      "emoji": "🌴",
-      "top": false,
-      "municipio": "puerto-de-la-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/3CKJvX1H3aMJqnUT8"
-    },
-    {
-      "slug": "loro-parque",
-      "name": "Loro Parque",
-      "shortDescription": "El zoo más premiado del mundo: orcas, ballenas, pingüinos y la mayor colección de loros",
-      "description": "Fundado en 1972 como parque de loros, Loro Parque ha evolucionado hasta convertirse en uno de los parques zoológicos más valorados del planeta, galardonado repetidamente como mejor zoo del mundo según TripAdvisor. Sus instalaciones de vanguardia, el programa de conservación de especies y los espectáculos de orcas y delfines lo convierten en la mayor atracción familiar de Tenerife.\n\n### La visita\nEl parque alberga más de 30 especies de primates, los únicos **orcas en Europa** fuera de SeaWorld, una de las colonias de **pingüinos antárticos** más grandes en cautividad, tiburones, cocodrilos y la mayor colección de loros del mundo con más de 3.000 ejemplares de 350 especies. Los shows de orcas, delfines y sea lions tienen lugar varias veces al día. PlanetPenguin, el hábitat de pingüinos, simula la Antártida con nieve real.\n\n### Antes de ir\n- 🎟️ Compra la entrada online — hasta un 15% más barato y evitas colas\n- 🕘 Llega a la apertura (10h) para ver los primeros shows sin aglomeraciones\n- 🐋 El show de orcas tiene capacidad limitada — llega 20 minutos antes para conseguir sitio\n- 🚌 Bus 343/107 desde Puerto de la Cruz dirección Loro Parque (parada propia)\n- ☀️ El parque requiere un día completo para verlo todo — lleva protector solar y agua\n\n### Recomendación\nLlega a las 10h, asiste primero al show de orcas (10:30h), luego explora PlanetPenguin y los acuarios, y termina el día con los delfines: Loro Parque está diseñado para un día completo sin aburrirte.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4067,
-        "lng": -16.5713
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/loro-parque/hero.avif",
-        "gallery": ["/images/tenerife/cultura/loro-parque/1.avif"]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": ["zoo", "orcas", "pingüinos", "familia", "norte", "premios"],
-      "visitDuration": "Día completo",
-      "difficulty": "easy",
-      "emoji": "🦜",
-      "top": false,
-      "municipio": "puerto-de-la-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/P9xV1y7f4m1Xqn1H8",
-      "websiteUrl": "https://www.loroparque.com"
-    },
-    {
-      "slug": "piramides-de-guimar",
-      "name": "Pirámides de Güímar",
-      "shortDescription": "Misteriosas construcciones escalonadas que Thor Heyerdahl vinculó con el antiguo Egipto",
-      "description": "En el municipio costero de Güímar, en el sureste de Tenerife, se conservan seis **pirámides escalonadas de piedra volcánica negra** cuyo origen sigue siendo objeto de debate. El explorador noruego Thor Heyerdahl —famoso por la expedición Kon-Tiki— las estudió en los años 90 y propuso que no eran simples montones de piedras agrícolas sino construcciones intencionales con orientación astronómica, posiblemente vinculadas a rutas comerciales precolombinas.\n\n### La visita\nEl parque etnográfico creado por Heyerdahl incluye las pirámides, un museo con reproducciones de balsas de juncos y objetos de navegación, y jardines de plantas endémicas. La orientación de las pirámides hacia el solsticio de verano es el argumento más sólido a favor de su construcción intencional. El paisaje de fondo, con el Teide dominando el horizonte, añade una dimensión casi mística al conjunto.\n\n### Antes de ir\n- 🎟️ Entrada ~12 €; visita guiada disponible en varios idiomas\n- 🕐 Dedica entre 2 y 3 horas — el museo es tan interesante como las pirámides\n- 🚗 Difícil en transporte público — mejor en coche, a 40 minutos de Santa Cruz por la TF-1\n- 📸 La mejor foto es desde la zona elevada del parque con el Teide al fondo\n- 🌵 El jardín botánico del parque incluye especies endémicas de las Canarias\n\n### Recomendación\nIdeal para combinar con una parada en el pueblo de Güímar y los miradores del sureste, zona mucho menos visitada y con vistas espectaculares al mar.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.3108,
-        "lng": -16.3939
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/piramides-guimar/hero.avif",
-        "gallery": ["/images/tenerife/cultura/piramides-guimar/1.avif"]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "historia",
-        "pirámides",
-        "arqueología",
-        "misterio",
-        "heyerdahl",
-        "sureste"
-      ],
-      "visitDuration": "2-3h",
-      "difficulty": "easy",
-      "emoji": "🔺",
-      "municipio": "guimar",
-      "mapsUrl": "https://maps.app.goo.gl/9y3M4K9A8RQLsDWQ7",
-      "websiteUrl": "https://www.piramidesdeguimar.es"
-    },
-    {
-      "slug": "parque-garcia-sanabria",
-      "name": "Parque García Sanabria",
-      "shortDescription": "El jardín más grande de Santa Cruz: arte urbano, fuentes y dragos centenarios",
-      "description": "El Parque García Sanabria es el jardín municipal más grande de las Islas Canarias y uno de los espacios verdes más hermosos del archipiélago. Inaugurado en 1926, ocupa seis hectáreas en el centro de Santa Cruz y combina jardines tropicales con una colección permanente de **escultura contemporánea al aire libre**, resultado del Simposio Internacional de Escultura de 1973.\n\n### La visita\nPalmeras reales, ficus centenarios, fuentes monumentales y piezas de escultores internacionales conviven en un espacio que es, a la vez, parque urbano y museo al aire libre. Los **dragos milenarios** —el árbol símbolo de Canarias— son los más impresionantes de Santa Cruz. El parque está a dos minutos a pie del Auditorio de Calatrava y del Museo de Naturaleza y Arqueología, lo que lo convierte en el eje cultural del centro de la capital.\n\n### Antes de ir\n- 🆓 Entrada gratuita — abierto todos los días\n- 🌿 Mejor visita por la mañana, cuando la luz entra entre los árboles y el calor todavía es suave\n- 🖼️ El mapa de esculturas está disponible en la entrada — hay más de 40 piezas repartidas por el parque\n- 📍 A 5 minutos a pie del Auditorio de Calatrava, del Mercado de Nuestra Señora de África y de la playa de Las Teresitas (en guagua)\n- 🍦 Los puestos de helados y las terrazas de la avenida contigua son un clásico de la tarde santacrucera\n\n### Recomendación\nEmpezar el día en el parque, continuar al Auditorio y terminar con un paseo por el mercado de África: es la ruta perfecta para conocer el corazón cultural de Santa Cruz.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4636,
-        "lng": -16.2518
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/garcia-sanabria/hero.avif",
-        "gallery": ["/images/tenerife/cultura/garcia-sanabria/1.avif"]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "parque",
-        "escultura",
-        "jardín",
-        "santa-cruz",
-        "dragos",
-        "arte-urbano"
-      ],
-      "visitDuration": "1-2h",
-      "difficulty": "easy",
-      "emoji": "🌳",
-      "municipio": "santa-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/Ku3hJVBJzxCuNbUM6"
     },
     {
       "slug": "masca",
@@ -1380,7 +1226,9 @@
       },
       "images": {
         "hero": "/images/tenerife/naturaleza/pico-ingles/hero.avif",
-        "gallery": ["/images/tenerife/naturaleza/pico-ingles/1.avif"]
+        "gallery": [
+          "/images/tenerife/naturaleza/pico-ingles/1.avif"
+        ]
       },
       "hasPremiumAudio": false,
       "affiliateLinks": [],
@@ -1474,37 +1322,6 @@
         "tips": "Ruta solo de bajada. Reserva obligatoria en caminobarrancodemasca.com (mié-sáb). Regreso en barco o kayak desde la cala hasta Los Gigantes. Lanzadera desde parking cementerio de Santiago del Teide."
       },
       "mapsUrl": "https://maps.app.goo.gl/5UgBvXUA7rkAusds7"
-    },
-    {
-      "slug": "gastronomia-tenerife",
-      "name": "Gastronomía Canaria en Tenerife",
-      "shortDescription": "Papas arrugadas, mojo, gofio y los mejores vinos del Atlántico: guía gastronómica de la isla",
-      "description": "La cocina canaria de Tenerife es una de las más originales de España: mezcla de influencias atlánticas, americanas, africanas y mediterráneas con ingredientes propios que no encontrarás en ningún otro lugar. Lejos del turismo, la gastronomía de la isla es un mundo de sabores auténticos.\n\n### La visita\nLas **papas arrugadas con mojo** son el plato más reconocible: papas pequeñas hervidas en agua salada hasta que la sal forma una costra en la piel, servidas con mojo verde (cilantro y ajo) o mojo rojo (pimentón y vinagre). El **gofio** —harina de cereales tostados, herencia de los guanches— aparece en sopas, postres y como acompañamiento. El **rancho canario**, el **caldo de papas** y el **potaje de berros** son los platos de cuchara más tradicionales. Los vinos del Valle de La Orotava y de la D.O. Tacoronte-Acentejo se encuentran entre los mejores vinos atlánticos del mundo.\n\n### Antes de ir\n- 🍽️ Mejor gastronomía tradicional: mercado de Nuestra Señora de África (Santa Cruz), Taganana (Anaga), San Andrés y los pueblos del norte como La Orotava\n- 🌶️ El mojo rojo y el mojo verde son tan distintos que pedir los dos es obligatorio\n- 🍷 Busca vinos con D.O. Tacoronte-Acentejo o Valle de La Orotava — los listán negro y blanco son variedades únicas del mundo\n- 🐟 El pescado fresco (vieja, cherne, sama) a la plancha con mojo es la mejor comida costera\n- 🍮 El bienmesabe y el frangollo son los postres tradicionales a no perderse\n\n### Recomendación\nEvita los restaurantes del paseo marítimo de los grandes resorts y busca las guachinches del norte: pequeños bares familiares con vino de la casa y tapas de producto local. Es la experiencia gastronómica más auténtica de Tenerife.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4636,
-        "lng": -16.2518
-      },
-      "images": {
-        "hero": "/images/tenerife/cultura/gastronomia/hero.avif",
-        "gallery": ["/images/tenerife/cultura/gastronomia/1.avif"]
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "gastronomía",
-        "papas-arrugadas",
-        "mojo",
-        "gofio",
-        "vino",
-        "guachinche"
-      ],
-      "visitDuration": "Variable",
-      "difficulty": "easy",
-      "emoji": "🍽️",
-      "municipio": "santa-cruz",
-      "sectionOnly": true
     },
     {
       "slug": "avistamiento-cetaceos-tenerife",
@@ -2601,6 +2418,724 @@
       "name": "Montaña Blanca → Pico del Teide (3.715 m)",
       "shortDescription": "El punto más alto de España, el volcán más fotografiado del Atlántico y la ruta más icónica de Canarias: 17 km de ida y vuelta desde Montaña Blanca hasta el cráter del Teide, con 1.344 metros de desnivel y el mundo entero a tus pies a 3.715 metros de altitud",
       "description": "Hay un único techo en España, y está en Tenerife. El **Pico del Teide**, con sus **3.715 metros de altitud**, es la cumbre más alta de todo el territorio español, el volcán más alto del Atlántico y uno de los volcanes más grandes del mundo medido desde su base oceánica. Subir a él a pie desde **Montaña Blanca** es, sin discusión, la ruta más icónica de las Islas Canarias — y una experiencia que los que la hacen raramente olvidan.\n\nEs también una de las más exigentes: **17,44 km de circular, 1.344 metros de desnivel y una altitud máxima que supera los 3.700 metros**. La altitud no perdona el ritmo alto ni la falta de preparación. Pero para quien llega preparado, el paisaje que ofrece es absolutamente fuera de este mundo — literalmente, porque a esa altura el cielo empieza a oscurecerse incluso de día.\n\n### Dos formas de llegar al cráter\n\n**Opción 1 — La ruta completa a pie (Montaña Blanca, la clásica)**\nLa ruta que realmente cuenta. Sale desde el **aparcamiento de Montaña Blanca (2.398 m)** y sube en su totalidad a pie hasta el Pico del Teide. Es la forma más pura — y más dura — de alcanzar la cumbre.\n\n**Opción 2 — Teleférico + Sendero Telesforo Bravo**\nEl teleférico sube desde la **Estación Inferior (2.356 m)** hasta **La Rambleta (3.555 m)** en unos 8 minutos. Desde ahí, si tienes permiso, 40-60 minutos más de caminata hasta el cráter. Mucho más sencilla, pero solo haces el último tramo.\n\nAmbas opciones comparten un requisito esencial: **para llegar al vértice geodésico y al cráter debes tener el permiso del Sendero Telesforo Bravo** (nº 10). Se trata de un permiso gratuito, pero de aforo limitado — solo se permiten 200 personas al día — y debe reservarse con antelación en el portal del Parque Nacional del Teide (miterd.es).\n\n### El recorrido completo desde Montaña Blanca\n\n**Tramo 1: Montaña Blanca → Huevos del Teide (1h30 aprox.)**\nEl camino empieza entre formaciones de pómez y lapilli, el suelo volcánico claro y poroso que da nombre al lugar. En este primer tramo el Teide ya se ve enorme sobre el horizonte — y no para de crecer a medida que se sube. A unos 45 minutos aparece uno de los elementos geológicos más llamativos de la ruta: los **Huevos del Teide**, grandes bolas de lava solidificada que rodaron desde el cráter durante erupciones antiguas y quedaron aquí, perfectamente esféricas, como si alguien las hubiera colocado a propósito en la ladera. Son un símbolo de la ruta y uno de los grandes hitos fotográficos del Parque Nacional.\n\n**Tramo 2: Huevos del Teide → Refugio de Altavista (1h aprox.)**\nEl camino se empina y el paisaje se vuelve más árido y lunar. Se entra de lleno en la **alta montaña volcánica**, con vistas sobre el Mar de Nubes y las islas vecinas en los días despejados. El **Refugio de Altavista (3.260 m)** supone el punto de descanso tradicional — actualmente cerrado como alojamiento, pero útil como referencia de altitud y como refugio ante un cambio brusco de tiempo.\n\n**Tramo 3: Altavista → La Rambleta (45 min aprox.)**\nEl tramo más duro. El desnivel se intensifica, el oxígeno escasea y el cuerpo empieza a notar los efectos de la altitud: puede aparecer dolor de cabeza, náuseas o sensación de mareo. La clave es **ir muy despacio**, respirar profundo y no forzar el ritmo. La llegada a **La Rambleta (3.555 m)** — donde confluye el teleférico — marca el inicio del tramo final.\n\n**Tramo 4: La Rambleta → Pico del Teide / Sendero Telesforo Bravo (45-60 min)**\nEl **Sendero Telesforo Bravo** (Sendero nº10) es el último tramo hasta el cráter y el vértice geodésico. Es aquí donde se controla el permiso. El camino bordea la chimenea principal del volcán, con emanaciones de azufre visibles en las fumarolas, el suelo amarillo y naranja por los depósitos minerales y el vacío del cráter abriéndose ante ti. Desde el **Pico del Teide (3.715 m)**, en días claros se ven las ocho islas del archipiélago, el norte de África y las costas de la Península.\n\n### Lo que hace especial esta ruta\n- 🏔️ **El punto más alto de España (3.715 m)** — y el volcán más alto del Atlántico\n- 🥚 **Huevos del Teide** — uno de los elementos geológicos más singulares del Parque Nacional\n- 🌊 **Mar de Nubes** — la alfombra de nubes bajo tus pies a 2.000 metros es un espectáculo\n- 🌋 **Fumarolas activas** — el Teide sigue siendo un volcán activo con azufre, gases y terreno caliente\n- 🌅 **Vistas desde la cima** — en días despejados se ven las 8 islas Canarias, el Sáhara y la Península\n- 🌌 **Cielo oscuro** — a 3.700 m de altitud el cielo empieza a oscurecer incluso de día; perfecto para astronomía en el Parque Nacional\n- 🏅 **Patrimonio Mundial UNESCO** — Parque Nacional del Teide, declarado en 2007\n\n### Antes de ir — checklist completo\n- 📋 **Reserva tu permiso con antelación** en miterd.es (gratuito, aforo de 200 personas/día para el tramo al cráter)\n- 🎟️ **Si subes en teleférico**, compra el billete también con antelación — las colas en temporada alta son largas\n- 🚗 Aparcamiento en Montaña Blanca (gratuito, en la TF-21)\n- 🌡️ La temperatura en la cima puede ser **20-25°C inferior a la costa** — prepárate para frío, viento y nieve en invierno\n- 🧴 **Protección solar SPF 50+** — a 3.700 m la radiación UV es extrema incluso en invierno\n- 💧 Lleva mínimo **3 litros de agua** por persona — no hay fuentes en toda la ruta\n- 🥾 **Botas de montaña** con buen agarre — el terreno de pómez es resbaladizo\n- 🧥 Ropa por capas: base técnica, capa intermedia de abrigo y chubasquero impermeable\n- 🌄 **Sale antes de las 6:00** — para llegar al pico a primera hora, bajar antes del calor y evitar las nubes de tarde\n- 🩺 No recomendado para personas con problemas cardíacos, hipertensión o enfermedades respiratorias sin consulta médica previa\n- 🤢 Lleva **ibuprofeno** para el dolor de cabeza por altitud; si aparecen síntomas graves de mal de altura, descende inmediatamente\n\n### ⚠️ Alertas de seguridad — montaña de alta altitud\n- 📈 **Mal de altura (mal agudo de montaña)**: puede aparecer entre los 2.500 y 3.715 m. Síntomas: dolor de cabeza intenso, náuseas, mareo, fatiga extrema. Si aparecen síntomas graves, **descende inmediatamente**\n- 🌡️ **Cambio brusco de temperatura**: en cuestión de minutos puede pasar de sol a viento, niebla o nieve\n- ❄️ **Hielo y nieve**: entre noviembre y abril el camino puede estar helado — consulta el estado de la ruta antes de salir\n- ☀️ **Radiación UV extrema**: sin protección solar adecuada a esta altitud el riesgo de quemadura grave es muy alto incluso en días nublados\n- 🌬️ **Viento fuerte en la cima**: ráfagas de 60-80 km/h son habituales; pueden dificultar o impedir el acceso al vértice\n- 📵 **Señal de móvil limitada** por encima del Refugio de Altavista — descarga la ruta offline\n- 🚫 **Sin permiso no hay acceso al cráter** — el control es estricto y no hay excepciones\n- **Emergencias: 112**\n\n### Recomendación\nLa ruta completa a pie desde Montaña Blanca es una de esas experiencias que definen un viaje. Pero si el tiempo, la forma física o la logística no acompañan, la combinación **teleférico + Sendero Telesforo Bravo** sigue siendo una experiencia impresionante — sobre todo si consigues el permiso y llegas a los 3.715 m. En cualquier caso, reserva el permiso antes de nada: sin él, la cumbre está vedada."
+    },
+    {
+      "slug": "tranvia-tenerife",
+      "island": "tenerife",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.4699,
+        "lng": -16.2515
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/tranvia_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [
+        {
+          "provider": "MetroTenerife",
+          "label": "Horarios y tarifas — metrotenerife.com",
+          "url": "https://www.metrotenerife.com",
+          "type": "info"
+        }
+      ],
+      "visitDuration": null,
+      "difficulty": null,
+      "emoji": "🚊",
+      "top": false,
+      "sectionOnly": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "tags": [
+        "tranvia",
+        "tren",
+        "transporte",
+        "santa-cruz",
+        "la-laguna",
+        "metro",
+        "urbano"
+      ],
+      "name": "Tranvía de Tenerife",
+      "shortDescription": "El tranvía conecta Santa Cruz de Tenerife con San Cristóbal de La Laguna en 34 minutos, con 21 paradas y salidas cada 7-8 minutos. La forma más cómoda de moverse entre las dos ciudades principales de la isla.",
+      "description": "El **Tranvía de Tenerife** (MetroTenerife) une el **Intercambiador de Santa Cruz** con **La Trinidad**, en San Cristóbal de La Laguna, a lo largo de 12,5 km y 21 paradas. El viaje completo dura unos **34 minutos** y las salidas son cada 7-8 minutos en hora punta, 12-15 minutos en fin de semana.\n\nLas paradas más útiles para turistas son el **Intercambiador / Weyler** (centro de Santa Cruz y conexión con TITSA), **La Laguna / Catedral** (casco histórico Patrimonio UNESCO) y **Cruz del Señor** (zona comercial de La Laguna).\n\nEl billete sencillo cuesta **1,35 €**. Con la tarjeta recargable BONO el precio baja a desde **0,60 €/viaje** y es interoperable con los autobuses TITSA, muy recomendable si usas el transporte público varios días.\n\nSi llegas al **Aeropuerto Tenerife Norte (TFN)**, combina el bus 014 o 102 desde el aeropuerto con el tranvía en el Intercambiador — la forma más rápida y económica de llegar al centro sin atascos.",
+      "websiteUrl": "https://www.metrotenerife.com"
+    },
+    {
+      "slug": "ferries-tenerife",
+      "island": "tenerife",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.4752,
+        "lng": -16.2466
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/ferrie.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": null,
+      "difficulty": null,
+      "emoji": "⛴️",
+      "top": false,
+      "sectionOnly": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "tags": [
+        "ferry",
+        "barco",
+        "naviera",
+        "interislas",
+        "fred-olsen",
+        "armas",
+        "transporte",
+        "santa-cruz",
+        "los-cristianos"
+      ],
+      "name": "Ferries desde Tenerife",
+      "shortDescription": "Ferries regulares desde Tenerife a Gran Canaria, Fuerteventura, La Gomera y La Palma. Puerto de Santa Cruz para las islas orientales; Los Cristianos para La Gomera (45 min) y El Hierro.",
+      "description": "Desde Tenerife salen conexiones regulares en ferry a las islas más cercanas del archipiélago. Los dos puertos principales son **Santa Cruz de Tenerife** y **Los Cristianos**, en el sur.\n\n**Gran Canaria (Las Palmas de GC)** — La travesía más frecuente: 1h30-2h30 desde Santa Cruz. Ferries varias veces al día en ambos sentidos.\n\n**Fuerteventura** — Conexión desde Santa Cruz en unas 3-4h. Ideal para combinar las dos islas en un mismo viaje.\n\n**La Gomera (San Sebastián)** — La ruta más popular del archipiélago: **45 minutos** desde Los Cristianos, varias salidas diarias. Perfecta para una excursión de día desde el sur de Tenerife.\n\n**La Palma (Santa Cruz de La Palma)** — 2h30-5h desde Santa Cruz según el servicio. Conexión directa con la isla más verde de Canarias.\n\nReserva con antelación en temporada alta (julio-agosto) y fines de semana largos — especialmente la ruta a La Gomera, que se llena rápido. Si viajas con vehículo, la plaza de coche tiene aforo limitado.",
+      "websiteUrl": "https://www.directferries.es/tenerife_ferry.htm"
+    },
+    {
+      "slug": "la-laguna-unesco",
+      "name": "San Cristóbal de La Laguna",
+      "shortDescription": "Primera ciudad planificada sin murallas del mundo, Patrimonio de la Humanidad UNESCO desde 1999",
+      "description": "San Cristóbal de La Laguna, declarada **Patrimonio de la Humanidad por la UNESCO en 1999**, es el mayor tesoro histórico de Canarias. Fundada en 1496 por Alonso Fernández de Lugo, fue el **primer modelo de ciudad planificada sin murallas** del mundo, trazado ortogonal que sirvió de inspiración directa para la colonización urbanística de América Latina.\n\n### El casco histórico\nUn laberinto de calles empedradas del siglo XVI que conserva intacto su trazado original. Palacios nobiliarios, iglesias barrocas, conventos y edificios señoriales de los siglos XVI al XVIII conviven en perfecto estado de conservación. La **Catedral de La Laguna**, el **Convento de Santa Catalina de Siena** y la **Casa de los Capitanes Generales** son sus grandes hitos arquitectónicos.\n\n### Universidad y vida cultural\nLa **Universidad de La Laguna**, fundada en 1701 y la más antigua de Canarias, impregna la ciudad de energía estudiantil. Sus cafeterías, librerías de viejo y bares de tapas alrededor de la plaza del Adelantado crean una atmósfera única que mezcla historia, gastronomía y modernidad.\n\n### Semana Santa\nLa **Semana Santa de La Laguna** es la más importante de Canarias. Sus procesiones nocturnas de gran sobriedad, con siglos de tradición, recorren el casco histórico a la luz de las velas y están declaradas de Interés Turístico Nacional.\n\n### Datos históricos\n- 📅 Fundación: **1496** — más antigua que muchas capitales latinoamericanas\n- 🏛️ UNESCO: **1999** — reconocida como modelo urbanístico de referencia mundial\n- 🎓 Universidad fundada en **1701**, la institución académica más antigua del archipiélago\n- ⛪ Más de **60 edificios históricos** catalogados en el casco\n\n### Cómo llegar\nA solo 9 km de Santa Cruz, perfectamente conectada con el **Tranvía Metropolitano (L1)** desde Santa Cruz y el intercambiador del aeropuerto. La guagua también cubre toda la isla. Sin aparcamiento fácil en el centro — mejor llegar en tranvía.\n\n### Recomendación\nVisita el **Mercado Municipal** para el desayuno. Luego, sigue el eje de la Calle Obispo Rey Redondo hacia la Catedral y dedica al menos 3 horas a explorar el casco. Por la tarde, las tascas en torno a la Plaza del Adelantado son perfectas para tapas con vino de la tierra.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4874,
+        "lng": -16.3159
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/san_cristobal_de_la_laguna_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "patrimonio",
+        "unesco",
+        "historia",
+        "casco-histórico",
+        "universidad",
+        "arquitectura"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/7YiXs9q88A5aMk3S8"
+    },
+    {
+      "slug": "auditorio-tenerife",
+      "name": "Auditorio de Tenerife",
+      "shortDescription": "Icono de la arquitectura contemporánea mundial diseñado por Santiago Calatrava, sede de la Orquesta Sinfónica de Tenerife",
+      "description": "El **Auditorio de Tenerife Adán Martín** es uno de los edificios más icónicos del siglo XXI y una referencia mundial de la arquitectura contemporánea. Diseñado por el arquitecto **Santiago Calatrava** e inaugurado en 2003, su silueta inconfundible domina el frente marítimo de Santa Cruz de Tenerife.\n\n### Arquitectura sin igual\nEl edificio destaca por su **cubierta de hormigón blanco en voladizo de 58 metros**, que evoca una ola rompiéndose sobre el Atlántico. Con más de 23.000 m² construidos y una sala principal de **1.616 butacas**, es sede permanente de la **Orquesta Sinfónica de Tenerife** y acoge cada año cientos de conciertos, óperas, festivales y eventos internacionales.\n\n### La foto que buscas\nDeclarado uno de los edificios más fotografiados de España, el Auditorio es espectacular a cualquier hora. **De noche, iluminado sobre el Atlántico**, la imagen es memorable. La perspectiva desde el paseo marítimo al atardecer, con el Teide al fondo, es una de las vistas más singulares de Canarias.\n\n### Programación\nLa temporada abarca de **octubre a junio**, con programación clásica, ópera, jazz y pop internacional. La Orquesta Sinfónica de Tenerife ofrece ciclos regulares; los conciertos suelen agotarse. Consulta la agenda oficial con antelación.\n\n### Datos clave\n- 🏗️ Arquitecto: **Santiago Calatrava Valls**, Valencia 1951\n- 📅 Inauguración: **2003**\n- 💺 Aforo sala principal: **1.616 butacas**\n- 📐 Voladizo de la cubierta: **58 metros**\n- 🌐 Uno de los 10 edificios más fotografiados de España\n\n### Cómo llegar\nEn el corazón de Santa Cruz, junto al Paseo Marítimo. Tranvía L1 (parada **Weyler**, 10 min andando) o parada **Intercambiador** (5 min). Parking en el propio Auditorio o en el Parque Marítimo a 200 m.\n\n### Recomendación\nIncluso sin entrar, el exterior justifica el paseo. Combínalo con el **Parque Marítimo César Manrique** contiguo y el paseo marítimo de Santa Cruz. Para la experiencia completa, reserva entradas para la Orquesta Sinfónica de Tenerife — una noche de concierto en este escenario es inolvidable.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4634,
+        "lng": -16.253
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/auditorio_de_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "arquitectura",
+        "calatrava",
+        "música",
+        "santa-cruz",
+        "icono",
+        "fotografía"
+      ],
+      "visitDuration": "1-3h",
+      "difficulty": "easy",
+      "emoji": "🎼",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/eVNPv4xTT8aN5rjz9"
+    },
+    {
+      "slug": "muna-tenerife",
+      "name": "MUNA — Museo de Naturaleza y Arqueología",
+      "shortDescription": "La mayor colección guanche del mundo: momias, cerámicas y la historia prehispánica de Tenerife",
+      "description": "El **Museo de Naturaleza y Arqueología (MUNA)** de Santa Cruz de Tenerife es el museo más importante para entender la historia prehispánica de Canarias. Alberga la **colección arqueológica guanche más completa del mundo**, con momias, cerámicas, utensilios y restos óseos de los primeros habitantes de las islas.\n\n### Los guanches\nLos **guanches** fueron el pueblo de origen bereber que colonizó Tenerife hace más de 2.000 años desde el norte de África. El MUNA custodia más de **40.000 piezas arqueológicas** y una colección única de **momias guanches** preparadas con técnicas de momificación sorprendentemente similares a las del antiguo Egipto — un misterio que todavía fascina a los investigadores. Su práctica de la momificación los distingue del resto de pueblos prehispánicos del archipiélago.\n\n### La colección\n- 🦴 **Momias guanches** — algunas con más de 1.500 años de antigüedad\n- 🏺 Cerámicas, herramientas de obsidiana y elementos rituales\n- 🐚 Fauna marina prehistórica y fósiles de las islas\n- 🌿 Historia natural: flora, fauna endémica y geología volcánica de Canarias\n\n### El edificio\nInstalado en el antiguo **Hospital de los Dolores**, un edificio colonial del siglo XVIII en el corazón de Santa Cruz, el propio contenedor arquitectónico ya es un atractivo en sí mismo.\n\n### Información práctica\n- 🕙 Horario: martes–sábado **10:00–20:00** h · Domingos y festivos **10:00–14:00** h · Cerrado lunes\n- 💶 Entrada: **5 €** general · **3 €** reducida · Gratuito menores de 12 años\n- 🎧 Audioguía disponible en español e inglés\n\n### Cómo llegar\nEn el centro de Santa Cruz, a 10 minutos andando desde la parada de tranvía **Weyler** o **Plaza de España**.\n\n### Recomendación\nImprescindible para entender quiénes eran realmente los guanches antes de la conquista española. Dedica al menos **2 horas**. Perfecto para combinar con el casco histórico de Santa Cruz o con una visita a La Laguna (solo 9 km). Si te interesa la arqueología, el museo tiene fondos que no se exponen permanentemente — pregunta por las visitas especiales.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4698,
+        "lng": -16.2519
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_de_naturaleza_y_arqueologia_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museo",
+        "guanches",
+        "arqueología",
+        "historia",
+        "santa-cruz",
+        "momias"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🏺",
+      "top": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/2rFBSFjmPGCUzdSdA"
+    },
+    {
+      "slug": "basilica-candelaria",
+      "name": "Basílica de la Virgen de Candelaria",
+      "shortDescription": "Centro religioso más importante de Canarias — Patrona del archipiélago y de las Islas Canarias",
+      "description": "La **Basílica de Nuestra Señora de Candelaria** es el santuario católico más importante de las Islas Canarias y uno de los más visitados de España. Acoge a la **Patrona de Canarias**, cuya leyenda se remonta a los propios guanches — el pueblo prehispánico que habitaba Tenerife antes de la conquista española.\n\n### La leyenda de la Virgen\nSegún la tradición, la imagen de la Virgen fue encontrada por dos pastores guanches en la playa de Chimisay a principios del siglo XV, **décadas antes de la llegada de los españoles**. Los guanches, incapaces de moverla, la veneraron como figura sagrada y la instalaron en una cueva. Esta historia única hace de la Virgen de Candelaria un símbolo de encuentro entre las culturas guanche y española.\n\n### El santuario\nLa basílica actual, de estilo **neoclásico**, fue construida entre 1943 y 1958 sobre el solar de un convento dominico del siglo XVI. Su interior alberga la imagen de la **Virgen Morena** — una talla de madera del siglo XV que sobrevivió parcialmente a una riada en 1826. El manto negro con estrellas de oro y la candela que porta le dan nombre.\n\n### Los Menceyes Guanches\nEn la **Plaza de la Patrona de Canarias**, frente al mar, nueve estatuas de bronce representan a los **menceyes** — los nueve reyes guanches que gobernaban Tenerife antes de la conquista. Son uno de los monumentos más fotografiados de Tenerife y un homenaje permanente al pueblo que primero veneró a la Virgen.\n\n### Peregrinación del 15 de agosto\nEl **14 y 15 de agosto** se celebra la gran romería en honor a la Virgen, con miles de peregrinos llegados de toda Canarias, América Latina y la comunidad canaria en el exterior. Es la concentración religiosa más multitudinaria del archipiélago.\n\n### Datos clave\n- 🕍 Estilo: **neoclásico**, construida 1943–1958\n- 👑 Título: **Patrona de Canarias** y una de las patronas de España\n- 📅 Leyenda: aparición guanche, **siglo XV** (anterior a la conquista)\n- 🗿 9 estatuas de bronce de los **Menceyes** en el paseo marítimo\n- ✈️ A solo 20 km del aeropuerto Sur y 15 km de Santa Cruz\n\n### Cómo llegar\nDesde Santa Cruz: **Línea 120 o 121 de TITSA** (30 min) o tranvía hasta El Cardonal + enlace. En coche: salida Candelaria en la TF-1 (autopista del Sur). Parking gratuito junto a la basílica.\n\n### Recomendación\nVisita el interior de la basílica (entrada libre) y dedica tiempo a la cripta y la capilla de los menceyes. Después, pasea por el **Paseo Marítimo de Candelaria** con las estatuas y termina con un café en los alrededores de la plaza. Ideal combinarlo con una parada en el casco de Güímar (10 km).",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3513,
+        "lng": -16.3726
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/basilica_de_nuestra_senora_de_candelaria.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "religión",
+        "patrona",
+        "candelaria",
+        "guanches",
+        "menceyes",
+        "peregrinación"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "top": true,
+      "municipio": "candelaria",
+      "mapsUrl": "https://maps.app.goo.gl/2A9SJozDM9gfd68a8"
+    },
+    {
+      "slug": "casa-balcones-orotava",
+      "name": "Casa de los Balcones",
+      "shortDescription": "La joya de la arquitectura colonial canaria — balcones de tea tallados del siglo XVII y museo de artesanía viva",
+      "description": "La **Casa de los Balcones** de La Orotava es el ejemplo más célebre de la arquitectura tradicional canaria y uno de los edificios históricos más fotografiados de Tenerife. Construida en **1632** durante el esplendor colonial de La Orotava, sus balcones corridos de **madera de tea** (pino canario) tallada son la imagen icónica de la arquitectura señorial del archipiélago.\n\n### Los balcones de tea\nLa madera de tea — el corazón resinoso del pino canario — era el material noble por excelencia en la arquitectura histórica de Canarias. Su **resistencia natural a la humedad y los insectos** la hace prácticamente indestructible. Los balcones de la Casa, con sus celosías y remates tallados, llevan más de 390 años en pie y conservan su color y textura originales.\n\n### El museo de artesanía\nEl interior de la casa alberga un **museo vivo de artesanía canaria**: telares en funcionamiento, demostración de bordados y calados, colección de trajes regionales y exposición de aperos y utensilios domésticos del siglo XVII-XVIII. Es posible ver a artesanas trabajando en vivo los calados tinerfeños, una de las tradiciones textiles más refinadas del archipiélago.\n\n### La tienda\nLa planta baja acoge una de las tiendas de artesanía más completas de Tenerife: mantelería de calados, bordados a mano, figuras de barro, alfarería tradicional, productos locales y réplicas de la arquitectura histórica canaria. Todo de producción local y certificada.\n\n### El patio interior\nEl **patio con pozo central** rodeado de galerías en dos plantas es otro de los elementos arquitectónicos más hermosos del conjunto. El contraste entre la piedra volcánica oscura del suelo y la madera clara de tea en las galerías es característico de la arquitectura señorial de La Orotava.\n\n### Datos clave\n- 📅 Construcción: **1632** — más de 390 años de historia\n- 🪵 Material: **madera de tea** (pino canario), tallada a mano\n- 🧵 Artesanía: calados, bordados y telares en funcionamiento\n- 🏛️ Catalogado como **Bien de Interés Cultural** (BIC)\n\n### Cómo llegar\nEn el casco histórico de La Orotava, calle San Francisco. A 5 minutos andando desde el aparcamiento del Ayuntamiento. Guagua desde Puerto de la Cruz (Línea 350).\n\n### Recomendación\nVisita imprescindible dentro del recorrido por el casco de La Orotava. Combínala con la **Iglesia de la Concepción** (a 200 m) y los **Jardines del Marquesado de la Quinta Roja**. Si puedes, visita en junio durante el **Corpus Christi** — las calles de La Orotava se cubren con las famosas alfombras de flores y arena volcánica.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3895,
+        "lng": -16.5226
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/casa_de_los_balcones_la_orotava.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "arquitectura",
+        "artesanía",
+        "colonial",
+        "la-orotava",
+        "balcones",
+        "tea"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🏠",
+      "top": false,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/eHK3EkdvMF8cLtKSA"
+    },
+    {
+      "slug": "la-orotava",
+      "name": "La Orotava",
+      "shortDescription": "Uno de los cascos históricos coloniales mejor conservados de Canarias, famoso por sus alfombras de flores del Corpus Christi",
+      "description": "**La Orotava** es la joya de la arquitectura colonial canaria. Encaramada en las laderas del Valle de La Orotava, con el **Teide** como telón de fondo permanente, su casco histórico concentra el mayor número de edificios señoriales de los siglos XVII y XVIII de todo el archipiélago, perfectamente conservados.\n\n### El casco histórico\nSus calles empedradas en bajada albergan **palacetes con balcones de madera de tea**, iglesias barrocas, conventos y casonas señoriales que han mantenido su fisonomía colonial intacta. La **Iglesia de Nuestra Señora de la Concepción**, con sus dos torres gemelas y cúpulas revestidas de azulejos, es el símbolo indiscutible de la ciudad y uno de los templos barrocos más bellos de Canarias.\n\n### Las alfombras del Corpus Christi\nCada año en junio, La Orotava vive su momento más espectacular: el **Corpus Christi**. Las calles del casco y la plaza del Ayuntamiento se cubren con elaboradas **alfombras de flores, arena volcánica de colores y sal** en homenaje al Santísimo. El tapiz principal frente al Ayuntamiento, que recrea obras de arte o motivos religiosos, puede medir hasta 800 m² y requiere semanas de preparación. Declaradas de **Interés Turístico Internacional**.\n\n### Jardines y miradores\nLos **Jardines del Marquesado de la Quinta Roja** — con su mausoleo neoclásico entre la vegetación tropical — y el **mirador Humberto Fuentes** ofrecen vistas al Valle de La Orotava, el Atlántico y el Teide en una panorámica que no tiene igual en la isla.\n\n### Valle de La Orotava\nEl municipio controla uno de los valles más fértiles de Canarias. Aquí nació la tradición vitivinícola del norte de Tenerife y el cultivo de plataneras, papas y tomates que sustentó la economía canaria durante siglos. El contacto con los agricultores y los mercadillos locales es parte de la experiencia.\n\n### Datos clave\n- 🏛️ Casco histórico: siglos **XVII–XVIII**, protegido como Bien de Interés Cultural\n- 🌸 Corpus Christi: **junio** — alfombras declaradas de Interés Turístico Internacional\n- ⛪ Iglesia de la Concepción: barroco canario, dos torres y cúpulas de azulejo\n- 🌋 Vistas al **Teide** desde múltiples puntos del casco\n\n### Cómo llegar\nDesde Puerto de la Cruz: **Línea 350** (15 min). Desde Santa Cruz o el Sur: TF-5 (autopista del Norte), salida La Orotava. Parking en el área del Ayuntamiento.\n\n### Recomendación\nDedica una mañana entera al casco: **Casa de los Balcones**, Iglesia de la Concepción, Jardines del Marquesado y el mirador. Si visitas en junio, reserva alojamiento con semanas de antelación — el Corpus es uno de los eventos más demandados de Tenerife. Para comer: los restaurantes en torno a la Plaza de la Constitución sirven cocina canaria auténtica con vistas al valle.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.389,
+        "lng": -16.5229
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/la_orotava_casco_historico.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "casco-histórico",
+        "corpus-christi",
+        "alfombras",
+        "colonial",
+        "barroco",
+        "teide"
+      ],
+      "visitDuration": "3-4h",
+      "difficulty": "easy",
+      "emoji": "🌸",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": "https://maps.app.goo.gl/Y7L9sSjCe1KUJdRv7"
+    },
+    {
+      "slug": "garachico",
+      "name": "Garachico",
+      "shortDescription": "El pueblo más hermoso del norte — reconstruido sobre la lava de la erupción de 1706 con piscinas naturales y casco colonial intacto",
+      "description": "**Garachico** es, para muchos, el pueblo más bonito de Tenerife. Su historia trágica y su resiliencia lo convierten en un lugar único: fue el **puerto más importante de Canarias** durante los siglos XVI y XVII, hasta que el 5 de mayo de **1706** la erupción del volcán Montaña Negra sepultó bajo la lava el puerto, los almacenes y parte del casco urbano. Lo que quedó en pie fue reconstruido, y lo que el mar ganó a la lava se convirtió en los hoy famosos **charcos naturales de El Caletón**.\n\n### El Caletón\nLa lava solidificada que destruyó el antiguo puerto dejó en su lugar un conjunto único de **piscinas naturales en roca volcánica** bañadas por el Atlántico. El Caletón es hoy el símbolo de Garachico: aguas cristalinas de distintas profundidades, acceso libre, y una de las imágenes más reproducidas del norte de Tenerife. Especialmente fotografiado al atardecer.\n\n### El casco histórico\nLo que el volcán no destruyó conserva la arquitectura colonial del siglo XVII intacta. La **Iglesia de Santa Ana**, el **Convento de San Francisco** (hoy Casa de la Cultura), el **Castillo de San Miguel** del siglo XVI — el único que sobrevivió a la lava — y las calles empedradas de casas señoriales forman un conjunto histórico de gran belleza.\n\n### La historia del puerto perdido\nAntes de 1706, Garachico era el principal punto de exportación de vino, azúcar y cochinilla de Tenerife hacia Europa y América. La erupción lo cambió todo: el puerto quedó inutilizado y el comercio se trasladó a Santa Cruz, marcando el inicio del declive del norte y el ascenso de la capital. Garachico nunca recuperó su relevancia comercial, pero conservó su alma.\n\n### Datos clave\n- 🌋 Erupción: **5 de mayo de 1706**, volcán Montaña Negra\n- 🏛️ Puerto más importante de Canarias: **siglos XVI–XVII**\n- 🏊 El Caletón: **piscinas naturales gratuitas** en roca volcánica\n- 🏰 Castillo de San Miguel: único edificio histórico que sobrevivió la lava\n- 📍 A solo **3 km de Icod de los Vinos**\n\n### Cómo llegar\nDesde el norte: TF-42 o TF-82 desde Icod. Desde el Sur: TF-1 + TF-82 por Buenavista. Guagua desde Puerto de la Cruz: **Línea 363**. Parking gratuito en el paseo marítimo.\n\n### Recomendación\nLlega a primera hora para encontrar El Caletón tranquilo. Baja a las piscinas, luego sube al casco histórico para café y medialunas en una de las tascas del Castillo. No te pierdas el interior del Convento de San Francisco ni las vistas desde el propio Castillo de San Miguel al mar.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3724,
+        "lng": -16.7641
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/garachico_casco_historico.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "pueblo",
+        "volcán",
+        "piscinas-naturales",
+        "colonial",
+        "norte",
+        "historia"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "top": true,
+      "municipio": "garachico",
+      "mapsUrl": "https://maps.app.goo.gl/NxMHTbAUdKit3cmPA"
+    },
+    {
+      "slug": "piramides-guimar",
+      "name": "Pirámides de Güímar",
+      "shortDescription": "El yacimiento arqueológico más famoso de Tenerife — seis pirámides escalonadas que siguen alineaciones astronómicas exactas",
+      "description": "Las **Pirámides de Güímar** son el yacimiento arqueológico más intrigante y visitado de Tenerife. Seis estructuras piramidales escalonadas de **piedra volcánica seca**, distribuidas en un complejo de más de 35.000 m² en el municipio de Güímar, al sureste de la isla.\n\n### El enigma\nDurante décadas las pirámides fueron ignoradas o explicadas como montones de piedras agrícolas. Todo cambió en 1991 cuando el explorador y etnógrafo noruego **Thor Heyerdahl** — famoso por la expedición Kon-Tiki — visitó el yacimiento y quedó fascinado. Heyerdahl impulsó su estudio científico y la creación del **Parque Etnográfico**, defendiendo que las estructuras presentaban características demasiado precisas para ser simples desechos de campo.\n\n### Las alineaciones astronómicas\nLo que distingue a las pirámides de Güímar de cualquier acumulación de piedras es la **precisión de sus alineaciones**: las escaleras principales de varias estructuras apuntan exactamente hacia el **solsticio de verano** (21 de junio, salida del sol) y el **solsticio de invierno** (21 de diciembre). Esta intencionalidad astronómica es el dato más difícil de explicar como accidente agrícola.\n\n### Las teorías\n- 🗿 **Origen guanche**: estructuras ceremoniales o astronómicas preeuropeas\n- 🌾 **Origen campesino siglo XIX**: acumulación de piedras de desmonte con forma casual\n- 🌊 **Teoría transoceánica de Heyerdahl**: puente cultural entre culturas mediterráneas, bereberes y americanas\n- 🔬 **Consenso académico actual**: origen incierto, pero con intencionalidad en la orientación\n\n### El Parque Etnográfico\nHoy el complejo incluye: visita a las pirámides, **museo etnográfico**, jardín botánico de plantas canarias, réplica de la balsa *Kon-Tiki* de Heyerdahl, colonia de tortugas y documentación completa sobre la expedición Kon-Tiki y la teoría de las rutas transoceánicas.\n\n### Información práctica\n- 🕙 Horario: todos los días **9:30–18:00** h\n- 💶 Entrada: **12 €** adulto · **6 €** niño (4–12 años) · Gratuito menores de 4\n- ⏱️ Duración recomendada: **2–3 horas**\n- 📍 A 25 km de Santa Cruz por la TF-1 Sur\n\n### Cómo llegar\nDesde Santa Cruz: **Línea 120 de TITSA** dirección Güímar. En coche: TF-1 Sur, salida Güímar, seguir indicaciones al Parque Etnográfico.\n\n### Recomendación\nVisita por la mañana para evitar el calor del sur. Combina con la **Basílica de Candelaria** (15 km al norte) para una jornada completa por el sureste de Tenerife. Si te interesa la arqueología prehispánica, visita también el MUNA en Santa Cruz para comparar con los restos guanches.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.311,
+        "lng": -16.4121
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/piramides_de_guimar.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "arqueología",
+        "pirámides",
+        "güímar",
+        "misterio",
+        "heyerdahl",
+        "astronomía"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🔺",
+      "top": false,
+      "municipio": "guimar",
+      "mapsUrl": "https://maps.app.goo.gl/i4p83WUoFjF2SexdA"
+    },
+    {
+      "slug": "drago-milenario",
+      "name": "Drago Milenario de Icod",
+      "shortDescription": "El árbol más antiguo y emblemático de Canarias — símbolo cultural de la isla con más de 800 años de historia",
+      "description": "El **Drago Milenario de Icod de los Vinos** es el ser vivo más emblemático de las Islas Canarias y el símbolo cultural de Tenerife. Con más de **800 años de antigüedad** — algunas estimaciones lo sitúan entre 800 y 1.000 años — es el ejemplar de *Dracaena draco* más grande y antiguo conocido del mundo.\n\n### El drago canario\nEl *Dracaena draco*, o drago canario, es una especie endémica de Canarias y Macaronesia de apariencia inconfundible: tronco grueso con corteza grisácea, copa en forma de paraguas invertido y hojas en punta que permanecen todo el año. Lo que lo hace verdaderamente extraordinario es su **savia roja**, llamada «sangre de dragón», que se oxida al contacto con el aire. Esta resina ha sido usada desde la Antigüedad en medicina, tintura y barnices.\n\n### El ejemplar de Icod\n- 📏 **17 metros de altura** y una copa de más de 20 metros de diámetro\n- 🌿 Se estima que tiene entre **800 y 1.000 años**\n- ⚖️ Peso estimado: más de **100 toneladas**\n- 🏛️ Declarado **Monumento Nacional** en 1917\n- 🗿 Los guanches lo consideraban un árbol **sagrado y protector**\n\n### La sangre de dragón\nLa savia roja del drago fue uno de los productos más valiosos del comercio canario desde la Antigüedad. Los romanos ya la importaban como pigmento y medicamento. Los guanches la usaban para embalsamar a sus muertos, curar heridas y como tinte. En la Edad Media y el Renacimiento fue uno de los productos más cotizados de Europa como barniz de violines y componente farmacéutico.\n\n### El Parque El Drago\nEl árbol se visita desde el **Parque El Drago**, un jardín botánico que rodea al ejemplar con otras especies canarias endémicas: tajinastes, bejeques, cardones y laurisilva. Una pasarela elevada permite contemplar la copa del drago a la altura de los ojos.\n\n### Información práctica\n- 🕙 Horario: todos los días **9:00–18:00** h\n- 💶 Entrada: **4 €** adulto · **2 €** niño · Gratuito menores de 6\n- 📍 En el casco de **Icod de los Vinos**, a 3 km de Garachico\n\n### Cómo llegar\nDesde Puerto de la Cruz: **Línea 363 de TITSA** (45 min). En coche: TF-5 Norte, salida Icod, aparcamiento en el pueblo (5 min andando).\n\n### Recomendación\nComplementa la visita al Drago con el casco histórico de Icod (las bodegas de vino del norte son excelentes) y con un paseo por **Garachico** (3 km). En la misma calle del Drago hay tiendas de artesanía y vinos locales de la D.O. Ycoden-Daute-Isora, ideales para llevar como recuerdo.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.3791,
+        "lng": -16.7228
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/drago_milenario_icod_de_los_vinos.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "drago",
+        "árbol",
+        "icod",
+        "símbolo",
+        "guanches",
+        "naturaleza"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🌳",
+      "top": true,
+      "municipio": "icod-de-los-vinos",
+      "mapsUrl": "https://maps.app.goo.gl/JHfhDiSoBNfWmHVi8"
+    },
+    {
+      "slug": "catedral-la-laguna",
+      "name": "Catedral de La Laguna",
+      "shortDescription": "El templo más importante de Canarias — tres siglos de historia en el corazón del casco UNESCO de La Laguna",
+      "description": "La **Catedral de Nuestra Señora de los Remedios** de San Cristóbal de La Laguna es la sede del Obispado de Tenerife y el templo más importante de las Islas Canarias. Integrada en el **casco histórico declarado Patrimonio de la Humanidad por la UNESCO**, su historia se remonta a los primeros años de la colonización española de la isla.\n\n### Historia y arquitectura\nEl origen de la catedral se remonta a **1515**, cuando se construyó la primera iglesia parroquial en este solar, apenas dos décadas después de la fundación de La Laguna. A lo largo de los siglos el edificio fue ampliado y reformado sucesivamente, hasta que la fachada neoclásica actual — proyectada por **Diego Nicolás Eduardo** en 1819 — transformó definitivamente su imagen exterior. El interior combina elementos **góticos, renacentistas y barrocos** acumulados durante cuatro siglos de historia.\n\n### El interior\nTres naves separadas por pilares de sección octogonal, retablos de gran valor artístico, esculturas policromadas del siglo XVII y una colección de orfebrería religiosa excepcional. Destaca especialmente:\n- ⚰️ El **sepulcro de Alonso Fernández de Lugo**, conquistador y fundador de La Laguna\n- 🖼️ El retablo mayor neoclásico con tallas de los siglos XVI–XVIII\n- 🎨 Pinturas de la escuela flamenca y española de los siglos XVI y XVII\n- 🔔 El órgano histórico de tubos, restaurado y en uso\n\n### La fachada\nLa fachada neoclásica de granito gris, con sus columnas de orden corintio y el gran rosetón central, es uno de los hitos visuales del casco histórico de La Laguna. Fotografiada miles de veces, es la imagen que mejor sintetiza la solemnidad arquitectónica de la ciudad UNESCO.\n\n### Datos clave\n- 📅 Origen: **1515** — primeros años de la colonización española\n- 🏛️ Sede del **Obispado de Tenerife**\n- 🎨 Fachada neoclásica: proyecto de **Diego Nicolás Eduardo**, 1819\n- 🌍 Integrada en el **Patrimonio de la Humanidad UNESCO** de La Laguna (1999)\n\n### Cómo llegar\nEn el corazón del casco histórico de La Laguna, Plaza de la Catedral. Tranvía L1 (parada **La Laguna**) + 5 min andando. Entrada libre durante el horario de culto y visitas.\n\n### Recomendación\nVisita el interior en horario de mañana (9:00–13:00 h), cuando la luz entra por los laterales y realza los retablos. Después, rodea la fachada y sube a la Plaza del Adelantado (200 m) para ver el conjunto urbano que rodea la catedral. Perfecto punto de inicio para el recorrido completo del casco UNESCO.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4862,
+        "lng": -16.3169
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/catedral_de_la_laguna.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "catedral",
+        "la-laguna",
+        "religión",
+        "unesco",
+        "neoclásico",
+        "arte"
+      ],
+      "visitDuration": "45min-1h",
+      "difficulty": "easy",
+      "emoji": "⛪",
+      "top": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/6Nu9wdDhS8Ugaf836"
+    },
+    {
+      "slug": "casa-lercaro",
+      "name": "Museo de Historia y Antropología — Casa Lercaro",
+      "shortDescription": "El palacio genovés del siglo XVI más importante de Canarias — museo que narra la historia de Tenerife desde los guanches al siglo XX",
+      "description": "La **Casa Lercaro** es uno de los edificios civiles más importantes del patrimonio histórico de Canarias. Construida en el siglo XVI por la familia Lercaro, mercaderes genoveses enriquecidos con el comercio del azúcar y el vino, es el ejemplo más completo de **arquitectura palaciega renacentista** del casco histórico de La Laguna — declarado Patrimonio de la Humanidad por la UNESCO.\n\n### El palacio\nEl edificio destaca por su **patio interior porticado de dos plantas**, con galerías de madera de tea y columnas de piedra volcánica, siguiendo el modelo de los palacios italianos del Renacimiento. Sus proporciones, la calidad de los materiales y la conservación de los elementos originales hacen de la Casa Lercaro una joya de la arquitectura civil canaria del siglo XVI.\n\n### El museo\nEn su interior alberga el **Museo de Historia y Antropología de Tenerife**, que recorre cronológicamente la historia de la isla desde la época prehispánica hasta el siglo XX:\n- 🗿 **Época guanche**: instrumentos, cerámicas y cultura material del pueblo aborigen\n- ⚔️ **La conquista** (1494–1496): documentación y recreación del proceso de colonización\n- 🏛️ **Período colonial**: economía del azúcar, el vino y la cochinilla; relaciones con América\n- 📜 **Siglos XIX–XX**: ilustración canaria, liberalismo, emigración a América y modernización\n- 🎨 **Arte y mobiliario** de época: colección de piezas originales del siglo XVI al XIX\n\n### La Calle San Agustín\nLa Casa Lercaro se encuentra en la **Calle San Agustín**, una de las vías históricas más nobles de La Laguna, flanqueada por palacetes y casonas señoriales del siglo XVI. Un paseo por esta calle es, en sí mismo, un recorrido por la arquitectura colonial canaria.\n\n### Información práctica\n- 🕙 Horario: martes–domingo **10:00–18:00** h · Cerrado lunes\n- 💶 Entrada: **3 €** general · **1,50 €** reducida · Gratuito domingos\n- 📍 Calle San Agustín 22, La Laguna\n\n### Cómo llegar\nEn el casco histórico de La Laguna, a 3 min andando desde la Plaza del Adelantado. Tranvía L1 (parada **La Laguna**) + 7 min andando.\n\n### Recomendación\nImprescindible para entender la historia completa de Tenerife desde una perspectiva diferente a la del MUNA. Dedica **1,5–2 horas**. El patio interior solo ya justifica la visita. Perfecto para combinar con la Catedral y el casco histórico de La Laguna en una misma mañana.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.487,
+        "lng": -16.3148
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_de_historia_y_antropologia_de_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museo",
+        "la-laguna",
+        "historia",
+        "palacio",
+        "genovés",
+        "unesco"
+      ],
+      "visitDuration": "1.5-2h",
+      "difficulty": "easy",
+      "emoji": "🏛️",
+      "top": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/wZhCtxBHciqMkvfj7"
+    },
+    {
+      "slug": "museo-del-vino-con-degustacion-de-vinos-locales-y-comida",
+      "name": "Museo del Vino de Tenerife — Degustación y Gastronomía",
+      "shortDescription": "La mejor experiencia enológica de Tenerife — cata de vinos volcánicos D.O. y gastronomía canaria en una hacienda del siglo XVII con vistas al Atlántico",
+      "description": "El **Museo del Vino de Tenerife** (Casa del Vino), en **El Sauzal**, norte de la isla, es el lugar de referencia para descubrir la cultura vitivinícola canaria. Instalado en una hacienda tradicional del siglo XVII con vistas al Atlántico y al Teide, ofrece una experiencia completa: museo, cata guiada de vinos locales y gastronomía canaria auténtica.\n\n### La experiencia\nLa visita incluye un recorrido por el museo, donde descubrirás la historia del vino en Canarias desde los primeros viñedos plantados tras la conquista española hasta las denominaciones de origen actuales. La jornada culmina con una **degustación de vinos locales seleccionados** acompañada de productos típicos de la isla.\n\n### Los vinos de Tenerife\nTenerife es la única provincia española con **5 Denominaciones de Origen** en una sola isla: Tacoronte-Acentejo, Valle de la Orotava, Ycoden-Daute-Isora, Abona y Valle de Güímar. Sus viñedos volcánicos albergan cepas **prefiloxéricas de hasta 500 años** — entre las más antiguas del mundo — que producen vinos únicos imposibles de encontrar en otro lugar del planeta. La **listán negro** (tinta) y la **listán blanco** son las variedades emblema del archipiélago.\n\n### Qué incluye\n- 🏛️ Visita guiada al museo del vino\n- 🍷 Degustación de vinos D.O. Tenerife seleccionados\n- 🧀 Acompañamiento con productos canarios: quesos, embutidos, mojo y gofio\n- 🍽️ Opción de menú completo con cocina canaria tradicional de mercado\n\n### La hacienda\nEl edificio, una hacienda tradicional del siglo XVII restaurada, tiene terraza con **vistas al Atlántico, la costa norte y el Teide**. Uno de los entornos más singulares para una degustación de vinos de toda España — las mismas vistas que tenían los bodegueros canarios hace cuatro siglos.\n\n### Información práctica\n- 📍 El Sauzal, norte de Tenerife (TF-152)\n- 🕙 Martes–sábado **10:00–21:30** h · Domingo **11:00–18:00** h · Cerrado lunes\n- 🎫 Reserva online recomendada — plazas limitadas en las catas\n- 🚗 Salida El Sauzal desde la autopista TF-5\n\n### Recomendación\nIdeal para los amantes del vino y la gastronomía local. Combina con una visita a **La Laguna** (15 km) o **Puerto de la Cruz** (12 km). Si eliges el menú completo, el restaurante ofrece cocina canaria de mercado con maridaje de vinos locales — una experiencia gastronómica completa con vistas al Atlántico difícil de superar.",
+      "island": "tenerife",
+      "category": "other",
+      "coordinates": {
+        "lat": 28.4744,
+        "lng": -16.4136
+      },
+      "images": {
+        "hero": "/images/tenerife/actividades/museo-vino-tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "vino",
+        "gastronomía",
+        "degustación",
+        "museo",
+        "el-sauzal",
+        "denominación-origen"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🍷",
+      "top": true,
+      "municipio": "el-sauzal",
+      "gygTourId": "415940",
+      "gygUrl": "https://gyg.me/srarOtSz"
+    },
+    {
+      "slug": "casa-del-vino-tenerife",
+      "name": "Casa del Vino de Tenerife",
+      "shortDescription": "El museo del vino más importante de Canarias — hacienda del siglo XVII en El Sauzal con los 5 D.O. de Tenerife, catas y restaurante con vistas al Atlántico",
+      "description": "La **Casa del Vino de Tenerife** en **El Sauzal** es el espacio de referencia para entender y disfrutar la cultura vitivinícola canaria. Instalada en una hacienda tradicional del siglo XVII restaurada, con terrazas desde las que se ven el Atlántico y el Teide, es simultáneamente museo, espacio de catas, tienda de vinos y restaurante gastronómico.\n\n### El museo\nEl recorrido expositivo narra la historia del vino en Canarias desde los primeros viñedos plantados tras la conquista española en el siglo XV hasta las cinco denominaciones de origen actuales. Paneles, herramientas históricas de bodega, mapas de viñedos por municipio y una colección de botellas históricas configuran uno de los museos del vino más completos de España.\n\n### Los vinos de Tenerife\nTenerife tiene **5 Denominaciones de Origen** en una sola isla — la mayor concentración de D.O. por superficie de España:\n- 🍇 **Tacoronte-Acentejo** — la más antigua y reconocida, vinos tintos de gran carácter\n- 🍇 **Valle de la Orotava** — viñedos a los pies del Teide, blancos frescos y aromáticos\n- 🍇 **Ycoden-Daute-Isora** — costa noroeste, cepas centenarias en terrazas volcánicas\n- 🍇 **Abona** — sur de la isla, altitud extrema entre 400 y 1.700 m\n- 🍇 **Valle de Güímar** — sureste, microclima especial entre el Teide y el mar\n\nSus **cepas prefiloxéricas de hasta 500 años** — que sobrevivieron a la plaga que devastó los viñedos europeos en el siglo XIX — producen vinos únicos imposibles de replicar.\n\n### La tienda\nLa tienda de la Casa del Vino es la mejor selección de vinos de las 5 D.O. bajo un mismo techo. Ideal para llevarse a casa botellas que difícilmente encontrarás fuera de Tenerife.\n\n### El restaurante\nEl restaurante ofrece cocina canaria de mercado con maridaje de vinos locales. La terraza con vistas al Atlántico es uno de los escenarios más bonitos para comer en el norte de Tenerife.\n\n### Información práctica\n- 📍 Ctra. General del Norte 96, El Sauzal\n- 🕙 Martes–sábado **10:00–21:30** h · Domingo **11:00–18:00** h · Cerrado lunes\n- 💶 Entrada al museo: gratuita · Catas: desde **6 €**\n- 🚗 Salida El Sauzal desde la autopista TF-5 Norte\n\n### Recomendación\nVisita imprescindible para los amantes del vino. Llega por la mañana, haz el museo, compra en la tienda y quédate a comer en la terraza. Combina perfectamente con **La Laguna** (15 km) o **Puerto de la Cruz** (12 km). Si quieres una experiencia guiada con degustación incluida, puedes reservar una actividad organizada.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4744,
+        "lng": -16.4136
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/casco_historico_de_adeje.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "vino",
+        "museo",
+        "denominación-origen",
+        "el-sauzal",
+        "gastronomía",
+        "hacienda"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🍷",
+      "top": true,
+      "municipio": "el-sauzal",
+      "mapsUrl": "https://maps.app.goo.gl/Qk42coyAhY58ycvt9"
+    },
+    {
+      "slug": "museo-ciencia-cosmos",
+      "name": "Museo de la Ciencia y el Cosmos",
+      "shortDescription": "El museo científico más completo de Canarias — planetario, astronomía y física interactiva en La Laguna",
+      "description": "El **Museo de la Ciencia y el Cosmos** de La Laguna es el espacio científico y divulgativo más importante de las Islas Canarias. Combinando exposiciones interactivas de física, biología y astronomía con un **planetario de proyección digital**, es una visita imprescindible tanto para familias con niños como para cualquiera con curiosidad por el universo.\n\n### El edificio y el contexto\nUbicado en La Laguna, a pocos minutos del casco histórico UNESCO, el museo pertenece a la red de museos del **Organismo Autónomo de Museos y Centros del Cabildo de Tenerife**. Su diseño exterior, con la cúpula del planetario como elemento dominante, es ya un referente visual del municipio.\n\n### Las exposiciones\nEl recorrido por el museo abarca tres grandes áreas temáticas:\n\n**🌌 Cosmos y Astronomía**\nTenerife es uno de los mejores lugares del mundo para la observación astronómica — el **Observatorio del Teide** (IAC) es la instalación astronómica más importante del hemisferio norte. El museo explica por qué: las condiciones de cielo, la posición geográfica y la historia de la astronomía en las Canarias desde los guanches hasta el presente.\n\n**⚛️ Física e interactividad**\nInstalaciones interactivas sobre mecánica, ondas, electricidad, óptica y termodinámica diseñadas para entender con las manos los principios del mundo físico. Pensado para todas las edades.\n\n**🧬 La vida y la evolución**\nBiología, evolución, ecosistemas canarios y biodiversidad del archipiélago. La sección sobre flora y fauna endémica de las Canarias conecta con la naturaleza única de las islas.\n\n### El planetario\nLa **sesión de planetario** es el punto culminante de la visita: proyección digital de 360° sobre la cúpula que recrea el cielo nocturno de Canarias, viajes virtuales por el sistema solar y el universo observable. Sesiones en español con horarios fijos — conviene consultar y reservar con antelación.\n\n### Información práctica\n- 📍 Avda. de Los Menceyes 70, La Laguna\n- 🕙 Martes–sábado **9:00–19:00** h · Domingo **10:00–17:00** h · Cerrado lunes\n- 💶 Entrada: **5 €** adulto · **3 €** reducida · Gratuito menores de 6\n- 🔭 Sesión de planetario: **2 €** adicionales — reserva en taquilla\n- 🚌 Guagua desde Santa Cruz (Línea 014) o desde La Laguna casco (15 min andando)\n\n### Recomendación\nIdeal para familias con niños y para cualquiera que tenga curiosidad científica. Dedica **2–3 horas** e incluye una sesión de planetario. Combina con el casco histórico de La Laguna (15 min andando) para una jornada completa en el municipio. Si tienes interés en astronomía, busca también información sobre las visitas al **Observatorio del Teide**.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4826,
+        "lng": -16.3198
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_de_la_ciencia_y_el_cosmos.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museo",
+        "ciencia",
+        "planetario",
+        "astronomía",
+        "la-laguna",
+        "familias"
+      ],
+      "visitDuration": "2-3h",
+      "difficulty": "easy",
+      "emoji": "🔭",
+      "top": false,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/wBBqN6rMKdwEsVKf6"
+    },
+    {
+      "slug": "cristo-de-la-laguna",
+      "name": "Real Santuario del Santísimo Cristo de La Laguna",
+      "shortDescription": "El lugar de culto más venerado de Canarias — la imagen del Cristo data del siglo XV y atrae a miles de devotos cada septiembre",
+      "description": "El **Real Santuario del Santísimo Cristo de La Laguna** es el lugar de culto más venerado de las Islas Canarias y uno de los centros de devoción popular más importantes de toda España. La imagen del **Santísimo Cristo de La Laguna** — una talla de madera policromada del siglo XV de origen flamenco — es objeto de una devoción profunda y extendida entre los canarios desde hace más de quinientos años.\n\n### La imagen\nLa talla del Cristo, de autor desconocido y técnica flamenca, llegó a La Laguna en los últimos años del siglo XV, apenas fundada la ciudad. Su **expresión de serena dignidad en el sufrimiento** y la calidad excepcional de la talla la convierten en una de las imágenes religiosas más importantes del arte canario. Viste el tradicional **faldellín de terciopelo negro** y se conserva en un camarín propio en el interior del santuario.\n\n### La romería de septiembre\nCada año, en la segunda quincena de **septiembre**, La Laguna vive los días más emocionantes de su calendario festivo. La **Fiesta del Santísimo Cristo** — declarada de Interés Turístico Nacional — concentra a decenas de miles de devotos llegados de toda Canarias, el continente y la comunidad canaria en América Latina. Las procesiones nocturnas por el casco histórico UNESCO, con el Cristo en su paso rodeado de flores y cirios, son una de las imágenes más impactantes de la religiosidad popular canaria.\n\n### El santuario\nEl edificio actual, de estilo barroco-colonial, data del siglo XVII y fue levantado por los franciscanos para albergar la venerada imagen. El interior guarda:\n- ✝️ La talla original del **Santísimo Cristo** (siglo XV)\n- 🕯️ El **camarín** donde se venera la imagen, de gran riqueza ornamental\n- 🖼️ Exvotos y ofrendas depositados por los fieles a lo largo de siglos\n- 🏛️ Retablos y esculturas barrocas de los siglos XVII–XVIII\n\n### Contexto histórico\nLa devoción al Cristo de La Laguna trasciende lo religioso: ha sido durante siglos el elemento de cohesión identitaria más potente de los canarios. Marineros, emigrantes y guerreros canarios lo invocaron en momentos decisivos, y su imagen ha presidido los momentos más importantes de la historia de Tenerife.\n\n### Información práctica\n- 📍 Plaza de Santo Domingo, La Laguna\n- 🕙 Abierto todos los días — horario de culto variable (consultar en el santuario)\n- 💶 Entrada libre\n- 🚋 Tranvía L1 (parada **La Laguna**) + 5 min andando\n\n### Recomendación\nEntra en silencio y dedica unos minutos a contemplar la imagen — la calidad de la talla justifica la visita independientemente de la fe de cada uno. Si puedes ir en septiembre, las procesiones del Cristo son una experiencia única. Perfecto para combinar con la Catedral (200 m) y el recorrido completo por el casco UNESCO de La Laguna.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4868,
+        "lng": -16.3165
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/real_santuario_del_cristo_de_la_laguna.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "religión",
+        "la-laguna",
+        "devoción",
+        "romería",
+        "barroco",
+        "franciscanos"
+      ],
+      "visitDuration": "30-45min",
+      "difficulty": "easy",
+      "emoji": "✝️",
+      "top": true,
+      "municipio": "la-laguna",
+      "mapsUrl": "https://maps.app.goo.gl/jHKezrBQ5gFPiga1A"
+    },
+    {
+      "slug": "museo-militar-almeyda",
+      "name": "Museo Militar Regional de Canarias",
+      "shortDescription": "El museo militar más importante de Canarias — sede del cañón El Tigre que costó el brazo a Nelson en 1797",
+      "description": "El **Museo Militar Regional de Canarias**, ubicado en el **Cuartel de Almeyda** de Santa Cruz de Tenerife, es el principal archivo vivo de la historia militar de las Islas Canarias. Sus colecciones abarcan desde la conquista española del siglo XV hasta el siglo XX, pero su pieza estrella es sin duda el **cañón El Tigre**: la pieza de artillería que, según la tradición, disparó la bala de cañón que hirió al almirante británico **Horatio Nelson** durante el **Combate de Santa Cruz de 1797**, costándole el brazo derecho.\n\n### El cañón El Tigre\nEl 25 de julio de 1797, Nelson atacó el puerto de Santa Cruz al mando de una flota de 3.700 hombres con el objetivo de tomar la ciudad y apoderarse de un galeón cargado con el tesoro del virrey del Perú. Fue recibido por las milicias canarias bajo el mando del **general Gutiérrez**. En el desembarco frustrado, una bala de cañón hirió el brazo derecho de Nelson, que tuvo que ser amputado. La batalla fue una de las pocas derrotas navales de Nelson en toda su carrera. El cañón El Tigre, que disparó durante la defensa, se conserva en el museo como símbolo de la resistencia tinerfeña.\n\n### Las colecciones\n- 🏰 **Armas y uniformes** desde la conquista del siglo XV hasta el siglo XX\n- 🗺️ **Cartografía histórica** de las Islas Canarias desde el siglo XVI\n- ⚔️ **Recreación de la Batalla de Santa Cruz de 1797** — mapas, armas, documentos originales\n- 🎖️ **Condecoraciones y medallas** militares de Canarias\n- 🚢 **Maquetas navales** y material de la época de las guerras atlánticas\n\n### El Cuartel de Almeyda\nEl edificio que alberga el museo es en sí un elemento patrimonial: el **Cuartel General de Almeyda**, una construcción militar del siglo XIX en el corazón de Santa Cruz, con su patio de armas interior y su arquitectura neoclásica castrense.\n\n### Información práctica\n- 📍 Calle San Isidro, Santa Cruz de Tenerife\n- 🕙 Martes–sábado **10:00–14:00** h · Cerrado domingos y lunes\n- 💶 Entrada gratuita\n- 🚋 Tranvía (parada **Weyler**) + 10 min andando\n\n### Recomendación\nIdeal para combinar con la **Iglesia de la Concepción** (5 min andando), donde se guardan las banderas capturadas a Nelson en la misma batalla. Juntos forman el relato completo del Combate de Santa Cruz de 1797 — uno de los episodios más curiosos de la historia militar europea.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.464,
+        "lng": -16.2506
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/museo_historico_militar_de_canarias.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "museo",
+        "militar",
+        "nelson",
+        "santa-cruz",
+        "historia",
+        "artillería"
+      ],
+      "visitDuration": "1-1.5h",
+      "difficulty": "easy",
+      "emoji": "⚔️",
+      "top": false,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/A9syxRoypDs5WZnK7"
+    },
+    {
+      "slug": "mercado-africa-santa-cruz",
+      "name": "Mercado Nuestra Señora de África",
+      "shortDescription": "El mercado más bonito de Tenerife — «el vientre de Santa Cruz», con frutas tropicales, flores, pescado y artesanía bajo una arquitectura colonial única",
+      "description": "El **Mercado de Nuestra Señora de África** es el corazón gastronómico y social de Santa Cruz de Tenerife. Inaugurado en **1943** y diseñado por el arquitecto **José Enrique Marrero Regalado**, su arquitectura de inspiración árabe-colonial — con arcos de herradura, mosaicos de colores y una cúpula central — lo convierte en uno de los mercados más hermosos de España.\n\n### El edificio\nEl diseño del mercado integra elementos del **mudejarismo** canario con influencias del norte de África y el colonialismo atlántico, creando un espacio único que es a la vez patrimonio arquitectónico y espacio vivo de uso diario. Sus galerías cubiertas, el patio central abierto y los colores ocres y blancos de la fachada lo hacen irresistible desde el exterior.\n\n### El mercado interior\nEn la planta baja se concentra toda la oferta alimentaria:\n- 🐟 **Pescadería** — atún, vieja (loro), sama, pargo, cherne, pulpo y la pesca diaria del Atlántico\n- 🥩 **Carnicería** — carne de cabra, conejo y cerdo de la isla\n- 🥑 **Frutas y verduras tropicales** — plátano canario, aguacate, papaya, mango, pipa, tomates cherry del sur\n- 🧀 **Quesos canarios** — queso fresco, curado y ahumado de las distintas islas\n- 🫙 **Productos típicos** — mojo rojo, mojo verde, gofio, miel de palma, ron miel\n\n### El rastrillo y la artesanía\nEn el nivel superior, el **rastrillo** (mercadillo) de los domingos convierte el mercado en un espacio de segunda mano, artesanía local y productos creativos. Durante la semana, las plantas superiores albergan puestos de flores que hacen del mercado uno de los más coloridos del archipiélago.\n\n### Los bares del mercado\nEl secreto mejor guardado del Mercado de África son sus **bares y tabancos** interiores, donde los locales desayunan con café, tostadas con mojo y medias noches desde las 7 de la mañana. Una experiencia auténtica lejos del circuito turístico.\n\n### Información práctica\n- 📍 Avda. de San Sebastián, Santa Cruz de Tenerife\n- 🕙 Lunes–sábado **6:00–14:00** h · Domingo **6:00–13:00** h (rastrillo)\n- 💶 Entrada libre\n- 🚋 Tranvía (parada **Weyler**) + 5 min andando\n\n### Recomendación\nLlega antes de las 9:00 para ver el mercado en su máximo esplendor. Desayuna en uno de los bares interiores, compra queso canario y mojo para llevar, y termina con un recorrido por los puestos de flores. El domingo, el rastrillo añade una capa de ambiente y color extra.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4664,
+        "lng": -16.2531
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/mercado_nuestra_senora_de_africa.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "mercado",
+        "gastronomía",
+        "santa-cruz",
+        "arquitectura",
+        "productos-locales",
+        "flores"
+      ],
+      "visitDuration": "1-2h",
+      "difficulty": "easy",
+      "emoji": "🛒",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/n3YjaWSFsXbTxDCu7"
+    },
+    {
+      "slug": "gastronomia-canaria-tenerife",
+      "name": "Gastronomía Canaria",
+      "shortDescription": "Una cocina de identidad única — gofio, papas arrugadas, mojo, bienmesabe y ron miel: los sabores que definen Tenerife",
+      "description": "La gastronomía canaria es una de las más singulares de España: una cocina de raíces **guanches**, influencias africanas, latinoamericanas y peninsulares que ha desarrollado a lo largo de cinco siglos una identidad propia inconfundible. Tenerife es el mejor escaparate de esta tradición culinaria.\n\n### Los platos imprescindibles\n\n**🥔 Papas arrugadas con mojo**\nEl plato más icónico de Canarias. Papas pequeñas hervidas en agua con sal hasta que la piel se arruga y aparece una costra salina blanca. Se sirven con **mojo rojo** (base de pimiento, ajo, comino y vinagre) o **mojo verde** (cilantro o perejil). Un plato de origen humilde que hoy aparece en los mejores restaurantes del mundo.\n\n**🌾 Gofio**\nEl alimento ancestral de los guanches: harina de cereal (trigo, mijo o maíz) tostado en piedra. Con 2.000 años de historia, el gofio se usa en Canarias como pasta, espesante de sopas, postre (escaldón de gofio) y sustituto del pan. Único en el mundo — no existe en ninguna otra cocina.\n\n**🍲 Puchero canario**\nEl cocido de las islas: garbanzos, verduras de temporada (calabaza, batata, judías verdes, maíz), carne de cerdo, pollo y tocino. Se sirve como sopa primero y como plato de puchero después. El gofio se mezcla con el caldo para hacer el escaldón.\n\n**🐇 Conejo en salmorejo**\nEl salmorejo canario no tiene nada que ver con el andaluz: es un adobo de ajo, pimiento, tomillo, laurel, vinagre y vino blanco en el que se macera el conejo durante horas antes de freírlo. Uno de los platos más representativos de la cocina tradicional de Tenerife.\n\n**🐟 Vieja a la plancha**\nLa vieja (loro) es el pescado más canario de todos. De carne blanca y sabor delicado, se sirve a la plancha con papas arrugadas, mojo y ensalada. Una combinación perfecta que encontrarás en cualquier guachinche de la isla.\n\n**🐐 Carne de cabra guisada**\nEl caprino ha sido el ganado más importante de las islas desde los guanches. La cabra guisada con papas y especias locales es un plato de domingo que define la cocina del interior de Tenerife.\n\n### Los postres\n\n**🍯 Bienmesabe**\nCrema de almendras molidas con azúcar, huevos, limón y canela. De textura densa y sabor intenso, se toma solo, sobre helado de nata o como relleno de repostería. Su nombre lo dice todo: «bien me sabe».\n\n**🌽 Frangollo**\nPudín canario de harina de millo (maíz) cocida con leche, azúcar, huevos, almendras, pasas y limón. Postre de fiesta por tradición, hoy menos habitual pero recuperado por los restaurantes de cocina canaria de autor.\n\n**🍠 Truchas de batata**\nEmpanadillas fritas rellenas de batata, almendra, cabello de ángel y canela, espolvoreadas de azúcar glas. El dulce de Navidad por excelencia en Tenerife, aunque se encuentran todo el año en pastelerías y panaderías.\n\n**🥛 Quesillo**\nEl flan canario: un pudin de leche condensada y huevos de textura más densa y dulzor más pronunciado que el flan peninsular. Presencia obligada en el menú del día de cualquier restaurante de barrio.\n\n### Las bebidas\n\n**🍷 Vinos D.O. de Tenerife**\nCinco denominaciones de origen en una sola isla. Prueba un tinto de Tacoronte-Acentejo con el conejo, un blanco de Valle de la Orotava con el pescado o un vino de tea (criado en madera de pino canario) si encuentras alguno.\n\n**☕ Barraquito**\nEl café más canario del mundo: en un vaso de cristal se superponen leche condensada, licor 43, leche caliente, espresso, espuma de leche y canela con piel de limón. Un ritual visual tanto como gustativo — símbolo de la cultura del café en Santa Cruz.\n\n**🥃 Ron Miel**\nAguardiente de caña de azúcar mezclado con miel de palma canaria. Con menos de 20° de alcohol y sabor dulce y especiado, es el licor más popular de las Canarias. Se toma solo, con hielo o en cócteles.\n\n### Dónde comer auténtico en Tenerife\n- 🍽️ **Guachinche**: local informal en casa de agricultor, menú único con vino de la tierra. Solo en el norte de Tenerife, son la experiencia gastronómica más auténtica de la isla\n- 🐟 **Chiringuito de playa**: pescado del día a la plancha con mojo y papas arrugadas\n- 🛒 **Mercado de África** (Santa Cruz): para comprar productos y desayunar con los locales\n- 🏡 **Restaurante de cocina canaria**: busca «cuchifrito» o «menú canario» en los barrios residenciales\n\n### Recomendación\nNo salgas de Tenerife sin probar: papas arrugadas con mojo rojo picón, barraquito en Santa Cruz por la mañana, vieja a la plancha en un chiringuito del norte y bienmesabe de postre. Si el tiempo lo permite, reserva mesa en un guachinche del Valle de la Orotava o Tacoronte — la experiencia gastronómica más auténtica de las Canarias.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4637,
+        "lng": -16.2524
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/papas_arrugadas_con_mojo.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "gastronomía",
+        "cocina-canaria",
+        "gofio",
+        "papas-arrugadas",
+        "mojo",
+        "guachinche"
+      ],
+      "visitDuration": "variable",
+      "difficulty": "easy",
+      "emoji": "🍽️",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": "https://maps.app.goo.gl/NotEoxDieRJcMhfx9"
+    },
+    {
+      "slug": "romerias-tenerife",
+      "name": "Romerías de Tenerife",
+      "shortDescription": "La tradición festiva más arraigada de Canarias — procesiones con carretas de bueyes, trajes típicos, música folclórica y vino de la tierra",
+      "description": "Las **romerías** son la expresión más genuina y colorida de la identidad cultural canaria. Declaradas en su conjunto **Fiesta de Interés Turístico Nacional**, son procesiones festivas de origen religioso que celebran al santo patrón de cada municipio con una mezcla única de fe popular, folclore, gastronomía y convivencia.\n\n### ¿Qué es una romería?\nEl término «romería» viene de «romero» — el peregrino que va a Roma. En Canarias designa la procesión popular que cada localidad celebra en honor a su patrón o patrona: una comitiva de cientos o miles de participantes que recorre las calles o caminos tradicionales en traje típico canario, acompañada de carretas de bueyes engalanadas con flores y los mejores productos del campo, música folclórica en directo y abundante vino de la tierra.\n\n### Los elementos de una romería\n\n**🐂 Las carretas**\nEl corazón visual de toda romería. Carros de madera tirados por bueyes, engalanados con flores, frutas, verduras, bordados y elementos del campo. Cada carreta representa a una cuadrilla o asociación y compite en belleza y originalidad. El olor a tierra mojada, flores y vino mientras pasan las carretas es inconfundible.\n\n**👗 El traje típico canario**\nLos romeros desfilan en traje típico regional: para las mujeres, refajo de colores vivos, blusa bordada, mantón y sombrero de paja con flores; para los hombres, calzón corto de paño, camisa blanca, faja, chaleco y sombrero. Cada municipio tiene sus propios colores y bordados característicos.\n\n**🎵 La música folclórica**\nLas cuadrillas de folclore, con timples (instrumento de cuerda típico canario), guitarras, laúdes y castañuelas, marcan el paso de la comitiva. Los ritmos canarios — **folía, isa y tajaraste** — suenan en todas las romerías. El canto improvisado (trovos) es otra de las tradiciones que acompañan los desfiles.\n\n**🍷 El vino y la comida**\nNo hay romería sin vino de la tierra, queso canario, embutidos de la isla y papas arrugadas con mojo. Las romerías son también una fiesta gastronómica: los romeros comparten con el público y entre ellos todo lo que llevan en las carretas. La hospitalidad canaria se expresa en su máxima potencia.\n\n### Las romerías más importantes de Tenerife\n\n- 🌿 **Romería de San Marcos** (Tegueste) — **abril** · Una de las más antiguas de Canarias\n- 🌾 **Romería de San Isidro** (La Orotava) — **mayo/junio** · La más multitudinaria del norte, con el Teide de fondo\n- 🎉 **Romería de San Benito Abad** (La Laguna) — **julio** · En el casco histórico UNESCO\n- 🌊 **Romería de la Virgen del Carmen** (varios municipios) — **julio** · Procesión marítima en pueblos costeros\n- ⛪ **Romería de la Virgen de Candelaria** — **agosto** · La más grande de Canarias\n- ✝️ **Romería del Cristo de La Laguna** — **septiembre** · La más devota y multitudinaria de Tenerife\n\n### La romería vs. el carnaval\nSi el **Carnaval de Santa Cruz** es la fiesta de la irreverencia, el exceso y la creatividad urbana, la romería es su opuesto complementario: la fiesta del campo, la tradición, la identidad rural y la raíz. Dos expresiones de la misma alma canaria, igualmente apasionadas.\n\n### El timple\nEl **timple** es al folclore canario lo que la guitarra flamenca al sur peninsular: un instrumento de cuerdas pequeño, de caja alta y sonido cristalino, que suena en todas las romerías, parandas y veladas canarias. Escucharlo en vivo en una romería es entender algo esencial de la cultura de las islas.\n\n### Recomendación turística\nSi tu visita coincide con cualquier romería, no te la pierdas — es uno de los espectáculos visuales y sensoriales más auténticos que ofrece Tenerife. Llega temprano para ver pasar las carretas, acepta el vino y el queso que te ofrecerán los romeros (es parte de la tradición), y quédate para la verbena nocturna que sigue al desfile. El calendario oficial de romerías y fiestas lo publica el Cabildo de Tenerife cada año.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.389,
+        "lng": -16.5229
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/romeria_de_los_labradores.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "romería",
+        "folclore",
+        "tradición",
+        "carretas",
+        "timple",
+        "fiesta"
+      ],
+      "visitDuration": "variable",
+      "difficulty": "easy",
+      "emoji": "🎉",
+      "top": true,
+      "municipio": "la-orotava",
+      "mapsUrl": ""
+    },
+    {
+      "slug": "carnaval-santa-cruz-tenerife",
+      "name": "Carnaval de Santa Cruz de Tenerife",
+      "shortDescription": "El segundo carnaval más grande del mundo — declarado Fiesta de Interés Turístico Internacional, con más de 250.000 personas en las calles de Santa Cruz cada febrero",
+      "description": "El **Carnaval de Santa Cruz de Tenerife** es el mayor espectáculo de la isla y uno de los eventos culturales más importantes del mundo. Declarado **Fiesta de Interés Turístico Internacional** y considerado el **segundo carnaval más grande del planeta** tras el de Río de Janeiro, convierte Santa Cruz durante dos semanas de febrero en el epicentro mundial de la fantasía, el color y la música.\n\n### Historia\nLas primeras referencias al carnaval en Tenerife datan del **siglo XVI**, cuando la isla ya celebraba mascaradas y fiestas de disfraces al estilo mediterráneo. Durante la dictadura de Franco fue prohibido y rebautizado oficialmente como «Fiestas de Invierno», pero los tinerfeños siguieron celebrándolo clandestinamente con el mismo espíritu. Desde 1977, con la llegada de la democracia, el Carnaval de Santa Cruz volvió a su nombre y se transformó en el evento descomunal que es hoy.\n\n### Los actos principales\n\n**👑 Elección de la Reina del Carnaval**\nEl acto más espectacular y mediático del Carnaval. En el recinto del Parque García Sanabria o en el Auditorio, las candidatas desfilan con trajes de fantasía de dimensiones imposibles — estructuras de varios metros de altura y decenas de kilos de peso — que son obras de ingeniería textil. La Reina del Carnaval de Santa Cruz es una figura de proyección mundial.\n\n**🎭 La Cabalgata Anunciadora**\nEl desfile que abre oficialmente el Carnaval. Comparsas, murgas, rondallas y carrozas llenan las calles de Santa Cruz en un espectáculo de color y música que dura horas.\n\n**🎺 Las murgas y comparsas**\nLas **murgas** son grupos de música satírica que durante meses preparan canciones de crítica política y social, con letra ingeniosa y ritmos pegadizos. Las **comparsas** son grupos de baile con coreografías sincronizadas y vestuario temático. Ambas compiten en el **Concurso de Murgas y Comparsas** ante miles de espectadores.\n\n**🎶 El Coso**\nEl gran desfile final del Carnaval — la procesión más multitudinaria del año, que recorre el centro de Santa Cruz con comparsas, murgas, carrozas y decenas de miles de disfrazados. El Coso de día es familiar y colorido; el **Coso de Noche** es la versión adulta e irreverente.\n\n**🐟 El Entierro de la Sardina**\nEl acto de clausura del Carnaval, celebrado el miércoles de ceniza. Una sardina gigante — la representación del fin de la fiesta — es paseada en procesión paródica entre llantos fingidos y discursos humorísticos, y finalmente «enterrada» o quemada. Es un ritual de despedida del Carnaval con siglos de tradición en toda España, pero en Tenerife cobra dimensiones únicas.\n\n### La noche del Carnaval\nLas **galas nocturnas** en la Plaza de España y el centro de Santa Cruz reúnen a decenas de miles de personas disfrazadas. Los conciertos de música latina, la presencia de artistas internacionales y el ambiente de la ciudad hacen que el Carnaval de Tenerife sea una experiencia que supera cualquier expectativa. La fiesta no termina hasta el amanecer.\n\n### Datos clave\n- 🌍 **2.º carnaval más grande del mundo** tras Río de Janeiro\n- 🎪 Declarado **Fiesta de Interés Turístico Internacional**\n- 📅 Celebración: **febrero** (varía cada año según el calendario litúrgico)\n- 👥 Asistencia: más de **250.000 personas** en los actos principales\n- 📜 Historia documentada desde el **siglo XVI**\n- 🚫 Prohibido por Franco, celebrado clandestinamente — símbolo de resistencia cultural\n\n### Cómo vivirlo como turista\n- 🎫 Para la **Elección de la Reina**, compra entradas con meses de antelación\n- 🏨 Reserva alojamiento en Santa Cruz con **3–6 meses** de antelación — la isla se llena\n- 🚋 El tranvía amplía horario durante el Carnaval\n- 👗 Disfrazarse no es obligatorio, pero sí muy recomendable — nadie te mirará raro con un disfraz\n- 📍 La Plaza de España, la Rambla y el Parque García Sanabria son los epicentros\n\n### Recomendación\nSi solo puedes elegir un evento para vivir en Tenerife, elige el Carnaval. La combinación de escala, creatividad desbordante, música en la calle y energía de la ciudad transformada es incomparable. Ven disfrazado, acepta que dormirás poco y prepárate para uno de los espectáculos humanos más extraordinarios de Europa.",
+      "island": "tenerife",
+      "category": "culture",
+      "coordinates": {
+        "lat": 28.4641,
+        "lng": -16.2519
+      },
+      "images": {
+        "hero": "/images/tenerife/cultural/carnaval_de_santa_cruz_de_tenerife.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "tags": [
+        "carnaval",
+        "santa-cruz",
+        "fiesta",
+        "disfraz",
+        "murga",
+        "comparsa"
+      ],
+      "visitDuration": "variable",
+      "difficulty": "easy",
+      "emoji": "🎭",
+      "top": true,
+      "municipio": "santa-cruz-de-tenerife",
+      "mapsUrl": ""
     }
   ],
   "sections": [
@@ -2609,42 +3144,59 @@
       "label": "Historia",
       "emoji": "🏰",
       "color": "#6366f1",
-      "pois": ["santa-cruz", "teide"]
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
     },
     {
       "id": "cultura-canaria",
       "label": "Cultura Canaria",
       "emoji": "🎭",
       "color": "#ec4899",
-      "pois": ["santa-cruz", "teide"]
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
     },
     {
       "id": "gastronomia",
       "label": "Gastronomía",
       "emoji": "🍽️",
       "color": "#f97316",
-      "pois": ["santa-cruz"]
+      "pois": [
+        "santa-cruz"
+      ]
     },
     {
       "id": "naturaleza",
       "label": "Naturaleza",
       "emoji": "🌿",
       "color": "#22c55e",
-      "pois": ["teide", "los-gigantes"]
+      "pois": [
+        "teide",
+        "los-gigantes"
+      ]
     },
     {
       "id": "tradiciones",
       "label": "Tradiciones",
       "emoji": "💃",
       "color": "#a855f7",
-      "pois": ["santa-cruz", "teide"]
+      "pois": [
+        "santa-cruz",
+        "teide"
+      ]
     },
     {
       "id": "curiosidades",
       "label": "Curiosidades",
       "emoji": "🔍",
       "color": "#06b6d4",
-      "pois": ["teide", "los-gigantes"]
+      "pois": [
+        "teide",
+        "los-gigantes"
+      ]
     },
     {
       "id": "playas",
@@ -2690,14 +3242,20 @@
       "label": "Actividades",
       "emoji": "🌊",
       "color": "#0284c7",
-      "pois": ["siam-park", "avistamiento-cetaceos-los-gigantes"]
+      "pois": [
+        "siam-park",
+        "avistamiento-cetaceos-los-gigantes"
+      ]
     },
     {
       "id": "transporte",
       "label": "Cómo Moverse",
       "emoji": "🚗",
       "color": "#94a3b8",
-      "pois": ["alquiler-coche-tenerife", "titsa-tenerife"]
+      "pois": [
+        "alquiler-coche-tenerife",
+        "titsa-tenerife"
+      ]
     }
   ],
   "municipios": [
