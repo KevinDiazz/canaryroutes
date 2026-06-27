@@ -1157,11 +1157,13 @@ export function PoiDetailSheet({
                     }
                   </button>
                 </>
-              )}
-            </div>}
+              )
+            }
+          </div>}
           </div>
         )}
-        </div>{/* sheet-main-content */}
       </div>
-    </>)
+      </div>
+    </>
+  );
 }

@@ -294,6 +294,37 @@ const TENERIFE_ZONES = [
   },
 ] as const;
 
+const GRAN_CANARIA_ZONES = [
+  {
+    slug: 'norte',
+    label: { es: 'Norte', en: 'North', de: 'Nord' },
+    color: '#fdfdfc',
+    coordinates: { lat: 28.12, lng: -15.58 },
+    municipioSlugs: [
+      'arucas', 'firgas', 'valleseco', 'moya', 'guia',
+      'las-palmas', 'galdar', 'agaete', 'aldea',
+    ],
+  },
+  {
+    slug: 'centro',
+    label: { es: 'Centro', en: 'Center', de: 'Mitte' },
+    color: '#079dde',
+    coordinates: { lat: 28.01, lng: -15.56 },
+    municipioSlugs: [
+      'artenara', 'tejeda', 'vega-san-mateo', 'valsequillo',
+    ],
+  },
+  {
+    slug: 'sur',
+    label: { es: 'Sur', en: 'South', de: 'Süd' },
+    color: '#ffbf00',
+    coordinates: { lat: 27.87, lng: -15.57 },
+    municipioSlugs: [
+      'telde', 'ingenio', 'aguimes', 'santa-lucia', 'san-bartolome', 'mogan',
+    ],
+  },
+] as const;
+
 // Retrasa el montaje de imágenes de marcadores para evitar descargar
 // decenas de fotos a la vez (lag al cargar/cambiar de isla).
 // `index` permite escalonar la carga (primeros marcadores antes que el resto).
@@ -620,10 +651,10 @@ interface ZoneSheetProps {
   poisByMunicipio: Record<string, number>;
   onMunicipioClick: (slug: string) => void;
   locale: string;
+  zones: typeof TENERIFE_ZONES | typeof GRAN_CANARIA_ZONES;
 }
 
-function ZoneSheet({ open, onClose, activeZone, onZoneChange, municipios, poisByMunicipio, onMunicipioClick, locale }: ZoneSheetProps) {
-  const zones = TENERIFE_ZONES;
+function ZoneSheet({ open, onClose, activeZone, onZoneChange, municipios, poisByMunicipio, onMunicipioClick, locale, zones }: ZoneSheetProps) {
   const currentZone = zones.find(z => z.slug === activeZone) ?? zones[0];
 
   // Memoizar la lista por zona para evitar recalcular en cada render
@@ -805,7 +836,7 @@ function ZoneSheet({ open, onClose, activeZone, onZoneChange, municipios, poisBy
         </div>
 
         {/* Lista de municipios */}
-        <div ref={scrollRef} style={{ overflowY: 'auto', padding: '8px 12px 28px', flex: 1, display: 'flex', flexDirection: 'column', gap: '8px', willChange: 'transform', WebkitOverflowScrolling: 'touch' as const }}>
+        <div ref={scrollRef} style={{ overflowY: 'auto', padding: '8px 12px 28px', flex: 1, display: 'flex', flexDirection: 'column', gap: '8px', willChange: 'transform', WebkitOverflowScrolling: 'touch' as const, overscrollBehavior: 'contain' }}>
           {zoneMunicipios.map(m => {
             const count = poisByMunicipio[m.slug] ?? 0;
             const heroImg = m.images?.hero ?? m.heroImage ?? '/images/placeholder.avif';
@@ -822,6 +853,8 @@ function ZoneSheet({ open, onClose, activeZone, onZoneChange, municipios, poisBy
                   cursor: 'pointer', textAlign: 'left',
                   boxShadow: '0 1px 6px rgba(0,0,0,0.06)',
                   padding: 0, minHeight: '88px', flexShrink: 0,
+                  contain: 'layout style paint',
+                  willChange: 'auto',
                 }}
               >
                 {/* Thumbnail cuadrado */}
@@ -829,9 +862,9 @@ function ZoneSheet({ open, onClose, activeZone, onZoneChange, municipios, poisBy
                   <img
                     src={heroImg}
                     alt={m.name}
-                    loading="eager"
+                    loading="lazy"
                     decoding="async"
-                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', willChange: 'auto' }}
                   />
                 </div>
 
@@ -1113,11 +1146,14 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   const activeCategoryChip = activeFilter && CATEGORY_CHIP_IDS.includes(activeFilter)
     ? activeFilter : null;
 
-  // En Tenerife con filtro "municipios" → modo zonas coloreadas (sin pines individuales)
-  const isTenerifeZoneMode = activeIsland === 'tenerife' && activeFilter === 'municipios';
+  // Con filtro "municipios" en islas con zonas → modo coloreado (sin pines individuales)
+  const islandZones = activeIsland === 'tenerife' ? TENERIFE_ZONES : activeIsland === 'gran-canaria' ? GRAN_CANARIA_ZONES : null;
+  const isZoneMode = islandZones !== null && activeFilter === 'municipios';
+  /** @deprecated usar isZoneMode */
+  const isTenerifeZoneMode = isZoneMode && activeIsland === 'tenerife';
 
-  // Marcadores de municipio: sin filtro, con "municipios" (salvo Tenerife zona mode), o con "top"
-  const showMunicipioMarkers = (!activeFilter || activeFilter === 'municipios' || activeFilter === 'top') && !isTenerifeZoneMode;
+  // Marcadores de municipio: sin filtro, con "municipios" (salvo zona mode), o con "top"
+  const showMunicipioMarkers = (!activeFilter || activeFilter === 'municipios' || activeFilter === 'top') && !isZoneMode;
 
   const municipioMarkers = showMunicipioMarkers
     ? municipios
@@ -1420,8 +1456,8 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             <stop offset="100%" stopColor={MUNICIPIO_GRADIENT.dark} />
           </linearGradient>
           {/* ClipPath de la isla para recortar las zonas coloreadas */}
-          {activeIsland === 'tenerife' && (
-            <clipPath id="tenerifeIslandClip">
+          {isZoneMode && (
+            <clipPath id="activeIslandClip">
               <path d={islandConfig.path} />
             </clipPath>
           )}
@@ -1438,16 +1474,23 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           stroke="url(#islandStroke)"
           strokeWidth="2.5"
         />
-        {/* Zonas coloreadas Tenerife — Norte / Centro / Sur */}
-        {isTenerifeZoneMode && TENERIFE_ZONES.map((zone) => {
-          // Norte y Sur grandes, Centro franja estrecha (estilo bandera canaria)
-          const yStart = zone.slug === 'norte' ? 0 : zone.slug === 'centro' ? 180 : 240;
-          const yEnd   = zone.slug === 'norte' ? 180 : zone.slug === 'centro' ? 240 : 400;
+        {/* Zonas coloreadas — Norte / Centro / Sur */}
+        {isZoneMode && islandZones && islandZones.map((zone) => {
+          const isTenerife = activeIsland === 'tenerife';
+          const yStart = isTenerife
+            ? (zone.slug === 'norte' ? 0 : zone.slug === 'centro' ? 180 : 240)
+            : (zone.slug === 'norte' ? 0 : zone.slug === 'centro' ? 155 : 248);
+          const yEnd = isTenerife
+            ? (zone.slug === 'norte' ? 180 : zone.slug === 'centro' ? 240 : 400)
+            : (zone.slug === 'norte' ? 155 : zone.slug === 'centro' ? 248 : 400);
           const isHovered = activeZone === zone.slug;
+          const baseOpacity = isTenerife
+            ? (zone.slug === 'norte' ? 0.60 : zone.slug === 'centro' ? 0.42 : 0.45)
+            : 0.50;
           return (
             <g
               key={zone.slug}
-              clipPath="url(#tenerifeIslandClip)"
+              clipPath="url(#activeIslandClip)"
               style={{ cursor: 'pointer' }}
               onClick={() => {
                 setActiveZone(zone.slug);
@@ -1457,26 +1500,32 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
               <rect
                 x={0} y={yStart} width={400} height={yEnd - yStart}
                 fill={zone.color}
-                fillOpacity={isHovered ? 0.70 : zone.slug === 'norte' ? 0.60 : zone.slug === 'centro' ? 0.42 : 0.45}
+                fillOpacity={isHovered ? 0.70 : baseOpacity}
                 style={{ transition: 'fill-opacity 0.2s' }}
               />
             </g>
           );
         })}
         {/* Etiquetas de zona sobre el mapa */}
-        {isTenerifeZoneMode && TENERIFE_ZONES.map((zone) => {
-          // Diagonal: Norte (derecha) → Centro → Sur (izquierda)
-          const pos = zone.slug === 'norte'
-            ? { x: 240, y: 128 }   // Norte: derecha, franja 0-180
-            : zone.slug === 'centro'
-              ? { x: 190, y: 208 } // Centro: centro, franja 180-240
-              : { x: 140, y: 308 }; // Sur: izquierda, franja 240-400
+        {isZoneMode && islandZones && islandZones.map((zone) => {
+          const isTenerife = activeIsland === 'tenerife';
+          const pos = isTenerife
+            ? (zone.slug === 'norte'
+                ? { x: 240, y: 128 }
+                : zone.slug === 'centro'
+                  ? { x: 190, y: 208 }
+                  : { x: 140, y: 308 })
+            : (zone.slug === 'norte'
+                ? { x: 200, y: 77 }
+                : zone.slug === 'centro'
+                  ? { x: 200, y: 201 }
+                  : { x: 200, y: 324 });
           const label = zone.label[locale as keyof typeof zone.label] ?? zone.label.es;
           const municipioCount = (zone.municipioSlugs as readonly string[]).length;
-          // Norte es blanco (#fdfdfc) — pill y badge usan azul canario para contraste
-          const pillColor = zone.slug === 'norte' ? '#0768a9' : zone.color;
-          // Sur es amarillo, texto oscuro; Centro/Norte pill azul → texto blanco
-          const textColor = zone.slug === 'sur' ? '#7a4500' : 'white';
+          // Norte es blanco en ambas islas — pill usa azul para contraste
+          const pillColor = (zone.slug === 'norte') ? '#0768a9' : zone.color;
+          // Sur dorado → texto oscuro; resto → blanco
+          const textColor = zone.slug === 'sur' ? '#6b3900' : 'white';
           return (
             <g
               key={`label-${zone.slug}`}
@@ -1751,6 +1800,31 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         </>
       )}
 
+      {/* Cart panel — rutas guardadas */}
+      <CartPanel
+        cart={cart}
+        isOpen={cartOpen}
+        onClose={() => setCartOpen(false)}
+        locale={locale}
+      />
+
+      {/* ZoneSheet — bottom sheet de zonas (Norte/Centro/Sur) */}
+      {isZoneMode && islandZones && (
+        <ZoneSheet
+          open={zoneSheetOpen}
+          onClose={() => setZoneSheetOpen(false)}
+          activeZone={activeZone ?? islandZones[0].slug}
+          onZoneChange={setActiveZone}
+          municipios={municipios}
+          poisByMunicipio={Object.fromEntries(
+            municipios.map(m => [m.slug, mapPois.filter(p => p.municipio === m.slug).length])
+          )}
+          onMunicipioClick={handleMunicipioClick}
+          locale={locale}
+          zones={islandZones}
+        />
+      )}
+
       {/* Bottom sheet — detalle del POI seleccionado */}
       {selectedPoi && (
         <PoiDetailSheet
@@ -1773,27 +1847,8 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             emoji: activeSection.emoji,
             color: activeSection.color,
           } : undefined}
-          photoCreditGroups={photoCreditsBySlug?.[selectedPoi.slug]}
         />
       )}
-
-      {/* Zone sheet — Tenerife Norte/Centro/Sur */}
-      {isTenerifeZoneMode && (
-        <ZoneSheet
-          open={zoneSheetOpen}
-          onClose={() => setZoneSheetOpen(false)}
-          activeZone={activeZone ?? TENERIFE_ZONES[0].slug}
-          onZoneChange={setActiveZone}
-          municipios={municipios}
-          poisByMunicipio={Object.fromEntries(municipios.map(m => [m.slug, mapPois.filter(p => p.municipio === m.slug).length]))}
-          onMunicipioClick={handleMunicipioClick}
-          locale={locale}
-        />
-      )}
-
-      {/* Cart panel */}
-      <CartPanel cart={cart} isOpen={cartOpen} onClose={() => setCartOpen(false)} locale={locale} />
-
     </div>
   );
 }
