@@ -2941,7 +2941,7 @@
         "lng": -16.5474
       },
       "images": {
-        "hero": "/images/tenerife/nature/jardin-botanico-puerto-cruz.avif",
+        "hero": "/images/tenerife/nature/jardin_de_aclimatacion_de_la_orotava.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -2973,7 +2973,7 @@
         "lng": -16.2483
       },
       "images": {
-        "hero": "/images/tenerife/nature/palmetum-santa-cruz.avif",
+        "hero": "/images/tenerife/nature/palmetum_de_santa_cruz_de_tenerife.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3005,7 +3005,7 @@
         "lng": -16.722
       },
       "images": {
-        "hero": "/images/tenerife/nature/mariposario-del-drago.avif",
+        "hero": "/images/tenerife/nature/mariposario_del_drago.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3037,7 +3037,7 @@
         "lng": -16.255
       },
       "images": {
-        "hero": "/images/tenerife/nature/parque-garcia-sanabria.avif",
+        "hero": "/images/tenerife/nature/parque_garcia_sanabria.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3069,7 +3069,7 @@
         "lng": -16.182
       },
       "images": {
-        "hero": "/images/tenerife/nature/parque-rural-anaga.avif",
+        "hero":"/images/tenerife/nature/parque_rural_anaga.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3102,7 +3102,7 @@
         "lng": -16.643
       },
       "images": {
-        "hero": "/images/tenerife/nature/parque-nacional-teide.avif",
+        "hero": "/images/tenerife/nature/teide_canadas.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3135,7 +3135,7 @@
         "lng": -16.6108
       },
       "images": {
-        "hero": "/images/tenerife/nature/roques-de-garcia.avif",
+        "hero":"/images/tenerife/nature/teide_roques_de_garcia.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3168,7 +3168,7 @@
         "lng": -16.5902
       },
       "images": {
-        "hero": "/images/tenerife/nature/montana-amarilla.avif",
+        "hero": "/images/tenerife/nature/montana_amarilla.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3201,7 +3201,7 @@
         "lng": -16.5345
       },
       "images": {
-        "hero": "/images/tenerife/nature/montana-roja-el-medano.avif",
+        "hero": "/images/tenerife/nature/playa_la_tejita_montana_roja.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3234,7 +3234,7 @@
         "lng": -16.7275
       },
       "images": {
-        "hero": "/images/tenerife/nature/barranco-del-infierno.avif",
+        "hero":"/images/tenerife/nature/barranco_del_infierno.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3267,7 +3267,7 @@
         "lng": -16.805
       },
       "images": {
-        "hero": "/images/tenerife/nature/volcan-chinyero.avif",
+        "hero": "/images/tenerife/nature/chinyero.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3300,7 +3300,7 @@
         "lng": -16.39
       },
       "images": {
-        "hero": "/images/tenerife/nature/malpais-de-guimar.avif",
+        "hero":"/images/tenerife/nature/malpais_de_guimar.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3333,7 +3333,7 @@
         "lng": -16.82
       },
       "images": {
-        "hero": "/images/tenerife/nature/la-ensillada.avif",
+        "hero": "/images/tenerife/nature/sendero_la_ensillada_mirador_cabeza_del_tejo.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3366,7 +3366,7 @@
         "lng": -16.84
       },
       "images": {
-        "hero": "/images/tenerife/nature/acantilados-los-gigantes.avif",
+        "hero": "/images/tenerife/nature/los_gigantes.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3399,7 +3399,7 @@
         "lng": -16.58
       },
       "images": {
-        "hero": "/images/tenerife/nature/mirador-chipeque.avif",
+        "hero": "/images/tenerife/nature/mirador_de_chipeque.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3432,7 +3432,7 @@
         "lng": -16.2833
       },
       "images": {
-        "hero": "/images/tenerife/nature/mirador-de-jardina.avif",
+        "hero": "/images/tenerife/nature/mirador_de_jardina.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3465,7 +3465,7 @@
         "lng": -16.25
       },
       "images": {
-        "hero": "/images/tenerife/nature/mirador-cruz-del-carmen.avif",
+        "hero": "/images/tenerife/nature/cruz_del_carmen.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3531,7 +3531,7 @@
         "lng": -16.565
       },
       "images": {
-        "hero": "/images/tenerife/nature/mirador-la-garanona.avif",
+        "hero": "/images/tenerife/nature/la-garanona-viewpoint.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3564,7 +3564,7 @@
         "lng": -16.71
       },
       "images": {
-        "hero": "/images/tenerife/nature/mirador-narices-del-teide.avif",
+        "hero": "/images/tenerife/nature/mirador-las-narices-del-teide.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3597,7 +3597,7 @@
         "lng": -16.84
       },
       "images": {
-        "hero": "/images/tenerife/nature/mirador-archipenque.avif",
+        "hero": "/images/tenerife/nature/los_gigantes.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3619,39 +3619,6 @@
       "mapsUrl": "https://maps.app.goo.gl/XWWrmVPB67q1UqD77"
     },
     {
-      "slug": "mirador-de-masca",
-      "name": "Mirador de Masca",
-      "shortDescription": "El pueblo más inaccesible de Tenerife visto desde el mejor ángulo — el balcón sobre el Barranco de Masca y sus casas aferradas a los riscos del Macizo de Teno",
-      "description": "El **Mirador de Masca** es el punto desde el que el famoso pueblo de Masca se muestra en toda su magnificencia. Desde aquí se comprende de golpe por qué Masca es considerado uno de los pueblos más espectaculares de toda España: un puñado de casas blancas y de piedra aferradas a una cresta imposible entre dos barrancos, a más de **600 metros de altitud**, rodeado de paredes verticales que caen hacia el mar y con el Atlántico y La Gomera al fondo.\n\n### El pueblo de Masca\nMasca es un asentamiento humano de origen **guanche** —los aborígenes canarios— que la naturaleza casi infranqueable del Macizo de Teno preservó durante siglos en un aislamiento casi total. Su única carretera de acceso, la TF-436, es una de las más estrechas y sinuosas de Canarias — una sucesión de curvas cerradas que abrazan los barrancos y que hacen que llegar al pueblo sea ya de por sí una aventura.\n\nEl resultado de ese aislamiento es un pueblo que conserva una arquitectura rural canaria de una autenticidad excepcional: casas de piedra basáltica, eras de trillar, jardines colgantes sobre el precipicio, fuentes de agua fresca que brotan entre la roca. Masca es uno de esos lugares en los que el tiempo parece haberse detenido — o al menos ralentizado considerablemente.\n\n### La vista desde el mirador\nDesde el mirador se descubre la perspectiva más completa del pueblo y su entorno:\n- 🏘️ Las **casas de Masca** aferradas a la cresta entre los dos barrancos principales\n- 🏔️ Las **paredes del Barranco de Masca** cayendo cientos de metros a ambos lados del pueblo\n- 🌴 Las **palmeras canarias** y los **cardones gigantes** colonizando las laderas del barranco\n- 🌊 La **costa noroeste** de Tenerife y el Atlántico al fondo\n- 🌍 **La Gomera** perfectamente visible en el horizonte en los días claros\n- 🌋 El **Teide** asomando por encima de las crestas del Teno al este\n\n### El Barranco de Masca\nEl barranco que se ve desde el mirador es el famoso **Barranco de Masca** — la ruta de senderismo de descenso más demandada de Tenerife, que parte desde el pueblo y baja durante 3,8 km hasta la **Playa de Masca**, una playa virgen accesible solo a pie o en barco. La vista desde el mirador permite ver el trazado del barranco casi completo: las paredes que van cerrándose, las curvas del sendero, la apertura hacia el mar en la parte final.\n\n### El pueblo por dentro\nDesde el mirador, baja los 10 minutos a pie (o en coche por la TF-436) hasta el núcleo de Masca para:\n- 🥾 Iniciar el descenso del Barranco de Masca (reserva previa y transporte de regreso)\n- ☕ Tomar algo en alguno de los pequeños bares del pueblo\n- 📸 Fotografiar la arquitectura rural y los jardines colgantes\n- 🌿 Pasear por los caminos entre las casas y las eras\n\n### Información práctica\n- 📍 TF-436 — Masca, Santiago del Teide / Buenavista del Norte\n- 🅿️ Parking en las inmediaciones del mirador (capacidad muy limitada — llega temprano)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — la mañana temprana evita las aglomeraciones\n- 🌬️ La carretera TF-436 es estrecha y sinuosa — conduce con precaución\n- ⏱️ Duración recomendada: **1–2 horas** (mirador + paseo por el pueblo)\n\n### Recomendación\nLlega a Masca antes de las 9h — a partir de las 10h la carretera y el pueblo se llenan de turistas y el aparcamiento es un caos. El amanecer desde el mirador, con la primera luz iluminando las casas y el barranco todavía en sombra, es de una belleza silenciosa absolutamente especial. Si vas a bajar el barranco, resérvalo con al menos 1 semana de antelación y organiza el barco de regreso desde la playa.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.2078,
-        "lng": -16.8336
-      },
-      "images": {
-        "hero": "/images/tenerife/nature/mirador-de-masca.avif",
-        "gallery": []
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "mirador",
-        "masca",
-        "barranco",
-        "teno",
-        "pueblo",
-        "vistas",
-        "senderismo"
-      ],
-      "visitDuration": "1-2h",
-      "difficulty": "easy",
-      "emoji": "🏘️",
-      "top": true,
-      "municipio": "buenavista-del-norte",
-      "mapsUrl": "https://maps.app.goo.gl/54U7r7fyrsr1ft4T6"
-    },
-    {
       "slug": "mirador-de-la-ruleta",
       "name": "Mirador de La Ruleta",
       "shortDescription": "Un balcón silencioso dentro del Parque Nacional del Teide — vistas sobre la caldera de Las Cañadas y los campos de lava desde uno de los miradores menos visitados del parque",
@@ -3663,7 +3630,7 @@
         "lng": -16.62
       },
       "images": {
-        "hero": "/images/tenerife/nature/mirador-de-la-ruleta.avif",
+        "hero": "/images/tenerife/nature/roques-de-garcia-mirador-la-ruleta.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3696,7 +3663,7 @@
         "lng": -16.2191
       },
       "images": {
-        "hero": "/images/tenerife/nature/mirador-pico-del-ingles.avif",
+        "hero": "/images/tenerife/nature/pico-del-ingles-viewpoint.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3718,39 +3685,6 @@
       "mapsUrl": "https://maps.app.goo.gl/vTLmjLrayzwNUpUB9"
     },
     {
-      "slug": "mirador-corral-del-nino",
-      "name": "Mirador de El Corral del Niño",
-      "shortDescription": "Un mirador tranquilo en el corazón del Macizo de Teno — vistas sobre los valles verdes y los barrancos del noroeste de Tenerife lejos del circuito turístico habitual",
-      "description": "El **Mirador de El Corral del Niño** es uno de esos puntos de contemplación del **Macizo de Teno** que la mayoría de los visitantes nunca llegan a conocer. Apartado de las rutas más transitadas, este mirador ofrece una perspectiva auténtica y sosegada sobre el paisaje más antiguo de Tenerife — los valles, barrancos y laderas del noroeste que durante siglos han sido territorio de agricultores y pastores, y que hoy conservan una belleza rural de difícil parangón.\n\n### El Macizo de Teno: la Tenerife más antigua\nEl Macizo de Teno tiene más de **7 millones de años** — es el territorio más antiguo de Tenerife, formado mucho antes de que el Teide y el resto de la isla existieran. Sus paisajes reflejan esa antigüedad: el basalto negro y rojizo de sus paredes, la vegetación adaptada al clima seco y ventoso del noroeste, los barrancos profundos excavados durante millones de años de erosión. Es un territorio que escapa completamente al Tenerife turístico y que guarda una autenticidad difícil de encontrar en otras partes de la isla.\n\n### Las vistas\nDesde El Corral del Niño la mirada se abre sobre el interior del macizo:\n- 🌿 Los **valles verdes** del noroeste — El Palmar, Erjos, las tierras agrícolas de Buenavista\n- 🏔️ Las **crestas del Teno** recortadas contra el cielo, con sus perfiles serrados\n- 🌵 Las laderas con **vegetación xerófila** adaptada al clima seco del noroeste: cardones, tabaibas, palmeras canarias\n- 🏘️ Los pequeños **núcleos rurales** diseminados por el paisaje — caseríos y cortijos que apenas han cambiado en un siglo\n- 🌊 En días claros, **atisbos del Atlántico** y la silueta de **La Palma** al noroeste\n\n### El entorno rural\nLo que hace especial a este mirador no es solo la vista sino el paisaje que lo rodea: bancales de cultivo en terrazas sobre los barrancos, palmeras canarias solitarias en las crestas, caminos de piedra que bajan a los valles. Es el Tenerife que existía antes del turismo — y que en el Macizo de Teno todavía existe.\n\n### La fauna\n- 🦅 **Cernícalo vulgar** (*Falco tinnunculus*) — nidifica en los riscos del macizo\n- 🦜 **Canario silvestre** (*Serinus canaria*) — el canario original, de color verde-amarillento\n- 🦎 **Lagarto tizón** (*Gallotia galloti*) — muy abundante en las zonas rocosas soleadas\n- 🦦 **Lisneja** (*Chalcides viridanus*) — eslizón endémico canario\n\n### Información práctica\n- 📍 Macizo de Teno — TF-436 o carreteras locales de Buenavista / Erjos\n- 🅿️ Área de aparcamiento en las proximidades (gratuito)\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día**\n- ⏱️ Duración recomendada: **30–45 minutos**\n- 🌬️ Zona de viento frecuente — el noroeste de Tenerife es el más ventoso\n\n### Recomendación\nCombina El Corral del Niño con una ruta circular por los valles del Teno para descubrir el Tenerife más auténtico y rural. Si llegas al atardecer, la luz dorada sobre los valles verdes del noroeste tiene una calidad fotográfica excepcional. Es un mirador para quienes buscan la Tenerife que no aparece en las guías turísticas convencionales.",
-      "island": "tenerife",
-      "category": "nature",
-      "coordinates": {
-        "lat": 28.34,
-        "lng": -16.78
-      },
-      "images": {
-        "hero": "/images/tenerife/nature/mirador-corral-del-nino.avif",
-        "gallery": []
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "mirador",
-        "teno",
-        "rural",
-        "noroeste",
-        "barrancos",
-        "auténtico",
-        "naturaleza"
-      ],
-      "visitDuration": "30-45min",
-      "difficulty": "easy",
-      "emoji": "🌄",
-      "top": false,
-      "municipio": "buenavista-del-norte",
-      "mapsUrl": "https://maps.app.goo.gl/MPL3cjVaKVmRxZFq6"
-    },
-    {
       "slug": "parque-natural-corona-forestal",
       "name": "Parque Natural Corona Forestal",
       "shortDescription": "El parque natural más grande de Canarias — 46.000 hectáreas de pinar canario alrededor del Teide, hogar del pinzón azul y paraíso para senderistas entre los 1.000 y 2.000 m de altitud",
@@ -3762,7 +3696,7 @@
         "lng": -16.6
       },
       "images": {
-        "hero": "/images/tenerife/nature/parque-natural-corona-forestal.avif",
+        "hero": "/images/tenerife/nature/chinyero-special-nature-reserve.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3828,7 +3762,7 @@
         "lng": -16.9108
       },
       "images": {
-        "hero": "/images/tenerife/nature/punta-de-teno.avif",
+        "hero": "/images/tenerife/nature/punta-de-teno-lighthouse.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,

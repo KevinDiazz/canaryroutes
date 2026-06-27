@@ -928,5 +928,374 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "modified": true
     }
+  },
+  "/images/tenerife/cultural/jardin_de_aclimatacion_de_la_orotava.avif": {
+    "alt": "Jardín de Aclimatación de La Orotava en Puerto de la Cruz, Tenerife",
+    "width": 5184,
+    "height": 3456,
+    "title": "jardin_de_aclimatacion_de_la_orotava.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Mike Peel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_de_Aclimataci%C3%B3n_de_la_Orotava_2019_012.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/palmetum_de_santa_cruz_de_tenerife.avif": {
+    "alt": "Palmetum de Santa Cruz de Tenerife con vistas al Parque Marítimo César Manrique",
+    "width": 6921,
+    "height": 4614,
+    "title": "palmetum_de_santa_cruz_de_tenerife.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Mike Peel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Palmetum_de_Santa_Cruz_de_Tenerife_2022_031.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/mariposario_del_drago.avif": {
+    "alt": "Interior del Mariposario del Drago en Icod de los Vinos, Tenerife",
+    "width": 4316,
+    "height": 6654,
+    "title": "mariposario_del_drago.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Mike Peel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Mariposario_del_Drago_2022_002.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/parque_garcia_sanabria.avif": {
+    "alt": "Parque García Sanabria en Santa Cruz de Tenerife",
+    "width": 4826,
+    "height": 3220,
+    "title": "parque_garcia_sanabria.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Garc%C3%ADa_Sanabria,_Santa_Cruz_de_Tenerife,_Espa%C3%B1a,_2012-12-15,_DD_05.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/parque_rural_anaga.avif": {
+    "alt": "Paisaje del Parque Rural de Anaga en Tenerife",
+    "width": 8675,
+    "height": 4789,
+    "title": "parque_rural_anaga.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_rural_de_Anaga,_Tenerife,_Espa%C3%B1a,_2022-01-09,_DD_69-71_HDR.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/teide_canadas.avif": {
+    "alt": "Vista panorámica del Teide y Las Cañadas del Teide desde el borde de la caldera",
+    "width": 8111,
+    "height": 3504,
+    "title": "teide_canadas.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Ingo Mehling",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teide_Canadas.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/teide_roques_de_garcia.avif": {
+    "alt": "Vista panorámica del Teide y los Roques de García en el Parque Nacional del Teide",
+    "width": 7974,
+    "height": 2274,
+    "title": "teide_roques_de_garcia.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Ingo Mehling",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teide_Roques_de_Garcia.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/montana_amarilla.avif": {
+    "alt": "Vista panorámica de Montaña Amarilla en el sur de Tenerife",
+    "width": 2776,
+    "height": 928,
+    "title": "montana_amarilla.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-2.0",
+      "author": "Mataparda",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monta%C3%B1a_Amarilla.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/playa_la_tejita_montana_roja.avif": {
+    "alt": "Playa de La Tejita con la Montaña Roja al fondo en Tenerife",
+    "width": 1484,
+    "height": 1092,
+    "title": "playa_la_tejita_montana_roja.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Jose Mesa",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenerife88.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/barranco_del_infierno.avif": {
+    "alt": "Barranco del Infierno hiking trail in Adeje, Tenerife",
+    "width": 1440,
+    "height": 960,
+    "title": "barranco_del_infierno.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Antonio Cirillo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranco_del_Infierno_(51052202458).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/chinyero.avif": {
+    "alt": "Volcanic landscape around Chinyero and Arena Negras in Tenerife",
+    "width": 3859,
+    "height": 2895,
+    "title": "chinyero.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC0-1.0",
+      "author": "Clemenspool",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChinyeroFeb2024_3.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/malpais_de_guimar.avif": {
+    "alt": "Volcanic landscape of the Malpaís de Güímar Nature Reserve in Tenerife",
+    "width": 4928,
+    "height": 3264,
+    "title": "malpais_de_guimar.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0-ES",
+      "author": "Echeyde777",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MALPAIS_DE_G%C3%9C%C3%8DMAR_1.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/sendero_la_ensillada_mirador_cabeza_del_tejo.avif": {
+    "alt": "La Ensillada trail leading to Cabeza del Tejo viewpoint in Anaga, Tenerife",
+    "width": 3648,
+    "height": 2736,
+    "title": "sendero_la_ensillada_mirador_cabeza_del_tejo.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Noemi M.M",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sendero_La_Ensillada-_Mirador_Cabeza_del_Tejo.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/los_gigantes.avif": {
+    "alt": "Panoramic view of the Los Gigantes cliffs in Tenerife",
+    "width": 4738,
+    "height": 2999,
+    "title": "los_gigantes.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Gigantes,_Tenerife,_Espa%C3%B1a,_2012-12-16,_DD_07.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/mirador_de_chipeque.avif": {
+    "alt": "View from Mirador de Chipeque overlooking Tenerife",
+    "width": 5184,
+    "height": 3456,
+    "title": "mirador_de_chipeque.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Mike Peel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Tenerife_2019_020.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/mirador_de_jardina.avif": {
+    "alt": "View from Mirador de Jardina overlooking northern Tenerife",
+    "width": 4096,
+    "height": 3072,
+    "title": "mirador_de_jardina.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Zala",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025_Mirador_de_Jardina_widok_06.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/cruz_del_carmen.avif": {
+    "alt": "View from Cruz del Carmen viewpoint in Anaga, Tenerife",
+    "width": 4368,
+    "height": 2912,
+    "title": "cruz_del_carmen.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "crosathorian",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cruz_de_Carmen1.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/mirador-de-cherfe.avif": {
+    "alt": "Panoramic view of the village of Masca surrounded by volcanic mountains in Tenerife",
+    "width": 5706,
+    "height": 3804,
+    "title": "masca.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Falk2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:J00_751_Masca.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/la-garanona-viewpoint.avif": {
+    "alt": "Coastal cliffs and Atlantic Ocean viewed from La Garañona Viewpoint in El Sauzal, Tenerife",
+    "width": 4000,
+    "height": 3000,
+    "title": "la-garanona-viewpoint.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "jfreire",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Desde_el_mirador_de_La_Garano%C3%B1a_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },"/images/tenerife/nature/mirador-las-narices-del-teide.avif": {
+  "alt": "View from Mirador de las Narices del Teide in Teide National Park, Tenerife",
+  "width": 4160,
+  "height": 2768,
+  "title": "mirador-las-narices-del-teide.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Converted to AVIF and optimized for web",
+  "license": {
+    "type": "CC-BY-2.0",
+    "author": "dronepicr",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mirador_de_Las_Narices_observation_deck_in_Teide_National_Park_on_Tenerife,_Spain_(48225440127).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "modified": true
   }
+},"/images/tenerife/nature/roques-de-garcia-mirador-la-ruleta.avif": {
+  "alt": "Roques de García seen from Mirador de La Ruleta in Teide National Park, Tenerife",
+  "width": 5184,
+  "height": 3888,
+  "title": "roques-de-garcia-mirador-la-ruleta.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Converted to AVIF and optimized for web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "Ad Meskens",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenerife_Teide_National_Park_09.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
+},"/images/tenerife/nature/pico-del-ingles-viewpoint.avif": {
+  "alt": "Panoramic view from Pico del Inglés Viewpoint in Anaga Rural Park, Tenerife",
+  "width": 3200,
+  "height": 1440,
+  "title": "pico-del-ingles-viewpoint.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Converted to AVIF and optimized for web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "Mentxuwiki",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mirador_Pico_del_Ingl%C3%A9s,_Parque_Rural_de_Anaga_(Tenerife).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
+},"/images/tenerife/nature/chinyero-special-nature-reserve.avif": {
+  "alt": "Volcanic landscape in the Chinyero Special Nature Reserve near Teide National Park, Tenerife",
+  "width": 5472,
+  "height": 3648,
+  "title": "chinyero-special-nature-reserve.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Converted to AVIF and optimized for web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "FrDr",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reserva_natural_especial_del_Chinyero_-_Parque_Natural_Corona_Forestal_-_Parque_Nacional_del_Teide_17.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
+},"/images/tenerife/nature/llano-de-ucanca.avif": {
+  "alt": "Panoramic view of Llano de Ucanca from Roques de García in Teide National Park, Tenerife",
+  "width": 17970,
+  "height": 7598,
+  "title": "llano-de-ucanca.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Converted to AVIF and optimized for web",
+  "license": {
+    "type": "CC-BY-SA-3.0-DE",
+    "author": "Thomas Wolf",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Llano_de_Ucanca.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+    "modified": true
+  }
+},"/images/tenerife/nature/punta-de-teno-lighthouse.avif": {
+  "alt": "Punta de Teno Lighthouse surrounded by dramatic coastal cliffs in northwest Tenerife",
+  "width": 5961,
+  "height": 3405,
+  "title": "punta-de-teno-lighthouse.avif",
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Converted to AVIF and optimized for web",
+  "license": {
+    "type": "CC-BY-2.0",
+    "author": "Werner Wilmes",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_Leuchtturm_von_Punta_de_Teno_-_52311561977.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "modified": true
+  }
+}
 }
