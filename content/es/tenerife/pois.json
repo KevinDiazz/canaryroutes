@@ -29,7 +29,7 @@
       "difficulty": "easy",
       "emoji": "🏖️",
       "top": false,
-      "municipio": "santa-cruz",
+      "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/RAByr949uzhWXQuP7"
     },
     {
@@ -62,7 +62,7 @@
       "difficulty": "easy",
       "emoji": "🏖️",
       "top": false,
-      "municipio": "el-rosario",
+      "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/vd3ewUvtSzWqvDxh7"
     },
     {
@@ -949,7 +949,7 @@
       "visitDuration": "3-5h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "municipio": "la-laguna",
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/qwqCY4ZCdiaAHjdq9"
     },
     {
@@ -981,7 +981,7 @@
       "visitDuration": "Medio día",
       "difficulty": "easy",
       "emoji": "🏄",
-      "municipio": "granadilla",
+      "municipio": "granadilla-de-abona",
       "mapsUrl": "https://maps.app.goo.gl/jKFNnydvokUJKQxv7"
     },
     {
@@ -1009,7 +1009,7 @@
         "movilidad"
       ],
       "emoji": "🚗",
-      "municipio": "granadilla",
+      "municipio": "granadilla-de-abona",
       "discoverCarsLocation": "spain-canary-islands/tenerife",
       "discoverCarsUrl": "https://www.discovercars.com/spain-canary-islands/tenerife?a_aid=canaryroutes"
     },
@@ -1039,7 +1039,7 @@
         "económico"
       ],
       "emoji": "🚌",
-      "municipio": "santa-cruz",
+      "municipio": "santa-cruz-de-tenerife",
       "websiteUrl": "https://www.titsa.com"
     },
     {
@@ -1071,7 +1071,7 @@
       "visitDuration": "5-7h",
       "difficulty": "hard",
       "emoji": "🥾",
-      "top": true,
+      "top": false,
       "municipio": "santiago-del-teide",
       "track": {
         "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1fHot3XmVsRHum4kLq2IppT8qBjTOlXU",
@@ -1100,7 +1100,7 @@
       "visitDuration": "1.5h",
       "difficulty": "easy",
       "emoji": "🐋",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "392740",
@@ -1137,7 +1137,7 @@
       "visitDuration": "3h",
       "difficulty": "easy",
       "emoji": "🦭",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "109501",
@@ -1174,7 +1174,7 @@
       "visitDuration": "Día completo",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "adeje",
       "gygTourId": "407436",
@@ -1211,7 +1211,7 @@
       "visitDuration": "1.5-2h",
       "difficulty": "easy",
       "emoji": "🐬",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "406165",
@@ -1249,7 +1249,7 @@
       "visitDuration": "Día completo",
       "difficulty": "easy",
       "emoji": "🦜",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "puerto-de-la-cruz",
       "gygTourId": "407432",
@@ -1287,7 +1287,7 @@
       "visitDuration": "2 días",
       "difficulty": "easy",
       "emoji": "🎡",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "puerto-de-la-cruz",
       "gygTourId": "407438",
@@ -1325,7 +1325,7 @@
       "visitDuration": "1-4h",
       "difficulty": "moderate",
       "emoji": "🚤",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "317607",
@@ -1363,7 +1363,7 @@
       "visitDuration": "2-3h",
       "difficulty": "moderate",
       "emoji": "🌋",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "392679",
@@ -1401,7 +1401,7 @@
       "visitDuration": "2h",
       "difficulty": "easy",
       "emoji": "🏄",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "407915",
@@ -1439,7 +1439,7 @@
       "visitDuration": "3-5h",
       "difficulty": "easy",
       "emoji": "🔭",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "adeje",
       "gygTourId": "417569",
@@ -1477,7 +1477,7 @@
       "visitDuration": "9h",
       "difficulty": "easy",
       "emoji": "🚌",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "vilaflor",
       "gygTourId": "217542",
@@ -1515,7 +1515,7 @@
       "visitDuration": "7h",
       "difficulty": "moderate",
       "emoji": "🚠",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "vilaflor",
       "gygTourId": "351351",
@@ -1553,7 +1553,7 @@
       "visitDuration": "50min",
       "difficulty": "easy",
       "emoji": "🍌",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "puerto-de-la-cruz",
       "gygTourId": "450055",
@@ -1591,7 +1591,7 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "🤿",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "3669",
@@ -1629,7 +1629,7 @@
       "visitDuration": "9h",
       "difficulty": "easy",
       "emoji": "⛵",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "58006",
@@ -1668,7 +1668,7 @@
       "visitDuration": "30min",
       "difficulty": "easy",
       "emoji": "🪂",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "adeje",
       "gygTourId": "550159",
@@ -1706,7 +1706,7 @@
       "visitDuration": "2h",
       "difficulty": "easy",
       "emoji": "🏆",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "adeje",
       "gygTourId": "403056",
@@ -1745,7 +1745,7 @@
       "visitDuration": "4-5h",
       "difficulty": "hard",
       "emoji": "⛰️",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "vilaflor",
       "mapsUrl": "https://maps.app.goo.gl/oSQvSqo5ns48Y9z17",
@@ -1788,7 +1788,7 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🪨",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "vilaflor",
       "mapsUrl": "https://maps.app.goo.gl/yPB1Ng8jwoKpww1D6",
@@ -1831,9 +1831,9 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🌿",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
-      "municipio": "la-laguna",
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/MUgH51za7TChCez36",
       "track": {
         "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1--ceZLTCOhbhpGOpbk6FsxG8fJ50QjY",
@@ -1875,9 +1875,9 @@
       "visitDuration": "3-4h",
       "difficulty": "moderate",
       "emoji": "🏘️",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
-      "municipio": "la-laguna",
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/Jv4LEbniXoz2k2kW8",
       "track": {
         "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1vmh4CIBimp8XXHQnOZMHPdfwDnoEp7I",
@@ -1920,7 +1920,7 @@
       "visitDuration": "5-7h",
       "difficulty": "moderate",
       "emoji": "🌕",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "vilaflor",
       "mapsUrl": "https://maps.app.goo.gl/nTRg6xvPFUwxxwQY6",
@@ -1966,9 +1966,9 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
-      "municipio": "la-laguna",
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/66QJzA2uX5s9BpRg8",
       "track": {
         "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1WorR-UceKux786CtDec2yZUSkVoILns",
@@ -2011,9 +2011,9 @@
       "visitDuration": "3-5h",
       "difficulty": "moderate",
       "emoji": "🏚️",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
-      "municipio": "la-laguna",
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/mwgytwoYGrMdLhPV9",
       "track": {
         "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1_8hx1dcYmY1e1RcbCIJ7Pa1qF2fV_7Y",
@@ -2057,9 +2057,9 @@
       "visitDuration": "4-6h",
       "difficulty": "moderate",
       "emoji": "🔦",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
-      "municipio": "la-laguna",
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/XvCSiRrQ4knCPiv67",
       "track": {
         "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1-yQwGlFQ4qiJhB1MBufEGlmCUUWbrlc",
@@ -2103,7 +2103,7 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🌋",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/kQgUkqyMj3VfP58Z6",
@@ -2149,7 +2149,7 @@
       "visitDuration": "7-10h",
       "difficulty": "hard",
       "emoji": "🏔️",
-      "top": true,
+      "top": false,
       "sectionOnly": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/a1y67e822XykKYoj7",
@@ -2284,8 +2284,8 @@
       "visitDuration": "3-4h",
       "difficulty": "easy",
       "emoji": "🏛️",
-      "top": true,
-      "municipio": "la-laguna",
+      "top": false,
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/7YiXs9q88A5aMk3S8"
     },
     {
@@ -2316,7 +2316,7 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "🎼",
-      "top": true,
+      "top": false,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/eVNPv4xTT8aN5rjz9"
     },
@@ -2380,7 +2380,7 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "⛪",
-      "top": true,
+      "top": false,
       "municipio": "candelaria",
       "mapsUrl": "https://maps.app.goo.gl/2A9SJozDM9gfd68a8"
     },
@@ -2444,7 +2444,7 @@
       "visitDuration": "3-4h",
       "difficulty": "easy",
       "emoji": "🌸",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/Y7L9sSjCe1KUJdRv7"
     },
@@ -2476,7 +2476,7 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": true,
+      "top": false,
       "municipio": "garachico",
       "mapsUrl": "https://maps.app.goo.gl/NxMHTbAUdKit3cmPA"
     },
@@ -2540,7 +2540,7 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🌳",
-      "top": true,
+      "top": false,
       "municipio": "icod-de-los-vinos",
       "mapsUrl": "https://maps.app.goo.gl/JHfhDiSoBNfWmHVi8"
     },
@@ -2573,7 +2573,7 @@
       "difficulty": "easy",
       "emoji": "⛪",
       "top": false,
-      "municipio": "la-laguna",
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/6Nu9wdDhS8Ugaf836"
     },
     {
@@ -2605,7 +2605,7 @@
       "difficulty": "easy",
       "emoji": "🏛️",
       "top": false,
-      "municipio": "la-laguna",
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/wZhCtxBHciqMkvfj7"
     },
     {
@@ -2636,7 +2636,7 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🍷",
-      "top": true,
+      "top": false,
       "municipio": "el-sauzal",
       "gygTourId": "415940",
       "gygUrl": "https://gyg.me/srarOtSz"
@@ -2669,7 +2669,7 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🍷",
-      "top": true,
+      "top": false,
       "municipio": "el-sauzal",
       "mapsUrl": "https://maps.app.goo.gl/Qk42coyAhY58ycvt9"
     },
@@ -2702,7 +2702,7 @@
       "difficulty": "easy",
       "emoji": "🔭",
       "top": false,
-      "municipio": "la-laguna",
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/wBBqN6rMKdwEsVKf6"
     },
     {
@@ -2733,8 +2733,8 @@
       "visitDuration": "30-45min",
       "difficulty": "easy",
       "emoji": "✝️",
-      "top": true,
-      "municipio": "la-laguna",
+      "top": false,
+      "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/jHKezrBQ5gFPiga1A"
     },
     {
@@ -2797,7 +2797,7 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🛒",
-      "top": true,
+      "top": false,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/n3YjaWSFsXbTxDCu7"
     },
@@ -2829,7 +2829,7 @@
       "visitDuration": "variable",
       "difficulty": "easy",
       "emoji": "🍽️",
-      "top": true,
+      "top": false,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/NotEoxDieRJcMhfx9"
     },
@@ -2861,7 +2861,7 @@
       "visitDuration": "variable",
       "difficulty": "easy",
       "emoji": "🎉",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": ""
     },
@@ -2893,7 +2893,7 @@
       "visitDuration": "variable",
       "difficulty": "easy",
       "emoji": "🎭",
-      "top": true,
+      "top": false,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": ""
     },
@@ -2957,7 +2957,7 @@
       "visitDuration": "1-1.5h",
       "difficulty": "easy",
       "emoji": "🌿",
-      "top": true,
+      "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/8kb3FuXghguqzq3V6"
     },
@@ -2989,7 +2989,7 @@
       "visitDuration": "1.5-2h",
       "difficulty": "easy",
       "emoji": "🌴",
-      "top": true,
+      "top": false,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/AXqgqpbfech5CT1x5"
     },
@@ -3053,7 +3053,7 @@
       "visitDuration": "1h",
       "difficulty": "easy",
       "emoji": "🌳",
-      "top": true,
+      "top": false,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/613615WbGoHrnw4X6"
     },
@@ -3069,7 +3069,7 @@
         "lng": -16.182
       },
       "images": {
-        "hero":"/images/tenerife/nature/parque_rural_anaga.avif",
+        "hero": "/images/tenerife/nature/parque_rural_anaga.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3086,7 +3086,7 @@
       "visitDuration": "medio-dia-dia-completo",
       "difficulty": "moderate",
       "emoji": "🌿",
-      "top": true,
+      "top": false,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/PAxbcxcLo54Frfa56"
     },
@@ -3119,7 +3119,7 @@
       "visitDuration": "medio-dia-dia-completo",
       "difficulty": "moderate",
       "emoji": "🌋",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/frQ24gQ7m3g6xVep7"
     },
@@ -3135,7 +3135,7 @@
         "lng": -16.6108
       },
       "images": {
-        "hero":"/images/tenerife/nature/teide_roques_de_garcia.avif",
+        "hero": "/images/tenerife/nature/teide_roques_de_garcia.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3152,7 +3152,7 @@
       "visitDuration": "1-1.5h",
       "difficulty": "easy",
       "emoji": "🪨",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/hKfjaNEBmtJcHSSe6"
     },
@@ -3234,7 +3234,7 @@
         "lng": -16.7275
       },
       "images": {
-        "hero":"/images/tenerife/nature/barranco_del_infierno.avif",
+        "hero": "/images/tenerife/nature/barranco_del_infierno.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3251,7 +3251,7 @@
       "visitDuration": "3-4h",
       "difficulty": "moderate",
       "emoji": "💧",
-      "top": true,
+      "top": false,
       "municipio": "adeje",
       "mapsUrl": "https://maps.app.goo.gl/uQCfm9QFmLxAnLpT9"
     },
@@ -3300,7 +3300,7 @@
         "lng": -16.39
       },
       "images": {
-        "hero":"/images/tenerife/nature/malpais_de_guimar.avif",
+        "hero": "/images/tenerife/nature/malpais_de_guimar.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3323,9 +3323,9 @@
     },
     {
       "slug": "la-ensillada",
-      "name": "La Ensillada",
-      "shortDescription": "El collado más espectacular del macizo de Teno — un paso de montaña en el extremo noroeste de Tenerife con vistas a los Acantilados de Los Gigantes y los dos océanos",
-      "description": "**La Ensillada** es uno de los miradores naturales más dramáticos y menos conocidos de Tenerife. Este collado —una silla de montaña formada entre dos crestas del **Macizo de Teno**— se abre en el extremo noroeste de la isla a una perspectiva de 180 grados que abarca simultáneamente la costa norte y la costa sur de Tenerife, el Atlántico en todo su esplendor, y los imponentes **Acantilados de Los Gigantes** cayendo en picado hacia el mar a sus pies.\n\n### El macizo de Teno\nEl Macizo de Teno es el más antiguo de los tres macizos volcánicos que conforman Tenerife, con más de **7 millones de años** de historia geológica. Sus barrancos profundos, sus crestas afiladas y su paisaje áspero y dramático lo convierten en uno de los territorios más salvajes de la isla — un contraste absoluto con el turismo del sur. La Ensillada se sitúa en uno de los puntos más elevados y expuestos de este macizo, donde el viento esculpe constantemente la vegetación y el paisaje adquiere una textura casi lunar.\n\n### Las vistas\nDesde La Ensillada las panorámicas son de una espectacularidad difícil de igualar:\n- 🌊 Al sur: los **Acantilados de Los Gigantes** y la costa occidental, con La Gomera al fondo\n- 🌊 Al norte: la costa de Buenavista del Norte y el cabo de Teno, el punto más occidental de Tenerife\n- 🏔️ Al este: el Teide dominando el horizonte interior\n- 🌊 A 360°: el Atlántico por todos los flancos en los días más claros\n\nLa combinación de las paredes verticales de los Acantilados de Los Gigantes en primer plano y el océano extendiéndose hasta La Gomera crea una de las fotografías más impactantes que se pueden tomar en Tenerife.\n\n### La flora y el paisaje\nLa vegetación de este rincón del Macizo de Teno refleja las condiciones extremas del lugar:\n- 🌿 **Tabaibas y cardones** adaptados al viento y la sequía\n- 🌱 **Verodes y Aeonium** sobre las paredes rocosas\n- 🌿 **Retama y tomillo** en las zonas de transición\n- 🌳 Reductos de **laurisilva** en los barrancos más protegidos\n\n### Cómo llegar\nLa Ensillada se alcanza a través de las carreteras estrechas del interior de Teno — el acceso forma parte de la experiencia:\n- 🚗 Desde Santiago del Teide por la **TF-436** (carretera de montaña sinuosa, muy recomendable con cautela)\n- 🚗 Desde Buenavista del Norte por la misma TF-436 en dirección sur\n- 🥾 También accesible a pie desde varios puntos del Parque Rural de Teno\n\n### Información práctica\n- 📍 TF-436 — Macizo de Teno, Santiago del Teide\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — mejor al amanecer o al atardecer\n- ☁️ La niebla y las nubes son frecuentes — combina maravillosamente con el paisaje\n- 🌬️ Zona de viento muy fuerte en días de temporal\n- 📸 Llevar trípode para las tomas del atardecer\n\n### Recomendación\nLa Ensillada es el punto de partida perfecto para combinar con la **visita en barco a los Acantilados de Los Gigantes** desde el puerto del mismo nombre. Ver los acantilados primero desde arriba — en toda su altura vertical — y después desde abajo, navegando a sus pies, es una experiencia que pone en perspectiva la magnitud real de estas paredes de roca. El atardecer desde La Ensillada, con La Gomera encendiéndose en rojo al fondo del Atlántico, es absolutamente irrepetible.",
+      "name": "Reserva Natural Especial de La Ensillada",
+      "shortDescription": "Una de las reservas naturales más espectaculares del Macizo de Teno — un espacio protegido en el extremo noroeste de Tenerife con ecosistemas únicos, flora endémica y vistas panorámicas sobre los Acantilados de Los Gigantes",
+      "description": "La **Reserva Natural Especial de La Ensillada** es uno de los espacios protegidos más singulares del **Macizo de Teno** y, por extensión, de toda Tenerife. Enclavada en el extremo noroeste de la isla, esta reserva ocupa un collado —una silla de montaña entre dos crestas volcánicas— a gran altitud sobre el mar, donde el viento atlántico, la geología milenaria y la flora endémica crean un ecosistema de rareza y belleza excepcionales.\n\n### El Macizo de Teno: la tierra más antigua\nEl Macizo de Teno tiene más de **7 millones de años** — es el territorio más antiguo de Tenerife, formado mucho antes de que el Teide y el resto de la isla existieran. La Reserva Natural Especial de La Ensillada se sitúa en uno de los puntos más elevados y expuestos de este macizo, preservando un fragmento de paisaje volcánico y natural que es irreemplazable. La protección de este espacio responde a la necesidad de conservar hábitats rupícolas, flora endémica y la integridad geológica de uno de los rincones más genuinos de Canarias.\n\n### La flora protegida\nLa reserva alberga una flora de gran valor ecológico adaptada a las condiciones extremas de altitud, viento y sustrato volcánico:\n- 🌿 **Tabaibas y cardones** (*Euphorbia* spp.) — los arbustesillos y cactáceas propios del termófilo canario\n- 🌱 **Verodes** (*Kleinia neriifolia*) — suculentas columnares endémicas de Canarias\n- 🌸 **Aeonium** spp. — rosetas suculentas creciendo en las grietas más inverosímiles de la roca volcánica\n- 🌿 **Retama canaria** y **tomillo** en las zonas de transición\n- 🌳 Reductos de **laurisilva** en los barrancos más protegidos del viento\n- 🌵 Comunidades de **tabaiba amarga** (*Euphorbia regis-jubae*) de especial valor botánico\n\n### La fauna\nEl entorno de la reserva es refugio de especies emblemáticas:\n- 🦅 **Cernícalo vulgar** (*Falco tinnunculus*) — caza en las laderas abiertas\n- 🐦 **Tarabilla canaria** (*Saxicola dacotiae*) — el fringílido más característico de los paisajes áridos\n- 🦎 **Lagarto tizón** (*Gallotia galloti*) — en los riscos soleados\n- 🐦 **Canario silvestre** en los matorrales del fondo del collado\n\n### Las vistas\nLa posición de La Ensillada —un collado abierto a 180 grados entre dos crestas— ofrece unas panorámicas de espectacularidad difícil de igualar:\n- 🌊 Al sur: los **Acantilados de Los Gigantes** cayendo en picado sobre el Atlántico, con La Gomera al fondo\n- 🌊 Al norte: la costa de Buenavista del Norte y la **Punta de Teno**\n- 🏔️ Al este: el Teide dominando el horizonte interior\n- 🌊 El **Atlántico** extendiéndose en todas las direcciones en los días más despejados\n\n### La geología\nEl suelo de la reserva es un libro abierto de la historia volcánica del noroeste de Tenerife: coladas de basalto superpuestas, diques volcánicos perpendiculares a la pendiente y proyecciones piroclásticas que acumulan coloraciones únicas —negros, rojos, ocres— sobre los que crece una flora adaptada a la imposibilidad.\n\n### Cómo llegar\n- 🚗 Desde Santiago del Teide por la **TF-436** (carretera de montaña sinuosa — maneja con cautela)\n- 🚗 Desde Buenavista del Norte por la misma TF-436 en dirección sur\n- 🥾 Accesible a pie desde varios senderos del Parque Rural de Teno\n\n### Información práctica\n- 📍 TF-436 — Macizo de Teno, Santiago del Teide\n- 🛡️ **Espacio Natural Protegido** — Reserva Natural Especial\n- 💶 **Acceso gratuito**\n- 🕙 Accesible **todo el día** — amanecer y atardecer son los momentos más fotogénicos\n- ☁️ La niebla es frecuente y añade un ambiente dramático al paisaje\n- 🌬️ Zona de viento muy fuerte en días de temporal — ropa de abrigo incluso en verano\n\n### Recomendación\nLa Reserva Natural de La Ensillada se complementa perfectamente con una excursión en barco a los **Acantilados de Los Gigantes**: ver primero estas murallas volcánicas desde arriba —en toda su verticalidad de 800 metros— y después navegando a sus pies, cambia completamente la percepción de la escala de este paisaje. Reserva al menos 1 hora en la reserva para explorar los senderos del entorno y no limitarte al punto más visible desde la carretera.",
       "island": "tenerife",
       "category": "nature",
       "coordinates": {
@@ -3339,17 +3339,17 @@
       "hasPremiumAudio": false,
       "affiliateLinks": [],
       "tags": [
-        "mirador",
+        "reserva-natural",
         "teno",
+        "flora-endemica",
+        "protegido",
         "acantilados",
-        "vistas",
-        "senderismo",
         "noroeste",
         "naturaleza"
       ],
       "visitDuration": "1-1.5h",
       "difficulty": "easy",
-      "emoji": "⛰️",
+      "emoji": "🌿",
       "top": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/rn2jYucqLouFgffB9"
@@ -3383,7 +3383,7 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🐋",
-      "top": true,
+      "top": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/MRkHioX4r9ncCgtSA"
     },
@@ -3416,7 +3416,7 @@
       "visitDuration": "45min-1h",
       "difficulty": "easy",
       "emoji": "🏔️",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/5L5GHokTzuWNXvaD7"
     },
@@ -3482,7 +3482,7 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "✝️",
-      "top": true,
+      "top": false,
       "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/eqcdtF8k1BXiW1Ct6"
     },
@@ -3515,7 +3515,7 @@
       "visitDuration": "30-45min",
       "difficulty": "easy",
       "emoji": "🏔️",
-      "top": true,
+      "top": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/VRTohob2kwXRQy6g8"
     },
@@ -3581,7 +3581,7 @@
       "visitDuration": "30-45min",
       "difficulty": "easy",
       "emoji": "🌋",
-      "top": true,
+      "top": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/TJ3weFf8q3tp7fF89"
     },
@@ -3614,7 +3614,7 @@
       "visitDuration": "45min-1h",
       "difficulty": "easy",
       "emoji": "🌅",
-      "top": true,
+      "top": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/XWWrmVPB67q1UqD77"
     },
@@ -3680,7 +3680,7 @@
       "visitDuration": "45min-1h",
       "difficulty": "easy",
       "emoji": "🔭",
-      "top": true,
+      "top": false,
       "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/vTLmjLrayzwNUpUB9"
     },
@@ -3713,7 +3713,7 @@
       "visitDuration": "medio-dia-dia-completo",
       "difficulty": "easy",
       "emoji": "🌲",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/ASiiUdLNguPgsZWd7"
     },
@@ -3746,7 +3746,7 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🪐",
-      "top": true,
+      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/Mx4JY2dTv7pY7LQ58"
     },
@@ -3780,7 +3780,7 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🏴",
-      "top": true,
+      "top": false,
       "municipio": "buenavista-del-norte",
       "mapsUrl": "https://maps.app.goo.gl/rB1PoHJYXr2wGG8a7"
     }
@@ -3907,113 +3907,212 @@
   ],
   "municipios": [
     {
-      "slug": "santa-cruz",
+      "slug": "santa-cruz-de-tenerife",
       "name": "Santa Cruz de Tenerife",
       "emoji": "🏙️",
       "coordinates": {
-        "lat": 28.4636,
-        "lng": -16.2518
+        "lat": 28.55,
+        "lng": -16.2418
       },
-      "shortDescription": "Capital de Tenerife, sede del Carnaval más famoso de España",
-      "description": "Santa Cruz de Tenerife es la capital de la isla y una de las ciudades más animadas de Canarias. El Carnaval de Santa Cruz, declarado de Interés Turístico Internacional, es el segundo más grande del mundo tras el de Río. El Auditorio de Calatrava y el Parque García Sanabria dan a la ciudad un perfil cultural singular. El puerto es uno de los más activos del Atlántico.",
-      "heroImage": "/images/tenerife/santa-cruz/hero.avif"
+      "shortDescription": "La capital de la isla y una de las ciudades más vibrantes de Canarias — puerto atlántico, Carnaval de fama mundial, el Auditorio de Calatrava y una vida urbana auténtica lejos del turismo de masas.",
+      "description": "**Santa Cruz de Tenerife** es la capital de la isla y una de las ciudades más dinámicas del archipiélago. Puerto natural de primer orden en el Atlántico, combina arquitectura colonial y contemporánea, una gastronomía urbana de alto nivel y una vida cultural que culmina cada año en el **Carnaval de Santa Cruz** — declarado de Interés Turístico Internacional y considerado uno de los tres carnavales más grandes del mundo.\n\n### Qué ver en Santa Cruz\n- 🎭 El **Auditorio de Tenerife** de Santiago Calatrava — icono arquitectónico junto al Atlántico\n- 🌴 El **Palmetum** — la colección de palmeras más completa de Europa\n- 🏛️ El **Museo de Naturaleza y Arqueología (MUNA)** — la colección guanche más importante del mundo\n- 🌿 El **Parque García Sanabria** — el jardín urbano más grande de Canarias\n- ⛵ El **Puerto de Santa Cruz** — uno de los puertos de cruceros más activos del Atlántico\n- 🏰 El **Castillo de San Juan Bautista** — fortaleza colonial del siglo XVII\n\n### ¿Merece la pena visitar Santa Cruz?\n**Absolutamente.** Santa Cruz es la cara más auténtica de Tenerife — la que vive al margen del turismo de masas del sur. Su mezcla de modernidad, historia, cultura y gastronomía la convierte en parada imprescindible.\n\n### Recomendación\nDedica al menos medio día. Empieza en el Auditorio al amanecer, sigue por el Palmetum y termina con un almuerzo en uno de los mercados de abastos del centro. Si coincides con el Carnaval (febrero-marzo), reserva con meses de antelación.",
+      "images": {
+        "hero": "/images/tenerife/municipios/santa-cruz-de-tenerife.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "san-cristobal-de-la-laguna",
+      "name": "San Cristóbal de La Laguna",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 28.4874,
+        "lng": -16.3159
+      },
+      "shortDescription": "Ciudad Patrimonio de la Humanidad UNESCO y primera capital de Tenerife — el casco histórico más completo de Canarias, con iglesias coloniales, universidades centenarias y una energía joven y universitaria única.",
+      "description": "**San Cristóbal de La Laguna** es la ciudad más histórica de Tenerife. **Ciudad Patrimonio de la Humanidad por la UNESCO desde 1999**, fue la primera capital de las Islas Canarias y el modelo urbano que sirvió de referencia para el trazado de numerosas ciudades latinoamericanas. Su casco histórico es el más completo y mejor conservado de Canarias.\n\n### Qué ver en La Laguna\n- 🏛️ La **Catedral de La Laguna** — gótico-neoclásica con interior de gran riqueza patrimonial\n- ⛪ El **Cristo de La Laguna** — la imagen más venerada de Tenerife\n- 🏰 La **Casa Lercaro** — palacio renacentista del siglo XVI, sede del Museo de Historia\n- 🌿 La **Calle San Agustín** — la calle más noble del casco, bordada de casas señoriales\n- 🔭 El **Museo de la Ciencia y el Cosmos** — con planetario\n- 🎓 La **Universidad de La Laguna** — la más antigua de Canarias, fundada en 1792\n\n### ¿Merece la pena visitar La Laguna?\n**Sin duda.** Es el contrapeso cultural perfecto al Tenerife turístico. Su casco histórico —trazado en cuadrícula con palacetes del siglo XVI— es un paseo por la historia de Canarias.\n\n### Recomendación\nVisita a pie: el casco histórico es compacto y peatonal. Combina con el tranvía desde Santa Cruz (10 minutos). La hora del aperitivo en la Plaza del Adelantado es un ritual local que merece vivirse.",
+      "images": {
+        "hero": "/images/tenerife/municipios/san-cristobal-de-la-laguna.avif",
+        "gallery": []
+      }
     },
     {
       "slug": "la-orotava",
       "name": "La Orotava",
-      "emoji": "🌋",
+      "emoji": "🌺",
       "coordinates": {
-        "lat": 28.2723,
-        "lng": -16.6424
+        "lat": 28.3907,
+        "lng": -16.5226
       },
-      "shortDescription": "El Parque Nacional del Teide, volcán más alto de España y Patrimonio de la Humanidad",
-      "description": "La Orotava alberga el corazón del Parque Nacional del Teide, el volcán más visitado del mundo y el pico más alto de España con 3.715 metros. Los paisajes lunares de lava solidificada, el mar de nubes que rodea la caldera y el teleférico hasta la cumbre hacen de este municipio la visita imprescindible de Tenerife. Patrimonio de la Humanidad por la UNESCO.",
-      "heroImage": "/images/tenerife/teide/hero.avif"
-    },
-    {
-      "slug": "santiago-del-teide",
-      "name": "Santiago del Teide",
-      "emoji": "🏔️",
-      "coordinates": {
-        "lat": 28.2441,
-        "lng": -16.8399
-      },
-      "shortDescription": "Los acantilados de Los Gigantes y el avistamiento de ballenas en el oeste de Tenerife",
-      "description": "Santiago del Teide es el municipio del espectacular oeste de Tenerife. Los Gigantes, acantilados de hasta 600 metros que caen verticalmente al Atlántico, crean el paisaje más dramático de la isla. Las aguas frente a la costa albergan una de las colonias de cetáceos más estables de Europa: delfines y ballenas piloto son avistables casi a diario en temporada.",
-      "heroImage": "/images/tenerife/los-gigantes/hero.avif"
-    },
-    {
-      "slug": "arona",
-      "name": "Arona",
-      "emoji": "🏖️",
-      "coordinates": {
-        "lat": 28.05,
-        "lng": -16.713
-      },
-      "shortDescription": "Los Cristianos y las playas del sur: el corazón turístico de Tenerife",
-      "description": "Arona concentra algunas de las playas más populares del sur de Tenerife, con Los Cristianos como referencia. Puerto pesquero convertido en destino turístico, conserva la autenticidad de sus calles históricas junto a una oferta de restauración, ocio y deportes náuticos de primer nivel. Desde aquí parten los ferries a La Gomera y El Hierro.",
+      "shortDescription": "El municipio más bello del Valle de la Orotava — casas blasonadas del siglo XVII, alfombras de flores en Corpus Christi, el Jardín Botánico más antiguo de España y las mejores vistas al Teide desde el norte.",
+      "description": "**La Orotava** es, para muchos, el municipio más hermoso de Tenerife. Colgado sobre el fértil **Valle de la Orotava** con el Teide dominando el horizonte, conserva un casco histórico de casas señoriales con galerías de madera y balcones tallados del siglo XVII que lo convierten en uno de los pueblos más fotogénicos de Canarias.\n\n### Qué ver en La Orotava\n- 🌺 El **casco histórico** — calles empedradas con palacetes y casas blasonadas del siglo XVI-XVII\n- 🌿 El **Jardín Botánico de Puerto de la Cruz** — el más antiguo de España, fundado en 1788\n- 🎨 Las **alfombras de flores y arena volcánica** — cada Corpus Christi, mosaicos florales en las calles\n- 🏛️ La **Iglesia de la Concepción** — barroco canario del siglo XVIII\n- 👁️ El **mirador Humboldt** — las vistas sobre el Valle y el Teide que hicieron famoso al naturalista\n\n### ¿Merece la pena visitar La Orotava?\n**Absolutamente imprescindible.** Es el mejor casco histórico del norte de Tenerife y el más auténtico de la isla en términos de arquitectura colonial canaria.\n\n### Recomendación\nVisita en Corpus Christi (mayo-junio) para ver las alfombras. En cualquier otra época, el casco histórico merece al menos dos horas de paseo tranquilo.",
       "images": {
-        "hero": "/images/tenerife/playas/los-cristianos/hero.avif",
-        "gallery": []
-      }
-    },
-    {
-      "slug": "adeje",
-      "name": "Adeje",
-      "emoji": "🌴",
-      "coordinates": {
-        "lat": 28.0808,
-        "lng": -16.7402
-      },
-      "shortDescription": "Costa Adeje y Playa del Duque: la zona más exclusiva y elegante del sur de Tenerife",
-      "description": "Adeje es el municipio de la Costa Adeje, el área turística premium del sur de Tenerife. La Playa del Duque, rodeada por los hoteles más lujosos de la isla, y la vecina Playa de Fañabé son sus joyas costeras. El Barranco del Infierno, accesible desde el casco histórico, ofrece una ruta de senderismo espectacular entre paredes verticales.",
-      "images": {
-        "hero": "/images/tenerife/playas/duque/hero.avif",
-        "gallery": []
-      }
-    },
-    {
-      "slug": "granadilla",
-      "name": "Granadilla de Abona",
-      "emoji": "🏄",
-      "coordinates": {
-        "lat": 28.0454,
-        "lng": -16.5376
-      },
-      "shortDescription": "El Médano y el mejor windsurf y kitesurf de España a 5 minutos del aeropuerto",
-      "description": "Granadilla de Abona alberga El Médano, el spot de windsurf y kitesurf más famoso de España. Sus playas de arena fina y viento constante atraen a deportistas de todo el mundo, mientras que el Roque del Moro es uno de los iconos naturales del sur de la isla. El aeropuerto internacional Reina Sofía (TFS) está a apenas 5 minutos en coche.",
-      "images": {
-        "hero": "/images/tenerife/playas/el-medano/hero.avif",
-        "gallery": []
-      }
-    },
-    {
-      "slug": "la-laguna",
-      "name": "San Cristóbal de La Laguna",
-      "emoji": "🌿",
-      "coordinates": {
-        "lat": 28.4853,
-        "lng": -16.3139
-      },
-      "shortDescription": "Ciudad Patrimonio de la Humanidad y puerta al Parque Rural de Anaga",
-      "description": "La Laguna es la ciudad universitaria de Tenerife y Patrimonio de la Humanidad por la UNESCO, con un centro histórico de arquitectura colonial que influyó en el diseño de las ciudades latinoamericanas. Es también la puerta al Parque Rural de Anaga, el bosque de laurisilva más extenso de Europa, donde se encuentran joyas naturales como la Playa de Benijo y los Roques de Anaga.",
-      "images": {
-        "hero": "/images/tenerife/playas/benijo/hero.avif",
+        "hero": "/images/tenerife/municipios/la-orotava.avif",
         "gallery": []
       }
     },
     {
       "slug": "puerto-de-la-cruz",
       "name": "Puerto de la Cruz",
-      "emoji": "🌺",
+      "emoji": "🌊",
       "coordinates": {
-        "lat": 28.4148,
-        "lng": -16.5503
+        "lat": 28.4149,
+        "lng": -16.5496
       },
-      "shortDescription": "El jardín del norte: Loro Parque, el Lago Martiánez y la ciudad más pintoresca de Tenerife",
-      "description": "Puerto de la Cruz es la capital turística del norte de Tenerife y uno de los destinos más encantadores del archipiélago. El Lago Martiánez, diseñado por César Manrique, es una obra maestra del diseño canario. Loro Parque, uno de los mejores zoos del mundo, y el casco histórico con sus casas coloniales hacen de este municipio una visita imprescindible en el norte.",
+      "shortDescription": "El destino turístico más histórico del norte de Tenerife — cosmopolita, verde y atlántico, con el lago Martiánez de César Manrique, el Loro Parque y una mezcla única de turismo y vida local.",
+      "description": "**Puerto de la Cruz** es el destino turístico más emblemático del norte de Tenerife y uno de los pioneros del turismo en Canarias. Ha mantenido una identidad urbana propia: calles con personalidad, gastronomía de calidad, arquitectura histórica y una vida local que coexiste con el turismo de manera natural.\n\n### Qué ver en Puerto de la Cruz\n- 🌊 El **Lago Martiánez** — diseñado por César Manrique, piscinas de agua salada junto al Atlántico\n- 🦜 El **Loro Parque** — uno de los mejores zoos de Europa\n- 🌿 El **Jardín Botánico** — el más antiguo de España, con más de 3.000 especies tropicales\n- ⚫ La **Playa Jardín** y la **Playa de Martiánez** — las mejores playas del norte\n- 🏛️ El **casco histórico** — la Plaza del Charco y las callejuelas coloniales\n\n### ¿Merece la pena visitar Puerto de la Cruz?\n**Sí, especialmente si buscas el norte verde de Tenerife.** Combina muy bien con La Orotava y las excursiones al Teide desde el norte.\n\n### Recomendación\nEl amanecer en el Lago Martiánez, cuando las piscinas reflejan el Teide nevado en invierno, es una imagen que pocos olvidan. Reserva al menos dos días para explorar bien Puerto de la Cruz y sus alrededores.",
       "images": {
-        "hero": "/images/tenerife/playas/puerto-de-la-cruz/hero.avif",
+        "hero": "/images/tenerife/municipios/puerto-de-la-cruz.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "adeje",
+      "name": "Adeje",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 28.1227,
+        "lng": -16.7267
+      },
+      "shortDescription": "El municipio turístico más importante del sur de Tenerife — Playa de las Américas, Costa Adeje, el Barranco del Infierno y una oferta hotelera y gastronómica de primer nivel internacional.",
+      "description": "**Adeje** es el municipio turístico más importante de Tenerife y uno de los destinos más visitados de toda España. Su litoral reúne las mejores infraestructuras hoteleras de las islas, playas de arena fina, un clima casi siempre soleado y una oferta de ocio, gastronomía y actividades que lo convierten en un destino completo.\n\n### Qué ver en Adeje\n- 🏖️ **Costa Adeje** y **Playa de las Américas** — la gran playa turística del sur con todos los servicios\n- 🌿 El **Barranco del Infierno** — la única cascada permanente del sur, en un cañón de 400 metros\n- 🐬 Las **excursiones de avistamiento de cetáceos** desde Puerto Colón — una de las mejores del mundo\n- 🏘️ El **casco de Adeje** — pueblo histórico de montaña con la iglesia de Santa Úrsula y la Casa Fuerte\n- 🍽️ La gastronomía del puerto — de los mejores restaurantes de pescado del sur\n\n### ¿Merece la pena visitar Adeje?\n**Es el epicentro del sur de Tenerife.** Si buscas playa, gastronomía de nivel y actividades acuáticas, Adeje es tu base perfecta. El Barranco del Infierno añade la dimensión natural.\n\n### Recomendación\nCombina el lado playero con el Barranco del Infierno (reserva previa obligatoria) y una excursión de avistamiento de cetáceos desde Puerto Colón.",
+      "images": {
+        "hero": "/images/tenerife/municipios/adeje.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "arona",
+      "name": "Arona",
+      "emoji": "☀️",
+      "coordinates": {
+        "lat": 28.0996,
+        "lng": -16.681
+      },
+      "shortDescription": "Sol garantizado, Los Cristianos y Las Galletas — el municipio del sur más animado y accesible de Tenerife, con playas familiares, ferris a La Gomera y una vida turística activa todo el año.",
+      "description": "**Arona** es uno de los municipios más dinámicos del sur de Tenerife. Con más de **5 millones de visitantes al año**, combina playas familiares, un puerto activo, opciones de ocio para todos los públicos y un clima excepcional durante todos los meses del año.\n\n### Qué ver en Arona\n- ⛴️ **Los Cristianos** — el puerto más activo del sur, con ferris a La Gomera y El Hierro\n- 🏖️ **Las Galletas** y **Costa del Silencio** — playas tranquilas con menos masificación\n- 🏘️ El **casco de Arona** — pueblo histórico de montaña a 600 m de altitud, con vistas al sur\n- 🌋 El **Malpaís de Rasca** — reserva natural de lava volcánica junto al mar\n- 🐬 Excursiones de avistamiento de cetáceos desde Los Cristianos\n\n### ¿Merece la pena visitar Arona?\n**Para el viajero que busca playa y vida turística activa, es una excelente base.** La conexión en ferri con La Gomera abre opciones de excursión muy interesantes.\n\n### Recomendación\nAprovecha la conexión desde Los Cristianos para una excursión de un día a **La Gomera** — el Parque Nacional de Garajonay y el Valle Gran Rey quedan a solo 50 minutos de ferri.",
+      "images": {
+        "hero": "/images/tenerife/municipios/arona.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "garachico",
+      "name": "Garachico",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 28.3726,
+        "lng": -16.7641
+      },
+      "shortDescription": "El pueblo más bonito del norte de Tenerife — una joya histórica de piedra volcánica junto al Atlántico, con piscinas naturales en la lava, una fortaleza del siglo XVI y una calma que lo hace irresistible.",
+      "description": "**Garachico** es el pueblo más bonito y mejor conservado del norte de Tenerife. Fue hasta 1706 el puerto más importante de la isla. Ese año, una erupción volcánica sepultó el puerto bajo la lava, creando las **Piscinas Naturales del Caletón** — pozas de agua marina en la roca volcánica que hoy son el atractivo más fotografiado del norte.\n\n### Qué ver en Garachico\n- 🌊 Las **Piscinas Naturales del Caletón** — pozas de lava volcánica con agua del Atlántico\n- 🏰 El **Castillo de San Miguel** (siglo XVI) — fortaleza de basalto negro perfectamente conservada\n- 🏛️ El **casco histórico** — calles de piedra con conventos, iglesias y casas señoriales coloniales\n- ⛪ La **Iglesia de Santa Ana** — uno de los templos más bellos del norte\n- 🌿 El **Parque de Puerta de Tierra** — jardín botánico donde Humboldt descansó en su visita a Tenerife\n\n### ¿Merece la pena visitar Garachico?\n**Es una de las visitas más recomendables del norte.** Ha mantenido una escala humana y una autenticidad muy atractiva para los viajeros que huyen de la masificación.\n\n### Recomendación\nVisita al mediodía para bañarte en el Caletón y explora el casco histórico por la tarde. Combina perfectamente con **Icod de los Vinos** (7 km) y los miradores del **Macizo de Teno**.",
+      "images": {
+        "hero": "/images/tenerife/municipios/garachico.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "icod-de-los-vinos",
+      "name": "Icod de los Vinos",
+      "emoji": "🌳",
+      "coordinates": {
+        "lat": 28.3698,
+        "lng": -16.7127
+      },
+      "shortDescription": "El hogar del Drago Milenario de Tenerife — el árbol más antiguo y grande de la especie en el mundo, junto a un casco histórico viticultor de gran belleza y el Mariposario del Drago.",
+      "description": "**Icod de los Vinos** es conocido en todo el mundo por su **Drago Milenario** — con más de 800 años de antigüedad y 17 metros de altura, el ejemplar más grande y antiguo de *Dracaena draco* conocido. Pero más allá del drago, Icod es un municipio viticultor con un casco histórico de gran riqueza arquitectónica.\n\n### Qué ver en Icod de los Vinos\n- 🌳 El **Drago Milenario** — el árbol más emblemático de Canarias, en el Parque El Drago\n- 🦋 El **Mariposario del Drago** — cientos de mariposas tropicales exóticas en un jardín junto al drago\n- 🏛️ La **Iglesia de San Marcos** — una de las más bellas del norte, con valioso interior barroco\n- 🍷 Las **bodegas locales** — vinos de la D.O. Ycoden-Daute-Isora\n- 🏘️ El **casco histórico** — calles con casas blasonadas y balcones de madera de tea canaria\n\n### ¿Merece la pena visitar Icod de los Vinos?\n**Sí.** El Drago por sí solo justifica la visita, pero la combinación con el Mariposario, el casco y una bodega local la hace muy completa.\n\n### Recomendación\nVisita el Drago a primera hora de la mañana para evitar grupos. Combina con **Garachico** (7 km) y la ruta por el **Macizo de Teno**.",
+      "images": {
+        "hero": "/images/tenerife/municipios/icod-de-los-vinos.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "buenavista-del-norte",
+      "name": "Buenavista del Norte",
+      "emoji": "🌾",
+      "coordinates": {
+        "lat": 28.3782,
+        "lng": -16.8648
+      },
+      "shortDescription": "El municipio más tranquilo y auténtico del noroeste de Tenerife — puerta de entrada al Macizo de Teno, con la espectacular Punta de Teno, barrancos salvajes y una calma que contrasta radicalmente con el sur.",
+      "description": "**Buenavista del Norte** es el municipio más occidental y uno de los más auténticos de Tenerife. Alejado de los grandes circuitos turísticos, conserva una identidad rural y marinera que lo convierte en el destino ideal para los viajeros que buscan la Tenerife de siempre. Es la puerta de entrada al **Macizo de Teno** y a la **Punta de Teno** — el punto más occidental de la isla.\n\n### Qué ver en Buenavista del Norte\n- 🌊 La **Punta de Teno** — el cabo más occidental de Tenerife, con el faro histórico de 1897 y vistas a La Gomera y La Palma\n- 🌿 El **Macizo de Teno** — el territorio más antiguo de Tenerife (7 millones de años)\n- 🏘️ El **casco de Buenavista** — pueblo agrícola de gran tranquilidad con iglesia histórica\n- 🌊 La **playa de Buenavista** — pequeña, tranquila y de gran autenticidad\n- 🥾 Los **senderos de Teno** — rutas entre acantilados, barrancos y vegetación xerófila\n\n### ¿Merece la pena visitar Buenavista del Norte?\n**Absolutamente, especialmente para los amantes de la naturaleza.** La Punta de Teno al atardecer es una de las experiencias más memorables de Tenerife.\n\n### Recomendación\nLlega a la Punta de Teno en la lanzadera desde el aparcamiento de Buenavista (la carretera está cerrada al tráfico privado). Combina con una ruta por el Macizo de Teno.",
+      "images": {
+        "hero": "/images/tenerife/municipios/buenavista-del-norte.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "santiago-del-teide",
+      "name": "Santiago del Teide",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 28.2968,
+        "lng": -16.814
+      },
+      "shortDescription": "La puerta al Macizo de Teno y al Barranco de Masca — un municipio de montaña en el occidente de Tenerife con uno de los paisajes volcánicos más espectaculares y los Acantilados de Los Gigantes a sus pies.",
+      "description": "**Santiago del Teide** es un municipio de montaña en la vertiente occidental de Tenerife, entre el **Macizo de Teno** y los **Acantilados de Los Gigantes**. Es el punto de acceso al **Barranco de Masca** — la ruta de senderismo más épica de la isla — y al Puerto de Los Gigantes, uno de los mejores puntos de avistamiento de cetáceos del Atlántico europeo.\n\n### Qué ver en Santiago del Teide\n- 🏔️ El **Barranco de Masca** — 5 km de descenso por un cañón de 300 metros hasta una cala virgen\n- 🌊 Los **Acantilados de Los Gigantes** — paredes de basalto negro de hasta 800 metros, las más altas de Europa\n- 🏘️ El **Caserío de Masca** — uno de los pueblos más remotos y bonitos de Tenerife\n- 🐋 El **Puerto de Los Gigantes** — excursiones de avistamiento de calderones y delfines\n- 🌿 La **Reserva Natural de La Ensillada** — espacio protegido con flora endémica\n\n### ¿Merece la pena visitar Santiago del Teide?\n**Es imprescindible para el viajero aventurero.** El Barranco de Masca y Los Gigantes ofrecen la jornada de aventura más completa de Tenerife.\n\n### Recomendación\nReserva el Barranco de Masca con antelación (acceso limitado y regulado) y combina con una excursión en barco desde Los Gigantes. Ver los acantilados desde arriba y desde el mar es una experiencia transformadora.",
+      "images": {
+        "hero": "/images/tenerife/municipios/santiago-del-teide.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "guia-de-isora",
+      "name": "Guía de Isora",
+      "emoji": "🌅",
+      "coordinates": {
+        "lat": 28.2159,
+        "lng": -16.7724
+      },
+      "shortDescription": "El municipio del suroeste con el cielo más estrellado de Tenerife — hogar del Observatorio de Izaña, las playas negras de Alcalá y el Hotel Royal Hideaway Corales, uno de los mejores de Europa.",
+      "description": "**Guía de Isora** es un municipio del suroeste de Tenerife que combina un paisaje volcánico de gran belleza, un litoral atlántico poco masificado y la mejor visibilidad astronómica de la isla. El **Observatorio de Izaña**, a 2.400 metros de altitud, es una de las instalaciones astronómicas más importantes del mundo.\n\n### Qué ver en Guía de Isora\n- 🔭 El **Observatorio de Izaña** — instalación del IAC con telescopios de clase mundial\n- 🏖️ El **Puerto y playa de Alcalá** — pueblo pesquero auténtico con playa de cantos oscuros\n- 🏖️ La **Playa de Los Gigantes** — la playa negra volcánica al pie de los acantilados\n- 🌅 Los **atardeceres del suroeste** — los mejores de la isla, con La Gomera en el horizonte\n- 🏨 El **Hotel Royal Hideaway Corales** — uno de los cinco estrellas más premiados de Europa\n\n### ¿Merece la pena visitar Guía de Isora?\n**Sí, especialmente para los amantes de la astronomía.** La experiencia de observar el cielo nocturno desde Izaña es difícilmente igualable en Europa.\n\n### Recomendación\nReserva una visita nocturna al Observatorio de Izaña con antelación — las plazas son limitadas. Combina con el atardecer desde Alcalá con La Gomera al fondo.",
+      "images": {
+        "hero": "/images/tenerife/municipios/guia-de-isora.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "granadilla-de-abona",
+      "name": "Granadilla de Abona",
+      "emoji": "🏄",
+      "coordinates": {
+        "lat": 28.1191,
+        "lng": -16.584
+      },
+      "shortDescription": "El hogar de El Médano y su viento legendario — capital mundial del windsurf y el kitesurf con la Montaña Roja como telón de fondo, y la puerta de entrada al aeropuerto sur de Tenerife.",
+      "description": "**Granadilla de Abona** es un municipio del sur cuyo mayor atractivo es **El Médano** — la localidad más ventosa de la isla y una de las mecas mundiales del windsurf y el kitesurf. Las playas de arena fina con la silueta volcánica de la **Montaña Roja** como telón de fondo crean un paisaje de gran belleza.\n\n### Qué ver en Granadilla de Abona\n- 🏄 **El Médano** — la meca mundial del windsurf y kitesurf, con kilómetros de playa de arena fina\n- 🌋 La **Montaña Roja** — cono volcánico de lava roja junto al mar, Reserva Natural Especial\n- 🏘️ El **casco de El Médano** — pueblo playero con encanto, terrazas y ambiente relajado\n- 🌊 Las **playas de Leocadio Machado y El Cabezo** — las favoritas de los windsurfistas\n- ✈️ El **Aeropuerto Sur de Tenerife** (TFS) — el más activo de la isla\n\n### ¿Merece la pena visitar Granadilla de Abona?\n**Para los amantes del deporte acuático y los viajeros que buscan autenticidad en el sur, sí.** El Médano tiene un ambiente mucho más relajado que Adeje o Arona.\n\n### Recomendación\nSi no practicas windsurf, el paseo entre El Médano y la Montaña Roja al atardecer, con las velas de colores en el horizonte, es una experiencia visual muy especial.",
+      "images": {
+        "hero": "/images/tenerife/municipios/granadilla-de-abona.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "san-miguel-de-abona",
+      "name": "San Miguel de Abona",
+      "emoji": "🐟",
+      "coordinates": {
+        "lat": 28.039,
+        "lng": -16.6367
+      },
+      "shortDescription": "El sur profundo de Tenerife — Los Abrigos y el mejor pescado fresco del sur, el Karting de Tenerife y la cara más residencial y auténtica del archipiélago de turismo en el sur.",
+      "description": "**San Miguel de Abona** es un municipio del sur que combina zonas de turismo consolidado con rincones auténticos de gran tranquilidad. Su litoral, entre **Los Abrigos** y **Las Galletas**, concentra restaurantes de pescado fresco de gran calidad y pequeños puertos pesqueros que han mantenido su carácter original.\n\n### Qué ver en San Miguel de Abona\n- 🐟 **Los Abrigos** — uno de los mejores pueblos pesqueros del sur para comer marisco y pescado fresco\n- 🏁 El **Karting Club de Tenerife** — el circuito de karts más grande de Canarias\n- 🏖️ **Las Galletas** — pequeño puerto pesquero con playa tranquila y ambiente local auténtico\n- 🌅 El casco de **San Miguel** — pueblo histórico de montaña a 600 metros, con vistas al sur\n\n### La gastronomía de Los Abrigos\nLos Abrigos tiene fama en toda Tenerife por sus restaurantes de marisco y pescado fresco — lapas a la brasa, gambas rojas, cherne y vieja cocinados de forma tradicional.\n\n### ¿Merece la pena visitar San Miguel de Abona?\n**Sí, especialmente para la gastronomía de Los Abrigos.**\n\n### Recomendación\nSi estás en el sur, no te marches sin comer en Los Abrigos. Las raciones son generosas y el pescado fresco del día es excepcional.",
+      "images": {
+        "hero": "/images/tenerife/municipios/san-miguel-de-abona.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "candelaria",
+      "name": "Candelaria",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 28.3568,
+        "lng": -16.3733
+      },
+      "shortDescription": "La capital espiritual de Tenerife y Canarias — la Basílica de la Virgen de Candelaria, patrona del archipiélago, junto a las estatuas de los nueve menceys guanches en el paseo marítimo.",
+      "description": "**Candelaria** es la capital espiritual de Tenerife y del archipiélago canario. La **Virgen de Candelaria**, patrona de las Islas Canarias, fue la primera imagen mariana encontrada en Canarias antes de la conquista española. La **Basílica de Candelaria** es el centro religioso más importante de todo el archipiélago.\n\n### Qué ver en Candelaria\n- ⛪ La **Basílica de Nuestra Señora de Candelaria** — el templo más importante de Canarias, junto al mar\n- 🗿 Las **estatuas de los nueve menceys guanches** — esculturas en bronce de los reyes aborígenes de Tenerife\n- 🌊 El **paseo marítimo** — uno de los más bonitos del este de Tenerife\n- 📜 El **Museo de las Tradiciones** — historia de la devoción a la Virgen y la cultura guanche\n\n### ¿Merece la pena visitar Candelaria?\n**Sí, especialmente si te interesa la historia y la espiritualidad de las islas.**\n\n### Recomendación\nVisita en cualquier momento, pero el **2 de febrero** (festividad de la Virgen) o el **15 de agosto** (peregrinación de la Asunción) son fechas especialmente emotivas.",
+      "images": {
+        "hero": "/images/tenerife/municipios/candelaria.avif",
         "gallery": []
       }
     },
@@ -4022,28 +4121,253 @@
       "name": "Güímar",
       "emoji": "🔺",
       "coordinates": {
-        "lat": 28.3099,
-        "lng": -16.4108
+        "lat": 28.3115,
+        "lng": -16.4129
       },
-      "shortDescription": "Las pirámides de Güímar y el valle más soleado del este de Tenerife",
-      "description": "Güímar es conocido mundialmente por sus enigmáticas Pirámides de Güímar, estructuras escalonadas estudiadas por Thor Heyerdahl que aún generan debate. El municipio ocupa un valle fértil en el este de Tenerife con clima privilegiado. El Parque Etnográfico de las Pirámides ofrece una experiencia cultural única.",
+      "shortDescription": "El misterio arqueológico más intrigante de Tenerife — las Pirámides de Güímar estudiadas por Thor Heyerdahl, en un valle fértil del este con el microclima más soleado y templado de la isla.",
+      "description": "**Güímar** es un municipio del este de Tenerife conocido mundialmente por sus **Pirámides** — seis estructuras escalonadas de piedra volcánica que el explorador noruego **Thor Heyerdahl** identificó como construcciones intencionales con alineaciones astronómicas. El debate sobre su origen convierte Güímar en una de las visitas más enigmáticas de Canarias.\n\n### Qué ver en Güímar\n- 🔺 Las **Pirámides de Güímar** — estructuras escalonadas con alineaciones solsticiales en el Parque Etnográfico\n- 🌋 El **Valle de Güímar** — un valle fértil con microclima especialmente soleado\n- ⛪ La **Iglesia de San Pedro Apóstol** — templo histórico en el casco del municipio\n- 🌊 El **litoral del este** — calas tranquilas y piscinas naturales poco conocidas\n\n### ¿Merece la pena visitar Güímar?\n**Sí, especialmente para los apasionados de la arqueología.** El Parque Etnográfico es uno de los más completos de las islas, con réplica de la balsa Kon-Tiki incluida.\n\n### Recomendación\nCombina la visita a las pirámides (mañana) con el MUNA de Santa Cruz (tarde) para una jornada completa de arqueología canaria.",
       "images": {
-        "hero": "/images/tenerife/guimar/hero.avif",
+        "hero": "/images/tenerife/municipios/guimar.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "el-sauzal",
+      "name": "El Sauzal",
+      "emoji": "🍷",
+      "coordinates": {
+        "lat": 28.4742,
+        "lng": -16.4358
+      },
+      "shortDescription": "La capital del vino de Tenerife — la Casa del Vino en una hacienda del siglo XVII con vistas al Teide y al Atlántico, y los mejores vinos de la D.O. Tacoronte-Acentejo.",
+      "description": "**El Sauzal** es un pequeño municipio del norte de Tenerife con una identidad muy clara: el vino. Situado en el corazón de la **D.O. Tacoronte-Acentejo**, alberga la **Casa del Vino** — el espacio de referencia para conocer y degustar los vinos de la isla.\n\n### Qué ver en El Sauzal\n- 🍷 La **Casa del Vino de Tenerife** — museo del vino, catas, tienda y restaurante en una hacienda del siglo XVII\n- 🌊 El **mirador de El Sauzal** — vistas panorámicas sobre el Atlántico y la costa norte\n- ⛪ La **Iglesia de San Pedro** — templo histórico en el casco del municipio\n- 🍇 Las **bodegas de la zona** — varias bodegas familiares con degustación\n\n### ¿Merece la pena visitar El Sauzal?\n**Para el enoturista, es la visita más importante del norte.** La Casa del Vino tiene la mejor selección de vinos de la isla bajo un mismo techo.\n\n### Recomendación\nVisita la Casa del Vino a la hora del almuerzo: el restaurante con terraza sobre el Atlántico y el Teide al fondo es uno de los mejores escenarios para comer en el norte.",
+      "images": {
+        "hero": "/images/tenerife/municipios/el-sauzal.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "tacoronte",
+      "name": "Tacoronte",
+      "emoji": "🍇",
+      "coordinates": {
+        "lat": 28.4739,
+        "lng": -16.4052
+      },
+      "shortDescription": "La cuna del vino tinerfeño — el municipio que da nombre a la D.O. más antigua de Tenerife, con bodegas centenarias, un Cristo de gran devoción y el Parque de los Pueblos de América.",
+      "description": "**Tacoronte** es el municipio que da nombre a la **D.O. Tacoronte-Acentejo**, la denominación de origen vitivinícola más antigua y reconocida de Tenerife. Combina una tradición bodeguera que se remonta a los siglos XVI y XVII con una devoción religiosa igualmente arraigada: el **Cristo de Tacoronte** es una de las imágenes más veneradas del norte.\n\n### Qué ver en Tacoronte\n- 🍷 Las **bodegas históricas** — algunas de las más antiguas del archipiélago, con visita y cata\n- ⛪ El **Cristo de Tacoronte** — imagen barroca del siglo XVII de gran devoción popular\n- 🌿 El **Parque de los Pueblos de América** — jardín histórico que conmemora los lazos con América\n- 🌊 El **Roque de las Bodegas** — pequeña cala pesquera de gran belleza en el litoral norte\n\n### ¿Merece la pena visitar Tacoronte?\n**Para el enoturista, sí.** Junto con El Sauzal, forma el corazón de la cultura vitivinícola del norte.\n\n### Recomendación\nCombina una visita a bodegas en Tacoronte con la Casa del Vino de El Sauzal y el casco histórico de La Laguna para una jornada enológica y cultural completa en el norte.",
+      "images": {
+        "hero": "/images/tenerife/municipios/tacoronte.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "arico",
+      "name": "Arico",
+      "emoji": "🧗",
+      "coordinates": {
+        "lat": 28.1624,
+        "lng": -16.4811
+      },
+      "shortDescription": "El municipio del sur con las mejores condiciones de escalada de Europa — los roques volcánicos de Arico son un destino internacional de boulder y escalada deportiva en un paisaje árido de gran belleza.",
+      "description": "**Arico** es un municipio del sur de Tenerife cuyo mayor atractivo internacional es la **escalada deportiva**. Los roques y paredes volcánicas del municipio ofrecen algunas de las mejores vías de escalada de Europa, con más de 500 vías en entornos de gran belleza y condiciones óptimas de temperatura durante todo el año.\n\n### Qué ver en Arico\n- 🧗 Los **roques de escalada** — las mejores paredes de escalada deportiva y boulder de Canarias\n- 🏘️ El **casco histórico de Arico** — un pueblo blanco de gran autenticidad en el corazón del sur\n- 🌊 El **litoral del este** — calas tranquilas poco masificadas\n- 🌋 El **Malpaís de Arico** — paisaje volcánico de gran dureza y belleza\n\n### ¿Merece la pena visitar Arico?\n**Para los escaladores, es un destino de primer nivel mundial.** Para el resto, el paisaje volcánico del sur tiene su propio atractivo.\n\n### Recomendación\nSi practicas escalada, programa varios días en Arico — la densidad y calidad de las vías lo justifica. Combina con El Médano para un itinerario completo por el este y sur.",
+      "images": {
+        "hero": "/images/tenerife/municipios/arico.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "san-juan-de-la-rambla",
+      "name": "San Juan de la Rambla",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 28.3934,
+        "lng": -16.6586
+      },
+      "shortDescription": "Un pequeño municipio marinero del norte con las piscinas naturales más bonitas de la costa norte de Tenerife — La Rambla de Castro y Las Aguas, rincones de agua turquesa entre rocas volcánicas.",
+      "description": "**San Juan de la Rambla** es uno de los municipios más pequeños de Tenerife, pero esconde algunos de los rincones costeros más bellos del norte. Sus **piscinas naturales** entre la lava y el Atlántico son de una belleza excepcional y relativamente poco conocidas fuera del ámbito local.\n\n### Qué ver en San Juan de la Rambla\n- 🌊 Las **Piscinas Naturales de La Rambla de Castro** — pozas de agua turquesa entre acantilados de basalto negro\n- 🌊 Las **Piscinas Naturales de Las Aguas** — uno de los rincones más secretos del norte\n- 🏘️ El **casco de San Juan de la Rambla** — pueblo blanco en el acantilado norte\n- 🐟 El **puerto pesquero** — pequeño y auténtico, con barcos locales\n\n### ¿Merece la pena visitar San Juan de la Rambla?\n**Para los amantes de los rincones secretos del norte, absolutamente.** Sus piscinas naturales son de las más bonitas de la isla con muy poca masificación.\n\n### Recomendación\nVisita las piscinas un día de semana por la mañana. Combina con **Garachico** (15 km) para una jornada completa por la costa norte.",
+      "images": {
+        "hero": "/images/tenerife/municipios/san-juan-de-la-rambla.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "los-silos",
+      "name": "Los Silos",
+      "emoji": "🌿",
+      "coordinates": {
+        "lat": 28.3835,
+        "lng": -16.8336
+      },
+      "shortDescription": "El municipio más tranquilo y natural del noroeste — a las puertas del Macizo de Teno, con la playa negra de Los Silos, el Charco del Viento y una calma que lo convierte en el rincón más auténtico del norte.",
+      "description": "**Los Silos** es uno de los municipios más pequeños y auténticos de Tenerife, situado en el extremo noroeste a las puertas del **Macizo de Teno**. Su pequeño núcleo costero, su playa de arena oscura y su ritmo completamente ajeno al turismo de masas lo convierten en uno de los rincones más especiales del norte.\n\n### Qué ver en Los Silos\n- 🌿 El **Charco del Viento** — piscina natural en la lava junto al mar, de gran belleza\n- ⚫ La **playa de Los Silos** — arena oscura y ambiente de pueblo pesquero auténtico\n- 🏘️ El **casco del pueblo** — blanco e íntimo, con plaza central y terrazas locales\n- 🦋 El entorno natural del **Macizo de Teno** — flora endémica y paisajes volcánicos a pocos minutos\n\n### ¿Merece la pena visitar Los Silos?\n**Para el viajero que busca autenticidad y tranquilidad en el norte, sí.**\n\n### Recomendación\nVisita el Charco del Viento a primera hora de la mañana. Combina con **Garachico** (15 km) y los miradores del **Macizo de Teno** para una jornada por el noroeste auténtico.",
+      "images": {
+        "hero": "/images/tenerife/municipios/los-silos.avif",
         "gallery": []
       }
     },
     {
       "slug": "vilaflor",
-      "name": "Vilaflor",
+      "name": "Vilaflor de Chasna",
       "emoji": "🌲",
       "coordinates": {
         "lat": 28.1567,
         "lng": -16.6376
       },
-      "shortDescription": "El pueblo más alto de España y la puerta sur al Teide entre pinares centenarios",
-      "description": "Vilaflor es el municipio más elevado de España, a más de 1.400 metros de altitud entre pinares canarios. Su posición privilegiada lo convierte en el punto de partida ideal para rutas senderistas hacia el Teide desde el sur. El aire limpio de montaña y la tranquilidad del pueblo hacen de Vilaflor un refugio auténtico lejos del turismo masivo.",
+      "shortDescription": "El pueblo más alto de España y la puerta sur al Teide entre pinares centenarios — a 1.400 metros de altitud, con el aire más puro de la isla y el famoso Pino Gordo, un ejemplar centenario de pino canario.",
+      "description": "**Vilaflor de Chasna** es el municipio más elevado de España, situado a más de **1.400 metros de altitud** en las laderas sur del Teide, rodeado por uno de los pinares canarios más densos y majestuosos de la isla. Su posición entre la Costa Sur y el Parque Nacional del Teide lo convierte en el punto de partida ideal para rutas senderistas hacia la cumbre desde el sur.\n\n### Qué ver en Vilaflor\n- 🌲 El **Pino Gordo** — un pino canario centenario de dimensiones extraordinarias, declarado Monumento Natural\n- 🏘️ El **casco histórico** — pueblo de montaña de gran tranquilidad con iglesia colonial\n- 🥾 Las **rutas hacia el Teide** — senderos que suben desde los 1.400 m hasta el Parque Nacional\n- 🌲 El **pinar de Vilaflor** — uno de los pinares de *Pinus canariensis* más espectaculares de Tenerife\n- ☁️ El **mar de nubes desde arriba** — la posición de Vilaflor por encima de la nubosidad\n\n### ¿Merece la pena visitar Vilaflor?\n**Absolutamente, especialmente en verano.** El contraste entre el sur turístico y caluroso y la montaña fresca y serena de Vilaflor es uno de los más llamativos de Tenerife.\n\n### Recomendación\nSi subes al Teide desde el sur por la TF-21, para en Vilaflor para ver el Pino Gordo y desayunar en el pueblo. El aire de montaña y el pinar a primera hora son la preparación perfecta para el ascenso.",
       "images": {
-        "hero": "/images/tenerife/vilaflor/hero.avif",
+        "hero": "/images/tenerife/municipios/vilaflor.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "arafo",
+      "name": "Arafo",
+      "emoji": "🌿",
+      "coordinates": {
+        "lat": 28.3218,
+        "lng": -16.3957
+      },
+      "shortDescription": "Un municipio tranquilo del este de Tenerife entre el mar y el Teide — conocido por sus fiestas tradicionales, su agricultura de medianías y el acceso a los barrancos del Valle de Güímar.",
+      "description": "**Arafo** es un municipio del este de Tenerife, situado en las medianías entre la costa y el Parque Nacional del Teide. Con una identidad profundamente agrícola y rural, Arafo conserva las tradiciones de la Tenerife de medianías: cultivos de vid, papas y frutas en terrazas volcánicas, fiestas patronales de gran arraigo y un paisaje de barrancos y pinos que invita al senderismo tranquilo.\n\n### Qué ver en Arafo\n- 🌿 Los **barrancos del Valle de Güímar** — senderos entre barrancos volcánicos con flora autóctona\n- 🏘️ El **casco de Arafo** — pueblo de medianías de gran autenticidad con arquitectura rural canaria\n- ⛪ La **Iglesia de San Juan Bautista** — templo histórico en el centro del municipio\n- 🌾 Los **cultivos en terrazas** — el paisaje agrícola de medianías que caracteriza el este de Tenerife\n\n### ¿Merece la pena visitar Arafo?\n**Sí para el viajero que busca la Tenerife rural y de medianías.** Arafo es un municipio auténtico que vive al margen del turismo masivo.\n\n### Recomendación\nCombina con **Güímar** (5 km) — las pirámides y el valle juntos ofrecen una jornada completa por el este auténtico de Tenerife.",
+      "images": {
+        "hero": "/images/tenerife/municipios/arafo.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "el-rosario",
+      "name": "El Rosario",
+      "emoji": "🏡",
+      "coordinates": {
+        "lat": 28.4444,
+        "lng": -16.2791
+      },
+      "shortDescription": "El municipio más cercano al aeropuerto norte de Tenerife — un municipio residencial en la periferia de Santa Cruz, con el Aeropuerto de Los Rodeos y el barrio marinero de Igueste de Candelaria.",
+      "description": "**El Rosario** es un municipio residencial del noreste de Tenerife, limítrofe con Santa Cruz de Tenerife. Alberga el **Aeropuerto Tenerife Norte (Los Rodeos)** — el aeropuerto histórico de la isla, principalmente para vuelos interinsulares — y tiene acceso a zonas costeras y de barranco poco masificadas.\n\n### Qué ver en El Rosario\n- ✈️ El **Aeropuerto Tenerife Norte (Los Rodeos)** — el aeropuerto histórico, para vuelos interinsulares\n- 🌊 **Igueste de Candelaria** — barrio costero en el límite con Candelaria, con playa tranquila\n- 🌿 Los **barrancos del noreste** — senderos rurales entre barrancos y cultivos\n- 🏘️ El **núcleo de El Rosario** — municipio residencial de la periferia de Santa Cruz\n\n### ¿Merece la pena visitar El Rosario?\nComo destino propio, su valor principal es la conectividad del Aeropuerto Norte y su proximidad a Santa Cruz de Tenerife.",
+      "images": {
+        "hero": "/images/tenerife/municipios/el-rosario.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "el-tanque",
+      "name": "El Tanque",
+      "emoji": "🌱",
+      "coordinates": {
+        "lat": 28.3506,
+        "lng": -16.7851
+      },
+      "shortDescription": "El municipio más verde y silencioso del noroeste — un pequeño pueblo de medianías entre Garachico e Icod con vistas al Teide y al mar, campos de cultivo y una calma excepcional.",
+      "description": "**El Tanque** es uno de los municipios más pequeños de Tenerife, situado en las medianías del noroeste entre **Garachico** e **Icod de los Vinos**. Con una altitud media de 600-800 metros, disfruta de un microclima verde y húmedo que alimenta una agricultura de gran calidad y un paisaje de gran belleza natural.\n\n### Qué ver en El Tanque\n- 🌱 El **paisaje de medianías** — campos de cultivo, frutales y viñedos en un entorno de gran belleza\n- 👁️ Los **miradores del noroeste** — vistas panorámicas hacia el Teide, Garachico y el Atlántico\n- 🏘️ El **casco de El Tanque** — pueblo pequeño y tranquilo con arquitectura rural canaria auténtica\n- 🌲 Los **barrancos y senderos** — rutas de senderismo entre barrancos y cultivos\n\n### ¿Merece la pena visitar El Tanque?\n**Como parada en ruta entre Icod y Buenavista del Norte, sí.** Sus vistas y su tranquilidad lo hacen especial para el viajero que disfruta de la Tenerife más auténtica.\n\n### Recomendación\nIncorpora El Tanque como parada en la ruta del noroeste: **Icod de los Vinos → El Tanque → Garachico → Buenavista del Norte → Punta de Teno**.",
+      "images": {
+        "hero": "/images/tenerife/municipios/el-tanque.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "fasnia",
+      "name": "Fasnia",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 28.2225,
+        "lng": -16.4195
+      },
+      "shortDescription": "Un municipio del sureste volcánico de Tenerife — con el Barranco de Fasnia, la ermita excavada en la roca y la costa de malpaís del sureste que fue la última zona en enfriarse tras las erupciones históricas.",
+      "description": "**Fasnia** es uno de los municipios menos conocidos de Tenerife, situado en el sureste de la isla en una zona de notable importancia geológica. Las corrientes de lava históricas han creado aquí un **malpaís costero** de gran belleza salvaje, con acantilados oscuros sobre el Atlántico y una geología que atestigua la actividad volcánica reciente de la isla.\n\n### Qué ver en Fasnia\n- 🌊 La **costa de malpaís del sureste** — campos de lava solidificada que llegan al mar\n- ⛪ La **Ermita de Fasnia** — pequeña ermita excavada en la roca volcánica de gran singularidad\n- 🌋 El **Barranco de Fasnia** — uno de los barrancos del sureste con mayor interés geológico\n- 🏘️ El **casco de Fasnia** — un pueblo pequeño y tranquilo con gran autenticidad\n\n### ¿Merece la pena visitar Fasnia?\n**Para los amantes de la geología volcánica y los rincones poco conocidos del sureste, sí.** Fasnia es uno de los municipios más auténticos y menos masificados de Tenerife.\n\n### Recomendación\nCombina con **Arico** y el litoral del sureste para una jornada por la costa más volcánica y menos turística de la isla.",
+      "images": {
+        "hero": "/images/tenerife/municipios/fasnia.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "la-guancha",
+      "name": "La Guancha",
+      "emoji": "🌾",
+      "coordinates": {
+        "lat": 28.36,
+        "lng": -16.6472
+      },
+      "shortDescription": "El municipio del norte profundo entre pinos y plataneras — un pueblo de medianías tranquilo y auténtico entre Los Realejos e Icod, con vistas espectaculares al Atlántico desde las medianías del noroeste.",
+      "description": "**La Guancha** es un municipio de las medianías del noroeste de Tenerife, situado entre los municipios de **Los Realejos** e **Icod de los Vinos**. Con una economía basada históricamente en la agricultura y una identidad rural muy marcada, La Guancha es uno de los municipios más auténticos y menos masificados del norte de la isla.\n\n### Qué ver en La Guancha\n- 🌾 Los **cultivos en terrazas** — el paisaje agrícola de plataneras y frutales que domina el noroeste\n- 👁️ Los **miradores de las medianías** — vistas panorámicas hacia el Atlántico y la costa norte\n- 🏘️ El **casco de La Guancha** — pueblo de medianías con arquitectura rural canaria auténtica\n- 🌲 Los **senderos del noroeste** — rutas entre barrancos y pinares\n\n### ¿Merece la pena visitar La Guancha?\n**Como parada en ruta entre Los Realejos e Icod, sí.** Sus vistas y tranquilidad lo hacen especial para el viajero que disfruta de la Tenerife rural.\n\n### Recomendación\nIncorpora La Guancha como parada en la ruta hacia Icod de los Vinos y el Macizo de Teno. Las vistas desde las medianías al atardecer son especialmente hermosas.",
+      "images": {
+        "hero": "/images/tenerife/municipios/la-guancha.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "la-matanza-de-acentejo",
+      "name": "La Matanza de Acentejo",
+      "emoji": "⚔️",
+      "coordinates": {
+        "lat": 28.4555,
+        "lng": -16.4564
+      },
+      "shortDescription": "El municipio de la famosa batalla de 1494 donde los guanches derrotaron a las tropas castellanas — un pueblo vinícola del norte entre viñedos de la D.O. Tacoronte-Acentejo y miradores sobre el Atlántico.",
+      "description": "**La Matanza de Acentejo** debe su nombre a uno de los episodios más importantes de la conquista de Tenerife: en 1494, los guerreros guanches bajo el mando del mencey Bencomo derrotaron aquí al ejército castellano del gobernador Alonso Fernández de Lugo en la llamada **Primera Batalla de Acentejo** — la mayor victoria guanche de la conquista. El municipio forma parte de la **D.O. Tacoronte-Acentejo**.\n\n### Qué ver en La Matanza de Acentejo\n- ⚔️ El **campo de la batalla histórica** — el lugar donde los guanches derrotaron a los conquistadores en 1494\n- 🍷 Los **viñedos de la D.O. Tacoronte-Acentejo** — vinos de gran calidad en suelos volcánicos\n- 👁️ Los **miradores del norte** — vistas panorámicas sobre el Atlántico y el Teide\n- 🏘️ El **casco del municipio** — pueblo de medianías con arquitectura rural canaria\n\n### ¿Merece la pena visitar La Matanza de Acentejo?\n**Para los apasionados de la historia de Canarias y el enoturismo, sí.** El contexto histórico de la batalla y los viñedos del Acentejo crean una combinación singular.\n\n### Recomendación\nCombina con el municipio vecino de **La Victoria de Acentejo** y la **Casa del Vino** de El Sauzal para una jornada por la historia y el vino del norte de Tenerife.",
+      "images": {
+        "hero": "/images/tenerife/municipios/la-matanza-de-acentejo.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "la-victoria-de-acentejo",
+      "name": "La Victoria de Acentejo",
+      "emoji": "🏆",
+      "coordinates": {
+        "lat": 28.4606,
+        "lng": -16.439
+      },
+      "shortDescription": "El municipio de la revancha histórica de 1495 — donde las tropas castellanas se vengaron de la derrota de La Matanza y abrieron el camino a la conquista definitiva de Tenerife, hoy un rincón vinícola del norte.",
+      "description": "**La Victoria de Acentejo** debe su nombre al episodio opuesto al de su municipio vecino La Matanza: en 1495, las tropas castellanas de Alonso Fernández de Lugo derrotaron aquí a los guanches en la **Segunda Batalla de Acentejo**, abriendo el camino hacia la conquista definitiva de Tenerife. El municipio forma parte de la **D.O. Tacoronte-Acentejo**.\n\n### Qué ver en La Victoria de Acentejo\n- 🏆 El **contexto histórico de la Segunda Batalla de Acentejo** (1495) — la revancha castellana que abrió la conquista\n- 🍷 Los **viñedos de la D.O. Tacoronte-Acentejo** — vinos tintos y blancos de gran calidad\n- 👁️ Los **miradores del norte** — vistas sobre el Atlántico y la costa\n- 🏘️ El **casco del municipio** — pueblo de medianías con arquitectura rural canaria\n\n### ¿Merece la pena visitar La Victoria de Acentejo?\n**Como parada histórica en la ruta norte, sí.** Junto con La Matanza, forma un díptico histórico imprescindible para entender la conquista de Tenerife.\n\n### Recomendación\nVisita La Matanza y La Victoria de Acentejo juntos para entender el arco completo de la historia de la conquista. Añade una bodega local para completar la jornada.",
+      "images": {
+        "hero": "/images/tenerife/municipios/la-victoria-de-acentejo.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "los-realejos",
+      "name": "Los Realejos",
+      "emoji": "🌴",
+      "coordinates": {
+        "lat": 28.3768,
+        "lng": -16.5949
+      },
+      "shortDescription": "El municipio de las piscinas naturales del norte y los fuegos artificiales más espectaculares de España — un municipio marinero entre Puerto de la Cruz y Garachico con décadas de tradición pirotécnica.",
+      "description": "**Los Realejos** es un municipio del norte de Tenerife situado entre **Puerto de la Cruz** y **Garachico**, con una costa de gran belleza volcánica. Es conocido por sus **piscinas naturales** en la costa norte y por sus legendarios **fuegos artificiales de San Juan** — considerados algunos de los mejores y más espectaculares de España, con décadas de tradición pirotécnica.\n\n### Qué ver en Los Realejos\n- 🌊 Las **piscinas naturales de la costa norte** — pozas de lava junto al Atlántico\n- 🎆 Los **fuegos artificiales de San Juan** (24 de junio) — uno de los espectáculos pirotécnicos más impresionantes de España\n- 🏘️ El **casco histórico** — el municipio tiene dos núcleos diferenciados (Realejo Alto y Realejo Bajo)\n- 🌿 Los **barrancos del norte** — senderos entre barrancos y cultivos en las medianías\n\n### ¿Merece la pena visitar Los Realejos?\n**Para los fuegos de San Juan, absolutamente.** Es uno de los espectáculos pirotécnicos más impresionantes de toda España.\n\n### Recomendación\nSi visitas Tenerife alrededor del 24 de junio, no te pierdas los fuegos artificiales de Los Realejos. El resto del año, las piscinas naturales de la costa son un buen motivo de visita.",
+      "images": {
+        "hero": "/images/tenerife/municipios/los-realejos.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "santa-ursula",
+      "name": "Santa Úrsula",
+      "emoji": "🌄",
+      "coordinates": {
+        "lat": 28.4323,
+        "lng": -16.4944
+      },
+      "shortDescription": "El balcón del Valle de la Orotava — un municipio de medianías con vistas panorámicas privilegiadas sobre el valle más fértil de Tenerife y el Teide al fondo, entre viñedos y frutales.",
+      "description": "**Santa Úrsula** es un municipio de las medianías del norte de Tenerife que goza de algunas de las vistas más privilegiadas sobre el **Valle de la Orotava** — el valle más fértil y pintoresco de la isla, con el Teide dominando el horizonte. Su posición en las medianías, a entre 300 y 600 metros de altitud, le otorga un microclima suave y una vegetación exuberante.\n\n### Qué ver en Santa Úrsula\n- 🌄 Las **vistas sobre el Valle de la Orotava** — panorámicas privilegiadas hacia el Teide y el valle\n- 🌿 Los **viñedos y frutales de medianías** — el paisaje agrícola que da identidad al norte\n- 🏘️ El **casco de Santa Úrsula** — pueblo de medianías con arquitectura rural canaria\n- 🥾 Los **senderos de las medianías** — rutas entre el valle y las cumbres con vistas espectaculares\n\n### ¿Merece la pena visitar Santa Úrsula?\n**Como mirador y parada en ruta entre Puerto de la Cruz y La Orotava, sí.** Sus vistas sobre el valle son de las mejores de Tenerife.\n\n### Recomendación\nParáte en Santa Úrsula en el trayecto entre Puerto de la Cruz y La Orotava. Las vistas al atardecer, con el Teide tiñéndose de naranja sobre el valle verde, son espectaculares.",
+      "images": {
+        "hero": "/images/tenerife/municipios/santa-ursula.avif",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "tegueste",
+      "name": "Tegueste",
+      "emoji": "🍇",
+      "coordinates": {
+        "lat": 28.5025,
+        "lng": -16.3319
+      },
+      "shortDescription": "El municipio vinícola más pequeño del norte — a las puertas de La Laguna, con viñedos en suelos volcánicos, bodegas centenarias y el carácter rural más auténtico del área metropolitana de Santa Cruz-La Laguna.",
+      "description": "**Tegueste** es el municipio más pequeño de la comarca norte y uno de los más singulares de Tenerife. A escasos kilómetros de **San Cristóbal de La Laguna**, conserva un carácter completamente rural: sus viñedos en suelos volcánicos producen algunos de los vinos más interesantes del norte, y sus fiestas patronales mantienen tradiciones que en otros municipios ya se han perdido.\n\n### Qué ver en Tegueste\n- 🍷 Los **viñedos y bodegas** — pequeñas bodegas familiares con vinos de gran personalidad\n- ⛪ La **Iglesia de San Marcos** — templo histórico en el casco del municipio\n- 🏘️ El **casco de Tegueste** — el pueblo más auténtico de las inmediaciones de La Laguna\n- 🌿 Los **barrancos y senderos** — rutas entre barrancos y viñedos del norte\n\n### ¿Merece la pena visitar Tegueste?\n**Para el enoturista y el viajero que busca autenticidad cerca de La Laguna, sí.** Tegueste es la Tenerife rural a 10 minutos de la ciudad Patrimonio de la Humanidad.\n\n### Recomendación\nCombina una visita a una bodega de Tegueste con una tarde en el casco histórico de **La Laguna** (10 minutos en coche). Es la combinación perfecta entre la Tenerife rural y la histórica.",
+      "images": {
+        "hero": "/images/tenerife/municipios/tegueste.avif",
         "gallery": []
       }
     }

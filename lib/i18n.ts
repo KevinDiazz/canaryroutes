@@ -24,8 +24,8 @@ export function getIslandDisplayName(island: Island, locale: Locale): string {
       no: 'Gran Canaria', da: 'Gran Canaria', fi: 'Gran Canaria', sv: 'Gran Canaria',
     },
     tenerife: {
-      es: 'Tenerife', en: 'Tenerife', de: 'Teneriffa',
-      no: 'Tenerife', da: 'Tenerife', fi: 'Tenerife', sv: 'Teneriffa',
+      es: 'Tenerife', en: 'Tenerife', de: 'Tenerife',
+      no: 'Tenerife', da: 'Tenerife', fi: 'Tenerife', sv: 'Tenerife',
     },
   };
   return names[island]?.[locale] ?? island;

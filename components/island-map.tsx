@@ -257,6 +257,44 @@ const MUNICIPIO_GRADIENT = {
   dark: shadeColor(MUNICIPIO_COLOR, -0.35),
 };
 
+// Zonas de Tenerife — agrupan los 31 municipios en 3 áreas geográficas
+const TENERIFE_ZONES = [
+  {
+    slug: 'norte',
+    label: { es: 'Norte', en: 'North', de: 'Nord' },
+    color: '#fdfdfc',
+    coordinates: { lat: 28.34, lng: -16.57 },
+    municipioSlugs: [
+      'buenavista-del-norte', 'los-silos', 'garachico',
+      'icod-de-los-vinos', 'san-juan-de-la-rambla', 'la-guancha', 'los-realejos',
+      'puerto-de-la-cruz', 'la-victoria-de-acentejo', 'la-matanza-de-acentejo',
+      'el-sauzal', 'tacoronte', 'santa-cruz-de-tenerife',
+    ],
+  },
+  {
+    slug: 'centro',
+    label: { es: 'Centro', en: 'Center', de: 'Mitte' },
+    color: '#079dde',
+    coordinates: { lat: 28.25, lng: -16.52 },
+    municipioSlugs: [
+      'el-tanque', 'la-orotava', 'santa-ursula',
+      'tegueste', 'san-cristobal-de-la-laguna', 'el-rosario',
+      'arafo', 'guimar', 'fasnia', 'vilaflor',
+    ],
+  },
+  {
+    slug: 'sur',
+    label: { es: 'Sur', en: 'South', de: 'Süd' },
+    color: '#ffbf00',
+    coordinates: { lat: 28.07, lng: -16.68 },
+    municipioSlugs: [
+      'santiago-del-teide', 'guia-de-isora', 'adeje',
+      'arona', 'san-miguel-de-abona', 'granadilla-de-abona',
+      'arico', 'candelaria',
+    ],
+  },
+] as const;
+
 // Retrasa el montaje de imágenes de marcadores para evitar descargar
 // decenas de fotos a la vez (lag al cargar/cambiar de isla).
 // `index` permite escalonar la carga (primeros marcadores antes que el resto).
@@ -401,8 +439,7 @@ function MunicipioMarker({ municipio, island, count, selected, onClick, displayX
   const computed = coordsToSvg(municipio.coordinates.lat, municipio.coordinates.lng, island);
   const x = displayX ?? computed.x;
   const y = displayY ?? computed.y;
-  const R = 14;
-  const cy = y - R - 8;
+  const R = 12;
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
   const appearDelay = Math.min(index * 50, 900);
 
@@ -427,18 +464,70 @@ function MunicipioMarker({ municipio, island, count, selected, onClick, displayX
         ...(animate ? { animation: `markerFadeIn 0.3s ease-out ${appearDelay}ms both` } : {}),
       }}
     >
-      <ellipse cx={x} cy={y + 3} rx={5} ry={2.5} fill="rgba(15,23,42,0.12)" />
-      <path d={`M ${x - 6} ${cy + R} L ${x + 6} ${cy + R} L ${x} ${y} Z`} fill="#2090c0" />
-      <circle cx={x} cy={cy} r={R + 2} fill={selected ? '#2090c0' : '#ffffff'} stroke="url(#poiGradient-municipio)" strokeWidth="2.5" />
+      {/* Sombra */}
+      <circle cx={x} cy={y} r={R + 2} fill="rgba(0,0,0,0.12)" />
+      {/* Círculo principal */}
+      <circle cx={x} cy={y} r={R} fill={selected ? '#2090c0' : '#ffffff'} stroke="url(#poiGradient-municipio)" strokeWidth="2.5" />
+      {/* Icono casas */}
       <image
         href="/icons/icons8-houses-48.png"
-        x={x - 9} y={cy - 9}
-        width="18" height="18"
+        x={x - 7.5} y={y - 7.5}
+        width="15" height="15"
         style={{ userSelect: 'none', pointerEvents: 'none' }}
       />
       {/* count badge */}
-      <circle cx={x + R - 1} cy={cy - R + 1} r={8} fill="#FFAD5C" />
-      <text x={x + R - 1} y={cy - R + 4} textAnchor="middle" fontSize="7"
+      <circle cx={x + R - 2} cy={y - R + 2} r={7} fill="#FFAD5C" />
+      <text x={x + R - 2} y={y - R + 4.5} textAnchor="middle" fontSize="7"
+        fill="white" fontWeight="700"
+        style={{ userSelect: 'none', pointerEvents: 'none', fontFamily: 'monospace' }}>
+        {count}
+      </text>
+    </g>
+  );
+}
+
+// ── Zone marker (Tenerife) ────────────────────────────────────────────────────
+function ZoneMarker({ label, color, x, y, count, selected, onClick, index = 0, animate = true }: {
+  label: string; color: string; x: number; y: number; count: number;
+  selected: boolean; onClick: () => void; index?: number; animate?: boolean;
+}) {
+  const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
+  const appearDelay = Math.min(index * 150, 500);
+  const W = 48; const H = 22;
+  return (
+    <g
+      onPointerDown={(e) => { e.stopPropagation(); pointerStartRef.current = { x: e.clientX, y: e.clientY }; }}
+      onPointerUp={(e) => {
+        e.stopPropagation();
+        const start = pointerStartRef.current; pointerStartRef.current = null;
+        if (!start) return;
+        if (Math.hypot(e.clientX - start.x, e.clientY - start.y) < 10) onClick();
+      }}
+      onPointerCancel={() => { pointerStartRef.current = null; }}
+      onTouchStart={(e) => e.stopPropagation()}
+      onTouchMove={(e) => e.stopPropagation()}
+      onTouchEnd={(e) => e.stopPropagation()}
+      style={{
+        cursor: 'pointer',
+        transform: selected ? 'scale(1.12)' : 'scale(1)',
+        transformOrigin: `${x}px ${y}px`,
+        transition: 'transform 0.2s cubic-bezier(0.34,1.56,0.64,1)',
+        filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.22))',
+        ...(animate ? { animation: `markerFadeIn 0.4s ease-out ${appearDelay}ms both` } : {}),
+      }}
+    >
+      {/* Pill background */}
+      <rect x={x - W / 2} y={y - H / 2} width={W} height={H} rx={H / 2} ry={H / 2}
+        fill={selected ? color : '#ffffff'} stroke={color} strokeWidth="2" />
+      {/* Zone label */}
+      <text x={x - 5} y={y + 3.5} textAnchor="middle" fontSize="7.5" fontWeight="700"
+        fill={selected ? '#ffffff' : color}
+        style={{ userSelect: 'none', pointerEvents: 'none', fontFamily: 'system-ui, sans-serif', letterSpacing: '0.2px' }}>
+        {label}
+      </text>
+      {/* Count badge */}
+      <circle cx={x + W / 2 - 9} cy={y} r={8} fill={color} />
+      <text x={x + W / 2 - 9} y={y + 2.5} textAnchor="middle" fontSize="6"
         fill="white" fontWeight="700"
         style={{ userSelect: 'none', pointerEvents: 'none', fontFamily: 'monospace' }}>
         {count}
@@ -519,6 +608,178 @@ interface IslandMapProps {
   photoCreditsBySlug?: Record<string, PhotoCreditGroup[]>;
 }
 
+// ── ZoneSheet — bottom sheet con tabs Norte/Centro/Sur + grid de municipios ──
+interface ZoneSheetProps {
+  open: boolean;
+  onClose: () => void;
+  activeZone: string | null;
+  onZoneChange: (slug: string) => void;
+  municipios: Municipio[];
+  poisByMunicipio: Record<string, number>;
+  onMunicipioClick: (slug: string) => void;
+  locale: string;
+}
+
+function ZoneSheet({ open, onClose, activeZone, onZoneChange, municipios, poisByMunicipio, onMunicipioClick, locale }: ZoneSheetProps) {
+  const zones = TENERIFE_ZONES;
+  const currentZone = zones.find(z => z.slug === activeZone) ?? zones[0];
+  const zoneMunicipios = municipios.filter(m =>
+    (currentZone.municipioSlugs as readonly string[]).includes(m.slug)
+  );
+
+  return (
+    <>
+      {/* Backdrop semitransparente */}
+      {open && (
+        <div
+          onClick={onClose}
+          style={{
+            position: 'fixed', inset: 0, zIndex: 200,
+            background: 'rgba(0,0,0,0.25)',
+          }}
+        />
+      )}
+      {/* Sheet */}
+      <div style={{
+        position: 'fixed',
+        bottom: 0, left: 0, right: 0,
+        zIndex: 201,
+        background: '#ffffff',
+        borderRadius: '20px 20px 0 0',
+        boxShadow: '0 -8px 40px rgba(0,0,0,0.18)',
+        transform: open ? 'translateY(0)' : 'translateY(100%)',
+        transition: 'transform 0.35s cubic-bezier(0.32,0.72,0,1)',
+        maxHeight: '70vh',
+        display: 'flex',
+        flexDirection: 'column',
+      }}>
+        {/* Handle */}
+        <div style={{ display: 'flex', justifyContent: 'center', padding: '10px 0 4px' }}>
+          <div style={{ width: 40, height: 4, borderRadius: 2, background: '#d1d5db' }} />
+        </div>
+
+        {/* Tabs de zona */}
+        <div style={{
+          display: 'flex', gap: '8px', padding: '0 16px 12px',
+          borderBottom: '1px solid #f3f4f6',
+        }}>
+          {zones.map(zone => {
+            const isActive = activeZone === zone.slug;
+            const label = zone.label[locale as keyof typeof zone.label] ?? zone.label.es;
+            const count = municipios.filter(m => (zone.municipioSlugs as readonly string[]).includes(m.slug)).length;
+            // Texto sobre el color de zona activa — blanco no vale en Norte (#fdfdfc) ni en Sur (#ffbf00)
+            const activeText = zone.slug === 'norte' ? '#0768a9' : zone.slug === 'sur' ? '#7a4500' : 'white';
+            const activeBadgeBg = zone.slug === 'norte' ? 'rgba(7,104,169,0.15)' : zone.slug === 'sur' ? 'rgba(122,69,0,0.15)' : 'rgba(255,255,255,0.25)';
+            // Norte activo necesita borde para diferenciarse del fondo blanco del sheet
+            const activeBorder = isActive && zone.slug === 'norte' ? '1.5px solid #0768a9' : isActive ? 'none' : 'none';
+            return (
+              <button
+                key={zone.slug}
+                onClick={() => onZoneChange(zone.slug)}
+                style={{
+                  flex: 1, padding: '8px 4px', borderRadius: '12px',
+                  border: activeBorder,
+                  background: isActive ? zone.color : '#f3f4f6',
+                  color: isActive ? activeText : '#6b7280',
+                  fontWeight: isActive ? 700 : 500,
+                  fontSize: '13px',
+                  cursor: 'pointer',
+                  transition: 'all 0.18s',
+                  fontFamily: "'JetBrains Mono', monospace",
+                  display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px',
+                }}
+              >
+                {label}
+                <span style={{
+                  background: isActive ? activeBadgeBg : '#e5e7eb',
+                  color: isActive ? activeText : '#374151',
+                  borderRadius: '50%', width: '20px', height: '20px',
+                  display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                  fontSize: '10px', fontWeight: 700,
+                }}>
+                  {count}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Lista de municipios */}
+        <div style={{ overflowY: 'auto', padding: '8px 12px 28px', flex: 1, display: 'flex', flexDirection: 'column', gap: '8px' }}>
+          {zoneMunicipios.map(m => {
+            const count = poisByMunicipio[m.slug] ?? 0;
+            const heroImg = m.images?.hero ?? m.heroImage ?? '/images/placeholder.avif';
+            // Norte = #fdfdfc (blanco) → azul canario como acento; Sur = amarillo → marrón oscuro
+            const accentColor = currentZone.slug === 'norte' ? '#0768a9' : currentZone.slug === 'sur' ? '#7a4500' : currentZone.color;
+            return (
+              <button
+                key={m.slug}
+                onClick={() => { onMunicipioClick(m.slug); onClose(); }}
+                style={{
+                  display: 'flex', alignItems: 'stretch',
+                  background: 'white', border: '1px solid #f0f0f0',
+                  borderRadius: '16px', overflow: 'hidden',
+                  cursor: 'pointer', textAlign: 'left',
+                  boxShadow: '0 1px 6px rgba(0,0,0,0.06)',
+                  padding: 0, minHeight: '88px', flexShrink: 0,
+                }}
+              >
+                {/* Thumbnail cuadrado */}
+                <div style={{ position: 'relative', width: '90px', flexShrink: 0, background: '#e5e7eb' }}>
+                  <img
+                    src={heroImg}
+                    alt={m.name}
+                    loading="lazy"
+                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+
+                {/* Info */}
+                <div style={{ flex: 1, padding: '12px 14px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                  {/* Nombre */}
+                  <div>
+                    <div style={{
+                      fontSize: '14px', fontWeight: 700, color: '#111827',
+                      lineHeight: 1.2, fontFamily: "'Outfit', sans-serif",
+                      marginBottom: '4px',
+                    }}>
+                      {m.emoji && <span style={{ marginRight: 4 }}>{m.emoji}</span>}
+                      {m.name}
+                    </div>
+                    {m.shortDescription && (
+                      <div style={{
+                        fontSize: '11px', color: '#6b7280', lineHeight: 1.45,
+                        overflow: 'hidden',
+                        display: '-webkit-box',
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: 'vertical' as const,
+                      }}>
+                        {m.shortDescription}
+                      </div>
+                    )}
+                  </div>
+                  {/* Footer */}
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '6px' }}>
+                    {count > 0 && (
+                      <span style={{
+                        fontSize: '10px', fontWeight: 700, color: accentColor,
+                        fontFamily: "'JetBrains Mono', monospace",
+                      }}>
+                        📍 {count} lugares
+                      </span>
+                    )}
+                    <span style={{ fontSize: '12px', color: '#9ca3af', marginLeft: 'auto' }}>›</span>
+                  </div>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </>
+  );
+}
+
 export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosByIsland, initialIsland = 'gran-canaria', initialFilter, islandName, showLanguageSwitcher = true, photoCreditsBySlug }: IslandMapProps) {
   const t = useUiStrings(locale);
   const router = useRouter();
@@ -528,6 +789,8 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   const [activeFilter, setActiveFilter] = useState<string | null>(initialFilter ?? 'top');
   const [activeSectionId, setActiveSectionId] = useState<string | null>(null);
   const [selectedMunicipio, setSelectedMunicipio] = useState<string | null>(null);
+  const [activeZone, setActiveZone] = useState<string | null>(null);
+  const [zoneSheetOpen, setZoneSheetOpen] = useState(false);
   const [detailPois, setDetailPois] = useState<POI[]>([]);
   // La animación de aparición de los marcadores solo debe verse una vez,
   // al cargar el mapa. Tras la primera tanda (índices hasta ~900ms + 300ms
@@ -749,11 +1012,18 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
   const activeCategoryChip = activeFilter && CATEGORY_CHIP_IDS.includes(activeFilter)
     ? activeFilter : null;
 
-  // Marcadores de municipio: sin filtro, con "municipios", o con "top" (solo los top)
-  const showMunicipioMarkers = !activeFilter || activeFilter === 'municipios' || activeFilter === 'top';
+  // En Tenerife con filtro "municipios" → modo zonas coloreadas (sin pines individuales)
+  const isTenerifeZoneMode = activeIsland === 'tenerife' && activeFilter === 'municipios';
+
+  // Marcadores de municipio: sin filtro, con "municipios" (salvo Tenerife zona mode), o con "top"
+  const showMunicipioMarkers = (!activeFilter || activeFilter === 'municipios' || activeFilter === 'top') && !isTenerifeZoneMode;
+
   const municipioMarkers = showMunicipioMarkers
     ? municipios
-        .filter(m => activeFilter === 'top' ? !!m.top : true)
+        .filter(m => {
+          if (activeFilter === 'top') return !!m.top;
+          return true;
+        })
         .map(m => ({
           ...m,
           count: mapPois.filter(p => p.municipio === m.slug).length,
@@ -827,7 +1097,9 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     setActiveSectionId(null);
     setDetailPois([]);
     setSelectedPoi(null);
-    // Calcular next fuera del updater (los updaters deben ser puros)
+    setZoneSheetOpen(false);
+    setActiveZone(null);
+// Calcular next fuera del updater (los updaters deben ser puros)
     setActiveFilter((current) => {
       const next = current === filterId ? null : filterId;
       return next;
@@ -1045,6 +1317,12 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             <stop offset="50%"  stopColor={MUNICIPIO_GRADIENT.base} />
             <stop offset="100%" stopColor={MUNICIPIO_GRADIENT.dark} />
           </linearGradient>
+          {/* ClipPath de la isla para recortar las zonas coloreadas */}
+          {activeIsland === 'tenerife' && (
+            <clipPath id="tenerifeIslandClip">
+              <path d={islandConfig.path} />
+            </clipPath>
+          )}
         </defs>
         <style>{`
           @keyframes markerFadeIn {
@@ -1058,6 +1336,67 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           stroke="url(#islandStroke)"
           strokeWidth="2.5"
         />
+        {/* Zonas coloreadas Tenerife — Norte / Centro / Sur */}
+        {isTenerifeZoneMode && TENERIFE_ZONES.map((zone) => {
+          // Norte y Sur grandes, Centro franja estrecha (estilo bandera canaria)
+          const yStart = zone.slug === 'norte' ? 0 : zone.slug === 'centro' ? 180 : 220;
+          const yEnd   = zone.slug === 'norte' ? 180 : zone.slug === 'centro' ? 220 : 400;
+          const isHovered = activeZone === zone.slug;
+          return (
+            <g
+              key={zone.slug}
+              clipPath="url(#tenerifeIslandClip)"
+              style={{ cursor: 'pointer' }}
+              onClick={() => {
+                setActiveZone(zone.slug);
+                setZoneSheetOpen(true);
+              }}
+            >
+              <rect
+                x={0} y={yStart} width={400} height={yEnd - yStart}
+                fill={zone.color}
+                fillOpacity={isHovered ? 0.70 : zone.slug === 'norte' ? 0.60 : zone.slug === 'centro' ? 0.42 : 0.45}
+                style={{ transition: 'fill-opacity 0.2s' }}
+              />
+            </g>
+          );
+        })}
+        {/* Etiquetas de zona sobre el mapa */}
+        {isTenerifeZoneMode && TENERIFE_ZONES.map((zone) => {
+          const pos = coordsToSvg(zone.coordinates.lat, zone.coordinates.lng, 'tenerife');
+          const label = zone.label[locale as keyof typeof zone.label] ?? zone.label.es;
+          const municipioCount = (zone.municipioSlugs as readonly string[]).length;
+          // Norte es blanco (#fdfdfc) — pill y badge usan azul canario para contraste
+          const pillColor = zone.slug === 'norte' ? '#0768a9' : zone.color;
+          // Sur es amarillo, texto oscuro; Centro/Norte pill azul → texto blanco
+          const textColor = zone.slug === 'sur' ? '#7a4500' : 'white';
+          return (
+            <g
+              key={`label-${zone.slug}`}
+              style={{ cursor: 'pointer', pointerEvents: 'none' }}
+            >
+              <rect
+                x={pos.x - 28} y={pos.y - 12} width={56} height={24} rx={12} ry={12}
+                fill={pillColor} fillOpacity={0.97}
+                stroke="white" strokeWidth="1.2"
+                style={{ filter: 'drop-shadow(0 2px 5px rgba(0,0,0,0.40))' }}
+              />
+              <text x={pos.x} y={pos.y + 4} textAnchor="middle" fontSize="9" fontWeight="700"
+                fill={textColor}
+                style={{ userSelect: 'none', fontFamily: 'system-ui, sans-serif', letterSpacing: '0.5px' }}>
+                {label}
+              </text>
+              <circle cx={pos.x + 28} cy={pos.y - 10} r={10}
+                fill={pillColor}
+                stroke="white" strokeWidth="1.8" />
+              <text x={pos.x + 28} y={pos.y - 6} textAnchor="middle" fontSize="8" fontWeight="800"
+                fill={textColor}
+                style={{ userSelect: 'none', fontFamily: 'monospace' }}>
+                {municipioCount}
+              </text>
+            </g>
+          );
+        })}
         {/* Marcadores de municipio */}
         {municipioMarkers.map((m, i) => (
           <MunicipioMarker
@@ -1101,7 +1440,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           />
         ))}
       </svg>
-      </div>{/* /SVG wrapper — área visible entre filter bar y name bar */}
+      </div>{/* /SVG wrapper */}
 
       {/* ── Filter bar — flotante sobre el mapa, bajo el nav ── */}
       <div ref={filterBarRef} style={{
@@ -1115,8 +1454,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
         gap: '8px',
         pointerEvents: 'none',
       }}>
-
-        {/* Fila 1: píldora unificada — Municipios · Top · │ · 🌍 */}
+        {/* Fila 1: píldora unificada — Municipios · Top · 🌍 */}
         <div style={{ padding: '0 12px', pointerEvents: 'auto', display: 'flex', justifyContent: 'center' }}>
           <div style={{
             width:'auto',
@@ -1130,7 +1468,6 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             padding: '6px',
             gap: '6px',
           }}>
-            {/* Botones de acción */}
             {([
               { id: 'municipios', icon: '/icons/icons8-houses-48.png', label: t.chips.municipios },
               { id: 'top',        icon: '/icons/icons8-star-48.png',   label: t.chips.top        },
@@ -1171,13 +1508,12 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           </div>
           );
             })}
-                            <div style={{
+            <div style={{
               width: 1, alignSelf: 'stretch',
               background: 'rgba(26,61,43,0.15)',
               margin: '6px 4px',
               flexShrink: 0,
             }}> </div>
-            {/* Language switcher — integrado en la píldora */}
             {showLanguageSwitcher && (
               <div style={{ flexShrink: 0}}>
                 <LanguageSwitcher currentLocale={locale} />
@@ -1186,7 +1522,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           </div>
         </div>
 
-        {/* Fila 2: chips de categoría — centrados, scroll si no caben */}
+        {/* Fila 2: chips de categoría */}
         <div style={{
           overflowX: 'auto', scrollbarWidth: 'none',
           WebkitOverflowScrolling: 'touch',
@@ -1210,7 +1546,6 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             const isActive = activeFilter === chip.id;
             const grad = `linear-gradient(135deg, ${shadeColor(chip.color, 0.45)}, ${chip.color}, ${shadeColor(chip.color, -0.35)})`;
             return (
-              /* Wrapper con borde degradado (1px padding + fondo sólido interior) */
               <div
                 key={chip.id}
                 style={{
@@ -1262,7 +1597,6 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
       {/* Nombre isla — barra inferior */}
       {islandName && !selectedPoi && (
         <>
-          {/* ClipPath de olas — objectBoundingBox: coords relativas al elemento (0–1) */}
           <svg width="0" height="0" style={{ position: 'absolute', overflow: 'hidden' }}>
             <defs>
               <clipPath id="islandBarWave" clipPathUnits="objectBoundingBox">
@@ -1270,7 +1604,6 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
               </clipPath>
             </defs>
           </svg>
-
           <div style={{
             position: 'fixed',
             bottom: 0, left: '50%',
@@ -1319,7 +1652,6 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           selectedPoi={selectedPoi}
           onPoiChange={(poi) => {
             setSelectedPoi(poi);
-            // Actualizar URL cuando se navega entre POIs de una categoría
             if (activeCategoryChip && FILTER_TO_CATEGORY_URL[activeCategoryChip]) {
               const catSlug = FILTER_TO_CATEGORY_URL[activeCategoryChip];
               window.history.replaceState(null, '', `/${locale}/${activeIsland}/${catSlug}/${poi.slug}`);
@@ -1335,6 +1667,20 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             color: activeSection.color,
           } : undefined}
           photoCreditGroups={photoCreditsBySlug?.[selectedPoi.slug]}
+        />
+      )}
+
+      {/* Zone sheet — Tenerife Norte/Centro/Sur */}
+      {isTenerifeZoneMode && (
+        <ZoneSheet
+          open={zoneSheetOpen}
+          onClose={() => setZoneSheetOpen(false)}
+          activeZone={activeZone ?? TENERIFE_ZONES[0].slug}
+          onZoneChange={setActiveZone}
+          municipios={municipios}
+          poisByMunicipio={Object.fromEntries(municipios.map(m => [m.slug, mapPois.filter(p => p.municipio === m.slug).length]))}
+          onMunicipioClick={handleMunicipioClick}
+          locale={locale}
         />
       )}
 
