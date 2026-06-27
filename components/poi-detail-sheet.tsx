@@ -50,8 +50,10 @@ function getBubbleThumb(heroUrl: string): string {
   const parts = heroUrl.split('/');
   // ['', 'images', 'gran-canaria', 'cultural', 'foo.avif']
   if (parts.length < 5) return heroUrl;
-  const filename = parts[parts.length - 1].replace(/\.[^.]+$/, '.webp');
   const category = parts[parts.length - 2];
+  // Las imágenes de municipios no tienen carpeta thumbs — usar original
+  if (category === 'municipios') return heroUrl;
+  const filename = parts[parts.length - 1].replace(/\.[^.]+$/, '.webp');
   const island = parts[parts.length - 3];
   return `/images/${island}/thumbs/${category}/${filename}`;
 }

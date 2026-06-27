@@ -2426,7 +2426,7 @@
         "lng": -16.5229
       },
       "images": {
-        "hero": "/images/tenerife/cultural/la_orotava_casco_historico.avif",
+        "hero": "/images/tenerife/municipios/la-orotava.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -2458,7 +2458,7 @@
         "lng": -16.7641
       },
       "images": {
-        "hero": "/images/tenerife/cultural/garachico_casco_historico.avif",
+        "hero": "/images/tenerife/municipios/garachico.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -4365,6 +4365,7 @@
       "shortDescription": "The north's smallest wine municipality — on La Laguna's doorstep, with vineyards on volcanic soils, centuries-old wineries and the most authentic rural character in the Santa Cruz–La Laguna metropolitan area.",
       "description": "**Tegueste** is the smallest municipality in the northern comarca and one of Tenerife's most singular. Just a few kilometres from **San Cristóbal de La Laguna**, it preserves a completely rural character: its vineyards on volcanic soils produce some of the north's most interesting wines, and its local festivals maintain traditions that have been lost in other municipalities.\n\n### What to see in Tegueste\n- 🍷 **Vineyards and wineries** — small family wineries producing wines of great character\n- ⛪ The **Church of San Marcos** — historic temple in the town centre\n- 🏘️ The **village of Tegueste** — the most authentic village near La Laguna\n- 🌿 **Ravines and trails** — hiking routes through ravines and vineyards in the north\n\n### Is Tegueste worth visiting?\n**For wine tourism and travellers seeking authenticity near La Laguna, yes.** Tegueste is rural Tenerife just 10 minutes from a UNESCO World Heritage city.\n\n### Recommendation\nCombine a winery visit in Tegueste with an afternoon in **La Laguna**'s historic centre (10 minutes by car). The perfect blend of rural and historic Tenerife.",
       "images": {
+        "hero": "/images/tenerife/municipios/tegueste.avif",
         "hero": "/images/tenerife/municipios/tegueste.avif",
         "gallery": []
       }

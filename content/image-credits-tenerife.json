@@ -1213,89 +1213,485 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "modified": true
     }
-  },"/images/tenerife/nature/mirador-las-narices-del-teide.avif": {
-  "alt": "View from Mirador de las Narices del Teide in Teide National Park, Tenerife",
-  "width": 4160,
-  "height": 2768,
-  "title": "mirador-las-narices-del-teide.avif",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Converted to AVIF and optimized for web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "dronepicr",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mirador_de_Las_Narices_observation_deck_in_Teide_National_Park_on_Tenerife,_Spain_(48225440127).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
+  },
+  "/images/tenerife/nature/mirador-las-narices-del-teide.avif": {
+    "alt": "View from Mirador de las Narices del Teide in Teide National Park, Tenerife",
+    "width": 4160,
+    "height": 2768,
+    "title": "mirador-las-narices-del-teide.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "dronepicr",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mirador_de_Las_Narices_observation_deck_in_Teide_National_Park_on_Tenerife,_Spain_(48225440127).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/roques-de-garcia-mirador-la-ruleta.avif": {
+    "alt": "Roques de García seen from Mirador de La Ruleta in Teide National Park, Tenerife",
+    "width": 5184,
+    "height": 3888,
+    "title": "roques-de-garcia-mirador-la-ruleta.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Ad Meskens",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenerife_Teide_National_Park_09.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/pico-del-ingles-viewpoint.avif": {
+    "alt": "Panoramic view from Pico del Inglés Viewpoint in Anaga Rural Park, Tenerife",
+    "width": 3200,
+    "height": 1440,
+    "title": "pico-del-ingles-viewpoint.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Mentxuwiki",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mirador_Pico_del_Ingl%C3%A9s,_Parque_Rural_de_Anaga_(Tenerife).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/chinyero-special-nature-reserve.avif": {
+    "alt": "Volcanic landscape in the Chinyero Special Nature Reserve near Teide National Park, Tenerife",
+    "width": 5472,
+    "height": 3648,
+    "title": "chinyero-special-nature-reserve.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "FrDr",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reserva_natural_especial_del_Chinyero_-_Parque_Natural_Corona_Forestal_-_Parque_Nacional_del_Teide_17.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/llano-de-ucanca.avif": {
+    "alt": "Panoramic view of Llano de Ucanca from Roques de García in Teide National Park, Tenerife",
+    "width": 17970,
+    "height": 7598,
+    "title": "llano-de-ucanca.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0-DE",
+      "author": "Thomas Wolf",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Llano_de_Ucanca.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/punta-de-teno-lighthouse.avif": {
+    "alt": "Punta de Teno Lighthouse surrounded by dramatic coastal cliffs in northwest Tenerife",
+    "width": 5961,
+    "height": 3405,
+    "title": "punta-de-teno-lighthouse.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Werner Wilmes",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_Leuchtturm_von_Punta_de_Teno_-_52311561977.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/view-santa-cruz-from-palmetum.avif": {
+    "alt": "Panoramic view of Santa Cruz de Tenerife from the Palmetum",
+    "width": 6831,
+    "height": 4554,
+    "title": "view-santa-cruz-from-palmetum.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Mike Peel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Tenerife_2026_583_-_View_of_Santa_Cruz_de_Tenerife_from_the_Palmetum.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/puerto-de-la-cruz.avif": {
+    "alt": "Sea pools and coastline of Puerto de la Cruz, Tenerife",
+    "width": 5371,
+    "height": 3581,
+    "title": "puerto-de-la-cruz.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Luis Miguel Bugallo Sánchez (Lmbuga)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puerto_de_la_Cruz._Tenerife._Espa%C3%B1a_eue70.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/adeje.avif": {
+    "alt": "Aerial view of Adeje, Tenerife",
+    "width": 6979,
+    "height": 4657,
+    "title": "adeje.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Wouter Hagens",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A0440_Tenerife,_Adeje_aerial_view.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/arona.avif": {
+    "alt": "Street scene in the historic center of Arona, Tenerife",
+    "width": 4241,
+    "height": 2822,
+    "title": "arona.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Tuxyso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arona-Zentrum-Teneriffa-BMW-2002.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/santiago-del-teide.avif": {
+    "alt": "View of Santiago del Teide with Mount Teide in the background",
+    "width": 4608,
+    "height": 3072,
+    "title": "santiago-del-teide.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Florival fr",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teide_%26_Santiago_del_Teide.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/granadilla-de-abona.avif": {
+    "alt": "Historic center of Granadilla de Abona, Tenerife",
+    "width": 5184,
+    "height": 3456,
+    "title": "granadilla-de-abona.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "ArticCynda",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granadilla_de_Abona_3.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/san-miguel-de-abona.avif": {
+    "alt": "View of Las Chafiras in the municipality of San Miguel de Abona, Tenerife",
+    "width": 4130,
+    "height": 2199,
+    "title": "san-miguel-de-abona.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Bjoertvedt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Miguel_de_Abona_IMG_6522_Las_Chafiras.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/candelaria.avif": {
+    "alt": "Panoramic view of Candelaria, Tenerife",
+    "width": 5014,
+    "height": 3280,
+    "title": "candelaria.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_de_Candelaria,_Tenerife,_Espa%C3%B1a,_2012-12-12,_DD_05.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/guimar.avif": {
+    "alt": "View of the Pyramids of Güímar in Tenerife",
+    "width": 2560,
+    "height": 1440,
+    "title": "guimar.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Axel Cotón Gutiérrez",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%BC%C3%ADmar,_en_Santa_Cruz_de_Tenerife_(Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/el-sauzal.avif": {
+    "alt": "Church of San Pedro Apóstol in El Sauzal, Tenerife",
+    "width": 5041,
+    "height": 3458,
+    "title": "el-sauzal.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Koppchen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedro_Sauzal_04.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/tacoronte.avif": {
+    "alt": "Church of Santa Catalina in Tacoronte, Tenerife",
+    "width": 4697,
+    "height": 2895,
+    "title": "tacoronte.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Koppchen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tacoronte,_en_Santa_Cruz_de_Tenerife_(Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/arico.avif": {
+    "alt": "Historic village of Arico, Tenerife",
+    "width": 3123,
+    "height": 1754,
+    "title": "arico.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Juan Oramas",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arico,_en_Santa_Cruz_de_Tenerife_(Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/san-juan-de-la-rambla.avif": {
+    "alt": "Panoramic view of San Juan de la Rambla from Mazapé, Tenerife",
+    "width": 3922,
+    "height": 2201,
+    "title": "san-juan-de-la-rambla.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Javier Sanchez Portero",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Juan_de_la_Rambla,_en_Santa_Cruz_de_Tenerife_(Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/los-silos.avif": {
+    "alt": "View over the village of Los Silos, Tenerife",
+    "width": 3911,
+    "height": 2425,
+    "title": "los-silos.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-4.0",
+      "author": "Evdpnl",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Silos_-_El_Casco.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/vilaflor.avif": {
+    "alt": "View of Vilaflor de Chasna from San Roque, Tenerife",
+    "width": 800,
+    "height": 456,
+    "title": "vilaflor-de-chasna.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Daniel Tenerife",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vilaflor_de_Chasna,_en_Santa_Cruz_de_Tenerife_(Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/arafo.avif": {
+    "alt": "Calle La Libertad in Arafo, Tenerife",
+    "width": 5184,
+    "height": 3456,
+    "title": "arafo.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Michal Klajban",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calle_la_Libertad,_Arafo,_Tenerife,_Spain_02.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/el-rosario.avif": {
+    "alt": "View of La Esperanza in El Rosario, Tenerife",
+    "width": 756,
+    "height": 483,
+    "title": "el-rosario.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-2.0",
+      "author": "Carlos Serrano",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Esperanza,_en_el_municipio_de_El_Rosario_(Santa_Cruz_de_Tenerife,_Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/el-tanque.avif": {
+    "alt": "Panoramic view of El Tanque, Tenerife",
+    "width": 4320,
+    "height": 2160,
+    "title": "el-tanque.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "giggel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teneriffa_-_El_Tanque_-_panoramio.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/la-guancha.avif": {
+    "alt": "Municipality map of La Guancha, Tenerife",
+    "width": 200,
+    "height": 200,
+    "title": "la-guancha.svg",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Optimized SVG for web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Júlio Reis",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenerife_municipio_La_Guancha.svg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/fasnia.avif": {
+    "alt": "View of Fasnia municipality, Tenerife",
+    "width": 5184,
+    "height": 3232,
+    "title": "fasnia.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Michal Klajban",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenerife,_Fasnia_(25).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/la-victoria-de-acentejo.avif": {
+    "alt": "Nuestra Señora de la Victoria Church in La Victoria de Acentejo, Tenerife",
+    "width": 4281,
+    "height": 3001,
+    "title": "la-victoria-de-acentejo.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Koppchen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuestra_Se%C3%B1ora_de_la_Victoria_03.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/los-realejos.avif": {
+    "alt": "Drago Siete Fuentes in Los Realejos, Tenerife",
+    "width": 1276,
+    "height": 917,
+    "title": "los-realejos.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Losrealejos.es",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drado_Siete_Fuentes,Los_Realejos.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/santa-ursula.avif": {
+    "alt": "View over the Orotava Valley from Santa Úrsula, Tenerife",
+    "width": 5472,
+    "height": 3648,
+    "title": "santa-ursula.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Oliver Abels",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_%C3%9Arsula_-_Orotravatal_(1_03.2015).jpg",
+      "licenseUrl": "https: //creativecommons.org/licenses/by-sa/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/tegueste.avif": {
+    "alt": "Plaza San Marcos and Church of San Marcos Evangelista in Tegueste, Tenerife",
+    "width": 3648,
+    "height": 2736,
+    "title": "tegueste.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-SA-3.0",
+      "author": "Noemi M.M",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaza_San_Marcos_e_Iglesia_de_San_Marcos_Evangelista_en_Tegueste.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/la-matanza-de-acentejo.avif": {
+    "alt": "San Salvador Church in La Matanza de Acentejo, Tenerife",
+    "width": 5026,
+    "height": 2834,
+    "title": "la-matanza-de-acentejo.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-3.0",
+      "author": "Koppchen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Matanza_de_Acentejo,_en_Santa_Cruz_de_Tenerife_(Espa%C3%B1a).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/municipios/guia-de-isora-playa-abama.avif": {
+    "alt": "Playa de Abama in Guía de Isora, Tenerife",
+    "width": 3963,
+    "height": 2972,
+    "title": "guia-de-isora-playa-abama.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Converted to AVIF and optimized for web",
+    "license": {
+      "type": "CC-BY-4.0",
+      "author": "-wuppertaler",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ESP_Tenerife,_Gu%C3%ADa_de_Isora,_Abama,_Playa_Abama_0005.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": true
+    }
   }
-},"/images/tenerife/nature/roques-de-garcia-mirador-la-ruleta.avif": {
-  "alt": "Roques de García seen from Mirador de La Ruleta in Teide National Park, Tenerife",
-  "width": 5184,
-  "height": 3888,
-  "title": "roques-de-garcia-mirador-la-ruleta.avif",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Converted to AVIF and optimized for web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Ad Meskens",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenerife_Teide_National_Park_09.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},"/images/tenerife/nature/pico-del-ingles-viewpoint.avif": {
-  "alt": "Panoramic view from Pico del Inglés Viewpoint in Anaga Rural Park, Tenerife",
-  "width": 3200,
-  "height": 1440,
-  "title": "pico-del-ingles-viewpoint.avif",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Converted to AVIF and optimized for web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "Mentxuwiki",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mirador_Pico_del_Ingl%C3%A9s,_Parque_Rural_de_Anaga_(Tenerife).jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},"/images/tenerife/nature/chinyero-special-nature-reserve.avif": {
-  "alt": "Volcanic landscape in the Chinyero Special Nature Reserve near Teide National Park, Tenerife",
-  "width": 5472,
-  "height": 3648,
-  "title": "chinyero-special-nature-reserve.avif",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Converted to AVIF and optimized for web",
-  "license": {
-    "type": "CC-BY-SA-4.0",
-    "author": "FrDr",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reserva_natural_especial_del_Chinyero_-_Parque_Natural_Corona_Forestal_-_Parque_Nacional_del_Teide_17.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modified": true
-  }
-},"/images/tenerife/nature/llano-de-ucanca.avif": {
-  "alt": "Panoramic view of Llano de Ucanca from Roques de García in Teide National Park, Tenerife",
-  "width": 17970,
-  "height": 7598,
-  "title": "llano-de-ucanca.avif",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Converted to AVIF and optimized for web",
-  "license": {
-    "type": "CC-BY-SA-3.0-DE",
-    "author": "Thomas Wolf",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Llano_de_Ucanca.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
-    "modified": true
-  }
-},"/images/tenerife/nature/punta-de-teno-lighthouse.avif": {
-  "alt": "Punta de Teno Lighthouse surrounded by dramatic coastal cliffs in northwest Tenerife",
-  "width": 5961,
-  "height": 3405,
-  "title": "punta-de-teno-lighthouse.avif",
-  "sourceName": "Wikimedia Commons",
-  "modifications": "Converted to AVIF and optimized for web",
-  "license": {
-    "type": "CC-BY-2.0",
-    "author": "Werner Wilmes",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_Leuchtturm_von_Punta_de_Teno_-_52311561977.jpg",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "modified": true
-  }
-}
 }

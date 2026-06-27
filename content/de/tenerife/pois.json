@@ -2426,7 +2426,7 @@
         "lng": -16.5229
       },
       "images": {
-        "hero": "/images/tenerife/cultural/la_orotava_casco_historico.avif",
+        "hero": "/images/tenerife/municipios/la-orotava.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -2458,7 +2458,7 @@
         "lng": -16.7641
       },
       "images": {
-        "hero": "/images/tenerife/cultural/garachico_casco_historico.avif",
+        "hero": "/images/tenerife/municipios/garachico.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -4365,6 +4365,7 @@
       "shortDescription": "Die kleinste Weingemeinde im Norden — vor den Toren La Lagunas, mit Weinbergen auf Vulkanböden, jahrhundertealten Weingütern und dem authentischsten ländlichen Charakter des Ballungsraums Santa Cruz–La Laguna.",
       "description": "**Tegueste** ist die kleinste Gemeinde der Nordkomarca und eine der einzigartigsten Teneriffas. Nur wenige Kilometer von **San Cristóbal de La Laguna** entfernt, bewahrt sie einen vollständig ländlichen Charakter: Ihre Weinberge auf Vulkanböden produzieren einige der interessantesten Weine des Nordens, und ihre Patronatsfeste bewahren Traditionen, die in anderen Gemeinden bereits verloren gegangen sind.\n\n### Was in Tegueste zu sehen ist\n- 🍷 Die **Weinberge und Weingüter** — kleine Familienweingüter mit charaktervollen Weinen\n- ⛪ Die **Kirche San Marcos** — historischer Tempel im Ortszentrum\n- 🏘️ Das **Dorf Tegueste** — das authentischste Dorf in der Umgebung von La Laguna\n- 🌿 Die **Schluchten und Wanderwege** — Wanderrouten durch Schluchten und Weinberge im Norden\n\n### Lohnt sich ein Besuch in Tegueste?\n**Für Weintouristen und Reisende, die Authentizität nahe La Laguna suchen, ja.** Tegueste ist ländliches Teneriffa, nur 10 Minuten von einer UNESCO-Weltkulturerbestadt entfernt.\n\n### Empfehlung\nEinen Weingutbesuch in Tegueste mit einem Nachmittag im **historischen Zentrum von La Laguna** (10 Minuten mit dem Auto) kombinieren. Die perfekte Mischung aus ländlichem und historischem Teneriffa.",
       "images": {
+        "hero": "/images/tenerife/municipios/tegueste.avif",
         "hero": "/images/tenerife/municipios/tegueste.avif",
         "gallery": []
       }

@@ -2428,7 +2428,7 @@
         "lng": -16.5229
       },
       "images": {
-        "hero": "/images/tenerife/cultural/la_orotava_casco_historico.avif",
+        "hero": "/images/tenerife/municipios/la-orotava.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -2460,7 +2460,7 @@
         "lng": -16.7641
       },
       "images": {
-        "hero": "/images/tenerife/cultural/garachico_casco_historico.avif",
+        "hero": "/images/tenerife/municipios/garachico.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -3910,6 +3910,7 @@
       "slug": "santa-cruz-de-tenerife",
       "name": "Santa Cruz de Tenerife",
       "emoji": "🏙️",
+      "mapsUrl":"https://maps.app.goo.gl/XLRqWHNRwbjjBkck7",
       "coordinates": {
         "lat": 28.55,
         "lng": -16.2418
@@ -3924,6 +3925,7 @@
     {
       "slug": "san-cristobal-de-la-laguna",
       "name": "San Cristóbal de La Laguna",
+      "mapsUrl":"https://maps.app.goo.gl/aLqSiKB49va2qNe1A",
       "emoji": "🏛️",
       "coordinates": {
         "lat": 28.4874,
@@ -3939,6 +3941,7 @@
     {
       "slug": "la-orotava",
       "name": "La Orotava",
+      "mapsUrl":"https://maps.app.goo.gl/7zV6yHcNvJkMT5EQA",
       "emoji": "🌺",
       "coordinates": {
         "lat": 28.3907,
@@ -3954,6 +3957,7 @@
     {
       "slug": "puerto-de-la-cruz",
       "name": "Puerto de la Cruz",
+      "mapsUrl":"https://maps.app.goo.gl/9KZrtoAhh94ku5Wt6",
       "emoji": "🌊",
       "coordinates": {
         "lat": 28.4149,
@@ -3969,6 +3973,7 @@
     {
       "slug": "adeje",
       "name": "Adeje",
+       "mapsUrl":"https://maps.app.goo.gl/2QgBmr63UN6REfmq6",
       "emoji": "🏖️",
       "coordinates": {
         "lat": 28.1227,
@@ -3984,6 +3989,7 @@
     {
       "slug": "arona",
       "name": "Arona",
+      "mapsUrl":"https://maps.app.goo.gl/Gqp6qwkq4KcDGhr48",
       "emoji": "☀️",
       "coordinates": {
         "lat": 28.0996,
@@ -3999,6 +4005,7 @@
     {
       "slug": "garachico",
       "name": "Garachico",
+      "mapsUrl":"https://maps.app.goo.gl/VF1S9YvLQb4zDVyE6",
       "emoji": "🌊",
       "coordinates": {
         "lat": 28.3726,
@@ -4014,6 +4021,7 @@
     {
       "slug": "icod-de-los-vinos",
       "name": "Icod de los Vinos",
+      "mapsUrl":"https://maps.app.goo.gl/fUwYiX2Cnc1dMFBPA",
       "emoji": "🌳",
       "coordinates": {
         "lat": 28.3698,
@@ -4029,6 +4037,7 @@
     {
       "slug": "buenavista-del-norte",
       "name": "Buenavista del Norte",
+       "mapsUrl":"https://maps.app.goo.gl/iH8uq4qa9uuG1eFj8",
       "emoji": "🌾",
       "coordinates": {
         "lat": 28.3782,
@@ -4044,6 +4053,7 @@
     {
       "slug": "santiago-del-teide",
       "name": "Santiago del Teide",
+       "mapsUrl":"https://maps.app.goo.gl/MVMerJMccQgamLNaA",
       "emoji": "🌋",
       "coordinates": {
         "lat": 28.2968,
@@ -4059,6 +4069,7 @@
     {
       "slug": "guia-de-isora",
       "name": "Guía de Isora",
+      "mapsUrl":"https://maps.app.goo.gl/VnkS9BH9RbVQTWYj6",
       "emoji": "🌅",
       "coordinates": {
         "lat": 28.2159,
@@ -4074,6 +4085,7 @@
     {
       "slug": "granadilla-de-abona",
       "name": "Granadilla de Abona",
+      "mapsUrl":"https://maps.app.goo.gl/YpGHummbXMHbMYrr6",
       "emoji": "🏄",
       "coordinates": {
         "lat": 28.1191,
@@ -4089,6 +4101,7 @@
     {
       "slug": "san-miguel-de-abona",
       "name": "San Miguel de Abona",
+      "mapsUrl":"https://maps.app.goo.gl/UnqeSXzZBnn62Aop6",
       "emoji": "🐟",
       "coordinates": {
         "lat": 28.039,
@@ -4104,6 +4117,7 @@
     {
       "slug": "candelaria",
       "name": "Candelaria",
+      "mapsUrl":"https://maps.app.goo.gl/bJVQ1UfCkts8qVbc8",
       "emoji": "⛪",
       "coordinates": {
         "lat": 28.3568,
@@ -4119,6 +4133,7 @@
     {
       "slug": "guimar",
       "name": "Güímar",
+      "mapsUrl":"https://maps.app.goo.gl/6fixysksXm2xNWE1A",
       "emoji": "🔺",
       "coordinates": {
         "lat": 28.3115,
@@ -4134,6 +4149,7 @@
     {
       "slug": "el-sauzal",
       "name": "El Sauzal",
+      "mapsUrl":"https://maps.app.goo.gl/hZNv159pM8BL23Ba9",
       "emoji": "🍷",
       "coordinates": {
         "lat": 28.4742,
@@ -4149,6 +4165,7 @@
     {
       "slug": "tacoronte",
       "name": "Tacoronte",
+      "mapsUrl":"https://maps.app.goo.gl/AWPpYJzSF5T8EmNb7",
       "emoji": "🍇",
       "coordinates": {
         "lat": 28.4739,
@@ -4164,6 +4181,7 @@
     {
       "slug": "arico",
       "name": "Arico",
+      "mapsUrl":"https://maps.app.goo.gl/oEucEWWcPUrqoUXF6",
       "emoji": "🧗",
       "coordinates": {
         "lat": 28.1624,
@@ -4179,6 +4197,7 @@
     {
       "slug": "san-juan-de-la-rambla",
       "name": "San Juan de la Rambla",
+       "mapsUrl":"https://maps.app.goo.gl/vkp8WL7MFGSnwcgY6",
       "emoji": "🌊",
       "coordinates": {
         "lat": 28.3934,
@@ -4194,6 +4213,7 @@
     {
       "slug": "los-silos",
       "name": "Los Silos",
+       "mapsUrl":"https://maps.app.goo.gl/3By4nWAGbX6CDgvp6",
       "emoji": "🌿",
       "coordinates": {
         "lat": 28.3835,
@@ -4209,6 +4229,7 @@
     {
       "slug": "vilaflor",
       "name": "Vilaflor de Chasna",
+       "mapsUrl":"https://maps.app.goo.gl/7pQ1okDvsENPLNpb8",
       "emoji": "🌲",
       "coordinates": {
         "lat": 28.1567,
@@ -4224,6 +4245,7 @@
     {
       "slug": "arafo",
       "name": "Arafo",
+       "mapsUrl":"https://maps.app.goo.gl/NWaZhZw7LQfPHVNa8",
       "emoji": "🌿",
       "coordinates": {
         "lat": 28.3218,
@@ -4239,6 +4261,7 @@
     {
       "slug": "el-rosario",
       "name": "El Rosario",
+       "mapsUrl":"https://maps.app.goo.gl/ByTLy7joC69a6MN76",
       "emoji": "🏡",
       "coordinates": {
         "lat": 28.4444,
@@ -4254,6 +4277,7 @@
     {
       "slug": "el-tanque",
       "name": "El Tanque",
+        "mapsUrl":"https://maps.app.goo.gl/SVUGqHQr6gPhXc3u5",
       "emoji": "🌱",
       "coordinates": {
         "lat": 28.3506,
@@ -4269,6 +4293,7 @@
     {
       "slug": "fasnia",
       "name": "Fasnia",
+       "mapsUrl":"https://maps.app.goo.gl/b6rnM5JzcGaLhzfVA",
       "emoji": "🌋",
       "coordinates": {
         "lat": 28.2225,
@@ -4284,6 +4309,7 @@
     {
       "slug": "la-guancha",
       "name": "La Guancha",
+       "mapsUrl":"https://maps.app.goo.gl/ADxKqnenknGAm2oG6",
       "emoji": "🌾",
       "coordinates": {
         "lat": 28.36,
@@ -4299,6 +4325,7 @@
     {
       "slug": "la-matanza-de-acentejo",
       "name": "La Matanza de Acentejo",
+      "mapsUrl":"https://maps.app.goo.gl/TvmY57fMHaSDuTDX7",
       "emoji": "⚔️",
       "coordinates": {
         "lat": 28.4555,
@@ -4314,6 +4341,7 @@
     {
       "slug": "la-victoria-de-acentejo",
       "name": "La Victoria de Acentejo",
+       "mapsUrl":"https://maps.app.goo.gl/oa9xXwdtbCoEup7J9",
       "emoji": "🏆",
       "coordinates": {
         "lat": 28.4606,
@@ -4329,6 +4357,7 @@
     {
       "slug": "los-realejos",
       "name": "Los Realejos",
+       "mapsUrl":"https://maps.app.goo.gl/9VL1pECP9DWtfhdp9",
       "emoji": "🌴",
       "coordinates": {
         "lat": 28.3768,
@@ -4344,13 +4373,14 @@
     {
       "slug": "santa-ursula",
       "name": "Santa Úrsula",
+        "mapsUrl":"https://maps.app.goo.gl/ewd8xJWU63f7qBg57",
       "emoji": "🌄",
       "coordinates": {
         "lat": 28.4323,
         "lng": -16.4944
       },
       "shortDescription": "El balcón del Valle de la Orotava — un municipio de medianías con vistas panorámicas privilegiadas sobre el valle más fértil de Tenerife y el Teide al fondo, entre viñedos y frutales.",
-      "description": "**Santa Úrsula** es un municipio de las medianías del norte de Tenerife que goza de algunas de las vistas más privilegiadas sobre el **Valle de la Orotava** — el valle más fértil y pintoresco de la isla, con el Teide dominando el horizonte. Su posición en las medianías, a entre 300 y 600 metros de altitud, le otorga un microclima suave y una vegetación exuberante.\n\n### Qué ver en Santa Úrsula\n- 🌄 Las **vistas sobre el Valle de la Orotava** — panorámicas privilegiadas hacia el Teide y el valle\n- 🌿 Los **viñedos y frutales de medianías** — el paisaje agrícola que da identidad al norte\n- 🏘️ El **casco de Santa Úrsula** — pueblo de medianías con arquitectura rural canaria\n- 🥾 Los **senderos de las medianías** — rutas entre el valle y las cumbres con vistas espectaculares\n\n### ¿Merece la pena visitar Santa Úrsula?\n**Como mirador y parada en ruta entre Puerto de la Cruz y La Orotava, sí.** Sus vistas sobre el valle son de las mejores de Tenerife.\n\n### Recomendación\nParáte en Santa Úrsula en el trayecto entre Puerto de la Cruz y La Orotava. Las vistas al atardecer, con el Teide tiñéndose de naranja sobre el valle verde, son espectaculares.",
+      "description": "**Santa Úrsula** es un municipio de las medianías del norte de Tenerife que goza de algunas de las vistas más privilegiadas sobre el **Valle de la Orotava** — el valle más fértil y pintoresco de la isla, con el Teide dominando el horizonte. Su posición en las medianías, a entre 300 y 600 metros de altitud, le otorga un microclima suave y una vegetación exuberante.\n\n### Qué ver en Santa Úrsula\n- 🌄 Las **vistas sobre el Valle de la Orotava** — panorámicas privilegiadas hacia el Teide y el valle\n- 🌿 Los **viñedos y frutales de medianías** — el paisaje agrícola que da identidad al norte\n- 🏘️ El **casco de Santa Úrsula** — pueblo de medianías con arquitectura rural canaria\n- 🥾 Los **senderos de las medianías** — rutas entre el valle y las cumbres con vistas espectaculares\n\n### ¿Merece la pena visitar Santa Úrsula?\n**Como mirador y parada en ruta entre Puerto de la Cruz y La Orotava, sí.** Sus vistas sobre el valle son de las mejores de Tenerife.\n\n### Recomendación\nParáte en Santa Úrsula en el trayecto entre Puerto de la Cruz y La Orotava. Las vistas al atardecer, con el Teide tiñéndose de naranja sobre el valle verde, pectaculares.",
       "images": {
         "hero": "/images/tenerife/municipios/santa-ursula.avif",
         "gallery": []
@@ -4364,8 +4394,8 @@
         "lat": 28.5025,
         "lng": -16.3319
       },
-      "shortDescription": "El municipio vinícola más pequeño del norte — a las puertas de La Laguna, con viñedos en suelos volcánicos, bodegas centenarias y el carácter rural más auténtico del área metropolitana de Santa Cruz-La Laguna.",
-      "description": "**Tegueste** es el municipio más pequeño de la comarca norte y uno de los más singulares de Tenerife. A escasos kilómetros de **San Cristóbal de La Laguna**, conserva un carácter completamente rural: sus viñedos en suelos volcánicos producen algunos de los vinos más interesantes del norte, y sus fiestas patronales mantienen tradiciones que en otros municipios ya se han perdido.\n\n### Qué ver en Tegueste\n- 🍷 Los **viñedos y bodegas** — pequeñas bodegas familiares con vinos de gran personalidad\n- ⛪ La **Iglesia de San Marcos** — templo histórico en el casco del municipio\n- 🏘️ El **casco de Tegueste** — el pueblo más auténtico de las inmediaciones de La Laguna\n- 🌿 Los **barrancos y senderos** — rutas entre barrancos y viñedos del norte\n\n### ¿Merece la pena visitar Tegueste?\n**Para el enoturista y el viajero que busca autenticidad cerca de La Laguna, sí.** Tegueste es la Tenerife rural a 10 minutos de la ciudad Patrimonio de la Humanidad.\n\n### Recomendación\nCombina una visita a una bodega de Tegueste con una tarde en el casco histórico de **La Laguna** (10 minutos en coche). Es la combinación perfecta entre la Tenerife rural y la histórica.",
+      "shortDescription": "El municipio vitivinícola más pequeño del norte — a las puertas de La Laguna, con viñedos en suelos volcánicos, bodegas centenarias y el carácter rural más auténtico del área metropolitana Santa Cruz–La Laguna.",
+      "description": "**Tegueste** es el municipio más pequeño de la comarca norte y uno de los más singulares de Tenerife. A pocos kilómetros de **San Cristóbal de La Laguna**, conserva un carácter completamente rural: sus viñedos en suelos volcánicos producen algunos de los vinos más interesantes del norte, y sus fiestas locales mantienen tradiciones que se han perdido en otros municipios.\n\n### Qué ver en Tegueste\n- 🍷 **Viñedos y bodegas** — pequeñas bodegas familiares con vinos de gran carácter\n- ⛪ La **Iglesia de San Marcos** — templo histórico en el casco urbano\n- 🏘️ El **casco de Tegueste** — el pueblo más auténtico cerca de La Laguna\n- 🌿 **Barrancos y senderos** — rutas de senderismo entre barrancos y viñedos del norte\n\n### ¿Merece la pena visitar Tegueste?\n**Para el turismo enológico y viajeros que buscan autenticidad cerca de La Laguna, sí.** Tegueste es el Tenerife rural a 10 minutos de una ciudad Patrimonio de la Humanidad.\n\n### Recomendación\nCombina una visita a las bodegas de Tegueste con una tarde en el **casco histórico de La Laguna** (10 minutos en coche). La mezcla perfecta del Tenerife rural e histórico.",
       "images": {
         "hero": "/images/tenerife/municipios/tegueste.avif",
         "gallery": []
