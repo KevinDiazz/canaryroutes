@@ -30,7 +30,11 @@
       "emoji": "🏖️",
       "top": true,
       "municipio": "santa-cruz",
-      "mapsUrl": "https://maps.app.goo.gl/RAByr949uzhWXQuP7"
+      "mapsUrl": "https://maps.app.goo.gl/RAByr949uzhWXQuP7",
+      "svgOverride": {
+        "x": 324,
+        "y": 102
+      }
     },
     {
       "slug": "playa-de-los-cristianos",
@@ -60,7 +64,6 @@
       "visitDuration": "Half day",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": true,
       "municipio": "arona",
       "mapsUrl": "https://maps.app.goo.gl/pKofoZEdZGgwhje97"
     },
@@ -94,7 +97,11 @@
       "emoji": "🏖️",
       "top": true,
       "municipio": "adeje",
-      "mapsUrl": "https://maps.app.goo.gl/oy54dT4JySCb7uLfA"
+      "mapsUrl": "https://maps.app.goo.gl/oy54dT4JySCb7uLfA",
+      "svgOverride": {
+        "x": 108,
+        "y": 311
+      }
     },
     {
       "slug": "playa-de-la-arena",
@@ -157,7 +164,12 @@
       "difficulty": "easy",
       "emoji": "🏖️",
       "municipio": "la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/qwqCY4ZCdiaAHjdq9"
+      "mapsUrl": "https://maps.app.goo.gl/qwqCY4ZCdiaAHjdq9",
+      "top": true,
+      "svgOverride": {
+        "x": 344,
+        "y": 60
+      }
     },
     {
       "slug": "el-medano",
@@ -189,7 +201,12 @@
       "difficulty": "easy",
       "emoji": "🏄",
       "municipio": "granadilla",
-      "mapsUrl": "https://maps.app.goo.gl/jKFNnydvokUJKQxv7"
+      "mapsUrl": "https://maps.app.goo.gl/jKFNnydvokUJKQxv7",
+      "top": true,
+      "svgOverride": {
+        "x": 204,
+        "y": 307
+      }
     },
     {
       "slug": "alquiler-coche-tenerife",
@@ -218,7 +235,12 @@
       "emoji": "🚗",
       "municipio": "granadilla",
       "discoverCarsLocation": "spain-canary-islands/tenerife",
-      "discoverCarsUrl": "https://www.discovercars.com/spain-canary-islands/tenerife?a_aid=canaryroutes"
+      "discoverCarsUrl": "https://www.discovercars.com/spain-canary-islands/tenerife?a_aid=canaryroutes",
+      "top": true,
+      "svgOverride": {
+        "x": 161,
+        "y": 332
+      }
     },
     {
       "slug": "titsa-tenerife",
@@ -277,7 +299,6 @@
       "visitDuration": "5-7h",
       "difficulty": "hard",
       "emoji": "🥾",
-      "top": true,
       "municipio": "santiago-del-teide",
       "track": {
         "mapsUrl": "https://www.google.com/maps/d/viewer?mid=1fHot3XmVsRHum4kLq2IppT8qBjTOlXU",
@@ -318,7 +339,6 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "el-rosario",
       "mapsUrl": "https://maps.app.goo.gl/vd3ewUvtSzWqvDxh7"
     },
@@ -351,7 +371,6 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/kzTeJyUahyyWJJ718"
     },
@@ -384,7 +403,6 @@
       "visitDuration": "30min-1h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/D2b67FLxHCMCZsew9"
     },
@@ -417,7 +435,6 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/PqeZLwRPNoCj7xRB8"
     },
@@ -450,7 +467,6 @@
       "visitDuration": "30min-1h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/u9E725sdDainvHjX8"
     },
@@ -483,7 +499,6 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/WSQ8fi3TnPRueDaw6"
     },
@@ -516,7 +531,6 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "arico",
       "mapsUrl": "https://maps.app.goo.gl/6sTztba6oGcHHjj1A"
     },
@@ -549,7 +563,6 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "adeje",
       "mapsUrl": "https://maps.app.goo.gl/MJSeKPZgnaZa3XjT7"
     },
@@ -582,7 +595,6 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "arona",
       "mapsUrl": "https://maps.app.goo.gl/JfY5jZn1GWL8CpSo7"
     },
@@ -615,7 +627,6 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "adeje",
       "mapsUrl": "https://maps.app.goo.gl/NmZCX2NHRHefHAhx8"
     },
@@ -648,7 +659,6 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "arona",
       "mapsUrl": "https://maps.app.goo.gl/qmU8fyWKcMv1rmzX9"
     },
@@ -681,7 +691,6 @@
       "visitDuration": "3-5h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "arona",
       "mapsUrl": "https://maps.app.goo.gl/77GaHSJUey4L5BWa9"
     },
@@ -714,7 +723,6 @@
       "visitDuration": "3-5h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "adeje",
       "mapsUrl": "https://maps.app.goo.gl/AHokcXyy3sn9so8i8"
     },
@@ -747,7 +755,6 @@
       "visitDuration": "3-5h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "granadilla-de-abona",
       "mapsUrl": "https://maps.app.goo.gl/3RgUxr3zZjF4wAXn8"
     },
@@ -780,7 +787,6 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "guia-de-isora",
       "mapsUrl": "https://maps.app.goo.gl/Tus2fYYxjiJ3RzZ77"
     },
@@ -813,7 +819,6 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "🏖️",
-      "top": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/fkobzPdpMpPaxiwi7"
     },
@@ -846,7 +851,6 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": false,
       "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/cuUVRHEVLMcHbqt97"
     },
@@ -879,7 +883,6 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": false,
       "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/qdhafHEoXzb6gouS7"
     },
@@ -912,7 +915,6 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": false,
       "municipio": "tacoronte",
       "mapsUrl": "https://maps.app.goo.gl/JSPeY5MamZSDc7sQ6"
     },
@@ -945,7 +947,6 @@
       "visitDuration": "30min-1h",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": false,
       "municipio": "san-juan-de-la-rambla",
       "mapsUrl": "https://maps.app.goo.gl/ZTa5oZkBkxASahXy6"
     },
@@ -978,7 +979,6 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": false,
       "municipio": "garachico",
       "mapsUrl": "https://maps.app.goo.gl/9gUg3LE3XfLErKkW7"
     },
@@ -1011,7 +1011,6 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": false,
       "municipio": "los-silos",
       "mapsUrl": "https://maps.app.goo.gl/adEvFB2QZ7hQWNcaA"
     },
@@ -1044,7 +1043,6 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🏊",
-      "top": false,
       "municipio": "santa-cruz",
       "mapsUrl": "https://maps.app.goo.gl/SneRKYuntDDYTpvW7"
     },
@@ -1077,7 +1075,6 @@
       "visitDuration": "3-5h",
       "difficulty": "easy",
       "emoji": "🏊",
-      "top": false,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/ghuneh9kiVfUhRMGA"
     },
@@ -1116,7 +1113,11 @@
         "eco",
         "snorkelling",
         "south"
-      ]
+      ],
+      "svgOverride": {
+        "x": 100,
+        "y": 249
+      }
     },
     {
       "slug": "kayak-safari-vida-marina-tenerife",
@@ -1135,7 +1136,6 @@
       "visitDuration": "3h",
       "difficulty": "easy",
       "emoji": "🦭",
-      "top": true,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "109501",
@@ -1190,7 +1190,11 @@
         "south",
         "leisure",
         "slides"
-      ]
+      ],
+      "svgOverride": {
+        "x": 99,
+        "y": 284
+      }
     },
     {
       "slug": "cetaceos-vision-submarina-tenerife",
@@ -1209,7 +1213,6 @@
       "visitDuration": "1.5-2h",
       "difficulty": "easy",
       "emoji": "🐬",
-      "top": true,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "406165",
@@ -1266,7 +1269,11 @@
         "puerto-de-la-cruz",
         "north",
         "kinderlandia"
-      ]
+      ],
+      "svgOverride": {
+        "x": 159,
+        "y": 154
+      }
     },
     {
       "slug": "loro-parque-siam-park-combo-tenerife",
@@ -1285,7 +1292,6 @@
       "visitDuration": "2 días",
       "difficulty": "easy",
       "emoji": "🎡",
-      "top": true,
       "sectionOnly": false,
       "municipio": "puerto-de-la-cruz",
       "gygTourId": "407438",
@@ -1323,7 +1329,6 @@
       "visitDuration": "1-4h",
       "difficulty": "moderate",
       "emoji": "🚤",
-      "top": true,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "317607",
@@ -1361,7 +1366,6 @@
       "visitDuration": "2-3h",
       "difficulty": "moderate",
       "emoji": "🌋",
-      "top": true,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "392679",
@@ -1399,7 +1403,6 @@
       "visitDuration": "2h",
       "difficulty": "easy",
       "emoji": "🏄",
-      "top": true,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "407915",
@@ -1456,7 +1459,11 @@
         "south",
         "night",
         "starlight"
-      ]
+      ],
+      "svgOverride": {
+        "x": 204,
+        "y": 222
+      }
     },
     {
       "slug": "excursion-teide-masca-icod-garachico",
@@ -1475,7 +1482,6 @@
       "visitDuration": "9h",
       "difficulty": "easy",
       "emoji": "🚌",
-      "top": true,
       "sectionOnly": false,
       "municipio": "vilaflor",
       "gygTourId": "217542",
@@ -1532,7 +1538,11 @@
         "bus",
         "altitude",
         "3555m"
-      ]
+      ],
+      "svgOverride": {
+        "x": 162,
+        "y": 226
+      }
     },
     {
       "slug": "platanera-ecologica-la-orotava-tenerife",
@@ -1551,7 +1561,6 @@
       "visitDuration": "50min",
       "difficulty": "easy",
       "emoji": "🍌",
-      "top": true,
       "sectionOnly": false,
       "municipio": "puerto-de-la-cruz",
       "gygTourId": "450055",
@@ -1589,7 +1598,6 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "🤿",
-      "top": true,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "3669",
@@ -1627,7 +1635,6 @@
       "visitDuration": "9h",
       "difficulty": "easy",
       "emoji": "⛵",
-      "top": true,
       "sectionOnly": false,
       "municipio": "arona",
       "gygTourId": "58006",
@@ -1666,7 +1673,6 @@
       "visitDuration": "30min",
       "difficulty": "easy",
       "emoji": "🪂",
-      "top": true,
       "sectionOnly": false,
       "municipio": "adeje",
       "gygTourId": "550159",
@@ -1704,7 +1710,6 @@
       "visitDuration": "2h",
       "difficulty": "easy",
       "emoji": "🏆",
-      "top": true,
       "sectionOnly": false,
       "municipio": "adeje",
       "gygTourId": "403056",
@@ -1743,7 +1748,6 @@
       "visitDuration": "4-5h",
       "difficulty": "hard",
       "emoji": "⛰️",
-      "top": true,
       "sectionOnly": false,
       "municipio": "vilaflor",
       "mapsUrl": "https://maps.app.goo.gl/oSQvSqo5ns48Y9z17",
@@ -1786,7 +1790,6 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🪨",
-      "top": true,
       "sectionOnly": false,
       "municipio": "vilaflor",
       "mapsUrl": "https://maps.app.goo.gl/yPB1Ng8jwoKpww1D6",
@@ -1854,7 +1857,11 @@
       ],
       "name": "Bosque de los Enigmas",
       "shortDescription": "A walk through moss-covered centuries-old trees in the heart of Anaga's laurel forest: mist, giant ferns and silence in one of the oldest forests on the planet — circular, easy, no booking required",
-      "description": "Some trails impress with their views. The **Forest of Enigmas** impresses with its atmosphere. A circular route of almost 5 km through ancient laurel forest in the heart of Anaga Rural Park: twisted centuries-old trees draped in moss, head-high ferns, permanent mist carried by the trade winds, and a silence broken only by the song of swifts. A forest that feels like it came from a fairy tale — and has 20 million years of stories to tell.\n\n### The route\nStarts at the **Cruz del Carmen Visitor Centre** (the best option: easy parking, staff on hand to answer questions, and free trail maps). Cross the TF-12 road right opposite the centre and within a few metres the tarmac disappears: the forest closes in immediately.\n\nThe route is waypointed with **posts 1 to 7** — impossible to get lost. From post 5, follow the route clockwise. On the **Hija Cambada** section you'll see Portuguese laurels (*Prunus lusitanica*) blown down by wind that have re-sprouted horizontally — living fallen trees still growing from the ground. Further on, **Mirador de Zapata** — usually shrouded in cloud — offers views towards the north of the island when the mist clears.\n\nThe path crosses the TF-143 (a quiet road) once before returning into the forest and back to the starting point.\n\n### What makes this route special\n- 🌿 **Ancient laurel forest** — a living fossil from 20–50 million years ago, now surviving only in the Canaries, Madeira and the Azores\n- 🌫️ **Permanent mist** — the trade winds bring horizontal rain that keeps the forest damp even in summer\n- 🌲 **Unique flora**: til trees, viñátigos, paloblancos, heather, fayas, acebiños, mosses, lichens and giant ferns\n- 🦅 **Plain swifts** (*Apus unicolor*) flying overhead\n- 📱 **Self-guided trail** — the Anaga Biosphere Reserve offers an official guide in 4 languages with enigmas and reflections about the forest\n- 👨‍👩‍👧 **Suitable for all the family** — including young children and those with sensitive knees\n- 🎟️ **Free access** — no booking required\n\n### Before you go\n- 🚗 Parking at Cruz del Carmen Visitor Centre (free, TF-12 Anaga road)\n- 🥾 Grip-soled footwear — damp ground and roots make the terrain slippery\n- 🧥 Always bring an extra layer — even in July, mist and wind can make it feel cold\n- 💧 Short route but bring water — the humidity can be deceptive\n- 📱 Download the official self-guided guide at [reservabiosfera.tenerife.es](https://reservabiosfera.tenerife.es/descubre-anaga/senderos/el-bosque-de-los-enigmas/) before you go (available in ES/EN/DE/FR)\n\n### ⚠️ Safety alerts\nThe route is easy but the environment has characteristics typical of Canarian mountain terrain:\n- 🌫️ **Dense fog** — visibility can drop in seconds; stay on the marked trail\n- 🌧️ **Ground is always wet** — roots and mud are slippery year-round\n- 📵 **Intermittent mobile signal** — let someone know before you set off\n- 🌡️ **Colder than expected** — Anaga can be 10 °C cooler than the south of the island\n- **Emergencies: 112** · Cruz del Carmen Visitor Centre: +34 922 633 576\n\n### Recommendation\nCombine it with the **Sendero de los Sentidos** (starts from the same point, equally accessible) for a full morning in Anaga's laurel forest. For lunch afterwards, the hamlet of **Las Carboneras** a 20-minute drive away has traditional Canarian restaurants. In summer, don't avoid midday — that's when the mist is thickest and the forest is at its most magical."
+      "description": "Some trails impress with their views. The **Forest of Enigmas** impresses with its atmosphere. A circular route of almost 5 km through ancient laurel forest in the heart of Anaga Rural Park: twisted centuries-old trees draped in moss, head-high ferns, permanent mist carried by the trade winds, and a silence broken only by the song of swifts. A forest that feels like it came from a fairy tale — and has 20 million years of stories to tell.\n\n### The route\nStarts at the **Cruz del Carmen Visitor Centre** (the best option: easy parking, staff on hand to answer questions, and free trail maps). Cross the TF-12 road right opposite the centre and within a few metres the tarmac disappears: the forest closes in immediately.\n\nThe route is waypointed with **posts 1 to 7** — impossible to get lost. From post 5, follow the route clockwise. On the **Hija Cambada** section you'll see Portuguese laurels (*Prunus lusitanica*) blown down by wind that have re-sprouted horizontally — living fallen trees still growing from the ground. Further on, **Mirador de Zapata** — usually shrouded in cloud — offers views towards the north of the island when the mist clears.\n\nThe path crosses the TF-143 (a quiet road) once before returning into the forest and back to the starting point.\n\n### What makes this route special\n- 🌿 **Ancient laurel forest** — a living fossil from 20–50 million years ago, now surviving only in the Canaries, Madeira and the Azores\n- 🌫️ **Permanent mist** — the trade winds bring horizontal rain that keeps the forest damp even in summer\n- 🌲 **Unique flora**: til trees, viñátigos, paloblancos, heather, fayas, acebiños, mosses, lichens and giant ferns\n- 🦅 **Plain swifts** (*Apus unicolor*) flying overhead\n- 📱 **Self-guided trail** — the Anaga Biosphere Reserve offers an official guide in 4 languages with enigmas and reflections about the forest\n- 👨‍👩‍👧 **Suitable for all the family** — including young children and those with sensitive knees\n- 🎟️ **Free access** — no booking required\n\n### Before you go\n- 🚗 Parking at Cruz del Carmen Visitor Centre (free, TF-12 Anaga road)\n- 🥾 Grip-soled footwear — damp ground and roots make the terrain slippery\n- 🧥 Always bring an extra layer — even in July, mist and wind can make it feel cold\n- 💧 Short route but bring water — the humidity can be deceptive\n- 📱 Download the official self-guided guide at [reservabiosfera.tenerife.es](https://reservabiosfera.tenerife.es/descubre-anaga/senderos/el-bosque-de-los-enigmas/) before you go (available in ES/EN/DE/FR)\n\n### ⚠️ Safety alerts\nThe route is easy but the environment has characteristics typical of Canarian mountain terrain:\n- 🌫️ **Dense fog** — visibility can drop in seconds; stay on the marked trail\n- 🌧️ **Ground is always wet** — roots and mud are slippery year-round\n- 📵 **Intermittent mobile signal** — let someone know before you set off\n- 🌡️ **Colder than expected** — Anaga can be 10 °C cooler than the south of the island\n- **Emergencies: 112** · Cruz del Carmen Visitor Centre: +34 922 633 576\n\n### Recommendation\nCombine it with the **Sendero de los Sentidos** (starts from the same point, equally accessible) for a full morning in Anaga's laurel forest. For lunch afterwards, the hamlet of **Las Carboneras** a 20-minute drive away has traditional Canarian restaurants. In summer, don't avoid midday — that's when the mist is thickest and the forest is at its most magical.",
+      "svgOverride": {
+        "x": 300,
+        "y": 84
+      }
     },
     {
       "slug": "punta-hidalgo-chinamada",
@@ -1873,7 +1880,6 @@
       "visitDuration": "3-4h",
       "difficulty": "moderate",
       "emoji": "🏘️",
-      "top": true,
       "sectionOnly": false,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/Jv4LEbniXoz2k2kW8",
@@ -1918,7 +1924,6 @@
       "visitDuration": "5-7h",
       "difficulty": "moderate",
       "emoji": "🌕",
-      "top": true,
       "sectionOnly": false,
       "municipio": "vilaflor",
       "mapsUrl": "https://maps.app.goo.gl/nTRg6xvPFUwxxwQY6",
@@ -1964,7 +1969,6 @@
       "visitDuration": "2-4h",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": true,
       "sectionOnly": false,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/66QJzA2uX5s9BpRg8",
@@ -2009,7 +2013,6 @@
       "visitDuration": "3-5h",
       "difficulty": "moderate",
       "emoji": "🏚️",
-      "top": true,
       "sectionOnly": false,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/mwgytwoYGrMdLhPV9",
@@ -2055,7 +2058,6 @@
       "visitDuration": "4-6h",
       "difficulty": "moderate",
       "emoji": "🔦",
-      "top": true,
       "sectionOnly": false,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/XvCSiRrQ4knCPiv67",
@@ -2101,7 +2103,6 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🌋",
-      "top": true,
       "sectionOnly": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/kQgUkqyMj3VfP58Z6",
@@ -2175,7 +2176,11 @@
       ],
       "name": "Montaña Blanca → Pico del Teide (3.715 m)",
       "shortDescription": "The highest point in Spain, the most photographed volcano in the Atlantic and the most iconic route in the Canary Islands: 17 km round trip from Montaña Blanca to the Teide crater, with 1,344 metres of elevation and the whole world at your feet at 3,715 metres",
-      "description": "There is only one rooftop in Spain, and it stands on Tenerife. **Pico del Teide**, at **3,715 metres**, is the highest summit in all of Spanish territory, the tallest volcano in the Atlantic and one of the largest volcanoes on Earth measured from its ocean base. Climbing it on foot from **Montaña Blanca** is, without question, the most iconic route in the Canary Islands — and an experience those who do it rarely forget.\n\nIt is also one of the most demanding: **17.44 km, 1,344 metres of elevation and a maximum altitude above 3,700 metres**. The altitude does not forgive a fast pace or lack of preparation. But for those who arrive ready, the landscape is absolutely out of this world — literally, because at that height the sky begins to darken even in daytime.\n\n### Two ways to reach the crater\n\n**Option 1 — Full walking route (Montaña Blanca, the classic)**\nThe route that really counts. Starts at the **Montaña Blanca car park (2,398 m)** and climbs entirely on foot to Pico del Teide. The purest — and hardest — way to reach the summit.\n\n**Option 2 — Cable car + Telesforo Bravo Trail**\nThe cable car (teleférico) rises from the **Lower Station (2,356 m)** to **La Rambleta (3,555 m)** in about 8 minutes. From there, with a permit, 40–60 more minutes of walking to the crater. Much easier, but you only do the final stretch.\n\nBoth options share one essential requirement: **to reach the geodesic vertex and the crater you need the Telesforo Bravo Trail permit** (Trail nº10). It is free, but strictly limited to 200 people per day — it must be booked in advance on the Parque Nacional del Teide portal (miterd.es).\n\n### The full route from Montaña Blanca\n\n**Section 1: Montaña Blanca → Huevos del Teide (approx. 1h30)**\nThe path begins through pumice and lapilli formations — the pale, porous volcanic soil that gives the area its name. From the very first steps, Teide already looms enormous on the horizon, and grows with every metre of ascent. About 45 minutes in, one of the route's most striking geological features appears: the **Huevos del Teide** (Teide's Eggs) — large balls of solidified lava that rolled from the crater during ancient eruptions and came to rest here, perfectly spherical, as if placed deliberately on the slope. They are one of the great photographic landmarks of the National Park.\n\n**Section 2: Huevos del Teide → Altavista Refuge (approx. 1h)**\nThe path steepens and the landscape grows more arid and lunar. You enter true **high-altitude volcanic terrain**, with views over the Sea of Clouds and the neighbouring islands on clear days. The **Altavista Refuge (3,260 m)** is the traditional rest stop — currently closed as accommodation, but a useful altitude marker and shelter in case of sudden weather changes.\n\n**Section 3: Altavista → La Rambleta (approx. 45 min)**\nThe hardest stretch. The gradient intensifies, oxygen thins and the body begins to register the effects of altitude: headache, nausea or dizziness may appear. The key is to **go very slowly**, breathe deeply and not push the pace. Reaching **La Rambleta (3,555 m)** — where the cable car arrives — marks the start of the final push.\n\n**Section 4: La Rambleta → Pico del Teide / Telesforo Bravo Trail (45–60 min)**\nThe **Telesforo Bravo Trail** (Trail nº10) is the last stretch to the crater and the geodesic vertex, where permits are checked. The path skirts the main volcanic vent, with sulphur fumaroles visibly steaming, the ground yellow and orange from mineral deposits, and the void of the crater opening up before you. From **Pico del Teide (3,715 m)**, on clear days all eight islands of the archipelago are visible, along with the coast of North Africa and the Spanish mainland.\n\n### What makes this route special\n- 🏔️ **Highest point in Spain (3,715 m)** — and the tallest volcano in the Atlantic\n- 🥚 **Huevos del Teide** — one of the most singular geological features in the National Park\n- 🌊 **Sea of Clouds** — a carpet of clouds below your feet at 2,000 m is a spectacle\n- 🌋 **Active fumaroles** — Teide is still an active volcano with sulphur, gases and hot ground\n- 🌅 **Summit views** — on clear days all 8 Canary Islands, the Sahara and the Iberian Peninsula\n- 🌌 **Dark sky** — at 3,700 m the sky begins to darken even in daylight; Teide is one of the world's top astronomy spots\n- 🏅 **UNESCO World Heritage Site** — Teide National Park, inscribed in 2007\n\n### Before you go — full checklist\n- 📋 **Book your permit in advance** at miterd.es (free, limited to 200 people/day for the crater section)\n- 🎟️ **If taking the cable car**, buy tickets in advance too — queues in high season are long\n- 🚗 Free car park at Montaña Blanca on the TF-21\n- 🌡️ Summit temperature can be **20–25°C lower than the coast** — expect cold, wind and snow in winter\n- 🧴 **SPF 50+ sun protection** — UV radiation at 3,700 m is extreme even in winter\n- 💧 Carry at least **3 litres of water** per person — no water sources along the route\n- 🥾 **Mountain boots** with solid grip — pumice terrain is slippery\n- 🧥 Layered clothing: technical base layer, mid-layer insulation and waterproof shell\n- 🌄 **Set off before 6:00 am** — arrive at the summit early, descend before the afternoon heat and avoid cloud build-up\n- 🩺 Not recommended for people with heart conditions, hypertension or respiratory illness without prior medical advice\n- 🤢 Carry **ibuprofen** for altitude headache; if severe altitude sickness symptoms appear, descend immediately\n\n### ⚠️ Safety alerts — high-altitude mountain\n- 📈 **Acute mountain sickness**: can appear between 2,500 and 3,715 m. Symptoms: severe headache, nausea, dizziness, extreme fatigue. If severe symptoms develop, **descend immediately**\n- 🌡️ **Sudden temperature change**: conditions can switch from sunshine to wind, fog or snow in minutes\n- ❄️ **Ice and snow**: between November and April the path can be icy — check trail conditions before setting out\n- ☀️ **Extreme UV radiation**: without adequate sun protection at this altitude, serious sunburn is a real risk even on cloudy days\n- 🌬️ **Strong summit winds**: gusts of 60–80 km/h are common and may prevent access to the vertex\n- 📵 **Limited mobile signal** above the Altavista Refuge — download the route offline\n- 🚫 **No permit, no crater access** — checks are strict and there are no exceptions\n- **Emergencies: 112**\n\n### Recommendation\nThe full walking route from Montaña Blanca is one of those experiences that define a trip. But if time, fitness or logistics do not allow it, the **cable car + Telesforo Bravo Trail** combination is still a breathtaking experience — especially if you secure the permit and reach 3,715 m. Either way, book the permit before anything else: without it, the summit is closed."
+      "description": "There is only one rooftop in Spain, and it stands on Tenerife. **Pico del Teide**, at **3,715 metres**, is the highest summit in all of Spanish territory, the tallest volcano in the Atlantic and one of the largest volcanoes on Earth measured from its ocean base. Climbing it on foot from **Montaña Blanca** is, without question, the most iconic route in the Canary Islands — and an experience those who do it rarely forget.\n\nIt is also one of the most demanding: **17.44 km, 1,344 metres of elevation and a maximum altitude above 3,700 metres**. The altitude does not forgive a fast pace or lack of preparation. But for those who arrive ready, the landscape is absolutely out of this world — literally, because at that height the sky begins to darken even in daytime.\n\n### Two ways to reach the crater\n\n**Option 1 — Full walking route (Montaña Blanca, the classic)**\nThe route that really counts. Starts at the **Montaña Blanca car park (2,398 m)** and climbs entirely on foot to Pico del Teide. The purest — and hardest — way to reach the summit.\n\n**Option 2 — Cable car + Telesforo Bravo Trail**\nThe cable car (teleférico) rises from the **Lower Station (2,356 m)** to **La Rambleta (3,555 m)** in about 8 minutes. From there, with a permit, 40–60 more minutes of walking to the crater. Much easier, but you only do the final stretch.\n\nBoth options share one essential requirement: **to reach the geodesic vertex and the crater you need the Telesforo Bravo Trail permit** (Trail nº10). It is free, but strictly limited to 200 people per day — it must be booked in advance on the Parque Nacional del Teide portal (miterd.es).\n\n### The full route from Montaña Blanca\n\n**Section 1: Montaña Blanca → Huevos del Teide (approx. 1h30)**\nThe path begins through pumice and lapilli formations — the pale, porous volcanic soil that gives the area its name. From the very first steps, Teide already looms enormous on the horizon, and grows with every metre of ascent. About 45 minutes in, one of the route's most striking geological features appears: the **Huevos del Teide** (Teide's Eggs) — large balls of solidified lava that rolled from the crater during ancient eruptions and came to rest here, perfectly spherical, as if placed deliberately on the slope. They are one of the great photographic landmarks of the National Park.\n\n**Section 2: Huevos del Teide → Altavista Refuge (approx. 1h)**\nThe path steepens and the landscape grows more arid and lunar. You enter true **high-altitude volcanic terrain**, with views over the Sea of Clouds and the neighbouring islands on clear days. The **Altavista Refuge (3,260 m)** is the traditional rest stop — currently closed as accommodation, but a useful altitude marker and shelter in case of sudden weather changes.\n\n**Section 3: Altavista → La Rambleta (approx. 45 min)**\nThe hardest stretch. The gradient intensifies, oxygen thins and the body begins to register the effects of altitude: headache, nausea or dizziness may appear. The key is to **go very slowly**, breathe deeply and not push the pace. Reaching **La Rambleta (3,555 m)** — where the cable car arrives — marks the start of the final push.\n\n**Section 4: La Rambleta → Pico del Teide / Telesforo Bravo Trail (45–60 min)**\nThe **Telesforo Bravo Trail** (Trail nº10) is the last stretch to the crater and the geodesic vertex, where permits are checked. The path skirts the main volcanic vent, with sulphur fumaroles visibly steaming, the ground yellow and orange from mineral deposits, and the void of the crater opening up before you. From **Pico del Teide (3,715 m)**, on clear days all eight islands of the archipelago are visible, along with the coast of North Africa and the Spanish mainland.\n\n### What makes this route special\n- 🏔️ **Highest point in Spain (3,715 m)** — and the tallest volcano in the Atlantic\n- 🥚 **Huevos del Teide** — one of the most singular geological features in the National Park\n- 🌊 **Sea of Clouds** — a carpet of clouds below your feet at 2,000 m is a spectacle\n- 🌋 **Active fumaroles** — Teide is still an active volcano with sulphur, gases and hot ground\n- 🌅 **Summit views** — on clear days all 8 Canary Islands, the Sahara and the Iberian Peninsula\n- 🌌 **Dark sky** — at 3,700 m the sky begins to darken even in daylight; Teide is one of the world's top astronomy spots\n- 🏅 **UNESCO World Heritage Site** — Teide National Park, inscribed in 2007\n\n### Before you go — full checklist\n- 📋 **Book your permit in advance** at miterd.es (free, limited to 200 people/day for the crater section)\n- 🎟️ **If taking the cable car**, buy tickets in advance too — queues in high season are long\n- 🚗 Free car park at Montaña Blanca on the TF-21\n- 🌡️ Summit temperature can be **20–25°C lower than the coast** — expect cold, wind and snow in winter\n- 🧴 **SPF 50+ sun protection** — UV radiation at 3,700 m is extreme even in winter\n- 💧 Carry at least **3 litres of water** per person — no water sources along the route\n- 🥾 **Mountain boots** with solid grip — pumice terrain is slippery\n- 🧥 Layered clothing: technical base layer, mid-layer insulation and waterproof shell\n- 🌄 **Set off before 6:00 am** — arrive at the summit early, descend before the afternoon heat and avoid cloud build-up\n- 🩺 Not recommended for people with heart conditions, hypertension or respiratory illness without prior medical advice\n- 🤢 Carry **ibuprofen** for altitude headache; if severe altitude sickness symptoms appear, descend immediately\n\n### ⚠️ Safety alerts — high-altitude mountain\n- 📈 **Acute mountain sickness**: can appear between 2,500 and 3,715 m. Symptoms: severe headache, nausea, dizziness, extreme fatigue. If severe symptoms develop, **descend immediately**\n- 🌡️ **Sudden temperature change**: conditions can switch from sunshine to wind, fog or snow in minutes\n- ❄️ **Ice and snow**: between November and April the path can be icy — check trail conditions before setting out\n- ☀️ **Extreme UV radiation**: without adequate sun protection at this altitude, serious sunburn is a real risk even on cloudy days\n- 🌬️ **Strong summit winds**: gusts of 60–80 km/h are common and may prevent access to the vertex\n- 📵 **Limited mobile signal** above the Altavista Refuge — download the route offline\n- 🚫 **No permit, no crater access** — checks are strict and there are no exceptions\n- **Emergencies: 112**\n\n### Recommendation\nThe full walking route from Montaña Blanca is one of those experiences that define a trip. But if time, fitness or logistics do not allow it, the **cable car + Telesforo Bravo Trail** combination is still a breathtaking experience — especially if you secure the permit and reach 3,715 m. Either way, book the permit before anything else: without it, the summit is closed.",
+      "svgOverride": {
+        "x": 127,
+        "y": 200
+      }
     },
     {
       "slug": "tranvia-tenerife",
@@ -2201,7 +2206,6 @@
       "visitDuration": null,
       "difficulty": null,
       "emoji": "🚊",
-      "top": false,
       "sectionOnly": false,
       "municipio": "santa-cruz-de-tenerife",
       "tags": [
@@ -2235,7 +2239,7 @@
       "visitDuration": null,
       "difficulty": null,
       "emoji": "⛴️",
-      "top": false,
+      "top": true,
       "sectionOnly": false,
       "municipio": "santa-cruz-de-tenerife",
       "tags": [
@@ -2252,7 +2256,11 @@
       "name": "Ferries from Tenerife",
       "shortDescription": "Regular ferries from Tenerife to Gran Canaria, Fuerteventura, La Gomera and La Palma. Santa Cruz port for the eastern islands; Los Cristianos for La Gomera (45 min) and El Hierro.",
       "description": "From Tenerife there are regular ferry connections to the nearest islands in the archipelago. The two main ports are **Santa Cruz de Tenerife** and **Los Cristianos**, in the south.\n\n**Gran Canaria (Las Palmas de GC)** — The most frequent crossing: 1h30–2h30 from Santa Cruz. Multiple sailings daily in both directions.\n\n**Fuerteventura** — Connection from Santa Cruz in around 3–4h. Ideal for combining both islands in one trip.\n\n**La Gomera (San Sebastián)** — The most popular route in the archipelago: **45 minutes** from Los Cristianos, with several daily departures. Perfect for a day trip from the south of Tenerife.\n\n**La Palma (Santa Cruz de La Palma)** — 2h30–5h from Santa Cruz depending on the service. Direct connection to the greenest island in the Canaries.\n\nBook in advance during high season (July–August) and long weekends — especially the La Gomera route, which fills up fast. Travelling with a vehicle, car spaces are limited.",
-      "websiteUrl": "https://www.directferries.co.uk/tenerife_ferry.htm"
+      "websiteUrl": "https://www.directferries.co.uk/tenerife_ferry.htm",
+      "svgOverride": {
+        "x": 301,
+        "y": 131
+      }
     },
     {
       "slug": "la-laguna-unesco",
@@ -2284,7 +2292,11 @@
       "emoji": "🏛️",
       "top": true,
       "municipio": "la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/7YiXs9q88A5aMk3S8"
+      "mapsUrl": "https://maps.app.goo.gl/7YiXs9q88A5aMk3S8",
+      "svgOverride": {
+        "x": 282,
+        "y": 105
+      }
     },
     {
       "slug": "auditorio-tenerife",
@@ -2314,7 +2326,6 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "🎼",
-      "top": true,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/eVNPv4xTT8aN5rjz9"
     },
@@ -2346,9 +2357,13 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🏺",
-      "top": false,
       "municipio": "santa-cruz-de-tenerife",
-      "mapsUrl": "https://maps.app.goo.gl/2rFBSFjmPGCUzdSdA"
+      "mapsUrl": "https://maps.app.goo.gl/2rFBSFjmPGCUzdSdA",
+      "top": true,
+      "svgOverride": {
+        "x": 252,
+        "y": 129
+      }
     },
     {
       "slug": "basilica-candelaria",
@@ -2380,7 +2395,11 @@
       "emoji": "⛪",
       "top": true,
       "municipio": "candelaria",
-      "mapsUrl": "https://maps.app.goo.gl/2A9SJozDM9gfd68a8"
+      "mapsUrl": "https://maps.app.goo.gl/2A9SJozDM9gfd68a8",
+      "svgOverride": {
+        "x": 267,
+        "y": 162
+      }
     },
     {
       "slug": "casa-balcones-orotava",
@@ -2410,7 +2429,6 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🏠",
-      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/eHK3EkdvMF8cLtKSA"
     },
@@ -2442,7 +2460,6 @@
       "visitDuration": "3-4h",
       "difficulty": "easy",
       "emoji": "🌸",
-      "top": true,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/Y7L9sSjCe1KUJdRv7"
     },
@@ -2474,7 +2491,6 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🌊",
-      "top": true,
       "municipio": "garachico",
       "mapsUrl": "https://maps.app.goo.gl/NxMHTbAUdKit3cmPA"
     },
@@ -2506,7 +2522,6 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🔺",
-      "top": false,
       "municipio": "guimar",
       "mapsUrl": "https://maps.app.goo.gl/i4p83WUoFjF2SexdA"
     },
@@ -2540,7 +2555,11 @@
       "emoji": "🌳",
       "top": true,
       "municipio": "icod-de-los-vinos",
-      "mapsUrl": "https://maps.app.goo.gl/JHfhDiSoBNfWmHVi8"
+      "mapsUrl": "https://maps.app.goo.gl/JHfhDiSoBNfWmHVi8",
+      "svgOverride": {
+        "x": 101,
+        "y": 162
+      }
     },
     {
       "slug": "catedral-la-laguna",
@@ -2570,7 +2589,6 @@
       "visitDuration": "45min-1h",
       "difficulty": "easy",
       "emoji": "⛪",
-      "top": false,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/6Nu9wdDhS8Ugaf836"
     },
@@ -2602,7 +2620,6 @@
       "visitDuration": "1.5-2h",
       "difficulty": "easy",
       "emoji": "🏛️",
-      "top": false,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/wZhCtxBHciqMkvfj7"
     },
@@ -2634,7 +2651,6 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🍷",
-      "top": true,
       "municipio": "el-sauzal",
       "gygTourId": "415940",
       "gygUrl": "https://gyg.me/srarOtSz"
@@ -2667,7 +2683,6 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🍷",
-      "top": true,
       "municipio": "el-sauzal",
       "mapsUrl": "https://maps.app.goo.gl/Qk42coyAhY58ycvt9"
     },
@@ -2699,7 +2714,6 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🔭",
-      "top": false,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/wBBqN6rMKdwEsVKf6"
     },
@@ -2731,7 +2745,6 @@
       "visitDuration": "30-45min",
       "difficulty": "easy",
       "emoji": "✝️",
-      "top": true,
       "municipio": "la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/jHKezrBQ5gFPiga1A"
     },
@@ -2763,7 +2776,6 @@
       "visitDuration": "1-1.5h",
       "difficulty": "easy",
       "emoji": "⚔️",
-      "top": false,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/A9syxRoypDs5WZnK7"
     },
@@ -2795,7 +2807,6 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🛒",
-      "top": true,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/n3YjaWSFsXbTxDCu7"
     },
@@ -2827,9 +2838,13 @@
       "visitDuration": "variable",
       "difficulty": "easy",
       "emoji": "🍽️",
-      "top": true,
       "municipio": "santa-cruz-de-tenerife",
-      "mapsUrl": "https://maps.app.goo.gl/NotEoxDieRJcMhfx9"
+      "mapsUrl": "https://maps.app.goo.gl/NotEoxDieRJcMhfx9",
+      "top": true,
+      "svgOverride": {
+        "x": 183,
+        "y": 272
+      }
     },
     {
       "slug": "romerias-tenerife",
@@ -2859,7 +2874,6 @@
       "visitDuration": "variable",
       "difficulty": "easy",
       "emoji": "🎉",
-      "top": true,
       "municipio": "la-orotava",
       "mapsUrl": ""
     },
@@ -2891,7 +2905,6 @@
       "visitDuration": "variable",
       "difficulty": "easy",
       "emoji": "🎭",
-      "top": true,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": ""
     },
@@ -2923,7 +2936,6 @@
       "visitDuration": "1-1.5h",
       "difficulty": "easy",
       "emoji": "🌿",
-      "top": true,
       "municipio": "puerto-de-la-cruz",
       "mapsUrl": "https://maps.app.goo.gl/8kb3FuXghguqzq3V6"
     },
@@ -2955,7 +2967,6 @@
       "visitDuration": "1.5-2h",
       "difficulty": "easy",
       "emoji": "🌴",
-      "top": true,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/AXqgqpbfech5CT1x5"
     },
@@ -2987,7 +2998,6 @@
       "visitDuration": "45min-1h",
       "difficulty": "easy",
       "emoji": "🦋",
-      "top": false,
       "municipio": "icod-de-los-vinos",
       "mapsUrl": "https://maps.app.goo.gl/d9acWz7sEsV5kD5y8"
     },
@@ -3019,7 +3029,6 @@
       "visitDuration": "1h",
       "difficulty": "easy",
       "emoji": "🌳",
-      "top": true,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": "https://maps.app.goo.gl/613615WbGoHrnw4X6"
     },
@@ -3054,7 +3063,11 @@
       "emoji": "🌿",
       "top": true,
       "municipio": "santa-cruz-de-tenerife",
-      "mapsUrl": "https://maps.app.goo.gl/PAxbcxcLo54Frfa56"
+      "mapsUrl": "https://maps.app.goo.gl/PAxbcxcLo54Frfa56",
+      "svgOverride": {
+        "x": 353,
+        "y": 82
+      }
     },
     {
       "slug": "parque-nacional-teide",
@@ -3087,7 +3100,11 @@
       "emoji": "🌋",
       "top": true,
       "municipio": "la-orotava",
-      "mapsUrl": "https://maps.app.goo.gl/frQ24gQ7m3g6xVep7"
+      "mapsUrl": "https://maps.app.goo.gl/frQ24gQ7m3g6xVep7",
+      "svgOverride": {
+        "x": 173,
+        "y": 196
+      }
     },
     {
       "slug": "roques-de-garcia",
@@ -3118,7 +3135,6 @@
       "visitDuration": "1-1.5h",
       "difficulty": "easy",
       "emoji": "🪨",
-      "top": true,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/hKfjaNEBmtJcHSSe6"
     },
@@ -3151,7 +3167,6 @@
       "visitDuration": "1-1.5h",
       "difficulty": "easy",
       "emoji": "🟡",
-      "top": false,
       "municipio": "san-miguel-de-abona",
       "mapsUrl": "https://maps.app.goo.gl/PBsWFYAJhPpD4Czw6"
     },
@@ -3184,7 +3199,6 @@
       "visitDuration": "2h",
       "difficulty": "easy",
       "emoji": "🔴",
-      "top": false,
       "municipio": "granadilla-de-abona",
       "mapsUrl": "https://maps.app.goo.gl/VZjKZzPGGYq4joUP7"
     },
@@ -3217,7 +3231,6 @@
       "visitDuration": "3-4h",
       "difficulty": "moderate",
       "emoji": "💧",
-      "top": true,
       "municipio": "adeje",
       "mapsUrl": "https://maps.app.goo.gl/uQCfm9QFmLxAnLpT9"
     },
@@ -3250,7 +3263,6 @@
       "visitDuration": "3-4h",
       "difficulty": "moderate",
       "emoji": "🌋",
-      "top": false,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/mDczDL1sScMFnKcp8"
     },
@@ -3283,7 +3295,6 @@
       "visitDuration": "1.5-2h",
       "difficulty": "easy",
       "emoji": "🌵",
-      "top": false,
       "municipio": "guimar",
       "mapsUrl": "https://maps.app.goo.gl/N7h37d2LcMYzfrrG9"
     },
@@ -3316,7 +3327,6 @@
       "visitDuration": "1-1.5h",
       "difficulty": "easy",
       "emoji": "🌿",
-      "top": true,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/rn2jYucqLouFgffB9"
     },
@@ -3351,7 +3361,11 @@
       "emoji": "🐋",
       "top": true,
       "municipio": "santiago-del-teide",
-      "mapsUrl": "https://maps.app.goo.gl/MRkHioX4r9ncCgtSA"
+      "mapsUrl": "https://maps.app.goo.gl/MRkHioX4r9ncCgtSA",
+      "svgOverride": {
+        "x": 64,
+        "y": 221
+      }
     },
     {
       "slug": "mirador-chipeque",
@@ -3384,7 +3398,11 @@
       "emoji": "🏔️",
       "top": true,
       "municipio": "la-orotava",
-      "mapsUrl": "https://maps.app.goo.gl/5L5GHokTzuWNXvaD7"
+      "mapsUrl": "https://maps.app.goo.gl/5L5GHokTzuWNXvaD7",
+      "svgOverride": {
+        "x": 209,
+        "y": 176
+      }
     },
     {
       "slug": "mirador-de-jardina",
@@ -3415,9 +3433,13 @@
       "visitDuration": "30-45min",
       "difficulty": "easy",
       "emoji": "🌄",
-      "top": false,
+      "top": true,
       "municipio": "san-cristobal-de-la-laguna",
-      "mapsUrl": "https://maps.app.goo.gl/JXyTwWTYfpmDsuPk6"
+      "mapsUrl": "https://maps.app.goo.gl/JXyTwWTYfpmDsuPk6",
+      "svgOverride": {
+        "x": 257,
+        "y": 85
+      }
     },
     {
       "slug": "mirador-cruz-del-carmen",
@@ -3448,7 +3470,6 @@
       "visitDuration": "1-3h",
       "difficulty": "easy",
       "emoji": "✝️",
-      "top": true,
       "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/eqcdtF8k1BXiW1Ct6"
     },
@@ -3481,7 +3502,6 @@
       "visitDuration": "30-45min",
       "difficulty": "easy",
       "emoji": "🏔️",
-      "top": true,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/VRTohob2kwXRQy6g8"
     },
@@ -3514,7 +3534,6 @@
       "visitDuration": "30-45min",
       "difficulty": "easy",
       "emoji": "🌲",
-      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/ARCjo86T9LngQnPB6"
     },
@@ -3547,7 +3566,6 @@
       "visitDuration": "30-45min",
       "difficulty": "easy",
       "emoji": "🌋",
-      "top": true,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/TJ3weFf8q3tp7fF89"
     },
@@ -3580,7 +3598,6 @@
       "visitDuration": "45min-1h",
       "difficulty": "easy",
       "emoji": "🌅",
-      "top": true,
       "municipio": "santiago-del-teide",
       "mapsUrl": "https://maps.app.goo.gl/XWWrmVPB67q1UqD77"
     },
@@ -3613,7 +3630,6 @@
       "visitDuration": "30-45min",
       "difficulty": "easy",
       "emoji": "🌋",
-      "top": false,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/uxRvPLGrqrugdCss9"
     },
@@ -3646,7 +3662,6 @@
       "visitDuration": "45min-1h",
       "difficulty": "easy",
       "emoji": "🔭",
-      "top": true,
       "municipio": "san-cristobal-de-la-laguna",
       "mapsUrl": "https://maps.app.goo.gl/vTLmjLrayzwNUpUB9"
     },
@@ -3679,7 +3694,6 @@
       "visitDuration": "half-day-full-day",
       "difficulty": "easy",
       "emoji": "🌲",
-      "top": true,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/ASiiUdLNguPgsZWd7"
     },
@@ -3712,7 +3726,6 @@
       "visitDuration": "1-2h",
       "difficulty": "easy",
       "emoji": "🪐",
-      "top": true,
       "municipio": "la-orotava",
       "mapsUrl": "https://maps.app.goo.gl/Mx4JY2dTv7pY7LQ58"
     },
@@ -3746,7 +3759,6 @@
       "visitDuration": "2-3h",
       "difficulty": "easy",
       "emoji": "🏴",
-      "top": true,
       "municipio": "buenavista-del-norte",
       "mapsUrl": "https://maps.app.goo.gl/rB1PoHJYXr2wGG8a7"
     }
@@ -4333,7 +4345,6 @@
       "shortDescription": "The north's smallest wine municipality — on La Laguna's doorstep, with vineyards on volcanic soils, centuries-old wineries and the most authentic rural character in the Santa Cruz–La Laguna metropolitan area.",
       "description": "**Tegueste** is the smallest municipality in the northern comarca and one of Tenerife's most singular. Just a few kilometres from **San Cristóbal de La Laguna**, it preserves a completely rural character: its vineyards on volcanic soils produce some of the north's most interesting wines, and its local festivals maintain traditions that have been lost in other municipalities.\n\n### What to see in Tegueste\n- 🍷 **Vineyards and wineries** — small family wineries producing wines of great character\n- ⛪ The **Church of San Marcos** — historic temple in the town centre\n- 🏘️ The **village of Tegueste** — the most authentic village near La Laguna\n- 🌿 **Ravines and trails** — hiking routes through ravines and vineyards in the north\n\n### Is Tegueste worth visiting?\n**For wine tourism and travellers seeking authenticity near La Laguna, yes.** Tegueste is rural Tenerife just 10 minutes from a UNESCO World Heritage city.\n\n### Recommendation\nCombine a winery visit in Tegueste with an afternoon in **La Laguna**'s historic centre (10 minutes by car). The perfect blend of rural and historic Tenerife.",
       "images": {
-        "hero": "/images/tenerife/municipios/tegueste.avif",
         "hero": "/images/tenerife/municipios/tegueste.avif",
         "gallery": []
       }

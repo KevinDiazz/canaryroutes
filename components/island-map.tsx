@@ -88,6 +88,14 @@ const ISLAND_BOUNDS: Record<Island, { minLat: number; maxLat: number; minLng: nu
 };
 
 function coordsToSvg(lat: number, lng: number, island: Island): { x: number; y: number } {
+  // Tenerife: transformación afín calibrada con 3 puntos geográficos reales del path SVG
+  // (Punta de Anaga, Punta de Teno, Punta de la Rasca) → error = 0 px en los 3 puntos
+  if (island === 'tenerife') {
+    return {
+      x: 134.247489 * lat + 416.411359 * lng + 3260.385878,
+      y: -486.006240 * lat + (-1.639202) * lng + 13915.816482,
+    };
+  }
   const b = ISLAND_BOUNDS[island];
   const x = ((lng - b.minLng) / (b.maxLng - b.minLng)) * 340 + 30;
   const y = ((b.maxLat - lat) / (b.maxLat - b.minLat)) * 340 + 30;
@@ -349,6 +357,9 @@ function markerThumb(src: string): string {
 }
 
 function getPoiPosition(poi: POI, island: Island): { x: number; y: number } {
+  // svgOverride: posición manual en coordenadas SVG (0-400).
+  // Añádelo en pois.json así: "svgOverride": { "x": 210, "y": 185 }
+  if ((poi as any).svgOverride) return (poi as any).svgOverride as { x: number; y: number };
   if (KNOWN_POSITIONS[poi.slug]) return KNOWN_POSITIONS[poi.slug];
   if (poi.coordinates) return coordsToSvg(poi.coordinates.lat, poi.coordinates.lng, island);
   return { x: 200, y: 200 };
@@ -372,13 +383,13 @@ function PoiMarker({ poi, island, selected, onClick, displayX, displayY, showPho
   const x = displayX ?? computed.x;
   const y = displayY ?? computed.y;
   const color = poi.gygTourId ? '#ff5533' : CATEGORY_COLORS[poi.category];
-  const R = (showPhoto || showCategoryIcon) ? 14 : 10;
+  const R = (showPhoto || showCategoryIcon) ? 11 : 8;
   // En top filter, los POIs de actividades (GYG o categorías secundarias) usan el degradado naranja
   const isActivityPoi = poi.gygTourId || ACTIVITIES_CATS.includes(poi.category);
   const strokeGradId = (showCategoryIcon && isActivityPoi)
     ? 'poiGradient-activities'
     : `poiGradient-${poi.category}`;
-  const cy = y - R - 8;
+  const cy = y - R - 5;
   const clipId = `clip-poi-${poi.slug.replace(/[^a-zA-Z0-9]/g, '-')}`;
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
   const { ready: imageReady, loaded: imageLoaded, setLoaded: setImageLoaded, errored: imageErrored, setErrored: setImageErrored } = useLazyMarkerImage(index);
