@@ -1877,6 +1877,8 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           cart={cart}
           onAddToCart={handleAddToCart}
           locale={locale}
+          island={activeIsland}
+          allPois={poisByIsland[activeIsland] ?? []}
           photoCreditGroups={photoCreditsBySlug?.[selectedPoi.slug] ?? photoCreditsBySlug?.[selectedPoi.slug.replace('municipio-overview-', '')] ?? []}
           sectionContext={activeSection ? {
             label: activeSection.label,

@@ -8,6 +8,8 @@ import { DiscoverCarsWidget } from '@/components/affiliate/discover-cars-widget'
 import { GYG_PARTNER_ID } from '@/lib/affiliates';
 import { getCreditForPhoto, PhotoCreditLine } from '@/components/photo-credits-carousel';
 import type { PhotoCreditGroup } from '@/lib/image-credits';
+import { getRelatedPois } from '@/lib/related-pois';
+import type { Island } from '@/lib/types';
 
 const CATEGORY_COLORS: Record<POI['category'], string> = {
   nature: '#2ea86e',
@@ -432,6 +434,8 @@ interface PoiDetailSheetProps {
   cart: CartState;
   onAddToCart: (poi: POI) => void;
   locale: Locale;
+  island?: Island;
+  allPois?: POI[];
   sectionContext?: {
     label: string;
     emoji: string;
@@ -448,6 +452,8 @@ export function PoiDetailSheet({
   cart,
   onAddToCart,
   locale,
+  island,
+  allPois,
   sectionContext,
   photoCreditGroups,
 }: PoiDetailSheetProps) {
@@ -932,6 +938,66 @@ export function PoiDetailSheet({
                   <RichText html={selectedPoi.description} />
                 </div>
               )}
+
+              {/* ── Related POIs — internal linking ── */}
+              {contentReady && allPois && island && (() => {
+                const related = getRelatedPois(selectedPoi, allPois, locale, island, 4);
+                if (!related.length) return null;
+                const LABEL: Record<string, string> = {
+                  es: 'También te puede interesar',
+                  en: 'You might also like',
+                  de: 'Das könnte dir auch gefallen',
+                };
+                return (
+                  <div style={{ marginTop: '24px', borderTop: '1px solid #f1f5f9', paddingTop: '18px' }}>
+                    <p style={{
+                      fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em',
+                      textTransform: 'uppercase', color: '#9ca3af',
+                      fontFamily: "'JetBrains Mono', monospace", marginBottom: '12px',
+                    }}>
+                      {LABEL[locale] ?? LABEL.es}
+                    </p>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                      {related.map((r) => (
+                        <a
+                          key={r.slug}
+                          href={r.href}
+                          style={{
+                            display: 'flex', alignItems: 'center', gap: '10px',
+                            textDecoration: 'none', color: 'inherit',
+                            background: '#f8fafc', borderRadius: '12px',
+                            padding: '8px 12px',
+                            border: '1px solid #e2e8f0',
+                            transition: 'background 0.15s',
+                          }}
+                          onMouseEnter={(e) => (e.currentTarget.style.background = '#f0f4f8')}
+                          onMouseLeave={(e) => (e.currentTarget.style.background = '#f8fafc')}
+                        >
+                          {r.thumb && (
+                            <img
+                              src={r.thumb}
+                              alt={r.name}
+                              loading="lazy"
+                              style={{
+                                width: '44px', height: '44px', borderRadius: '8px',
+                                objectFit: 'cover', flexShrink: 0,
+                              }}
+                            />
+                          )}
+                          <span style={{
+                            fontSize: '14px', fontWeight: 600, color: '#1f2937',
+                            fontFamily: "'Outfit', sans-serif", lineHeight: 1.3,
+                          }}>
+                            {r.name}
+                          </span>
+                          <span style={{ marginLeft: 'auto', color: '#9ca3af', fontSize: '16px' }}>›</span>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })()}
+
               {contentReady && selectedPoi.audioPreview && (
                 <div style={{
                   marginTop: '16px', background: '#f8fafc', borderRadius: '14px',
@@ -1162,7 +1228,7 @@ export function PoiDetailSheet({
           </div>}
           </div>
         )}
-      </div>
+        </div>
       </div>
     </>
   );

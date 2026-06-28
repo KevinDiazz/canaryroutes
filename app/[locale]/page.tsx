@@ -263,7 +263,7 @@ export default async function HomePage({
         {/* ── Island selector ──────────────────────────────────────────── */}
         <IslandSelector locale={locale} />
 
-        {/* ── Footer ───────────────────────────────────────────────────── */}
+        {/* ── Footer ─────────────────────────────────────────────────────────── */}
         <HomeFooter locale={locale} />
       </main>
     </div>
