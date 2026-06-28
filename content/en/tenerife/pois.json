@@ -2575,38 +2575,6 @@
       "mapsUrl": "https://maps.app.goo.gl/6Nu9wdDhS8Ugaf836"
     },
     {
-      "slug": "iglesia-concepcion-santa-cruz",
-      "name": "Church of La Concepción, Santa Cruz",
-      "shortDescription": "One of the oldest churches in the Canaries (1502) — witness to island history from the conquest to Nelson's failed attack",
-      "description": "The **Church of Our Lady of the Conception** in Santa Cruz de Tenerife is one of the most historically significant buildings in the Canary Islands. Founded just **seven years after the conquest of Tenerife**, in **1502**, it is a direct witness to over five centuries of the island's history.\n\n### The Building\nBuilt in **Gothic-Mudéjar style**, the church has a five-nave plan separated by semicircular arches on volcanic stone columns. Its most remarkable feature is the **Mudéjar coffered ceiling** — a polychrome wooden structure combining Islamic craftsmanship with Christian architecture, and one of the best preserved of its kind in the Canaries. The five-storey tower, visible from much of central Santa Cruz, is another of its icons.\n\n### Nelson's Flags\nThe interior houses one of the most singular historical treasures in the Canaries: the **battle standards captured from Admiral Horatio Nelson** during the **Battle of Santa Cruz de Tenerife** (25 July 1797). In that engagement, Nelson attempted to take the port of Santa Cruz by force and was repelled — losing his right arm in the attack. The captured flags have been held in the church for over two centuries as a symbol of Tenerife's resistance.\n\n### Art and History\n- 🎨 Polychrome Mudéjar coffered ceiling — 16th century\n- 🚩 Battle standards captured from Nelson in 1797\n- 🖼️ Baroque altarpieces and polychrome sculptures from the 17th–18th centuries\n- 🏛️ Declared a **Bien de Interés Cultural** (Cultural Heritage Asset)\n- 📅 Founded: **1502** — 7 years after the conquest of Tenerife\n\n### Getting There\nIn Santa Cruz's historic centre, Plaza de la Iglesia. 5-minute walk from Plaza de España and the tram (stop **Weyler**). Free entry.\n\n### Recommendation\nVisit in the morning to see light through the stained glass. Don't miss the coffered ceiling — you'll need to look up. Nelson's flags are permanently displayed with explanatory panels in Spanish and English. Combine with the Nuestra Señora de África Market (10 min walk), the most beautiful market in Santa Cruz.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4693,
-        "lng": -16.2524
-      },
-      "images": {
-        "hero": "/images/tenerife/cultural/iglesia-concepcion-santa-cruz.avif",
-        "gallery": []
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "church",
-        "santa-cruz",
-        "history",
-        "nelson",
-        "mudejar",
-        "conquest"
-      ],
-      "visitDuration": "30-45min",
-      "difficulty": "easy",
-      "emoji": "⛪",
-      "top": false,
-      "municipio": "santa-cruz-de-tenerife",
-      "mapsUrl": "https://maps.app.goo.gl/pzs72GHKjtsDWfMe6"
-    },
-    {
       "slug": "casa-lercaro",
       "name": "Museum of History and Anthropology — Casa Lercaro",
       "shortDescription": "The finest 16th-century Genoese palace in the Canaries — a museum tracing Tenerife's history from the Guanches to the 20th century",

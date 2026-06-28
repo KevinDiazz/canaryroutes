@@ -2428,7 +2428,7 @@
         "lng": -16.5229
       },
       "images": {
-        "hero": "/images/tenerife/municipios/la-orotava.avif",
+        "hero": "/images/tenerife/cultural/la_orotava_casco_historico.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -2460,7 +2460,7 @@
         "lng": -16.7641
       },
       "images": {
-        "hero": "/images/tenerife/municipios/garachico.avif",
+        "hero": "/images/tenerife/cultural/garachico_casco_historico.avif",
         "gallery": []
       },
       "hasPremiumAudio": false,
@@ -2896,38 +2896,6 @@
       "top": false,
       "municipio": "santa-cruz-de-tenerife",
       "mapsUrl": ""
-    },
-    {
-      "slug": "iglesia-concepcion-santa-cruz",
-      "name": "Iglesia de la Concepción de Santa Cruz",
-      "shortDescription": "Una de las iglesias más antiguas de Canarias (1502) — testigo de la historia de la isla desde la conquista hasta Trafalgar",
-      "description": "La **Iglesia de Nuestra Señora de la Concepción** de Santa Cruz de Tenerife es uno de los edificios históricos más importantes de las Islas Canarias. Fundada apenas **siete años después de la conquista de Tenerife**, en **1502**, es testigo directo de más de cinco siglos de historia de la isla.\n\n### El edificio\nDe estilo **gótico-mudéjar**, la iglesia tiene planta de cinco naves separadas por arcos de medio punto sobre columnas de piedra volcánica. Su elemento más singular es el **techo artesonado de estilo mudéjar** — una cubierta de madera policromada que combina la tradición artesanal islámica con la arquitectura cristiana y que es una de las mejores conservadas de Canarias. La torre de cinco cuerpos, visible desde gran parte del centro de Santa Cruz, es otro de sus iconos.\n\n### Las banderas de Trafalgar\nEl interior guarda uno de los tesoros históricos más singulares de Canarias: las **banderas tomadas al almirante Horatio Nelson** durante el **Combate de Santa Cruz de Tenerife** (25 de julio de 1797). En esta batalla, Nelson intentó tomar el puerto de Santa Cruz y fue rechazado — perdiendo además su brazo derecho en el ataque. Los estandartes capturados llevan más de dos siglos en la iglesia como símbolo de la resistencia tinerfeña.\n\n### Arte e historia\n- 🎨 Techo artesonado mudéjar policromado — siglo XVI\n- 🚩 Banderas tomadas a Nelson en 1797\n- 🖼️ Retablos barrocos y esculturas policromadas de los siglos XVII–XVIII\n- 🏛️ Declarada **Bien de Interés Cultural** (BIC)\n- 📅 Fundación: **1502** — 7 años después de la conquista de Tenerife\n\n### Cómo llegar\nEn el centro histórico de Santa Cruz, Plaza de la Iglesia. A 5 minutos andando desde la Plaza de España y el tranvía (parada **Weyler**). Entrada libre.\n\n### Recomendación\nVisita por la mañana para ver la luz atravesar las vidrieras. No te pierdas el techo artesonado — necesitarás mirar hacia arriba. Las banderas de Nelson están expuestas permanentemente y tienen un cartel explicativo en español e inglés. Combina con el Mercado de Nuestra Señora de África (10 min andando), el mercado más bonito de Santa Cruz.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4693,
-        "lng": -16.2524
-      },
-      "images": {
-        "hero": "/images/tenerife/cultural/iglesia-concepcion-santa-cruz.avif",
-        "gallery": []
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "iglesia",
-        "santa-cruz",
-        "historia",
-        "nelson",
-        "mudéjar",
-        "conquista"
-      ],
-      "visitDuration": "30-45min",
-      "difficulty": "easy",
-      "emoji": "⛪",
-      "top": false,
-      "municipio": "santa-cruz-de-tenerife",
-      "mapsUrl": "https://maps.app.goo.gl/pzs72GHKjtsDWfMe6"
     },
     {
       "slug": "jardin-botanico-puerto-cruz",
@@ -4389,6 +4357,7 @@
     {
       "slug": "tegueste",
       "name": "Tegueste",
+       "mapsUrl": "/images/tenerife/cultural/la_orotava_casco_historico.avif",
       "emoji": "🍇",
       "coordinates": {
         "lat": 28.5025,

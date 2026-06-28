@@ -2575,38 +2575,6 @@
       "mapsUrl": "https://maps.app.goo.gl/6Nu9wdDhS8Ugaf836"
     },
     {
-      "slug": "iglesia-concepcion-santa-cruz",
-      "name": "Kirche der Empfängnis, Santa Cruz",
-      "shortDescription": "Eine der ältesten Kirchen der Kanaren (1502) — Zeugin der Inselgeschichte von der Conquista bis zu Nelsons gescheitertem Angriff",
-      "description": "Die **Kirche Unserer Lieben Frau der Empfängnis** in Santa Cruz de Tenerife ist eines der historisch bedeutsamsten Gebäude der Kanarischen Inseln. Gegründet nur **sieben Jahre nach der Conquista von Teneriffa**, im Jahr **1502**, ist sie direkter Zeuge von über fünf Jahrhunderten Inselgeschichte.\n\n### Das Gebäude\nIm **gotisch-mudéjarsichen Stil** erbaut, hat die Kirche einen fünfschiffigen Grundriss, getrennt durch Rundbogen auf Vulkansteinsäulen. Ihr markantestes Merkmal ist die **mudéjarische Kassettendecke** — eine polychrome Holzkonstruktion, die islamisches Kunsthandwerk mit christlicher Architektur verbindet und zu den am besten erhaltenen ihrer Art auf den Kanaren zählt. Der fünfstöckige Turm, von weiten Teilen des Stadtzentrums von Santa Cruz aus sichtbar, ist ein weiteres Wahrzeichen.\n\n### Nelsons Fahnen\nIm Inneren verwahrt die Kirche einen der seltsamsten historischen Schätze der Kanaren: die **erbeuteten Kriegsfahnen von Admiral Horatio Nelson** aus der **Schlacht von Santa Cruz de Tenerife** (25. Juli 1797). In diesem Gefecht versuchte Nelson, den Hafen von Santa Cruz mit Gewalt einzunehmen, wurde zurückgeschlagen — und verlor dabei seinen rechten Arm. Die erbeuteten Standarten befinden sich seit über zwei Jahrhunderten in der Kirche als Symbol des Widerstands Teneriffas.\n\n### Kunst und Geschichte\n- 🎨 Polychrome mudéjarische Kassettendecke — 16. Jahrhundert\n- 🚩 Nelsons Fahnen, erbeutet 1797\n- 🖼️ Barockaltäre und polychrome Skulpturen aus dem 17.–18. Jahrhundert\n- 🏛️ Als **Bien de Interés Cultural** eingetragen (Kulturdenkmal)\n- 📅 Gegründet: **1502** — 7 Jahre nach der Conquista Teneriffas\n\n### Anreise\nIm historischen Zentrum von Santa Cruz, Plaza de la Iglesia. 5 Gehminuten von der Plaza de España und der Straßenbahn (Haltestelle **Weyler**). Freier Eintritt.\n\n### Empfehlung\nMorgens besuchen, um das Licht durch die Buntglasfenster zu erleben. Die Kassettendecke nicht verpassen — Blick nach oben richten. Nelsons Fahnen sind dauerhaft ausgestellt mit Erklärungstafeln auf Spanisch und Englisch. Kombination mit dem Mercado Nuestra Señora de África (10 Min. Fußweg) empfohlen — der schönste Markt von Santa Cruz.",
-      "island": "tenerife",
-      "category": "culture",
-      "coordinates": {
-        "lat": 28.4693,
-        "lng": -16.2524
-      },
-      "images": {
-        "hero": "/images/tenerife/cultural/iglesia-concepcion-santa-cruz.avif",
-        "gallery": []
-      },
-      "hasPremiumAudio": false,
-      "affiliateLinks": [],
-      "tags": [
-        "kirche",
-        "santa-cruz",
-        "geschichte",
-        "nelson",
-        "mudéjar",
-        "conquista"
-      ],
-      "visitDuration": "30-45min",
-      "difficulty": "easy",
-      "emoji": "⛪",
-      "top": false,
-      "municipio": "santa-cruz-de-tenerife",
-      "mapsUrl": "https://maps.app.goo.gl/pzs72GHKjtsDWfMe6"
-    },
-    {
       "slug": "casa-lercaro",
       "name": "Museum für Geschichte und Anthropologie — Casa Lercaro",
       "shortDescription": "Der bedeutendste genuesische Palast des 16. Jahrhunderts auf den Kanaren — Museum zur Geschichte Teneriffas von den Guanchen bis ins 20. Jahrhundert",

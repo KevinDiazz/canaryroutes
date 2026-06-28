@@ -929,21 +929,6 @@
       "modified": true
     }
   },
-  "/images/tenerife/cultural/jardin_de_aclimatacion_de_la_orotava.avif": {
-    "alt": "Jardín de Aclimatación de La Orotava en Puerto de la Cruz, Tenerife",
-    "width": 5184,
-    "height": 3456,
-    "title": "jardin_de_aclimatacion_de_la_orotava.avif",
-    "sourceName": "Wikimedia Commons",
-    "modifications": "Convertida a AVIF y optimizada para web",
-    "license": {
-      "type": "CC-BY-SA-4.0",
-      "author": "Mike Peel",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_de_Aclimataci%C3%B3n_de_la_Orotava_2019_012.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "modified": true
-    }
-  },
   "/images/tenerife/nature/palmetum_de_santa_cruz_de_tenerife.avif": {
     "alt": "Palmetum de Santa Cruz de Tenerife con vistas al Parque Marítimo César Manrique",
     "width": 6921,
@@ -1438,7 +1423,73 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "modified": true
     }
-  },
+  },"/images/tenerife/municipios/san-cristobal-de-la-laguna.avif": {
+  "alt": "Vista panorámica del centro histórico de San Cristóbal de La Laguna, Tenerife",
+  "width": 1600,
+  "height": 1033,
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-3.0-DE",
+    "author": "Thomas Wolf (www.foto-tw.de)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Crist%C3%B3bal_de_La_Laguna_(Zuschnitt).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "modified": true
+  }
+},"/images/tenerife/municipios/santa-cruz-de-tenerife.avif": {
+  "alt": "Vista panorámica de Santa Cruz de Tenerife desde el Palmetum",
+  "width": 1600,
+  "height": 1067,
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "Mike Peel",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Tenerife_2026_583_-_View_of_Santa_Cruz_de_Tenerife_from_the_Palmetum.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
+},
+"/images/tenerife/municipios/icod-de-los-vinos.avif": {
+  "alt": "Drago Milenario de Icod de los Vinos, uno de los símbolos naturales de Tenerife",
+  "width": 1600,
+  "height": 1067,
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-SA-4.0",
+    "author": "Lmbuga (Luis Miguel Bugallo Sánchez)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drago_(Dracaena_drago)_Milenario_de_Icod_de_los_Vinos._Tenerife._Illas_Canarias_eue-09.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": true
+  }
+},"/images/tenerife/municipios/buenavista-del-norte.avif": {
+  "alt": "Faro de Punta de Teno y los acantilados de la costa noroeste de Buenavista del Norte, Tenerife",
+  "width": 1600,
+  "height": 914,
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-2.0",
+    "author": "Werner Wilmes",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_Leuchtturm_von_Punta_de_Teno_-_52311561977.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "modified": true
+  }
+},"/images/tenerife/municipios/guia-de-isora.avif": {
+  "alt": "Playa de Abama, en Guía de Isora, Tenerife",
+  "width": 1600,
+  "height": 1200,
+  "sourceName": "Wikimedia Commons",
+  "modifications": "Convertida a AVIF y optimizada para web",
+  "license": {
+    "type": "CC-BY-4.0",
+    "author": "-wuppertaler",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ESP_Tenerife,_Gu%C3%ADa_de_Isora,_Abama,_Playa_Abama_0005.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "modified": true
+  }
+},
   "/images/tenerife/municipios/el-sauzal.avif": {
     "alt": "Church of San Pedro Apóstol in El Sauzal, Tenerife",
     "width": 5041,
@@ -1691,6 +1742,21 @@
       "author": "-wuppertaler",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:ESP_Tenerife,_Gu%C3%ADa_de_Isora,_Abama,_Playa_Abama_0005.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": true
+    }
+  },
+  "/images/tenerife/nature/jardin_de_aclimatacion_de_la_orotava.avif": {
+    "alt": "Jardín de Aclimatación de La Orotava en Puerto de la Cruz, Tenerife",
+    "width": 5184,
+    "height": 3456,
+    "title": "jardin_de_aclimatacion_de_la_orotava.avif",
+    "sourceName": "Wikimedia Commons",
+    "modifications": "Convertida a AVIF y optimizada para web",
+    "license": {
+      "type": "CC-BY-SA-4.0",
+      "author": "Mike Peel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_de_Aclimataci%C3%B3n_de_la_Orotava_2019_012.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "modified": true
     }
   }

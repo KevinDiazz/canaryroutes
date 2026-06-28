@@ -1474,31 +1474,50 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           stroke="url(#islandStroke)"
           strokeWidth="2.5"
         />
-        {/* Zonas coloreadas — Norte / Centro / Sur */}
+        {/* Zonas coloreadas — Norte / Centro / Sur con bordes ondulados */}
         {isZoneMode && islandZones && islandZones.map((zone) => {
           const isTenerife = activeIsland === 'tenerife';
-          const yStart = isTenerife
-            ? (zone.slug === 'norte' ? 0 : zone.slug === 'centro' ? 180 : 240)
-            : (zone.slug === 'norte' ? 0 : zone.slug === 'centro' ? 155 : 248);
-          const yEnd = isTenerife
-            ? (zone.slug === 'norte' ? 180 : zone.slug === 'centro' ? 240 : 400)
-            : (zone.slug === 'norte' ? 155 : zone.slug === 'centro' ? 248 : 400);
           const isHovered = activeZone === zone.slug;
           const baseOpacity = isTenerife
             ? (zone.slug === 'norte' ? 0.60 : zone.slug === 'centro' ? 0.42 : 0.45)
             : 0.50;
+
+          // Ondas divisorias — amplitud 17px, fase alternada para armonizar con el fondo
+          // GC: divs en y=155 y y=248 | Tenerife: divs en y=180 y y=240
+          const d1 = isTenerife ? 180 : 155; // divisoria Norte/Centro
+          const d2 = isTenerife ? 240 : 248; // divisoria Centro/Sur
+          const a  = 17;                     // amplitud onda
+
+          // Onda superior de la zona (sin onda si es el borde 0 o 400)
+          const waveTop = (y: number) =>
+            `M 0,${y} Q 100,${y - a} 200,${y} Q 300,${y + a} 400,${y}`;
+          const waveBot = (y: number) =>
+            `Q 300,${y + a} 200,${y} Q 100,${y - a} 0,${y}`;
+
+          let d = '';
+          if (zone.slug === 'norte') {
+            // Borde superior recto, borde inferior ondulado
+            d = `M 0,0 L 400,0 L 400,${d1} ${waveBot(d1)} Z`;
+          } else if (zone.slug === 'centro') {
+            // Ambos bordes ondulados, bordes laterales rectos
+            d = `${waveTop(d1)} L 400,${d2} ${waveBot(d2)} Z`;
+          } else {
+            // Borde superior ondulado, borde inferior recto
+            d = `${waveTop(d2)} L 400,400 L 0,400 Z`;
+          }
+
           return (
             <g
               key={zone.slug}
-              clipPath="url(#activeIslandClip)"
+              clipPath="url(#activeIslandClip)" 
               style={{ cursor: 'pointer' }}
               onClick={() => {
                 setActiveZone(zone.slug);
                 setZoneSheetOpen(true);
               }}
             >
-              <rect
-                x={0} y={yStart} width={400} height={yEnd - yStart}
+              <path
+                d={d}
                 fill={zone.color}
                 fillOpacity={isHovered ? 0.70 : baseOpacity}
                 style={{ transition: 'fill-opacity 0.2s' }}
@@ -1842,6 +1861,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
           cart={cart}
           onAddToCart={handleAddToCart}
           locale={locale}
+          photoCreditGroups={photoCreditsBySlug?.[selectedPoi.slug] ?? photoCreditsBySlug?.[selectedPoi.slug.replace('municipio-overview-', '')] ?? []}
           sectionContext={activeSection ? {
             label: activeSection.label,
             emoji: activeSection.emoji,

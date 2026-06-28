@@ -2568,6 +2568,34 @@
       "municipio": "san-bartolome-de-tirajana",
       "gygTourId": "258742",
       "gygUrl": "https://gyg.me/TwT5ZaUg"
+    },
+    {
+      "slug": "piscinas-naturales-agaete",
+      "name": "Piscinas Naturales de Agaete",
+      "description": "Formadas por antiguos flujos de lava volcánica junto al **Puerto de las Nieves**, las **Piscinas Naturales de Agaete** son uno de los enclaves más espectaculares del norte de Gran Canaria para disfrutar del Atlántico. Estas pozas naturales se llenan continuamente con agua de mar cristalina, creando un entorno único donde bañarse rodeado de un paisaje volcánico impresionante.\n\n### La visita\nEl conjunto de piscinas naturales ofrece excelentes zonas de baño, zona de descanso y rincones ideales para contemplar cómo las olas del Atlántico rompen contra la costa volcánica negra. El contraste entre la roca de lava oscura, el azul intenso del océano y las montañas que rodean Agaete convierte este lugar en uno de los más fotogénicos de la isla.\n\n### Antes de ir\n- 🌊 Consulta las condiciones del mar, especialmente en días de oleaje fuerte\n- 👟 Se recomienda calzado adecuado para caminar sobre roca volcánica\n- ☀️ Lleva protección solar, ya que hay muy poca sombra\n- 📸 Un lugar excepcional para fotografía costera y atardeceres\n\n### Recomendación\nDate un paseo por el cercano **Puerto de las Nieves** y disfruta de pescado fresco junto al mar en uno de los pueblos costeros más encantadores de Gran Canaria.",
+      "shortDescription": "Las Piscinas Naturales de Agaete son espectaculares pozas de roca volcánica rellenas de agua de mar cristalina junto al Puerto de las Nieves, en el norte de Gran Canaria.",
+      "island": "gran-canaria",
+      "category": "beach",
+      "coordinates": {
+        "lat": 28.106051,
+        "lng": -15.707947
+      },
+      "images": {
+        "hero": "/images/gran-canaria/playas/piscinas-agaete.avif",
+        "gallery": []
+      },
+      "affiliateLinks": [],
+      "hasPremiumAudio": false,
+      "tags": [
+        "playa",
+        "gran-canaria"
+      ],
+      "difficulty": "easy",
+      "emoji": "🌊",
+      "sectionOnly": false,
+      "municipio": "agaete",
+      "top": true,
+      "mapsUrl": "https://maps.app.goo.gl/tHfv6Zk34eat77wp9"
     }
   ],
   "sections": [],
@@ -2576,6 +2604,7 @@
       "slug": "agaete",
       "name": "Agaete",
       "emoji": "🌊",
+      "mapsUrl": "https://maps.app.goo.gl/3N2ryLwXsNeZzjLcA",
       "coordinates": {
         "lat": 28.100967,
         "lng": -15.707374
@@ -2590,6 +2619,7 @@
     {
       "slug": "aguimes",
       "name": "Agüimes",
+      "mapsUrl": "https://maps.app.goo.gl/jgGygmji155H7ARBA",
       "emoji": "🏛️",
       "coordinates": {
         "lat": 27.905288,
@@ -2605,6 +2635,7 @@
     {
       "slug": "artenara",
       "name": "Artenara",
+      "mapsUrl": "https://maps.app.goo.gl/25vBTgW3o6eKqGLn7",
       "emoji": "⛰️",
       "coordinates": {
         "lat": 28.02044,
@@ -2620,6 +2651,7 @@
     {
       "slug": "arucas",
       "name": "Arucas",
+      "mapsUrl": "https://maps.app.goo.gl/mH6FdwAy6JFCysNX9",
       "emoji": "⛪",
       "coordinates": {
         "lat": 28.118223,
@@ -2635,6 +2667,7 @@
     {
       "slug": "firgas",
       "name": "Firgas",
+      "mapsUrl": "https://maps.app.goo.gl/Z6GNQmb6iKkvpsJt6",
       "emoji": "💧",
       "coordinates": {
         "lat": 28.107736,
@@ -2650,6 +2683,7 @@
     {
       "slug": "galdar",
       "name": "Gáldar",
+      "mapsUrl": "https://maps.app.goo.gl/mgkyJWPw3RsBE74H8",
       "emoji": "🏺",
       "coordinates": {
         "lat": 28.144639,
@@ -2665,6 +2699,7 @@
     {
       "slug": "ingenio",
       "name": "Ingenio",
+      "mapsUrl": "https://maps.app.goo.gl/hALxjEG5CkbrBs8t9",
       "emoji": "🧵",
       "coordinates": {
         "lat": 27.91925,
@@ -2680,6 +2715,7 @@
     {
       "slug": "aldea",
       "name": "La Aldea de San Nicolás",
+      "mapsUrl": "https://maps.app.goo.gl/7zNuUT1gr4AGcGPFA",
       "emoji": "🍅",
       "coordinates": {
         "lat": 27.986079,
@@ -2695,6 +2731,7 @@
     {
       "slug": "las-palmas",
       "name": "Las Palmas de Gran Canaria",
+      "mapsUrl": "https://maps.app.goo.gl/J52SsRiJ3b5quSA47",
       "emoji": "🏙️",
       "coordinates": {
         "lat": 28.146019,
@@ -2710,6 +2747,7 @@
     {
       "slug": "mogan",
       "name": "Mogán",
+      "mapsUrl": "https://maps.app.goo.gl/R7ayw9UtSy2QiAsP9",
       "emoji": "🏖️",
       "coordinates": {
         "lat": 27.818575,
@@ -2725,6 +2763,7 @@
     {
       "slug": "moya",
       "name": "Moya",
+      "mapsUrl": "https://maps.app.goo.gl/hVWdhQbNkoa5mqrk6",
       "emoji": "🌳",
       "coordinates": {
         "lat": 28.109657,
@@ -2740,6 +2779,7 @@
     {
       "slug": "san-bartolome",
       "name": "San Bartolomé de Tirajana",
+      "mapsUrl": "https://maps.app.goo.gl/G7qHQwfbbzd5cv6XA",
       "emoji": "🏝️",
       "coordinates": {
         "lat": 27.747536,
@@ -2755,6 +2795,7 @@
     {
       "slug": "santa-brigida",
       "name": "Santa Brígida",
+      "mapsUrl": "https://maps.app.goo.gl/JpUgR1WrwrjTJZ7a6",
       "emoji": "🍇",
       "coordinates": {
         "lat": 28.032468,
@@ -2770,6 +2811,7 @@
     {
       "slug": "santa-lucia",
       "name": "Santa Lucía de Tirajana",
+      "mapsUrl": "https://maps.app.goo.gl/aMuVNLea3XvmytbZA",
       "emoji": "🏰",
       "coordinates": {
         "lat": 27.841467,
@@ -2785,6 +2827,7 @@
     {
       "slug": "guia",
       "name": "Santa María de Guía de Gran Canaria",
+      "mapsUrl": "https://maps.app.goo.gl/i2A6oKG6iYmZYiu28",
       "emoji": "🧀",
       "coordinates": {
         "lat": 28.140681,
@@ -2800,6 +2843,7 @@
     {
       "slug": "tejeda",
       "name": "Tejeda",
+      "mapsUrl": "https://maps.app.goo.gl/jtgCkb2oE1ARzTdVA",
       "top": true,
       "emoji": "🌸",
       "coordinates": {
@@ -2816,6 +2860,7 @@
     {
       "slug": "telde",
       "name": "Telde",
+      "mapsUrl": "https://maps.app.goo.gl/TsXaac8dKKmoqEBT7",
       "emoji": "⛪",
       "coordinates": {
         "lat": 27.999015,
@@ -2831,6 +2876,7 @@
     {
       "slug": "teror",
       "name": "Teror",
+      "mapsUrl": "https://maps.app.goo.gl/EJhjjSEjm1h2UXoM8",
       "emoji": "🕊️",
       "coordinates": {
         "lat": 28.061619,
@@ -2847,6 +2893,7 @@
     {
       "slug": "valleseco",
       "name": "Valleseco",
+      "mapsUrl": "https://maps.app.goo.gl/yny8qqQf7HkAbtpG9",
       "emoji": "🌲",
       "coordinates": {
         "lat": 28.050394,
@@ -2862,6 +2909,7 @@
     {
       "slug": "valsequillo",
       "name": "Valsequillo de Gran Canaria",
+      "mapsUrl": "https://maps.app.goo.gl/iME3ehwwJHasrSiB9",
       "emoji": "🌼",
       "coordinates": {
         "lat": 27.991811,
@@ -2877,6 +2925,7 @@
     {
       "slug": "vega-san-mateo",
       "name": "Vega de San Mateo",
+      "mapsUrl": "https://maps.app.goo.gl/2ojS7Tpcgb9GNkYLA",
       "emoji": "🥕",
       "coordinates": {
         "lat": 28.009059,

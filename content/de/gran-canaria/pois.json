@@ -1095,7 +1095,8 @@
       "municipio": "san-bartolome",
       "top": false,
       "slug": "playa-las-burras",
-      "name": "Playa de Las Burras"
+      "name": "Playa de Las Burras",
+      "mapsUrl": "https://maps.app.goo.gl/8wESPQzU86XV7nrd8"
     },
     {
       "slug": "playa-arinaga",
@@ -1672,7 +1673,7 @@
       "sectionOnly": false,
       "municipio": "las-palmas",
       "top": true,
-      "mapsUrl": "https://www.google.com/maps/search/restaurantes+comida+canaria/@28.0024747,-15.6176588,74825m/data=!3m1!1e3!4m4!2m3!5m1!4e9!6e5?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D"
+      "mapsUrl": "https://www.google.com/maps/search/restaurantes+comida+canaria/@27.9711957,-15.6557746,61910m/data=!3m1!1e3!4m4!2m3!5m1!4e3!6e5?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D"
     },
     {
       "slug": "risco-caido",
@@ -1699,7 +1700,7 @@
       "emoji": "🏛️",
       "sectionOnly": false,
       "municipio": "artenara",
-      "top": true,
+      "top": false,
       "mapsUrl": "https://maps.app.goo.gl/zv3vgAxUx46SAGPP7"
     },
     {
@@ -2611,7 +2612,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/agaete.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/3N2ryLwXsNeZzjLcA"
     },
     {
       "slug": "aguimes",
@@ -2626,7 +2628,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/aguimes.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/jgGygmji155H7ARBA"
     },
     {
       "slug": "artenara",
@@ -2641,7 +2644,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/artenara.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/25vBTgW3o6eKqGLn7"
     },
     {
       "slug": "arucas",
@@ -2656,7 +2660,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/arucas.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/mH6FdwAy6JFCysNX9"
     },
     {
       "slug": "firgas",
@@ -2671,7 +2676,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/firgas.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/Z6GNQmb6iKkvpsJt6"
     },
     {
       "slug": "galdar",
@@ -2686,7 +2692,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/galdar.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/mgkyJWPw3RsBE74H8"
     },
     {
       "slug": "ingenio",
@@ -2701,7 +2708,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/ingenio.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/hALxjEG5CkbrBs8t9"
     },
     {
       "slug": "aldea",
@@ -2716,7 +2724,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/aldea.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/7zNuUT1gr4AGcGPFA"
     },
     {
       "slug": "las-palmas",
@@ -2731,7 +2740,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/las-palmas.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/J52SsRiJ3b5quSA47"
     },
     {
       "slug": "mogan",
@@ -2746,7 +2756,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/mogan.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/R7ayw9UtSy2QiAsP9"
     },
     {
       "slug": "moya",
@@ -2761,7 +2772,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/moya.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/hVWdhQbNkoa5mqrk6"
     },
     {
       "slug": "san-bartolome",
@@ -2776,7 +2788,8 @@
       "images": {
         "hero": "/images/gran-canaria/nature/dunas-de-maspalomas-2.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/G7qHQwfbbzd5cv6XA"
     },
     {
       "slug": "santa-brigida",
@@ -2791,7 +2804,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/santa-brigida.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/JpUgR1WrwrjTJZ7a6"
     },
     {
       "slug": "santa-lucia",
@@ -2806,7 +2820,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/santa-lucia.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/aMuVNLea3XvmytbZA"
     },
     {
       "slug": "guia",
@@ -2821,7 +2836,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/guia.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/i2A6oKG6iYmZYiu28"
     },
     {
       "slug": "tejeda",
@@ -2836,7 +2852,9 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/tejeda.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/jtgCkb2oE1ARzTdVA",
+      "top": true
     },
     {
       "slug": "telde",
@@ -2851,7 +2869,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/telde.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/TsXaac8dKKmoqEBT7"
     },
     {
       "slug": "teror",
@@ -2866,7 +2885,9 @@
       "images": {
         "hero": "/images/gran-canaria/cultural/basilica-el-pino-2.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/EJhjjSEjm1h2UXoM8",
+      "top": true
     },
     {
       "slug": "valleseco",
@@ -2881,7 +2902,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/valleseco.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/yny8qqQf7HkAbtpG9"
     },
     {
       "slug": "valsequillo",
@@ -2896,7 +2918,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/valsequillo.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/iME3ehwwJHasrSiB9"
     },
     {
       "slug": "vega-san-mateo",
@@ -2911,7 +2934,8 @@
       "images": {
         "hero": "/images/gran-canaria/municipios/san-mateo.avif",
         "gallery": []
-      }
+      },
+      "mapsUrl": "https://maps.app.goo.gl/2ojS7Tpcgb9GNkYLA"
     }
   ]
 }
