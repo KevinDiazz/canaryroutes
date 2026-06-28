@@ -2596,6 +2596,42 @@
       "municipio": "agaete",
       "top": true,
       "mapsUrl": "https://maps.app.goo.gl/tHfv6Zk34eat77wp9"
+    },
+    {
+      "slug": "ferries-gran-canaria",
+      "island": "gran-canaria",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.1372,
+        "lng": -15.4285
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/ferrie.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": null,
+      "difficulty": null,
+      "emoji": "⛴️",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "tags": [
+        "ferry",
+        "barco",
+        "naviera",
+        "interislas",
+        "fred-olsen",
+        "armas",
+        "transporte",
+        "las-palmas",
+        "puerto"
+      ],
+      "name": "Ferries desde Gran Canaria",
+      "shortDescription": "Dos puertos, dos destinos: desde Las Palmas a Tenerife y Fuerteventura, y desde Agaete a Tenerife en solo 1h30. Puedes embarcar con tu coche.",
+      "description": "Gran Canaria tiene dos puertos desde donde salen ferries a otras islas:\n\n⚓ **Puerto de Las Palmas (Puerto de La Luz)** — El más grande del archipiélago. Desde aquí salen ferries a **Tenerife** (1h30-2h30) y **Fuerteventura** (2-3h) Varias salidas al día.\n\n⚓ **Puerto de Las Nieves (Agaete)** — En el noroeste de la isla. Desde aquí sale un ferry directo a **Tenerife en solo 1h30**. Perfecta si te alojas en el norte o quieres una travesía rápida.\n\n🚗 **¿Viajás con coche?** Puedes embarcar con tu vehículo en ambos puertos. Reserva con antelación — las plazas de coche vuelan en verano y fines de semana.\n\n💡 Combina Gran Canaria con Tenerife o Fuerteventura en el mismo viaje y descubre el archipiélago como pocos turistas lo hacen.",
+      "websiteUrl": "https://www.directferries.es/gran_canaria_ferry.htm"
     }
   ],
   "sections": [],

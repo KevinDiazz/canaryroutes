@@ -2595,6 +2595,42 @@
       "sectionOnly": false,
       "municipio": "agaete",
       "top": true
+    },
+    {
+      "slug": "ferries-gran-canaria",
+      "island": "gran-canaria",
+      "category": "transport",
+      "coordinates": {
+        "lat": 28.1372,
+        "lng": -15.4285
+      },
+      "images": {
+        "hero": "/images/tenerife/transport/ferrie.avif",
+        "gallery": []
+      },
+      "hasPremiumAudio": false,
+      "affiliateLinks": [],
+      "visitDuration": null,
+      "difficulty": null,
+      "emoji": "⛴️",
+      "top": true,
+      "sectionOnly": false,
+      "municipio": "las-palmas",
+      "tags": [
+        "fähre",
+        "schiff",
+        "reederei",
+        "inselhüpfen",
+        "fred-olsen",
+        "armas",
+        "transport",
+        "las-palmas",
+        "hafen"
+      ],
+      "name": "Fähren ab Gran Canaria",
+      "shortDescription": "Zwei Häfen, zwei Ziele: von Las Palmas nach Teneriffa und Fuerteventura, und von Agaete nach Teneriffa in nur 1h30. Auch mit Auto an Bord.",
+      "description": "Gran Canaria hat zwei Häfen mit Fährverbindungen zu anderen Inseln:\n\n⚓ **Hafen Las Palmas (Puerto de La Luz)** — Der größte im Archipel. Von hier fahren Fähren nach **Teneriffa** (1h30-2h30) und **Fuerteventura** (2-3h) Mehrere Abfahrten täglich.\n\n⚓ **Puerto de Las Nieves (Agaete)** — An der Nordwestküste. Eine Direktfähre fährt nach **Teneriffa in nur 1h30**. Perfekt, wenn Sie im Norden wohnen oder eine schnelle Überfahrt möchten.\n\n🚗 **Mit dem Auto unterwegs?** Sie können Ihr Fahrzeug in beiden Häfen an Bord nehmen. Früh buchen — Autoplätze sind im Sommer und an Wochenenden schnell ausgebucht.\n\n💡 Kombinieren Sie Gran Canaria mit Teneriffa oder Fuerteventura auf einer Reise und entdecken Sie den Archipel wie kaum ein Tourist.",
+      "websiteUrl": "https://www.directferries.es/gran_canaria_ferry.htm"
     }
   ],
   "sections": [],

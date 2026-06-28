@@ -219,41 +219,43 @@ export default async function HomePage({
               {hero.headline}
             </h1>
 
-            {/* Subtítulo */}
-            <p className="hero-sub" style={{
-              fontFamily: "'Outfit', sans-serif",
-              fontSize: 'clamp(13px, min(1.6vw, 2.2vh), 18px)',
-              fontWeight: '400',
-              color: 'rgba(255,255,255,0.82)',
-              letterSpacing: '0.02em',
-              textShadow: '0 1px 6px rgba(0,0,0,0.4)',
-              margin: 0,
-            }}>
-              {hero.sub}
-            </p>
+            {/* Subtítulo + Stats — en mobile se empujan al fondo del hero */}
+            <div className="hero-bottom-group">
+              <p className="hero-sub" style={{
+                fontFamily: "'Outfit', sans-serif",
+                fontSize: 'clamp(13px, min(1.6vw, 2.2vh), 18px)',
+                fontWeight: '400',
+                color: 'rgba(255,255,255,0.82)',
+                letterSpacing: '0.02em',
+                textShadow: '0 1px 6px rgba(0,0,0,0.4)',
+                margin: '0 0 12px',
+              }}>
+                {hero.sub}
+              </p>
 
-            {/* Stats */}
-            <div style={{
-              display: 'flex', alignItems: 'center',
-              gap: 'clamp(8px, 1.5vw, 14px)',
-              background: 'rgba(255,255,255,0.12)',
-              backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)',
-              borderRadius: '32px',
-              padding: 'clamp(6px, 1.2vh, 10px) clamp(14px, 2.5vw, 28px)',
-              border: '1px solid rgba(255,255,255,0.18)',
-              flexWrap: 'wrap',
-              justifyContent: 'center',
-            }}>
-              {hero.stats.map((stat, i) => (
-                <span key={stat} style={{ display: 'flex', alignItems: 'center', gap: 'clamp(8px, 1.5vw, 14px)' }}>
-                  <span style={{ fontFamily: "'Outfit', sans-serif", fontSize: 'clamp(12px, min(1.2vw, 1.8vh), 15px)', fontWeight: '600', color: 'rgba(255,255,255,0.92)', whiteSpace: 'nowrap' }}>
-                    {stat}
+              {/* Stats */}
+              <div style={{
+                display: 'flex', alignItems: 'center',
+                gap: 'clamp(8px, 1.5vw, 14px)',
+                background: 'rgba(255,255,255,0.12)',
+                backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)',
+                borderRadius: '32px',
+                padding: 'clamp(6px, 1.2vh, 10px) clamp(14px, 2.5vw, 28px)',
+                border: '1px solid rgba(255,255,255,0.18)',
+                flexWrap: 'wrap',
+                justifyContent: 'center',
+              }}>
+                {hero.stats.map((stat, i) => (
+                  <span key={stat} style={{ display: 'flex', alignItems: 'center', gap: 'clamp(8px, 1.5vw, 14px)' }}>
+                    <span style={{ fontFamily: "'Outfit', sans-serif", fontSize: 'clamp(12px, min(1.2vw, 1.8vh), 15px)', fontWeight: '600', color: 'rgba(255,255,255,0.92)', whiteSpace: 'nowrap' }}>
+                      {stat}
+                    </span>
+                    {i < hero.stats.length - 1 && (
+                      <span style={{ color: 'rgba(255,255,255,0.35)', fontSize: '12px' }}>·</span>
+                    )}
                   </span>
-                  {i < hero.stats.length - 1 && (
-                    <span style={{ color: 'rgba(255,255,255,0.35)', fontSize: '12px' }}>·</span>
-                  )}
-                </span>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </section>

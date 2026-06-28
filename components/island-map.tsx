@@ -198,6 +198,9 @@ const ISLAND_CONFIGS: Record<Island, {
     stroke: '#f5c518',
     viewBox: '-60 -240 520 520',
     label: 'Gran Canaria',
+    // Bounding box real: x=[28,372] y=[28,372] → 344×344. 15px padding cada lado.
+    initVb: { x: 13, y: 13, w: 374, h: 374 },
+    initVbDesktop: { w: 520, h: 520 },
   },
   tenerife: {
     // Path trazado desde silueta PNG real (1255×1024 px) con OpenCV + Douglas-Peucker + Catmull-Rom→Bézier.
@@ -474,14 +477,15 @@ interface MunicipioMarkerProps {
   displayY?: number;
   index?: number;
   animate?: boolean;
+  smallR?: boolean;
 }
 
-function MunicipioMarker({ municipio, island, count, selected, onClick, displayX, displayY, index = 0, animate = true }: MunicipioMarkerProps) {
+function MunicipioMarker({ municipio, island, count, selected, onClick, displayX, displayY, index = 0, animate = true, smallR = false }: MunicipioMarkerProps) {
   const computed = coordsToSvg(municipio.coordinates.lat, municipio.coordinates.lng, island);
   const x = displayX ?? computed.x;
   const y = displayY ?? computed.y;
-  const R = 14;
-  const cy = y - R - 8;
+  const R = smallR ? 11 : 14;
+  const cy = y - R - (smallR ? 5 : 8);
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
   const appearDelay = Math.min(index * 50, 900);
 
@@ -1596,6 +1600,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             displayY={adjustedPositions[m.slug]?.y}
             index={i}
             animate={!markersAnimated}
+            smallR={activeFilter === 'top'}
           />
         ))}
         {/* Pines individuales: Top o sección */}
