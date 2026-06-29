@@ -143,9 +143,9 @@ export async function generateMetadata({
       },
       openGraph: {
         title, description, url, siteName: 'CanaryRoutes', type: 'website',
-        images: [{ url: `${SITE_URL}/og-default.svg`, width: 1200, height: 630, alt: title }],
+        images: [{ url: `${SITE_URL}/og-default.png`, width: 1200, height: 630, alt: title }],
       },
-      twitter: { card: 'summary_large_image', title, description, images: [`${SITE_URL}/og-default.svg`] },
+      twitter: { card: 'summary_large_image', title, description, images: [`${SITE_URL}/og-default.png`] },
     };
   }
 
@@ -156,7 +156,7 @@ export async function generateMetadata({
   // Canonical points to the canonical category URL to avoid duplicate content
   const poiCatSlug = POI_CATEGORY_TO_SLUG[poi.category] ?? 'actividades';
   const canonicalUrl = `${SITE_URL}/${locale}/${island}/${poiCatSlug}/${poi.slug}`;
-  const heroImage = poi.images?.hero ? `${SITE_URL}${poi.images.hero}` : `${SITE_URL}/og-default.svg`;
+  const heroImage = poi.images?.hero ? `${SITE_URL}${poi.images.hero}` : `${SITE_URL}/og-default.png`;
   return {
     title,
     description,

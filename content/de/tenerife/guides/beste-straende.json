@@ -5,7 +5,7 @@
   "metaDescription": "Vollständiger Reiseführer zu den schönsten Stränden Teneriffas: schwarzer Vulkansand, versteckte Buchten und familienfreundliche Strände. Karten, Anfahrt und lokale Tipps.",
   "category": "beach",
   "heroImage": "/images/tenerife/playas/benijo-hero.jpg",
-  "updatedAt": "2025-06-28",
+  "updatedAt": "2026-06-29",
   "intro": "Teneriffa bietet etwas, womit nur wenige Inseln der Welt aufwarten können: **völlig unterschiedliche Strände** in nur wenigen Kilometern Entfernung. Von dem **goldenen Saharasand** in Las Teresitas bis zu den **natürlichen Lavabecken** von Garachico, über das **Windsurfparadies** El Médano und die **Fünfsternestrände** von Costa Adeje. Dieser Ratgeber stellt die **10 besten Strände Teneriffas** vor – mit praktischen Infos, lokalen Tipps und allem, was du für deine Reise brauchst.",
   "sections": [
     {
@@ -191,11 +191,13 @@
   "affiliate": {
     "cars": {
       "text": "Um die versteckten Strände des Nordens und Südwestens Teneriffas zu erkunden, ist ein Mietwagen unverzichtbar. Preise vergleichen und die besten Angebote finden — direkt von der Insel aus.",
-      "location": "TFS"
+      "location": "TFS",
+      "poiPath": "transporte/alquiler-coche-tenerife"
     },
     "tours": {
       "text": "Von den Stränden im Süden starten Bootsausflüge zur Wal- und Delfinbeobachtung, Schnorcheltouren und Tierbeobachtungsfahrten. Ein Erlebnis, das sich wirklich lohnt.",
-      "gygQuery": "tenerife-whale-watching"
+      "gygQuery": "tenerife-whale-watching",
+      "poiPath": "actividades/avistamiento-cetaceos-tenerife"
     }
   }
 }

@@ -1,5 +1,6 @@
 import { locales, defaultLocale, type Locale } from '@/lib/types';
 import { CartProvider } from '@/hooks/use-cart';
+import { CookieConsent } from '@/components/cookie-consent';
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -29,6 +30,8 @@ export default async function LocaleLayout({
       <CartProvider locale={locale}>
         {children}
       </CartProvider>
+      {/* Cookie consent banner — also handles conditional GA4 loading */}
+      <CookieConsent locale={locale} />
     </>
   );
 }

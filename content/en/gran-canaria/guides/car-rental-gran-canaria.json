@@ -1,0 +1,206 @@
+{
+  "slug": "car-rental-gran-canaria",
+  "title": "Car Rental in Gran Canaria: Complete Guide",
+  "metaTitle": "Car Rental in Gran Canaria [2025]: Complete Guide — CanaryRoutes",
+  "metaDescription": "Everything about renting a car in Gran Canaria: companies, prices, which car to choose and the 10 destinations only reachable by car. Book in advance and save up to 50%.",
+  "category": "transport",
+  "heroImage": "/images/gran-canaria/transport/alquiler-coche-gran-canaria.avif",
+  "updatedAt": "2026-06-29",
+  "intro": "Gran Canaria is the most diverse island in the Canary archipelago and also the one that rewards having a hire car the most. Public transport covers the capital (Las Palmas) and the southern tourist zone well enough, but the island's interior — Roque Nublo, the ravines, Tejeda, Artenara — and the west coast — Mirador del Balcón, La Aldea, the wild beaches of Güigüi and Veneguera — are practically inaccessible without your own vehicle. This guide covers everything you need to know: where to pick up the car, what insurance to take, which vehicle type to choose and the 10 destinations that make renting a car in Gran Canaria essential.",
+  "sections": [
+    {
+      "rank": 1,
+      "name": "Roque Nublo",
+      "poiSlug": "roque-nublo",
+      "municipio": "Tejeda",
+      "summary": "Gran Canaria's most famous basalt monolith: 80 metres of volcanic rock at 1,813 m altitude, only accessible on foot from a car park you can only reach by car.",
+      "content": "Roque Nublo is the symbol of Gran Canaria and the most photographed interior excursion on the island. The 80-metre basalt monolith stands at 1,813 metres above sea level in the municipality of Tejeda, at the heart of the Gran Canaria Biosphere Reserve. There is no public transport to the trail starting point.\n\nFrom Las Palmas the drive takes about 50 minutes via the GC-15 and GC-60 to the La Goleta car park (1,700 m), from where an easy 45-60 minute trail leads to the base of the rock. The route is family-friendly. On clear days the view from the top includes Mount Teide in Tenerife, the Maspalomas Lighthouse and virtually the whole island. The village of Tejeda, 15 minutes by car from the car park, has the best traditional Canarian restaurants in the interior.",
+      "tips": [
+        "Arrive before 10:00 am — the La Goleta car park is small and fills up quickly at weekends.",
+        "Bring warm clothes even if the coast is hot: in Tejeda temperatures are 8-10°C lower.",
+        "Tejeda village (almond trees, marzipan, bienmesabe) deserves a 30-minute stop before or after.",
+        "The GC-60 has tight bends but is well surfaced — no 4x4 needed."
+      ],
+      "image": "/images/gran-canaria/nature/roque-nublo.avif",
+      "poiCategory": "nature"
+    },
+    {
+      "rank": 2,
+      "name": "Maspalomas Dunes",
+      "poiSlug": "dunas-maspalomas",
+      "municipio": "San Bartolomé de Tirajana",
+      "summary": "The great southern desert: 400 hectares of golden sand dunes by the sea, a Nature Reserve and one of the most recognisable landscapes in the entire Canary archipelago.",
+      "content": "The Maspalomas Dunes are technically reachable by bus from Las Palmas, but having a car allows you to reach the El Faro car park (by the Maspalomas Lighthouse) first thing in the morning when the dunes are empty and the golden morning light makes them absolutely spectacular. The Maspalomas Lighthouse (1890) is the landmark of the whole southern coast and the best vantage point over the dune system.\n\nWith your own car it is easy to combine the dunes, Maspalomas beach (by the lighthouse), the charco (protected coastal lagoon) and drive on to Playa del Inglés or Puerto Rico in the same trip. Public car parks near the lighthouse are paid but affordable.",
+      "tips": [
+        "Sunrise at the dunes from El Faro car park is free and spectacular — arrive 30 minutes before sunrise.",
+        "The Maspalomas lagoon is a protected wetland — do not enter it or leave rubbish.",
+        "Combine in the same day with Meloneras beach (10 min east) and Puerto Rico (20 min west).",
+        "El Faro car park costs around €2-3/hour — bring change or a card."
+      ],
+      "image": "/images/gran-canaria/nature/dunas-maspalomas.avif",
+      "poiCategory": "nature"
+    },
+    {
+      "rank": 3,
+      "name": "Mirador del Balcón",
+      "poiSlug": "mirador-del-balcon",
+      "municipio": "La Aldea de San Nicolás",
+      "summary": "Gran Canaria's most spectacular viewpoint: a platform jutting over 300-metre cliffs on the west coast, on the only road running along the island's western shore.",
+      "content": "Mirador del Balcón sits on the GC-200, the western coastal road connecting Agaete with La Aldea de San Nicolás. This road is one of the most spectacular drives in all the Canaries: 30 kilometres of tarmac carved into the rock over vertical 200-400 metre cliffs, with the Atlantic below and virtually no traffic.\n\nThe viewpoint itself is a concrete platform cantilevered over the drop with 180-degree views north and south along the western coast. On clear days Tenerife is visible in the distance. There is no restaurant or services — just the cliff void and the sound of the wind. The complete GC-200 route (Agaete to La Aldea) is a 1.5-2 hour drive that should be mandatory for any visitor with a car in Gran Canaria.",
+      "tips": [
+        "The GC-200 has very narrow stretches — drive carefully and use verges to pass oncoming cars.",
+        "Sunset from Mirador del Balcón with the sun dropping into the Atlantic is one of the best on the island.",
+        "Combine in the same day with Agaete (north) and La Aldea (south) to do the complete western route.",
+        "There is no petrol station between Agaete and La Aldea — fill up before entering the GC-200."
+      ],
+      "image": "/images/gran-canaria/nature/mirador-del-balcon.avif",
+      "poiCategory": "nature"
+    },
+    {
+      "rank": 4,
+      "name": "Agaete Natural Pools",
+      "poiSlug": "piscinas-agaete",
+      "municipio": "Agaete",
+      "summary": "Gran Canaria's most famous natural pools: volcanic rock basins at Puerto de Las Nieves, 45 minutes from the south by car, with Mount Teide on the horizon.",
+      "content": "The Puerto de Las Nieves natural pools are the great treasure of northwestern Gran Canaria. The contrast between black volcanic rock, turquoise Atlantic water and the view of Tenerife's Teide in the background is one of the island's most iconic images. From Las Palmas the drive takes 30 minutes via the GC-2. From the south (Maspalomas) it is about 55 minutes.\n\nPuerto de Las Nieves is also the embarkation point for the fast ferry to Santa Cruz de Tenerife (Fred. Olsen and Naviera Armas), allowing a day trip to Tenerife with the Gran Canaria hire car. The village of Agaete, 3 km inland, has the best Canarian coffee on the island (grown in the valley itself) and is worth a gastronomic stop.",
+      "tips": [
+        "Pool access is free though there are paid sun loungers — bring your own towel and snacks.",
+        "The Santa Cruz-Puerto de Las Nieves ferry (1 h) is a perfect day trip option if you have a car.",
+        "The Valle de Agaete (3 km from the port) has Europe's only coffee crop — Café del Valle is worth the detour.",
+        "Combine with Mirador del Balcón and La Aldea in the same day for a complete northwest route."
+      ],
+      "image": "/images/gran-canaria/playas/piscinas-agaete.avif",
+      "poiCategory": "beach"
+    },
+    {
+      "rank": 5,
+      "name": "Caldera de Bandama",
+      "poiSlug": "caldera-de-bandama",
+      "municipio": "Las Palmas de Gran Canaria / Santa Brígida",
+      "summary": "Gran Canaria's most accessible volcanic crater: 1 km in diameter and 200 metres deep, just 15 minutes from Las Palmas by car, with an inhabited farmstead on the crater floor.",
+      "content": "The Caldera de Bandama is the most accessible and photogenic volcano in Gran Canaria. The crater is 1 km in diameter and 200 metres deep, and on its floor there is an inhabited farm — one of the most curious details on the whole island. From the Mirador de la Caldera (reachable by car to the rim) the view into the crater interior is spectacular.\n\n200 metres from the caldera viewpoint is Pico de Bandama (574 m), the highest point in the Las Palmas area, with 360-degree views including the capital, the airport, Roque Nublo and the Atlantic. The 20-minute walk from the car park to the summit requires no special equipment. From the crater floor a descent trail (45 min down, 1 h back up) allows you to visit the abandoned farmstead.",
+      "tips": [
+        "Caldera de Bandama is 15 minutes from Las Palmas via the GC-802 — perfect as a first or last stop of the day.",
+        "Pico de Bandama (200 m from the viewpoint) has the best 360° views of the Las Palmas area.",
+        "If you descend into the crater, bring water — the return climb is steeper than it looks.",
+        "Combine with Barranco de Guayadeque (20 min south) for a full nature day."
+      ],
+      "image": "/images/gran-canaria/nature/caldera-de-bandama.avif",
+      "poiCategory": "nature"
+    },
+    {
+      "rank": 6,
+      "name": "Barranco de Guayadeque",
+      "poiSlug": "barranco-guayadeque",
+      "municipio": "Agüimes / Ingenio",
+      "summary": "Gran Canaria's most spectacular ravine: a 12 km gorge with inhabited cave dwellings, cave restaurants and unique subtropical vegetation.",
+      "content": "The Barranco de Guayadeque is the great secret of Gran Canaria's eastern interior. The GC-103 road runs 12 km along the ravine floor, passing inhabited cave villages, restaurants carved into volcanic rock and a landscape of Canarian palms, tabaibas and cardons completely unlike the rest of the island.\n\nThe ravine floor is only accessible by car — there is no public transport. The cave restaurants (especially in the Guayadeque settlement) serve ropa vieja, watercress stew and wrinkled potatoes with mojo in a unique cave setting. The road ends at the Barranco Interpretation Centre car park, from where several trails depart.",
+      "tips": [
+        "The GC-103 ends in a cul-de-sac — plan an out-and-back route (not a circuit).",
+        "Cave restaurants open at midday (noon-4:00 pm) — arrive hungry if you plan to eat.",
+        "Best time to visit is midweek — at weekends the restaurants fill up with locals.",
+        "Combine with Cueva Pintada in Gáldar (45 min north) for an archaeology and nature day."
+      ],
+      "image": "/images/gran-canaria/nature/barranco-guayadeque.avif",
+      "poiCategory": "hiking"
+    },
+    {
+      "rank": 7,
+      "name": "Cueva Pintada, Gáldar",
+      "poiSlug": "cueva-pintada",
+      "municipio": "Gáldar",
+      "summary": "The most important archaeological site in the Canary Islands: pre-Hispanic geometric paintings by the ancient Canarians in a 1,500-year-old cave in the northwest of the island.",
+      "content": "The Cueva Pintada is Gran Canaria's greatest archaeological treasure and one of the most important in the Canary archipelago. The artificial cave excavated by the ancient Canarians (Guanches) preserves polychrome geometric paintings more than 1,500 years old in an extraordinary state of conservation. The museum built around it is one of the best-designed in the Canaries.\n\nGáldar is 30 minutes from Las Palmas by car via the GC-2 (north coast) and 50 minutes from Maspalomas. Parking is free and plentiful around the museum. The guided cave visit requires advance booking due to strict capacity controls — only small groups are allowed inside to protect the paintings. Gáldar Town Hall and the 18th-century Santiago de los Caballeros Church complete a half-day visit to the northwest.",
+      "tips": [
+        "Book online in advance — capacity is very limited and sells out quickly in high season.",
+        "The guided visit lasts 45 minutes — includes the outdoor museum and the cave with the paintings.",
+        "Combine with Playa de Sardina (15 min north) to end the day with a swim in the most authentic northern fishing village.",
+        "Street parking in front of Gáldar Town Hall is free and usually has spaces."
+      ],
+      "image": "/images/gran-canaria/cultural/cueva-pintada.avif",
+      "poiCategory": "culture"
+    },
+    {
+      "rank": 8,
+      "name": "Playa de Güigüi",
+      "poiSlug": "playa-guguy",
+      "municipio": "La Aldea de San Nicolás",
+      "summary": "Gran Canaria's most remote beach: only accessible on foot from La Aldea (3-4 h) or by boat from Puerto de Mogán. A car is essential to reach the trail start.",
+      "content": "Playa de Güigüi is the wildest and most inaccessible beach in Gran Canaria. A car is essential to reach the trail starting point in La Aldea de San Nicolás — there is no public transport with a useful schedule. From La Aldea the GC-200 leads to the kilometre where the trail begins, and the car stays parked while you do the 3-4 hour walk each way.\n\nAlternatively, the boat from Puerto de Mogán reaches Güigüi in 1.5-2 hours — for this option you also need a car to reach the harbour. The beach itself is a strip of dark sand surrounded by black cliffs, with crystal-clear water and a complete absence of any services. Perfect day combination: car to La Aldea, hike to Güigüi, return to the car before dark.",
+      "tips": [
+        "Start the trail before 7:00 am — the one-way hike takes 3-4 hours and you need to return in daylight.",
+        "Bring everything you need: water for the day, food, sun protection — there is nothing at Güigüi.",
+        "The boat from Puerto de Mogán (1.5 h) is the alternative to the hike — you still need a car for the harbour.",
+        "The GC-200 from La Aldea to the trail start may have dirt sections — check the road conditions beforehand."
+      ],
+      "image": "/images/gran-canaria/playas/playa-guguy-2.avif",
+      "poiCategory": "beach"
+    },
+    {
+      "rank": 9,
+      "name": "Risco Caído and the Sacred Spaces",
+      "poiSlug": "risco-caido",
+      "municipio": "Artenara / Tejeda",
+      "summary": "UNESCO World Heritage Site since 2019: the most important pre-Hispanic cultural landscape in Gran Canaria, with ceremonial caves and views of Roque Nublo and Teide.",
+      "content": "Risco Caído was declared a UNESCO World Heritage Site in 2019 as part of the Sacred Mountain of Gran Canaria cultural landscape. The complex includes artificial caves built by the ancient Canarians with precise astronomical alignments that capture sunlight at the solstices and equinoxes. Access is strictly regulated: visits are only possible with an authorised guide in groups of maximum 10 people.\n\nTo reach Risco Caído, take the GC-210 from Artenara — the highest road in Gran Canaria (1,270 m). Artenara is the highest village on the island and has the best views of Roque Nublo from the Mirador de la Degollada. Risco Caído, Roque Nublo and the village of Tejeda together form the most complete interior route in Gran Canaria, perfect for a full day by car.",
+      "tips": [
+        "A Risco Caído visit requires advance booking with a guide — contact the Artenara Visitor Centre.",
+        "Artenara (GC's highest village) has the cave restaurant with the best island views — book ahead.",
+        "The GC-210 to Artenara has spectacular Roque Nublo views — drive slowly to enjoy them.",
+        "Combine in one day: Artenara (morning) → Roque Nublo (midday) → Tejeda (afternoon)."
+      ],
+      "image": "/images/gran-canaria/cultural/risco-caido.avif",
+      "poiCategory": "culture"
+    },
+    {
+      "rank": 10,
+      "name": "Playa de Veneguera",
+      "poiSlug": "playa-veneguera",
+      "municipio": "Mogán",
+      "summary": "The best wild cove in the southwest: 8 km of dirt track from the GC-200 to a dark-sand beach with no services, and the clearest water on the south coast.",
+      "content": "Playa de Veneguera is the best-kept secret of Gran Canaria's southwestern coast. The 8 km dirt track descending from the GC-200 to the beach is manageable in a standard-height car, but requires slow driving and care on the narrowest final sections. Without a car it is practically impossible to reach — the boat from Puerto de Mogán is the only alternative.\n\nThe reward: a narrow beach of dark sand and shingle surrounded by basalt cliffs, with exceptionally clear and transparent water and absolute silence. In low season you may have the beach to yourself. Snorkelling and spearfishing are among the best on the south coast. Bring everything you need for the day — there is absolutely nothing at Veneguera.",
+      "tips": [
+        "The 8 km track from the GC-200 is fine for standard cars — drive slowly and avoid the big potholes.",
+        "No services — water, food, sun protection and everything you need for the full day.",
+        "The boat from Puerto de Mogán (45 min) is the most comfortable alternative if you prefer to skip the track.",
+        "Best visited midweek in mid-season — in August cars fill the dirt track."
+      ],
+      "image": "/images/gran-canaria/playas/playa-veneguera.avif",
+      "poiCategory": "beach"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you need a car in Gran Canaria?",
+      "answer": "It depends on your plan. Las Palmas, Maspalomas and the southern tourist corridor have good public transport. But the island's interior (Roque Nublo, Tejeda, Artenara), the west coast (Mirador del Balcón, La Aldea) and the remote beaches (Güigüi, Veneguera) are practically inaccessible without a car. For trips of more than 3-4 days or with the intention of exploring, a car is essential."
+    },
+    {
+      "question": "How much does car hire in Gran Canaria cost?",
+      "answer": "In mid-season (autumn-spring) a compact costs between €20-35/day booked in advance. In July-August prices rise to €40-65/day or more. The biggest price difference is between booking 3+ weeks in advance and picking up at the airport without a prior booking — the difference can be 50-70%."
+    },
+    {
+      "question": "Where is the best place to pick up a hire car?",
+      "answer": "Gran Canaria Airport (LPA) at Gando has the best prices and most options. It is 20 minutes from Las Palmas and 35 minutes from Maspalomas. There are also rental offices in Las Palmas (Canteras area and the port) and in the south (Maspalomas, Puerto Rico), but prices are usually higher than at the airport."
+    },
+    {
+      "question": "What type of car do I need for Gran Canaria's roads?",
+      "answer": "A standard compact is enough for 95% of the destinations in this guide. The western GC-200 road and the access roads to Roque Nublo and Artenara are well surfaced though narrow and winding. For Playa de Veneguera (8 km dirt track) a standard-height car is sufficient if driven slowly. A 4x4 is never necessary."
+    },
+    {
+      "question": "What insurance should I take out for a Gran Canaria hire car?",
+      "answer": "Basic third-party liability is included by law. The critical point is the excess: without full cover you could be charged up to €1,500-2,000 in case of damage. Options: pay CDW with no excess to the company (~€8-15/day extra), use your credit card cover if it includes car hire, or take out third-party excess insurance before the trip (~€3-5/day). The Veneguera track and the narrow western roads make full cover advisable."
+    }
+  ],
+  "affiliate": {
+    "cars": {
+      "text": "Compare prices from all hire companies at Gran Canaria Airport (LPA) in real time. Booking in advance can save you up to 50% over the on-the-day price.",
+      "location": "LPA",
+      "poiPath": "transporte/alquiler-coche-gran-canaria"
+    },
+    "tours": {
+      "text": "If you'd rather not drive the interior roads (Roque Nublo, Artenara) or the west coast, there are organised excursions from Las Palmas and Maspalomas with transport included.",
+      "gygQuery": "gran-canaria-tours-interior-car",
+      "poiPath": "actividades/buggy-valle-ayagaures"
+    }
+  }
+}

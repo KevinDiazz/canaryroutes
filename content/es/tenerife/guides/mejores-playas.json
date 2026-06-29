@@ -5,7 +5,7 @@
   "metaDescription": "Guía completa de las mejores playas de Tenerife: playas de arena negra volcánica, calas escondidas y playas familiares. Mapas, cómo llegar y consejos de visita.",
   "category": "beach",
   "heroImage": "/images/tenerife/playas/benijo-hero.jpg",
-  "updatedAt": "2025-06-28",
+  "updatedAt": "2026-06-29",
   "intro": "Tenerife tiene algo que pocas islas del mundo pueden presumir: **playas completamente distintas** separadas por apenas unos kilómetros. Desde la **arena dorada importada del Sáhara** en Las Teresitas hasta las **piscinas naturales de Garachico** esculpidas por la lava, pasando por el **paraíso del windsurf** en El Médano o las **playas de cinco estrellas** de Costa Adeje. Esta guía recoge las **10 mejores playas de Tenerife** con información práctica, consejos locales y todo lo que necesitas para planificar tu visita.",
   "sections": [
     {
@@ -191,11 +191,13 @@
   "affiliate": {
     "cars": {
       "text": "Para explorar las playas más escondidas del norte y del suroeste de Tenerife, un coche de alquiler es imprescindible. Compara precios y encuentra las mejores ofertas sin salir de la isla.",
-      "location": "TFS"
+      "location": "TFS",
+      "poiPath": "transporte/alquiler-coche-tenerife"
     },
     "tours": {
       "text": "Desde las playas del sur salen excursiones en barco para ver ballenas y delfines, tours de snorkel y avistamiento de cetáceos. Una experiencia que vale mucho la pena.",
-      "gygQuery": "tenerife-whale-watching"
+      "gygQuery": "tenerife-whale-watching",
+      "poiPath": "actividades/avistamiento-cetaceos-tenerife"
     }
   }
 }

@@ -5,7 +5,7 @@
   "metaDescription": "Complete guide to the best beaches in Tenerife: black volcanic sand, hidden coves and family-friendly shores. Maps, directions and local tips for every beach.",
   "category": "beach",
   "heroImage": "/images/tenerife/playas/benijo-hero.jpg",
-  "updatedAt": "2025-06-28",
+  "updatedAt": "2026-06-29",
   "intro": "Tenerife boasts something few islands in the world can claim: **completely different beaches** just a few kilometres apart. From the **golden Saharan sand** at Las Teresitas to the **natural lava pools** of Garachico, through the **windsurfing paradise** of El Médano and the **five-star shorelines** of Costa Adeje. This guide covers the **10 best beaches in Tenerife** with practical info, local tips and everything you need to plan your visit.",
   "sections": [
     {
@@ -191,11 +191,13 @@
   "affiliate": {
     "cars": {
       "text": "To explore the hidden beaches of the north and southwest of Tenerife, a hire car is essential. Compare prices and find the best deals without leaving the island.",
-      "location": "TFS"
+      "location": "TFS",
+      "poiPath": "transporte/alquiler-coche-tenerife"
     },
     "tours": {
       "text": "From the southern beaches, boat trips depart for whale and dolphin watching, snorkelling tours and cetacean spotting. An experience well worth having.",
-      "gygQuery": "tenerife-whale-watching"
+      "gygQuery": "tenerife-whale-watching",
+      "poiPath": "actividades/avistamiento-cetaceos-tenerife"
     }
   }
 }

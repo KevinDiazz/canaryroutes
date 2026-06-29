@@ -76,13 +76,13 @@ export async function generateMetadata({
       siteName: 'CanaryRoutes',
       type: 'website',
       locale,
-      images: [{ url: SITE_URL + '/og-default.svg', width: 1200, height: 630, alt: 'CanaryRoutes' }],
+      images: [{ url: SITE_URL + '/og-default.png', width: 1200, height: 630, alt: 'CanaryRoutes' }],
     },
     twitter: {
       card: 'summary_large_image',
       title: meta.title,
       description: meta.description,
-      images: [SITE_URL + '/og-default.svg'],
+      images: [SITE_URL + '/og-default.png'],
     },
   };
 }
@@ -265,7 +265,7 @@ export default async function HomePage({
         <IslandSelector locale={locale} />
 
         {/* ── Hub carousel ──────────────────────────────────────────────────── */}
-        <HubCarousel locale={locale} island="tenerife" />
+        <HubCarousel locale={locale} />
 
         {/* ── Footer ─────────────────────────────────────────────────────────── */}
         <HomeFooter locale={locale} />

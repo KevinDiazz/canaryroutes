@@ -27,7 +27,7 @@ export async function generateMetadata({
   const url = `${SITE_URL}/${locale}/${island}/${categorySlug}/${poi.slug}`;
   const heroImage = poi.images?.hero
     ? `${SITE_URL}${poi.images.hero}`
-    : `${SITE_URL}/og-default.svg`;
+    : `${SITE_URL}/og-default.png`;
   return {
     title,
     description,

@@ -9,6 +9,13 @@ export interface GuideSection {
   name: string;
   /** Matches the POI slug for internal linking */
   poiSlug: string;
+  /**
+   * POI category override for internal link generation.
+   * When omitted, falls back to the guide-level `category`.
+   * Needed for cross-category guides like car-rental, where sections link
+   * to nature/beach/culture POIs but the guide itself is `transport`.
+   */
+  poiCategory?: string;
   municipio: string;
   summary: string;
   content: string;
@@ -26,10 +33,22 @@ export interface GuideAffiliate {
   cars?: {
     text: string;
     location: string;
+    /**
+     * Relative path segment for the in-guide CTA link.
+     * e.g. "transporte/alquiler-coche-gran-canaria"
+     * Injected at content-level so the page is island-agnostic.
+     */
+    poiPath?: string;
   };
   tours?: {
     text: string;
     gygQuery: string;
+    /**
+     * Relative path segment for the in-guide CTA link.
+     * e.g. "actividades/crucero-catamaran-puerto-rico"
+     * Injected at content-level so the page is island-agnostic.
+     */
+    poiPath?: string;
   };
 }
 

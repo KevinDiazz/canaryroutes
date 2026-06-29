@@ -52,13 +52,13 @@ export async function generateMetadata({
       siteName: 'CanaryRoutes',
       locale,
       type: 'website',
-      images: [{ url: SITE_URL + '/og-default.svg', width: 1200, height: 630, alt: title }],
+      images: [{ url: SITE_URL + '/og-default.png', width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description: desc,
-      images: [SITE_URL + '/og-default.svg'],
+      images: [SITE_URL + '/og-default.png'],
     },
   };
 }

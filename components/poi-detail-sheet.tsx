@@ -413,13 +413,33 @@ function TranscriptPanel({ html, color }: { html: string; color: string }) {
 // ── GYG widget container ─────────────────────────────────────────────────────
 interface GygWidgetContainerProps {
   children: React.ReactNode;
+  locale?: Locale;
 }
 
-function GygWidgetContainer({ children }: GygWidgetContainerProps) {
+const AFFILIATE_LABEL: Record<Locale, string> = {
+  es: 'Enlace de afiliado · podemos recibir una comisión sin coste para ti',
+  en: 'Affiliate link · we may earn a commission at no extra cost to you',
+  de: 'Affiliate-Link · wir erhalten ggf. eine Provision ohne Mehrkosten für Sie',
+};
+
+function GygWidgetContainer({ children, locale }: GygWidgetContainerProps) {
+  const label = locale ? (AFFILIATE_LABEL[locale] ?? AFFILIATE_LABEL.es) : AFFILIATE_LABEL.es;
   return (
     <div style={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', background: 'white' }}>
       <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', WebkitOverflowScrolling: 'touch' as const }}>
         {children}
+      </div>
+      <div style={{
+        padding: '6px 16px 8px',
+        borderTop: '1px solid #f1f5f9',
+        background: '#f8fafc',
+      }}>
+        <p style={{
+          margin: 0, fontSize: '10px', color: '#94a3b8',
+          fontFamily: "'Outfit', sans-serif", textAlign: 'center',
+        }}>
+          {label}
+        </p>
       </div>
     </div>
   );
@@ -773,7 +793,7 @@ export function PoiDetailSheet({
             }}
           >
             {contentReady && selectedPoi.gygTourId ? (
-              <GygWidgetContainer>
+              <GygWidgetContainer locale={locale}>
                 <div style={{ padding: '12px 16px 20px' }}>
                   <div style={{ maxWidth: '400px', margin: '0 auto' }}>
                     <AvailabilityWidget key={selectedPoi.gygTourId} tourId={selectedPoi.gygTourId} locale={locale} variant="vertical" />
@@ -781,7 +801,7 @@ export function PoiDetailSheet({
                 </div>
               </GygWidgetContainer>
             ) : contentReady && selectedPoi.discoverCarsLocation ? (
-              <GygWidgetContainer>
+              <GygWidgetContainer locale={locale}>
                 <div style={{ padding: '12px 16px 20px' }}>
                   <DiscoverCarsWidget
                     key={selectedPoi.discoverCarsLocation}
@@ -798,7 +818,7 @@ export function PoiDetailSheet({
           </div>
 
           {/* Créditos fotográficos — de la foto activa del carrusel, justo debajo de la foto */}
-          {contentReady && photoCreditGroups && (() => {
+          {contentReady && photoCreditGroups && !selectedPoi.gygTourId && !selectedPoi.discoverCarsLocation && (() => {
             const activeCredit = getCreditForPhoto(photoCreditGroups, activePhotoIndex);
             if (!activeCredit) return null;
             return (
@@ -1212,20 +1232,20 @@ export function PoiDetailSheet({
                       cursor: inCart ? 'default' : 'pointer',
                       fontFamily: "'JetBrains Mono', monospace",
                       display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-                      transition: 'background 0.2s',
-                      boxShadow: inCart ? 'none' : '0 4px 14px rgba(31,157,97,0.28)',
+                      boxShadow: inCart ? 'none' : '0 4px 14px rgba(31,157,97,0.40)',
                       letterSpacing: '0.04em', textTransform: 'uppercase',
                     }}
                   >
-                    {inCart
-                      ? t.sheet.inRoute
-                      : <><span style={{ fontSize: '18px', lineHeight: 1, fontWeight: 800 }}>+</span>{t.sheet.addRoute}<img src="/icons/icons8-car-53.png" alt="" style={{ width: '30px', height: '30px', objectFit: 'contain' }} /></>
-                    }
+                    {inCart ? t.sheet.inRoute : `+ ${t.sheet.addRoute}`}
+                    <img
+                      src="/icons/icons8-car-53.png"
+                      alt=""
+                      style={{ width: '22px', height: '22px', objectFit: 'contain' }}
+                    />
                   </button>
                 </>
-              )
-            }
-          </div>}
+              )}
+            </div>}
           </div>
         )}
         </div>

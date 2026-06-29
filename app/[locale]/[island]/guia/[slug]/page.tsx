@@ -9,7 +9,7 @@ import { getIslandDisplayName } from '@/lib/i18n';
 import { BreadcrumbJsonLd } from '@/components/json-ld';
 import { Breadcrumb } from '@/components/breadcrumb';
 import { LanguageSwitcher } from '@/components/language-switcher';
-import { FILTER_TO_CATEGORY_URL } from '@/lib/categories';
+import { FILTER_TO_CATEGORY_URL, POI_CATEGORY_TO_SLUG } from '@/lib/categories';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 const contentDir = path.join(process.cwd(), 'content');
@@ -21,7 +21,8 @@ const L: Record<Locale, {
   carsCtaBtn: string; toursCtaBtn: string;
   poiLink: string; updatedAt: string;
   tableOfContents: string; backTo: string;
-  mapSubtitle: string;
+  mapSubtitle: string; viewOnMap: string;
+  affiliateLabel: string;
 }> = {
   es: {
     guia: 'Guía',
@@ -34,6 +35,8 @@ const L: Record<Locale, {
     tableOfContents: 'En esta guía',
     backTo: 'Mapa',
     mapSubtitle: 'Abre el mapa interactivo',
+    viewOnMap: 'VER EN EL MAPA',
+    affiliateLabel: 'Enlace de afiliado · podemos recibir una comisión sin coste para ti',
   },
   en: {
     guia: 'Guide',
@@ -46,6 +49,8 @@ const L: Record<Locale, {
     tableOfContents: 'In this guide',
     backTo: 'Map',
     mapSubtitle: 'Open the interactive map',
+    viewOnMap: 'VIEW ON MAP',
+    affiliateLabel: 'Affiliate link · we may earn a commission at no extra cost to you',
   },
   de: {
     guia: 'Ratgeber',
@@ -58,6 +63,8 @@ const L: Record<Locale, {
     tableOfContents: 'In diesem Ratgeber',
     backTo: 'Karte',
     mapSubtitle: 'Interaktive Karte öffnen',
+    viewOnMap: 'AUF KARTE ANSEHEN',
+    affiliateLabel: 'Affiliate-Link · wir erhalten ggf. eine Provision ohne Mehrkosten für Sie',
   },
 };
 
@@ -114,11 +121,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: guide.metaTitle, description: guide.metaDescription, url,
       siteName: 'CanaryRoutes', type: 'article', locale,
-      images: [{ url: SITE_URL + '/og-default.svg', width: 1200, height: 630, alt: guide.title }],
+      images: [{ url: SITE_URL + '/og-default.png', width: 1200, height: 630, alt: guide.title }],
     },
     twitter: {
       card: 'summary_large_image', title: guide.metaTitle,
-      description: guide.metaDescription, images: [SITE_URL + '/og-default.svg'],
+      description: guide.metaDescription, images: [SITE_URL + '/og-default.png'],
     },
   };
 }
@@ -132,7 +139,7 @@ function ArticleJsonLd({ guide, url, locale }: { guide: NonNullable<ReturnType<t
     url, dateModified: guide.updatedAt, datePublished: guide.updatedAt,
     author: { '@type': 'Organization', name: 'CanaryRoutes', url: SITE_URL },
     publisher: { '@type': 'Organization', name: 'CanaryRoutes', url: SITE_URL, logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo/file.png` } },
-    image: `${SITE_URL}/og-default.svg`, inLanguage: locale,
+    image: `${SITE_URL}/og-default.png`, inLanguage: locale,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
@@ -162,10 +169,17 @@ function renderBold(text: string, baseStyle: React.CSSProperties = {}): React.Re
 
 // ── Map preview image per locale ────────────────────────────────────────────
 
-const MAP_IMAGE: Record<Locale, string> = {
-  es: '/images/guia/mapa-espanol.png',
-  en: '/images/guia/mapa-ingles.png',
-  de: '/images/guia/mapa-aleman.png',
+const MAP_IMAGE: Record<string, Record<Locale, string>> = {
+  tenerife: {
+    es: '/images/guia/mapa-espanol.png',
+    en: '/images/guia/mapa-ingles.png',
+    de: '/images/guia/mapa-aleman.png',
+  },
+  'gran-canaria': {
+    es: '/images/guia/mapa-gran-canaria-espanol.png',
+    en: '/images/guia/mapa-gran-canaria-ingles.png',
+    de: '/images/guia/mapa-gran-canaria-aleman.png',
+  },
 };
 
 // ── Category colors — same as island-map.tsx SVG bubbles ────────────────────
@@ -191,9 +205,10 @@ function shadeHex(hex: string, amount: number): string {
 
 // ── Map Card ─────────────────────────────────────────────────────────────────
 
-function MapCard({ href, label, subtitle, locale, color, colorDark }: {
-  href: string; label: string; subtitle: string; locale: Locale; color: string; colorDark: string;
+function MapCard({ href, label, subtitle, locale, color, colorDark, island }: {
+  href: string; label: string; subtitle: string; locale: Locale; color: string; colorDark: string; island: string;
 }) {
+  const mapSrc = (MAP_IMAGE[island] ?? MAP_IMAGE['tenerife'])[locale];
   return (
     <a
       href={href}
@@ -206,7 +221,7 @@ function MapCard({ href, label, subtitle, locale, color, colorDark }: {
     >
       <div style={{ width: '100%', background: '#0a1628', position: 'relative' }}>
         <Image
-          src={MAP_IMAGE[locale]}
+          src={mapSrc}
           alt="CanaryRoutes map"
           width={800}
           height={500}
@@ -442,12 +457,16 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
                   locale={locale}
                   color={color}
                   colorDark={colorDark}
+                  island={island}
                 />
               </div>
 
               {/* ── Beach sections ── */}
               {guide.sections.map((section, idx) => {
-                const poiHref = `/${locale}/${island}/${categorySlug}/${section.poiSlug}`;
+                const sectionCategorySlug = section.poiCategory
+                  ? (FILTER_TO_CATEGORY_URL[section.poiCategory] ?? POI_CATEGORY_TO_SLUG[section.poiCategory] ?? section.poiCategory)
+                  : categorySlug;
+                const poiHref = `/${locale}/${island}/${sectionCategorySlug}/${section.poiSlug}`;
                 const showCars = idx === 3 && guide.affiliate?.cars;
                 const showTours = idx === 6 && guide.affiliate?.tours;
                 return (
@@ -608,7 +627,7 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
                     {/* Affiliate — cars */}
                     {showCars && (
                       <a
-                        href={`/${locale}/${island}/transporte/alquiler-coche-tenerife`}
+                        href={`/${locale}/${island}/${guide.affiliate!.cars!.poiPath ?? `transporte/alquiler-coche-${island}`}`}
                         style={{
                           display: 'block', textDecoration: 'none', marginTop: '28px',
                           borderRadius: '16px', overflow: 'hidden',
@@ -619,14 +638,19 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
                         }}
                       >
                         <div style={{ padding: '18px 20px' }}>
-                          <div style={{ display: 'flex', alignItems: 'center', gap: '7px', marginBottom: '10px' }}>
-                            <span style={{ fontSize: '18px', lineHeight: 1 }}>{'🚗'}</span>
-                            <span style={{
-                              fontSize: '10px', fontWeight: 800, color: '#92400e',
-                              textTransform: 'uppercase', letterSpacing: '0.1em',
-                              fontFamily: "'JetBrains Mono', monospace",
-                            }}>
-                              {labels.carsCtaBtn}
+                          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '7px', marginBottom: '10px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '7px' }}>
+                              <span style={{ fontSize: '18px', lineHeight: 1 }}>{'🚗'}</span>
+                              <span style={{
+                                fontSize: '10px', fontWeight: 800, color: '#92400e',
+                                textTransform: 'uppercase', letterSpacing: '0.1em',
+                                fontFamily: "'JetBrains Mono', monospace",
+                              }}>
+                                {labels.carsCtaBtn}
+                              </span>
+                            </div>
+                            <span style={{ fontSize: '10px', color: '#94a3b8', fontFamily: "'Outfit', sans-serif", textAlign: 'right' }}>
+                              {labels.affiliateLabel}
                             </span>
                           </div>
                           <p style={{
@@ -648,7 +672,7 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
                             <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true">
                               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                             </svg>
-                            VER EN EL MAPA
+                            {labels.viewOnMap}
                           </div>
                         </div>
                       </a>
@@ -657,7 +681,7 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
                     {/* Affiliate — tours */}
                     {showTours && (
                       <a
-                        href={`/${locale}/${island}/actividades/avistamiento-cetaceos-tenerife`}
+                        href={`/${locale}/${island}/${guide.affiliate!.tours!.poiPath ?? `actividades/avistamiento-cetaceos-tenerife`}`}
                         style={{
                           display: 'block', textDecoration: 'none', marginTop: '28px',
                           borderRadius: '16px', overflow: 'hidden',
@@ -668,14 +692,19 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
                         }}
                       >
                         <div style={{ padding: '18px 20px' }}>
-                          <div style={{ display: 'flex', alignItems: 'center', gap: '7px', marginBottom: '10px' }}>
-                            <span style={{ fontSize: '18px', lineHeight: 1 }}>{'🐋'}</span>
-                            <span style={{
-                              fontSize: '10px', fontWeight: 800, color: color,
-                              textTransform: 'uppercase', letterSpacing: '0.1em',
-                              fontFamily: "'JetBrains Mono', monospace",
-                            }}>
-                              {labels.toursCtaBtn}
+                          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '7px', marginBottom: '10px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '7px' }}>
+                              <span style={{ fontSize: '18px', lineHeight: 1 }}>{'🐋'}</span>
+                              <span style={{
+                                fontSize: '10px', fontWeight: 800, color: color,
+                                textTransform: 'uppercase', letterSpacing: '0.1em',
+                                fontFamily: "'JetBrains Mono', monospace",
+                              }}>
+                                {labels.toursCtaBtn}
+                              </span>
+                            </div>
+                            <span style={{ fontSize: '10px', color: '#94a3b8', fontFamily: "'Outfit', sans-serif", textAlign: 'right' }}>
+                              {labels.affiliateLabel}
                             </span>
                           </div>
                           <p style={{
@@ -697,7 +726,7 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
                             <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true">
                               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                             </svg>
-                            VER EN EL MAPA
+                            {labels.viewOnMap}
                           </div>
                         </div>
                       </a>
@@ -748,24 +777,18 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
                           fontFamily: "'Outfit', sans-serif", lineHeight: '1.4',
                         }}>
                           {item.question}
+                          {item.question}
                         </span>
-                        <div style={{
-                          flexShrink: 0, width: '28px', height: '28px', borderRadius: '8px',
-                          background: '#f1f5f9',
-                          display: 'flex', alignItems: 'center', justifyContent: 'center',
-                        }}>
-                          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#64748b" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
-                            <polyline points="6 9 12 15 18 9" />
-                          </svg>
-                        </div>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke={color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" style={{ flexShrink: 0 }}>
+                          <polyline points="6 9 12 15 18 9" />
+                        </svg>
                       </summary>
-                      <div style={{ padding: '0 20px 18px', borderTop: '1px solid #f1f5f9' }}>
-                        <p style={{
-                          margin: '16px 0 0', fontSize: '14px', color: '#475569',
-                          lineHeight: '1.8', fontFamily: "'Outfit', sans-serif",
-                        }}>
-                          {item.answer}
-                        </p>
+                      <div style={{
+                        padding: '0 20px 16px',
+                        fontSize: '14px', color: '#334155',
+                        lineHeight: '1.7', fontFamily: "'Outfit', sans-serif",
+                      }}>
+                        <p style={{ margin: 0 }}>{item.answer}</p>
                       </div>
                     </details>
                   ))}

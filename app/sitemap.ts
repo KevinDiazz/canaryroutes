@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { locales, islands } from '@/lib/types';
-import { getAllRouteSlugs, getPOIs } from '@/lib/content';
+import { getPOIs } from '@/lib/content';
 import { ALL_CATEGORY_SLUGS, CATEGORY_URL_TO_FILTER } from '@/lib/categories';
 import { getAllGuideSlugs } from '@/lib/guides';
 
@@ -12,7 +12,6 @@ const CAT_MAP: Record<string, string[]> = {
   beach: ['beach'], hiking: ['hiking'], culture: ['culture'],
   nature: ['nature'], activities: ['viewpoint', 'food', 'other'],
   transport: ['transport'],
-  top: ['top'],
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -58,14 +57,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // Canonical POI pages (category/poi)
+  // 'top' is excluded here: /top/{slug} pages are not generated in the build.
+  // Top POIs are accessible under their real category (e.g. /playas/{slug}).
+  const POI_DETAIL_CATEGORIES = ALL_CATEGORY_SLUGS.filter((c) => c !== 'top');
   for (const island of islands) {
     const pois = getPOIs('es', island);
-    for (const category of ALL_CATEGORY_SLUGS) {
+    for (const category of POI_DETAIL_CATEGORIES) {
       const filterId = CATEGORY_URL_TO_FILTER[category];
       const cats = CAT_MAP[filterId] ?? [];
-      const filtered = filterId === 'top'
-        ? pois.filter((p) => !!p.top)
-        : pois.filter((p) => cats.includes(p.category));
+      const filtered = pois.filter((p) => cats.includes(p.category));
       for (const poi of filtered) {
         for (const locale of locales) {
           entries.push({
@@ -76,22 +76,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
             alternates: { languages: Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l + '/' + island + '/' + category + '/' + poi.slug])) },
           });
         }
-      }
-    }
-  }
-
-  // Route pages
-  for (const island of islands) {
-    const slugs = getAllRouteSlugs(island);
-    for (const slug of slugs) {
-      for (const locale of locales) {
-        entries.push({
-          url: SITE_URL + '/' + locale + '/' + island + '/routes/' + slug,
-          lastModified: new Date(),
-          changeFrequency: 'monthly',
-          priority: 0.8,
-          alternates: { languages: Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l + '/' + island + '/routes/' + slug])) },
-        });
       }
     }
   }

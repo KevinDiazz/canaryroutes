@@ -1805,20 +1805,28 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             pointerEvents: 'none',
             filter: 'drop-shadow(0 -6px 18px rgba(0,0,0,0.30))',
           }}>
-            <div style={{
-              backgroundImage: 'url(/images/arena-negra.avif)',
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'center',
-              clipPath: 'url(#islandBarWave)',
-              padding: '0 24px',
-              display: 'flex',
-              alignItems: 'flex-end',
-              justifyContent: 'center',
-              minHeight: '110px',
-              height: '110px',
-              paddingBottom: '18px',
-            }}>
+            <div
+              onTouchStart={(e) => e.stopPropagation()}
+              onTouchMove={(e) => e.stopPropagation()}
+              onTouchEnd={(e) => e.stopPropagation()}
+              style={{
+                backgroundImage: 'url(/images/arena-negra.avif)',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                clipPath: 'url(#islandBarWave)',
+                padding: '0 24px',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'flex-end',
+                minHeight: '110px',
+                height: '110px',
+                paddingBottom: '10px',
+                gap: '4px',
+                pointerEvents: 'auto',
+                touchAction: 'none',
+              }}>
               <span style={{
                 fontFamily: "'Outfit', sans-serif",
                 fontSize: '26px',
@@ -1830,6 +1838,28 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
               }}>
                 {islandName}
               </span>
+              <div style={{ display: 'flex', gap: '10px', pointerEvents: 'auto' }}>
+                {[
+                  { label: locale === 'de' ? 'Impressum' : locale === 'en' ? 'Legal' : 'Aviso Legal', href: `/${locale}/aviso-legal` },
+                  { label: locale === 'de' ? 'Datenschutz' : locale === 'en' ? 'Privacy' : 'Privacidad', href: `/${locale}/privacidad` },
+                  { label: 'Cookies', href: `/${locale}/cookies` },
+                ].map(({ label, href }) => (
+                  <a
+                    key={href}
+                    href={href}
+                    style={{
+                      fontSize: '9px',
+                      color: 'rgba(255,255,255,0.55)',
+                      textDecoration: 'none',
+                      fontFamily: "'Outfit', sans-serif",
+                      fontWeight: '500',
+                      whiteSpace: 'nowrap',
+                    }}
+                  >
+                    {label}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         </>
