@@ -5,6 +5,7 @@ import { IslandSelector } from '@/components/island-selector';
 import type { Metadata } from 'next';
 import { OrganizationJsonLd } from '@/components/json-ld';
 import { HomeFooter } from '@/components/home-footer';
+import { HubCarousel } from '@/components/hub-carousel';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
@@ -262,6 +263,9 @@ export default async function HomePage({
 
         {/* ── Island selector ──────────────────────────────────────────── */}
         <IslandSelector locale={locale} />
+
+        {/* ── Hub carousel ──────────────────────────────────────────────────── */}
+        <HubCarousel locale={locale} island="tenerife" />
 
         {/* ── Footer ─────────────────────────────────────────────────────────── */}
         <HomeFooter locale={locale} />

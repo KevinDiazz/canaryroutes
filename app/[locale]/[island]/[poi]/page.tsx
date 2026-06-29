@@ -85,6 +85,20 @@ const CATEGORY_SEO: Record<string, Record<string, Record<string, SeoCopy>>> = {
       tenerife: { h1: 'Aktivitaeten auf Teneriffa', description: 'Lokale Gastronomie, Aussichtspunkte und einzigartige Erlebnisse auf Teneriffa. Plane deine Reise mit CanaryRoutes.' },
     },
   },
+  transporte: {
+    es: {
+      'gran-canaria': { h1: 'Cómo moverse por Gran Canaria', description: 'Guaguas, ferries, alquiler de coche y tranvía en Gran Canaria. Todo lo que necesitas para moverte por la isla con CanaryRoutes.' },
+      tenerife: { h1: 'Cómo moverse por Tenerife', description: 'Tranvía, guaguas TITSA, ferries y alquiler de coche en Tenerife. Descubre la mejor forma de explorar la isla con CanaryRoutes.' },
+    },
+    en: {
+      'gran-canaria': { h1: 'Getting around Gran Canaria', description: 'Buses, ferries, car rental and tram in Gran Canaria. Everything you need to get around the island with CanaryRoutes.' },
+      tenerife: { h1: 'Getting around Tenerife', description: 'Tram, TITSA buses, ferries and car rental in Tenerife. Find the best way to explore the island with CanaryRoutes.' },
+    },
+    de: {
+      'gran-canaria': { h1: 'Fortbewegung auf Gran Canaria', description: 'Busse, Faehren, Mietwagen und Strassenbahn auf Gran Canaria. Alles, was du brauchst, um die Insel zu erkunden — mit CanaryRoutes.' },
+      tenerife: { h1: 'Fortbewegung auf Teneriffa', description: 'Strassenbahn, TITSA-Busse, Faehren und Mietwagen auf Teneriffa. Entdecke die beste Art, die Insel zu erkunden — mit CanaryRoutes.' },
+    },
+  },
   top: {
     es: {
       'gran-canaria': { h1: 'Lo mejor de Gran Canaria', description: 'Los lugares imprescindibles de Gran Canaria seleccionados por CanaryRoutes. No te pierdas ninguno.' },
@@ -210,6 +224,7 @@ export default async function SlugPage({
     const catMap: Record<string, string[]> = {
       beach: ['beach'], hiking: ['hiking'], culture: ['culture'],
       nature: ['nature'], activities: ['viewpoint', 'food', 'other'],
+      transport: ['transport'],
     };
     const categoryPois = filterId === 'top'
       ? allIslandPois.filter((p) => !!p.top)

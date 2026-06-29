@@ -117,6 +117,7 @@ function categoryToTouristType(category: POI['category']): string {
     nature:    'Nature lover',
     viewpoint: 'Sightseer',
     food:      'Foodie',
+    transport: 'Traveler',
     other:     'Tourist',
   };
   return map[category] ?? 'Tourist';

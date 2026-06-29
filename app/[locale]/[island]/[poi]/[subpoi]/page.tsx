@@ -63,6 +63,7 @@ export async function generateStaticParams() {
               culture: (c) => c === 'culture',
               nature: (c) => c === 'nature',
               activities: (c) => ['viewpoint', 'food', 'other'].includes(c),
+              transport: (c) => c === 'transport',
             };
             return chip[filterId]?.(poi.category) ?? false;
           })
@@ -93,6 +94,7 @@ export default async function CategoryPoiPage({
   const catMap: Record<string, string[]> = {
     beach: ['beach'], hiking: ['hiking'], culture: ['culture'],
     nature: ['nature'], activities: ['viewpoint', 'food', 'other'],
+    transport: ['transport'],
   };
   const pois = filterId === 'top'
     ? allIslandPois.filter((p) => !!p.top)

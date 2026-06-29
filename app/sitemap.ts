@@ -1,7 +1,8 @@
 import type { MetadataRoute } from 'next';
 import { locales, islands } from '@/lib/types';
-import { getAllPOISlugs, getAllRouteSlugs, getPOIs } from '@/lib/content';
+import { getAllRouteSlugs, getPOIs } from '@/lib/content';
 import { ALL_CATEGORY_SLUGS, CATEGORY_URL_TO_FILTER } from '@/lib/categories';
+import { getAllGuideSlugs } from '@/lib/guides';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
@@ -10,6 +11,7 @@ export const dynamic = 'force-static';
 const CAT_MAP: Record<string, string[]> = {
   beach: ['beach'], hiking: ['hiking'], culture: ['culture'],
   nature: ['nature'], activities: ['viewpoint', 'food', 'other'],
+  transport: ['transport'],
   top: ['top'],
 };
 
@@ -55,23 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // POI pages (direct)
-  for (const island of islands) {
-    const slugs = getAllPOISlugs(island);
-    for (const slug of slugs) {
-      for (const locale of locales) {
-        entries.push({
-          url: SITE_URL + '/' + locale + '/' + island + '/' + slug,
-          lastModified: new Date(),
-          changeFrequency: 'monthly',
-          priority: 0.7,
-          alternates: { languages: Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l + '/' + island + '/' + slug])) },
-        });
-      }
-    }
-  }
-
-  // Subpoi pages (category/poi)
+  // Canonical POI pages (category/poi)
   for (const island of islands) {
     const pois = getPOIs('es', island);
     for (const category of ALL_CATEGORY_SLUGS) {
@@ -105,6 +91,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
           changeFrequency: 'monthly',
           priority: 0.8,
           alternates: { languages: Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l + '/' + island + '/routes/' + slug])) },
+        });
+      }
+    }
+  }
+
+  // Guide pages (slugs are locale-specific — e.g. best-beaches vs mejores-playas)
+  for (const island of islands) {
+    for (const locale of locales) {
+      const slugs = getAllGuideSlugs(island, locale);
+      for (const slug of slugs) {
+        entries.push({
+          url: SITE_URL + '/' + locale + '/' + island + '/guia/' + slug,
+          lastModified: new Date(),
+          changeFrequency: 'monthly',
+          priority: 0.8,
         });
       }
     }

@@ -9,7 +9,17 @@ const localeData: Record<Locale, { icon: string; label: string }> = {
   de: { icon: '/icons/icons8-germany-48.png', label: 'Deutsch' },
 };
 
-export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
+interface LanguageSwitcherProps {
+  currentLocale: Locale;
+  /**
+   * Provide explicit per-locale URLs when the slug changes across locales
+   * (e.g. guide pages). When provided, navigation uses a hard redirect to
+   * avoid Next.js RSC cache serving stale content.
+   */
+  alternateUrls?: Partial<Record<Locale, string>>;
+}
+
+export function LanguageSwitcher({ currentLocale, alternateUrls }: LanguageSwitcherProps) {
   const pathname = usePathname();
   const router = useRouter();
   const [open, setOpen] = useState(false);
@@ -36,6 +46,11 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
 
   const handleSelect = (newLocale: Locale) => {
     setOpen(false);
+    if (alternateUrls?.[newLocale]) {
+      // Hard navigation: avoids RSC cache serving the previous locale's content
+      window.location.href = alternateUrls[newLocale]!;
+      return;
+    }
     const segments = pathname.split('/');
     segments[1] = newLocale;
     router.push(segments.join('/'));
@@ -45,7 +60,6 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
 
   return (
     <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
-      {/* Botón circular con icono de bandera */}
       <button
         ref={btnRef}
         onClick={() => setOpen((v) => !v)}
@@ -77,7 +91,6 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
         />
       </button>
 
-      {/* Dropdown */}
       {open && (
         <div
           ref={dropRef}
