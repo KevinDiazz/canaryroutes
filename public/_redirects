@@ -1,0 +1,2 @@
+# Redirect raíz → español (301 permanente)
+/ /es/ 301

@@ -89,7 +89,7 @@ export function SectionSheet({ section, pois, onClose, onPoiSelect }: SectionShe
         <div style={{ flex: 1, minWidth: 0 }}>
           <h2 style={{
             margin: 0, fontSize: '20px', fontWeight: 700,
-            fontFamily: "'Cormorant Garamond', Georgia, serif",
+            fontFamily: "'Outfit', sans-serif",
             color: '#0f172a', lineHeight: 1.2,
           }}>
             {section.label}
@@ -163,7 +163,7 @@ export function SectionSheet({ section, pois, onClose, onPoiSelect }: SectionShe
                   color: 'white',
                   fontSize: '24px',
                   lineHeight: 1.1,
-                  fontFamily: "'Cormorant Garamond', Georgia, serif",
+                  fontFamily: "'Outfit', sans-serif",
                 }}>
                   {introPoi.name}
                 </h3>

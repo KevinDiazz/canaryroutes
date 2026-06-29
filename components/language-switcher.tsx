@@ -3,24 +3,29 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
 import { locales, type Locale } from '@/lib/types';
 
-const localeData: Record<Locale, { flag: string; label: string }> = {
-  es: { flag: '🇪🇸', label: 'Español' },
-  en: { flag: '🇬🇧', label: 'English' },
-  de: { flag: '🇩🇪', label: 'Deutsch' },
-  no: { flag: '🇳🇴', label: 'Norsk' },
-  da: { flag: '🇩🇰', label: 'Dansk' },
-  fi: { flag: '🇫🇮', label: 'Suomi' },
-  sv: { flag: '🇸🇪', label: 'Svenska' },
+const localeData: Record<Locale, { icon: string; label: string }> = {
+  es: { icon: '/icons/icons8-spain-48.png',   label: 'Español' },
+  en: { icon: '/icons/icons8-united-kingdom-48.png', label: 'English' },
+  de: { icon: '/icons/icons8-germany-48.png', label: 'Deutsch' },
 };
 
-export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
+interface LanguageSwitcherProps {
+  currentLocale: Locale;
+  /**
+   * Provide explicit per-locale URLs when the slug changes across locales
+   * (e.g. guide pages). When provided, navigation uses a hard redirect to
+   * avoid Next.js RSC cache serving stale content.
+   */
+  alternateUrls?: Partial<Record<Locale, string>>;
+}
+
+export function LanguageSwitcher({ currentLocale, alternateUrls }: LanguageSwitcherProps) {
   const pathname = usePathname();
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const btnRef = useRef<HTMLButtonElement>(null);
   const dropRef = useRef<HTMLDivElement>(null);
 
-  // Cierra al tocar fuera
   useEffect(() => {
     const handler = (e: MouseEvent | TouchEvent) => {
       const target = e.target as Node;
@@ -41,6 +46,11 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
 
   const handleSelect = (newLocale: Locale) => {
     setOpen(false);
+    if (alternateUrls?.[newLocale]) {
+      // Hard navigation: avoids RSC cache serving the previous locale's content
+      window.location.href = alternateUrls[newLocale]!;
+      return;
+    }
     const segments = pathname.split('/');
     segments[1] = newLocale;
     router.push(segments.join('/'));
@@ -49,21 +59,18 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
   const current = localeData[currentLocale] ?? localeData['en'];
 
   return (
-    <>
-      {/* Botón circular con bandera */}
+    <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
       <button
         ref={btnRef}
         onClick={() => setOpen((v) => !v)}
         title={current.label}
         style={{
-          padding:'10px',
-          width: '34px',
-          height: '34px',
+          width: '36px',
+          height: '36px',
           borderRadius: '50%',
-          border: '2px solid rgba(255,255,255,0.8)',
+          border: '2px solid #000000',
           background: 'white',
           cursor: 'pointer',
-          fontSize: '22px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -73,26 +80,31 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
           transition: 'box-shadow 0.2s',
           position: 'relative',
           zIndex: 9999,
+          padding: 0,
+          overflow: 'hidden',
         }}
       >
-        {current.flag}
+        <img
+          src={current.icon}
+          alt={current.label}
+          style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }}
+        />
       </button>
 
-      {/* Dropdown — position fixed para no quedar cortado por el SVG */}
       {open && (
         <div
           ref={dropRef}
           style={{
-            position: 'fixed',
-            top: '124px',   // debajo de la barra de filtros
-            right: '12px',
+            position: 'absolute',
+            top: 'calc(100% + 10px)',
+            right: 0,
             background: 'white',
             border: '1px solid #e5e7eb',
             borderRadius: '16px',
             boxShadow: '0 8px 40px rgba(0,0,0,0.18)',
             overflow: 'hidden',
             zIndex: 9999,
-            minWidth: '180px',
+            minWidth: '160px',
           }}
         >
           {locales.map((locale) => {
@@ -103,30 +115,34 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
                 onClick={() => handleSelect(locale)}
                 style={{
                   width: '100%',
-                  padding: '12px 18px',
+                  padding: '10px 16px',
                   border: 'none',
                   background: isActive ? '#f0fdf4' : 'white',
                   cursor: 'pointer',
                   display: 'flex',
                   alignItems: 'center',
                   gap: '12px',
-                  fontSize: '16px',
                   color: isActive ? '#1f9d61' : '#374151',
                   fontWeight: isActive ? '700' : '400',
-                  fontFamily: "'Cormorant Garamond', Georgia, serif",
+                  fontFamily: "'JetBrains Mono', monospace",
+                  fontSize: '13px',
                   textAlign: 'left',
                 }}
               >
-                <span style={{ fontSize: '22px' }}>{localeData[locale].flag}</span>
+                <img
+                  src={localeData[locale].icon}
+                  alt={localeData[locale].label}
+                  style={{ width: '28px', height: '28px', objectFit: 'cover', borderRadius: '50%' }}
+                />
                 <span>{localeData[locale].label}</span>
                 {isActive && (
-                  <span style={{ marginLeft: 'auto', color: '#1f9d61', fontSize: '18px' }}>✓</span>
+                  <span style={{ marginLeft: 'auto', color: '#1f9d61', fontSize: '16px' }}>✓</span>
                 )}
               </button>
             );
           })}
         </div>
       )}
-    </>
+    </div>
   );
 }

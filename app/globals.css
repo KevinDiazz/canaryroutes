@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Chelsea+Market&family=Gloria+Hallelujah&family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,7 +11,259 @@
 }
 
 body {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  background: #f9fafb;
+  font-family: 'Inter', sans-serif;
+  background: #fafbfc;
   color: #1f2937;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* ── Bubbles: mobile = horizontal top, desktop = vertical left ──────── */
+.bubbles-left-sidebar {
+  display: none;
+}
+.bubbles-top {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  overflow-y: visible;
+  /* overflow-x:auto fuerza overflow-y:auto por spec CSS,
+     lo compensamos con padding para que el scale(1.05) no quede recortado */
+  padding: 8px 12px 12px;
+  border-bottom: 1px solid #f1f5f9;
+  -webkit-overflow-scrolling: touch;
+}
+.sheet-main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 0;
+}
+
+@media (min-width: 1025px) {
+  .poi-sheet {
+    flex-direction: row !important;
+  }
+  .bubbles-left-sidebar {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 108px;
+    flex-shrink: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    padding: 12px 8px;
+    border-right: 1px solid #f1f5f9;
+    background: #fafafa;
+  }
+  .bubbles-top {
+    display: none !important;
+  }
+}
+
+/* ── Desktop: mapa centrado y acotado ──────────────────────────────── */
+@media (min-width: 768px) {
+  body {
+    background-color: #eef4f8;
+    background-image: none;
+  }
+
+  .desktop-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .app-shell {
+    width: min(900px, 100vw) !important;
+    max-width: min(900px, 100vw) !important;
+    height: 100svh !important;
+    position: relative !important;
+    transform: translateZ(0);
+    overflow: hidden;
+  }
+
+  /* Detail sheet: panel derecho de ancho fijo en desktop */
+  .poi-sheet {
+    left: auto !important;
+    width: min(900px, 100vw) !important;
+    right: 0 !important;
+    top: 0 !important;
+    border-left: 1px solid #e5e7eb;
+    box-shadow: -8px 0 32px rgba(0,0,0,0.12) !important;
+    animation: none !important;
+  }
+
+  /* Nav flotante en desktop */
+  .nav-floating {
+    top: 12px !important;
+    left: 12px !important;
+    right: 12px !important;
+    border-radius: 16px !important;
+    border-bottom: none !important;
+    box-shadow: 0 4px 8px -2px rgba(0,0,0,0.10) !important;
+  }
+
+  /* Sin ninguna sombra en el shell */
+  .app-shell {
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+  }
+}
+
+/* ── Home page: scrollable shell ────────────────────────────────────── */
+.app-shell-home {
+  height: auto !important;
+  min-height: 100vh !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+
+/* ── Home page: desktop overrides ───────────────────────────────────── */
+@media (min-width: 768px) {
+  .desktop-wrapper:has(.app-shell-home) {
+    align-items: flex-start;
+  }
+  .app-shell-home {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* ── Island selector responsive ─────────────────────────────────────── */
+.island-selector-wrapper {
+  padding: 14px 16px 52px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+.island-grid-active {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+}
+.island-card-active {
+  padding: 24px 16px 18px;
+  min-height: unset;
+  justify-content: flex-start;
+}
+.island-card-active svg {
+  width: 110px;
+  height: 110px;
+}
+.island-card-active .island-name {
+  font-size: 22px;
+}
+.island-grid-coming-soon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 440px;
+  margin: 0 auto;
+  width: 100%;
+}
+.island-header {
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  .island-selector-wrapper {
+    padding: 20px 32px 72px;
+    gap: 36px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .island-grid-active {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    max-width: 680px;
+  }
+  .island-card-active {
+    padding: 40px 24px 32px;
+    min-height: 260px;
+    justify-content: center;
+  }
+  .island-card-active svg {
+    width: 150px;
+    height: 150px;
+  }
+  .island-card-active .island-name {
+    font-size: 28px;
+  }
+  .island-grid-coming-soon {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    max-width: 860px;
+  }
+  .island-header {
+    font-size: 38px;
+  }
+}
+
+/* ── Hero bottom group (subtítulo + stats) ──────────────────────────── */
+.hero-bottom-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-bottom: clamp(48px, 8vh, 80px);
+}
+@media (min-width: 768px) {
+  .hero-bottom-group {
+    margin-top: clamp(8px, 2vh, 24px);
+    padding-bottom: 0;
+  }
+}
+.hero-sub {
+  margin: 0;
+}
+
+/* ── Rich text markdown ─────────────────────────────────────────────── */
+.rich-poi-text p { margin: 0 0 8px; }
+.rich-poi-text p:last-child { margin-bottom: 0; }
+.rich-poi-text strong { font-weight: 700; color: #1f2937; }
+.rich-poi-text em { font-style: italic; color: #4b5563; }
+.rich-poi-text a { color: #0ea5e9; text-decoration: underline; }
+.rich-poi-text h2 { font-size: 16px; font-weight: 700; color: #1f2937; margin: 14px 0 5px; font-family: 'Outfit', sans-serif; }
+.rich-poi-text h3 { font-size: 14px; font-weight: 700; color: #374151; margin: 12px 0 4px; font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 0.05em; }
+.rich-poi-text ul { padding-left: 18px; margin: 4px 0 8px; }
+.rich-poi-text ol { padding-left: 20px; margin: 4px 0 8px; }
+.rich-poi-text li { margin-bottom: 4px; line-height: 1.55; }
+.rich-poi-text blockquote { border-left: 3px solid #e5e7eb; padding-left: 12px; color: #6b7280; font-style: italic; margin: 8px 0; }
+.rich-poi-text hr { border: none; border-top: 1px solid #f1f5f9; margin: 12px 0; }
+
+/* ── Hover en botones de la card de detalle ─────────────────────────── */
+.poi-btn {
+  transition: filter 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease !important;
+}
+.poi-btn:hover:not(:disabled) {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+}
+.poi-btn:active:not(:disabled) {
+  filter: brightness(0.95);
+  transform: translateY(0);
+}
+.poi-btn-track:hover {
+  filter: brightness(1.08);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(252,184,0,0.4) !important;
+}
+.poi-btn-track:active {
+  filter: brightness(0.95);
+  transform: translateY(0);
 }

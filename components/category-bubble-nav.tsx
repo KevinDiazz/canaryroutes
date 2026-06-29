@@ -1,6 +1,14 @@
 'use client';
 import type { Section } from '@/lib/types';
 
+function shadeColor(hex: string, amount: number): string {
+  const num = parseInt(hex.replace('#', ''), 16);
+  const r = Math.min(255, Math.max(0, (num >> 16) + Math.round(255 * amount)));
+  const g = Math.min(255, Math.max(0, ((num >> 8) & 0xff) + Math.round(255 * amount)));
+  const b = Math.min(255, Math.max(0, (num & 0xff) + Math.round(255 * amount)));
+  return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+}
+
 interface CategoryBubbleNavProps {
   sections: Section[];
   activeSectionId: string | null;
@@ -56,24 +64,30 @@ export function CategoryBubbleNav({ sections, activeSectionId, onSectionSelect }
                 minWidth: 64,
               }}
             >
-              {/* Bubble */}
+              {/* Bubble — halo con gradiente de categoría cuando activo */}
               <div style={{
-                width: 60,
-                height: 60,
                 borderRadius: '50%',
-                border: `2.5px solid ${isActive ? section.color : '#e5e7eb'}`,
-                background: isActive ? section.color + '18' : '#f8fafc',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '22px',
+                padding: isActive ? '3px' : '2.5px',
+                background: isActive
+                  ? `linear-gradient(135deg, ${shadeColor(section.color, 0.45)}, ${section.color}, ${shadeColor(section.color, -0.35)})`
+                  : '#e5e7eb',
                 transform: isActive ? 'translateY(-3px) scale(1.08)' : 'scale(1)',
-                boxShadow: isActive
-                  ? `0 8px 20px -6px ${section.color}66, 0 0 0 4px ${section.color}18`
-                  : '0 1px 3px rgba(0,0,0,0.07)',
                 transition: 'all 0.25s cubic-bezier(0.34,1.56,0.64,1)',
+                boxShadow: isActive ? `0 4px 12px ${section.color}40` : '0 1px 3px rgba(0,0,0,0.07)',
+                flexShrink: 0,
               }}>
-                {section.emoji}
+                <div style={{
+                  width: 54,
+                  height: 54,
+                  borderRadius: '50%',
+                  background: isActive ? section.color + '18' : '#f8fafc',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: '22px',
+                }}>
+                  {section.emoji}
+                </div>
               </div>
 
               {/* Label */}

@@ -1,15 +1,13 @@
-import type { Metadata } from 'next';
 import { locales, defaultLocale, type Locale } from '@/lib/types';
-import { getHreflangLinks } from '@/lib/i18n';
+import { CartProvider } from '@/hooks/use-cart';
+import { CookieConsent } from '@/components/cookie-consent';
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export const metadata: Metadata = {
-  title: 'CanaryRoutes — Audioguías de las Islas Canarias',
-  description: 'Descubre Gran Canaria y Tenerife con audioguías premium. Contenido gratuito, sin suscripción.',
-};
+// hreflang is handled per-page via generateMetadata alternates.languages
+// No static metadata fallback — each page owns its own title/description
 
 export default async function LocaleLayout({
   children,
@@ -23,10 +21,17 @@ export default async function LocaleLayout({
 
   return (
     <>
-      {getHreflangLinks(`/${locale}`).map(({ locale: l, href }) => (
-        <link key={l} rel="alternate" hrefLang={l} href={href} />
-      ))}
-      {children}
+      {/* Set lang attribute on <html> dynamically for the active locale */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: "document.documentElement.lang = '" + locale + "';",
+        }}
+      />
+      <CartProvider locale={locale}>
+        {children}
+      </CartProvider>
+      {/* Cookie consent banner — also handles conditional GA4 loading */}
+      <CookieConsent locale={locale} />
     </>
   );
 }

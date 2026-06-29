@@ -6,6 +6,7 @@ export type { Locale };
 const BASE_URL = 'https://canaryroutes.com';
 
 type HreflangLocale = Locale | 'x-default';
+type DisplayNameLocale = Locale | 'no' | 'da' | 'fi' | 'sv';
 
 export function getHreflangLinks(path: string): { locale: HreflangLocale; href: string }[] {
   const links: { locale: HreflangLocale; href: string }[] = locales.map((locale) => ({
@@ -17,17 +18,17 @@ export function getHreflangLinks(path: string): { locale: HreflangLocale; href: 
 }
 
 export function getIslandDisplayName(island: Island, locale: Locale): string {
-  const names: Record<Island, Record<Locale, string>> = {
+  const names: Record<Island, Record<DisplayNameLocale, string>> = {
     'gran-canaria': {
       es: 'Gran Canaria', en: 'Gran Canaria', de: 'Gran Canaria',
       no: 'Gran Canaria', da: 'Gran Canaria', fi: 'Gran Canaria', sv: 'Gran Canaria',
     },
     tenerife: {
-      es: 'Tenerife', en: 'Tenerife', de: 'Teneriffa',
-      no: 'Tenerife', da: 'Tenerife', fi: 'Tenerife', sv: 'Teneriffa',
+      es: 'Tenerife', en: 'Tenerife', de: 'Tenerife',
+      no: 'Tenerife', da: 'Tenerife', fi: 'Tenerife', sv: 'Tenerife',
     },
   };
-  return names[island][locale];
+  return names[island]?.[locale] ?? island;
 }
 
 export function localePath(locale: Locale, ...segments: string[]): string {

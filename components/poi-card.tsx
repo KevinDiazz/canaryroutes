@@ -13,7 +13,7 @@ export function POICard({ poi, locale }: { poi: POI; locale: Locale }) {
         transition: 'box-shadow 0.2s',
       }}>
         <div style={{ fontSize: '32px', marginBottom: '8px' }}>{poi.emoji ?? '📍'}</div>
-        <h3 style={{ margin: '0 0 4px', fontSize: '16px', fontWeight: '600', color: '#1f2937', fontFamily: "'Cormorant Garamond', Georgia, serif" }}>
+        <h3 style={{ margin: '0 0 4px', fontSize: '16px', fontWeight: '600', color: '#1f2937', fontFamily: "'Outfit', sans-serif" }}>
           {poi.name}
         </h3>
         <p style={{ margin: '0 0 8px', fontSize: '13px', color: '#6b7280' }}>{poi.shortDescription}</p>

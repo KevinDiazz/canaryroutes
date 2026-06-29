@@ -4,7 +4,7 @@ import path from 'path';
 
 const locales = ['es', 'en', 'de', 'no', 'da', 'fi', 'sv'] as const;
 const islands = ['gran-canaria', 'tenerife'] as const;
-const MAX_POI_DESCRIPTION_LENGTH = 186;
+const MAX_POI_SHORT_DESCRIPTION_LENGTH = 186;
 
 const CoordinatesSchema = z.object({
   lat: z.number().min(-90).max(90),
@@ -14,10 +14,10 @@ const CoordinatesSchema = z.object({
 const POISchema = z.object({
   slug: z.string().min(1),
   name: z.string().min(1),
-  description: z.string().min(10).max(MAX_POI_DESCRIPTION_LENGTH),
-  shortDescription: z.string().min(5),
+  description: z.string().min(10),
+  shortDescription: z.string().min(5).max(MAX_POI_SHORT_DESCRIPTION_LENGTH),
   island: z.enum(islands),
-  category: z.enum(['nature', 'beach', 'culture', 'hiking', 'viewpoint', 'food', 'other']),
+  category: z.enum(['nature', 'beach', 'culture', 'hiking', 'viewpoint', 'food', 'other', 'transport']),
   coordinates: CoordinatesSchema.optional(),
   images: z.object({
     hero: z.string(),
@@ -28,10 +28,65 @@ const POISchema = z.object({
   hasPremiumAudio: z.boolean(),
   premiumRouteId: z.string().optional(),
   tags: z.array(z.string()),
-  visitDuration: z.string().optional(),
-  difficulty: z.enum(['easy', 'moderate', 'hard']).optional(),
+  visitDuration: z.string().nullish(),
+  difficulty: z.enum(['easy', 'moderate', 'hard']).nullish(),
   emoji: z.string().optional(),
+  gygTourId: z.string().optional(),
+  gygUrl: z.string().optional(),
 });
+
+const urlLike = z.string().url();
+
+const ImageLicenseCC0Schema = z.object({
+  type: z.literal('CC0'),
+  author: z.string().min(1).optional(),
+  authorUrl: urlLike.optional(),
+  sourceUrl: urlLike.optional(),
+  licenseUrl: urlLike.optional(),
+  modified: z.boolean().optional(),
+});
+
+const ImageLicenseCCBYSchema = z.object({
+  type: z.enum(['CC-BY-2.0', 'CC-BY-2.5', 'CC-BY-3.0', 'CC-BY-4.0']),
+  author: z.string().min(1),
+  authorUrl: urlLike.optional(),
+  sourceUrl: urlLike,
+  licenseUrl: urlLike,
+  modified: z.boolean().optional(),
+});
+
+const ImageLicenseCCBYSASchema = z.object({
+  type: z.enum(['CC-BY-SA-2.0', 'CC-BY-SA-2.5', 'CC-BY-SA-3.0', 'CC-BY-SA-4.0']),
+  author: z.string().min(1),
+  authorUrl: urlLike.optional(),
+  sourceUrl: urlLike,
+  licenseUrl: urlLike,
+  modified: z.boolean().optional(),
+});
+
+const ImageLicenseOwnSchema = z.object({
+  type: z.literal('OWN'),
+  author: z.string().min(1).optional(),
+});
+
+const ImageLicenseSchema = z.discriminatedUnion('type', [
+  ImageLicenseCC0Schema,
+  ImageLicenseCCBYSchema,
+  ImageLicenseCCBYSASchema,
+  ImageLicenseOwnSchema,
+]);
+
+const ImageCreditSchema = z.object({
+  alt: z.string().optional(),
+  width: z.number().int().positive().optional(),
+  height: z.number().int().positive().optional(),
+  title: z.string().optional(),
+  sourceName: z.string().optional(),
+  modifications: z.string().optional(),
+  license: ImageLicenseSchema,
+});
+
+const ImageCreditsRegistrySchema = z.record(z.string(), ImageCreditSchema);
 
 const RouteSchema = z.object({
   slug: z.string().min(1),
@@ -118,7 +173,57 @@ for (const locale of requiredLocales) {
   }
 }
 
+// Validate the centralized image-credits registry and cross-check that
+// every image referenced by a POI/route has a license entry.
+console.log('\n🔍 Validating image-credits registry...\n');
+let warnings = 0;
+const creditsPath = path.join(contentDir, 'image-credits.json');
+let imageCredits: Record<string, unknown> = {};
+
+if (!fs.existsSync(creditsPath)) {
+  console.error(`❌ Missing: ${creditsPath}`);
+  errors++;
+} else {
+  try {
+    imageCredits = JSON.parse(fs.readFileSync(creditsPath, 'utf-8'));
+    const result = ImageCreditsRegistrySchema.safeParse(imageCredits);
+    if (!result.success) {
+      console.error(`❌ ${creditsPath}:`, JSON.stringify(result.error.flatten(), null, 2));
+      errors++;
+    } else {
+      console.log(`✅ ${creditsPath} (${Object.keys(imageCredits).length} entries)`);
+    }
+  } catch (e) {
+    console.error(`❌ JSON parse error in ${creditsPath}:`, e);
+    errors++;
+  }
+}
+
+console.log('\n🔍 Cross-checking POI images against image-credits registry...\n');
+for (const locale of requiredLocales) {
+  for (const island of islands) {
+    const poisPath = path.join(contentDir, locale, island, 'pois.json');
+    if (!fs.existsSync(poisPath)) continue;
+
+    const poisData = JSON.parse(fs.readFileSync(poisPath, 'utf-8'));
+    for (const poi of poisData.pois as { slug: string; images?: { hero?: string; gallery?: string[] } }[]) {
+      const imagePaths = [poi.images?.hero, ...(poi.images?.gallery ?? [])].filter(
+        (src): src is string => Boolean(src)
+      );
+      for (const src of imagePaths) {
+        if (!(src in imageCredits)) {
+          console.warn(`⚠️  ${locale}/${island}/pois.json: POI "${poi.slug}" usa "${src}" sin entrada en image-credits.json`);
+          warnings++;
+        }
+      }
+    }
+  }
+}
+
 console.log(`\n${errors > 0 ? '❌' : '✅'} Checked ${checked} items across ${requiredLocales.length * islands.length * 2} files`);
+if (warnings > 0) {
+  console.log(`⚠️  ${warnings} imagen(es) sin licencia registrada en image-credits.json (no bloquea el build)`);
+}
 
 if (errors > 0) {
   console.error(`❌ ${errors} error(s) found. Fix before building.\n`);
