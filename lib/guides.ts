@@ -29,6 +29,19 @@ export interface GuideFAQ {
   answer: string;
 }
 
+/**
+ * Simple chronological calendar entry — used for guides like the romerías
+ * calendar where every date needs to be listed but not every date has a
+ * matching POI to link to. Rendered as a plain readable list, no internal
+ * links, so it never risks generating a broken or miscategorized URL.
+ */
+export interface GuideCalendarEntry {
+  /** ISO date, e.g. "2026-05-02" */
+  date: string;
+  name: string;
+  municipio: string;
+}
+
 export interface GuideAffiliate {
   cars?: {
     text: string;
@@ -62,6 +75,8 @@ export interface GuideHub {
   updatedAt: string;
   intro: string;
   sections: GuideSection[];
+  /** Optional full chronological listing, rendered below the map preview. */
+  calendar?: GuideCalendarEntry[];
   faq: GuideFAQ[];
   affiliate?: GuideAffiliate;
 }
