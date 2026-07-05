@@ -204,7 +204,7 @@ const CATEGORY_COLOR: Record<string, string> = {
 function groupCalendarByMonth(
   entries: NonNullable<ReturnType<typeof getGuide>>['calendar'],
   locale: Locale,
-): { monthLabel: string; items: NonNullable<ReturnType<typeof getGuide>>['calendar'] }[] {
+): { key: string; monthLabel: string; items: NonNullable<ReturnType<typeof getGuide>>['calendar'] }[] {
   if (!entries) return [];
   const groups: { key: string; monthLabel: string; items: typeof entries }[] = [];
   for (const entry of entries) {
