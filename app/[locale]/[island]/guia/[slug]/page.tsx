@@ -23,6 +23,7 @@ const L: Record<Locale, {
   tableOfContents: string; backTo: string;
   mapSubtitle: string; viewOnMap: string;
   affiliateLabel: string;
+  fullCalendar: string;
 }> = {
   es: {
     guia: 'Guía',
@@ -37,6 +38,7 @@ const L: Record<Locale, {
     mapSubtitle: 'Abre el mapa interactivo',
     viewOnMap: 'VER EN EL MAPA',
     affiliateLabel: 'Enlace de afiliado · podemos recibir una comisión sin coste para ti',
+    fullCalendar: 'Calendario completo',
   },
   en: {
     guia: 'Guide',
@@ -51,6 +53,7 @@ const L: Record<Locale, {
     mapSubtitle: 'Open the interactive map',
     viewOnMap: 'VIEW ON MAP',
     affiliateLabel: 'Affiliate link · we may earn a commission at no extra cost to you',
+    fullCalendar: 'Full calendar',
   },
   de: {
     guia: 'Ratgeber',
@@ -65,6 +68,7 @@ const L: Record<Locale, {
     mapSubtitle: 'Interaktive Karte öffnen',
     viewOnMap: 'AUF KARTE ANSEHEN',
     affiliateLabel: 'Affiliate-Link · wir erhalten ggf. eine Provision ohne Mehrkosten für Sie',
+    fullCalendar: 'Gesamtkalender',
   },
 };
 
@@ -195,6 +199,28 @@ const CATEGORY_COLOR: Record<string, string> = {
   other:      '#ff5533',
 };
 
+// ── Calendar grouping (romerías-style guides) ────────────────────────────────
+
+function groupCalendarByMonth(
+  entries: NonNullable<ReturnType<typeof getGuide>>['calendar'],
+  locale: Locale,
+): { monthLabel: string; items: NonNullable<ReturnType<typeof getGuide>>['calendar'] }[] {
+  if (!entries) return [];
+  const groups: { key: string; monthLabel: string; items: typeof entries }[] = [];
+  for (const entry of entries) {
+    const d = new Date(entry.date + 'T00:00:00');
+    const key = `${d.getFullYear()}-${d.getMonth()}`;
+    let group = groups.find((g) => g.key === key);
+    if (!group) {
+      const monthLabel = d.toLocaleDateString(locale, { month: 'long', year: 'numeric' });
+      group = { key, monthLabel, items: [] };
+      groups.push(group);
+    }
+    group.items.push(entry);
+  }
+  return groups;
+}
+
 function shadeHex(hex: string, amount: number): string {
   const n = parseInt(hex.replace('#', ''), 16);
   const r = Math.min(255, Math.max(0, (n >> 16) + Math.round(255 * amount)));
@@ -287,6 +313,8 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
   const formattedDate = new Date(guide.updatedAt).toLocaleDateString(locale, {
     year: 'numeric', month: 'long', day: 'numeric',
   });
+
+  const calendarGroups = groupCalendarByMonth(guide.calendar, locale);
 
   return (
     <>
@@ -460,6 +488,72 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
                   island={island}
                 />
               </div>
+
+              {/* ── Full chronological calendar (e.g. romerías guides) ── */}
+              {calendarGroups.length > 0 && (
+                <div style={{ marginBottom: '40px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
+                    <span style={{
+                      fontSize: '10px', fontWeight: '800', color: '#64748b',
+                      textTransform: 'uppercase', letterSpacing: '0.1em',
+                      fontFamily: "'JetBrains Mono', monospace",
+                    }}>
+                      {labels.fullCalendar}
+                    </span>
+                  </div>
+                  <div style={{
+                    background: 'white',
+                    border: '1px solid #e2e8f0',
+                    borderRadius: '18px',
+                    overflow: 'hidden',
+                    boxShadow: '0 2px 12px rgba(14,79,114,0.07)',
+                  }}>
+                    {calendarGroups.map((group, gIdx) => (
+                      <div key={group.key}>
+                        <div style={{
+                          background: '#f8fafc',
+                          padding: '8px 20px',
+                          fontSize: '11px', fontWeight: '800', color,
+                          textTransform: 'capitalize', letterSpacing: '0.04em',
+                          fontFamily: "'JetBrains Mono', monospace",
+                          borderTop: gIdx > 0 ? '1px solid #f1f5f9' : 'none',
+                        }}>
+                          {group.monthLabel}
+                        </div>
+                        {group.items!.map((entry, iIdx) => {
+                          const d = new Date(entry.date + 'T00:00:00');
+                          const shortDate = d.toLocaleDateString(locale, { day: 'numeric', month: 'short' });
+                          return (
+                            <div
+                              key={iIdx}
+                              style={{
+                                display: 'flex', alignItems: 'baseline', gap: '14px',
+                                padding: '10px 20px',
+                                borderTop: iIdx > 0 ? '1px solid #f8fafc' : 'none',
+                              }}
+                            >
+                              <span style={{
+                                flexShrink: 0, minWidth: '58px',
+                                fontSize: '12px', fontWeight: '700', color,
+                                fontFamily: "'JetBrains Mono', monospace", letterSpacing: '0.02em',
+                              }}>
+                                {shortDate}
+                              </span>
+                              <span style={{
+                                fontSize: '14px', color: '#334155',
+                                lineHeight: '1.5', fontFamily: "'Outfit', sans-serif",
+                              }}>
+                                {entry.name}
+                                <span style={{ color: '#94a3b8' }}> · {entry.municipio}</span>
+                              </span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* ── Beach sections ── */}
               {guide.sections.map((section, idx) => {
