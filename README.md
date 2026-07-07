@@ -47,9 +47,6 @@
 - [Funcionalidades](#-funcionalidades-implementadas)
 - [Retos técnicos resueltos](#-retos-técnicos-resueltos)
 - [Arquitectura](#-arquitectura-del-proyecto)
-- [Cómo ejecutar en local](#-cómo-ejecutar-en-local)
-- [Contacto](#-contacto)
-
 ---
 
 ## 🏝️ ¿Qué es CanaryRoutes?
