@@ -497,17 +497,42 @@ export function PoiDetailSheet({
   const [textExpanded, setTextExpanded] = useState(false);
   const [activePhotoIndex, setActivePhotoIndex] = useState(0);
 
-  // Precargar hero Y galería de todos los POIs del grupo en cuanto se abre el sheet.
-  // Así el switch de burbuja y el scroll de galería no esperan red.
+  // Precargar SOLO los thumbnails de las burbujas (no el hero/galería a
+  // resolución completa) y en segundo plano (requestIdleCallback), para que
+  // el cambio de burbuja se sienta instantáneo sin robarle ancho de banda a
+  // la foto grande que el usuario está viendo en ese momento. Antes se
+  // descargaban a la vez el hero Y toda la galería de cada POI del grupo —
+  // decenas de imágenes pesadas en paralelo — lo cual ralentizaba la carga
+  // de la foto visible y provocaba el "bugueo" al abrir la ficha.
   useEffect(() => {
-    pois.forEach(poi => {
-      const srcs = [poi.images?.hero, ...(poi.images?.gallery ?? [])].filter(Boolean) as string[];
-      srcs.forEach(src => {
+    const idle = (window as any).requestIdleCallback ?? ((cb: () => void) => setTimeout(cb, 200));
+    const cancelIdle = (window as any).cancelIdleCallback ?? clearTimeout;
+    const id = idle(() => {
+      pois.forEach(poi => {
+        const src = poi.images?.hero;
+        if (!src) return;
+        const img = new window.Image();
+        img.src = getBubbleThumb(src);
+      });
+    });
+    return () => cancelIdle(id);
+  }, [pois]);
+
+  // Precarga a resolución completa del siguiente/anterior slot de galería del
+  // POI activo, para que las flechas de PhotoGallery no esperen red — mucho
+  // más barato que precargar la galería completa de todos los POIs del grupo.
+  useEffect(() => {
+    const idle = (window as any).requestIdleCallback ?? ((cb: () => void) => setTimeout(cb, 200));
+    const cancelIdle = (window as any).cancelIdleCallback ?? clearTimeout;
+    const id = idle(() => {
+      const gallery = [selectedPoi.images?.hero, ...(selectedPoi.images?.gallery ?? [])].filter(Boolean) as string[];
+      gallery.slice(0, 2).forEach(src => {
         const img = new window.Image();
         img.src = src;
       });
     });
-  }, [pois]);
+    return () => cancelIdle(id);
+  }, [selectedPoi.slug]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Descripción plana (para el snippet de 2 líneas) — memoizada para no
   // recalcular parseMarkdown en cada render.
@@ -619,6 +644,8 @@ export function PoiDetailSheet({
                     <div style={{ width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '2px solid white', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', background: ringColor + '33' }}>
                       {poi.emoji ?? '📍'}
                       <img src={getBubbleThumb(poi.images.hero)} alt={poi.name}
+                        loading="lazy"
+                        decoding="async"
                         style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                         onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                       />
