@@ -1,6 +1,6 @@
 import { locales, islands, type Locale, type Island } from '@/lib/types';
 import { getRoute, getAllRouteSlugs, getPOI } from '@/lib/content';
-import { getIslandDisplayName } from '@/lib/i18n';
+import { getIslandDisplayName, withTrailingSlash } from '@/lib/i18n';
 import { LanguageSwitcher } from '@/components/language-switcher';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -22,13 +22,13 @@ export async function generateMetadata({
   const islandName = getIslandDisplayName(island, locale);
   const title = route.name + ' — ' + islandName + ' | CanaryRoutes';
   const description = route.description?.slice(0, 155) ?? ('Ruta ' + route.name + ' en ' + islandName + '. ' + route.duration + ', ' + route.distance + '.');
-  const url = SITE_URL + '/' + locale + '/' + island + '/routes/' + routeSlug;
+  const url = withTrailingSlash(SITE_URL + '/' + locale + '/' + island + '/routes/' + routeSlug);
   return {
     title,
     description,
     alternates: {
       canonical: url,
-      languages: Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l + '/' + island + '/routes/' + routeSlug])),
+      languages: Object.fromEntries(locales.map((l) => [l, withTrailingSlash(SITE_URL + '/' + l + '/' + island + '/routes/' + routeSlug)])),
     },
     openGraph: {
       title,

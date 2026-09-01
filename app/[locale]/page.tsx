@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 import { OrganizationJsonLd } from '@/components/json-ld';
 import { HomeFooter } from '@/components/home-footer';
 import { HubCarousel } from '@/components/hub-carousel';
+import { withTrailingSlash } from '@/lib/i18n';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
@@ -58,15 +59,15 @@ export async function generateMetadata({
   const { locale: rawLocale } = await params;
   const locale = rawLocale as Locale;
   const meta = HOME_META[locale] ?? HOME_META.es;
-  const url = SITE_URL + '/' + locale;
+  const url = withTrailingSlash(SITE_URL + '/' + locale);
   return {
     title: meta.title,
     description: meta.description,
     alternates: {
       canonical: url,
       languages: {
-        ...Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l])),
-        'x-default': SITE_URL + '/es',
+        ...Object.fromEntries(locales.map((l) => [l, withTrailingSlash(SITE_URL + '/' + l)])),
+        'x-default': withTrailingSlash(SITE_URL + '/es'),
       },
     },
     openGraph: {

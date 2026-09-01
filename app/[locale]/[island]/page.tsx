@@ -3,7 +3,7 @@ import { locales, islands, type Locale, type Island } from '@/lib/types';
 import { getPOIs, getSections, getMunicipios } from '@/lib/content';
 import { getPhotoCredits, type PhotoCreditGroup } from '@/lib/image-credits';
 import { IslandMap } from '@/components/island-map';
-import { getIslandDisplayName } from '@/lib/i18n';
+import { getIslandDisplayName, withTrailingSlash } from '@/lib/i18n';
 import type { Metadata } from 'next';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
@@ -33,7 +33,7 @@ export async function generateMetadata({
   const islandName = getIslandDisplayName(island, locale);
   const desc = islandDescriptions[island]?.[locale] ?? islandDescriptions[island]?.['en'] ?? '';
   const title = `${islandName} — Mapa de viaje | CanaryRoutes`;
-  const url = `${SITE_URL}/${locale}/${island}`;
+  const url = withTrailingSlash(`${SITE_URL}/${locale}/${island}`);
 
   return {
     title,
@@ -41,8 +41,8 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: {
-        ...Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/${island}`])),
-        'x-default': `${SITE_URL}/es/${island}`,
+        ...Object.fromEntries(locales.map((l) => [l, withTrailingSlash(`${SITE_URL}/${l}/${island}`)])),
+        'x-default': withTrailingSlash(`${SITE_URL}/es/${island}`),
       },
     },
     openGraph: {

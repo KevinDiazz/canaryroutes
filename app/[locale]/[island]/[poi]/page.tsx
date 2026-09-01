@@ -1,6 +1,6 @@
 import { locales, islands, type Locale, type Island } from '@/lib/types';
 import { getPOI, getAllPOISlugs, getPOIs, getSections, getMunicipios } from '@/lib/content';
-import { getIslandDisplayName } from '@/lib/i18n';
+import { getIslandDisplayName, withTrailingSlash } from '@/lib/i18n';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { PoiDetailPageClient } from './client';
@@ -130,15 +130,15 @@ export async function generateMetadata({
     const label = CATEGORY_LABELS[slug] ?? slug;
     const title = seoCopy ? `${seoCopy.h1} | CanaryRoutes` : `${label} en ${islandName} | CanaryRoutes`;
     const description = seoCopy?.description ?? `Descubre los mejores lugares de ${label.toLowerCase()} en ${islandName}. Planifica tu ruta con CanaryRoutes.`;
-    const url = `${SITE_URL}/${locale}/${island}/${slug}`;
+    const url = withTrailingSlash(`${SITE_URL}/${locale}/${island}/${slug}`);
     return {
       title,
       description,
       alternates: {
         canonical: url,
         languages: {
-          ...Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/${island}/${slug}`])),
-          'x-default': `${SITE_URL}/es/${island}/${slug}`,
+          ...Object.fromEntries(locales.map((l) => [l, withTrailingSlash(`${SITE_URL}/${l}/${island}/${slug}`)])),
+          'x-default': withTrailingSlash(`${SITE_URL}/es/${island}/${slug}`),
         },
       },
       openGraph: {
@@ -155,7 +155,7 @@ export async function generateMetadata({
   const description = poi.shortDescription || poi.description.slice(0, 155);
   // Canonical points to the canonical category URL to avoid duplicate content
   const poiCatSlug = POI_CATEGORY_TO_SLUG[poi.category] ?? 'actividades';
-  const canonicalUrl = `${SITE_URL}/${locale}/${island}/${poiCatSlug}/${poi.slug}`;
+  const canonicalUrl = withTrailingSlash(`${SITE_URL}/${locale}/${island}/${poiCatSlug}/${poi.slug}`);
   const heroImage = poi.images?.hero ? `${SITE_URL}${poi.images.hero}` : `${SITE_URL}/og-default.png`;
   return {
     title,
@@ -163,8 +163,8 @@ export async function generateMetadata({
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        ...Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/${island}/${poiCatSlug}/${poi.slug}`])),
-        'x-default': `${SITE_URL}/es/${island}/${poiCatSlug}/${poi.slug}`,
+        ...Object.fromEntries(locales.map((l) => [l, withTrailingSlash(`${SITE_URL}/${l}/${island}/${poiCatSlug}/${poi.slug}`)])),
+        'x-default': withTrailingSlash(`${SITE_URL}/es/${island}/${poiCatSlug}/${poi.slug}`),
       },
     },
     openGraph: {
@@ -261,7 +261,7 @@ export default async function SlugPage({
           <ul>
             {categoryPois.map((p) => (
               <li key={p.slug}>
-                <a href={`/${locale}/${island}/${slug}/${p.slug}`}>
+                <a href={withTrailingSlash(`/${locale}/${island}/${slug}/${p.slug}`)}>
                   {p.name}{p.shortDescription ? ` — ${p.shortDescription}` : ''}
                 </a>
               </li>
@@ -316,16 +316,16 @@ export default async function SlugPage({
     <div className="desktop-wrapper">
       <TouristAttractionJsonLd poi={poi} island={island} locale={locale} categorySlug={poiCategorySlug} />
       <BreadcrumbJsonLd items={[
-        { name: 'CanaryRoutes', href: '/' + locale },
-        { name: islandLabel2, href: '/' + locale + '/' + island },
-        { name: categoryLabel2, href: '/' + locale + '/' + island + '/' + poiCategorySlug },
-        { name: poi.name, href: '/' + locale + '/' + island + '/' + poiCategorySlug + '/' + poi.slug },
+        { name: 'CanaryRoutes', href: withTrailingSlash('/' + locale) },
+        { name: islandLabel2, href: withTrailingSlash('/' + locale + '/' + island) },
+        { name: categoryLabel2, href: withTrailingSlash('/' + locale + '/' + island + '/' + poiCategorySlug) },
+        { name: poi.name, href: withTrailingSlash('/' + locale + '/' + island + '/' + poiCategorySlug + '/' + poi.slug) },
       ]} />
       <Breadcrumb srOnly items={[
-        { name: 'CanaryRoutes', href: '/' + locale },
-        { name: islandLabel2, href: '/' + locale + '/' + island },
-        { name: categoryLabel2, href: '/' + locale + '/' + island + '/' + poiCategorySlug },
-        { name: poi.name, href: '/' + locale + '/' + island + '/' + poiCategorySlug + '/' + poi.slug },
+        { name: 'CanaryRoutes', href: withTrailingSlash('/' + locale) },
+        { name: islandLabel2, href: withTrailingSlash('/' + locale + '/' + island) },
+        { name: categoryLabel2, href: withTrailingSlash('/' + locale + '/' + island + '/' + poiCategorySlug) },
+        { name: poi.name, href: withTrailingSlash('/' + locale + '/' + island + '/' + poiCategorySlug + '/' + poi.slug) },
       ]} />
       <div className="app-shell" style={{ height: '100svh' }}>
         <PoiDetailPageClient

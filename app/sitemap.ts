@@ -14,17 +14,22 @@ const CAT_MAP: Record<string, string[]> = {
   transport: ['transport'],
 };
 
+// El sitio usa trailingSlash: true (next.config.ts) y redirige toda URL sin
+// barra final a su versión canónica con barra final. Todas las URLs del
+// sitemap deben incluir esa barra para no generar redirecciones al rastrear.
+const withSlash = (url: string) => (url.endsWith('/') ? url : url + '/');
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
   // Home pages per locale
   for (const locale of locales) {
     entries.push({
-      url: SITE_URL + '/' + locale,
+      url: withSlash(SITE_URL + '/' + locale),
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1.0,
-      alternates: { languages: Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l])) },
+      alternates: { languages: Object.fromEntries(locales.map((l) => [l, withSlash(SITE_URL + '/' + l)])) },
     });
   }
 
@@ -32,11 +37,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const locale of locales) {
     for (const island of islands) {
       entries.push({
-        url: SITE_URL + '/' + locale + '/' + island,
+        url: withSlash(SITE_URL + '/' + locale + '/' + island),
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.9,
-        alternates: { languages: Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l + '/' + island])) },
+        alternates: { languages: Object.fromEntries(locales.map((l) => [l, withSlash(SITE_URL + '/' + l + '/' + island)])) },
       });
     }
   }
@@ -46,11 +51,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const island of islands) {
       for (const category of ALL_CATEGORY_SLUGS) {
         entries.push({
-          url: SITE_URL + '/' + locale + '/' + island + '/' + category,
+          url: withSlash(SITE_URL + '/' + locale + '/' + island + '/' + category),
           lastModified: new Date(),
           changeFrequency: 'weekly',
           priority: 0.85,
-          alternates: { languages: Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l + '/' + island + '/' + category])) },
+          alternates: { languages: Object.fromEntries(locales.map((l) => [l, withSlash(SITE_URL + '/' + l + '/' + island + '/' + category)])) },
         });
       }
     }
@@ -69,11 +74,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       for (const poi of filtered) {
         for (const locale of locales) {
           entries.push({
-            url: SITE_URL + '/' + locale + '/' + island + '/' + category + '/' + poi.slug,
+            url: withSlash(SITE_URL + '/' + locale + '/' + island + '/' + category + '/' + poi.slug),
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.75,
-            alternates: { languages: Object.fromEntries(locales.map((l) => [l, SITE_URL + '/' + l + '/' + island + '/' + category + '/' + poi.slug])) },
+            alternates: { languages: Object.fromEntries(locales.map((l) => [l, withSlash(SITE_URL + '/' + l + '/' + island + '/' + category + '/' + poi.slug)])) },
           });
         }
       }
@@ -86,7 +91,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const slugs = getAllGuideSlugs(island, locale);
       for (const slug of slugs) {
         entries.push({
-          url: SITE_URL + '/' + locale + '/' + island + '/guia/' + slug,
+          url: withSlash(SITE_URL + '/' + locale + '/' + island + '/guia/' + slug),
           lastModified: new Date(),
           changeFrequency: 'monthly',
           priority: 0.8,
