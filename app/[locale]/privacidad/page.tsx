@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { locales, type Locale } from '@/lib/types';
 import { LegalPageLayout, LegalSection } from '@/components/legal-page-layout';
+import { withTrailingSlash } from '@/lib/i18n';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
@@ -18,13 +19,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale: rawLocale } = await params;
   const locale = rawLocale as Locale;
   const c = CONTENT[locale] ?? CONTENT.es;
-  const url = `${SITE_URL}/${locale}/privacidad`;
+  const url = withTrailingSlash(`${SITE_URL}/${locale}/privacidad`);
   return {
     title: c.meta,
     description: c.metaDesc,
     alternates: {
       canonical: url,
-      languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/privacidad`])),
+      languages: Object.fromEntries(locales.map((l) => [l, withTrailingSlash(`${SITE_URL}/${l}/privacidad`)])),
     },
     robots: { index: false },
   };

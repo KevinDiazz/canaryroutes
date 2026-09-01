@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { locales, islands, type Locale, type Island } from '@/lib/types';
 import { getGuide } from '@/lib/guides';
-import { getIslandDisplayName } from '@/lib/i18n';
+import { getIslandDisplayName, withTrailingSlash } from '@/lib/i18n';
 import { BreadcrumbJsonLd } from '@/components/json-ld';
 import { Breadcrumb } from '@/components/breadcrumb';
 import { LanguageSwitcher } from '@/components/language-switcher';
@@ -97,7 +97,7 @@ function getAlternateUrls(guide: NonNullable<ReturnType<typeof getGuide>>, islan
     for (const file of fs.readdirSync(dir).filter((f) => f.endsWith('.json'))) {
       try {
         const g = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf-8'));
-        if (g.category === guide.category) result[l] = `/${l}/${island}/guia/${g.slug}`;
+        if (g.category === guide.category) result[l] = withTrailingSlash(`/${l}/${island}/guia/${g.slug}`);
       } catch { /* skip */ }
     }
   }
@@ -112,9 +112,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const island = rawIsland as Island;
   const guide = getGuide(locale, island, slug);
   if (!guide) return {};
-  const url = `${SITE_URL}/${locale}/${island}/guia/${slug}`;
+  const url = withTrailingSlash(`${SITE_URL}/${locale}/${island}/guia/${slug}`);
   const alternates = getAlternateUrls(guide, island);
-  const absAlternates = Object.fromEntries(Object.entries(alternates).map(([l, p]) => [l, SITE_URL + p]));
+  const absAlternates = Object.fromEntries(Object.entries(alternates).map(([l, p]) => [l, withTrailingSlash(SITE_URL + p)]));
   return {
     title: guide.metaTitle,
     description: guide.metaDescription,
@@ -301,13 +301,13 @@ export default async function GuidePage({ params }: { params: Promise<{ locale: 
   const categorySlug = FILTER_TO_CATEGORY_URL[guide.category] ?? guide.category;
   const color = CATEGORY_COLOR[guide.category] ?? '#2090c0';
   const colorDark = shadeHex(color, -0.25);
-  const pageUrl = `${SITE_URL}/${locale}/${island}/guia/${slug}`;
+  const pageUrl = withTrailingSlash(`${SITE_URL}/${locale}/${island}/guia/${slug}`);
   const alternateUrls = getAlternateUrls(guide, island);
 
   const breadcrumbItems = [
-    { name: 'CanaryRoutes', href: `/${locale}` },
-    { name: islandName, href: `/${locale}/${island}` },
-    { name: guide.title, href: `/${locale}/${island}/guia/${slug}` },
+    { name: 'CanaryRoutes', href: withTrailingSlash(`/${locale}`) },
+    { name: islandName, href: withTrailingSlash(`/${locale}/${island}`) },
+    { name: guide.title, href: withTrailingSlash(`/${locale}/${island}/guia/${slug}`) },
   ];
 
   const formattedDate = new Date(guide.updatedAt).toLocaleDateString(locale, {
