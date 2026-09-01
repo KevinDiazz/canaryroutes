@@ -685,16 +685,26 @@ function ZoneSheet({ open, onClose, activeZone, onZoneChange, municipios, poisBy
 
   const zoneMunicipios = municipiosByZone[currentZone.slug] ?? [];
 
-  // Precargar imágenes de TODOS los municipios al montar para evitar lag al cambiar zona
+  // Precargar imágenes de los municipios solo cuando el sheet está realmente
+  // abierto, y en segundo plano (requestIdleCallback) para no competir por
+  // ancho de banda con lo que el usuario está viendo en ese momento — antes
+  // se disparaba en cuanto el componente montaba, aunque el sheet siguiera
+  // cerrado, lo cual generaba lag al abrir el mapa en modo "Municipios".
   useEffect(() => {
-    municipios.forEach(m => {
-      const src = m.images?.hero ?? m.heroImage;
-      if (src) {
-        const img = new window.Image();
-        img.src = src;
-      }
+    if (!open) return;
+    const idle = (window as any).requestIdleCallback ?? ((cb: () => void) => setTimeout(cb, 200));
+    const cancelIdle = (window as any).cancelIdleCallback ?? clearTimeout;
+    const id = idle(() => {
+      municipios.forEach(m => {
+        const src = m.images?.hero ?? m.heroImage;
+        if (src) {
+          const img = new window.Image();
+          img.src = src;
+        }
+      });
     });
-  }, [municipios]);
+    return () => cancelIdle(id);
+  }, [open, municipios]);
 
   // Swipe-to-close
   const sheetRef = useRef<HTMLDivElement>(null);
