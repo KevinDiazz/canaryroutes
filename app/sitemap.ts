@@ -1,7 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { locales, islands } from '@/lib/types';
-import { getPOIs } from '@/lib/content';
-import { HUB_CATEGORY_SLUGS, getPoisByCategorySlug, isThinPoi } from '@/lib/poi-utils';
+import { HUB_CATEGORY_SLUGS } from '@/lib/poi-utils';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
@@ -15,8 +14,8 @@ const withSlash = (url: string) => (url.endsWith('/') ? url : url + '/');
 // Estrategia SEO: el sitemap solo lista lo que queremos posicionar.
 //   · Home e islas (portadas)            → prioridad alta
 //   · Páginas de categoría por isla      → núcleo del SEO
-//   · Fichas de POI con texto suficiente → long-tail
-// Quedan fuera: el mapa (/mapa/, noindex) y las fichas "finas" (noindex).
+// Quedan fuera (noindex): el mapa (/mapa/) y las fichas de POI, que alimentan
+// las guías por categoría pero no se posicionan por sí solas.
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
   const now = new Date();
@@ -60,25 +59,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
           priority: 0.9,
           alternates: alternatesFor((l) => `${SITE_URL}/${l}/${island}/${category}`),
         });
-      }
-    }
-  }
-
-  // Fichas de POI en su URL canónica (categoría/poi). Se omiten las finas.
-  for (const island of islands) {
-    const pois = getPOIs('es', island);
-    for (const category of HUB_CATEGORY_SLUGS) {
-      for (const poi of getPoisByCategorySlug(pois, category)) {
-        if (isThinPoi(poi)) continue;
-        for (const locale of locales) {
-          entries.push({
-            url: withSlash(`${SITE_URL}/${locale}/${island}/${category}/${poi.slug}`),
-            lastModified: now,
-            changeFrequency: 'monthly',
-            priority: 0.7,
-            alternates: alternatesFor((l) => `${SITE_URL}/${l}/${island}/${category}/${poi.slug}`),
-          });
-        }
       }
     }
   }

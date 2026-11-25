@@ -225,6 +225,66 @@ function ItemListJsonLd({ name, url, items }: { name: string; url: string; items
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }
 
+// ── Texto editorial y FAQ de cada guía (construido con los datos reales) ──────
+
+const AND: Record<Locale, string> = { es: 'y', en: 'and', de: 'und' };
+
+function joinNames(names: string[], locale: Locale): string {
+  if (names.length <= 1) return names.join('');
+  return names.slice(0, -1).join(', ') + ' ' + AND[locale] + ' ' + names[names.length - 1];
+}
+
+interface GuideText { paragraph: string; faq: { question: string; answer: string }[] }
+
+function buildGuideText(locale: Locale, islandName: string, label: string, pois: POI[]): GuideText {
+  const n = pois.length;
+  const cat = label.toLowerCase();
+  const tops = pois.filter((p) => p.top).slice(0, 5).map((p) => p.name);
+  const best = (tops.length > 0 ? tops : pois.slice(0, 5).map((p) => p.name));
+  const m = new Set(pois.map((p) => p.municipio).filter(Boolean)).size;
+  const bestList = joinNames(best, locale);
+
+  if (locale === 'en') {
+    return {
+      paragraph: `This guide brings together ${n} places of ${cat} in ${islandName}${m > 1 ? `, spread across ${m} municipalities` : ''}. Start with the must-sees (${bestList}) and use the map to chain several of them into a single route.`,
+      faq: [
+        { question: `What are the best ${cat} in ${islandName}?`, answer: `Among the most highlighted are ${bestList}. You can browse all ${n} on this page and on the interactive map.` },
+        { question: `How many ${cat} places are there in ${islandName}?`, answer: `CanaryRoutes lists ${n} places of ${cat} in ${islandName}${m > 1 ? `, across ${m} municipalities` : ''}.` },
+        { question: `How do I plan a route through the ${cat} of ${islandName}?`, answer: `Open the interactive map filtered by ${cat}, tap each place to see its details and add it to My Route, then open the route in Google Maps.` },
+      ],
+    };
+  }
+  if (locale === 'de') {
+    return {
+      paragraph: `Dieser Ratgeber bündelt ${n} Orte der Kategorie ${label} auf ${islandName}${m > 1 ? `, verteilt auf ${m} Gemeinden` : ''}. Beginne mit den Highlights (${bestList}) und verbinde mehrere davon mithilfe der Karte zu einer Route.`,
+      faq: [
+        { question: `Was sind die besten Orte in der Kategorie ${label} auf ${islandName}?`, answer: `Zu den beliebtesten gehören ${bestList}. Alle ${n} Orte findest du auf dieser Seite und auf der interaktiven Karte.` },
+        { question: `Wie viele Orte der Kategorie ${label} gibt es auf ${islandName}?`, answer: `CanaryRoutes listet ${n} Orte der Kategorie ${label} auf ${islandName}${m > 1 ? `, verteilt auf ${m} Gemeinden` : ''}.` },
+        { question: `Wie plane ich eine Route durch ${label} auf ${islandName}?`, answer: `Öffne die interaktive Karte mit dem Filter ${label}, tippe auf einen Ort, um die Details zu sehen, füge ihn zu Meine Route hinzu und öffne die Route anschließend in Google Maps.` },
+      ],
+    };
+  }
+  return {
+    paragraph: `Esta guía reúne ${n} lugares de ${cat} en ${islandName}${m > 1 ? `, repartidos en ${m} municipios` : ''}. Empieza por los imprescindibles (${bestList}) y usa el mapa para encadenar varios en una misma ruta.`,
+    faq: [
+      { question: `¿Cuáles son los mejores lugares de ${cat} en ${islandName}?`, answer: `Entre los más destacados están ${bestList}. Puedes ver los ${n} en esta página y en el mapa interactivo.` },
+      { question: `¿Cuántos lugares de ${cat} hay en ${islandName}?`, answer: `En CanaryRoutes hay ${n} lugares de ${cat} en ${islandName}${m > 1 ? `, repartidos en ${m} municipios` : ''}.` },
+      { question: `¿Cómo planifico una ruta por los lugares de ${cat} de ${islandName}?`, answer: `Abre el mapa interactivo filtrado por ${cat}, toca cada lugar para ver su ficha, añádelo a Mi Ruta y después ábrela en Google Maps.` },
+    ],
+  };
+}
+
+const FAQ_TITLE: Record<Locale, string> = { es: 'Preguntas frecuentes', en: 'Frequently asked questions', de: 'Häufig gestellte Fragen' };
+
+function FaqJsonLd({ faq }: { faq: { question: string; answer: string }[] }) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })),
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+}
+
 // ── Página de categoría (p. ej. /es/gran-canaria/playas/) ─────────────────────
 
 export function CategoryHubPage({ locale, island, categorySlug }: { locale: Locale; island: Island; categorySlug: string }) {
@@ -236,6 +296,7 @@ export function CategoryHubPage({ locale, island, categorySlug }: { locale: Loca
   const top = pois.filter((p) => p.top);
   const rest = pois.filter((p) => !p.top);
   const h1 = seo?.h1 ?? `${label} — ${islandName}`;
+  const guide = buildGuideText(locale, islandName, label, pois);
   const pageUrl = SITE_URL + path(locale, island, categorySlug);
 
   const crumbs = [
@@ -255,7 +316,8 @@ export function CategoryHubPage({ locale, island, categorySlug }: { locale: Loca
         <h1 style={{ fontSize: 'clamp(28px, 6vw, 44px)', fontWeight: 800, color: '#0a1628', margin: '0 0 12px', lineHeight: 1.1, letterSpacing: '-0.02em' }}>
           {CATEGORY_EMOJI[categorySlug]} {h1}
         </h1>
-        <p style={{ margin: '0 0 8px', fontSize: '17px', lineHeight: 1.7, color: '#334155', maxWidth: '760px' }}>{seo?.description}</p>
+        <p style={{ margin: '0 0 12px', fontSize: '17px', lineHeight: 1.7, color: '#334155', maxWidth: '760px' }}>{seo?.description}</p>
+        <p style={{ margin: '0 0 8px', fontSize: '16px', lineHeight: 1.7, color: '#475569', maxWidth: '760px' }}>{guide.paragraph}</p>
         <p style={{ margin: '0 0 20px', fontSize: '14px', color: '#64748b', fontFamily: mono }}>
           {pois.length} {t.places} · {islandName}
         </p>
@@ -279,6 +341,19 @@ export function CategoryHubPage({ locale, island, categorySlug }: { locale: Loca
           </ul>
         </section>
       )}
+
+      <section aria-labelledby="faq">
+        <FaqJsonLd faq={guide.faq} />
+        <h2 id="faq" style={h2Style}>{FAQ_TITLE[locale]}</h2>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', maxWidth: '800px' }}>
+          {guide.faq.map((f) => (
+            <details key={f.question} style={{ background: 'white', border: '1px solid #e2e8f0', borderRadius: '14px', padding: '14px 18px' }}>
+              <summary style={{ cursor: 'pointer', fontWeight: 700, fontSize: '16px', color: '#0f172a' }}>{f.question}</summary>
+              <p style={{ margin: '10px 0 0', color: '#475569', lineHeight: 1.7 }}>{f.answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
 
       <section aria-labelledby="more-cats" style={{ marginTop: '12px' }}>
         <h2 id="more-cats" style={h2Style}>{t.otherCategories}</h2>

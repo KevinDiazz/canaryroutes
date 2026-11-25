@@ -8,7 +8,7 @@ import { ALL_CATEGORY_SLUGS, CATEGORY_URL_TO_FILTER, CATEGORY_LABELS } from '@/l
 import { TouristAttractionJsonLd, BreadcrumbJsonLd } from '@/components/json-ld';
 import { Breadcrumb } from '@/components/breadcrumb';
 import { getPhotoCredits } from '@/lib/image-credits';
-import { isThinPoi, stripMarkdown } from '@/lib/poi-utils';
+import { stripMarkdown } from '@/lib/poi-utils';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
@@ -32,8 +32,9 @@ export async function generateMetadata({
   return {
     title,
     description,
-    // Fichas con muy poco texto propio: noindex,follow (hoy ninguna)
-    ...(isThinPoi(poi) ? { robots: { index: false, follow: true } } : {}),
+    // Estrategia SEO: se posicionan las guías por categoría, no las fichas.
+    // Las fichas siguen rastreables (follow) pero no se indexan.
+    robots: { index: false, follow: true },
     alternates: {
       canonical: url,
       languages: {
