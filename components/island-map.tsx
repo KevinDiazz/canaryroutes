@@ -11,7 +11,7 @@ import { PoiDetailSheet } from './poi-detail-sheet';
 import { CategoryBubbleNav } from './category-bubble-nav';
 import type { POI, Island, Locale, Section, Municipio } from '@/lib/types';
 import type { PhotoCreditGroup } from '@/lib/image-credits';
-import { FILTER_TO_CATEGORY_URL } from '@/lib/categories';
+import { FILTER_TO_CATEGORY_URL, POI_CATEGORY_TO_SLUG } from '@/lib/categories';
 import { useUiStrings } from '@/lib/ui-strings';
 
 // ── Pinch-zoom helpers ────────────────────────────────────────────────────────
@@ -1270,9 +1270,9 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     const next = activeFilter === filterId ? null : filterId;
     const CHIP_IDS = ['beach', 'hiking', 'culture', 'nature', 'activities', 'top'];
     if (next && CHIP_IDS.includes(next) && FILTER_TO_CATEGORY_URL[next]) {
-      window.history.replaceState(null, '', `/${locale}/${activeIsland}/${FILTER_TO_CATEGORY_URL[next]}`);
+      window.history.replaceState(null, '', `/${locale}/${activeIsland}/mapa/?cat=${FILTER_TO_CATEGORY_URL[next]}`);
     } else {
-      window.history.replaceState(null, '', `/${locale}/${activeIsland}`);
+      window.history.replaceState(null, '', `/${locale}/${activeIsland}/mapa/`);
     }
   }, [locale, activeIsland, activeFilter]);
 
@@ -1285,20 +1285,14 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
     // estábamos viendo un municipio, en cuyo caso se mantiene esa vista.
     if (activeFilter === 'municipios') return;
     setActiveFilter('top');
-    window.history.replaceState(null, '', `/${locale}/${activeIsland}/${FILTER_TO_CATEGORY_URL['top']}`);
+    window.history.replaceState(null, '', `/${locale}/${activeIsland}/mapa/?cat=top`);
   }, [locale, activeIsland, activeFilter]);
 
   const handlePoiClick = useCallback((poi: POI) => {
-    const CHIP_IDS = ['beach', 'hiking', 'culture', 'nature', 'activities'];
-    const categorySlug = activeFilter && CHIP_IDS.includes(activeFilter)
-      ? FILTER_TO_CATEGORY_URL[activeFilter]
-      : null;
-    if (categorySlug) {
-      router.push(`/${locale}/${activeIsland}/${categorySlug}/${poi.slug}`);
-    } else {
-      router.push(`/${locale}/${activeIsland}/${poi.slug}`);
-    }
-  }, [router, locale, activeIsland, activeFilter]);
+    // URL canónica de la ficha: /isla/categoria/poi/
+    const categorySlug = POI_CATEGORY_TO_SLUG[poi.category] ?? 'actividades';
+    router.push(`/${locale}/${activeIsland}/${categorySlug}/${poi.slug}/`);
+  }, [router, locale, activeIsland]);
 
   // Tocar un cluster de categoría → muestra bubbles individuales + abre sheet del primer POI
   const handleClusterClick = useCallback((chipId: string) => {
@@ -1910,7 +1904,7 @@ export function IslandMap({ locale, poisByIsland, sectionsByIsland, municipiosBy
             setSelectedPoi(poi);
             if (activeCategoryChip && FILTER_TO_CATEGORY_URL[activeCategoryChip]) {
               const catSlug = FILTER_TO_CATEGORY_URL[activeCategoryChip];
-              window.history.replaceState(null, '', `/${locale}/${activeIsland}/${catSlug}/${poi.slug}`);
+              window.history.replaceState(null, '', `/${locale}/${activeIsland}/${catSlug}/${poi.slug}/`);
             }
           }}
           onClose={handleCloseSheet}

@@ -1,5 +1,6 @@
 import type { Locale, Island } from '@/lib/types';
-import { getGuides } from '@/lib/guides';
+import { CATEGORY_SEO } from '@/lib/category-seo';
+import { HUB_CATEGORY_SLUGS } from '@/lib/poi-utils';
 import { HubCarouselUI, type CardData } from './hub-carousel-ui';
 
 // ── Island SVG silhouette paths ───────────────────────────────────────────────
@@ -37,14 +38,13 @@ const ISLAND_LABEL: Record<string, Record<Locale, string>> = {
   'la-graciosa':  { es: 'La Graciosa',   en: 'La Graciosa',   de: 'La Graciosa'   },
 };
 
-const GUIDE_BADGE: Record<Locale, string> = {
-  es: 'Guia',
-  en: 'Guide',
-  de: 'Ratgeber',
+const CATEGORY_BADGE: Record<Locale, Record<string, string>> = {
+  es: { playas: 'Playas', senderos: 'Senderos', cultura: 'Cultura', naturaleza: 'Naturaleza', actividades: 'Actividades', transporte: 'Transporte' },
+  en: { playas: 'Beaches', senderos: 'Hiking', cultura: 'Culture', naturaleza: 'Nature', actividades: 'Activities', transporte: 'Transport' },
+  de: { playas: 'Strände', senderos: 'Wanderwege', cultura: 'Kultur', naturaleza: 'Natur', actividades: 'Aktivitäten', transporte: 'Verkehr' },
 };
 
-// Islands with guide content — expand as guides are added
-const ISLANDS_WITH_GUIDES: Island[] = ['tenerife', 'gran-canaria'];
+const ISLANDS: Island[] = ['gran-canaria', 'tenerife'];
 
 // ── Server component ──────────────────────────────────────────────────────────
 
@@ -52,25 +52,23 @@ interface HubCarouselProps {
   locale: Locale;
 }
 
+/** Carrusel de la home: enlaces directos a las páginas de categoría de cada isla. */
 export function HubCarousel({ locale }: HubCarouselProps) {
-  const badge = GUIDE_BADGE[locale];
-
   const cards: CardData[] = [];
 
-  for (const island of ISLANDS_WITH_GUIDES) {
-    const guides = getGuides(locale, island);
-    if (guides.length === 0) continue;
+  for (const island of ISLANDS) {
     const color = ISLAND_COLOR[island];
     const islandLabel = ISLAND_LABEL[island][locale];
     const svg = ISLAND_SVG[island] ?? ISLAND_SVG['tenerife'];
-    for (const guide of guides) {
+    for (const cat of HUB_CATEGORY_SLUGS) {
+      const title = CATEGORY_SEO[cat]?.[locale]?.[island]?.h1 ?? `${CATEGORY_BADGE[locale][cat]} — ${islandLabel}`;
       cards.push({
-        href: `/${locale}/${island}/guia/${guide.slug}`,
+        href: `/${locale}/${island}/${cat}/`,
         color,
-        badge,
-        label: guide.title,
+        badge: CATEGORY_BADGE[locale][cat],
+        label: title,
         sub: islandLabel,
-        ariaLabel: guide.title,
+        ariaLabel: title,
         island,
         comingSoon: false,
         svgViewBox: svg.viewBox,
@@ -78,8 +76,6 @@ export function HubCarousel({ locale }: HubCarouselProps) {
       });
     }
   }
-
-  if (cards.length === 0) return null;
 
   return <HubCarouselUI cards={cards} />;
 }

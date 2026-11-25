@@ -12,11 +12,14 @@ interface Props {
   pois: POI[];
   locale: Locale;
   island: Island;
+  /** URL del mapa a la que se vuelve al cerrar la ficha */
   backUrl?: string;
+  /** Ruta base de las fichas hermanas (p. ej. /es/gran-canaria/playas) */
+  basePath?: string;
   photoCreditsBySlug?: Record<string, PhotoCreditGroup[]>;
 }
 
-export function PoiDetailPageClient({ poi, pois, locale, island, backUrl, photoCreditsBySlug }: Props) {
+export function PoiDetailPageClient({ poi, pois, locale, island, backUrl, basePath, photoCreditsBySlug }: Props) {
   const router = useRouter();
   const cart = useCart();
   const [selectedPoi, setSelectedPoi] = useState<POI>(poi);
@@ -29,7 +32,7 @@ export function PoiDetailPageClient({ poi, pois, locale, island, backUrl, photoC
     setSelectedPoi(poi);
   }, [poi]);
 
-  const mapUrl = backUrl ?? `/${locale}/${island}`;
+  const mapUrl = backUrl ?? `/${locale}/${island}/mapa/`;
 
   const handleClose = useCallback(() => {
     router.push(mapUrl);
@@ -62,11 +65,11 @@ export function PoiDetailPageClient({ poi, pois, locale, island, backUrl, photoC
     setSelectedPoi(newPoi);
     // replaceState instead of router.replace — avoids full page remount,
     // preserving bubble scroll position and preventing flash-to-first.
-    const newPath = backUrl
-      ? `${backUrl}/${newPoi.slug}/`
+    const newPath = basePath
+      ? `${basePath}/${newPoi.slug}/`
       : `/${locale}/${island}/${newPoi.slug}/`;
     window.history.replaceState(null, '', newPath);
-  }, [locale, island, backUrl]);
+  }, [locale, island, basePath]);
 
   const handleAddToCart = useCallback((p: POI) => {
     cart.addPoi(p);

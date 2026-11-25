@@ -1,2 +1,74 @@
-# Redirect raíz → español (301 permanente)
+# Raíz → español (301 permanente)
 / /es/ 301
+
+# ── Guías eliminadas: 301 a la página de categoría/isla equivalente ───────────
+/es/gran-canaria/guia/alquiler-coche-gran-canaria/ /es/gran-canaria/transporte/ 301
+/es/gran-canaria/guia/alquiler-coche-gran-canaria /es/gran-canaria/transporte/ 301
+/es/gran-canaria/guia/calendario-romerias-gran-canaria-2026/ /es/gran-canaria/cultura/ 301
+/es/gran-canaria/guia/calendario-romerias-gran-canaria-2026 /es/gran-canaria/cultura/ 301
+/es/gran-canaria/guia/mejores-playas-gran-canaria/ /es/gran-canaria/playas/ 301
+/es/gran-canaria/guia/mejores-playas-gran-canaria /es/gran-canaria/playas/ 301
+/es/gran-canaria/guia/que-ver-en-gran-canaria/ /es/gran-canaria/ 301
+/es/gran-canaria/guia/que-ver-en-gran-canaria /es/gran-canaria/ 301
+/es/tenerife/guia/alquiler-coche-tenerife/ /es/tenerife/transporte/ 301
+/es/tenerife/guia/alquiler-coche-tenerife /es/tenerife/transporte/ 301
+/es/tenerife/guia/mejores-playas/ /es/tenerife/playas/ 301
+/es/tenerife/guia/mejores-playas /es/tenerife/playas/ 301
+/es/tenerife/guia/que-ver-en-tenerife/ /es/tenerife/ 301
+/es/tenerife/guia/que-ver-en-tenerife /es/tenerife/ 301
+/en/gran-canaria/guia/best-beaches-gran-canaria/ /en/gran-canaria/playas/ 301
+/en/gran-canaria/guia/best-beaches-gran-canaria /en/gran-canaria/playas/ 301
+/en/gran-canaria/guia/car-rental-gran-canaria/ /en/gran-canaria/transporte/ 301
+/en/gran-canaria/guia/car-rental-gran-canaria /en/gran-canaria/transporte/ 301
+/en/gran-canaria/guia/romerias-calendar-gran-canaria-2026/ /en/gran-canaria/cultura/ 301
+/en/gran-canaria/guia/romerias-calendar-gran-canaria-2026 /en/gran-canaria/cultura/ 301
+/en/gran-canaria/guia/what-to-see-in-gran-canaria/ /en/gran-canaria/ 301
+/en/gran-canaria/guia/what-to-see-in-gran-canaria /en/gran-canaria/ 301
+/en/tenerife/guia/best-beaches/ /en/tenerife/playas/ 301
+/en/tenerife/guia/best-beaches /en/tenerife/playas/ 301
+/en/tenerife/guia/car-rental-tenerife/ /en/tenerife/transporte/ 301
+/en/tenerife/guia/car-rental-tenerife /en/tenerife/transporte/ 301
+/en/tenerife/guia/what-to-see-in-tenerife/ /en/tenerife/ 301
+/en/tenerife/guia/what-to-see-in-tenerife /en/tenerife/ 301
+/de/gran-canaria/guia/beste-straende-gran-canaria/ /de/gran-canaria/playas/ 301
+/de/gran-canaria/guia/beste-straende-gran-canaria /de/gran-canaria/playas/ 301
+/de/gran-canaria/guia/mietwagen-gran-canaria/ /de/gran-canaria/transporte/ 301
+/de/gran-canaria/guia/mietwagen-gran-canaria /de/gran-canaria/transporte/ 301
+/de/gran-canaria/guia/romerias-kalender-gran-canaria-2026/ /de/gran-canaria/cultura/ 301
+/de/gran-canaria/guia/romerias-kalender-gran-canaria-2026 /de/gran-canaria/cultura/ 301
+/de/gran-canaria/guia/sehenswuerdigkeiten-gran-canaria/ /de/gran-canaria/ 301
+/de/gran-canaria/guia/sehenswuerdigkeiten-gran-canaria /de/gran-canaria/ 301
+/de/tenerife/guia/beste-straende/ /de/tenerife/playas/ 301
+/de/tenerife/guia/beste-straende /de/tenerife/playas/ 301
+/de/tenerife/guia/mietwagen-teneriffa/ /de/tenerife/transporte/ 301
+/de/tenerife/guia/mietwagen-teneriffa /de/tenerife/transporte/ 301
+/de/tenerife/guia/sehenswuerdigkeiten-tenerife/ /de/tenerife/ 301
+/de/tenerife/guia/sehenswuerdigkeiten-tenerife /de/tenerife/ 301
+
+# Cualquier otra URL de guía → portada de la isla
+/es/gran-canaria/guia/* /es/gran-canaria/ 301
+/es/gran-canaria/guia /es/gran-canaria/ 301
+/es/tenerife/guia/* /es/tenerife/ 301
+/es/tenerife/guia /es/tenerife/ 301
+/en/gran-canaria/guia/* /en/gran-canaria/ 301
+/en/gran-canaria/guia /en/gran-canaria/ 301
+/en/tenerife/guia/* /en/tenerife/ 301
+/en/tenerife/guia /en/tenerife/ 301
+/de/gran-canaria/guia/* /de/gran-canaria/ 301
+/de/gran-canaria/guia /de/gran-canaria/ 301
+/de/tenerife/guia/* /de/tenerife/ 301
+/de/tenerife/guia /de/tenerife/ 301
+
+# "Top" era un filtro del mapa, no una página de contenido → mapa
+/es/gran-canaria/top/ /es/gran-canaria/mapa/?cat=top 301
+/es/gran-canaria/top /es/gran-canaria/mapa/?cat=top 301
+/es/tenerife/top/ /es/tenerife/mapa/?cat=top 301
+/es/tenerife/top /es/tenerife/mapa/?cat=top 301
+/en/gran-canaria/top/ /en/gran-canaria/mapa/?cat=top 301
+/en/gran-canaria/top /en/gran-canaria/mapa/?cat=top 301
+/en/tenerife/top/ /en/tenerife/mapa/?cat=top 301
+/en/tenerife/top /en/tenerife/mapa/?cat=top 301
+/de/gran-canaria/top/ /de/gran-canaria/mapa/?cat=top 301
+/de/gran-canaria/top /de/gran-canaria/mapa/?cat=top 301
+/de/tenerife/top/ /de/tenerife/mapa/?cat=top 301
+/de/tenerife/top /de/tenerife/mapa/?cat=top 301
