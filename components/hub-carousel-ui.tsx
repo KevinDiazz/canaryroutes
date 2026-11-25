@@ -49,6 +49,13 @@ function IslandSilhouette({
   );
 }
 
+// Oscurece un color hex (para cumplir contraste WCAG AA en texto pequeño)
+function darken(hex: string, amount: number): string {
+  const n = parseInt(hex.replace('#', ''), 16);
+  const c = (v: number) => Math.round(v * (1 - amount)).toString(16).padStart(2, '0');
+  return `#${c((n >> 16) & 255)}${c((n >> 8) & 255)}${c(n & 255)}`;
+}
+
 // ── Single card ───────────────────────────────────────────────────────────────
 
 function HubCard({ card }: { card: CardData }) {
@@ -86,7 +93,7 @@ function HubCard({ card }: { card: CardData }) {
           fontWeight: '700',
           textTransform: 'uppercase',
           letterSpacing: '0.1em',
-          color: comingSoon ? '#9ca3af' : color,
+          color: comingSoon ? '#6b7280' : darken(color, 0.3),
           fontFamily: "'JetBrains Mono', monospace",
         }}>
           {badge}
@@ -113,7 +120,7 @@ function HubCard({ card }: { card: CardData }) {
           <p style={{
             fontSize: '10px',
             fontWeight: '500',
-            color: '#d1d5db',
+            color: '#6b7280',
             margin: 0,
             fontFamily: "'JetBrains Mono', monospace",
             letterSpacing: '0.02em',
@@ -134,7 +141,7 @@ function HubCard({ card }: { card: CardData }) {
   }
 
   return (
-    <a href={href} aria-label={ariaLabel} style={cardStyle} className="hub-card">
+    <a href={href} style={cardStyle} className="hub-card">
       {inner}
     </a>
   );

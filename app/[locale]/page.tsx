@@ -12,16 +12,16 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
 const HOME_META: Record<string, { title: string; description: string }> = {
   es: {
-    title: 'CanaryRoutes — Explora las Islas Canarias',
-    description: 'Descubre Gran Canaria y Tenerife: playas, senderos, cultura y naturaleza. Planifica tu viaje con mapas interactivos y rutas personalizadas.',
+    title: 'CanaryRoutes — Herramienta para descubrir las Islas Canarias',
+    description: 'Herramienta para descubrir las Islas Canarias: mapas interactivos de Gran Canaria y Tenerife con playas, senderos, cultura y naturaleza. Planifica tu viaje y crea tu ruta.',
   },
   en: {
-    title: 'CanaryRoutes — Explore the Canary Islands',
-    description: 'Discover Gran Canaria and Tenerife: beaches, hikes, culture and nature. Plan your trip with interactive maps and personalised routes.',
+    title: 'CanaryRoutes — A tool to discover the Canary Islands',
+    description: 'A tool to discover the Canary Islands: interactive maps of Gran Canaria and Tenerife with beaches, hikes, culture and nature. Plan your trip and build your route.',
   },
   de: {
-    title: 'CanaryRoutes — Erkunde die Kanarischen Inseln',
-    description: 'Entdecke Gran Canaria und Teneriffa: Straende, Wanderwege, Kultur und Natur. Plane deine Reise mit interaktiven Karten und personalisierten Routen.',
+    title: 'CanaryRoutes — Dein Tool zum Entdecken der Kanarischen Inseln',
+    description: 'Dein Tool zum Entdecken der Kanarischen Inseln: interaktive Karten von Gran Canaria und Teneriffa mit Straenden, Wanderwegen, Kultur und Natur. Plane deine Reise und erstelle deine Route.',
   },
 };
 
@@ -155,15 +155,17 @@ export default async function HomePage({
             flexShrink: 0,
           }}
         >
-          {/* Imagen de fondo */}
-          <div
+          {/* Imagen de fondo — <Image> con priority (LCP): se descubre en el HTML y se precarga con fetchpriority=high */}
+          <Image
+            src="/images/gran-canaria-for-nomad-list-uItqquFqYJI-unsplash.avif"
+            alt=""
             aria-hidden="true"
-            style={{
-              position: 'absolute', inset: 0,
-              backgroundImage: 'url(/images/gran-canaria-for-nomad-list-uItqquFqYJI-unsplash.avif)',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center 35%',
-            }}
+            fill
+            priority
+            fetchPriority="high"
+            unoptimized
+            sizes="100vw"
+            style={{ objectFit: 'cover', objectPosition: 'center 35%' }}
           />
           {/* Overlay oscuro arriba */}
           <div

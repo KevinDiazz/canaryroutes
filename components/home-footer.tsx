@@ -185,7 +185,7 @@ export function HomeFooter({ locale }: { locale: Locale }) {
         <p style={{
           fontFamily: "'Outfit', sans-serif",
           fontSize: '11px',
-          color: 'rgba(255,255,255,0.30)',
+          color: 'rgba(255,255,255,0.62)',
           margin: 0,
           textAlign: 'center',
         }}>

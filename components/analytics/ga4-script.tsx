@@ -4,7 +4,7 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
 /**
  * Google Analytics 4 — carga solo si NEXT_PUBLIC_GA_MEASUREMENT_ID está definido.
- * Usa `afterInteractive` para no penalizar LCP ni INP.
+ * Usa `lazyOnload` para no penalizar LCP ni INP.
  *
  * Pasos para activar:
  *   1. Crea una propiedad GA4 en https://analytics.google.com
@@ -19,9 +19,9 @@ export function Ga4Script() {
     <>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
-      <Script id="ga4-init" strategy="afterInteractive">
+      <Script id="ga4-init" strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}

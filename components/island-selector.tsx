@@ -191,7 +191,7 @@ export function IslandSelector({ locale }: { locale: IslandSelectorLocale }) {
           <span style={{
             fontFamily: "'Cormorant Garamond', serif",
             fontSize: '15px', fontWeight: '600', fontStyle: 'italic',
-            color: '#3a9e68',
+            color: '#2b7a4f',
           }}>
             {COMING_SOON[locale]}
           </span>

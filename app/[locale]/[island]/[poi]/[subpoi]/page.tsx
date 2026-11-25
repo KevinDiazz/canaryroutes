@@ -8,6 +8,7 @@ import { ALL_CATEGORY_SLUGS, CATEGORY_URL_TO_FILTER, CATEGORY_LABELS } from '@/l
 import { TouristAttractionJsonLd, BreadcrumbJsonLd } from '@/components/json-ld';
 import { Breadcrumb } from '@/components/breadcrumb';
 import { getPhotoCredits } from '@/lib/image-credits';
+import { stripMarkdown } from '@/lib/poi-utils';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://canaryroutes.com';
 
@@ -31,6 +32,9 @@ export async function generateMetadata({
   return {
     title,
     description,
+    // Estrategia SEO: se posicionan las guías por categoría, no las fichas.
+    // Las fichas siguen rastreables (follow) pero no se indexan.
+    robots: { index: false, follow: true },
     alternates: {
       canonical: url,
       languages: {
@@ -127,13 +131,19 @@ export default async function CategoryPoiPage({
         { name: categoryLabel, href: withTrailingSlash('/' + locale + '/' + island + '/' + categorySlug) },
         { name: poi.name, href: withTrailingSlash('/' + locale + '/' + island + '/' + categorySlug + '/' + poi.slug) },
       ]} />
+      {/* Texto SSR para rastreadores: la ficha de detalle monta su contenido en cliente */}
+      <section style={{ position: 'absolute', width: '1px', height: '1px', overflow: 'hidden', clip: 'rect(0,0,0,0)', whiteSpace: 'nowrap' }}>
+        <h1>{poi.name}</h1>
+        <p>{stripMarkdown(poi.description)}</p>
+      </section>
       <div className="app-shell" style={{ height: '100svh' }}>
         <PoiDetailPageClient
           poi={poi}
           pois={pois}
           locale={locale}
           island={island}
-          backUrl={`/${locale}/${island}/${categorySlug}`}
+          backUrl={`/${locale}/${island}/mapa/?cat=${categorySlug}`}
+          basePath={`/${locale}/${island}/${categorySlug}`}
           photoCreditsBySlug={photoCreditsBySlug}
         />
       </div>
