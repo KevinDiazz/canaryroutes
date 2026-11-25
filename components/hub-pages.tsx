@@ -239,8 +239,10 @@ interface GuideText { paragraph: string; faq: { question: string; answer: string
 function buildGuideText(locale: Locale, islandName: string, label: string, pois: POI[]): GuideText {
   const n = pois.length;
   const cat = label.toLowerCase();
-  const tops = pois.filter((p) => p.top).slice(0, 5).map((p) => p.name);
-  const best = (tops.length > 0 ? tops : pois.slice(0, 5).map((p) => p.name));
+  // Sin nombres repetidos (hay POIs distintos con el mismo nombre)
+  const uniq = (xs: string[]) => Array.from(new Set(xs)).slice(0, 5);
+  const tops = uniq(pois.filter((p) => p.top).map((p) => p.name));
+  const best = tops.length > 0 ? tops : uniq(pois.map((p) => p.name));
   const m = new Set(pois.map((p) => p.municipio).filter(Boolean)).size;
   const bestList = joinNames(best, locale);
 
