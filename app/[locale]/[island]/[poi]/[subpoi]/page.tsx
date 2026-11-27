@@ -32,9 +32,6 @@ export async function generateMetadata({
   return {
     title,
     description,
-    // Estrategia SEO: se posicionan las guías por categoría, no las fichas.
-    // Las fichas siguen rastreables (follow) pero no se indexan.
-    robots: { index: false, follow: true },
     alternates: {
       canonical: url,
       languages: {
